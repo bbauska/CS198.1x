@@ -1,5 +1,5 @@
 ## Bitcoin and Cryptocurrencies
-#### (CS198.1x - BerkeleyX)
+### (CS198.1x - BerkeleyX)
  
 #### Course Syllabus
 This course is a comprehensive and in-depth overview of the fundamental concepts of the crypto space, with a particular emphasis on Bitcoin. By building intuition first from the context of cryptocurrencies, the first application of blockchain, we understand the key strengths and distinguishing factors of blockchain versus traditional database systems. 
@@ -10,24 +10,30 @@ The course is divided into 6 modules:
   03. Bitcoin Mechanics Technical Overview, 
   04. Bitcoin in Real Life, 
   05. Game Theory & Network Attacks, and 
-  06. Ethereum & Smart Contracts. 
+  06. Ethereum & Smart Contracts.
 
-  01.	Bitcoin Protocol & Consensus: A High-Level Overview
+  
+  1.	Bitcoin Protocol & Consensus: A High-Level Overview
 > We begin with some fundamental concepts such as the basic properties and intent of centralized/decentralized currency. 
 > We then build an in-depth understanding of Bitcoin from the ground up, divided into four stages: a. Identity, b. Transactions, c. Record Keeping, and d. Consensus. 
-  02.	Blockchain History: From the Cypherpunk Movement to JP Morgan Chase
+  
+  2.	Blockchain History: From the Cypherpunk Movement to JP Morgan Chase
 > This module delves into the origins and historical significance of Bitcoin. 
 We look into the roots of Bitcoin in the Cypherpunk movement and Libertarian ideals, and examine the revolutionary significance of Bitcoin compared to some of its early predecessors. 
 > We then move onto exploring the history of the crypto space as a whole.
-  03.	Bitcoin Mechanics & Optimizations: A Technical Overview 
+  
+  3.	Bitcoin Mechanics & Optimizations: A Technical Overview 
 > We examine the in-depth mechanics behind Bitcoin, such as the Bitcoin network, cryptography and cryptographic hash functions, Bitcoin Script, privacy, and hash commitment schemes.
-  04.	Bitcoin In Real Life: Wallets, Mining, and More 
+
+  4.	Bitcoin In Real Life: Wallets, Mining, and More 
 > We examine the most frequently used real-world aspects of Bitcoin, such as wallets, wallet mechanics, mining, transactions, and Bitcoin governance. 
-> We explain the various ways one can interface with the Bitcoin network, depending on the specific software they run. 
-  05.	Game Theory & Network Attacks: How to Destroy Bitcoin 
+> We explain the various ways one can interface with the Bitcoin network, depending on the specific software they run.
+
+  5.	Game Theory & Network Attacks: How to Destroy Bitcoin 
 > We look into how to destroy Bitcoin, including various network attacks. 
 Specifically, we look into vulnerabilities such as pool cannibalization, double spending and forking attacks, network attacks, the Goldfinger attack, malicious mining profit strategies, and 51% attacks.
-  06.	Ethereum & Smart Contracts: Enabling a Decentralized Future 
+
+  6.	Ethereum & Smart Contracts: Enabling a Decentralized Future 
 > This module focuses on the properties behind the second largest blockchain platform, Ethereum. We introduce the Ethereum Virtual Machine and the idea of Turing completeness and examine some of the key protocol differences between Bitcoin and Ethereum, such as the UTXO vs. accounts model and functionality.
 > We then look into some of the use cases of Ethereum, and conclude with an overview of smart contracts and building decentralized applications.
 > While the last modules primarily focus on cryptocurrencies, this module encourages students to think about blockchain use cases outside of cryptocurrency.
