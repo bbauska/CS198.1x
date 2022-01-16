@@ -12,7 +12,7 @@ The course is divided into 6 modules:
   05. Game Theory & Network Attacks, and 
   06. Ethereum & Smart Contracts.
 
-
+### Modules
   1. Bitcoin Protocol & Consensus: A High-Level Overview
 > We begin with some fundamental concepts such as the basic properties and intent of centralized/decentralized currency. 
 > We then build an in-depth understanding of Bitcoin from the ground up, divided into four stages: a. Identity, b. Transactions, c. Record Keeping, and d. Consensus. 
