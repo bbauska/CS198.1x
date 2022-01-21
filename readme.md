@@ -606,11 +606,9 @@ To generate an identity, a user picks a private key at random generates
 the public key from the private key through a mathematical function.
 
 <p align="center" width="100%">
-  <img width="50%" src=""
-    alt="description here"</>
+  <img width="50%" src="https://github.com/bbauska/CS198.1x-Bitcoin-and-Cryptocurrencies/blob/main/images/Identity-Public-and-private-003.png?raw=true"
+    alt="Identity: Public & private keys - a few things to note"</>
 </p>
-
-![](media/image8.png){width="5.0in" height="2.8295942694663165in"}
 
 You may be concerned about the danger of two users ending up with the
 same public key without a central registry ensuring that no two people
@@ -787,7 +785,10 @@ each of your piggy banks, or UTXOs.
 
 Here's an example of how transactions work in Bitcoin:
 
-![](media/image17.png){width="5.0in" height="3.9274726596675418in"}
+<p align="center" width="100%">
+  <img width="50%" src="https://github.com/bbauska/CS198.1x-Bitcoin-and-Cryptocurrencies/blob/main/images/image012-utxo-example.png?raw=true"
+    alt="UTXO: Example"</>
+</p>
 
 Let's say that Gloria has two UTXOs, from past transactions, one worth
 one hundred (100) bitcoins\... and one worth fifty bitcoins.
@@ -842,7 +843,10 @@ transactions, summing to the current amount, and if we don't know what
 transactions have happened in the past, we can't determine what's valid
 in the future.
 
-![](media/image18.png){width="5.0in" height="2.8199781277340334in"}
+<p align="center" width="100%">
+  <img width="50%" src="https://github.com/bbauska/CS198.1x-Bitcoin-and-Cryptocurrencies/blob/main/images/image013-recordkeeping-distributed-dbs.png?raw=true"
+    alt="Record-Keeping:Distributed databases"</>
+</p>
 
 Consider the diagram above.
 
@@ -900,7 +904,10 @@ straightforward choice: we have everyone keep a copy of the ledger.
 
 We make everyone the bank.
 
-![](media/image19.png){width="5.0in" height="2.8199781277340334in"}
+<p align="center" width="100%">
+  <img width="50%" src="https://github.com/bbauska/CS198.1x-Bitcoin-and-Cryptocurrencies/blob/main/images/image014-recordkeeping-everyones-the-bank.png?raw=true"
+    alt="Record-Keeping: Everyone's the bank"</>
+</p>
 
 To get as far as possible from centralization, every individual entity
 in Bitcoin should be equal.
@@ -934,7 +941,10 @@ for one entity, it must propagate throughout the entire network.
 
 So, how do we store our ledger efficiently?
 
-![](media/image20.png){width="5.0in" height="2.8199781277340334in"}
+<p align="center" width="100%">
+  <img width="50%" src="https://github.com/bbauska/CS198.1x-Bitcoin-and-Cryptocurrencies/blob/main/images/image015-recordkeeping-the-blockchain.png?raw=true"
+    alt="Record-Keeping: The blockchain"</>
+</p>
 
 Every update to the distributed database, the Bitcoin ledger, is a batch
 of transactions grouped into what are called blocks.
@@ -999,7 +1009,10 @@ way to make this decision in a decentralized way.
 In Bitcoin, users on the network must come to consensus, or agreement,
 on the next valid update.
 
-![](media/image21.png){width="5.0in" height="2.8199792213473316in"}
+<p align="center" width="100%">
+  <img width="50%" src="https://github.com/bbauska/CS198.1x-Bitcoin-and-Cryptocurrencies/blob/main/images/image016-consensus-staying-on-the-same-page.png?raw=true"
+    alt="Consensus: Staying on the same page"</>
+</p>
 
 Because everyone is storing information about the blockchain, we need
 consensus to make sure that everyone agrees on the history of
@@ -1036,7 +1049,10 @@ the transaction directly to every other node.
 All other nodes save the transaction into their history if it's valid
 and disregard it otherwise.
 
-![](media/image21.png){width="5.0in" height="2.8199792213473316in"}
+<p align="center" width="100%">
+  <img width="50%" src="https://github.com/bbauska/CS198.1x-Bitcoin-and-Cryptocurrencies/blob/main/images/image016-consensus-staying-on-the-same-page.png?raw=true"
+    alt="Consensus: Staying on the same page"</>
+</p>
 
 We have an example for you here.
 
@@ -1054,7 +1070,10 @@ with one hundred (100) percent certainty are the sender and recipient.
 As we will see, this does not work because of what's known as the double
 spend attack.
 
-![](media/image22.png){width="5.0in" height="2.8199781277340334in"}
+<p align="center" width="100%">
+  <img width="50%" src="https://github.com/bbauska/CS198.1x-Bitcoin-and-Cryptocurrencies/blob/main/images/image017-consensus-double-spend-attack.png?raw=true"
+    alt="Consensus: Double spending attack"</>
+</p>
 
 With centralized systems, we trust banks to check for the validity of
 all the transactions.
@@ -1072,7 +1091,10 @@ pay both Nadir and myself (Rustie) 10 bitcoins for our laptops.
 Gloria promises me (Rustie) 10 BTC in one transaction, and promises 10
 BTC to Nadir at the same time.
 
-![](media/image23.png){width="5.0in" height="2.8199792213473316in"}
+<p align="center" width="100%">
+  <img width="50%" src="https://github.com/bbauska/CS198.1x-Bitcoin-and-Cryptocurrencies/blob/main/images/image018-consensus-double-spend-attack-2.png?raw=true"
+    alt="Consensus: Double spending attack"</>
+</p>
 
 This is represented by the green arrow from herself to me (Rustie), the
 green circle, and by the separate blue arrow from herself to Nadir, the
@@ -1103,7 +1125,10 @@ we have received the bitcoins.
 
 Of course, both Nadir and I (Rustie) can't own the same bitcoins.
 
-![](media/image24.png){width="5.0in" height="2.8199792213473316in"}
+<p align="center" width="100%">
+  <img width="50%" src="https://github.com/bbauska/CS198.1x-Bitcoin-and-Cryptocurrencies/blob/main/images/image019-consensus-double-spend-attack-malicious.png?raw=true"
+    alt="description here"</>
+</p>
 
 The moment we try to redeem these tokens with the network, the issue
 becomes transparent.
@@ -1124,7 +1149,10 @@ consensus on a history of transactions because of dishonest actors.
 Thus, it is impossible to prevent these double spend attacks with our
 current model of consensus.
 
-![](media/image25.png){width="5.0in" height="2.8199781277340334in"}
+<p align="center" width="100%">
+  <img width="50%" src="https://github.com/bbauska/CS198.1x-Bitcoin-and-Cryptocurrencies/blob/main/images/image020-consensus-peer-validation.png?raw=true"
+    alt="Consensus: Peer validation"</>
+</p>
 
 Instead of individuals doing their own validation of transaction, we can
 set up a voting system.
@@ -1154,7 +1182,10 @@ Unlike before, there are dashed blue lines from each node to everyone
 else (excluding Gloria) as an indication of communication about two
 things: the received transaction and a vote for or against its validity.
 
-![](media/image26.png){width="5.0in" height="2.8199792213473316in"}
+<p align="center" width="100%">
+  <img width="50%" src="https://github.com/bbauska/CS198.1x-Bitcoin-and-Cryptocurrencies/blob/main/images/image021-consensus-reject-double-spend.png?raw=true"
+    alt="Consensus: Reject double spending"</>
+</p>
 
 Let's observe what happens when Gloria tries to double spend under these
 circumstances.
@@ -1176,7 +1207,10 @@ By looking to the rest of the network for input, considering everyone
 else the third party, we are protected against Gloria's attempts at
 malicious behavior.
 
-![](media/image27.png){width="5.0in" height="2.8199781277340334in"}
+<p align="center" width="100%">
+  <img width="50%" src="https://github.com/bbauska/CS198.1x-Bitcoin-and-Cryptocurrencies/blob/main/images/image022-consensus-victory.png?raw=true"
+    alt="Consensus: Victory, or is it?"</>
+</p>
 
 Peers in the network vote "no" on Gloria's proposal, as they notice
 multiple transactions trying to spend the same funds.
@@ -1193,7 +1227,10 @@ It looks as if we are victorious!
 
 However, we forgot one fatal truth about Bitcoin: the anonymity.
 
-![](media/image28.png){width="5.0in" height="2.8199781277340334in"}
+<p align="center" width="100%">
+  <img width="50%" src="https://github.com/bbauska/CS198.1x-Bitcoin-and-Cryptocurrencies/blob/main/images/image023-consensus-a-stranger-among-us.png?raw=true"
+    alt="Consensu: A stranger among us"</>
+</p>
 
 Recall that Bitcoin is an accessible, anonymous network with no central
 registry.
@@ -1257,7 +1294,10 @@ But how?
 
 Is it even possible to solve this problem?
 
-![](media/image29.png){width="5.0in" height="2.8199781277340334in"}
+<p align="center" width="100%">
+  <img width="50%" src="https://github.com/bbauska/CS198.1x-Bitcoin-and-Cryptocurrencies/blob/main/images/image024-consensus-pay-to-play.png?raw=true"
+    alt="Consensus: Pay to play"</>
+</p>
 
 This is where the innovation of Satoshi Nakamoto comes into play.
 
