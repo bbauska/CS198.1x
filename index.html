@@ -3335,49 +3335,49 @@
 	<li value="4" class="block_15">And finally, smart contracts can be used for complex authentication use cases.</li>
 </ol>
 	<p class="block_44">For example, you can define m of n multisignature, which is also something we looked at when we studied Bitcoin.</p>
-	<p class="block_45"><img src="images/000044.png" alt="Image" class="calibre11" /></p>
+	<p class="block_45"><img src="images/044.png" alt="Image" class="calibre11" /></p>
 	<p class="block_46">&nbsp;</p>
-	<p class="block_45"><img src="images/000090.png" alt="Image" class="calibre11" /></p>
-	<p class="block_45"><img src="images/000230.png" alt="Image" class="calibre11" /></p>
-	<p class="block_45"><img src="images/000342.png" alt="Image" class="calibre11" /></p>
+	<p class="block_45"><img src="images/090.png" alt="Image" class="calibre11" /></p>
+	<p class="block_45"><img src="images/230.png" alt="Image" class="calibre11" /></p>
+	<p class="block_45"><img src="images/342.png" alt="Image" class="calibre11" /></p>
 	<p class="block_47">&nbsp;</p>
 	<h3 class="block_8" id="calibre_link-213">Intro: Ethereum Virtual Machine</h3>
-	<h3 class="block_12" id="calibre_link-214"><img src="images/000268.png" alt="Image" class="calibre11" /></h3>
-	<h3 class="block_12" id="calibre_link-215"><img src="images/000064.png" alt="Image" class="calibre11" /></h3>
-	<h3 class="block_12" id="calibre_link-216"><img src="images/000096.png" alt="Image" class="calibre11" /></h3>
+	<h3 class="block_12" id="calibre_link-214"><img src="images/268.png" alt="Image" class="calibre11" /></h3>
+	<h3 class="block_12" id="calibre_link-215"><img src="images/064.png" alt="Image" class="calibre11" /></h3>
+	<h3 class="block_12" id="calibre_link-216"><img src="images/096.png" alt="Image" class="calibre11" /></h3>
 	<p class="block_4">We’ve seen how smart contracts can be expressed in code, but how are they executed on the Ethereum network?</p>
 	<p class="block_4">What happens under the hood that enables the distributed and decentralized execution of smart contracts?</p>
 	<p class="block_4">In this section, we’ll be looking at the Ethereum Virtual Machine -- the heart of Ethereum -- which enables the Ethereum blockchain to be programmable.</p>
 	<h3 class="block_8" id="calibre_link-217">Understanding Ethereum Virtual Machine</h3>
-	<p class="block_11"><img src="images/000118.png" alt="Image" class="calibre12" /></p>
+	<p class="block_11"><img src="images/118.png" alt="Image" class="calibre12" /></p>
 	<p class="block_4">Ethereum smart contracts are generally written in high level programming languages.</p>
 	<p class="block_4">The most popular is Solidity, which kind of looks like a mix between C++ and JavaScript.</p>
 	<p class="block_4">There’s also Vyper, which is a newer language that’s currently under development.</p>
 	<p class="block_4">Smart contracts written in these high level programming languages have to be compiled down to Ethereum Virtual Machine code, abbreviated as EVM code.</p>
 	<p class="block_4">We go from a higher level, human readable language, and compile that down into EVM code, which is lower level, simpler language -- much easier for a machine to understand and execute.</p>
-	<p class="block_11"><img src="images/000341.png" alt="Image" class="calibre19" /></p>
+	<p class="block_11"><img src="images/341.png" alt="Image" class="calibre19" /></p>
 	<p class="block_4">After the code is compiled to EVM code, every node in the Ethereum network executes it.</p>
 	<p class="block_4">And all nodes execute the code the same way, so long as they have an up-to-date version of the EVM software.</p>
 	<p class="block_4">We say that Ethereum is a distributed computer because every node executes the Ethereum smart contracts.</p>
 	<p class="block_4">Nodes then come to consensus on the new system state.</p>
 	<p class="block_4">This should be fairly familiar.</p>
-	<p class="block_13"><img src="images/000083.png" alt="Image" class="calibre5" /></p>
+	<p class="block_13"><img src="images/083.png" alt="Image" class="calibre5" /></p>
 	<p class="block_4">In module 1, the high-level overview of Bitcoin, we discussed how every full node in Bitcoin stores their own ledger, making everyone the bank.</p>
 	<p class="block_4">In Bitcoin, nodes come to consensus on the state of who owns which UTXOs.</p>
-	<p class="block_11"><img src="images/000249.png" alt="Image" class="calibre9" /></p>
+	<p class="block_11"><img src="images/249.png" alt="Image" class="calibre9" /></p>
 	<p class="block_4">And in Ethereum...</p>
 	<p class="block_4">...after executing EVM code, nodes come to consensus on the general state of the network.</p>
 	<p class="block_4">And how do nodes actually come to consensus?</p>
-	<p class="block_11"><img src="images/000005.png" alt="Image" class="calibre3" /></p>
+	<p class="block_11"><img src="images/005.png" alt="Image" class="calibre3" /></p>
 	<p class="block_4">With Proof-of-Work!</p>
 	<p class="block_4">That’s right.</p>
 	<p class="block_4">The same distributed consensus protocol used in Bitcoin is also used in Ethereum.</p>
 	<p class="block_4">Of course, there ARE differences between Ethereum’s and Bitcoin’s Proof-of-Work implementations, but the general concepts that we have learned in the past modules definitely still apply.</p>
-	<p class="block_11"><img src="images/000060.png" alt="Image" class="calibre9" /></p>
+	<p class="block_11"><img src="images/060.png" alt="Image" class="calibre9" /></p>
 	<p class="block_4">Remember that Proof-of-Work requires miners to expend computational power to increase their chances of being able to propose blocks to the network.</p>
 	<p class="block_4">There’s no real smart way to go about solving the hash puzzle, so miners have to brute force.</p>
 	<p class="block_4">And by tying voting power to computational power, a physical real-world resource, we can prevent naive Sybil attacks.</p>
-	<p class="block_11"><img src="images/000367.png" alt="Image" class="calibre9" /></p>
+	<p class="block_11"><img src="images/367.png" alt="Image" class="calibre9" /></p>
 	<p class="block_4">Here are some differences between Bitcoin and Ethereum’s Proof-of-Work algorithms. </p>
 	<p class="block_4">In Ethereum, block creation time is 15 seconds long, whereas in Bitcoin, it’s 10 minutes.</p>
 	<p class="block_4">This allows execution of smart contracts to be done and finalized fairly quickly.</p>
@@ -3388,11 +3388,11 @@
 	<p class="block_4">And over on the right side, we can see a graph of Ethereum’s network hash rate, which is significantly lower than that of Bitcoin.</p>
 	<p class="block_4">As of May 23rd, 2018, Ethereum has roughly 275,000 GH/s whereas Bitcoin has a whopping 31,000,000 TH/s</p>
 	<h3 class="block_8" id="calibre_link-218">Ethereum Virtual Machine: Overview</h3>
-	<p class="block_11"><img src="images/000114.png" alt="Image" class="calibre3" /></p>
+	<p class="block_11"><img src="images/114.png" alt="Image" class="calibre3" /></p>
 	<p class="block_4">Miners in Ethereum competitively create blocks by executing EVM code and searching for a solution to a mining puzzle.</p>
 	<p class="block_4">And just like before, Proof-of-Work is a competition, and only one miner is able to add a block to the Ethereum blockchain, and claim the associated reward.</p>
 	<p class="block_4">Proof-of-Work is essentially a way to randomly select -- based on proportion of hash power -- one node’s execution result as the correct one to add to the blockchain.</p>
-	<p class="block_11"><img src="images/000075.png" alt="Image" class="calibre3" /></p>
+	<p class="block_11"><img src="images/075.png" alt="Image" class="calibre3" /></p>
 	<p class="block_4">Every Ethereum node runs the Ethereum Virtual Machine as part of its block verification procedure.</p>
 	<p class="block_4">As before, network consensus removes the need for a trusted third party.</p>
 	<p class="block_4">In order to violate smart contracts, you would have to subvert the entire network.</p>
@@ -3402,19 +3402,19 @@
 	<p class="block_4">And EVM code is a low-level stack based bytecode language.</p>
 	<p class="block_4">If you’re familiar with the JVM, it’s like how JVM languages such as Java, Scala, and Groovy all compile down to JVM bytecode.</p>
 	<p class="block_4">The fact that we can compile complex smart contract code into simple machine understandable instructions in the form of EVM code that all nodes in the network can execute in the same deterministic way provides the basis for consensus in Ethereum.</p>
-	<p class="block_11"><img src="images/000266.png" alt="Image" class="calibre12" /></p>
+	<p class="block_11"><img src="images/266.png" alt="Image" class="calibre12" /></p>
 	<p class="block_4">Because every node in the Ethereum network is executing smart contracts, one immediate issue we face is: What if a contract has an infinite loop?</p>
 	<p class="block_4">All of a sudden, this contract is pushed onto the Ethereum network, and someone calls the function foo, which has an infinite loop in it, and all nodes see this transaction and start executing foo -- forever.</p>
 	<p class="block_4">Every node on the network would be stuck executing this infinite loop.</p>
 	<p class="block_4">And by the halting problem, a well-known problem in computability theory, we know that it’s impossible to determine ahead of time whether a given contract will ever terminate.</p>
 	<p class="block_4">And all of this leads to a very easy way for attackers to launch denial of service attacks:</p>
 	<p class="block_4">by trapping computers around the world in an infinite loop, thereby making them unable to execute other more meaningful contracts.</p>
-	<p class="block_11"><img src="images/000345.png" alt="Image" class="calibre12" /></p>
+	<p class="block_11"><img src="images/345.png" alt="Image" class="calibre12" /></p>
 	<p class="block_4">Luckily, the developers of Ethereum thought of this and implemented a solution: in the form of what’s known as gas.</p>
 	<p class="block_4">Gas is what fuels the execution of a given contract.</p>
 	<p class="block_4">Every EVM op-code requires gas in order to execute -- thereby preventing the aforementioned infinite loop denial of service attack.</p>
 	<p class="block_4">Every transaction specifies two parameters, “<span class="text_14">startgas</span>”, or the maximum quantity of gas the transaction is willing to consume, and the “<span class="text_14">gasprice</span>”, or the fee in ether the contract is willing to pay per unit gas.</p>
-	<p class="block_11"><img src="images/000076.png" alt="Image" class="calibre12" /></p>
+	<p class="block_11"><img src="images/076.png" alt="Image" class="calibre12" /></p>
 	<p class="block_4">At the start of a transaction, “startgas * gasprice”, which represents the amount of ether paid for a computation, is subtracted from the sender’s account.</p>
 	<p class="block_4">The sender being the one who invokes the contract by sending a transaction.</p>
 	<p class="block_4">If the contract successfully executes, then the remaining gas is refunded to the sender.</p>
@@ -3422,13 +3422,13 @@
 	<p class="block_4">However, the amount in ether that was consumed is not refunded.</p>
 	<p class="block_4">The idea here is that although the contract execution gets reverted, someone on the network had to put in the computational power to execute the EVM code, and once the gas is spent up, it’s proof that someone executed the program, so it isn’t refunded.</p>
 	<p class="block_4">This gives us two end states: either a program terminates or runs out of gas.</p>
-	<p class="block_11"><img src="images/000201.png" alt="Image" class="calibre3" /></p>
+	<p class="block_11"><img src="images/201.png" alt="Image" class="calibre3" /></p>
 	<p class="block_4">Ethereum still allows someone to write an infinite loop in a smart contract.</p>
 	<p class="block_4">However, the attacker attempting to DoS the network has to pay enough ether to fund the DoS </p>
 	<p class="block_4">In a way, you can think of purchasing gas as the price you have to pay to use this distributed, trustless computational power.</p>
 	<p class="block_4">This thereby disincentivizes users from running expensive computations without having sufficient funds.</p>
 	<p class="block_4">Since each computation requires gas, an attacker looking to DoS the network would need an absurdly large amount of ether, and since the attack is so costly, that pretty much disincentivizes this sort of attack.</p>
-	<p class="block_11"><img src="images/000065.png" alt="Image" class="calibre18" /></p>
+	<p class="block_11"><img src="images/065.png" alt="Image" class="calibre18" /></p>
 	<p class="block_4">We mentioned that nodes come to consensus on the network state, and that code execution on the EVM changes the state.</p>
 	<p class="block_4">In a way, you can think of the EVM as the underlying state transition mechanism.</p>
 	<p class="block_4">When we execute a transaction, we go from a previous state to a new state.</p>
@@ -3438,14 +3438,14 @@
 	<p class="block_4">Basically, everything you need to correctly execute a transaction.</p>
 	<p class="block_4">And you feed this into the EVM, and get out the new block state, with all the updated account balances and internal state, and the new gas value, which gets refunded.</p>
 	<h3 class="block_8" id="calibre_link-219">Ethereum Conclusions</h3>
-	<p class="block_11"><img src="images/000273.png" alt="Image" class="calibre12" /></p>
-	<p class="block_11"><img src="images/000234.png" alt="Image" class="calibre12" /></p>
+	<p class="block_11"><img src="images/273.png" alt="Image" class="calibre12" /></p>
+	<p class="block_11"><img src="images/234.png" alt="Image" class="calibre12" /></p>
 	<p class="block_4">So, some conclusions about Ethereum’s high level architecture.</p>
 	<p class="block_4">Ethereum’s main goal is not to optimize computational efficiency, but to enable distributed and trustless computation.</p>
 	<p class="block_4">Every node on the network has to run the same computations, so Ethereum is redundantly parallel.</p>
 	<p class="block_4">And this is all to efficiently reach consensus on the system state without needing trusted third parties.</p>
 	<p class="block_4">And because contract executions are redundantly replicated across all nodes, execution is expensive.</p>
-	<p class="block_13"><img src="images/000272.png" alt="Image" class="calibre11" /></p>
+	<p class="block_13"><img src="images/272.png" alt="Image" class="calibre11" /></p>
 	<p class="block_4">For example, you shouldn’t be training machine learning models or doing anything else computationally expensive directly on smart contracts.</p>
 	<p class="block_4">So hopefully this creates an incentive not to use the blockchain for computation that can be done off chain.</p>
 	<h3 class="block_8" id="calibre_link-220">Intro: Ethereum Use Cases</h3>
@@ -3453,7 +3453,7 @@
 	<p class="block_4">In these use cases, we will present how we can leverage a particular blockchain property to accomplish something not previously possible.</p>
 	<p class="block_4">This is not a necessarily a stamp of approval on the use case, but an opportunity for us to demonstrate the unique and meaningful features provided by a blockchain.</p>
 	<h3 class="block_8" id="calibre_link-221">Basic Use Cases: Smart Assets</h3>
-	<p class="block_11"><img src="images/000353.png" alt="Image" class="calibre12" /></p>
+	<p class="block_11"><img src="images/353.png" alt="Image" class="calibre12" /></p>
 	<p class="block_4">The first use case imaginable is a smart asset, or token, built on top of a currently existing blockchain.</p>
 	<p class="block_4">This is literally building your own currency on top of another currency.</p>
 	<p class="block_4">All that needs to be done is to ensure that a user who wants to spend money has the funds, has been authenticated, and is not double spending.</p>
@@ -3465,7 +3465,7 @@
 	<p class="block_4">It should be noted now that building functional smart contracts and building secure ones are two completely different things.</p>
 	<p class="block_4">Securing smart contracts is incredibly tough, as you may have figured out from recent news about smart contract hacks.</p>
 	<h3 class="block_8" id="calibre_link-222">Basic Use Cases: Multisig</h3>
-	<p class="block_11"><img src="images/000258.png" alt="Image" class="calibre18" /></p>
+	<p class="block_11"><img src="images/258.png" alt="Image" class="calibre18" /></p>
 	<p class="block_4">Another meaningful use case for smart contracts is multisignature wallets.</p>
 	<p class="block_4">Remember back to the multisig script from week 3.</p>
 	<p class="block_4">Now, we can include that same functionality in a human-readable manner in Ethereum.</p>
@@ -3477,7 +3477,7 @@
 	<p class="block_4">The shown code on the right is the constructor for the contract, establishing the threshold and owners.</p>
 	<p class="block_4">The value of threshold corresponds to m, and the number of owners represents n.</p>
 	<h3 class="block_8" id="calibre_link-223">Basic Use Cases: Proof of Existence</h3>
-	<p class="block_11"><img src="images/000171.png" alt="Image" class="calibre18" /></p>
+	<p class="block_11"><img src="images/171.png" alt="Image" class="calibre18" /></p>
 	<p class="block_4">Let’s say we came up with an amazing new tech buzzword, “3D printing artificial intelligence on the blockchain.”</p>
 	<p class="block_4">We wanted to prove that we came up with it before some date, but we don’t yet want to reveal the buzzword to the public.</p>
 	<p class="block_4">How do we do this in a way that everyone trusts?</p>
@@ -3529,7 +3529,7 @@
 	<p class="block_4">A prediction market allows users to bet on the future and receive winnings if they bet correctly.</p>
 	<p class="block_4">An example of this is the Presidential Election: PredictIt.org gave anyone the opportunity to bet on whether Donald Trump, Hillary Clinton, or another candidate would win the election.</p>
 	<p class="block_4">The organization would then decide on what happened, and pay out to users as specified.</p>
-	<p class="block_11"><img src="images/000043.png" alt="Image" class="calibre19" /></p>
+	<p class="block_11"><img src="images/043.png" alt="Image" class="calibre19" /></p>
 	<p class="block_4">However, with a central organization, we depend both on the organization to provide honest information about payouts and to truthfully act on political events.</p>
 	<p class="block_4">In addition, the central organization is the only producer of markets, and it is able to censor users as desired.</p>
 	<p class="block_4">How can we guarantee a fully open system?</p>
@@ -3539,21 +3539,21 @@
 	<p class="block_4">Anyone can create and participate in a market.</p>
 	<p class="block_4">In addition, execution of this logic is all public, giving guarantees that all funds have been distributed as intended.</p>
 	<p class="block_4">Gnosis and Augur are two well-known companies that have deployed prediction market smart contracts.</p>
-	<p class="block_11"><img src="images/000193.png" alt="Image" class="calibre12" /></p>
+	<p class="block_11"><img src="images/193.png" alt="Image" class="calibre12" /></p>
 	<p class="block_4">So, what can we do with these prediction markets?</p>
 	<p class="block_4">An easy way to use them is to, quite simply, see predictions.</p>
 	<p class="block_4">We can use prediction markets to “buy information.”</p>
 	<p class="block_4">As users have an incentive to monetize information while revealing as little of it as possible, we can set up a prediction market which asks a simple question, such as…</p>
-	<p class="block_11"><img src="images/000222.png" alt="Image" class="calibre12" /></p>
+	<p class="block_11"><img src="images/222.png" alt="Image" class="calibre12" /></p>
 	<p class="block_4">Will this movie be a flop?</p>
 	<p class="block_4">By putting this in a prediction market, we can get a sense for the general audience’s perspective on some movie, paying them if they bet correctly.</p>
 	<p class="block_4">Hollywood insiders, for example, would be particularly drawn to this, as they can leverage their immense store of knowledge to make money for themselves.</p>
 	<p class="block_4">This allows the person asking the question to gather information while letting users keep specifics to themselves.</p>
-	<p class="block_11"><img src="images/000261.png" alt="Image" class="calibre12" /></p>
+	<p class="block_11"><img src="images/261.png" alt="Image" class="calibre12" /></p>
 	<p class="block_4">Other use cases include insurance, bug bounties, and ICO signaling.</p>
 	<p class="block_4">The first market for insurance is a way to let users prepare against disasters through crowdfunding, and the second two are ways to incentivize certain actions, such as the honest exposure of bug bounties.</p>
 	<p class="block_4">If a user notices a bug in a smart contract, they can heavily bet “yes” before revealing the vulnerability, allowing them to reap the rewards of their hidden knowledge.</p>
-	<p class="block_11"><img src="images/000202.png" alt="Image" class="calibre12" /></p>
+	<p class="block_11"><img src="images/202.png" alt="Image" class="calibre12" /></p>
 	<p class="block_4">An exciting use case of prediction markets is futarchy.</p>
 	<p class="block_4">Futarchy is a system of government controlled by prediction markets.</p>
 	<p class="block_4">The typical slogan is “Vote Values, but Bet Beliefs,” as futarchy aims to give citizens the power to put their money where their mouth is.</p>
@@ -3562,7 +3562,7 @@
 	<p class="block_4">Eventually, only the regularly successful will bet, meaning that policies will be decided by those with the most knowledge.</p>
 	<p class="block_4">Research is still being done to examine the feasibility of futarchy on a blockchain, particularly by Gnosis.</p>
 	<h3 class="block_8" id="calibre_link-226">Advanced Use Cases: Supply Chain</h3>
-	<p class="block_11"><img src="images/000165.png" alt="Image" class="calibre8" /></p>
+	<p class="block_11"><img src="images/165.png" alt="Image" class="calibre8" /></p>
 	<p class="block_4">A popular conception is that blockchain is the perfect solution for supply chain.</p>
 	<p class="block_4">However, we’ll see here that there are quite a few caveats when using blockchain to solve supply chain. </p>
 	<p class="block_4">One problem that the world faces today is the use of diamonds to fund rebel groups against governments.</p>
@@ -3575,7 +3575,7 @@
 	<p class="block_4">There are some caveats however, which include the issue of representing real world data on the blockchain.</p>
 	<p class="block_4">We have to trust that individuals are not bribed to include false information in the blockchain, and we also have to trust that the identifier of the diamond was not tampered with in the process.</p>
 	<h3 class="block_8" id="calibre_link-227">Advanced Use Cases: Smart Energy Grids</h3>
-	<p class="block_11"><img src="images/000007.png" alt="Image" class="calibre12" /></p>
+	<p class="block_11"><img src="images/007.png" alt="Image" class="calibre12" /></p>
 	<p class="block_4">Thus far, we’ve mentioned how we can provide a digital service using a blockchain.</p>
 	<p class="block_4">However, what about the situation in which we want to provide a real world service, leveraging a blockchain to make it happen?</p>
 	<p class="block_4">Onesp of the biggest scenarios is infrastructure.</p>
@@ -3650,7 +3650,7 @@
 	<p class="block_4">Now that we’ve seen all these use cases, let’s go ahead and finish off with some generalizations.</p>
 	<p class="block_4">These points can be used to understand and discuss any use case you come across or come up with.</p>
 	<p class="block_4">These points describe the properties of a good blockchain use case, along with the scenarios in which a blockchain is not needed or inferior to a centralized solution.</p>
-	<p class="block_11"><img src="images/000015.png" alt="Image" class="calibre18" /></p>
+	<p class="block_11"><img src="images/015.png" alt="Image" class="calibre18" /></p>
 	<p class="block_4">To start off, let’s talk about the scenarios where a blockchain will work, but is not necessary.</p>
 	<p class="block_4">We often hear the term “efficiency” in the context of blockchain use cases, but this isn’t often applicable.</p>
 	<p class="block_4">For example, let’s take Bitcoin.</p>
@@ -3660,7 +3660,7 @@
 	<p class="block_4">The other bullet points listed below are properties of blockchain that are not exclusive to blockchain.</p>
 	<p class="block_4">For example, just because you didn’t hear of fault tolerance, consensus, or public key cryptography before blockchain doesn’t mean that blockchain’s the only way to do it.</p>
 	<p class="block_4">Each of these bullets can be achieved by using a subset of the technology that goes into making a blockchain.</p>
-	<p class="block_11"><img src="images/000049.png" alt="Image" class="calibre3" /></p>
+	<p class="block_11"><img src="images/049.png" alt="Image" class="calibre3" /></p>
 	<p class="block_4">While blockchains will work, they’re over-engineered solutions to these problems.</p>
 	<p class="block_4">As mentioned in the smart energy grid example, blockchains allow us to solve coordination failures.</p>
 	<p class="block_4">We are able to implement arbitrary incentive schemes, allowing us to create a system which incentivizes individuals to operate according to our expectations.</p>
@@ -3671,7 +3671,7 @@
 	<p class="block_4">With this, smart contracts can be used to make commitments, to fund public infrastructure or do crowdfunding.</p>
 	<p class="block_4">The miners will force the actors to honor their commitments, as was the original intention of smart contracts.</p>
 	<p class="block_4">Instead of bringing in lawyers to settle matters when things don’t according to plan, we’re now able to rely on a smart contract to execute as intended, giving us the ability to believe in this code as law.</p>
-	<p class="block_11"><img src="images/000152.png" alt="Image" class="calibre8" /></p>
+	<p class="block_11"><img src="images/152.png" alt="Image" class="calibre8" /></p>
 	<p class="block_4">Blockchains create a standardized platform for access and interaction.</p>
 	<p class="block_4">Because of this, we can combine the power of all users on a blockchain to enhance everyone’s capabilities.</p>
 	<p class="block_4">Given that all information in a blockchain is accessible to everyone, we are now able to combine data silos between institutions.</p>
@@ -3686,7 +3686,7 @@
 	<p class="block_4">This is referred to as network effects, which is the increased value or potential of a product with every additional user.</p>
 	<p class="block_4">Similar to how more Facebook users makes the platform more worthwhile for all users, more smart contract developers increases the value of a platform.</p>
 	<p class="block_4">In this way, individuals are supporting the rest of the community while benefiting themselves as well.</p>
-	<p class="block_11"><img src="images/000195.png" alt="Image" class="calibre3" /></p>
+	<p class="block_11"><img src="images/195.png" alt="Image" class="calibre3" /></p>
 	<p class="block_4">Finally, the most abstract yet fundamental property of a good blockchain use case is pure decentralization.</p>
 	<p class="block_4">What this means is decentralization for the sake of keeping it out of the hands of a central authority.</p>
 	<p class="block_4">This is what Bitcoin aimed to do with banks.</p>
@@ -3698,7 +3698,7 @@
 	<p class="block_4">Perhaps the most astonishing property that a blockchain provides is globally recognized proofs.</p>
 	<p class="block_4">Cryptocurrencies aren’t divided by lines or borders--they’re guaranteed to be globally accessible and unstoppable as long as there exists a community to support them, unlike businesses or government projects.</p>
 	<p class="block_4">Through blockchain, we can support globally recognized ownership, persisting across nations.</p>
-	<p class="block_11"><img src="images/000181.png" alt="Image" class="calibre18" /></p>
+	<p class="block_11"><img src="images/181.png" alt="Image" class="calibre18" /></p>
 	<p class="block_4">Now that we’ve finished talking about all the meaningful properties of decentralized solutions, it wouldn’t be complete if we didn’t go over the caveats.</p>
 	<p class="block_4">What are the costs of these properties of decentralization?</p>
 	<p class="block_4">What do we achieve better with centralized solutions?</p>
@@ -3735,7 +3735,8 @@
 	<h3 class="block_8" id="calibre_link-232">I. Basic Use Cases</h3>
 	<p class="block_4">The first use case is a smart asset, or token, built on a currently existing blockchain. All that needs to be done is to ensure that a user who wants to spend money has the funds, has been authenticated, and is not double spending.</p>
 	<p class="block_4">Another meaningful use case for smart contracts is multisignature wallets. On Ethereum, we can leverage the platform’s built-in authentication protocol to create a functionality that allows us to have an m of n signature scheme (refer to Lecture 3).</p>
-	<p class="block_13"><img src="images/000371.png" alt="Image" class="calibre11" /></p>
+	<p class="block_13"><img src="images/371.png" alt="Image" class="calibre11" /></p>
+	
 	<p class="block_4">We can also create Proof-of-Existence use cases using smart contracts, which hash intellectual property onto a blockchain to prove the existence of some piece of information at some point in time. With Proof-of-Existence, we leverage both the public auditability and immutability of the blockchain. We can use Proof-of-Existence to record document ownership or implement a decentralized DNS system.</p>
 	<h3 class="block_8" id="calibre_link-233">II. Advanced Use Cases</h3>
 	<p class="block_4">Many developing nations struggle with broken land titles systems; flawed paperwork, forged signatures, and unclear documents make tracing ownership of land difficult. The pitfalls which keep a central organization from solving this problem are mistrust between citizens and these central parties.</p>
@@ -3761,7 +3762,7 @@
 	<p class="block_4">A central solution is fully controlled by a single organization, keeping everything under the same umbrella. One of the benefits of this is simpler and faster software updates, meaning it is easy to make changes and have the update for all users. Contrast this with a blockchain, where everyone instead must have to voluntarily agree to upgrade. It is much easier to make security patches when you don’t need to reach consensus on upgrades across all users.&nbsp;Centralized solutions are&nbsp;also more efficient, as instead of having to do a computation for every user in a network, it only needs to be done once, and there is no need for verification. Access control is also much easier, as the central authority can simply keep track of access in a centrally controlled database, something that cannot be done in a decentralized system. Most significantly, centralized systems can make decisions with their human judgment, especially helpful when tackling complex decisions. In a decentralized system, smart contracts may not be able to cover or formalize all of the edge cases, and may not be suitable for use in more complex issues. For example, if Airbnb were replaced by used smart contracts, how would a smart contract be able to determine what to do if household possessions were damaged? Which individuals could be trusted to report this information without stripping away the values of decentralization? How would a smart contract handle human error?</p>
 	<p class="block_4">In the end, it is important to always ask why a blockchain is better than a centralized solution. Neither is better than the other universally, so it is important to compare the pros and cons of both to determine which one is better for each specific use case.</p>
 	<h3 class="block_8" id="calibre_link-240">Blockchain Use Cases Takeaways</h3>
-	<p class="block_11"><img src="images/000259.png" alt="Image" class="calibre8" /></p>
+	<p class="block_11"><img src="images/259.png" alt="Image" class="calibre8" /></p>
 	<p class="block_4">The main takeaway is that there are advantages to both centralized and decentralized solutions.</p>
 	<p class="block_4">Neither is universally better than the other; they each have their own use cases.</p>
 	<p class="block_4">However, the best solutions are those that recognize when decentralization is critical to accomplishing some goal and don’t get distracted when a blockchain is viable but really doesn’t make sense.</p>
@@ -3799,13 +3800,13 @@
 	<p class="block_4">Joseph Lubin was a co-founder of Ethereum.</p>
 	<p class="block_4">He also founded ConsenSys, which is a company that made great strides in developing the Ethereum ecosystem.</p>
 	<h3 class="block_8" id="calibre_link-243">Ethereum Research</h3>
-	<p class="block_11"><img src="images/000227.png" alt="Image" class="calibre3" /></p>
+	<p class="block_11"><img src="images/227.png" alt="Image" class="calibre3" /></p>
 	<p class="block_4">ConsenSys can be best described as a software foundry.</p>
 	<p class="block_4">It facilitates a variety of applications which operate on the Ethereum blockchain, and coordinates, incubates, accelerates, and spawns what it calls “spoke ventures.”</p>
 	<p class="block_4">For example, there’s uPort, which is identity management, the popular Truffle development suite, MetaMask, which links your web browser to Ethereum, and Gnosis, the prediction market platform we mentioned in the previous section.</p>
 	<p class="block_4">And here are some of the many other spoke ventures in Consensys.</p>
 	<p class="block_4">The Ethereum community also spawns a lot of original research.</p>
-	<p class="block_11"><img src="images/000016.png" alt="Image" class="calibre19" /></p>
+	<p class="block_11"><img src="images/016.png" alt="Image" class="calibre19" /></p>
 	<p class="block_4">Most notably is Casper, the Ethereum Proof-of-Stake implementation that we’ve mentioned a couple times in this module.</p>
 	<p class="block_4">There are two main implementations of Casper, and this is one of the topics we’ll dive into in our second course.</p>
 	<p class="block_4">There’s also Plasma, a proposed scalability upgrade to Ethereum inspired by a similar scalability proposal for Bitcoin called Lightning.</p>
@@ -3819,7 +3820,7 @@
 	<h3 class="block_8" id="calibre_link-246">II. Ethereum</h3>
 	<p class="block_4">Ethereum is a decentralized platform designed to run smart contracts. It is a distributed computer spread across many nodes around the world that executes the code people feed in it, without any possibility of downtime, fraud, censorship, or third-party intervention.</p>
 	<p class="block_4">Here’s a review of the similarity and differences between Ethereum and Bitcoin:</p>
-	<p class="block_13"><img src="images/000101.png" alt="Table reviewing the similarities and differences between Ethereum and Bitcoin" class="calibre68" /></p>
+	<p class="block_13"><img src="images/101.png" alt="Table reviewing the similarities and differences between Ethereum and Bitcoin" class="calibre68" /></p>
 	<p class="block_4">There are two kinds of Ethereum accounts:&nbsp;</p>
 	<ul class="list_1">
 	<li class="block_14">Externally Owned Accounts contain an address that allows people to send them ether and a balance of ether</li>
@@ -3834,11 +3835,11 @@
 </ul>
 	<h3 class="block_8" id="calibre_link-247">III. Ethereum Virtual Machines</h3>
 	<p class="block_4">The Ethereum Virtual Machine enables the Ethereum blockchain to be programmable. Ethereum Smart Contracts are written in high level programming languages like Solidity, which have to be compiled down to Ethereum Virtual Machine (EVM) code. Every node runs EVM as part of its block verification procedure. Once the contract code is compiled to EVM code, every node in the Ethereum network executes the code. Nodes then come to consensus on the new system state. Note: Ethereum is redundantly parallel; its main goal is not to optimize computational efficiency, but to enable distributed and trustless computation.</p>
-	<p class="block_13"><img src="images/000170.png" alt="Nodes in the Ethereum network" class="calibre69" /></p>
+	<p class="block_13"><img src="images/170.png" alt="Nodes in the Ethereum network" class="calibre69" /></p>
 	<p class="block_4">As in Bitcoin, the nodes come to consensus using Proof-of-Work, removing the need for a trusted third party. Miners in Ethereum competitively create blocks by executing EVM code and searching for a solution to a mining puzzle.</p>
 	<p class="block_4">The developers of Ethereum implemented ‘gas’ to protect against the Denial of Service (DoS) Attack, where an attacker includes an infinite loop in the smart contract to disable nodes from executing any other contracts. Gas is what fuels a given contract. You can think of purchasing gas as the price you have to pay to use this distributed, trustless computational power. This disincentivizes DoS attacks because attackers would have to pay an absurdly large amount of ether to execute this attack.</p>
 	<p class="block_4">Ethereum is implemented as a distributed state machine, and transactions on the network change the global state of the system. In the transaction execution, or “state transition function,” nodes in Ethereum come to consensus on the network state, and their code execution on the EVM changes the global state from the previous state to the new state. The function looks like this:</p>
-	<p class="block_13"><img src="images/000210.png" alt="Diagram of an executed function" class="calibre70" /></p>
+	<p class="block_13"><img src="images/210.png" alt="Diagram of an executed function" class="calibre70" /></p>
 	<h3 class="block_8" id="calibre_link-248">Readings</h3>
 	<ul class="list_1">
 	<li class="block_14">Ethereum Whitepaper:&nbsp;<a target="_blank" href="https://github.com/ethereum/wiki/wiki/White-Paper" class="text_2">A Next-Generation Smart Contract and Decentralized Application Platform&nbsp;</a></li>
