@@ -187,7 +187,8 @@
 	<p class="block_4">It gives you your identity.</p>
 	<p class="block_4">If anyone else gets their hands on your email password, for example, they can pretend to be you, receiving and sending emails on your behalf.</p>
 	<p class="block_4">Similarly, you would never want anyone else to have your Bitcoin private key as that would give control of your Bitcoin public key and, by implication, your Bitcoin identity.</p>
-	<p class="block_13"><img src="images/image004-identity.png" alt="Identity: Public and private keys" class="calibre6" /></p>
+	<p class="block_13"><img src="images/image004-identity.png" alt="Identity: Public and priv
+		ate keys" class="calibre6" /></p>
 	<p class="block_4">In Bitcoin, you can think of your public and private key as a chest and key, respectively.</p>
 	<p class="block_4">You use your private key to prove you have ownership of your public key and to access the funds associated with that public key, just as you can use a physical key to unlock a chest that contains your physical money.</p>
 	<p class="block_4">To reiterate, <span class="text_4">public keys</span><span class="text_5"> </span>are used for <span class="text_6">receiving</span>, and <span class="text_4">private keys</span><span class="text_5"> </span>are used for <span class="text_6">redeeming</span>.</p>
@@ -238,7 +239,7 @@
 	<p class="block_4">To ensure that one uses funds not in their possession, all the same conditions apply to Bitcoin.</p>
 	<p class="block_4">To enforce this, Bitcoin uses what’s known as a UTXO, or Unspent Transaction Output, model.</p>
 	<p class="block_11"><img src="images/image010-utxo-model.png" alt="UTXO Model: Unspent transactions" class="calibre9" /></p>
-	<p class="block_11"><img src="images/transactions-utxo-model.png" alt="UTXO Model: Blockchain tracts unspent money" class="calibre3" /></p>
+	<p class="block_11"><img src="images/image011-model-unspent.png" alt="UTXO Model: Blockchain tracts unspent money" class="calibre3" /></p>
 	<p class="block_4">Traditionally, when we think of banks, we think of a single account where all our funds are aggregated into one count.</p>
 	<p class="block_4">For example, after buying $10 worth of burgers and fries, your account balance goes from 20 to 10 dollars.</p>
 	<p class="block_4">This is not the case with Bitcoin.</p>
@@ -249,7 +250,7 @@
 	<p class="block_4">To make transaction processing much easier and more secure, users do not spend from an account; instead, they spend directly from transactions made to them.</p>
 	<p class="block_4">An easy way to wrap our heads around this unintuitive model is to think of UTXOs as piggy banks!</p>
 	<p class="block_4">Every time a transaction is made to us, we put all that money into a UTXO, or piggy bank.</p>
-	<p class="block_13"><img src="images/image011-utxo-model-unspent.png" alt="Transactions: UTXO model piggy bank" class="calibre6" /></p>
+	<p class="block_13"><img src="images/image012-utxo-example.png" alt="Transactions: UTXO model piggy bank" class="calibre6" /></p>
 	<p class="block_4">When we want to spend money, we break open that piggy bank...spend whatever we like, and then put the rest into another piggy bank.</p>
 	<p class="block_4">(It’s hard to put a piggy bank’s shattered pieces back together.)</p>
 	<p class="block_4">This way, the complexity of checking for transaction validity goes down.</p>
@@ -328,7 +329,7 @@
 	<p class="block_4">How do we decide which transactions, or blocks of transactions, are valid?</p>
 	<p class="block_4">With no central entity deciding on the next update, we have to find a way to make this decision in a decentralized way.</p>
 	<p class="block_4">In Bitcoin, users on the network must come to consensus, or agreement, on the next valid update.</p>
-	<p class="block_11"><img src="images/image016-consensus-staying-on-the-same-page.png alt="Image" class="calibre8" /></p>
+	<p class="block_11"><img src="images/image016-consensus-staying-on-the-same-page.png alt="Consensus: staying on the same page" class="calibre8" /></p>
 	<p class="block_4">Because everyone is storing information about the blockchain, we need consensus to make sure that everyone agrees on the history of transactions.</p>
 	<p class="block_4">Not only do all users need to agree on the update, but they also need to agree on a valid update to make sure that no corrupted information is accepted by the network.</p>
 	<p class="block_4">If there was no way for different parties to come to agreement on this, then there will forever be this schism between them.</p>
@@ -340,20 +341,20 @@
 	<p class="block_4">In the most basic consensus mechanism, updates take the following form:</p>
 	<p class="block_4">One node proposes a transaction to the network, sending a message about the transaction directly to every other node.</p>
 	<p class="block_4">All other nodes save the transaction into their history if it’s valid and disregard it otherwise.</p>
-	<p class="block_13"><img src="images/image016-consensus-staying-on-the-same-page.png" alt="Image" class="calibre6" /></p>
+	<p class="block_13"><img src="images/image017-consensus-double-spend-attack.png" alt="Consensus: Double-spend attack" class="calibre6" /></p>
 	<p class="block_4">We have an example for you here.</p>
 	<p class="block_4">Gloria wants to make a transaction to Nadir, so she sends that message to all four other entities.</p>
 	<p class="block_4">This is represented by the arrows pointing from Gloria to every other entity, blue to represent that she is making a transaction to Nadir, the blue circle.</p>
 	<p class="block_4">The implication of this system is that nodes don’t engage in conversation with one another, and the only nodes that see a transaction with one hundred (100) percent certainty are the sender and recipient.</p>
 	<p class="block_4">As we will see, this does not work because of what’s known as the double spend attack.</p>
 	<p class="block_18">&nbsp;</p>
-	<p class="block_11"><img src="images/image017-consensus-double-spend-attack.png" alt="Image" class="calibre8" /></p>
+	<p class="block_11"><img src="images/image018-consensus-double-spend-attack-2.png" alt="Consensus: Double-spend attack (two)" class="calibre8" /></p>
 	<p class="block_4">With centralized systems, we trust banks to check for the validity of all the transactions.</p>
 	<p class="block_4">Recall that one condition of a transaction being valid is that proposed funds for the transaction are not promised elsewhere in a previous transaction.</p>
 	<p class="block_4">Because we do not have a bank to check if there is any malicious behavior, we must build mechanisms that handle these situations.</p>
 	<p class="block_4">Let’s say that Gloria is purchasing tons of laptops and is willing to pay both Nadir and myself (Rustie) 10 bitcoins for our laptops.</p>
 	<p class="block_4">Gloria promises me (Rustie) 10 BTC in one transaction, and promises 10 BTC to Nadir at the same time.</p>
-	<p class="block_13"><img src="images/image018-consensus-double-spend-attack-2.png" alt="Image" class="calibre6" /></p>
+	<p class="block_13"><img src="images/image019-consensus-double-spend-attack-malicious.png" alt="Consensus: Double-spend attack, malicious" class="calibre6" /></p>
 	<p class="block_4">This is represented by the green arrow from herself to me (Rustie), the green circle, and by the separate blue arrow from herself to Nadir, the blue circle.</p>
 	<p class="block_4">However, she only has 10 BTC in total.</p>
 	<p class="block_4">Her invalid transaction evades detection because, as you may have realized, she only tells one person about each transaction: the person receiving the bitcoins.</p>
@@ -364,7 +365,7 @@
 	<p class="block_4">In this naive version of consensus, this is legal: with her transaction to me, Gloria tells me to update my copy of the ledger, and with her transaction to Nadir, she tells Nadir to update his copy of the ledger.</p>
 	<p class="block_4">Both Nadir and I see that the transaction is valid and each believe that we have received the bitcoins.</p>
 	<p class="block_4">Of course, both Nadir and I (Rustie) can’t own the same bitcoins.</p>
-	<p class="block_13"><img src="images/image019-consensus-double-spend-attack-malicious.png" alt="Image" class="calibre6" /></p>
+	<p class="block_13"><img src="images/image020-consensus-peer-validation.png" alt="Consensus: Peer validation" class="calibre6" /></p>
 	<p class="block_4">The moment we try to redeem these tokens with the network, the issue becomes transparent.</p>
 	<p class="block_4">It’s going to look to Derrick and Nick that these transactions never happened.</p>
 	<p class="block_4">If I try to convince anyone else that I (Rustie) own these ten bitcoins, they’ll all think I’m crazy because they’ve seen no evidence of me (Rustie) ever having received these bitcoins.</p>
@@ -388,13 +389,13 @@
 	<p class="block_4">However, we introduce a new component: communication.</p>
 	<p class="block_4">The dashed blue and green lines from Nadir and myself (Rustie) respectively represent the relay of those message to the rest of the network.</p>
 	<p class="block_4">By looking to the rest of the network for input, considering everyone else the third party, we are protected against Gloria’s attempts at malicious behavior.</p>
-	<p class="block_13"><img src="images/000099.png" alt="Image" class="calibre6" /></p>
+	<p class="block_13"><img src="images/image022-consensu-victory.png" alt="Consensus: Victory---Or is it?" class="calibre6" /></p>
 	<p class="block_4">Peers in the network vote “no” on Gloria’s proposal, as they notice multiple transactions trying to spend the same funds.</p>
 	<p class="block_4">The transaction doesn’t go through, and is not included in an update to the blockchain.</p>
 	<p class="block_4">It looks like we’ve solved all our problems: we have a voting system that ensures that no one can double spend the same funds, and each peer stores the whole history of transactions so that they can verify for themselves that the funds exist. </p>
 	<p class="block_4">It looks as if we are victorious!</p>
 	<p class="block_4">However, we forgot one fatal truth about Bitcoin: the anonymity.</p>
-	<p class="block_13"><img src="images/000349.png" alt="Image" class="calibre6" /></p>
+	<p class="block_13"><img src="images/image023-consensus-a-stranger-among-us.png" alt="Consensus: A stranger among us" class="calibre6" /></p>
 	<p class="block_4">Recall that Bitcoin is an accessible, anonymous network with no central registry.</p>
 	<p class="block_4">Banks keep track of everyone’s identities and accounts, but no such infrastructure is available in Bitcoin to prevent anyone from producing multiple identities.</p>
 	<p class="block_4">In Bitcoin, anyone can join, and anyone can participate.</p>
