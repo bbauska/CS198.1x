@@ -239,7 +239,7 @@
 	<p class="block_4">To ensure that one uses funds not in their possession, all the same conditions apply to Bitcoin.</p>
 	<p class="block_4">To enforce this, Bitcoin uses what’s known as a UTXO, or Unspent Transaction Output, model.</p>
 	<p class="block_11"><img src="images/image010-utxo-model.png" alt="UTXO Model: Unspent transactions" class="calibre9" /></p>
-	<p class="block_11"><img src="images/image011-model-unspent.png" alt="UTXO Model: Blockchain tracts unspent money" class="calibre3" /></p>
+	<p class="block_11"><img src="images/image011-utxo-model-unspent.png" alt="UTXO Model: Blockchain tracts unspent money" class="calibre3" /></p>
 	<p class="block_4">Traditionally, when we think of banks, we think of a single account where all our funds are aggregated into one count.</p>
 	<p class="block_4">For example, after buying $10 worth of burgers and fries, your account balance goes from 20 to 10 dollars.</p>
 	<p class="block_4">This is not the case with Bitcoin.</p>
@@ -276,7 +276,7 @@
 	<p class="block_4">So naturally, the next question to ask is: How do we keep track of the history of transactions?</p>
 	<p class="block_17"><span class="text_7">After all a user’s current balance can be described as a number of transactions, summing to the current amount, and if we don’t know what transactions have happened in the past, we can’t determine what’s valid in the future</span><span class="text_8">.</span></p>
 	<p class="block_18">&nbsp;</p>
-	<p class="block_11"><img src="images/image013-recordkeeping-distributed-dbs.png" alt="Image" class="calibre8" /></p>
+	<p class="block_11"><img src="images/image013-recordkeeping-distributed-dbs.png" alt="Record-keeping: Distributed dbs" class="calibre8" /></p>
 	<p class="block_4">Consider the diagram above.</p>
 	<p class="block_4">Let this represent our network, which includes 5 entities.</p>
 	<p class="block_4">Each of these circles represents an identity: me (Rustie) in green on top, Gloria in red on the top right, Nick in purple on the bottom right, Nadir in blue on the bottom left, and Derrick in orange on the top left.</p>
@@ -295,7 +295,7 @@
 	<p class="block_4">We must find another way.</p>
 	<p class="block_4">Instead of having any selected maintainers, let’s make a simple and straightforward choice: we have everyone keep a copy of the ledger.</p>
 	<p class="block_4">We make everyone the bank.</p>
-	<p class="block_13"><img src="images/image014-recordkeeping-everyones-the-bank.png" alt="Image" class="calibre6" /></p>
+	<p class="block_13"><img src="images/image014-recordkeeping-everyones-the-bank.png" alt="Record-keeping: Everone's the bank" class="calibre6" /></p>
 	<p class="block_4">To get as far as possible from centralization, every individual entity in Bitcoin should be equal.</p>
 	<p class="block_4">If every person stores the ledger, then every person has just as much right and legitimacy as the next person to vote on the validity of transactions.</p>
 	<p class="block_17"><span class="text_7">Every person has control of their own data, and no person can decide for anyone else</span><span class="text_8">.</span></p>
@@ -307,7 +307,7 @@
 	<p class="block_4">Everyone maintains their own ledger after all, and once a change is made for one entity, it must propagate throughout the entire network.</p>
 	<p class="block_4">So, how do we store our ledger efficiently?</p>
 	<p class="block_18">&nbsp;</p>
-	<p class="block_11"><img src="images/image015-recordkeeping-the-blockchain.png" alt="Image" class="calibre8" /></p>
+	<p class="block_11"><img src="images/image015-recordkeeping-the-blockchain.png" alt="Record-keepin: The blockchain" class="calibre8" /></p>
 	<p class="block_4">Every update to the distributed database, the Bitcoin ledger, is a batch of transactions grouped into what are called blocks.</p>
 	<p class="block_4">Every block is built off, or chained to, a previous block.</p>
 	<p class="block_4">Altogether, this forms a magical data structure known as a “blockchain.”</p>
@@ -329,7 +329,7 @@
 	<p class="block_4">How do we decide which transactions, or blocks of transactions, are valid?</p>
 	<p class="block_4">With no central entity deciding on the next update, we have to find a way to make this decision in a decentralized way.</p>
 	<p class="block_4">In Bitcoin, users on the network must come to consensus, or agreement, on the next valid update.</p>
-	<p class="block_11"><img src="images/image016-consensus-staying-on-the-same-page.png alt="Consensus: staying on the same page" class="calibre8" /></p>
+	<p class="block_11"><img src="images/image016-consensus-staying-on-the-same-page.png alt="Consensus: Staying on the same page" class="calibre8" /></p>
 	<p class="block_4">Because everyone is storing information about the blockchain, we need consensus to make sure that everyone agrees on the history of transactions.</p>
 	<p class="block_4">Not only do all users need to agree on the update, but they also need to agree on a valid update to make sure that no corrupted information is accepted by the network.</p>
 	<p class="block_4">If there was no way for different parties to come to agreement on this, then there will forever be this schism between them.</p>
@@ -389,7 +389,7 @@
 	<p class="block_4">However, we introduce a new component: communication.</p>
 	<p class="block_4">The dashed blue and green lines from Nadir and myself (Rustie) respectively represent the relay of those message to the rest of the network.</p>
 	<p class="block_4">By looking to the rest of the network for input, considering everyone else the third party, we are protected against Gloria’s attempts at malicious behavior.</p>
-	<p class="block_13"><img src="images/image022-consensu-victory.png" alt="Consensus: Victory---Or is it?" class="calibre6" /></p>
+	<p class="block_13"><img src="images/image022-consensus-victory.png" alt="Consensus: Victory---Or is it?" class="calibre6" /></p>
 	<p class="block_4">Peers in the network vote “no” on Gloria’s proposal, as they notice multiple transactions trying to spend the same funds.</p>
 	<p class="block_4">The transaction doesn’t go through, and is not included in an update to the blockchain.</p>
 	<p class="block_4">It looks like we’ve solved all our problems: we have a voting system that ensures that no one can double spend the same funds, and each peer stores the whole history of transactions so that they can verify for themselves that the funds exist. </p>
@@ -415,7 +415,7 @@
 	<p class="block_4">We have to make it such that anyone trying to vote has the same amount of voting power as anyone else, regardless of how many Bitcoin identities they have.</p>
 	<p class="block_4">But how?</p>
 	<p class="block_4">Is it even possible to solve this problem?</p>
-	<p class="block_13"><img src="images/000105.png" alt="Image" class="calibre6" /></p>
+	<p class="block_13"><img src="images/image024-pay-to-play.png" alt="Consensus: Pay to play" class="calibre6" /></p>
 	<p class="block_4">This is where the innovation of Satoshi Nakamoto comes into play.</p>
 	<p class="block_4">They recognized that in order to ensure every real entity has equal voting power, they cannot vote with identities at all.</p>
 	<p class="block_4">Instead, Satoshi realized that, to preserve freedom and anonymity while solving the issue of endless identities, each vote must be cast with resources.</p>
