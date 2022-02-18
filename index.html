@@ -342,20 +342,20 @@
 	<p class="block_4">In the most basic consensus mechanism, updates take the following form:</p>
 	<p class="block_4">One node proposes a transaction to the network, sending a message about the transaction directly to every other node.</p>
 	<p class="block_4">All other nodes save the transaction into their history if it’s valid and disregard it otherwise.</p>
-	<p class="block_13"><img src="images/image017-consensus-double-spend-attack.png" alt="Consensus: Double-spend attack" class="calibre6" /></p>
+	<p class="block_13"><img src="images/image016-consensus-staying-on-the-same-page.png" alt="Consensus: Staying on the same page" class="calibre6" /></p>
 	<p class="block_4">We have an example for you here.</p>
 	<p class="block_4">Gloria wants to make a transaction to Nadir, so she sends that message to all four other entities.</p>
 	<p class="block_4">This is represented by the arrows pointing from Gloria to every other entity, blue to represent that she is making a transaction to Nadir, the blue circle.</p>
 	<p class="block_4">The implication of this system is that nodes don’t engage in conversation with one another, and the only nodes that see a transaction with one hundred (100) percent certainty are the sender and recipient.</p>
 	<p class="block_4">As we will see, this does not work because of what’s known as the double spend attack.</p>
 	<p class="block_18">&nbsp;</p>
-	<p class="block_11"><img src="images/image018-consensus-double-spend-attack-2.png" alt="Consensus: Double-spend attack (two)" class="calibre8" /></p>
+	<p class="block_11"><img src="images/image017-consensus-double-spend-attack.png" alt="Consensus: Double-spend attack" class="calibre8" /></p>
 	<p class="block_4">With centralized systems, we trust banks to check for the validity of all the transactions.</p>
 	<p class="block_4">Recall that one condition of a transaction being valid is that proposed funds for the transaction are not promised elsewhere in a previous transaction.</p>
 	<p class="block_4">Because we do not have a bank to check if there is any malicious behavior, we must build mechanisms that handle these situations.</p>
 	<p class="block_4">Let’s say that Gloria is purchasing tons of laptops and is willing to pay both Nadir and myself (Rustie) 10 bitcoins for our laptops.</p>
 	<p class="block_4">Gloria promises me (Rustie) 10 BTC in one transaction, and promises 10 BTC to Nadir at the same time.</p>
-	<p class="block_13"><img src="images/image019-consensus-double-spend-attack-malicious.png" alt="Consensus: Double-spend attack, malicious" class="calibre6" /></p>
+	<p class="block_13"><img src="images/image018-consensus-double-spend-attack-2.png" alt="Consensus: Double-spend attack, two" class="calibre6" /></p>
 	<p class="block_4">This is represented by the green arrow from herself to me (Rustie), the green circle, and by the separate blue arrow from herself to Nadir, the blue circle.</p>
 	<p class="block_4">However, she only has 10 BTC in total.</p>
 	<p class="block_4">Her invalid transaction evades detection because, as you may have realized, she only tells one person about each transaction: the person receiving the bitcoins.</p>
@@ -373,7 +373,7 @@
 	<p class="block_4">The same applies to Nadir.</p>
 	<p class="block_4">In this scheme where entities only see the transactions that directly involve them as sender or recipient, it is impossible to come to consensus on a history of transactions because of dishonest actors.</p>
 	<p class="block_4">Thus, it is impossible to prevent these double spend attacks with our current model of consensus.</p>
-	<p class="block_13"><img src="images/image020-consensus-peer-validation.png" alt="Image" class="calibre6" /></p>
+	<p class="block_13"><img src="images/image020-consensus-peer-validation.png" alt="Consensus: Peer validation (siloed)" class="calibre6" /></p>
 	<p class="block_4">Instead of individuals doing their own validation of transaction, we can set up a voting system.</p>
 	<p class="block_4">The problem with our previous version of consensus was that there wasn’t any consensus!</p>
 	<p class="block_4">Instead of making siloed decisions as we did before, let’s implement a system of proposers and voters.</p>
@@ -383,7 +383,7 @@
 	<p class="block_4">Only after receiving a certain number of votes, say a majority, does the transaction get saved.</p>
 	<p class="block_4">Like before, there are blue lines from Gloria to the rest of the network to indicate that she is making a transaction to Nadir.</p>
 	<p class="block_4">Unlike before, there are dashed blue lines from each node to everyone else (excluding Gloria) as an indication of communication about two things: the received transaction and a vote for or against its validity.</p>
-	<p class="block_13"><img src="images/image021-consensus-reject-double-spend.png" alt="Image" class="calibre6" /></p>
+	<p class="block_13"><img src="images/image021-consensus-reject-double-spend.png" alt="Consensus: Reject double spend" class="calibre6" /></p>
 	<p class="block_4">Let’s observe what happens when Gloria tries to double spend under these circumstances.</p>
 	<p class="block_4">Now, when Gloria attempts to double spend, she will be rejected by observing peers.</p>
 	<p class="block_4">She again sends only two messages: One of a transaction to me (Rustie), as indicated with the solid green arrow, and one to Nadir, as indicated with the solid blue arrow.</p>
@@ -428,14 +428,14 @@
 	<p class="block_4">In his whitepaper, he envisioned a “1-CPU-1-vote” network, rather than the traditional “1-identity-1-vote” system.</p>
 	<p class="block_4">It is this new concept of voting with resources instead of with identities that earned the title “Nakamoto Consensus.”</p>
 	<p class="block_4">The particular consensus algorithm that Satoshi Nakamoto came up with is known as “Proof-of-Work.”</p>
-	<p class="block_13"><img src="images/000013.png" alt="Image" class="calibre6" /></p>
+	<p class="block_13"><img src="images/image025-consensus-proof-of-work.png" alt="Consensus: Proof of work" class="calibre6" /></p>
 	<p class="block_4">Let’s break down the word “Proof-of-Work.”</p>
 	<p class="block_4">We know “proof” to mean “evidence,” and “work” to mean “spent resources.”</p>
 	<p class="block_4">In other words, “Proof-of-Work” is the method by which users provide evidence of spending resources.</p>
 	<p class="block_4">It is the method by which computing power is translated into voting power.</p>
 	<p class="block_4">It is the method by which users vote in Bitcoin.</p>
 	<p class="block_4">It is this method of voting that made Bitcoin the first successful cryptocurrency and inspired voting mechanisms for practically every other cryptocurrency to follow.</p>
-	<p class="block_13"><img src="images/000038.png" alt="Image" class="calibre6" /></p>
+	<p class="block_13"><img src="images/image026-consensus-proof-of-work-works.png" alt="Consensus: Proof of work, it works!" class="calibre6" /></p>
 	<p class="block_4">Here’s how Proof-of-Work works: whenever someone wants to make a proposal to the rest of the Bitcoin network, they first have to solve a computationally difficult problem.</p>
 	<p class="block_4">In other words, their computer is tasked with a problem that can only be solved by doing a significant amount of work.</p>
 	<p class="block_4">This problem is uniquely generated based on the information within the proposed block and cannot be predicted beforehand.</p>
@@ -472,7 +472,7 @@
 	<p class="block_4">Two categories of these protocol changes are soft and hard forks. Soft forks implement protocol updates that strictly reduces the set of valid transactions, while hard forks, conversely, allow for previously invalid transactions to become valid.</p>
 	<p class="block_4">We’ll explain more in the course modules for Module/Week 4.</p>
 	<h3 class="block_8" id="calibre_link-20">Bitcoin Review:</h3>
-	<p class="block_13"><img src="images/000375.png" alt="Image" class="calibre11" /></p>
+	<p class="block_13"><img src="images/image027-key-takeaway-identity" alt="Key Takeaway: Identity" class="calibre11" /></p>
 	<p class="block_4">Let's go over what we talked about in lecture.</p>
 	<p class="block_4">First, we talked about the concept of identity on the Bitcoin network.</p>
 	<p class="block_4">In Bitcoin, each node’s identity is represented by their public key.</p>
@@ -484,25 +484,25 @@
 	<p class="block_4">It is extremely unlikely that someone might happen to generate the same private key as yours.</p>
 	<p class="block_4">Nor is it at all likely that someone can guess your private key to spend money on your behalf.</p>
 	<p class="block_5">&nbsp;</p>
-	<p class="block_13"><img src="images/000372.png" alt="Image" class="calibre11" /></p>
+	<p class="block_13"><img src="images/image028-key-takeaway-transactions.png" alt="Key Takeaway: Transactions" class="calibre11" /></p>
 	<p class="block_4">Bitcoin doesn’t have the account balance model that banks have.</p>
 	<p class="block_4">Instead, users spend outputs from previous transactions.</p>
 	<p class="block_4">These specific outputs are called “Unspent Transaction Outputs” or UTXO.</p>
 	<p class="block_4">The total value of bitcoins you have is the sum of all of UTXOs you own.</p>
 	<p class="block_4">These UTXOs are uniquely identifiable and make tracking payments at the protocol level much more straightforward: The UTXO record system makes it easy for nodes to see how funds change hands between users and UTXOs.</p>
 	<p class="block_4">The UTXO model might not be the most intuitive model for us to understand, but it works well for bitcoin from an architectural standpoint.</p>
-	<p class="block_13"><img src="images/000291.png" alt="Image" class="calibre11" /></p>
+	<p class="block_13"><img src="images/image029-key-takeaway-record-keeping.png" alt="Key Takeaway: Record-keeping" class="calibre11" /></p>
 	<p class="block_4">As we mentioned earlier, the blockchain is the key data structure for recording Bitcoin activity.</p>
 	<p class="block_4">New transactions are recorded within new blocks added to the existing, established chain. </p>
 	<p class="block_4">Once a transaction is recorded, it is close to impossible to undo without changing every single version of this database in the universe.</p>
-	<p class="block_13"><img src="images/000129.png" alt="Image" class="calibre11" /></p>
+	<p class="block_13"><img src="images/image030-key-takeaway-consensus.png" alt="Key Takeaway: Consensus" class="calibre11" /></p>
 	<p class="block_4">The way that the network reaches consensus is through Proof-of-Work.</p>
 	<p class="block_4">How does it work again?</p>
 	<p class="block_4">Proof-of-Work requires that voters expense a considerable amount of computational power in order to validate transactions.</p>
 	<p class="block_4">But why do we need Proof-of-Work?</p>
 	<p class="block_4">Because, again, there is no central authority to make sure that one person only vote once, and there is no limitation on how many identities one person can generate, Bitcoin uses computational power as a resource constraint to limit the voting power of malicious entities.</p>
 	<p class="block_4">Proof-of-Work hence aims to make votes expensive for everyone, so that the voting power one has is based on how much computational power one has, instead of based on the number of identities.</p>
-	<p class="block_13"><img src="images/000160.png" alt="Image" class="calibre11" /></p>
+	<p class="block_13"><img src="images/image031-unique-properties-of-bitcoin.png" alt="Unique properties of bitcoin" class="calibre11" /></p>
 	<p class="block_4">Given all this information, you can now justify many of the common buzzwords associated with Bitcoin which you may have heard.</p>
 	<p class="block_4">The most common descriptors of Bitcoin are “pseudonymous,” “decentralized”, “immutable”, and “trustless”.</p>
 	<p class="block_4">Pseudonymity is a combination of the words “pseudo,” meaning fake, and “anonymous,” meaning unknown.</p>
@@ -574,12 +574,12 @@
 	<p class="block_4">Amongst increasing centralized state control, especially of services and of individual information, libertarian dreamers grew concerned with privacy.</p>
 	<p class="block_4">From online discussions on forums and mailing lists, two groups formed: the Cypherpunks and the Crypto-anarchists, both of which advocated for the use of cryptography to protect one’s privacy.</p>
 	<h3 class="block_8" id="calibre_link-27">Libertarian Dreams</h3>
-	<p class="block_11"><img src="images/000056.png" alt="Image" class="calibre12" /></p>
+	<p class="block_11"><img src="images/image032-libertarian-dream-cypherpunks" alt="Libertarian Dream: Cypherpunks" class="calibre12" /></p>
 	<p class="block_4">Before explaining a bit of the background behind all of this, let’s look at this quote first:</p>
 	<p class="block_4">“Privacy is necessary for an open society in the electronic age.<span class="calibre13">  </span>Privacy is not secrecy.<span class="calibre13">  </span>A private matter is something one doesn’t want the whole world to know, but a secret matter is something one doesn’t want anybody to know.<span class="calibre13">  </span>Privacy is the power to selectively reveal oneself to the world.”</p>
 	<p class="block_4">The quote comes from the Cypherpunk Manifesto, which was written by Eric Hughes, a computer programmer and mathematician from UC Berkeley.</p>
 	<p class="block_4">He’s one of the founders of the Cypherpunk movement, and in the 90s founded and administered the Cypherpunk mailing list.</p>
-	<p class="block_13"><img src="images/000002.png" alt="Image" class="calibre11" /></p>
+	<p class="block_13"><img src="images/image033-libertarian-dream-cypherpunks-2png" alt="Image" class="calibre11" /></p>
 	<p class="block_4">The Cypherpunks and Crypto-anarchists hated the idea of national agencies being able to spy on them and have access to their information.</p>
 	<p class="block_4">They also hated censorship.</p>
 	<p class="block_4">But most of all, they hated big banks and governments, both of which were giant centers of power diminishing the autonomy of the average citizen.</p>
