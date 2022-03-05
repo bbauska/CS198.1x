@@ -1,4 +1,6 @@
-<img src="/media/image1.png" style="width:5in;height:2.95745in" />
+<p align="center">
+<img src="/images/image001.png "Bitcoin cs198.1x logo" style="width:5in;height:2.95745in" />
+&nbsp;
 
 # Course Syllabus
 
@@ -36,7 +38,7 @@ This module focuses on the properties behind the second largest blockchain platf
 
 -   [Mastering Bitcoin ](https://github.com/bitcoinbook/bitcoinbook/blob/develop/book.asciidoc)by Andreas Antonopoulos
 
-<img src="/media/image2.png" style="width:5in;height:2.82959in" />
+<img src="/images/image002.png" style="width:5in;height:2.82959in" />
 
 Also, a good unofficial resource is the Blockchain at Berkeley Public Slack, where we discuss various topics related to blockchain. You can request access to our Slack workspace at the bottom of the [Blockchain at Berkeley website ](https://blockchain.berkeley.edu/)under "Join Blockchain at Berkeley on Slack."
 
@@ -88,7 +90,7 @@ And this all sets the stage for the next section, in which we’ll build Bitcoin
 
 ### What is Bitcoin?
 
-### <img src="/media/image3.png" style="width:5in;height:2.82959in" />
+### <img src="/images/image003.png" style="width:5in;height:2.82959in" />
 
 Most people struggle to answer the question, “What is Bitcoin?,” because there are so many different ways to respond.
 
@@ -188,7 +190,7 @@ Instead, everyone can verify and audit the transaction history on their own.
 
 And even the creation of money is decided not by a central authority, but through the process of mining, or Proof-of-Work.
 
-<img src="/media/image4.png" style="width:5in;height:2.82959in" />
+<img src="/images/image004.png" style="width:5in;height:2.82959in" />
 
 ### Bitcoin vs. Banks
 
@@ -226,7 +228,7 @@ And this is where Bitcoin comes in.
 
 So, let's take a look at how Bitcoin can fulfill a bank's functions.
 
-<img src="/media/image5.png" style="width:5in;height:2.82959in" />
+<img src="/images/image005.png" style="width:5in;height:2.82959in" />
 
 In Bitcoin, identity and account management are completely autonomous.
 
@@ -274,7 +276,7 @@ We saw earlier that banks need to keep track of the accounts and identities of t
 
 But how do we do this in Bitcoin, without a bank or central entity to keep track of who’s who and who owns what?
 
-<img src="/media/image6.png" style="width:5in;height:2.81998in" />
+<img src="/images/image006.png" style="width:5in;height:2.81998in" />
 
 ### Identity (Stage 1)
 
@@ -342,7 +344,8 @@ If anyone else gets their hands on your email password, for example, they can pr
 
 Similarly, you would never want anyone else to have your Bitcoin private key as that would give control of your Bitcoin public key and, by implication, your Bitcoin identity.
 
-<img src="/media/image7.png" style="width:5in;height:2.81998in" />
+<p align="center">
+<img src="/images/image007.png" style="width:5in;height:2.81998in" />
 
 In Bitcoin, you can think of your public and private key as a chest and key, respectively.
 
