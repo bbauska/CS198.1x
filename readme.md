@@ -38,7 +38,9 @@ This module focuses on the properties behind the second largest blockchain platf
 
 -   [Mastering Bitcoin ](https://github.com/bitcoinbook/bitcoinbook/blob/develop/book.asciidoc)by Andreas Antonopoulos
 
-<img src="/images/image002.png" style="width:5in;height:2.82959in" />
+<p align="center">
+<img src="/images/image002.png "Expectations: Expect from us, we expect from you" style="width:5in;height:2.95745in" />
+&nbsp;
 
 Also, a good unofficial resource is the Blockchain at Berkeley Public Slack, where we discuss various topics related to blockchain. You can request access to our Slack workspace at the bottom of the [Blockchain at Berkeley website ](https://blockchain.berkeley.edu/)under "Join Blockchain at Berkeley on Slack."
 
