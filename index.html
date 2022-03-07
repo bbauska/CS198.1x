@@ -25,7 +25,7 @@
 <p><strong>(CS198.1x - BerkeleyX)</strong></p></h1>
 </header>
 <p align="center">
-<p><img src="./image/cs198.1x-logo.png" "CS198.1x Bitcoin logo"
+<p><img src="/imageS/cs198.1x-logo.png" "CS198.1x Bitcoin logo"
 style="width:5in;height:2.95745in" /></p>
 <h1 id="course-syllabus">Course Syllabus</h1>
 <p>This course is a comprehensive and in-depth overview of the
@@ -761,8 +761,8 @@ valid?</p>
 way to make this decision in a decentralized way.</p>
 <p>In Bitcoin, users on the network must come to consensus, or
 agreement, on the next valid update.</p>
-<p><img src="./media/image21.png"
-style="width:5in;height:2.81998in" /></p>
+<p align="center"><img src="./images/image021.png" " "
+style="width:5in;height:2.82959in" /></p>
 <p>Because everyone is storing information about the blockchain, we need
 consensus to make sure that everyone agrees on the history of
 transactions.</p>
@@ -789,8 +789,9 @@ form:</p>
 about the transaction directly to every other node.</p>
 <p>All other nodes save the transaction into their history if it’s valid
 and disregard it otherwise.</p>
-<p><img src="./media/image21.png"
-style="width:5in;height:2.81998in" /></p>
+<p align="center"><img src="./images/image021.png" " "
+style="width:5in;height:2.82959in" /></p>
+
 <p>We have an example for you here.</p>
 <p>Gloria wants to make a transaction to Nadir, so she sends that
 message to all four other entities.</p>
@@ -816,8 +817,8 @@ behavior, we must build mechanisms that handle these situations.</p>
 pay both Nadir and myself (Rustie) 10 bitcoins for our laptops.</p>
 <p>Gloria promises me (Rustie) 10 BTC in one transaction, and promises
 10 BTC to Nadir at the same time.</p>
-<p><img src="./media/image23.png"
-style="width:5in;height:2.81998in" /></p>
+<p align="center"><img src="./images/image023.png" " "
+style="width:5in;height:2.82959in" /></p>
 <p>This is represented by the green arrow from herself to me (Rustie),
 the green circle, and by the separate blue arrow from herself to Nadir,
 the blue circle.</p>
@@ -839,8 +840,8 @@ ledger.</p>
 <p>Both Nadir and I see that the transaction is valid and each believe
 that we have received the bitcoins.</p>
 <p>Of course, both Nadir and I (Rustie) can’t own the same bitcoins.</p>
-<p><img src="./media/image24.png"
-style="width:5in;height:2.81998in" /></p>
+<p align="center"><img src="./images/image024.png" " "
+style="width:5in;height:2.82959in" /></p>
 <p>The moment we try to redeem these tokens with the network, the issue
 becomes transparent.</p>
 <p>It’s going to look to Derrick and Nick that these transactions never
@@ -854,8 +855,9 @@ involve them as sender or recipient, it is impossible to come to
 consensus on a history of transactions because of dishonest actors.</p>
 <p>Thus, it is impossible to prevent these double spend attacks with our
 current model of consensus.</p>
-<p><img src="./media/image25.png"
-style="width:5in;height:2.81998in" /></p>
+<p align="center"><img src="./images/image025.png" " "
+style="width:5in;height:2.82959in" /></p>
+
 <p>Instead of individuals doing their own validation of transaction, we
 can set up a voting system.</p>
 <p>The problem with our previous version of consensus was that there
@@ -876,8 +878,9 @@ network to indicate that she is making a transaction to Nadir.</p>
 else (excluding Gloria) as an indication of communication about two
 things: the received transaction and a vote for or against its
 validity.</p>
-<p><img src="./media/image26.png"
-style="width:5in;height:2.81998in" /></p>
+<p align="center"><img src="./images/image026.png" " "
+style="width:5in;height:2.82959in" /></p>
+
 <p>Let’s observe what happens when Gloria tries to double spend under
 these circumstances.</p>
 <p>Now, when Gloria attempts to double spend, she will be rejected by
@@ -892,8 +895,9 @@ network.</p>
 <p>By looking to the rest of the network for input, considering everyone
 else the third party, we are protected against Gloria’s attempts at
 malicious behavior.</p>
-<p><img src="./media/image27.png"
-style="width:5in;height:2.81998in" /></p>
+<p align="center"><img src="./images/image027.png" " "
+style="width:5in;height:2.82959in" /></p>
+
 <p>Peers in the network vote “no” on Gloria’s proposal, as they notice
 multiple transactions trying to spend the same funds.</p>
 <p>The transaction doesn’t go through, and is not included in an update
@@ -904,8 +908,8 @@ stores the whole history of transactions so that they can verify for
 themselves that the funds exist.</p>
 <p>It looks as if we are victorious!</p>
 <p>However, we forgot one fatal truth about Bitcoin: the anonymity.</p>
-<p><img src="./media/image28.png"
-style="width:5in;height:2.81998in" /></p>
+<p align="center"><img src="./images/image028.png" " "
+style="width:5in;height:2.82959in" /></p>
 <p>Recall that Bitcoin is an accessible, anonymous network with no
 central registry.</p>
 <p>Banks keep track of everyone’s identities and accounts, but no such
@@ -949,8 +953,9 @@ amount of voting power as anyone else, regardless of how many Bitcoin
 identities they have.</p>
 <p>But how?</p>
 <p>Is it even possible to solve this problem?</p>
-<p><img src="./media/image29.png"
-style="width:5in;height:2.81998in" /></p>
+<p align="center"><img src="./images/image029.png" " "
+style="width:5in;height:2.82959in" /></p>
+
 <p>This is where the innovation of Satoshi Nakamoto comes into play.</p>
 <p>They recognized that in order to ensure every real entity has equal
 voting power, they cannot vote with identities at all.</p>
@@ -971,8 +976,8 @@ than the traditional “1-identity-1-vote” system.</p>
 identities that earned the title “Nakamoto Consensus.”</p>
 <p>The particular consensus algorithm that Satoshi Nakamoto came up with
 is known as “Proof-of-Work.”</p>
-<p><img src="./media/image30.png"
-style="width:5in;height:2.81998in" /></p>
+<p align="center"><img src="./images/image030.png" " "
+style="width:5in;height:2.82959in" /></p>
 <p>Let’s break down the word “Proof-of-Work.”</p>
 <p>We know “proof” to mean “evidence,” and “work” to mean “spent
 resources.”</p>
@@ -984,8 +989,9 @@ power.</p>
 <p>It is this method of voting that made Bitcoin the first successful
 cryptocurrency and inspired voting mechanisms for practically every
 other cryptocurrency to follow.</p>
-<p><img src="./media/image31.png"
-style="width:5in;height:2.81998in" /></p>
+<p align="center"><img src="./images/image031.png" " "
+style="width:5in;height:2.82959in" /></p>
+
 <p>Here’s how Proof-of-Work works: whenever someone wants to make a
 proposal to the rest of the Bitcoin network, they first have to solve a
 computationally difficult problem.</p>
@@ -1092,8 +1098,8 @@ valid transactions, while hard forks, conversely, allow for previously
 invalid transactions to become valid.</p>
 <p>We’ll explain more in the course modules for Module 4.</p>
 <h3 id="bitcoin-review">Bitcoin Review:</h3>
-<p><img src="./media/image32.png"
-style="width:5in;height:2.80395in" /></p>
+<p align="center"><img src="./images/image032.png" " "
+style="width:5in;height:2.82959in" /></p>
 <p>Let's go over what we talked about in lecture.</p>
 <p>First, we talked about the concept of identity on the Bitcoin
 network.</p>
@@ -1110,8 +1116,9 @@ many private/public key pairs as they want.</p>
 same private key as yours.</p>
 <p>Nor is it at all likely that someone can guess your private key to
 spend money on your behalf.</p>
-<p><img src="./media/image33.png"
-style="width:5in;height:2.80395in" /></p>
+<p align="center"><img src="./images/image033.png" " "
+style="width:5in;height:2.82959in" /></p>
+
 <p>Bitcoin doesn’t have the account balance model that banks have.</p>
 <p>Instead, users spend outputs from previous transactions.</p>
 <p>These specific outputs are called “Unspent Transaction Outputs” or
@@ -1125,7 +1132,8 @@ UTXOs.</p>
 <p>The UTXO model might not be the most intuitive model for us to
 understand, but it works well for bitcoin from an architectural
 standpoint.</p>
-<p><img src="./media/image34.png"
+
+<p align="center"><img src="./media/image34.png" " "
 style="width:5in;height:2.80395in" /></p>
 <p>As we mentioned earlier, the blockchain is the key data structure for
 recording Bitcoin activity.</p>
@@ -1134,8 +1142,8 @@ existing, established chain.</p>
 <p>Once a transaction is recorded, it is close to impossible to undo
 without changing every single version of this database in the
 universe.</p>
-<p><img src="./media/image35.png"
-style="width:5in;height:2.80395in" /></p>
+<p align="center"><img src="./images/image035.png" " "
+style="width:5in;height:2.82959in" /></p>
 <p>The way that the network reaches consensus is through
 Proof-of-Work.</p>
 <p>How does it work again?</p>
