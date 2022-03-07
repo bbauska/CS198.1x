@@ -24,7 +24,8 @@
 <h1 class="title"><p><strong>Bitcoin and Cryptocurrencies</strong></p>
 <p><strong>(CS198.1x - BerkeleyX)</strong></p></h1>
 </header>
-<p><img src="./media/image1.png"
+<p align="center">
+<p><img src="./image/cs198.1x-logo.png" "CS198.1x Bitcoin logo"
 style="width:5in;height:2.95745in" /></p>
 <h1 id="course-syllabus">Course Syllabus</h1>
 <p>This course is a comprehensive and in-depth overview of the
@@ -104,8 +105,9 @@ Edward Felten, Andrew Miller, and Steven Goldfeder</p></li>
 href="https://github.com/bitcoinbook/bitcoinbook/blob/develop/book.asciidoc">Mastering
 Bitcoin </a>by Andreas Antonopoulos</p></li>
 </ul>
-<p><img src="./media/image2.png"
-style="width:5in;height:2.82959in" /></p>
+<p align="center">
+<p>&lt;img src=“/images/image002-bitcoin-vs-banks.png?raw=true” “Bitcoin vs Banks”
+width=“500” &gt;  </p>
 <p>Also, a good unofficial resource is the Blockchain at Berkeley Public
 Slack, where we discuss various topics related to blockchain. You can
 request access to our Slack workspace at the bottom of the <a
@@ -175,7 +177,8 @@ each of the features and services they provide.</p>
 build Bitcoin from the ground up, incorporating each of these features
 and services and seeing how they fit together.</p>
 <h3 id="what-is-bitcoin">What is Bitcoin?</h3>
-<h3 align="center" id="section"><img src="./images/image003.png" "image 3"
+
+<h3 align="center" id="section"><img src="./images/image003-identity-in-bitcoin.png" "Identity: Identity in Bitcoin?"
 style="width:5in;height:2.82959in" /></h3>
 <p>Most people struggle to answer the question, “What is Bitcoin?,”
 because there are so many different ways to respond.</p>
@@ -281,7 +284,7 @@ Bitcoin Network.</p>
 their own.</p>
 <p>And even the creation of money is decided not by a central authority,
 but through the process of mining, or Proof-of-Work.</p>
-<p><img src="./media/image4.png"
+<p align="center"><img src="./images/image004.png" "Bitcoin vs Banks"
 style="width:5in;height:2.82959in" /></p>
 <h3 id="bitcoin-vs.-banks">Bitcoin vs. Banks</h3>
 <p>Bitcoin aims to get rid of the central entity, the bank.</p>
@@ -315,7 +318,7 @@ government, then you can trust the bank.</p>
 <p>And this is where Bitcoin comes in.</p>
 <p>So, let's take a look at how Bitcoin can fulfill a bank's
 functions.</p>
-<p><img src="./media/image5.png"
+<p align="center"><img src="./images/image005.png" "Identity: Public key security"
 style="width:5in;height:2.82959in" /></p>
 <p>In Bitcoin, identity and account management are completely
 autonomous.</p>
@@ -369,7 +372,7 @@ in Bitcoin:</p>
 identities of their customers.</p>
 <p>But how do we do this in Bitcoin, without a bank or central entity to
 keep track of who’s who and who owns what?</p>
-<p><img src="./media/image6.png"
+<p align="center"><img src="./images/image006.png" "Identtiy: Public Key Security {global} "
 style="width:5in;height:2.81998in" /></p>
 <h3 id="identity-stage-1">Identity (Stage 1)</h3>
 <p>To understand why we need identity in Bitcoin in the first place,
@@ -442,7 +445,7 @@ behalf.</p>
 <p>Similarly, you would never want anyone else to have your Bitcoin
 private key as that would give control of your Bitcoin public key and,
 by implication, your Bitcoin identity.</p>
-<p><img src="./media/image7.png"
+<p align="center"><img src="./images/image007.png" "Identity: Security: Hidden in plain sight"
 style="width:5in;height:2.81998in" /></p>
 <p>In Bitcoin, you can think of your public and private key as a chest
 and key, respectively.</p>
@@ -472,7 +475,7 @@ for users.</p>
 <p>To generate an identity, a user picks a private key at random
 generates the public key from the private key through a mathematical
 function.</p>
-<p><img src="./media/image8.png"
+<p align="center"><img src="./images/image008.png" "Bitcoin vs Banks"
 style="width:5in;height:2.82959in" /></p>
 <p>You may be concerned about the danger of two users ending up with the
 same public key without a central registry ensuring that no two people
@@ -485,8 +488,9 @@ user.</p>
 <p>To illustrate the probability of two users choosing the same identity
 as someone else in Bitcoin, let’s consider something we’re all familiar
 with: the Earth.</p>
-<p><img src="./media/image9.png"
-style="width:5in;height:2.81998in" /></p>
+<p align="center"><img src="./images/image009.png" "Crypto, electronically transferring value"
+style="width:5in;height:2.82959in" /></p>
+
 <p>Bitcoin has 2^160<sup>th</sup> different possible addresses.</p>
 <p>To get a sense of how many different addresses exist for users to
 choose out of, let us compare the number of addresses in Bitcoin to the
@@ -502,13 +506,15 @@ the probability even smaller.</p>
 <p>Let’s consider something more drastic: imagine that for every grain
 of sand on Earth, there exists another Earth, also with
 2^63<sup>rd</sup> grains of sand.</p>
-<p><img src="./media/image10.png"
-style="width:5in;height:2.81998in" /></p>
+<p align="center"><img src="./images/image010.png" " "
+style="width:5in;height:2.82959in" /></p>
+
 <p>Now we have 2^63<sup>rd</sup> times 2^63<sup>rd</sup> grains of sand
 per earth, meaning that there are a total of 2^126<sup>th</sup> grains
 of sand.</p>
-<p><img src="./media/image11.png"
-style="width:5in;height:2.81998in" /></p>
+<p align="center"><img src="./images/image011.png" " "
+style="width:5in;height:2.82959in" /></p>
+
 <p>Even the number of grains of sand upon all these Earths is only
 0.0000000058% (8 zeroes) of all the possible Bitcoin addresses.</p>
 <h3 id="intro-transactions-stage-2">Intro: Transactions (Stage 2)</h3>
@@ -517,13 +523,15 @@ purpose of identity in Bitcoin, we can start asking the question, “How
 do we make transactions between one another in Bitcoin?”</p>
 <p>After all, that’s the primary goal of the Bitcoin network -- to
 enable secure transactions between any two users in the network.</p>
-<p><img src="./media/image12.png"
-style="width:5in;height:2.81998in" /></p>
+<p align="center"><img src="./images/image012.png" " "
+style="width:5in;height:2.82959in" /></p>
+
 <p>As we did before with the concept of identity, we will now be
 analyzing the idea of a transaction.</p>
 <p>Take a moment to ask yourself, “What makes a transaction valid?”</p>
-<p><img src="./media/image13.png"
-style="width:5in;height:2.81998in" /></p>
+<p align="center"><img src="./images/image013.png" " "
+style="width:5in;height:2.82959in" /></p>
+
 <p>For a transaction to be valid, it must have these three
 components:</p>
 <ol type="1">
@@ -547,9 +555,9 @@ dollars when your account only has 100 in total.</p>
 conditions apply to Bitcoin.</p>
 <p>To enforce this, Bitcoin uses what’s known as a UTXO, or Unspent
 Transaction Output, model.</p>
-<p><img src="./media/image14.png"
-style="width:5in;height:2.84871in" /></p>
-<p><img src="./media/image15.png"
+<p align="center"><img src="./images/image014.png" " "
+style="width:5in;height:2.82959in" /></p>
+<p align="center"><img src="./images/image015.png" " "
 style="width:5in;height:2.82959in" /></p>
 <p>Traditionally, when we think of banks, we think of a single account
 where all our funds are aggregated into one count.</p>
@@ -574,8 +582,9 @@ transactions made to them.</p>
 think of UTXOs as piggy banks!</p>
 <p>Every time a transaction is made to us, we put all that money into a
 UTXO, or piggy bank.</p>
-<p><img src="./media/image16.png"
-style="width:5in;height:2.81998in" /></p>
+<p align="center"><img src="./images/image016.png" " "
+style="width:5in;height:2.82959in" /></p>
+
 <p>When we want to spend money, we break open that piggy bank...spend
 whatever we like, and then put the rest into another piggy bank.</p>
 <p>(It’s hard to put a piggy bank’s shattered pieces back together.)</p>
@@ -592,8 +601,8 @@ individually.</p>
 of each of your piggy banks, or UTXOs.</p>
 <h3 id="utxos">UTXO’s:</h3>
 <p>Here’s an example of how transactions work in Bitcoin:</p>
-<p><img src="./media/image17.png"
-style="width:5in;height:3.92747in" /></p>
+<p align="center"><img src="./images/image017.png" "  "
+style="width:5in;height:2.82959in" /></p>
 <p>Let’s say that Gloria has two UTXOs, from past transactions, one
 worth one hundred (100) bitcoins... and one worth fifty bitcoins.</p>
 <p>She, being incredibly wealthy and generous, wants to send one hundred
@@ -635,8 +644,9 @@ the history of transactions?</p>
 transactions, summing to the current amount, and if we don’t know what
 transactions have happened in the past, we can’t determine what’s valid
 in the future.</p>
-<p><img src="./media/image18.png"
-style="width:5in;height:2.81998in" /></p>
+<p align="center"><img src="./images/image018.png" " "
+style="width:5in;height:2.82959in" /></p>
+
 <p>Consider the diagram above.</p>
 <p>Let this represent our network, which includes 5 entities.</p>
 <p>Each of these circles represents an identity: me (Rustie) in green on
@@ -678,8 +688,9 @@ going against Bitcoin’s aim to be a trustless system.</p>
 <p>Instead of having any selected maintainers, let’s make a simple and
 straightforward choice: we have everyone keep a copy of the ledger.</p>
 <p>We make everyone the bank.</p>
-<p><img src="./media/image19.png"
-style="width:5in;height:2.81998in" /></p>
+<p align="center"><img src="./images/image019.png" " "
+style="width:5in;height:2.82959in" /></p>
+
 <p>To get as far as possible from centralization, every individual
 entity in Bitcoin should be equal.</p>
 <p>If every person stores the ledger, then every person has just as much
@@ -703,8 +714,9 @@ the network.</p>
 made for one entity, it must propagate throughout the entire
 network.</p>
 <p>So, how do we store our ledger efficiently?</p>
-<p><img src="./media/image20.png"
-style="width:5in;height:2.81998in" /></p>
+<p align="center"><img src="./images/image020.png" " "
+style="width:5in;height:2.82959in" /></p>
+
 <p>Every update to the distributed database, the Bitcoin ledger, is a
 batch of transactions grouped into what are called blocks.</p>
 <p>Every block is built off, or chained to, a previous block.</p>
