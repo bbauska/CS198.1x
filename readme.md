@@ -6,7 +6,7 @@ Bitcoin and Cryptocurrencies
 &nbsp;
 </h2>
 <!------------------------------------------------------------------------------------------------------------------------->
-<!------------------------------------------- readme.md in CS198.1x.bauska.site -------------------------------------------->
+<!------------------------------------------- readme.md in CS198.1x.bauska.site ------------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
 
 <p align="center">
@@ -31,11 +31,11 @@ This module delves into the origins and historical significance of Bitcoin. We l
 
 We examine the in-depth mechanics behind Bitcoin, such as the Bitcoin network, cryptography and cryptographic hash functions, Bitcoin Script, privacy, and hash commitment schemes.
 
-4.  **Bitcoin In Real Life: Wallets, Mining, and More **
+4.  **Bitcoin In Real Life: Wallets, Mining, and More**
 
 We examine the most frequently used real-world aspects of Bitcoin, such as wallets, wallet mechanics, mining, transactions, and Bitcoin governance. We explain the various ways one can interface with the Bitcoin network, depending on the specific software they run. 
 
-5.  **Game Theory & Network Attacks: How to Destroy Bitcoin **
+5.  **Game Theory & Network Attacks: How to Destroy Bitcoin**
 
 We look into how to destroy Bitcoin, including various network attacks. Specifically, we look into vulnerabilities such as pool cannibalization, double spending and forking attacks, network attacks, the Goldfinger attack, malicious mining profit strategies, and 51% attacks.
 
@@ -103,7 +103,6 @@ And this all sets the stage for the next section, in which we’ll build Bitcoin
 
 ### What is Bitcoin?
 
-### <img src="/images/what is bitcoin-bitcoin genesis.png" style="width:5in;height:2.82959in" />
 <!--------------------------------- What is Bitcoin?  Bitcoin Genesis ---------------------------------->
 <p align="center">
 <img src="/images/what is bitcoin-bitcoin genesis.png "What is bitcoin, bitcoin genesis" style="width:5in;height:2.8in" />
@@ -167,7 +166,7 @@ In Bitcoin, users do not need to use their real world identities; instead, they 
 
 Bitcoin takes control out of the hands of third parties and gives users the freedom to transact while protecting their privacy.
 
-So how does Bitcoin do it? On a high level, the Bitcoin network validates transactions and stores the entire transaction history.
+How does Bitcoin do it? On a high level, the Bitcoin network validates transactions and stores the entire transaction history.
 
 The Bitcoin network is a group of users communicating with each other as part of the Bitcoin protocol.
 
