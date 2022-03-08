@@ -110,17 +110,15 @@ And this all sets the stage for the next section, in which we’ll build Bitcoin
 
 Most people struggle to answer the question, “What is Bitcoin?,” because there are so many different ways to respond.
 
-- {- First -}, Bitcoin is considered the first and the most widely used cryptocurrency.
+{+ First +}, Bitcoin is considered the first and the most widely used cryptocurrency.
 
 A cryptocurrency is a completely digital, decentralized currency that is built using principles of computer science, cryptography, and economics.
-
 The term “Bitcoin” refers to the protocol governing this currency.
-
-- {- Second -}, bitcoin lowercase refers to the actual units of currency.
+{+ Second +}, bitcoin lowercase refers to the actual units of currency.
 
 A Bitcoin user will say they have a certain amount of bitcoins, similar to how we say we have a certain amount of dollars when referring to the US Dollar.
 
-- {- Third -}, Bitcoin is the inspiration for the blockchain, which is the underlying data structure of this cryptocurrency.
+{+ Third +}, Bitcoin is the inspiration for the blockchain, which is the underlying data structure of this cryptocurrency.
 
 A data structure is a virtual format for organizing, retrieving, and storing information.
 
