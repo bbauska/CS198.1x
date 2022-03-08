@@ -5,9 +5,9 @@ CS198.1x - UC @ BerkeleyX -
 Bitcoin and Cryptocurrencies
 &nbsp;
 </h2>
-<!------------------------------------------------------------------------------------------------------------------------->
-<!------------------------------------------- readme.md in CS198.1x.bauska.site ------------------------------------------->
-<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------- readme.md in CS198.1x.bauska.site --------------------------------->
+<!------------------------------------------------------------------------------------------------>
 
 <p align="center">
 <img src="/images/image001.png "Bitcoin cs198.1x logo" style="width:5in;height:2.95745in" />
@@ -48,6 +48,9 @@ This module focuses on the properties behind the second largest blockchain platf
 -   [Bitcoin and Cryptocurrency Technologies ](https://d28rh4a8wq0iu5.cloudfront.net/bitcointech/readings/princeton_bitcoin_book.pdf)by Arvind Narayanan, Joseph Bonneau, Edward Felten, Andrew Miller, and Steven Goldfeder
 
 -   [Mastering Bitcoin ](https://github.com/bitcoinbook/bitcoinbook/blob/develop/book.asciidoc)by Andreas Antonopoulos
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------- readme.md in CS198.1x.bauska.site --------------------------------->
+<!------------------------------------------------------------------------------------------------>
 
 <p align="center">
 <img src="/images/expectations.png "Expectations: Expect from us, we expect from you" style="width:5in;height:2.95745in" />
@@ -103,7 +106,9 @@ And this all sets the stage for the next section, in which we’ll build Bitcoin
 
 ### What is Bitcoin?
 
-<!--------------------------------- What is Bitcoin?  Bitcoin Genesis ---------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ What is Bitcoin?  Bitcoin Genesis ------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/what is bitcoin-bitcoin genesis.png "What is bitcoin, bitcoin genesis" style="width:5in;height:2.8in" />
 &nbsp;
@@ -204,6 +209,9 @@ Instead, everyone can verify and audit the transaction history on their own.
 
 And even the creation of money is decided not by a central authority, but through the process of mining, or Proof-of-Work.
 
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------------- Bitcoin vs. Banks --------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <img src="/images/image004.png" style="width:5in;height:2.82959in" />
 
 ### Bitcoin vs. Banks
@@ -240,9 +248,14 @@ But if you don’t, then you start looking for alternatives.
 
 And this is where Bitcoin comes in.
 
-So, let's take a look at how Bitcoin can fulfill a bank's functions.
+Let's take a look at how Bitcoin can fulfill a bank's functions.
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------- readme.md in CS198.1x.bauska.site --------------------------------->
+<!------------------------------------------------------------------------------------------------>
 
-<img src="/images/image005.png" style="width:5in;height:2.82959in" />
+<p align="center">
+<img src="/images/image005.png "Identity: Public key security" style="width:5in;height:2.8in" />
+&nbsp;
 
 In Bitcoin, identity and account management are completely autonomous.
 
@@ -289,6 +302,9 @@ Identity.
 We saw earlier that banks need to keep track of the accounts and identities of their customers.
 
 But how do we do this in Bitcoin, without a bank or central entity to keep track of who’s who and who owns what?
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------- readme.md in CS198.1x.bauska.site --------------------------------->
+<!------------------------------------------------------------------------------------------------>
 
 <img src="/images/image006.png" style="width:5in;height:2.81998in" />
 
@@ -357,6 +373,9 @@ It gives you your identity.
 If anyone else gets their hands on your email password, for example, they can pretend to be you, receiving and sending emails on your behalf.
 
 Similarly, you would never want anyone else to have your Bitcoin private key as that would give control of your Bitcoin public key and, by implication, your Bitcoin identity.
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------- readme.md in CS198.1x.bauska.site --------------------------------->
+<!------------------------------------------------------------------------------------------------>
 
 <p align="center">
 <img src="/images/image007.png" style="width:5in;height:2.81998in" />
@@ -382,6 +401,9 @@ The reason why we need this public-private key pair scheme in Bitcoin is because
 This means that users have to generate their own identities.
 
 To generate an identity, a user picks a private key at random generates the public key from the private key through a mathematical function.
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------- readme.md in CS198.1x.bauska.site --------------------------------->
+<!------------------------------------------------------------------------------------------------>
 
 <img src="/media/image8.png" style="width:5in;height:2.82959in" />
 
@@ -394,6 +416,9 @@ How do we simulate a bank’s identification process in Bitcoin?
 How do we trust that no two users end up with the same identity?
 
 To illustrate the probability of two users choosing the same identity as someone else in Bitcoin, let’s consider something we’re all familiar with: the Earth.
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------- readme.md in CS198.1x.bauska.site --------------------------------->
+<!------------------------------------------------------------------------------------------------>
 
 <img src="/media/image9.png" style="width:5in;height:2.81998in" />
 
@@ -410,10 +435,16 @@ The likelihood of two people picking the same grain of sand is less than 0.0001%
 In comparison, the number of addresses in Bitcoin is many, many magnitudes greater than the number of grains on sand on Earth, making the probability even smaller.
 
 Let’s consider something more drastic: imagine that for every grain of sand on Earth, there exists another Earth, also with 2\^63^rd^ grains of sand.
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------- readme.md in CS198.1x.bauska.site --------------------------------->
+<!------------------------------------------------------------------------------------------------>
 
 <img src="/media/image10.png" style="width:5in;height:2.81998in" />
 
 Now we have 2\^63^rd^ times 2\^63^rd^ grains of sand per earth, meaning that there are a total of 2\^126^th^ grains of sand.
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------- readme.md in CS198.1x.bauska.site --------------------------------->
+<!------------------------------------------------------------------------------------------------>
 
 <img src="/media/image11.png" style="width:5in;height:2.81998in" />
 
@@ -424,12 +455,18 @@ Even the number of grains of sand upon all these Earths is only 0.0000000058% (8
 So now that we have a clear understanding of the structure and purpose of identity in Bitcoin, we can start asking the question, “How do we make transactions between one another in Bitcoin?”
 
 After all, that’s the primary goal of the Bitcoin network -- to enable secure transactions between any two users in the network.
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------- readme.md in CS198.1x.bauska.site --------------------------------->
+<!------------------------------------------------------------------------------------------------>
 
 <img src="/media/image12.png" style="width:5in;height:2.81998in" />
 
 As we did before with the concept of identity, we will now be analyzing the idea of a transaction.
 
 Take a moment to ask yourself, “What makes a transaction valid?”
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------- readme.md in CS198.1x.bauska.site --------------------------------->
+<!------------------------------------------------------------------------------------------------>
 
 <img src="/media/image13.png" style="width:5in;height:2.81998in" />
 
@@ -454,8 +491,14 @@ They must also ensure that you do not spend the same money more than once -- tha
 To ensure that one uses funds not in their possession, all the same conditions apply to Bitcoin.
 
 To enforce this, Bitcoin uses what’s known as a UTXO, or Unspent Transaction Output, model.
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------- readme.md in CS198.1x.bauska.site --------------------------------->
+<!------------------------------------------------------------------------------------------------>
 
 <img src="/media/image14.png" style="width:5in;height:2.84871in" />
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------- readme.md in CS198.1x.bauska.site --------------------------------->
+<!------------------------------------------------------------------------------------------------>
 
 <img src="/media/image15.png" style="width:5in;height:2.82959in" />
 
@@ -478,6 +521,9 @@ To make transaction processing much easier and more secure, users do not spend f
 An easy way to wrap our heads around this unintuitive model is to think of UTXOs as piggy banks!
 
 Every time a transaction is made to us, we put all that money into a UTXO, or piggy bank.
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------- readme.md in CS198.1x.bauska.site --------------------------------->
+<!------------------------------------------------------------------------------------------------>
 
 <img src="/media/image16.png" style="width:5in;height:2.81998in" />
 
@@ -496,6 +542,9 @@ The amount of bitcoin you own is calculated by summing up the value of each of y
 ### UTXO’s:
 
 Here’s an example of how transactions work in Bitcoin:
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------- readme.md in CS198.1x.bauska.site --------------------------------->
+<!------------------------------------------------------------------------------------------------>
 
 <img src="/media/image17.png" style="width:5in;height:3.92747in" />
 
@@ -5369,6 +5418,9 @@ With more than 50%, say 51%, I will always be able to double spend.
 I will always be in full control of which blocks are included within the history of transactions.
 
 ### Goldfinger Attack
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------- readme.md in CS198.1x.bauska.site --------------------------------->
+<!------------------------------------------------------------------------------------------------>
 
 <img src="/media/image260.png" style="width:5in;height:2.80206in" />
 
@@ -5415,10 +5467,16 @@ Now, we’ll look at another sort of attack: the censorship of transactions.
 With censorship, we can choose to ignore the transactions from an individual or group of individuals, isolating them from the network and effectively rendering their bitcoins useless.
 
 ### Censorship Attacks: Naive Censorship
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------- readme.md in CS198.1x.bauska.site --------------------------------->
+<!------------------------------------------------------------------------------------------------>
 
 <img src="/media/image261.png" style="width:5in;height:2.82384in" />
 
 Let’s say that Gloria is in charge of the Glorian nation, and has jurisdiction over all of the mining pools within its boundaries, which sums up to be over 51% of the Bitcoin network's hash power . Gloria doesn’t like me, so her goal is to censor all of my Bitcoin addresses and prevent me from spending any of my Bitcoin.
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------- readme.md in CS198.1x.bauska.site --------------------------------->
+<!------------------------------------------------------------------------------------------------>
 
 <img src="/media/image262.png" style="width:5in;height:2.85528in" />
 
@@ -5433,6 +5491,9 @@ This doesn’t fully blacklist me, and only ends up causing delays and inconveni
 Gloria has.
 
 ### Censorship Attacks: Punitive Forking
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------- readme.md in CS198.1x.bauska.site --------------------------------->
+<!------------------------------------------------------------------------------------------------>
 
 <img src="/media/image263.png" style="width:5in;height:2.82018in" />
 
@@ -5441,6 +5502,9 @@ Let’s look at another strategy for Gloria.
 Remember that Gloria’s mining pools have over 51% of the network hashrate.
 
 She can say that all Glorian pools will refuse to work on a chain containing transactions spending from my address and announce this to the world.
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------- readme.md in CS198.1x.bauska.site --------------------------------->
+<!------------------------------------------------------------------------------------------------>
 
 <img src="/media/image264.png" style="width:5in;height:2.80206in" />
 
@@ -5449,6 +5513,9 @@ If miners include one of my transactions in a block, Gloria will fork and create
 The blocks containing my transactions are now invalid since they aren’t on the longest chain and will never be published.
 
 This also means that the miners on that chain will receive no mining rewards for their efforts.
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------- readme.md in CS198.1x.bauska.site --------------------------------->
+<!------------------------------------------------------------------------------------------------>
 
 <img src="/media/image265.png" style="width:5in;height:2.85901in" />
 
@@ -5461,6 +5528,9 @@ This strategy is known as punitive forking, and can be very powerful in the hand
 That entity can prevent anybody from accessing their funds.
 
 Censorship Attacks: Feather Forking
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------- readme.md in CS198.1x.bauska.site --------------------------------->
+<!------------------------------------------------------------------------------------------------>
 
 <img src="/media/image266.png" style="width:5in;height:2.8125in" />
 
@@ -5471,16 +5541,25 @@ Yeah...
 There is a strategy called feather forking, in which Gloria announces that she will attempt to fork if she sees a block with one of my transactions. But she will give up after a while.
 
 This is in contrast to punitive forking, since that only works if a longer chain is guaranteed by the fork. In short, Gloria gives up after a block with my transactions has k confirmations, where k is any number. In the diagram, Gloria sees a block containing one of my transactions and attempts to fork. However, I get 3 confirmations, so she gives up trying to continue her fork.
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------- readme.md in CS198.1x.bauska.site --------------------------------->
+<!------------------------------------------------------------------------------------------------>
 
 <img src="/media/image267.png" style="width:5in;height:2.80724in" />
 
 Let’s look at a little bit of math. Let q be the proportion of mining power that Gloria has. Let k equal one, so that Gloria gives up after one confirmation on my block. This means that the chance of successfully orphaning my block is q squared, since Gloria has to compete with each confirmation. If q is 20%, then gloria has a 4% chance to orphan my block, which isn’t that great.
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------- readme.md in CS198.1x.bauska.site --------------------------------->
+<!------------------------------------------------------------------------------------------------>
 
 <img src="/media/image268.png" style="width:5in;height:2.81572in" />
 
 However, other miners are now aware that their block has a q\^2, or 4% chance of being orphaned.
 
 They now have to decide whether they should include my transaction in their block. The expected value of including my transaction is the chance that my block is included times the block reward, plus the transaction fee that I pay. The expected value of not including my transaction is simply just the block reward, since all miners would be working on that chain.
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------- readme.md in CS198.1x.bauska.site --------------------------------->
+<!------------------------------------------------------------------------------------------------>
 
 <img src="/media/image269.png" style="width:5in;height:2.82776in" />
 
@@ -5497,6 +5576,9 @@ If there’s a way for miners to maximize profit, assume that they will do so, e
 One of the best examples of this sort of behavior is selfish mining.
 
 ### Selfish Mining Attacks
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------- readme.md in CS198.1x.bauska.site --------------------------------->
+<!------------------------------------------------------------------------------------------------>
 
 <img src="/media/image270.png" style="width:5in;height:2.77349in" />
 
@@ -5509,6 +5591,9 @@ Since you haven’t released your block, you’re effectively the only person wo
 Nobody else on the network can even attempt to solve the hash puzzle.
 
 This is called selfish mining, or block withholding.
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------- readme.md in CS198.1x.bauska.site --------------------------------->
+<!------------------------------------------------------------------------------------------------>
 
 <img src="/media/image271.png" style="width:5in;height:2.8113in" />
 
@@ -5527,6 +5612,9 @@ The moment the honest network is about to catch up to you, you can just publish 
 So, you can continue mining this way and continue cheating the system until the honest network catches up to you.
 
 You’ve guaranteed yourself more block reward than the honest network, and most importantly, you deny the honest network the chance to do any meaningful work because you have your own secret chain, and you can immediately invalidate the honest chain as soon as you publish your secret chain.
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------- readme.md in CS198.1x.bauska.site --------------------------------->
+<!------------------------------------------------------------------------------------------------>
 
 <img src="/media/image272.png" style="width:5in;height:2.83226in" />
 
@@ -5541,6 +5629,9 @@ Since you had no competition, you had a higher proportion of the effective hashr
 The key thing to note here is that you assume that you as a malicious miner can find two blocks faster than the rest of the network can find one block.
 
 If you can’t, then your computation is the one that goes to waste.
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------- readme.md in CS198.1x.bauska.site --------------------------------->
+<!------------------------------------------------------------------------------------------------>
 
 <img src="/media/image273.png" style="width:5in;height:2.81617in" />
 
@@ -5565,6 +5656,9 @@ In this next section we’ll be taking a look at some of the defenses we have to
 We’ll first take a look at some of the more naive defenses, and see what we can improve from there.
 
 ### Block Validation
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------- readme.md in CS198.1x.bauska.site --------------------------------->
+<!------------------------------------------------------------------------------------------------>
 
 <img src="/media/image274.png" style="width:5in;height:2.83398in" />
 
@@ -5599,6 +5693,9 @@ They can do this because as we know from before, it’s easy to generate new ide
 And furthermore, there’s no real way of determining how many signatures is enough to show that a block is valid.
 
 For example…
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------- readme.md in CS198.1x.bauska.site --------------------------------->
+<!------------------------------------------------------------------------------------------------>
 
 <img src="/media/image275.png" style="width:5in;height:2.82665in" />
 
@@ -5617,6 +5714,9 @@ Furthermore, another downside to having dummy signature blocks is that their imp
 Such a change would require a hard fork, which is undesirable.
 
 ### Fork Publishment
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------- readme.md in CS198.1x.bauska.site --------------------------------->
+<!------------------------------------------------------------------------------------------------>
 
 <img src="/media/image276.png" style="width:5in;height:2.80769in" />
 
@@ -5629,6 +5729,9 @@ Any competing blocks receive no block reward, regardless of whether they were mi
 This disincentivizes malicious users to attempt to fork the blockchain by working on their own secret chain, and also incentivizes honest miners to report any forks that they have seen.
 
 In the diagram below, we see that there’s a fork, the top being the honest chain and the bottom being the dishonest chain.
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------- readme.md in CS198.1x.bauska.site --------------------------------->
+<!------------------------------------------------------------------------------------------------>
 
 <img src="/media/image277.png" style="width:5in;height:2.8141in" />
 
@@ -5647,6 +5750,9 @@ To do this and also to forward half of the block reward to the next block, we’
 And in the end, fork punishment would require a hard fork to implement, and as before, that’s pretty undesirable.
 
 ### Uniform Tie-Breaking
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------- readme.md in CS198.1x.bauska.site --------------------------------->
+<!------------------------------------------------------------------------------------------------>
 
 <img src="/media/image278.png" style="width:5in;height:2.79948in" />
 
@@ -5675,6 +5781,9 @@ This would then mean that for Bitcoin to be entirely secure, 100% of the network
 In their paper, with their proposed uniform tie-breaking, they claimed that it raised the profit threshold for selfish mining to 25%.
 
 However, later in 2015, a separate paper published by Sapirshtein proposed a more optimal selfish mining strategy that reduced the profit threshold down to 23.2%.
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------- readme.md in CS198.1x.bauska.site --------------------------------->
+<!------------------------------------------------------------------------------------------------>
 
 <img src="/media/image279.png" style="width:5in;height:2.80566in" />
 
@@ -5701,6 +5810,9 @@ As it turns out, selfish miners can easily break this defense.
 Tie-breaking rules only apply when there’s a block propagation race, NOT when the selfish mining chain is longer than the public chain.
 
 And as it turns out, it has been shown that if an attacker has a large amount of computational power, say greater than 40%, then these tie-breaking defenses against selfish mining are essentially worthless.
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------- readme.md in CS198.1x.bauska.site --------------------------------->
+<!------------------------------------------------------------------------------------------------>
 
 <img src="/media/image280.png" style="width:5in;height:2.83959in" />
 
@@ -5711,16 +5823,31 @@ Miners will pick the longest chain, since it has the most work done on it, and w
 And another thing you might have realized is that this defense requires a trusted third party to distribute timestamps to everyone.
 
 The drawback here is that Bitcoin aims to be as decentralized as possible, and while this might work with other systems, centralization certainly doesn’t mix with Bitcoin’s philosophy.
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------- readme.md in CS198.1x.bauska.site --------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------- readme.md in CS198.1x.bauska.site --------------------------------->
+<!------------------------------------------------------------------------------------------------>
 
 <img src="/media/image281.png" style="width:5in;height:2.82268in" />
 
 So, we’ll skip this for now.
 
 ### Publish or Perish: Overview
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------- readme.md in CS198.1x.bauska.site --------------------------------->
+<!------------------------------------------------------------------------------------------------>
 
 <img src="/media/image282.png" style="width:5in;height:2.86458in" />
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------- readme.md in CS198.1x.bauska.site --------------------------------->
+<!------------------------------------------------------------------------------------------------>
 
 <img src="/media/image283.png" style="width:5in;height:2.80206in" />
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------- readme.md in CS198.1x.bauska.site --------------------------------->
+<!------------------------------------------------------------------------------------------------>
 
 <img src="/media/image284.png" style="width:5in;height:2.80645in" />
 
@@ -5755,8 +5882,12 @@ The bottom diagrams illustrate the two possible requirements for a block to be i
 On the left side, a block is received withing tau time, so that block is in competition with the current head.
 
 On the right side, the block received has a height value that’s one greater than the local head, so we just append it to the blockchain.
-
-<img src="/media/image285.png" style="width:5in;height:2.84135in" />
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------- Publish or Perish: Zang and Preneel ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/image285.png "Publish or Perish: Zang and Preneel" style="width:5in;height:2.8in" />
+&nbsp;
 
 The term uncle refers to an in-time block that competes with a block parent – the parent being the previous block to the current.
 
@@ -5765,8 +5896,12 @@ To formalize, the uncle of a block B is one less the height of B. Makes sense be
 And for the uncle of B to be in time, it must be within tau time of B’s parent.
 
 The diagram on the right side nicely summarized the definition of an uncle block.
-
-<img src="/media/image286.png" style="width:5in;height:2.79221in" />
+<!------------------------------------------------------------------------------------------------>
+<!--------------------- Publish or Perish: Weighted Fork Resolving Policy ------------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/image286.png "Publish or Perish: Weighted Fork Resolving Policy" style="width:5in;height:2.8in" />
+&nbsp;
 
 We have our child block B, and previous to that, we have its parent A. At the same block height to A, we have blocks C and D. Block C is an uncle to B because it is within tau time of B’s parent, A. Block D on the other hand is not an uncle to B because while it has the correct height – one less the height of B – it was not seen in tau time of B’s parent, A. So it’s not an uncle.
 
@@ -5805,8 +5940,12 @@ If we set k to infinite, then the rule never applies.
 So now that we’ve spent all this time defining all these terms and procedures, let’s look at how publish or perish actually disincentivizes selfish mining.
 
 Here’s the general scenario.
-
-<img src="/media/image287.png" style="width:5in;height:2.84876in" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ Publish or Perish: Selfish Miners ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/image287.png "Publish or Perish: Selfish Miners" style="width:5in;height:2.8in" />
+&nbsp;
 
 Say that a selfish miner has already secretly mined one block. Before they can mine a second block, the honest network publishes a competing block. There’s now a block propagation race. At his point in time, the selfish miner has two options: option 1, to publish, or option 2, not to publish.
 
@@ -5819,8 +5958,12 @@ On the other hand, if the selfish miner keeps their block secret and misses the 
 The key takeway is that no matter which option the selfish miner chooses in the end, neither option gives weight to the selfish chain that is not also given to the honest chain.
 
 ### Publish or Perish: Analysis
-
-<img src="/media/image288.png" style="width:5in;height:2.84149in" />
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- Publish or Perish: Analysis ----------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/image288.png "Publish or Perish: Analysis" style="width:5in;height:2.8in" />
+&nbsp;
 
 For a bit more clarity, let’s take a more rigorous approach to our analysis of the previous scenario.
 
@@ -5837,8 +5980,12 @@ However, since S then becomes an uncle to the next honest block, it also counts 
 So, S counts into the weight of both the honest and selfish chains.
 
 Fast forward to the point in time where we the have diagram below, both the honest and selfish chains have a weight of 3 despite the fact that there are only two honest blocks but three selfishly mined blocks
-
-<img src="/media/image289.png" style="width:5in;height:2.8534in" />
+<!------------------------------------------------------------------------------------------------>
+<!--------------------------------- Publish or Perish: Option 2 ---------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/image289.png "Publish or Perish: Option 2" style="width:5in;height:2.8in" />
+&nbsp;
 
 In option 2, the selfish miner doesn’t publish S, and instead chooses to wait, and publish later on as part of the selfish chain.
 
@@ -5857,8 +6004,12 @@ It will only contribute to both or neither.
 This completely nullifies the advantage of having S in the first place.
 
 Here are a couple graphs on the expected revenue of selfish miners when publish or perish is in effect.
-
-<img src="/media/image290.png" style="width:5in;height:2.81818in" />
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------------- Publish or Perish: Graphs ----------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/image290.png "Publish or Perish: Graphs" style="width:5in;height:2.8in" />
+&nbsp;
 
 On the left side, we have a graph of selfish miners’ profit, given that certain defenses are in place.
 
@@ -5867,8 +6018,12 @@ Particularly notable is the performance of publish or perish in comparison to op
 Optimal tie breaking is the theoretical optimal defense that always rejects selfish blocks whenever there’s a tie, with 100% accuracy.
 
 Notice that publish or perish even outperforms this theoretical optimal tie breaking defense.
-
-<img src="/media/image291.png" style="width:5in;height:2.82468in" />
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- Publish or Perish: Limitations -------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/image291.png "Publish or Perish: Limitations" style="width:5in;height:2.8in" />
+&nbsp;
 
 On the right side, we have revenue given different values of k, which again is the threshold number of blocks ahead a chain has to be in order for miners to just automatically choose to mine on that one.
 
@@ -5931,8 +6086,12 @@ If i wanted to send out a transaction I have to tell all the nodes I’m connect
 All my neighbors tell their neighbors, and their neighbors tell their neighbors, and so on.
 
 For example, if the network actually looked like this…
-
-<img src="/media/image292.png" style="width:5in;height:2.84686in" />
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- Bitcoin Network: A Closer Look -------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/image292.png "Bitcoin Network: A Closer LOok" style="width:5in;height:2.8in" />
+&nbsp;
 
 ...and I wanted to send a message to Nick…...I would tell my neighbors Derrick and Gloria.
 
@@ -5949,8 +6108,12 @@ You ask these seed nodes for their neighbors, pick some, ask these nodes for the
 Bitcoin allows each node to have a maximum of 125 connections, and generally you have 8 outbound connections and 117 inbound connections.
 
 To further understand how information propagates through the Bitcoin network, we have to understand the network topology and latency.
-
-<img src="/media/image293.png" style="width:5in;height:2.77419in" />
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------- Bitcoin Network: An Uneven Topology ------------------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/image293.png "Bitcoin Network: An Uneven Topology" style="width:5in;height:2.8in" />
+&nbsp;
 
 Network topology means how the Bitcoin network looks like if you were to graph it out like we’ve been doing with circles -- for individual nodes -- and lines -- for connections between nodes.
 
@@ -5971,8 +6134,12 @@ Nope.
 Let’s say Derrick has an incredibly high hash rate…
 
 It could be that he’s running a mining farm or pool.
-
-<img src="/media/image294.png" style="width:5in;height:2.80725in" />
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------- Bitcoin Network: Uneven Influences ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/image294.png "Bitcoin Network: Uneven Influences" style="width:5in;height:2.8in" />
+&nbsp;
 
 We can’t really tell, since mining farms and pools sometimes want to remain secret so people don’t attack them.
 
@@ -5991,8 +6158,12 @@ They could just be connecting to Derrick’s node directly through some lightwei
 So all of Derrick’s miners form a secret subgraph essentially.
 
 And it turns out that due to this hidden graph topology, and the fact that Derrick could be multiple nodes on the network, possibly running multiple pools, Derrick could potentially hide the fact that he has more than 50% of the network hash power.
-
-<img src="/media/image295.png" style="width:5in;height:2.82665in" />
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------- Bitcoin Network: An Uneven Topology (3) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/image295.png "Bitcoin Network: An Uneven Topology (3)" style="width:5in;height:2.8in" />
+&nbsp;
 
 And scarier yet, Derrick doesn’t even need 50% of the network hash power.
 
@@ -6003,8 +6174,12 @@ As it turns out, the Bitcoin network could be in jeopardy if Derrick’s pool --
 Or 25%... or 23.2%....or 32%....
 
 Perhaps there’s an attack or selfish mining scheme that hasn’t been discovered yet that lowers the profit threshold even lower.
-
-<img src="/media/image296.png" style="width:3.9in;height:2.19027in" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------------- Bitcoin Network: Different Propogation Times ------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/image296.png "Bitcoin Network: Different Propogation Times" style="width:5in;height:2.8in" />
+&nbsp;
 
 In addition to network topology, we also have to worry about the network latency.
 
@@ -6023,16 +6198,24 @@ This leads to disproportionate profits in miners.
 Miners who are better connected in the network see things faster and are able to send out messages and blocks faster too.
 
 Meanwhile, it’s possible that a poorly connected miner could spend all this time finding a block, and when it finally finds one, its propagation time could be so slow due to network latency that within that time, another miner would have already found and submitted a competing block to a majority of the network.
-
-<img src="/media/image297.png" style="width:3.85in;height:2.17in" />
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------- Bitcoin Network: Sybil Attack Revisited --------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/image297.png "Bitcoin Network: Sybil Attack Revisited" style="width:5in;height:2.8in" />
+&nbsp;
 
 And now for something even bigger.
 
 Think back to the first module, where we discussed Sybil attacks and how it’s not beneficial to have more identities because in Proof-of-Work, we make computational power the limiting factor.
 
 Well, if we’re clever enough, we can launch a Sybil attack in another kind of way, leveraging what we just went over: network topology and latency.
-
-<img src="/media/image298.png" style="width:3.875in;height:2.18628in" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------- Bitcoin Network: Flood the Network ----------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/image298.png "Bitcoin Network: Flood the Network" style="width:5in;height:2.8in" />
+&nbsp;
 
 Let’s say Derrick has the ability to flood the network with nodes.
 
@@ -6043,12 +6226,20 @@ They’d act like sensors.
 Derrick could sybil attack honest miners by leveraging his network level dominance.
 
 Let’s say Derrick is also selfish mining, and already has some secret blocks, which are distributed to all of his 0-power nodes.
-
-<img src="/media/image299.png" style="width:3.875in;height:2.16677in" />
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------- Bitcoin Network: Flood the Network (2)---------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/image299.png "Bitcoin Network: Flood the Network (2)" style="width:5in;height:2.8in" />
+&nbsp;
 
 When Derricks nodes hear about the next honest block X, Derrick could ignore X, and publish his secret block P.
-
-<img src="/media/image300.png" style="width:3.81667in;height:2.10855in" />
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------- Bitcoin Network: Flood the Network (3) --------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/image300.png "Bitcoin Network: Flood the Network (3)" style="width:5in;height:2.8in" />
+&nbsp;
 
 If block P reaches a miner before block X, then the miner by default mines on block P.
 
@@ -6058,7 +6249,7 @@ Derrick is well connected and has less latency, and is able to propagate his sec
 
 He also has unique ownership of the network topology, since he owns a lot of nodes around the network, and also since he has a large proportion of the network mining power.
 
-So, as a closing note, know that outside of what we presented in this module, there are a lot more attacks and defenses, such as eclipse attacks and stubborn mining, which take into account network latency, topology, and more.
+As a closing note, know that outside of what we presented in this module, there are a lot more attacks and defenses, such as eclipse attacks and stubborn mining, which take into account network latency, topology, and more.
 
 ### Text: Lecture 5 Summary
 
@@ -6069,18 +6260,26 @@ Author: Rea Savla 
 ### I.I Pool Hopping
 
 Miners can maximize profits via pool hopping. This occurs when miners switch between Pay-per-Share and Proportional scheme mining pools to whichever payment protocol produces a higher rewards per additional share. In this scenario, honest and loyal pool miners will be cheated out of their profits by miners who pool hop and cause inconsistency in the pool’s hash rate.
-
-<img src="/media/image301.png" style="width:5.03333in;height:3.86667in" alt="Rewards per share for Pay-Per-Share and Proportional Pools" />
+<!------------------------------------------------------------------------------------------------>
+<!-------------------- Reward Per Share for Pay-Per-Share & Proportional Pools ------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/image301.png "Reward Per Share for Pay-Per-Share & Proportional Pools" style="width:5in;height:3.9in" />
+&nbsp;
 
 ### I.II Pool Cannibalization
 
 In this attack, pool miners distribute a small percent of mining power equally among other pools, without ever submitting valid blocks. In doing so, we increase personal profits to the detriment of our mining pools. Pool Cannibalization is very difficult to detect, unless statistically significant. Since it is more profitable to be dishonest than honest, miners are incentivized to spend mining power cannibalizing each other rather than increasing the useful hashrate for finding the next valid block.
 
 If we model the choice between attacking and not attacking the Bitcoin network using game theory, we see that the dominant strategy is for each miner to attack the network, leading to the ultimate detriment of Bitcoin.
+<!------------------------------------------------------------------------------------------------>
+<!--- Table demonstrating the results of attacking and not attacking between Pool 1 and Pool 2 --->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/image302.png "Table demonstrating the results of attacking and not attacking between Pool 1 and Pool 2" style="width:6.5in;height:1.36597in" />
+&nbsp;
 
-<img src="/media/image302.png" style="width:6.5in;height:1.36597in" alt="Table demonstrating the results of attacking and not attacking between Pool 1 and Pool 2." />
-
- In this situation, the Nash Equilibrium, or the position from which no actor can change their position to improve their outcome, is also known as the Tragedy of the Commons,where each individual actor finds it individually beneficial to exploit the public good, leading to the ultimate deterioration of the public good.
+In this situation, the Nash Equilibrium, or the position from which no actor can change their position to improve their outcome, is also known as the Tragedy of the Commons,where each individual actor finds it individually beneficial to exploit the public good, leading to the ultimate deterioration of the public good.
 
 ### II. The Double Spend Attack
 
@@ -6095,8 +6294,12 @@ The Race Attack occurs when you trick someone into thinking the transaction is c
 While you can show your victim a valid transaction, you can also send into the network a conflicting transaction that sends bitcoins from that same UTXO to an account you control, and incentivize miners to include this conflicting transaction instead of the first transaction by offering a higher transaction fee. In other words, you “race” with the conflicting transaction \\to get included in the longest chain. 
 
 To protect against this type of attack, the victim should wait for kconfirmations, kblocks built off of some particular block. In practice, kequals 6. If you still want to double spend, you must create a longer private chain with the same UTXO. If the victim waits kconfirmations, you must mine k+1blocks upon your private chain and then publish your private chain to the network, since no one else can see it when it is private, to complete the Double Spend Attack. Using the following graph, we can see that if you have over 50 percent of the hashing power, the probability that you will eventually get a longer chain than the honest chain is 100 percent, and you will thus successfully conduct a race attack.
-
-<img src="/media/image303.png" style="width:3.975in;height:2.775in" alt="Graph demonstrating the relationship between chains and their lengths" />
+<!------------------------------------------------------------------------------------------------>
+<!-------------------- Reward Per Share for Pay-Per-Share & Proportional Pools ------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/image303.png "Graph demonstrating the relationship between chains and their lengths" style="width:4in;height:2.8in" />
+&nbsp;
 
 ### III. The 51 Percent Attack
 
@@ -6149,6 +6352,12 @@ In addition to network topology, network latency also poses as an issue. Nodes t
 ### 
 
 ### <img src="/media/image304.png" style="width:5in;height:2.81677in" />
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------- Bitcoin Network: Sybil Attack Revisited --------------------------->
+<!------------------------------------------------------------------------------------------------>
+<h3 align="center">
+<img src="/images/image304.png "Bitcoin Network: Sybil Attack Revisited" style="width:5in;height:2.8in" />
+&nbsp;
 
 This module will be the culmination of the last 5 modules.
 
@@ -6197,10 +6406,10 @@ Then, we’ll look at what we need in a framework that allows us to run smart co
 As we did with Bitcoin, we’ll first look at the high level features that we want to see in Ethereum -- mainly the support of smart contracts -- and then see how they’re implemented at a lower level.
 
 ### Bitcoin Review
+<!----done & done ----->
+<img src="/images/image304.jpg" style="width:5in;height:2.81677in" />
 
-<img src="/media/image305.png" style="width:5in;height:2.81677in" />
-
-First we have to consider what makes Bitcoin so special.
+First, we have to consider what makes Bitcoin so special.
 
 Understanding what Bitcoin has to offer allows us better to understand Ethereum’s own value proposition as a smart contract platform.
 
