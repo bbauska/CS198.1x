@@ -109,6 +109,16 @@ And this all sets the stage for the next section, in which we’ll build Bitcoin
 &nbsp;
 
 Most people struggle to answer the question, “What is Bitcoin?,” because there are so many different ways to respond.
+
+$`\textcolor{red}{\text{First}}`$ 
+$`\textcolor{blue}{\text{Second}}`$ 
+$`\textcolor{green}{\text{Third}}`$ 
+```diff
+- RED text
++ GREEN text
+! ORANGE text
+# GRAY text
+```
 <span style="color:red;font-weight:700;font-size:20px">First</span>
 , Bitcoin is considered the first and the most widely used cryptocurrency.
 
