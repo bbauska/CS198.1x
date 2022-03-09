@@ -1,5 +1,6 @@
 <h2 align="center">
 UC @ BerkeleyX - CS198.1x
+&nbsp;
 <img src="/images/image001.png "Bitcoin cs198.1x logo" style="width:5in;height:2.95745in" />
 &nbsp;
 <h2 align="center">
