@@ -7139,7 +7139,12 @@ We can use prediction markets to “buy information.”
 
 As users have an incentive to monetize information while revealing as little of it as possible, we can set up a prediction market which asks a simple question, such as…
 
-<img src="/media/image359.png" style="width:5in;height:2.8125in" />
+<!------------------------------------------------------------------------------------------------>
+<!----------------------- Prediction Markets: And Decentralizing Them ---------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/image348.png "Prediction Markets: And Decentralizing Them" style="width:5in;height:2.85in" />
+&nbsp;
 
 Will this movie be a flop?
 
@@ -7148,16 +7153,24 @@ By putting this in a prediction market, we can get a sense for the general audie
 Hollywood insiders, for example, would be particularly drawn to this, as they can leverage their immense store of knowledge to make money for themselves.
 
 This allows the person asking the question to gather information while letting users keep specifics to themselves.
-
-<img src="/media/image360.png" style="width:5in;height:2.8125in" />
+<!------------------------------------------------------------------------------------------------>
+<!--------------------------- Prediction Markets: Other Use Cases--------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/image349.png "Prediction Markets: Other Use Cases" style="width:5in;height:2.85in" />
+&nbsp;
 
 Other use cases include insurance, bug bounties, and ICO signaling.
 
 The first market for insurance is a way to let users prepare against disasters through crowdfunding, and the second two are ways to incentivize certain actions, such as the honest exposure of bug bounties.
 
 If a user notices a bug in a smart contract, they can heavily bet “yes” before revealing the vulnerability, allowing them to reap the rewards of their hidden knowledge.
-
-<img src="/media/image361.png" style="width:5in;height:2.80476in" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------- Prediction Markets: Futarchy & Cryptoeconomics ----------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/image350.png "Prediction Markets: Futarchy & Cryptoeconomics" style="width:5in;height:2.85in" />
+&nbsp;
 
 An exciting use case of prediction markets is futarchy.
 
@@ -7174,8 +7187,12 @@ Eventually, only the regularly successful will bet, meaning that policies will b
 Research is still being done to examine the feasibility of futarchy on a blockchain, particularly by Gnosis.
 
 ### Advanced Use Cases: Supply Chain
-
-<img src="/media/image362.png" style="width:5in;height:2.81477in" />
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- Supply Chain and Provenance ----------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/image351.png "Supply Chain and Provenance" style="width:5in;height:2.85in" />
+&nbsp;
 
 A popular conception is that blockchain is the perfect solution for supply chain.
 
@@ -7200,8 +7217,12 @@ There are some caveats however, which include the issue of representing real wor
 We have to trust that individuals are not bribed to include false information in the blockchain, and we also have to trust that the identifier of the diamond was not tampered with in the process.
 
 ### Advanced Use Cases: Smart Energy Grids
-
-<img src="/media/image363.png" style="width:5in;height:2.8125in" />
+<!------------------------------------------------------------------------------------------------>
+<!-------------------- Smart Energy Grids: Revolutionizing Infrastructure ------------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/image352.png "Smart Energy Grids: Revolutionizing Infrastructure" style="width:5in;height:2.85in" />
+&nbsp;
 
 Thus far, we’ve mentioned how we can provide a digital service using a blockchain.
 
@@ -7244,8 +7265,12 @@ In places where the government can’t or won’t contribute to the quality of l
 This is one of the most revolutionary concepts in blockchain, giving users the ability to be their own service providers.
 
 ### Advanced Use Cases: After Hours Trading
-
-<img src="/media/image364.png" style="width:5in;height:2.83575in" />
+<!------------------------------------------------------------------------------------------------>
+<!---------------------- After Hours Trading: 24/7 Access & Liquidity ---------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/image353.png "After Hours Trading: 24/7 Access & Liquidity" style="width:5in;height:2.85in" />
+&nbsp;
 
 The final use case we’re going to examine is after hours trading.
 
@@ -7284,8 +7309,12 @@ Any broker can tap into this market, allowing for the trustless pooling of these
 By coordinating between these untrusting parties on a globally accessible platform, the liquidity problem will have been solved in a way that’s unfeasible for centralized solutions.
 
 ### Blockchain vs Internet
-
-<img src="/media/image365.png" style="width:5in;height:2.81412in" />
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- Blockchain vs The Internet ------------------------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/image354.png "Blockchain vs The Internet" style="width:5in;height:2.85in" />
+&nbsp;
 
 In almost every conversation about blockchain’s role in society or path going forward, you’ll hear a comparison to the Internet.
 
@@ -7350,8 +7379,12 @@ Now that we’ve seen all these use cases, let’s go ahead and finish off with 
 These points can be used to understand and discuss any use case you come across or come up with.
 
 These points describe the properties of a good blockchain use case, along with the scenarios in which a blockchain is not needed or inferior to a centralized solution.
-
-<img src="/media/image366.png" style="width:5in;height:2.78526in" />
+<!------------------------------------------------------------------------------------------------>
+<!-------------- Blockchain Generalizations: Viable but Blockchain Not Necessary ----------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/image355.png "Blockchain Generalizations: Viable but Blockchain Not Necessary" style="width:5in;height:2.85in" />
+&nbsp;
 
 To start off, let’s talk about the scenarios where a blockchain will work, but is not necessary.
 
@@ -7370,8 +7403,12 @@ The other bullet points listed below are properties of blockchain that are not e
 For example, just because you didn’t hear of fault tolerance, consensus, or public key cryptography before blockchain doesn’t mean that blockchain’s the only way to do it.
 
 Each of these bullets can be achieved by using a subset of the technology that goes into making a blockchain.
-
-<img src="/media/image367.png" style="width:5in;height:2.83741in" />
+<!------------------------------------------------------------------------------------------------>
+<!----------------- Blockchain Generalizations: Solving Coordination Failures -------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/image356.png "Blockchain Generalizations: Solving Coordination Failures" style="width:5in;height:2.85in" />
+&nbsp;
 
 While blockchains will work, they’re over-engineered solutions to these problems.
 
@@ -7392,8 +7429,12 @@ With this, smart contracts can be used to make commitments, to fund public infra
 The miners will force the actors to honor their commitments, as was the original intention of smart contracts.
 
 Instead of bringing in lawyers to settle matters when things don’t according to plan, we’re now able to rely on a smart contract to execute as intended, giving us the ability to believe in this code as law.
-
-<img src="/media/image368.png" style="width:5in;height:2.82263in" />
+<!------------------------------------------------------------------------------------------------>
+<!-------------------- Blockchain Generalizations: Horizontal Integration ------------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/image357.png "Blockchain Generalizations: Horizontal Integration" style="width:5in;height:2.85in" />
+&nbsp;
 
 Blockchains create a standardized platform for access and interaction.
 
@@ -7422,6 +7463,12 @@ This is referred to as network effects, which is the increased value or potentia
 Similar to how more Facebook users makes the platform more worthwhile for all users, more smart contract developers increases the value of a platform.
 
 In this way, individuals are supporting the rest of the community while benefiting themselves as well.
+<!------------------------------------------------------------------------------------------------>
+<!--------------------- Blockchain Generalizations: Essential Properties ------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/image358.png "Blockchain Generalizations: Essential Properties" style="width:5in;height:2.85in" />
+&nbsp;
 
 <img src="/media/image369.png" style="width:5in;height:2.83301in" />
 
@@ -7446,8 +7493,12 @@ Perhaps the most astonishing property that a blockchain provides is globally rec
 Cryptocurrencies aren’t divided by lines or borders--they’re guaranteed to be globally accessible and unstoppable as long as there exists a community to support them, unlike businesses or government projects.
 
 Through blockchain, we can support globally recognized ownership, persisting across nations.
-
-<img src="/media/image370.png" style="width:5in;height:2.78948in" />
+<!------------------------------------------------------------------------------------------------>
+<!--------------- Blockchain Generalizations: Advantages of Centralized Solutions ---------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/image359.png "Blockchain Generalizations: Advantages of Centralized Solutions" style="width:5in;height:2.85in" />
+&nbsp;
 
 Now that we’ve finished talking about all the meaningful properties of decentralized solutions, it wouldn’t be complete if we didn’t go over the caveats.
 
@@ -7520,8 +7571,12 @@ Authors: Rea Savla and David Luo
 The first use case is a smart asset, or token, built on a currently existing blockchain. All that needs to be done is to ensure that a user who wants to spend money has the funds, has been authenticated, and is not double spending.
 
 Another meaningful use case for smart contracts is multisignature wallets. On Ethereum, we can leverage the platform’s built-in authentication protocol to create a functionality that allows us to have an m of n signature scheme (refer to Lecture 3).
-
-<img src="/media/image371.png" style="width:5in;height:2.8125in" />
+<!------------------------------------------------------------------------------------------------>
+<!------------- Document Ownership: Blockchain Fundamentals: Proof-of-Existence ------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/document-ownership.png "Document Ownership: Blockchain Fundamentals: Proof-of-Existence" style="width:5in;height:2.85in" />
+&nbsp;
 
 We can also create Proof-of-Existence use cases using smart contracts, which hash intellectual property onto a blockchain to prove the existence of some piece of information at some point in time. With Proof-of-Existence, we leverage both the public auditability and immutability of the blockchain. We can use Proof-of-Existence to record document ownership or implement a decentralized DNS system.
 
@@ -7572,8 +7627,12 @@ A central solution is fully controlled by a single organization, keeping everyth
 In the end, it is important to always ask why a blockchain is better than a centralized solution. Neither is better than the other universally, so it is important to compare the pros and cons of both to determine which one is better for each specific use case.
 
 ### Blockchain Use Cases Takeaways
-
-<img src="/media/image372.png" style="width:5in;height:2.82543in" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ Blockchain Use Cases Takeaways ---------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/image360.png "Blockchain Use Cases Takeaways" style="width:5in;height:2.85in" />
+&nbsp;
 
 The main takeaway is that there are advantages to both centralized and decentralized solutions.
 
@@ -7648,8 +7707,12 @@ Joseph Lubin was a co-founder of Ethereum.
 He also founded ConsenSys, which is a company that made great strides in developing the Ethereum ecosystem.
 
 ### Ethereum Research
-
-<img src="/media/image373.png" style="width:5in;height:2.82851in" />
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------- ConsenSys: Ethereum Infrastructure ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/image361.png "" style="width:5in;height:2.85in" />
+&nbsp;
 
 ConsenSys can be best described as a software foundry.
 
@@ -7661,7 +7724,12 @@ And here are some of the many other spoke ventures in Consensys.
 
 The Ethereum community also spawns a lot of original research.
 
-<img src="/media/image374.png" style="width:5in;height:2.85815in" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ Reasearh: Paving the Road Ahead --------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/image362.png "Research: Paving the Road Ahead" style="width:5in;height:2.85in" />
+&nbsp;
 
 Most notably is Casper, the Ethereum Proof-of-Stake implementation that we’ve mentioned a couple times in this module.
 
@@ -7688,8 +7756,12 @@ Smart contracts on Ethereum enable us to execute arbitrary computations on the b
 Ethereum is a decentralized platform designed to run smart contracts. It is a distributed computer spread across many nodes around the world that executes the code people feed in it, without any possibility of downtime, fraud, censorship, or third-party intervention.
 
 Here’s a review of the similarity and differences between Ethereum and Bitcoin:
-
-<img src="/media/image375.png" style="width:6in;height:2.53458in" alt="Table reviewing the similarities and differences between Ethereum and Bitcoin" />
+<!------------------------------------------------------------------------------------------------>
+<!--------- Table reviewing the similarities and differences between Ethereum and Bitcoin -------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/image363.jpg "Bitcoin Network: Flood the Network" style="width:6in;height:2.5in" />
+&nbsp;
 
 There are two kinds of Ethereum accounts: 
 
@@ -7710,16 +7782,24 @@ Ethereum smart contracts generally serve four main purposes: 
 ### III. Ethereum Virtual Machines
 
 The Ethereum Virtual Machine enables the Ethereum blockchain to be programmable. Ethereum Smart Contracts are written in high level programming languages like Solidity, which have to be compiled down to Ethereum Virtual Machine (EVM) code. Every node runs EVM as part of its block verification procedure. Once the contract code is compiled to EVM code, every node in the Ethereum network executes the code. Nodes then come to consensus on the new system state. Note: Ethereum is redundantly parallel; its main goal is not to optimize computational efficiency, but to enable distributed and trustless computation.
-
-<img src="/media/image376.png" style="width:5in;height:2.53152in" alt="Nodes in the Ethereum network" />
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------------- Nodes in the Ethereum Network ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/image364.jpg "Nodes in the Ethereum Network" style="width:5in;height:2.5in" />
+&nbsp;
 
 As in Bitcoin, the nodes come to consensus using Proof-of-Work, removing the need for a trusted third party. Miners in Ethereum competitively create blocks by executing EVM code and searching for a solution to a mining puzzle.
 
 The developers of Ethereum implemented ‘gas’ to protect against the Denial of Service (DoS) Attack, where an attacker includes an infinite loop in the smart contract to disable nodes from executing any other contracts. Gas is what fuels a given contract. You can think of purchasing gas as the price you have to pay to use this distributed, trustless computational power. This disincentivizes DoS attacks because attackers would have to pay an absurdly large amount of ether to execute this attack.
 
 Ethereum is implemented as a distributed state machine, and transactions on the network change the global state of the system. In the transaction execution, or “state transition function,” nodes in Ethereum come to consensus on the network state, and their code execution on the EVM changes the global state from the previous state to the new state. The function looks like this:
-
-<img src="/media/image377.png" style="width:7in;height:2.40887in" alt="Diagram of an executed function" />
+<!------------------------------------------------------------------------------------------------>
+<!---------------- block_state, gas, memory, transaction, msg, code, stack, pc ------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/image365.jpg "Bitcoin Network: Flood the Network" style="width:7in;height:2.4in" />
+&nbsp;
 
 ### Readings
 
