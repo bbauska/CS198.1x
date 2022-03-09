@@ -1,8 +1,11 @@
 <h2 align="center">
-UC @ BerkeleyX - CS198.1x
+University of California @ BerkeleyX - CS198.1x
 &nbsp;
-<img src="/images/image001.png "Bitcoin cs198.1x logo" style="width:5in;height:2.95745in" />
+<p align="center" width="100%">
+<img width="50%" src="/images/image001.png alt="Bitcoin cs198.1x logo"</>
+</p>
 &nbsp;
+
 <h2 align="center">
 Bitcoin and Cryptocurrencies
 &nbsp;
