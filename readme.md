@@ -1,7 +1,7 @@
 <h2 align="center" width="100%">
-University of California @ BerkeleyX - CS198.1x
+CS198.1x - University of California @ BerkeleyX
 &nbsp;
-&nbsp;
+
 <p align="center" width="100%">
 <img width="50%" src="/images/image001.png" alt="Bitcoin cs198.1x logo"</>
 </p>
@@ -14,6 +14,7 @@ Bitcoin and Cryptocurrencies
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- readme.md in CS198.1x.bauska.site --------------------------------->
 <!------------------------------------------------------------------------------------------------>
+    
 ## Course Syllabus
 
 This course is a comprehensive and in-depth overview of the fundamental concepts of the crypto space, with a particular emphasis on Bitcoin. By building intuition first from the context of cryptocurrencies, the first application of blockchain, we understand the key strengths and distinguishing factors of blockchain versus traditional database systems. We then leverage these core features of blockchain to solve new problems.
