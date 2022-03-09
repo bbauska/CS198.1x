@@ -7080,8 +7080,12 @@ By associating addresses to document hashes, users can provide digital signature
 This provides transparency and immutability, since information about all document ownership is public on the blockchain, and also limits centralization because no single entity decides which person owns which titles.
 
 Just like transferring bitcoin between users through UTXOs, we’re simply transferring the land title through smart contracts as well.
-
-<img src="/media/image355.png" style="width:5in;height:2.8125in" />
+<!------------------------------------------------------------------------------------------------>
+<!--------------------------------- Decentralized Land Titles ------------------------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/image344.png "Decentralized Land Titles" style="width:5in;height:2.85in" />
+&nbsp;
 
 However, there’s a big caveat that affects this blockchain use case, along with several others that link real world information to digital information.
 
@@ -7100,16 +7104,24 @@ This problem has yet to be solved.
 Georgia, Ukraine, and Sweden are a few of the major countries tackling decentralized land titles, and several companies are seeking to make decentralized oracle systems as well.
 
 ### Advanced Use Cases: Prediction Markets
-
-<img src="/media/image356.png" style="width:5in;height:2.8125in" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------- Prediction Markets: Draws on the Wisdom of the Crowd ----------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/image345.png "Prediction Markets: Draws on the Wisdom of the Crowd" style="width:5in;height:2.85in" />
+&nbsp;
 
 A prediction market allows users to bet on the future and receive winnings if they bet correctly.
 
 An example of this is the Presidential Election: PredictIt.org gave anyone the opportunity to bet on whether Donald Trump, Hillary Clinton, or another candidate would win the election.
 
 The organization would then decide on what happened, and pay out to users as specified.
-
-<img src="/media/image357.png" style="width:5in;height:2.85745in" />
+<!------------------------------------------------------------------------------------------------>
+<!---------------------- Prediction Markets: Transparent & Never Crashes ------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/image346.png "Prediction Markets: Transparent & Never Crashes" style="width:5in;height:2.85in" />
+&nbsp;
 
 However, with a central organization, we depend both on the organization to provide honest information about payouts and to truthfully act on political events.
 
@@ -7128,10 +7140,14 @@ Anyone can create and participate in a market.
 In addition, execution of this logic is all public, giving guarantees that all funds have been distributed as intended.
 
 Gnosis and Augur are two well-known companies that have deployed prediction market smart contracts.
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------- Prediction Markets: Use Case 1 --------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/image347.png "Prediction Markets: Use Case 1" style="width:5in;height:2.85in" />
+&nbsp;
 
-<img src="/media/image358.png" style="width:5in;height:2.8125in" />
-
-So, what can we do with these prediction markets?
+What can we do with these prediction markets?
 
 An easy way to use them is to, quite simply, see predictions.
 
