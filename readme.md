@@ -2,7 +2,7 @@
 University of California @ BerkeleyX - CS198.1x
 &nbsp;
 <p align="center" width="100%">
-<img width="50%" src="/images/image001.png alt="Bitcoin cs198.1x logo"</>
+<img width="50%" src="/images/image001.png" alt="Bitcoin cs198.1x logo"</>
 </p>
 &nbsp;
 
