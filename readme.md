@@ -258,10 +258,10 @@ And this is where Bitcoin comes in.
 Let's take a look at how Bitcoin can fulfill a bank's functions.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ Identify: Public Key Security ----------------------------------->
+<!------------------------------ Currency: Bitcoin Components ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image005.png "Identity: Public key security" style="width:5in;height:2.8in" />
+<img src="/images/Currency-Bitcoin components.png "Currency: Bitcoin Components" style="width:5in;height:2.8in" />
 &nbsp;
 
 In Bitcoin, identity and account management are completely autonomous.
