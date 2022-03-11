@@ -1,20 +1,22 @@
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------- readme.md in CS198.1x.bauska.site --------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <h2 align="center" width="100%">
 CS198.1x - University of California @ BerkeleyX
 &nbsp;
-
+<br/>
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------------- CS198.1x Bitcoin logo -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image001.png" alt="Bitcoin cs198.1x logo"</>
 </p>
-&nbsp;
 
 <h2 align="center">
 Bitcoin and Cryptocurrencies
 &nbsp;
 </h2>
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- readme.md in CS198.1x.bauska.site --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-    
+
 ## Course Syllabus
 
 This course is a comprehensive and in-depth overview of the fundamental concepts of the crypto space, with a particular emphasis on Bitcoin. By building intuition first from the context of cryptocurrencies, the first application of blockchain, we understand the key strengths and distinguishing factors of blockchain versus traditional database systems. We then leverage these core features of blockchain to solve new problems.
@@ -50,10 +52,10 @@ This module focuses on the properties behind the second largest blockchain platf
 -   [Bitcoin and Cryptocurrency Technologies ](https://d28rh4a8wq0iu5.cloudfront.net/bitcointech/readings/princeton_bitcoin_book.pdf)by Arvind Narayanan, Joseph Bonneau, Edward Felten, Andrew Miller, and Steven Goldfeder
 
 -   [Mastering Bitcoin ](https://github.com/bitcoinbook/bitcoinbook/blob/develop/book.asciidoc)by Andreas Antonopoulos
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- readme.md in CS198.1x.bauska.site --------------------------------->
-<!------------------------------------------------------------------------------------------------>
 
+<!------------------------------------------------------------------------------------------------>
+<!-------------------- Expectations: Expect from us, we expect from you -------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/expectations.png "Expectations: Expect from us, we expect from you" style="width:5in;height:2.95745in" />
 &nbsp;
@@ -117,25 +119,26 @@ And this all sets the stage for the next section, in which we’ll build Bitcoin
 
 Most people struggle to answer the question, “What is Bitcoin?,” because there are so many different ways to respond.
 
-{+ First +}, Bitcoin is considered the first and the most widely used cryptocurrency.
+__First__, Bitcoin is considered the first and the most widely used cryptocurrency.<br/>
 
 A cryptocurrency is a completely digital, decentralized currency that is built using principles of computer science, cryptography, and economics.
-The term “Bitcoin” refers to the protocol governing this currency.
-{+ Second +}, bitcoin lowercase refers to the actual units of currency.
+The term “Bitcoin” refers to the protocol governing this currency.<br/>
 
-A Bitcoin user will say they have a certain amount of bitcoins, similar to how we say we have a certain amount of dollars when referring to the US Dollar.
+__Second__, bitcoin lowercase refers to the actual units of currency.<br/>
 
-{+ Third +}, Bitcoin is the inspiration for the blockchain, which is the underlying data structure of this cryptocurrency.
+A Bitcoin user will say they have a certain amount of bitcoins, similar to how we say we have a certain amount of dollars when referring to the US Dollar.<br/>
 
-A data structure is a virtual format for organizing, retrieving, and storing information.
+__Third__, Bitcoin is the inspiration for the blockchain, which is the underlying data structure of this cryptocurrency.<br/>
 
-The Bitcoin blockchain in particular stores a permanent history of all transactions to ever occur in the history of Bitcoin.
+A data structure is a virtual format for organizing, retrieving, and storing information.<br/>
 
-It is an append-only ledger, meaning that any information added to the ledger cannot be deleted.
+The Bitcoin blockchain in particular stores a permanent history of all transactions to ever occur in the history of Bitcoin.<br/>
 
-But most importantly, Bitcoin is a cultural revolution.
+It is an append-only ledger, meaning that any information added to the ledger cannot be deleted.<br/>
 
-Rooted in ideals from Cypherpunks and libertarians, Bitcoin represents a shift towards privacy and decentralization.
+But most importantly, Bitcoin is a cultural revolution.<br/>
+
+Rooted in ideals from Cypherpunks and libertarians, Bitcoin represents a shift towards privacy and decentralization.<br/>
 
 This cryptocurrency is not backed by any central organization, government, or company.
 
@@ -212,9 +215,11 @@ Instead, everyone can verify and audit the transaction history on their own.
 And even the creation of money is decided not by a central authority, but through the process of mining, or Proof-of-Work.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------------- Bitcoin vs. Banks --------------------------------------->
+<!-------------------------------- Currency: In Banks We Distrust -------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="/images/image004.png" style="width:5in;height:2.82959in" />
+<p align="center" width="100%">
+<img width="50%" src="/images/currency-in banks we distrust.png" alt="Currency: In Banks We Distrust"</>
+</p>
 
 ### Bitcoin vs. Banks
 
@@ -251,10 +256,10 @@ But if you don’t, then you start looking for alternatives.
 And this is where Bitcoin comes in.
 
 Let's take a look at how Bitcoin can fulfill a bank's functions.
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- readme.md in CS198.1x.bauska.site --------------------------------->
-<!------------------------------------------------------------------------------------------------>
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ Identify: Public Key Security ----------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image005.png "Identity: Public key security" style="width:5in;height:2.8in" />
 &nbsp;
@@ -304,11 +309,13 @@ Identity.
 We saw earlier that banks need to keep track of the accounts and identities of their customers.
 
 But how do we do this in Bitcoin, without a bank or central entity to keep track of who’s who and who owns what?
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- readme.md in CS198.1x.bauska.site --------------------------------->
-<!------------------------------------------------------------------------------------------------>
 
-<img src="/images/image006.png" style="width:5in;height:2.81998in" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------- Currency: Bitcoin Components ----------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/Currency-Bitcoin components.png "Currency: Bitcoin Components" style="width:5in;height:2.8in" />
+&nbsp;
 
 ### Identity (Stage 1)
 
@@ -375,12 +382,13 @@ It gives you your identity.
 If anyone else gets their hands on your email password, for example, they can pretend to be you, receiving and sending emails on your behalf.
 
 Similarly, you would never want anyone else to have your Bitcoin private key as that would give control of your Bitcoin public key and, by implication, your Bitcoin identity.
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- readme.md in CS198.1x.bauska.site --------------------------------->
-<!------------------------------------------------------------------------------------------------>
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------- Identity: Identity in Bitcoin ---------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image007.png" style="width:5in;height:2.81998in" />
+<img src="/images/image003-identity-in-bitcoin.png" "Currency: Bitcoin Components" style="width:5in;height:2.8in" />
+&nbsp;
 
 In Bitcoin, you can think of your public and private key as a chest and key, respectively.
 
@@ -580,6 +588,9 @@ So naturally, the next question to ask is: How do we keep track of the history o
 
 After all a user’s current balance can be described as a number of transactions, summing to the current amount, and if we don’t know what transactions have happened in the past, we can’t determine what’s valid in the future.
 
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------  --------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <img src="/media/image18.png" style="width:5in;height:2.81998in" />
 
 Consider the diagram above.
@@ -618,6 +629,9 @@ Instead of having any selected maintainers, let’s make a simple and straightfo
 
 We make everyone the bank.
 
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------  --------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <img src="/media/image19.png" style="width:5in;height:2.81998in" />
 
 To get as far as possible from centralization, every individual entity in Bitcoin should be equal.
@@ -640,6 +654,9 @@ Everyone maintains their own ledger after all, and once a change is made for one
 
 So, how do we store our ledger efficiently?
 
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------  --------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <img src="/media/image20.png" style="width:5in;height:2.81998in" />
 
 Every update to the distributed database, the Bitcoin ledger, is a batch of transactions grouped into what are called blocks.
@@ -684,6 +701,9 @@ With no central entity deciding on the next update, we have to find a way to mak
 
 In Bitcoin, users on the network must come to consensus, or agreement, on the next valid update.
 
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------  --------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <img src="/media/image21.png" style="width:5in;height:2.81998in" />
 
 Because everyone is storing information about the blockchain, we need consensus to make sure that everyone agrees on the history of transactions.
@@ -708,6 +728,9 @@ One node proposes a transaction to the network, sending a message about the tran
 
 All other nodes save the transaction into their history if it’s valid and disregard it otherwise.
 
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------  --------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <img src="/media/image21.png" style="width:5in;height:2.81998in" />
 
 We have an example for you here.
@@ -720,6 +743,9 @@ The implication of this system is that nodes don’t engage in conversation with
 
 As we will see, this does not work because of what’s known as the double spend attack.
 
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------  --------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <img src="/media/image22.png" style="width:5in;height:2.81998in" />
 
 With centralized systems, we trust banks to check for the validity of all the transactions.
@@ -732,6 +758,9 @@ Let’s say that Gloria is purchasing tons of laptops and is willing to pay both
 
 Gloria promises me (Rustie) 10 BTC in one transaction, and promises 10 BTC to Nadir at the same time.
 
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------  --------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <img src="/media/image23.png" style="width:5in;height:2.81998in" />
 
 This is represented by the green arrow from herself to me (Rustie), the green circle, and by the separate blue arrow from herself to Nadir, the blue circle.
@@ -754,6 +783,9 @@ Both Nadir and I see that the transaction is valid and each believe that we have
 
 Of course, both Nadir and I (Rustie) can’t own the same bitcoins.
 
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------  --------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <img src="/media/image24.png" style="width:5in;height:2.81998in" />
 
 The moment we try to redeem these tokens with the network, the issue becomes transparent.
@@ -768,6 +800,9 @@ In this scheme where entities only see the transactions that directly involve th
 
 Thus, it is impossible to prevent these double spend attacks with our current model of consensus.
 
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------  --------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <img src="/media/image25.png" style="width:5in;height:2.81998in" />
 
 Instead of individuals doing their own validation of transaction, we can set up a voting system.
@@ -788,6 +823,9 @@ Like before, there are blue lines from Gloria to the rest of the network to indi
 
 Unlike before, there are dashed blue lines from each node to everyone else (excluding Gloria) as an indication of communication about two things: the received transaction and a vote for or against its validity.
 
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------  --------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <img src="/media/image26.png" style="width:5in;height:2.81998in" />
 
 Let’s observe what happens when Gloria tries to double spend under these circumstances.
