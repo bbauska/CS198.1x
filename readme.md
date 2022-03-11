@@ -412,6 +412,7 @@ The reason why we need this public-private key pair scheme in Bitcoin is because
 This means that users have to generate their own identities.
 
 To generate an identity, a user picks a private key at random generates the public key from the private key through a mathematical function.
+
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- Identity: A few things to note ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -470,10 +471,10 @@ So now that we have a clear understanding of the structure and purpose of identi
 
 After all, that’s the primary goal of the Bitcoin network -- to enable secure transactions between any two users in the network.
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------  --------------------------------->
+<!------------------------------ What Makes a Transaction Valid? --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image12.png" style="width:5in;height:2.81998in" />
+<img src="/images/image008-what makes-a-transaction-valid.png" style="width:5in;height:2.81998in" />
 
 As we did before with the concept of identity, we will now be analyzing the idea of a transaction.
 
@@ -482,7 +483,7 @@ Take a moment to ask yourself, “What makes a transaction valid?”
 <!---------------------------- --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image13.png" style="width:5in;height:2.81998in" />
+<img src="/images/image009-validity.png" style="width:5in;height:2.81998in" />
 
 For a transaction to be valid, it must have these three components:
 
@@ -509,13 +510,13 @@ To enforce this, Bitcoin uses what’s known as a UTXO, or Unspent Transaction O
 <!----------------------------  --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image14.png" style="width:5in;height:2.84871in" />
+<img src="/images/image010-utxo-model.png" style="width:5in;height:2.84871in" />
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image15.png" style="width:5in;height:2.82959in" />
+<img src="/images/image010-utxo-2.png" style="width:5in;height:2.82959in" />
 
 Traditionally, when we think of banks, we think of a single account where all our funds are aggregated into one count.
 
@@ -540,7 +541,7 @@ Every time a transaction is made to us, we put all that money into a UTXO, or pi
 <!----------------------------  --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image16.png" style="width:5in;height:2.81998in" />
+<img src="/images/image011-utxo-model-unspent.png" style="width:5in;height:2.81998in" />
 
 When we want to spend money, we break open that piggy bank...spend whatever we like, and then put the rest into another piggy bank.
 
@@ -557,11 +558,12 @@ The amount of bitcoin you own is calculated by summing up the value of each of y
 ### UTXO’s:
 
 Here’s an example of how transactions work in Bitcoin:
+
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- readme.md in CS198.1x.bauska.site --------------------------------->
+<!----------------------------  --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image17.png" style="width:5in;height:3.92747in" />
+<img src="/images/iimage012-utxo-example.png" style="width:5in;height:3.92747in" />
 
 Let’s say that Gloria has two UTXOs, from past transactions, one worth one hundred (100) bitcoins... and one worth fifty bitcoins.
 
@@ -597,7 +599,7 @@ After all a user’s current balance can be described as a number of transaction
 <!----------------------------  --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image18.png" style="width:5in;height:2.81998in" />
+<img src="/images/image013-recordkeeping-distributed-dbs.png" style="width:5in;height:2.81998in" />
 
 Consider the diagram above.
 
@@ -639,7 +641,7 @@ We make everyone the bank.
 <!----------------------------  --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image19.png" style="width:5in;height:2.81998in" />
+<img src="/images/image014-recordkeeping-everyones-the-bank.png" style="width:5in;height:2.81998in" />
 
 To get as far as possible from centralization, every individual entity in Bitcoin should be equal.
 
