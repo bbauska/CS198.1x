@@ -314,7 +314,7 @@ But how do we do this in Bitcoin, without a bank or central entity to keep track
 <!------------------------------- Identity: Identity in Bitcoin ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image003-identity-in-bitcoin.png alt="Identity: Identity in Bitcoin" style="width:5in;height:2.8in" />
+<img src="/images/image003-identity-in-bitcoin.png" alt="Identity: Identity in Bitcoin" style="width:5in;height:2.8in" />
 &nbsp;
 
 ### Identity (Stage 1)
@@ -384,10 +384,10 @@ If anyone else gets their hands on your email password, for example, they can pr
 Similarly, you would never want anyone else to have your Bitcoin private key as that would give control of your Bitcoin public key and, by implication, your Bitcoin identity.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------- Identity: Identity in Bitcoin ---------------------------------->
+<!---------------------------- Identity: Public and Private Keys --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image003-identity-in-bitcoin.png" "Currency: Bitcoin Components" style="width:5in;height:2.8in" />
+<img src="/images/image004.png" alt="Identity: Public and Private Keys" style="width:5in;height:2.8in" />
 &nbsp;
 
 In Bitcoin, you can think of your public and private key as a chest and key, respectively.
@@ -412,10 +412,10 @@ This means that users have to generate their own identities.
 
 To generate an identity, a user picks a private key at random generates the public key from the private key through a mathematical function.
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- readme.md in CS198.1x.bauska.site --------------------------------->
+<!----------------------------- Identity: A few things to note ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
-
-<img src="/media/image8.png" style="width:5in;height:2.82959in" />
+<p align="center">
+<img src="/images/image004-identity-few.png" alt="Identity: A few things to note" style="width:5in;height:2.82959in" />
 
 You may be concerned about the danger of two users ending up with the same public key without a central registry ensuring that no two people have the same public key.
 
@@ -427,10 +427,10 @@ How do we trust that no two users end up with the same identity?
 
 To illustrate the probability of two users choosing the same identity as someone else in Bitcoin, let’s consider something we’re all familiar with: the Earth.
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- readme.md in CS198.1x.bauska.site --------------------------------->
+<!----------------------------  --------------------------------->
 <!------------------------------------------------------------------------------------------------>
-
-<img src="/media/image9.png" style="width:5in;height:2.81998in" />
+<p align="center">
+<img src="/images/image005.png" alt="Identity: Public & Private Keys" style="width:5in;height:2.81998in" />
 
 Bitcoin has 2\^160^th^ different possible addresses.
 
@@ -445,17 +445,17 @@ The likelihood of two people picking the same grain of sand is less than 0.0001%
 In comparison, the number of addresses in Bitcoin is many, many magnitudes greater than the number of grains on sand on Earth, making the probability even smaller.
 
 Let’s consider something more drastic: imagine that for every grain of sand on Earth, there exists another Earth, also with 2\^63^rd^ grains of sand.
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- readme.md in CS198.1x.bauska.site --------------------------------->
-<!------------------------------------------------------------------------------------------------>
 
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------  --------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <img src="/media/image10.png" style="width:5in;height:2.81998in" />
 
 Now we have 2\^63^rd^ times 2\^63^rd^ grains of sand per earth, meaning that there are a total of 2\^126^th^ grains of sand.
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- readme.md in CS198.1x.bauska.site --------------------------------->
-<!------------------------------------------------------------------------------------------------>
 
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------- ---------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <img src="/media/image11.png" style="width:5in;height:2.81998in" />
 
 Even the number of grains of sand upon all these Earths is only 0.0000000058% (8 zeroes) of all the possible Bitcoin addresses.
@@ -466,18 +466,16 @@ So now that we have a clear understanding of the structure and purpose of identi
 
 After all, that’s the primary goal of the Bitcoin network -- to enable secure transactions between any two users in the network.
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- readme.md in CS198.1x.bauska.site --------------------------------->
+<!----------------------------  --------------------------------->
 <!------------------------------------------------------------------------------------------------>
-
 <img src="/media/image12.png" style="width:5in;height:2.81998in" />
 
 As we did before with the concept of identity, we will now be analyzing the idea of a transaction.
 
 Take a moment to ask yourself, “What makes a transaction valid?”
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- readme.md in CS198.1x.bauska.site --------------------------------->
+<!---------------------------- --------------------------------->
 <!------------------------------------------------------------------------------------------------>
-
 <img src="/media/image13.png" style="width:5in;height:2.81998in" />
 
 For a transaction to be valid, it must have these three components:
@@ -502,12 +500,12 @@ To ensure that one uses funds not in their possession, all the same conditions a
 
 To enforce this, Bitcoin uses what’s known as a UTXO, or Unspent Transaction Output, model.
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- readme.md in CS198.1x.bauska.site --------------------------------->
+<!----------------------------  --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 
 <img src="/media/image14.png" style="width:5in;height:2.84871in" />
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- readme.md in CS198.1x.bauska.site --------------------------------->
+<!---------------------------- --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 
 <img src="/media/image15.png" style="width:5in;height:2.82959in" />
@@ -532,7 +530,7 @@ An easy way to wrap our heads around this unintuitive model is to think of UTXOs
 
 Every time a transaction is made to us, we put all that money into a UTXO, or piggy bank.
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- readme.md in CS198.1x.bauska.site --------------------------------->
+<!----------------------------  --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 
 <img src="/media/image16.png" style="width:5in;height:2.81998in" />
