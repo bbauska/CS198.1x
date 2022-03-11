@@ -57,7 +57,7 @@ This module focuses on the properties behind the second largest blockchain platf
 <!-------------------- Expectations: Expect from us, we expect from you -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/expectations.png "Expectations: Expect from us, we expect from you" style="width:5in;height:2.95745in" />
+<img src="/images/expectations.png" alt="Expectations: Expect from us, we expect from you" style="width:5in;height:2.95745in" />
 &nbsp;
 
 Also, a good unofficial resource is the Blockchain at Berkeley Public Slack, where we discuss various topics related to blockchain. You can request access to our Slack workspace at the bottom of the [Blockchain at Berkeley website ](https://blockchain.berkeley.edu/)under "Join Blockchain at Berkeley on Slack."
@@ -114,7 +114,7 @@ And this all sets the stage for the next section, in which we’ll build Bitcoin
 <!------------------------------ What is Bitcoin?  Bitcoin Genesis ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/what is bitcoin-bitcoin genesis.png "What is bitcoin, bitcoin genesis" style="width:5in;height:2.8in" />
+<img src="/images/what is bitcoin-bitcoin genesis.png" alt="What is bitcoin, bitcoin genesis" style="width:5in;height:2.8in" />
 &nbsp;
 
 Most people struggle to answer the question, “What is Bitcoin?,” because there are so many different ways to respond.
@@ -261,7 +261,7 @@ Let's take a look at how Bitcoin can fulfill a bank's functions.
 <!------------------------------ Currency: Bitcoin Components ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/Currency-Bitcoin components.png "Currency: Bitcoin Components" style="width:5in;height:2.8in" />
+<img src="/images/Currency-Bitcoin components.png" alt="Currency: Bitcoin Components" style="width:5in;height:2.8in" />
 &nbsp;
 
 In Bitcoin, identity and account management are completely autonomous.
@@ -311,10 +311,10 @@ We saw earlier that banks need to keep track of the accounts and identities of t
 But how do we do this in Bitcoin, without a bank or central entity to keep track of who’s who and who owns what?
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------- Currency: Bitcoin Components ----------------------------------->
+<!------------------------------- Identity: Identity in Bitcoin ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/Currency-Bitcoin components.png "Currency: Bitcoin Components" style="width:5in;height:2.8in" />
+<img src="/images/image003-identity-in-bitcoin.png alt="Identity: Identity in Bitcoin" style="width:5in;height:2.8in" />
 &nbsp;
 
 ### Identity (Stage 1)
