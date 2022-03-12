@@ -4,7 +4,7 @@
 <h2 align="center" width="100%">
 CS198.1x - University of California @ BerkeleyX
 &nbsp;
-<br/><br/>
+<br/>
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- CS198.1x Bitcoin logo -------------------------------------->
@@ -5106,13 +5106,23 @@ As a closing note, whenever there’s money that can be made, someone’s going 
 
 In cryptocurrencies, that can take the form of working to create ASICs for new hashing algorithms.
 
-<img src="/images/image220.png" style="width:3.96667in;height:2.23157in" />
+<!------------------------------------------------------------------------------------------------>
+<!---------------------- --------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="40%" src="/images/image220.png" alt=""</>
+</p>
 
 Mike Hearn, a Bitcoin Core developer said (quote) “There’s really no such thing as an ASIC-resistant algorithm.”
 
 ### Ensuring Decentralization: ASIC Debate
 
-<img src="/images/image221.png" style="width:3.95833in;height:2.19223in" />
+<!------------------------------------------------------------------------------------------------>
+<!---------------------- --------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="40%" src="/images/image221.png" alt=""</>
+</p>
 
 As it turns out, ASIC resistance might actually not be that great of an idea.
 
@@ -5142,7 +5152,12 @@ This idea of useless hardware and wasted hashpower leads us to our next slide.
 
 ### Eliminating Waste
 
-<img src="/images/image222.png" style="width:5in;height:2.77995in" />
+<!------------------------------------------------------------------------------------------------>
+<!---------------------- --------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="50%" src="/images/image222.png" alt=""</>
+</p>
 
 Since so much computational power is being expended to solve cryptographic puzzles, which at their core are just pumping out random numbers, why not make those puzzles something that can be useful to the rest of the world?
 
@@ -5166,7 +5181,12 @@ The problem can’t be used for proof-of-work anymore.
 
 In Bitcoin, since the puzzle is based on the previous block, the problem space is inexhaustible.
 
-<img src="/images/image223.png" style="width:5in;height:2.82318in" />
+<!------------------------------------------------------------------------------------------------>
+<!---------------------- --------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="50%" src="/images/image223.png" alt=""</>
+</p>
 
 You can always generate more problems with more solutions.
 
@@ -5194,7 +5214,12 @@ In summary, proof of useful work sounds like a great idea, but it’s incredibly
 
 ### Consensus Updates: Bitcoin Core
 
-<img src="/images/image224.png" style="width:5in;height:2.82665in" />
+<!------------------------------------------------------------------------------------------------>
+<!---------------------- --------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="50%" src="/images/image224.png" alt=""</>
+</p>
 
 The idea behind a consensus update is that since Bitcoin is decentralized, no one person can say “this is the change we’re going to make in the protocol.”
 
@@ -5240,7 +5265,12 @@ Before every fork, hard or soft, the entire community launches into debates abou
 
 ### Consensus Updates: BIPs
 
-<img src="/images/image226.png" style="width:5in;height:2.8314in" />
+<!------------------------------------------------------------------------------------------------>
+<!---------------------- --------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="50%" src="/images/image226.png" alt=""</>
+</p>
 
 In Bitcoin, changes to the protocol come in the form of BIPs, or Bitcoin Improvement Proposals.
 
@@ -5282,7 +5312,12 @@ Routing: software that allows you to talk to other Bitcoin nodes
 
 We can make powerful generalizations using these 4 key characteristics, however there exist other distinctions between users too.
 
-<img src="/images/image227.png" style="width:5in;height:4.45205in" />
+<!------------------------------------------------------------------------------------------------>
+<!---------------------- --------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="50%" src="/images/image227.png" alt=""</>
+</p>
 
 Image Source: [Mastering Bitcoin Opens in new window](https://github.com/bitcoinbook/bitcoinbook)
 
@@ -5324,6 +5359,13 @@ The main variable costs associated with mining are energy and infrastructure cos
 
 To get a better sense of how mining looks in real life, here is what a real-world ASIC mining farm in China looks like:
 
+<!------------------------------------------------------------------------------------------------>
+<!---------------------- --------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="90%" src="/images/image228.png" alt=""</>
+</p>
+
 <img src="/images/image228.png" style="width:6.5in;height:3.65625in" alt="Real-world ASIC mining farm in China" />  
 Image Source: [The Register Opens in new window](https://www.theregister.co.uk/2014/08/12/chinese_bitcoin_farms_from_scifi_to_scuzzy/)
 
@@ -5348,12 +5390,20 @@ While ASIC resistance may decentralize mining and make it a more democratic proc
 Real changes are implemented in Bitcoin via hard or soft forks. Hard forks result from a new protocol that does things not allowed in the old protocol. In a soft fork, the rules of the protocol are only restrained. A soft fork is backwards compatible but not forwards compatible.
 
 ### Hard Fork:
-
-<img src="/images/image229.png" style="width:6.5in;height:2.125in" alt="Hard fork real changes implemented in Bitcoin." />
+<!------------------------------------------------------------------------------------------------>
+<!---------------------- Hard fork real changes implemented in Bitcoin --------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="90%" src="/images/image229.png" alt="Hard fork real changes implemented in Bitcoin"</>
+</p>
 
 ### Soft Fork:
-
-<img src="/images/image230.png" style="width:6.25in;height:1.99167in" alt="Soft fork real changes implemented in Bitcoin." />
+<!------------------------------------------------------------------------------------------------>
+<!---------------------- Soft fork real changes implemented in Bitcoin --------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="90%" src="/images/image230.png" alt="Soft fork real changes implemented in Bitcoin"</>
+</p>
 
 In Bitcoin, changes to the protocol come in the form of BIPs, or Bitcoin Improvement Proposals. These can be changes in the network protocol, block or transaction validation, or anything affecting interoperability. There are three main kinds of BIPS: standard, informational, process.
 
@@ -5389,7 +5439,7 @@ As we explained in the previous module, everything is driven by profit -- and Bi
 
 For example, it might not be profitable to be a solo miner, especially if you don’t have a lot of specialized hardware.
 
-So, you might want to join a mining pool, where users pool together their computing resources so that collectively they all have an increased likelihood of finding the next block, and thus receive the block reward.
+You might want to join a mining pool, where users pool together their computing resources so that collectively they all have an increased likelihood of finding the next block, and thus receive the block reward.
 
 As we’ll see in this section, there are some strategies you can employ to increase your profits even further.
 
@@ -5397,7 +5447,12 @@ And when it comes to making the most profit, honest strategies are NOT usually t
 
 ### Pool Reward Scheme Review
 
-<img src="/images/image231.png" style="width:5in;height:2.83312in" />
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------- Pool Reward Schemes: Reviews ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="50%" src="/images/image231.png" alt="Pool Reward Schemes: Reviews"</>
+</p>
 
 Remember from last lecture that pay-per-share schemes will pay you a fixed amount of money for each share, or near-valid block.
 
@@ -5405,9 +5460,14 @@ This payment is guaranteed and constant per share, regardless of how much reward
 
 One issue is that there’s no incentive for a miner to actually submit valid blocks to the pool because the amount of revenue collected from that share is equal to any other share.
 
-So miners will stop doing work on their current block as soon as it satisfies the near-valid block requirements.
+Miners will stop doing work on their current block as soon as it satisfies the near-valid block requirements.
 
-<img src="/images/image232.png" style="width:5in;height:2.83226in" />
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------- Pool Reward Schemes: Proportional ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="50%" src="/images/image232.png" alt="Pool Reward Schemes: Proportional"</>
+</p>
 
 Proportional schemes are the other category which pay out only when a block is found.
 
@@ -5422,8 +5482,12 @@ For the same reason, proportional pay-out schemes are beneficial to the pool, si
 Given the incentive structures in both pay per share and proportional pool pay-out schemes, is it possible that pools are vulnerable to some incentive misalignment?
 
 ### Pool Hopping
-
-<img src="/images/image233.png" style="width:5in;height:2.83031in" />
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------- Pool Rewards: Pool Hopping Strategy ------------------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="50%" src="/images/image233.png" alt="Pool Rewards: Pool Hopping"</>
+</p>
 
 Remember that we as miners want to maximize their payout.
 
@@ -5433,7 +5497,12 @@ This graph is a general representation of the difference between pay-per-share p
 
 We know there must be some intersection between these two because the proportional payout starts off high but decreases while the pay-per-share scheme stays constant.
 
-<img src="/images/image234.png" style="width:5in;height:2.83592in" />
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------- Pool Rewards: Pool Hopping Strategy ------------------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="50%" src="/images/image234.png" alt="Pool Rewards: Pool Hopping"</>
+</p>
 
 This graph might reveal something to you right away.
 
@@ -5443,7 +5512,12 @@ Here, you see the area under the curve, which represents the total reward per sh
 
 If we mine under just the proportional scheme, the reward gained per share decreases as more and more shares get submitted towards this block, meaning that our marginal rewards start to approach zero.
 
-<img src="/images/image235.png" style="width:5in;height:2.78995in" />
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------- Pool Rewards: Pool Hopping Strategy ------------------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="50%" src="/images/image235.png" alt="Pool Rewards: Pool Hopping"</>
+</p>
 
 In this example, we see the same type of graph but for pay-per-share.
 
@@ -5457,7 +5531,12 @@ A clever miner will look for ways to take advantage of both payout schemes to in
 
 And here’s how they can do that.
 
-<img src="/images/image236.png" style="width:5in;height:2.8275in" />
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------- Pool Rewards: Pool Hopping Strategy ------------------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="50%" src="/images/image236.png" alt="Pool Rewards: Pool Hopping"</>
+</p>
 
 Let’s say a miner starts off mining under the proportional payout scheme.
 
@@ -5479,7 +5558,12 @@ Because the reward per additional share there is higher, and will yield more pro
 
 To fully understand this attack, you need to see the point at which the two curves intersect.
 
-<img src="/images/image237.png" style="width:5in;height:2.81371in" />
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------- Pool Rewards: Pool Hopping Strategy ------------------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="50%" src="/images/image237.png" alt="Pool Rewards: Pool Hopping"</>
+</p>
 
 And this is when the value per share of the proportional scheme decreases beneath the value per share of the pay-per-share scheme.
 
@@ -5503,7 +5587,12 @@ We’ll see how this misalignment of incentives in pay-per-share models can lead
 
 ### Pool Cannibalization
 
-<img src="/images/image238.png" style="width:5in;height:2.81901in" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------- Pool Cannibalization: Strategy --------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="50%" src="/images/image238.png" alt="Pool Cannibalization: Strategy"</>
+</p>
 
 Remember, in a pay-per-share model, a miner is not incentivized to give their mining pool any valid blocks.
 
