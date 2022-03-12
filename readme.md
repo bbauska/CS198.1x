@@ -2393,7 +2393,6 @@ Well, if you’re an average user, here’s a real example of a block found on B
 <img width="50%" src="/images/image0xx.png" alt=" "</>
 </p>
 &nbsp;
-
 <img src="/images/image98.png" style="width:5in;height:2.86538in" />
 
 We’ll explain each of these fields by the end of the video.
@@ -2402,7 +2401,6 @@ We’ll explain each of these fields by the end of the video.
 <img width="50%" src="/images/image0xx.png" alt=" "</>
 </p>
 &nbsp;
-
 <img src="/images/image99.png" style="width:5in;height:2.81677in" />
 
 Here’s the exact same block, but now in JSON format.
@@ -2413,7 +2411,6 @@ Here’s the exact same block, but now in JSON format.
 <img width="50%" src="/images/image0xx.png" alt=" "</>
 </p>
 &nbsp;
-
 <img src="/images/image100.png" style="width:5in;height:2.77778in" />
 
 This is a much more understandable format for a computer.
@@ -2439,7 +2436,6 @@ Here’s what a block looks like conceptually.
 <img width="50%" src="/images/image0xx.png" alt=" "</>
 </p>
 &nbsp;
-
 <img src="/images/image102.png" style="width:5in;height:2.85329in" />
 
 It has four main components: the Block Header, Block Size, Transaction Counter, and Transactions.
@@ -2483,12 +2479,13 @@ Those are;
 
 The *Merkle Root* represents a summary of transactions.
 
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------- A Tamper-Evident Database: Block Header --------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="90%" src="/images/image100.jpg" alt="A Tamper-Evident Database: Block Header"</>
 </p>
 &nbsp;
-
-<img src="/images/image104.png" style="width:6.5in;height:3.66181in" />
 
 The *Previous Block Hash* represents the chaining.
 
@@ -2496,27 +2493,23 @@ And the *Nonce* represents the proof-of-work.
 
 The block header is simply the hash of all these fields concatenated.
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!---------------------------- A Tamper-Evident Database: Block Header --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image101.png" alt=" "</>
 </p>
 &nbsp;
-
-<img src="/images/image105.png" style="width:5in;height:2.79871in" />
 
 Let’s first take a look at the Merkle Root.
 
 ### Merkle Trees:
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!--------------------------- A Tamper-Evident Dataabase: Merkle Tree ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image102.png" alt="A Tamper-Evident Dataabase: Merkle Tree"</>
 </p>
 &nbsp;
-
-<img src="/images/image106.png" style="width:5in;height:2.86181in" />
 
 What is a Merkle Root, and what do we mean by a summary of transactions?
 
@@ -2548,14 +2541,12 @@ We hash each one to get a level of hashes.
 
 We then hash each pair together, making a new level with half as many hashes.
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!--------------------- A Tamper-Evident Database: Protecting the Chain -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image103.jpg" alt="A Tamper-Evident Database: Protecting the Chain"</>
 </p>
 &nbsp;
-
-<img src="/images/image107.png" style="width:5in;height:2.81677in" />
 
 We continue this process until we finally have only one hash at the top.
 
@@ -2565,14 +2556,12 @@ This way, we can detect any transaction changes after the commitment with the Me
 
 ### Merkel Trees: Tamper Detection
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!-------------- A Tamper-Evident Database: Getting to the Root of the Problem  ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image104.jpg" alt="A Tamper-Evident Database: Getting to the Root of the Problem"</>
 </p>
 &nbsp;
-
-<img src="/images/image108.png" style="width:5in;height:2.81677in" />
 
 We see here that if any transaction is changed, then the Merkle Root is affected.
 
@@ -2582,14 +2571,12 @@ Because of that, the hash above it is also effective, propagating all the way up
 
 ### Merkle Trees: Proof of Inclusion
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!-------------- A Tamper-Evident Database: Merkle Branch & Proof of Inclusion ------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image105.png" alt="A Tamper-Evident Database: Merkle Branch & Proof of Inclusion"</>
 </p>
 &nbsp;
-
-<img src="/images/image109.png" style="width:5in;height:2.83638in" />
 
 You may ask, “Isn’t it expensive to verify that a transaction was included within a Merkle Tree?"
 
@@ -2605,23 +2592,22 @@ This is actually a great efficiency gain as our tree grows larger.
 
 ### Previous Block Hash
 
-<p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
-</p>
-&nbsp;
 <!------------------------------------------------------------------------------------------------>
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="/images/image110.png" style="width:5in;height:2.79979in" />
-
-It’s pretty obvious what the Previous Block Hash does: It merely contains the hash of the previous block.
-
-<p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image106.png" alt=" "</>
 </p>
 &nbsp;
 
-<img src="/images/image111.png" style="width:5in;height:2.83944in" />
+It’s pretty obvious what the Previous Block Hash does: It merely contains the hash of the previous block.
+
+<!------------------------------------------------------------------------------------------------>
+<!-----------------------------------  -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="50%" src="/images/image107.png" alt=" "</>
+</p>
+&nbsp;
 
 But notice this: every block does that.
 
@@ -2630,15 +2616,14 @@ This means that if any block is altered, then the block after will also be alter
 Changing any part of this history also changes the entire future after that point.
 
 Here’s an example of what happens when that tampered Merkle Root from before manifests within the blockchain.
+
 <!------------------------------------------------------------------------------------------------>
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image108.png" alt=" "</>
 </p>
 &nbsp;
-
-<img src="/images/image112.png" style="width:5in;height:2.85253in" />
 
 It changes the block header, which changes the next block’s Prev Block Hash, which affects the rest of the future block hashes as well.
 
@@ -2653,11 +2638,9 @@ Now that we’ve finished talking about how Prev Block Hashes, let’s talk abou
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image109.png" alt=" "</>
 </p>
 &nbsp;
-
-<img src="/images/image113.png" style="width:5in;height:2.81858in" />
 
 Keep in mind that we need entities to prove that they’ve done some work before they’re allowed to submit a vote to the network, meaning that we have to design a problem or puzzle for their computers to solve to prove that they’ve done work.
 
@@ -2666,19 +2649,18 @@ The way we do this in Bitcoin is with a partial preimage hash puzzle.
 <!------------------------------------------------------------------------------------------------>
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
-
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
-</p>
-&nbsp;
-<img src="/images/image114.png" style="width:5in;height:2.81677in" />
-
-<p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image110.png" alt=" "</>
 </p>
 &nbsp;
 
-<img src="/images/image115.png" style="width:5in;height:2.79348in" />
+<!------------------------------------------------------------------------------------------------>
+<!-----------------------------------  -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="50%" src="/images/image111.png" alt=" "</>
+</p>
+&nbsp;
 
 Keep in mind the definition of preimage from before, which was the input.
 
@@ -2704,11 +2686,9 @@ Computational difficulty means ensuring that the solution to the puzzle cannot b
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image112.png" alt=" "</>
 </p>
 &nbsp;
-
-<img src="/images/image116.png" style="width:5in;height:2.81677in" />
 
 There’s no point if *Proof-of-Work* takes little work.
 
@@ -2726,11 +2706,9 @@ It should just take one hash for example to prove that some nonce is correct, ev
 <!----------------------------------- Proof-of-Work: Mining -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image113.png" alt=" "</>
 </p>
 &nbsp;
-
-<img src="/images/image117.png" style="width:5in;height:2.84399in" />
 
 For a better idea of how mining works, let’s bring up an analogy.
 
@@ -3031,7 +3009,6 @@ Alright, so let’s take a look at elliptic curves first.
 <img width="50%" src="/images/image0xx.png" alt=" "</>
 </p>
 &nbsp;
-
 <img src="/images/image135.png" style="width:5in;height:2.81677in" />
 
 ### Elliptic Curve Cryptography
