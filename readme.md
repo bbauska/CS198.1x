@@ -5,7 +5,6 @@
 CS198.1x - University of California @ BerkeleyX
 &nbsp;
 <br/>
-<br/>
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- CS198.1x Bitcoin logo -------------------------------------->
@@ -2309,7 +2308,9 @@ To prevent this, we need collision resistance.
 The technical definition is as follows: given some hash function H, it is computationally difficult to find two different inputs x and y such that H of x equals H of y.
 
 ### Key Properties of Cryptographic Hash Functions: Avalanche Effect
-
+<!------------------------------------------------------------------------------------------------>
+<!-----------------------------------  -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image0xx.png" alt=" "</>
 </p>
@@ -2330,7 +2331,9 @@ And each result is pseudo random.
 There's no relation between the Hashes despite the inputs being so similar.
 
 ### SHA256
-
+<!------------------------------------------------------------------------------------------------>
+<!-----------------------------------  -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image0xx.png" alt=" "</>
 </p>
@@ -2355,7 +2358,9 @@ Bitcoin, in many cases, uses SHA-256 squared, or SHA256d, which simply means tha
 Once on the original message you want to hash, and another time on the output of this first hash.
 
 ### Intro: A Tamper-Evident Database
-
+<!------------------------------------------------------------------------------------------------>
+<!-----------------------------------  -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image0xx.png" alt=" "</>
 </p>
@@ -2364,7 +2369,9 @@ Once on the original message you want to hash, and another time on the output of
 <img src="/images/image96.png" style="width:5in;height:2.84509in" />
 
 Now that we know about cryptographic hash functions and their properties, how do we then apply them to design our tamper evident database for Bitcoin?
-
+<!------------------------------------------------------------------------------------------------>
+<!-----------------------------------  -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image0xx.png" alt=" "</>
 </p>
@@ -2379,7 +2386,9 @@ In this section, we’ll be taking a look at the structure of a block, looking s
 What does this tamper evident database actually look like?
 
 Well, if you’re an average user, here’s a real example of a block found on Blockchain.info, a company that keeps track of all information about the Bitcoin Blockchain for public access.
-
+<!------------------------------------------------------------------------------------------------>
+<!-----------------------------------  -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image0xx.png" alt=" "</>
 </p>
@@ -2397,7 +2406,9 @@ We’ll explain each of these fields by the end of the video.
 <img src="/images/image99.png" style="width:5in;height:2.81677in" />
 
 Here’s the exact same block, but now in JSON format.
-
+<!------------------------------------------------------------------------------------------------>
+<!-----------------------------------  -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image0xx.png" alt=" "</>
 </p>
@@ -2408,7 +2419,9 @@ Here’s the exact same block, but now in JSON format.
 This is a much more understandable format for a computer.
 
 But what is the role of each of these different pieces of information?
-
+<!------------------------------------------------------------------------------------------------>
+<!-----------------------------------  -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image0xx.png" alt=" "</>
 </p>
@@ -2419,7 +2432,9 @@ But what is the role of each of these different pieces of information?
 ### Dissecting a Block
 
 Here’s what a block looks like conceptually.
-
+<!------------------------------------------------------------------------------------------------>
+<!-----------------------------------  -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image0xx.png" alt=" "</>
 </p>
@@ -2446,7 +2461,9 @@ How does this ensure tamper evidence?
 Well, let’s go ahead and look at where hash functions are applied within Bitcoin.
 
 The block header refers to all the metadata associated with every block.
-
+<!------------------------------------------------------------------------------------------------>
+<!-----------------------------------  -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image0xx.png" alt=" "</>
 </p>
@@ -2478,7 +2495,9 @@ The *Previous Block Hash* represents the chaining.
 And the *Nonce* represents the proof-of-work.
 
 The block header is simply the hash of all these fields concatenated.
-
+<!------------------------------------------------------------------------------------------------>
+<!-----------------------------------  -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image0xx.png" alt=" "</>
 </p>
@@ -2489,7 +2508,9 @@ The block header is simply the hash of all these fields concatenated.
 Let’s first take a look at the Merkle Root.
 
 ### Merkle Trees:
-
+<!------------------------------------------------------------------------------------------------>
+<!-----------------------------------  -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image0xx.png" alt=" "</>
 </p>
@@ -2526,7 +2547,9 @@ We lay them out one by one.
 We hash each one to get a level of hashes.
 
 We then hash each pair together, making a new level with half as many hashes.
-
+<!------------------------------------------------------------------------------------------------>
+<!-----------------------------------  -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image0xx.png" alt=" "</>
 </p>
@@ -2541,7 +2564,9 @@ This hash at the very top is the Merkle Root.
 This way, we can detect any transaction changes after the commitment with the Merkle Root.
 
 ### Merkel Trees: Tamper Detection
-
+<!------------------------------------------------------------------------------------------------>
+<!-----------------------------------  -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image0xx.png" alt=" "</>
 </p>
@@ -2556,7 +2581,9 @@ This is demonstrated in the following diagram: when Transaction 3 is changed, th
 Because of that, the hash above it is also effective, propagating all the way up to the topmost level.
 
 ### Merkle Trees: Proof of Inclusion
-
+<!------------------------------------------------------------------------------------------------>
+<!-----------------------------------  -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image0xx.png" alt=" "</>
 </p>
@@ -2582,7 +2609,9 @@ This is actually a great efficiency gain as our tree grows larger.
 <img width="50%" src="/images/image0xx.png" alt=" "</>
 </p>
 &nbsp;
-
+<!------------------------------------------------------------------------------------------------>
+<!-----------------------------------  -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <img src="/images/image110.png" style="width:5in;height:2.79979in" />
 
 It’s pretty obvious what the Previous Block Hash does: It merely contains the hash of the previous block.
@@ -2601,7 +2630,9 @@ This means that if any block is altered, then the block after will also be alter
 Changing any part of this history also changes the entire future after that point.
 
 Here’s an example of what happens when that tampered Merkle Root from before manifests within the blockchain.
-
+<!------------------------------------------------------------------------------------------------>
+<!-----------------------------------  -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image0xx.png" alt=" "</>
 </p>
@@ -2618,7 +2649,9 @@ This is why the blockchain is considered immutable, because all tampering is eas
 Proof-of-Work: Partial Preimage Hash Puzzle
 
 Now that we’ve finished talking about how Prev Block Hashes, let’s talk about the **nonce**, the physical manifestation of Proof-of-Work.
-
+<!------------------------------------------------------------------------------------------------>
+<!-----------------------------------  -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image0xx.png" alt=" "</>
 </p>
@@ -2630,6 +2663,9 @@ Keep in mind that we need entities to prove that they’ve done some work before
 
 The way we do this in Bitcoin is with a partial preimage hash puzzle.
 
+<!------------------------------------------------------------------------------------------------>
+<!-----------------------------------  -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 
 <p align="center" width="100%">
 <img width="50%" src="/images/image0xx.png" alt=" "</>
@@ -2664,6 +2700,9 @@ To satisfy our needs for a puzzle, these hash puzzles need to have **three** cha
 
 Computational difficulty means ensuring that the solution to the puzzle cannot be easily found.
 
+<!------------------------------------------------------------------------------------------------>
+<!-----------------------------------  -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image0xx.png" alt=" "</>
 </p>
@@ -2683,6 +2722,9 @@ It should just take one hash for example to prove that some nonce is correct, ev
 
 ### Proof-of-Work: Mining
 
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------------- Proof-of-Work: Mining -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image0xx.png" alt=" "</>
 </p>
@@ -5491,7 +5533,12 @@ The advantage of this attack is that it’s very hard to detect in small amounts
 
 Let’s go ahead and show why this is the case through some calculations.
 
-<img src="/images/image239.png" style="width:5in;height:2.82552in" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------- Pool Cannibalization: Strategy --------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="50%" src="/images/image239.png" alt="Pool Cannibalization: Strategy"</>
+</p>
 
 Let’s first establish some assumptions.
 
@@ -5525,7 +5572,12 @@ This means that our increase in profit is 0.0069 bitcoins from our extra hardwar
 
 But how can we leverage our previous knowledge about pay-per-share pools?
 
-<img src="/images/image240.png" style="width:5in;height:2.85622in" />
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- Pool Cannibalization: Example ---------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="50%" src="/images/image240.png" alt="Pool Cannibalization: Example"</>
+</p>
 
 Well, by doing something mean but profitable: distributing our 1 unit of mining power among all the other pools -- the other 70% of the network hash power.
 
@@ -5549,7 +5601,12 @@ This means that our expected value of mining with this one percent of hashpower 
 
 You’ll notice a scary conclusion.
 
-<img src="/images/image241.png" style="width:5in;height:2.86649in" />
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- Pool Cannibalization: Example ---------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="50%" src="/images/image241.png" alt="Pool Cannibalization: Example"</>
+</p>
 
 Dishonesty is more profitable than honesty!
 
@@ -5567,7 +5624,12 @@ Are pools going to wage war on each other through this attack?
 
 ### Nash Equilibrium and the Tragedy of the Commons
 
-<img src="/images/image242.png" style="width:5in;height:2.8275in" />
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- Pool Wars: The Game of Life ----------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="50%" src="/images/image242.png" alt="Pool Wars: The Game of Life"</>
+</p>
 
 Like all other competitions for resources, we can model this problem as a game and analyze it with economic game theory.
 
@@ -5587,7 +5649,12 @@ Pool 1 and Pool 2 both want to attack each other to increase their own personal 
 
 However, if they both attack each other, they’ll be worse off than if they both chose to cooperate and not attack at all.
 
-<img src="/images/image243.png" style="width:5in;height:2.81371in" />
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- Pool Wars: Nash Equilibrium ----------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="50%" src="/images/image243.png" alt="Pool Wars: Nash Equilibrium"</>
+</p>
 
 Let’s say Pool 1 chooses to attack Pool 2.
 
@@ -5611,9 +5678,17 @@ However, if both Pool 1 and Pool 2 attack each other, they both lose mining powe
 
 This means that their profit from attacking is actually less than if they both chose not to attack each other.
 
-So why don’t they just not attack each other and make more profit than in this Nash Equilibrium?
+Why don’t they just not attack each other and make more profit than in this Nash Equilibrium?
 
-<img src="/images/image244.png" style="width:5in;height:2.82068in" />
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------------- Pool Wars: -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="50%" src="/images/image244.png" alt="Pool Wars"</>
+</p>
+<!---
+<img src="/images/image244.png" style="width:5in;height:2.8in" />
+---->
 
 Well, the no-pool-attacks scenario is not a Nash Equilibrium.
 
