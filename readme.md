@@ -2593,16 +2593,17 @@ This is actually a great efficiency gain as our tree grows larger.
 ### Previous Block Hash
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!----------------------------------- A Tamper-Evident Database: Merkle Root -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img width="50%" src="/images/image106.png" alt=" "</>
+<p align="center" width="100%">
+<img width="50%" src="/images/image106.png" alt="A Tamper-Evident Database: Merkle Root"</>
 </p>
 &nbsp;
 
 It’s pretty obvious what the Previous Block Hash does: It merely contains the hash of the previous block.
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!----------------------------------- Protecting the Chain -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image107.png" alt=" "</>
@@ -2618,7 +2619,7 @@ Changing any part of this history also changes the entire future after that poin
 Here’s an example of what happens when that tampered Merkle Root from before manifests within the blockchain.
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!----------------------------------- Protecting the Chain -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image108.png" alt=" "</>
@@ -2634,8 +2635,9 @@ This is why the blockchain is considered immutable, because all tampering is eas
 Proof-of-Work: Partial Preimage Hash Puzzle
 
 Now that we’ve finished talking about how Prev Block Hashes, let’s talk about the **nonce**, the physical manifestation of Proof-of-Work.
+
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!----------------------------------- Nonce  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image109.png" alt=" "</>
@@ -2647,10 +2649,10 @@ Keep in mind that we need entities to prove that they’ve done some work before
 The way we do this in Bitcoin is with a partial preimage hash puzzle.
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!---------------- A Tamper-Evident Database: Partial Pre-Image Hash Puzzle ---------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image110.png" alt=" "</>
+<img width="50%" src="/images/image110.jpg" alt="Partial Pre-Image Hash Puzzle"</>
 </p>
 &nbsp;
 
@@ -2730,14 +2732,17 @@ It’s as if that target is the green line dividing the valid and invalid blocks
 
 ### Proof-of-Work: Block Difficulty
 
+<!------------------------------------------------------------------------------------------------>
+<!-----------------------------------  -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image114.png" alt=" "</>
 </p>
 &nbsp;
 
 <img src="/images/image118.png" style="width:5in;height:2.82065in" />
 
-So how do we adjust the size of this circle?
+How do we adjust the size of this circle?
 
 How do we set and change the target?
 
@@ -2769,23 +2774,39 @@ We make adjustments on the puzzle difficulty accordingly going forward.
 
 A quick sanity check to see if your understanding is correct.
 
+<!------------------------------------------------------------------------------------------------>
+<!-----------------------------------  -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image0xx.png" alt=" "</>
 </p>
 &nbsp;
-
 <img src="/images/image119.png" style="width:5in;height:2.83623in" />
 
 Let’s say that the current difficulty is 10.
 
 Then what’s the new difficulty if the time to mine 2016 blocks is exactly two weeks?
 
+<!------------------------------------------------------------------------------------------------>
+<!-----------------------------------  -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="50%" src="/images/image0xx.png" alt=" "</>
+</p>
+&nbsp;
 <img src="/images/image120.png" style="width:5in;height:2.80844in" />
 
 Yes, it’s still 10!
 
 The puzzle was precisely as hard as we wanted, so the difficulty stays exactly the same.
 
+<!------------------------------------------------------------------------------------------------>
+<!-----------------------------------  -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="50%" src="/images/image0xx.png" alt=" "</>
+</p>
+&nbsp;
 <img src="/images/image121.png" style="width:5in;height:2.85016in" />
 
 What about when the time to mine those 2016 blocks is just one week?
@@ -2800,17 +2821,26 @@ If the time to mine is 4 weeks now, the difficulty is now 5!
 
 We mined those blocks in twice the expected time, meaning that the puzzle was twice as hard as necessary, so we make it half as difficult.
 
-<img src="/images/image122.png" style="width:5in;height:2.85169in" />
-
-So, the difficulty is inversely proportional to the time to mine.
-
-### Proof-of-Work: Coinbase Transaction
-
+<!------------------------------------------------------------------------------------------------>
+<!-----------------------------------  -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image0xx.png" alt=" "</>
 </p>
 &nbsp;
+<img src="/images/image122.png" style="width:5in;height:2.85169in" />
 
+The difficulty is inversely proportional to the time to mine.
+
+### Proof-of-Work: Coinbase Transaction
+
+<!------------------------------------------------------------------------------------------------>
+<!-----------------------------------  -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="50%" src="/images/image0xx.png" alt=" "</>
+</p>
+&nbsp;
 <img src="/images/image123.png" style="width:5in;height:2.86538in" />
 
 You might be asking, where does the block reward to miners even go?
@@ -2825,20 +2855,31 @@ This is how new bitcoins are minted, or introduced, into the network.
 
 Also, the Coinbase transaction has a separate nonce field that is used in our hash puzzle as well.
 
+<!------------------------------------------------------------------------------------------------>
+<!-----------------------------------  -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image0xx.png" alt=" "</>
 </p>
 &nbsp;
-
 <img src="/images/image124.png" style="width:5in;height:2.86339in" />
 
+<!------------------------------------------------------------------------------------------------>
+<!-----------------------------------  -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image0xx.png" alt=" "</>
 </p>
 &nbsp;
-
 <img src="/images/image125.png" style="width:5in;height:2.81677in" />
 
+<!------------------------------------------------------------------------------------------------>
+<!-----------------------------------  -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="50%" src="/images/image0xx.png" alt=" "</>
+</p>
+&nbsp;
 <img src="/images/image126.png" style="width:5in;height:2.81677in" />
 
 Here's some mining pseudo code.
@@ -2869,11 +2910,13 @@ In this next section, we’ll go over what we want from a digital signature sche
 
 ### Digital Signature Schemes (DSS)
 
+<!------------------------------------------------------------------------------------------------>
+<!-----------------------------------  -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image0xx.png" alt=" "</>
 </p>
 &nbsp;
-
 ### <img src="/images/image127.png" style="width:5in;height:2.81677in" />
 
 Consider two users on the network: call them Alice and Bob.
@@ -2890,17 +2933,22 @@ Alice wants to send over a message to Bob.
 
 How can she do this and make sure no one tampers with her message?
 
+<!------------------------------------------------------------------------------------------------>
+<!-----------------------------------  -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image0xx.png" alt=" "</>
 </p>
 &nbsp;
-
 <img src="/images/image128.png" style="width:5in;height:2.81677in" />
 
 First we point out that Bob has access to Alice’s public key, since that’s public information that’s used to identify Alice.
 
 We’ll see later on that this is important to help Bob verify that a message coming from Alice was actually sent by Alice.
 
+<!------------------------------------------------------------------------------------------------>
+<!-----------------------------------  -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image0xx.png" alt=" "</>
 </p>
@@ -2912,22 +2960,26 @@ Before sending out her message, Alice signs her message with her private key.
 
 This generates a unique signature that proves that she created the message as it is.
 
+<!------------------------------------------------------------------------------------------------>
+<!-----------------------------------  -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image0xx.png" alt=" "</>
 </p>
 &nbsp;
-
 <img src="/images/image130.png" style="width:5in;height:2.81677in" />
 
 She then sends her signature along with her original message to Bob.
 
 The idea is that the message is the main payload, and the signature can be used to prove that Alice was the one who created that exact message.
 
+<!------------------------------------------------------------------------------------------------>
+<!-----------------------------------  -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image0xx.png" alt=" "</>
 </p>
 &nbsp;
-
 <img src="/images/image131.png" style="width:5in;height:2.81677in" />
 
 Bob is then able to easily verify that the signature is valid, given Alice’s public key and the original message.
@@ -2940,11 +2992,13 @@ Also, at any point in time if her message was tampered with, the signature could
 
 This is how digital signature schemes make messages tamper evident.
 
+<!------------------------------------------------------------------------------------------------>
+<!-----------------------------------  -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image0xx.png" alt=" "</>
 </p>
 &nbsp;
-
 <img src="/images/image132.png" style="width:5in;height:2.81677in" />
 
 A key point is that Bob or anyone else should not be able to guess Alice’s private key, given just her public key.
@@ -2955,11 +3009,13 @@ We’ll see how this is prevented in the next section, where we explain the way 
 
 ### DSS Key Definitions and Takeways
 
+<!------------------------------------------------------------------------------------------------>
+<!-----------------------------------  -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image0xx.png" alt=" "</>
 </p>
 &nbsp;
-
 <img src="/images/image133.png" style="width:5in;height:2.81677in" />
 
 In summary, here are some key properties that we should keep in mind.
@@ -2982,11 +3038,13 @@ And this is what we saw earlier: that signatures can be used so that messages ca
 
 ### From Private Keys to Addresses
 
+<!------------------------------------------------------------------------------------------------>
+<!-----------------------------------  -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image0xx.png" alt=" "</>
 </p>
 &nbsp;
-
 <img src="/images/image134.png" style="width:5in;height:2.79396in" />
 
 Here’s a diagram showing a high-level overview of what we’re going to be diving into in the next couple slides.
@@ -3005,6 +3063,9 @@ A private key wouldn’t be so private if we could guess the private key from th
 
 Alright, so let’s take a look at elliptic curves first.
 
+<!------------------------------------------------------------------------------------------------>
+<!-----------------------------------  -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image0xx.png" alt=" "</>
 </p>
@@ -3023,18 +3084,22 @@ Here’s a picture of Bitcoin’s elliptic curve, secp256k1, on the right side.
 
 ### Elliptic Curve Cryptography: Demo
 
+<!------------------------------------------------------------------------------------------------>
+<!-----------------------------------  -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image0xx.png" alt=" "</>
 </p>
 &nbsp;
-
 <img src="/images/image136.png" style="width:5in;height:2.81677in" />
 
+<!------------------------------------------------------------------------------------------------>
+<!-----------------------------------  -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image0xx.png" alt=" "</>
 </p>
 &nbsp;
-
 <img src="/images/image137.png" style="width:5in;height:2.81677in" />
 
 To illustrate, here’s a demo.
@@ -3049,11 +3114,13 @@ To get 3P, we can add P to 2P via the same process.
 
 Draw a line through P and 2P, find where they intersect, which is -3P, and then reflect that across the x-axis again to yield our answer 3P.
 
+<!------------------------------------------------------------------------------------------------>
+<!-----------------------------------  -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image0xx.png" alt=" "</>
 </p>
 &nbsp;
-
 <img src="/images/image138.png" style="width:5in;height:2.85097in" />
 
 Its equation is y\^2 = x\^3 + 7, and was engineered to have some unique properties that we’ll be explaining in the coming slides.
@@ -3088,6 +3155,9 @@ This is a trapdoor, or one-way, function, because given a point K that is P + Q,
 
 ### Elliptic Curve Cryptography: Security
 
+<!------------------------------------------------------------------------------------------------>
+<!-----------------------------------  -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image0xx.png" alt=" "</>
 </p>
@@ -3117,11 +3187,13 @@ Now that we have our public key, how do we get to our address?
 
 We’ll be going over that in this section.
 
+<!------------------------------------------------------------------------------------------------>
+<!-----------------------------------  -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image0xx.png" alt=" "</>
 </p>
 &nbsp;
-
 <img src="/images/image140.png" style="width:5in;height:2.81677in" />
 
 If quantum computers exist, we could use them to solve the elliptic curve discrete logarithm problem and find the private key given a public key.
@@ -3136,11 +3208,13 @@ After all this, we have our public key hash.
 
 ### Public Key to Address
 
+<!------------------------------------------------------------------------------------------------>
+<!-----------------------------------  -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image0xx.png" alt=" "</>
 </p>
 &nbsp;
-
 <img src="/images/image141.png" style="width:5in;height:2.81677in" />
 
 And after we have our public key hash, we’re just a little bit away from arriving at our Bitcoin address.
@@ -3189,18 +3263,22 @@ Before we dive into specifics about how Bitcoin scripts work, it’s important t
 
 ### Remember the UTXO Model?
 
+<!------------------------------------------------------------------------------------------------>
+<!-----------------------------------  -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image0xx.png" alt=" "</>
 </p>
 &nbsp;
-
 <img src="/images/image142.png" style="width:5in;height:2.81955in" />
 
+<!------------------------------------------------------------------------------------------------>
+<!-----------------------------------  -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image0xx.png" alt=" "</>
 </p>
 &nbsp;
-
 <img src="/images/image143.png" style="width:5in;height:2.81677in" />
 
 Remember the UTXO model?
@@ -3227,11 +3305,13 @@ Contents of a Transaction
 
 Let’s take a deeper look into the contents of my transaction to Rustie.
 
+<!------------------------------------------------------------------------------------------------>
+<!-----------------------------------  -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image0xx.png" alt=" "</>
 </p>
 &nbsp;
-
 <img src="/images/image144.png" style="width:5in;height:2.81677in" />
 
 As we can see, a transaction has three main “sections.”
@@ -3246,11 +3326,13 @@ This proof allows me to redeem the UTXOs and use them to produce new outputs.
 
 The outputs section contains a list of new UTXOs that will be sent to new addresses.
 
+<!------------------------------------------------------------------------------------------------>
+<!-----------------------------------  -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image0xx.png" alt=" "</>
 </p>
 &nbsp;
-
 <img src="/images/image146.png" style="width:5in;height:2.81677in" />
 
 Each of these values is accompanied with a script that locks the value away from everyone except the intended redeemer who can provide a valid proof.
@@ -3259,11 +3341,13 @@ Taking a deeper look into the transaction, we start with the metadata.
 
 The first piece of metadata is the hash of our transaction, or the unique “ID” of this transaction.
 
+<!------------------------------------------------------------------------------------------------>
+<!-----------------------------------  -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image0xx.png" alt=" "</>
 </p>
 &nbsp;
-
 <img src="/images/image147.png" style="width:5in;height:2.81677in" />
 
 We also get information here in the field vin_sz, which stands for vector input size, or the number of input UTXOs being referenced in this transaction, as well as vout_sz, which stands for vector output size, or the number of new UTXOs being created.
@@ -3299,11 +3383,13 @@ The scriptSig is the most important part of these inputs because they’re the r
 
 Last but not least, the end product of our transaction is the output(s).
 
+<!------------------------------------------------------------------------------------------------>
+<!-----------------------------------  -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image0xx.png" alt=" "</>
 </p>
 &nbsp;
-
 <img src="/images/image149.png" style="width:5in;height:2.81677in" />
 
 You can see here in this particular transaction we have only one output with a value of about 10 bitcoin.
@@ -3318,11 +3404,13 @@ In this case, only after Rustie provides his proof can he unlock and spend my UT
 
 ### Bitcoin Script Reminders
 
+<!------------------------------------------------------------------------------------------------>
+<!-----------------------------------  -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image0xx.png" alt=" "</>
 </p>
 &nbsp;
-
 <img src="/images/image150.png" style="width:5in;height:2.81677in" />
 
 Remember: in this transaction, the output addresses are actually scripts.
