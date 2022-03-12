@@ -3425,6 +3425,7 @@ Together, the combination of using SHA-256 and RIPEMD-160 is called “double ha
 After all this, we have our public key hash.
 
 ### Public Key to Address
+
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------  ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -3508,7 +3509,7 @@ Transactions contain the signature of the owner of the unspent funds.
 
 These unspent transactions are UTXOs.
 
-So how do you spend your bitcoin, or “your UTXOs”?
+How do you spend your bitcoin, or “your UTXOs”?
 
 This is important: spending bitcoin is the act of redeeming previous outputs with a proof that you are the legitimate redeemer, and then specifying who can redeem the output you are now creating by encoding that person’s information in your transaction.
 
@@ -3521,12 +3522,13 @@ We’ll go more into detail later.
 Contents of a Transaction
 
 Let’s take a deeper look into the contents of my transaction to Rustie.
-
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------  ---------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image144.png" alt=" "</>
 </p>
 &nbsp;
-
 <img src="/images/image144.png" style="width:5in;height:2.81677in" />
 
 As we can see, a transaction has three main “sections.”
@@ -3540,13 +3542,12 @@ The inputs section contains a list of previously created UTXOs as well as a proo
 This proof allows me to redeem the UTXOs and use them to produce new outputs.
 
 The outputs section contains a list of new UTXOs that will be sent to new addresses.
-
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------  ---------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image146.png" alt=" "</>
 </p>
-&nbsp;
-
-<img src="/images/image146.png" style="width:5in;height:2.81677in" />
 
 Each of these values is accompanied with a script that locks the value away from everyone except the intended redeemer who can provide a valid proof.
 
@@ -4128,9 +4129,12 @@ Hot wallets are connected to the internet, and cold storage is not.
 
 ### Types of Wallets: Hot Wallets
 
-<p align="center">
-<img src="/images/
-image168.png" style="width:5in;height:2.81857in" />
+<!------------------------------------------------------------------------------------------------>
+<!-----------------------------  ---------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image168.png" alt="XXX " style="width:5in;height:2.8in" />
+</p>
 
 Some examples of hot wallets are smartphone apps such as Mycelium and AirBitz (I personally use AirBitz).
 
@@ -4140,8 +4144,12 @@ And all these are connected to the internet.
 
 ### Types of Wallets: Cold Wallets
 
-<p align="center">
-<img src="/images/image169.png" style="width:5in;height:2.82796in" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ Bitcoin Wallets: Cold Storage ----------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image143.png" alt="Bitcoin Wallets: Cold Storage" style="width:5in;height:2.8in" />
+</p>
 
 On the flip side, cold storage never touches the internet.
 
@@ -4197,8 +4205,12 @@ In general, so long as your words are not closely related, it’s still expensiv
 
 ### Key Stretching
 
-<p align="center">
-<img src="/images/image170.png" style="width:5in;height:2.85097in" />
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------- Bitcoin Wallets: Key Stretching ---------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image144" alt="Bitcoin Wallets: Key Stretching" style="width:5in;height:2.8in" />
+</p>
 
 However, for the security minded, to further lessen the probability of someone being able to guess your brain wallet, you can employ what’s known as key stretching.
 
@@ -4214,8 +4226,12 @@ Hacking a brain wallet that has been key stretched is exponentially harder to br
 
 ### Choosing a Wallet
 
-<p align="center">
-<img src="/images/image171.png" style="width:5in;height:2.82397in" />
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------- Bitcoin Wallets: Choosing a Wallet -------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image145.png" alt="Bitcoin Wallets: Choosing a Wallet" style="width:5in;height:2.8in" />
+</p>
 
 There’s a lot of wallets out there, definitely a lot more than what we’ve gone over, and that’s why users have to do their own research to find the wallet that’s best for them.
 
@@ -4265,8 +4281,12 @@ Some Bitcoin ATMs work a bit differently, and instead of having you scan your QR
 
 ### Exchanges
 
-<p align="center">
-<img src="/images/image172.png" style="width:5in;height:2.83477in" />
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------- How Do I Get Bitcoin: Exchanges ---------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image146-how-do-i-get-bitcoin.png" alt="How Do I Get Bitcoin: Exchanges" style="width:5in;height:2.8in" />
+</p>
 
 You can also get Bitcoin through an exchange, where you can trade between different types of traditional currency and cryptocurrencies.
 
@@ -4288,8 +4308,12 @@ As a general rule of thumb, it’s never safe to keep your money in exchanges in
 
 A lot of people do this, and it’s unfortunate when they lose all their funds when a hack does occur.
 
-<p align="center">
-<img src="/images/image173.png" style="width:5in;height:2.82655in" />
+<!------------------------------------------------------------------------------------------------>
+<!---------------------- How Do I Get Bitcoin: Decentralized Exchanges --------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image147.png" alt="How Do I Get Bitcoin: Decentralized Exchanges" style="width:5in;height:2.8in" />
+</p>
 
 So naturally, following the trend of decentralizing Everything for security reasons, we now have decentralized exchanges
 
@@ -4319,8 +4343,12 @@ In this section, we’ll be going into some wallet mechanics and how they enable
 
 ### Simple Payment Verification
 
-<p align="center">
-<img src="/images/image174.png" style="width:5in;height:2.82258in" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ Simple Payment Verification: Thin Clients ----------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image148.png" alt="Simple Payment Verification: Thin Clients" style="width:5in;height:2.8in" />
+</p>
 
 First off, let’s address the elephant in the room.
 
@@ -4340,8 +4368,12 @@ Instead, you have a wallet, to keep track of your keys, and a network routing co
 
 This is all done without a full blockchain, and for this reason, clients that run SPV are called lightweight or thin clients.
 
-<p align="center">
-<img src="/images/image175.png" style="width:5in;height:2.83638in" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------- Simple Payment Verification: Thin Clients: Assumptions --------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image149.png" alt="Simple Payment Verification: Thin Clients: Assumptions" style="width:5in;height:2.8in" />
+</p>
 
 In SPV, by having the block headers, you can simply run a merkle proof of inclusion, which we explained in the previous module in the tamper evident database section.
 
@@ -4359,8 +4391,12 @@ And realistically, we can’t afford to put the entire blockchain on our phones 
 
 ### Multisignature
 
-<p align="center">
-<img src="/images/image176.png" style="width:5in;height:2.83315in" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------------  ----------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image150.png" alt="" style="width:5in;height:2.8in" />
+</p>
 
 We mentioned multisignature in the previous module in regards to pay to script hash, but just to explain again and elaborate on its potential uses, we generalize, saying that multisig enables what are called M-of-N transactions.
 
@@ -4368,7 +4404,12 @@ In simple terms, multisig is a way of cryptographically sharing a key between pa
 
 Imagine if you want to share a wallet with your family, or even with yourself.
 
-<img src="/images/image177.png" style="width:5in;height:2.81485in" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------------  ----------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image151.png" alt="" style="width:5in;height:2.8in" />
+</p>
 
 For example, consider a 2-of-3 multisig.
 
@@ -4384,7 +4425,12 @@ Instead of losing my private key and then subsequently losing all of my funds, I
 
 After losing one private key, i still have two of the three total keys, so I still have sufficient keys to access my funds in a 2-of-3 multisig scheme.
 
-<img src="/images/image178.png" style="width:5in;height:2.83566in" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------------  ----------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image152.png" alt="" style="width:5in;height:2.8in" />
+</p>
 
 As another example, some exchanges and software wallet companies provide 2-of-3 or 3-of-5 multisig services.
 
@@ -4396,7 +4442,12 @@ As you can imagine, this works similarly for 3-of-5 or any other M-of-N multisig
 
 ### Key Generation Best Practices
 
-<img src="/images/image179.png" style="width:5in;height:2.8in" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------------  ----------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image153.png" alt="" style="width:5in;height:2.8in" />
+</p>
 
 It’s generally considered best practice to never reuse pseudonyms.
 
@@ -4420,7 +4471,12 @@ Wallet software will generally handle this anyways, making it so much easier to 
 
 ### JBOK Wallets
 
-<img src="/images/image180.png" style="width:5in;height:2.81081in" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------------  ----------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image153.png" alt="" style="width:5in;height:2.8in" />
+</p>
 
 Now if you’re complying with best practices and generating a new public and private key for every transaction you make, the natural question is: how do I manage an increasing number of keys?
 
@@ -4446,7 +4502,12 @@ That’d be pretty unmanageable.
 
 ### HD Wallets
 
-<img src="/images/image181.png" style="width:5in;height:2.83711in" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------------  ----------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image154.png" alt="" style="width:5in;height:2.8in" />
+</p>
 
 Instead of having just a bunch of keys, let’s try something a bit more clever.
 
@@ -4470,7 +4531,12 @@ And to make things more interesting, we can also use child keys as parent keys t
 
 By generating keys in a known way instead of randomly, we greatly lessen the load on wallets having to keep track of all your keys -- especially if you’re dealing with thousands of keys like exchanges do.
 
-<img src="/images/image182.png" style="width:5in;height:2.81926in" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------------  ----------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image155.png" alt="" style="width:5in;height:2.8in" />
+</p>
 
 Of course, exchanges can use HD wallets to greatly reduce their load, but HD wallets are also useful elsewhere.
 
@@ -4500,7 +4566,12 @@ We will go through what a miner actually does to validate blocks.
 
 ### Recipe for Mining: Overview
 
-<img src="/images/image183.png" style="width:5in;height:2.8125in" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------------  ----------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image156.png" alt="" style="width:5in;height:2.8in" />
+</p>
 
 Let’s first take a look at the generic steps for mining as a full node.
 
@@ -4524,7 +4595,12 @@ Let’s go into detail on how each of these steps plays out.
 
 ### Recipe for Mining: Step 0
 
-<img src="/images/image184.png" style="width:5in;height:2.79871in" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------------  ----------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image157.png" alt="" style="width:5in;height:2.8in" />
+</p>
 
 Step 0, download the history of transactions.
 
@@ -4544,7 +4620,12 @@ Now that we have the full history, let’s go ahead and get started with mining!
 
 ### Recipe for Mining: Step 1
 
-<img src="/images/image185.png" style="width:5in;height:2.79396in" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------------  ----------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image158.png" alt="" style="width:5in;height:2.8in" />
+</p>
 
 ### Step 1, verify transactions.
 
@@ -4562,7 +4643,12 @@ If that piece of code is able to successfully unlock the previous bitcoins, then
 
 ### Recipe for Mining: Step 2
 
-<img src="/images/image186.png" style="width:5in;height:2.82397in" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------------  ----------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image159.png" alt="" style="width:5in;height:2.8in" />
+</p>
 
 After validating all these transactions, it’s time to generate a block.
 
@@ -4572,7 +4658,12 @@ After constructing the block data, we are finally able to start working on the m
 
 ### Recipe for Mining: Step 3
 
-<img src="/images/image187.png" style="width:5in;height:2.83333in" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------------  ----------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image160.png" alt="" style="width:5in;height:2.8in" />
+</p>
 
 As mentioned before, every miner needs to find a nonce which makes the hash of the block header less than some target value.
 
@@ -4598,7 +4689,12 @@ We go through these loops until finally we find a valid nonce.
 
 ### Recipe for Mining: Step 4
 
-<img src="/images/image188.png" style="width:5in;height:2.81858in" />
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------- Recipe for Mining: Find a Valid Nonce ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image161.png" alt="Recipe for Mining: Find a Valid Nonce" style="width:5in;height:2.8in" />
+</p>
 
 After finding the nonce, the typical miner broadcasts it as soon as possible so that other miners are aware that a block was found.
 
@@ -4620,7 +4716,12 @@ That’s all Proof-of-Work really is at its base, a random lottery.
 
 ### Recipe for Mining: Step 5
 
-<img src="/images/image189.png" style="width:5in;height:2.84103in" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------------  ----------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image162.png" alt="" style="width:5in;height:2.8in" />
+</p>
 
 Assuming that our block made its way into the longest chain, we profit!
 
@@ -4652,6 +4753,12 @@ Author: Rea Savla
 
     -   Note: This step is optional if you mine in a mining pool or are doing lightweight mining. 
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------  ----------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image163.png" alt="" style="width:5in;height:2.8in" />
+</p>
 <img src="/images/image190.png" style="width:6.5in;height:1.16736in" alt="Recipe for Mining Step 0: Download the blockchain" />
 
 ### Step 1:
@@ -4666,6 +4773,12 @@ Author: Rea Savla
 
     -   If that script runs successfully, then the transaction is included within our block.
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------  ----------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image163.png" alt="" style="width:5in;height:2.8in" />
+</p>
 <img src="/images/image191.png" style="width:5in;height:2.42366in" alt="Checking block chain before continuing transactions" />
 
 ### Step 2:
@@ -4678,6 +4791,12 @@ Author: Rea Savla
 
     -   Construct the Previous Block Hash by hashing the previous block’s header
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------  ----------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image163.png" alt="" style="width:5in;height:2.8in" />
+</p>
 <img src="/images/image192.png" style="width:6.5in;height:1.98542in" alt="Recipe for Mining Step 2: Construct the Block" />
 
 ### Step 3:
@@ -4690,6 +4809,12 @@ Author: Rea Savla
 
     -   Note: There are two different nonces, the header nonce and the coinbase nonce. In the event that no permutation of the header nonce solves the hash puzzle, alter the coinbase nonce. This changes the Merkle root, yielding an entirely different hash puzzle.
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------  ----------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image163.png" alt="" style="width:5in;height:2.8in" />
+</p>
 <img src="/images/image193.png" style="width:5in;height:2.32218in" alt="Partial preimage hash puzzle" />
 
 ### Step 4:
