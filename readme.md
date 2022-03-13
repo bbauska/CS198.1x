@@ -17,6 +17,138 @@ CS198.1x - University of California @ BerkeleyX
 Bitcoin and Cryptocurrencies
 &nbsp;
 </h2>
+<!------------------------------------------------------------------------------------------------
+## [Table of Contents](#table-of-contents)
+
+## [**Chapter 1. Bitcoin Protocol & Consensus: A High-Level Overview**](#ch1)
+>### 1.1. [**Intro: What is Bitcoin?**](#ch1-1)
+>### 1.2. [**Bitcoin vs. Banks**](#ch1-2)
+>### 1.3. [**Intro: Bitcoin from the Ground Up**](#ch1-3)
+>### 1.4. [**Intro: Identity (Stage 1)*](#ch1-4)
+>### 1.5. [**Intro: Transactions (Stage 2)**](#ch1-5)
+>### 1.6. [**UTXO’s**](#ch1-6)  
+Intro: Record Keeping (Stage 3)
+Intro: Consensus (Stage 4)
+Supplement: 51% Attacks
+Forking
+Bitcoin Review:
+Lecture/Module 1 Summary
+
+## [**Chapter 2. Blockchain History: From the Cypherpunk Movement to JP Morgan Chases**](#ch2)
+>### 2.1. [**Intro: Pre-Bitcoin**](#ch2-1)
+>### 2.2. [**Libertarian Dreams**](#ch2-2)
+>### 2.3. [**Bitcoin Precursors**](#ch2-3)
+>### 2.4. [**Bitcoin Invention**](#ch2-4)
+>### 2.5. [**Hacks and Scandals**](#ch2-5)
+Bitcoin Bubble and Altcoins
+Bitcoin Headlines
+Intro: Scalability
+Ethereum Timeline
+Ethereum Bubble
+Intro: Enterprise Blockchain
+Banks and Blockchain
+Blockchain Community and Politics
+Intro: State of the Industry
+ICO’s:
+Industry Projects
+Module/Lecture 2 Summary
+
+## [**Chapter 3. Bitcoin Mechanics & Optimizations: A Technical Overview**](#ch3)
+>### 3.1. [**Intro: Motivations and Definitions**](#ch3-1)
+>### 3.2. [**Integrity of Information**](#ch3-2)
+>### 3.3. [**Cryptographic Hash Functions**](#ch3-3)
+>### 3.4. [**Key Properties of Cryptographic Hash Functions**](#ch3-4)
+>### 3.5. [**SHA256**](#ch3-5)
+>### 3.6. [**SHA256^2 – (Secure Hash Algorithm)**](#ch3-6)
+>### 3.7. [**Intro: A Tamper-Evident Database**](#ch3-7)
+Tamper-Evidence
+Dissecting a Block
+Merkle Trees:
+Previous Block Hash
+Proof-of-Work: Mining
+Intro: Signatures and Authentication
+Digital Signature Schemes (DSS)
+Curve Digital Signature Algorithm
+DSS Key Definitions and Takeways
+From Private Keys to Addresses
+Elliptic Curve Cryptography
+Public Key to Address
+Intro: Bitcoin Script
+Bitcoin Script Reminders
+Intro to P2PKH
+Proof of Burn
+Intro: Advanced Bitcoin Script and P2SH
+P2PKH vs P2SH
+How P2SH Works
+Why use P2SH?
+Multisignature
+Timelocks
+Lecture 3 Summary
+
+## [**Chapter 4. Bitcoin In Real Life: Wallets, Mining, and More **](#ch4)
+>### 4.1. [**Key Components**](#ch4-1)
+>### 4.2. [**Purpose of a Wallet**](#ch4-2)
+>### 4.3. [**Types of Wallets**](#ch4-3)
+>### 4.4. [**Key Stretching**](#ch4-4)
+>### 4.5. [**Choosing a Wallet**](#ch4-5)
+Bitcoin ATMs
+Exchanges
+Intro: Wallet Mechanics
+Simple Payment Verification
+Multisignature
+Key Generation Best Practices
+JBOK Wallets
+HD Wallets
+Intro: Mining
+Recipe for Mining: Overview
+Mining Incentives: Intro
+Mining Incentives: Block Reward
+Mining Incentives: Transaction Fees
+Mining Costs: Fixed Costs
+Types of Hardware
+Mining Costs: Operating Costs
+Intro: Real World Mining
+ASICs
+Mining Pools
+Mining Pool Schemes
+Mining Pool Pros and Cons
+Mining Pool Stats
+Types of Miners
+Overview
+getwork, getblocktemplate, and Stratum
+Validationless Mining
+Spy Mining
+Intro: Bitcoin Governance
+Ensuring Decentralization
+Ensuring Decentralization: ASIC Resistance
+Ensuring Decentralization: ASIC Debate
+Eliminating Waste
+Consensus Updates: Bitcoin Core
+Consensus Updates: Forks
+Consensus Updates: BIPs
+Text: Lecture 4 Summary
+
+
+## [**Chapter 5. Game Theory & Network Attacks: How to Destroy Bitcoin **](#ch5)
+>### 5.1. [**Intro: Pool Strategies**](#ch5-1)
+>### 5.2. [** **](#ch5-2)
+>### 5.3. [** **](#ch5-3)
+>### 5.4. [** **](#ch5-4)
+>### 5.5. [** **](#ch5-5)
+
+## [**Chapter 6. Ethereum & Smart Contracts: Enabling a Decentralized Future **](#ch6)
+>### 6.1. [** **](#ch6-1)
+>### 6.2. [** **](#ch6-2)
+>### 6.3. [** **](#ch6-3)
+>### 6.4. [** **](#ch6-4)
+>### 6.5. [** **](#ch6-5)
+>### 6.6. [** **](#ch6-6)
+>### 6.7. [** **](#ch6-7)
+
+**[`^        back to top        ^`](#table-of-contents)**
+
+## <a id="ch1"></a>Chapter 1. Course/Bitcoin Protocol & Consensus: A High Level Overview/Intro
+---------------------------------------------------------------------------------->
 
 ## Course Syllabus
 
