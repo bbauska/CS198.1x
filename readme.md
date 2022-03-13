@@ -772,7 +772,7 @@ Let’s say that Gloria is purchasing tons of laptops and is willing to pay both
 Gloria promises me (Rustie) 10 BTC in one transaction, and promises 10 BTC to Nadir at the same time.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- Consensus: Double Spend Attack 2 ---------------------------------->
+<!-------------------------- 18. Consensus: Double Spend Attack 2 -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image018-consensus-double-spend-attack-2.png" style="width:5in;height:2.81998in" />
@@ -798,7 +798,7 @@ Both Nadir and I see that the transaction is valid and each believe that we have
 Of course, both Nadir and I (Rustie) can’t own the same bitcoins.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------- Consensus: Double Spend Attack Malicious ------------------------------->
+<!--------------------- 19. Consensus: Double Spend Attack Malicious ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image019-consensus-double-spend-attack-malicious.png" style="width:5in;height:2.81998in" />
@@ -840,7 +840,7 @@ Like before, there are blue lines from Gloria to the rest of the network to indi
 Unlike before, there are dashed blue lines from each node to everyone else (excluding Gloria) as an indication of communication about two things: the received transaction and a vote for or against its validity.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ Consensus: Reject Double Spend ---------------------------------->
+<!---------------------------- 21. Consensus: Reject Double Spend -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image021-consensus-reject-double-spend.png" style="width:5in;height:2.81998in" />
@@ -874,10 +874,12 @@ It looks as if we are victorious!
 However, we forgot one fatal truth about Bitcoin: the anonymity.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------  ---------------------------------->
+<!--------------------------- 23. Consensus: A Stranger Among Us --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image28.png" style="width:5in;height:2.81998in" />
+<img src="/images/image23-consensus-a-stranger-among-us.png" 
+  alt="Consensus: A Stranger Among Us"
+  style="width:5in;height:2.81998in" />
 
 Recall that Bitcoin is an accessible, anonymous network with no central registry.
 
@@ -918,10 +920,12 @@ But how?
 Is it even possible to solve this problem?
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------  ---------------------------------->
+<!-------------------------------- 24. Consensus: Pay to Play ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image29.png" style="width:5in;height:2.81998in" />
+<img src="/images/image24-consensus-pay-to-play.png" 
+  alt="Consensus: Pay to Play"
+  style="width:5in;height:2.81998in" />
 
 This is where the innovation of Satoshi Nakamoto comes into play.
 
@@ -945,7 +949,13 @@ It is this new concept of voting with resources instead of with identities that 
 
 The particular consensus algorithm that Satoshi Nakamoto came up with is known as “Proof-of-Work.”
 
-<img src="/images/image30.png" style="width:5in;height:2.81998in" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 25. Consensus: Proof of Work ------------------------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/image25-consensus-proof-of-work.png" 
+  alt="Consensus: Proof of Work"
+  style="width:5in;height:2.81998in" />
 
 Let’s break down the word “Proof-of-Work.”
 
@@ -960,10 +970,12 @@ It is the method by which users vote in Bitcoin.
 It is this method of voting that made Bitcoin the first successful cryptocurrency and inspired voting mechanisms for practically every other cryptocurrency to follow.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------  ---------------------------------->
+<!---------------------------- 26. Consensus: Proof of Work: Works -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image31.png" style="width:5in;height:2.81998in" />
+<img src="/images/image26-consensus-proof-of-work-works.png" 
+	alt="Consensus: Proof of Work: Works"
+	style="width:5in;height:2.81998in" />
 
 Here’s how Proof-of-Work works: whenever someone wants to make a proposal to the rest of the Bitcoin network, they first have to solve a computationally difficult problem.
 
@@ -1038,10 +1050,12 @@ We’ll explain more in the course modules for Module 4.
 ### Bitcoin Review:
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------  ---------------------------------->
+<!------------------ 27. Key Takeaway - Identity: Your Keys are Your Identity -------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image32.png" style="width:5in;height:2.80395in" />
+<img src="/images/image27-key-takeaway-identity.png" 
+	alt="Key Takeaway - Identity: Your Keys are Your Identity"
+	style="width:5in;height:2.80395in" />
 
 Let's go over what we talked about in lecture.
 
@@ -1064,10 +1078,12 @@ It is extremely unlikely that someone might happen to generate the same private 
 Nor is it at all likely that someone can guess your private key to spend money on your behalf.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------  ---------------------------------->
+<!------------------ 28. Key Takeaway - Transactions: Breaking the Piggy Banks ------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image33.png" style="width:5in;height:2.80395in" />
+<img src="/images/image28-key-takeaway-transactions.png" 
+	alt="Key Takeaway - Transactions: Breaking the Piggy Banks"
+	style="width:5in;height:2.80395in" />
 
 Bitcoin doesn’t have the account balance model that banks have.
 
@@ -1082,10 +1098,12 @@ These UTXOs are uniquely identifiable and make tracking payments at the protocol
 The UTXO model might not be the most intuitive model for us to understand, but it works well for bitcoin from an architectural standpoint.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------  ---------------------------------->
+<!-------------------- 29. Key Takeaway - Record-Keeping: Everyone's the Bank -------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image34.png" style="width:5in;height:2.80395in" />
+<img src="/images/image29-key-takeaway-record-keeping.png" 
+	alt="Key Takeaway - Record-Keeping: Everyone's the Banks"
+	style="width:5in;height:2.80395in" />
 
 As we mentioned earlier, the blockchain is the key data structure for recording Bitcoin activity.
 
@@ -1094,10 +1112,12 @@ New transactions are recorded within new blocks added to the existing, establish
 Once a transaction is recorded, it is close to impossible to undo without changing every single version of this database in the universe.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------  ---------------------------------->
+<!------------- 30. Key Takeaway - Consensus: Updating the Shared, Immutable Ledger -------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image35.png" style="width:5in;height:2.80395in" />
+<img src="/images/image30-key-takeaway-consensus.png" 
+	alt="Key Takeaway - Consensus: Updating the Shared, Immutable Ledger"
+	style="width:5in;height:2.80395in" />
 
 The way that the network reaches consensus is through Proof-of-Work.
 
@@ -1111,7 +1131,13 @@ Because, again, there is no central authority to make sure that one person only 
 
 Proof-of-Work hence aims to make votes expensive for everyone, so that the voting power one has is based on how much computational power one has, instead of based on the number of identities.
 
-<img src="/images/image36.png" style="width:5in;height:2.80395in" />
+<!------------------------------------------------------------------------------------------------>
+<!---------------- 31. Unique Properties of Bitcoin: Demystifying the Buzzwords ------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/image031-unique-properties-of-bitcoin.png" 
+	alt="Unique Properties of Bitcoin: Demystifying the Buzzwords"
+	style="width:5in;height:2.80395in" />
 
 Given all this information, you can now justify many of the common buzzwords associated with Bitcoin which you may have heard.
 
@@ -1247,7 +1273,13 @@ From online discussions on forums and mailing lists, two groups formed: the Cyph
 
 ### Libertarian Dreams
 
-<img src="/images/image37.png" style="width:5in;height:2.80395in" />
+<!------------------------------------------------------------------------------------------------>
+<!----------------- 32. Libertarian Dreams: Cypherpunks and Crypto-Anarchists -------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/image032-libertarian-dreams-cypherpunks.png" 
+	alt="Libertarian Dreams: Cypherpunks and Crypto-Anarchists"
+	style="width:5in;height:2.80395in" />
 
 Before explaining a bit of the background behind all of this, let’s look at this quote first:
 
@@ -1257,7 +1289,13 @@ The quote comes from the Cypherpunk Manifesto, which was written by Eric Hughes,
 
 He’s one of the founders of the Cypherpunk movement, and in the 90s founded and administered the Cypherpunk mailing list.
 
-<img src="/images/image38.png" style="width:5in;height:2.80395in" />
+<!------------------------------------------------------------------------------------------------>
+<!----------------- 33. Libertarian Dreams: Cypherpunks and Crypto-Anarchists -------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/image033-libertarian-dreams-cypherpunks-2.png" 
+	alt="Libertarian Dreams: Cypherpunks and Crypto-Anarchists (2)"
+	style="width:5in;height:2.80395in" />
 
 The Cypherpunks and Crypto-anarchists hated the idea of national agencies being able to spy on them and have access to their information.
 
@@ -1281,7 +1319,13 @@ The Cypherpunks didn’t get together, design a cryptocurrency, and succeed on t
 
 Several early attempts at making a true cryptocurrency failed, though they came close.
 
-<img src="/images/image39.png" style="width:5in;height:2.80395in" />
+<!------------------------------------------------------------------------------------------------>
+<!----------------- 34. Early Attampts: Digicash -------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/image034-early-attempts-Digicash.png" 
+	alt="Early Attampts: Digicash"
+	style="width:5in;height:2.80395in" />
 
 These early failures inspired Bitcoin to adopt some key features that they implemented and learned from their mistakes.
 
@@ -1301,7 +1345,13 @@ And that’s exactly what happened.
 
 Chaum’s company DigiCash Inc bore the overwhelming burden of having to validate each and every digital signature in the DigiCash system, which eventually led to bankruptcy in 1998.
 
-<img src="/images/image40.png" style="width:5in;height:3.21207in" />
+<!------------------------------------------------------------------------------------------------>
+<!----------------- 35. Early Attampts: HashCash -------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/image035-early-attempts-hashcash.png" 
+	alt="Early Attampts: HashCash"
+	style="width:5in;height:2.80395in" />
 
 Hashcash was originally invented as a mechanism to limit email spam.
 
@@ -1317,7 +1367,13 @@ It would be too costly, as spammers goals are to send out huge numbers of emails
 
 So, by making it computationally expensive to send out email, hashcash disincentivized spammers.
 
-<img src="/images/image41.png" style="width:5in;height:3.24413in" />
+<!------------------------------------------------------------------------------------------------>
+<!----------------- 36. Early Attampts: B-Money -------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/image036-early-attempts-b-money.png" 
+	alt="Early Attampts: B-Money"
+	style="width:5in;height:2.80395in" />
 
 B-money was an early proposal for a cryptocurrency created by Wei Dai.
 
@@ -1340,10 +1396,11 @@ These ideas from B-money would later influence the development and design philos
 ### Bitcoin Invention
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!------------------ 37. Satoshi Nakamoto: Oct, 2008 Bitcoin Whitepaper -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image042.png" alt=" "</>
+<img width="50%" src="/images/image037-satoshi-nakamoto.png" 
+	alt="Satoshi Nakamoto: Oct, 2008 Bitcoin Whitepaper"</>
 </p>
 &nbsp;
 
@@ -1384,10 +1441,11 @@ It began at 50 bitcoins and is halved every (two hundred and ten thousand) 210,0
 Eventually, the block reward will become 0, at which point 21 million bitcoins will have been minted.
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!----------------------------- 38. Bitcoin: The First Cryptocurrency ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image043.png" alt=" "</>
+<img width="50%" src="/images/image038-bitcoin-the-first-cryptocurrency.png" 
+	alt="Bitcoin: The First Cryptocurrency"</>
 </p>
 &nbsp;
 
@@ -1413,7 +1471,7 @@ During this time, however, bitcoins were never exchanged for any tangible good.
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image044.png" alt=" "</>
+<img width="50%" src="/images/image039-bitcoin-gains-value.png" alt=" "</>
 </p>
 &nbsp;
 
@@ -1424,10 +1482,10 @@ Feel free to pause the video and read through the post, or follow the source lin
 In the post, we see that...
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!----------------------------------- image040-bitcoin-gains-value-2 -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image045.png" alt=" "</>
+<img width="50%" src="/images/image040-bitcoin-gains-value-2.png" alt=" "</>
 </p>
 &nbsp;
 
@@ -1442,10 +1500,10 @@ In this moment, Bitcoin went from worthless internet money to something with rea
 As a fun fact: as of March 15, 2018, the pizzas Laszlo ordered are now worth 81 million dollars.
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!----------------------------------- image041-bitcoin-gains-value-81-million-pizza.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image046.png" alt=" "</>
+<img width="50%" src="/image041-bitcoin-gains-value-81-million-pizza.png" alt=" "</>
 </p>
 &nbsp;
 
@@ -1461,7 +1519,7 @@ For most people, mining Bitcoin was merely a hobby.
 
 This purchase validated the use of Bitcoin for its original purpose as a currency actually used for buying goods.
 
-So, in a way, by trailblazing the currency’s use, Laszlo is a hero to Bitcoin enthusiasts.
+In a way, by trailblazing the currency’s use, Laszlo is a hero to Bitcoin enthusiasts.
 
 This was the very first time a Bitcoin transaction traded “magic worthless internet money” for a tangible item of value - therefore bitcoins have value.
 
@@ -1484,10 +1542,10 @@ If someone found your private key and stole your funds, no one else can give you
 Early Bitcoin was thus often the target of scandals, hacks, and illegal activity.
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!----------------------------------- image042-bitcoin-theft-mt-gox-july-2010.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="40%" src="/images/image047.png" alt=" "</>
+<img width="40%" src="/images/image042-bitcoin-theft-mt-gox-july-2010.png" alt=" "</>
 </p>
 &nbsp;
 
@@ -1518,10 +1576,10 @@ In February 2014, Mt. Gox announced that it had lost 744,408 of its customers bi
 By the end of the month, Mt. Gox filed for bankruptcy.
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!----------------------------------- image043-bitcoin-drug-scandal-silk-road-feb-2011-thru-oct-2013.png  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image048.png" alt=" "</>
+<img width="50%" src="/images/image043-bitcoin-drug-scandal-silk-road-feb-2011-thru-oct-2013.png" alt=" "</>
 </p>
 &nbsp;
 
@@ -1544,10 +1602,10 @@ In October 2013, the FBI shut down Silk Road.
 Ross Ulbricht was sentenced to life in jail, and the FBI seized upwards of 26,000 bitcoins, worth \$3.6 million at the time.
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!----------------------------------- image044-bitcoin-bubble.png  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image049.png" alt=" "</>
+<img width="50%" src="/images/image044-bitcoin-bubble.png" alt=" "</>
 </p>
 &nbsp;
 
@@ -1566,10 +1624,10 @@ Many sold because of warnings issued by the Chinese government
 Second, automated trading in Mt. Gox may have artificially driven the price up by continuously buying bitcoins.
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!----------------------------------- image045-explosion-of-altcoins.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image050.png" alt=" "</>
+<img width="50%" src="/images/image045-explosion-of-altcoins.png" alt=" "</>
 </p>
 &nbsp;
 
