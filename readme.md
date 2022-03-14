@@ -1945,7 +1945,7 @@ The Ethereum blockchain officially went live on July 30th 2015, and by May 2016,
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image052-2013-2016-ethereum-timeline-dao.pngg" alt=" "</>
+<img width="50%" src="/images/image052-2013-2016-ethereum-timeline-dao.png" alt=" "</>
 </p>
 &nbsp;
 
@@ -1966,10 +1966,10 @@ The split that rewinded (zurückgespult) history is the split that is currently 
 The remainder that believed that nothing - including catastrophic events like the DAO Hack – should be reverted stayed on the main chain, now known as Ethereum Classic.
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!----------------------------------- image053-2016-to-present-ethereum-bubble.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image053-2016-present-ethereum-bubble.png" alt=" "</>
+<img width="50%" src="/images/image053-2016-to-present-ethereum-bubble.png" alt=" "</>
 </p>
 &nbsp;
 
@@ -2162,7 +2162,7 @@ Just to drive his point home, here are some more comments he made in September 2
 And in another quote he said “One of my daughters bought bitcoin and it went up, she thinks she is a genius.”
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!----------------------------------- image064.dimon-quotes-6.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image064.dimon-quotes-6.png" alt=" "</>
@@ -2174,7 +2174,7 @@ In January 2018, he said “The blockchain is real. You can have crypto yen and 
 ### Blockchain Community and Politics
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!----------------------------------- image065-crypto-anarchy.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image065-crypto-anarchy.png" alt=" "</>
@@ -2184,7 +2184,7 @@ In January 2018, he said “The blockchain is real. You can have crypto yen and 
 Cryptocurrency and blockchain technology started its roller coaster of a journey with a small group of cypherpunks, who believed in cryptography as means to promote privacy…it had a rough beginning as we saw with the failed DigiCash…but now we’ve ended up here at JP Morgan Chase, one of the largest American multinational financial services firms.
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!----------------------------------- image066-digicash.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image066-digicash.png" alt=" "</>
@@ -2198,7 +2198,7 @@ Originating as a fledgling technology founded on libertarian ideals, Bitcoin had
 As bitcoin began to rise in value and attract attention from a wider and wider audience, there was a shift in focus away from Bitcoin itself and more into the other innovations made possible by the underlying technology, the blockchain.
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!----------------------------------- image067-community.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image067-community.png" alt=" "</>
@@ -2220,7 +2220,7 @@ We also host many public events, workshops, and meetups, teach multiple classes 
 And this all done to foster and develop the blockchain community.
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!----------------------------------- image068-politics-dont-tread.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image068-politics-dont-tread.png" alt=" "</>
@@ -2247,21 +2247,19 @@ On the other hand, libertarians also think that people should be able to do what
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image069-politics-dont-tread-2.png" alt=" "</>
 </p>
 &nbsp;
-<img src="/images/image74.png" style="width:5in;height:2.86699in" />
 
 The flag on this slide is the Gadsen flag, which has strong Libertarian roots.
 
 It’s used as a libertarian symbol because the porcupine is the “quiet”, unassuming warrior of the forest, which doesn’t attack so long as you leave it alone.
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!----------------------------------- image070-controversial-topics.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
-<img src="/images/image75.png" style="width:5in;height:2.86699in" />
+<img width="50%" src="/images/image070-controversial-topics.png" alt=" "</>
 
 The United States government tries to best represent its citizens’ opinions and interests through a representative democracy.
 
@@ -2286,13 +2284,12 @@ That’s what we’re going to explore in this next section on the state of the 
 ### ICO’s:
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!----------------------------------- image071-icos-the-hype.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image071-icos-the-hype.png" alt=" "</>
 </p>
 &nbsp;
-<img src="/images/image76.png" style="width:5in;height:2.80235in" />
 
 Nowadays, you can’t speak about the state of the blockchain industry without at least mentioning ICOs, or initial coin offerings.
 
@@ -2317,13 +2314,12 @@ ICOs are permissionless and enable ANYONE to invest in a project that they feel 
 We put emphasis on the word ANYONE because of the open and public nature of these cryptocurrencies.
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!----------------------------------- image072-icos-doing-what-you-want.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image072-icos-doing-what-you-want.png" alt=" "</>
 </p>
 &nbsp;
-<img src="/images/image77.png" style="width:5in;height:2.86699in" />
 
 And when you think of it, it’s pretty wild.
 
@@ -2338,13 +2334,12 @@ This shows that ICOs are leveling the playing field for investments.
 Normal people now can invest in any blockchain project they want to.
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!----------------------------------- image073-explosion-of-altcoins.png  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image073-explosion-of-altcoins.png" alt=" "</>
 </p>
 &nbsp;
-<img src="/images/image78.png" style="width:3.96528in;height:2.20103in" />
 
 And with so many new projects coming out, some with more potential than others, the community needs some way to support them.
 
@@ -2363,7 +2358,6 @@ In Q3’17, ICOs have raised \$1.3B with 150 ICOs while seed/angel investing acr
 <img width="50%" src="/images/image0xx.png" alt=" "</>
 </p>
 &nbsp;
-<img src="/images/image79.png" style="width:5in;height:2.89156in" />
 
 Perhaps one of the most popular projects of 2017 was Cryptokitties.
 
@@ -2382,13 +2376,12 @@ It’s clear that cryptocurrencies and blockchain are hugely popular now.
 Whether or not its mainstream spotlight and growing popularity is a good thing is another question.
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!----------------------------------- image075-parity-security.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image075-parity-security.png" alt=" "</>
 </p>
 &nbsp;
-<img src="/images/image80.png" style="width:5in;height:2.89156in" />
 
 With the growing popularity of blockchain and cryptocurrencies, it’s important to have good wallet software.
 
@@ -2397,10 +2390,10 @@ Parity wallet is a popular multisignature wallet, which requires multiple people
 Parity marketed itself as the fastest and most secure way of interacting with the Ethereum blockchain, but in November 2017, this happened…
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!----------------------------------- image076-parity-oops.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image076-parity-oops.png" alt=" "</>
 </p>
 &nbsp;
 <img src="/images/image81.png" style="width:5in;height:2.86699in" />
@@ -2418,13 +2411,12 @@ Due to Ethereum architecture, and the immutability of public blockchains, code t
 This was a huge eye-opening moment for the Ethereum community as a whole, and taught developers -- especially open source developers -- to fully audit the security of mission critical code.
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!----------------------------------- image077-coincheck-the-biggest-yet.png  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image077-coincheck-the-biggest-yet.png" alt=" "</>
 </p>
 &nbsp;
-<img src="/images/image82.png" style="width:5in;height:2.89156in" />
 
 Coincheck was marketed as one of the largest and most popular cryptocurrency exchanges in Asia -- at least up until a hack in January 2018 that after the dust had settled turned out to be the largest cryptocurrency hack in history.
 
@@ -2457,13 +2449,12 @@ In October 2008, Satoshi Nakamoto released the Bitcoin whitepaper, which outline
 The first transaction using Bitcoin to purchase a tangible asset occurred in 2010, when Laszlo Hanyecz exchanged 10,000 bitcoin for \$25 worth of pizza. This exchange gave bitcoins real value, a first step towards legitimacy. 
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!----------------------------------- image078-pizza-pizza.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image078-pizza-pizza.png" alt="Image of Laszlo Hanyecz&#39;s pizzas that he ordered online. His post: &quot;I just want to report that I successfully traded 10,000 bitcoins for pizza"</>
 </p>
 &nbsp;
-<img src="/images/image83.png" style="width:6in;height:2.65385in" alt="Image of Laszlo Hanyecz&#39;s pizzas that he ordered online. His post: &quot;I just want to report that I successfully traded 10,000 bitcoins for pizza." />
 
 ### Early Bitcoin: Scandals, Hacks, and Illegal Activity
 
@@ -2508,13 +2499,12 @@ Coindesk: [A Bot Named Willy: Did Mt. Gox's Automated Trading Pump Bitcoin's Pr
 # 
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!----------------------------------- image080=bitcoin-overview.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image080=bitcoin-overview.png" alt=" "</>
 </p>
 &nbsp;
-<img src="/images/image84.png" style="width:5in;height:2.86538in" />
 
 We’ve seen how Bitcoin works at a high level.
 
@@ -2525,13 +2515,12 @@ However, we don’t know how that happens.
 This lecture will teach you everything about the low-level specifics of Bitcoin that make it work.
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!----------------------------------- image080-lecture-overview.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image080-lecture-overview.png" alt=" "</>
 </p>
 &nbsp;
-<img src="/images/image85.png" style="width:5in;height:3.12019in" />
 
 First, let’s discuss cryptographic hash functions: what they are and how they are used in Bitcoin.
 
@@ -2562,13 +2551,12 @@ For this, we’ll utilize cryptographic hash functions.
 ### Motivations and Definitions: Integrity of Information
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!-------------------- Cryptographic Hash Functions: Integrity of Information -------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image081-cryptographic-hash-functions.png" alt=" "</>
 </p>
 &nbsp;
-<img src="/images/image86.png" style="width:5in;height:2.81585in" />
 
 A simple way to do this is with some fingerprinting system.
 
@@ -2602,7 +2590,13 @@ We need standardized randomness.
 
 ### Motivations and Definitions: Cryptographic Hash Functions
 
-### <img src="/images/image87.png" style="width:5in;height:2.84509in" />
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------------- image081-hash-function-formula.png -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="50%" src="/images/image081-hash-function-formula.png" alt=" "</>
+</p>
+&nbsp;
 
 Cryptographic hash functions are one way functions that take some input and produce a pseudorandom output.
 
@@ -2617,19 +2611,24 @@ A cryptographic hash function always outputs a message of some given size.
 One note is that we call the output the image, and the input the pre image.
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!----------------------------------- image082-hash-functions-formula.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image082-hash-functions-formula.png" alt=" "</>
 </p>
 &nbsp;
-<img src="/images/image88.png" style="width:5in;height:2.86538in" />
 
 Cryptographic hash functions differ from regular hash functions in that they are built for security, but for convenience, we will now refer to cryptographic hash functions as hash functions.
 
 ### Key Properties of Cryptographic Hash Functions
 
-<img src="/images/image89.png" style="width:5in;height:2.86538in" />
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------------- image083-cryptographic-hash-functions-cryptography.png -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="50%" src="/images/image083-cryptographic-hash-functions-cryptography.png" alt=" "</>
+</p>
+&nbsp;
 
 What are the properties of hash functions then?
 
@@ -2638,13 +2637,12 @@ Well, we have *three* important properties to discuss: *pre-image* and *second-p
 To clarify what these terms mean, let’s go over a couple definitions.
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!----------------------------------- image084-cryptographic-hash-functions-preimage-resistance.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image084-cryptographic-hash-functions-preimage-resistance.png" alt=" "</>
 </p>
 &nbsp;
-<img src="/images/image90.png" style="width:5in;height:2.86538in" />
 
 “Pre-image” resistance is synonymous with “input.”
 
@@ -2661,13 +2659,12 @@ First off, we want to make sure that no one can reverse engineer our fingerprint
 Otherwise, certain issues come up, such as exposing information that we didn’t want to reveal.
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!----------------------------------- image085-cryptographic-hash-functions-preimage-resistance.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image085-cryptographic-hash-functions-preimage-resistance.png" alt=" "</>
 </p>
 &nbsp;
-<img src="/images/image91.png" style="width:5in;height:2.86538in" />
 
 To make sure this doesn't happen, we need what’s known as preimage resistance.
 
@@ -2676,14 +2673,13 @@ The technical definition is as follows: given some hash function H and some outp
 In other words, we cannot easily discover the input which created some output.
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!----------------------------------- image086-cryptographic-hash-functions-2ndary-preimage-resistance.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image086-cryptographic-hash-functions-2ndary-preimage-resistance.png" alt=" "</>
 </p>
 &nbsp;
-<img src="/images/image92.png" style="width:5in;height:2.7946in" />
 
 Key Properties of Cryptographic Hash Functions: Second Preimage Resistance
 
@@ -2694,14 +2690,13 @@ If someone else can generate my fingerprint with a different input, then no one 
 To make sure this doesn’t happen, we need what’s known as second preimage resistance.
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!----------------------------------- image087-cryptographic-hash-functions-2ndary-preimage-resistance.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image087-cryptographic-hash-functions-2ndary-preimage-resistance.png" alt=" "</>
 </p>
 &nbsp;
-<img src="/images/image93.png" style="width:5in;height:2.81317in" />
 
 The technical definition is as follows: given some hash function H and some output H of x, it is computationally difficult to find a different input x’ such that H of x equals H of x’.
 
@@ -2716,13 +2711,12 @@ The technical definition is as follows: given some hash function H, it is comput
 ### Key Properties of Cryptographic Hash Functions: Avalanche Effect
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!----------------------------------- image090-cryptographic-hash-functions-avalanche-effect.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image090-cryptographic-hash-functions-avalanche-effect.png" alt=" "</>
 </p>
 &nbsp;
-<img src="/images/image94.png" style="width:5in;height:2.82093in" />
 
 Consequences of these properties is what’s known as the Avalanche Effect.
 
@@ -2739,13 +2733,12 @@ There's no relation between the Hashes despite the inputs being so similar.
 ### SHA256
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!----------------------------------- image090-cryptographic-hash-sha256.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image090-cryptographic-hash-sha256.png" alt=" "</>
 </p>
 &nbsp;
-<img src="/images/image95.png" style="width:5in;height:2.86538in" />
 
 ### SHA256\^2 – (Secure Hash Algorithm)
 
@@ -2766,24 +2759,22 @@ Once on the original message you want to hash, and another time on the output of
 ### Intro: A Tamper-Evident Database
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!----------------------------------- image090-a-tamper-evident-database.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image090-a-tamper-evident-database.png" alt=" "</>
 </p>
 &nbsp;
-<img src="/images/image96.png" style="width:5in;height:2.84509in" />
 
 Now that we know about cryptographic hash functions and their properties, how do we then apply them to design our tamper evident database for Bitcoin?
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!----------------------------------- image091-a-tamper-evident-database-dissecting.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image091-a-tamper-evident-database-dissecting.png" alt=" "</>
 </p>
 &nbsp;
-<img src="/images/image97.png" style="width:5in;height:2.86538in" />
 
 In this section, we’ll be taking a look at the structure of a block, looking specifically at some of the metadata contained within the block header that will help us achieve tamper evidence.
 
@@ -2794,63 +2785,56 @@ What does this tamper evident database actually look like?
 Well, if you’re an average user, here’s a real example of a block found on Blockchain.info, a company that keeps track of all information about the Bitcoin Blockchain for public access.
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!----------------------------------- image092-a-tamper-evident-database-merkle.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image092-a-tamper-evident-database-merkle.png" alt=" "</>
 </p>
 &nbsp;
-<img src="/images/image98.png" style="width:5in;height:2.86538in" />
 
 We’ll explain each of these fields by the end of the video.
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!----------------------------------- image092-tamper-evident-merkle-proof.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image092-tamper-evident-merkle-proof.png" alt=" "</>
 </p>
 &nbsp;
-<img src="/images/image99.png" style="width:5in;height:2.81677in" />
 
 Here’s the exact same block, but now in JSON format.
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!----------------------------------- image093-a-tamper-evident-database-example-block.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image093-a-tamper-evident-database-example-block.png" alt=" "</>
 </p>
 &nbsp;
-
-<img src="/images/image100.png" style="width:5in;height:2.77778in" />
 
 This is a much more understandable format for a computer.
 
 But what is the role of each of these different pieces of information?
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!----------------------------------- image094-a-tamper-evident-database-example-block.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image094-a-tamper-evident-database-example-block.png" alt=" "</>
 </p>
 &nbsp;
-
-<img src="/images/image101.png" style="width:5in;height:2.90376in" />
 
 ### Dissecting a Block
 
 Here’s what a block looks like conceptually.
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!----------------------------------- image095-a-tamper-evident-database-dissecting.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image095-a-tamper-evident-database-dissecting.png" alt=" "</>
 </p>
 &nbsp;
-<img src="/images/image102.png" style="width:5in;height:2.85329in" />
 
 It has four main components: the Block Header, Block Size, Transaction Counter, and Transactions.
 
@@ -2873,13 +2857,12 @@ Well, let’s go ahead and look at where hash functions are applied within Bitco
 The block header refers to all the metadata associated with every block.
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!----------------------------------- image096-tamper-evident-dissecting.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image096-tamper-evident-dissecting.png" alt=" "</>
 </p>
 &nbsp;
-<img src="/images/image103.png" style="width:5in;height:2.81283in" />
 
 There are **six** fields in the implementation, but we’re going to speak to the **three important ones** that implement the protocol explained in module 1.
 
@@ -2893,12 +2876,13 @@ Those are;
 
 The *Merkle Root* represents a summary of transactions.
 
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------------- image097.png -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image098-tamper-evident-3.png" alt=" "</>
 </p>
 &nbsp;
-
-<img src="/images/image104.png" style="width:6.5in;height:3.66181in" />
 
 The *Previous Block Hash* represents the chaining.
 
@@ -2910,11 +2894,9 @@ The block header is simply the hash of all these fields concatenated.
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image097.png" alt=" "</>
 </p>
 &nbsp;
-
-<img src="/images/image105.png" style="width:5in;height:2.79871in" />
 
 Let’s first take a look at the Merkle Root.
 
@@ -2924,11 +2906,9 @@ Let’s first take a look at the Merkle Root.
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image098.png" alt=" "</>
 </p>
 &nbsp;
-
-<img src="/images/image106.png" style="width:5in;height:2.86181in" />
 
 What is a Merkle Root, and what do we mean by a summary of transactions?
 
@@ -2964,10 +2944,9 @@ We then hash each pair together, making a new level with half as many hashes.
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image099-tamper-protect.png" alt=" "</>
 </p>
 &nbsp;
-<img src="/images/image107.png" style="width:5in;height:2.81677in" />
 
 We continue this process until we finally have only one hash at the top.
 
@@ -2981,11 +2960,9 @@ This way, we can detect any transaction changes after the commitment with the Me
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image099.png" alt=" "</>
 </p>
 &nbsp;
-
-<img src="/images/image108.png" style="width:5in;height:2.81677in" />
 
 We see here that if any transaction is changed, then the Merkle Root is affected.
 
@@ -2999,11 +2976,9 @@ Because of that, the hash above it is also effective, propagating all the way up
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image100.png" alt=" "</>
 </p>
 &nbsp;
-
-<img src="/images/image109.png" style="width:5in;height:2.83638in" />
 
 You may ask, “Isn’t it expensive to verify that a transaction was included within a Merkle Tree?"
 
@@ -3023,19 +2998,19 @@ This is actually a great efficiency gain as our tree grows larger.
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image102.png" alt=" "</>
 </p>
 &nbsp;
-<img src="/images/image110.png" style="width:5in;height:2.79979in" />
 
 It’s pretty obvious what the Previous Block Hash does: It merely contains the hash of the previous block.
 
+<!------------------------------------------------------------------------------------------------>
+<!-----------------------------------  -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image104.png" alt=" "</>
 </p>
 &nbsp;
-
-<img src="/images/image111.png" style="width:5in;height:2.83944in" />
 
 But notice this: every block does that.
 
@@ -3049,10 +3024,9 @@ Here’s an example of what happens when that tampered Merkle Root from before m
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image105-tamper.png" alt=" "</>
 </p>
 &nbsp;
-<img src="/images/image112.png" style="width:5in;height:2.85253in" />
 
 It changes the block header, which changes the next block’s Prev Block Hash, which affects the rest of the future block hashes as well.
 
@@ -3068,10 +3042,9 @@ Now that we’ve finished talking about how Prev Block Hashes, let’s talk abou
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image105-tamper-nonce.png" alt=" "</>
 </p>
 &nbsp;
-<img src="/images/image113.png" style="width:5in;height:2.81858in" />
 
 Keep in mind that we need entities to prove that they’ve done some work before they’re allowed to submit a vote to the network, meaning that we have to design a problem or puzzle for their computers to solve to prove that they’ve done work.
 
@@ -3081,10 +3054,17 @@ The way we do this in Bitcoin is with a partial preimage hash puzzle.
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image104-partial-preimage-1.png" alt=" "</>
 </p>
 &nbsp;
-<img src="/images/image115.png" style="width:5in;height:2.79348in" />
+<br/>
+<!------------------------------------------------------------------------------------------------>
+<!-----------------------------------  -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="50%" src="/images/image104-partial-preimage-2.png" alt=" "</>
+</p>
+&nbsp;
 
 Keep in mind the definition of preimage from before, which was the input.
 
@@ -3110,10 +3090,9 @@ Computational difficulty means ensuring that the solution to the puzzle cannot b
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image104-partial-preimage-3.png" alt=" "</>
 </p>
 &nbsp;
-<img src="/images/image116.png" style="width:5in;height:2.81677in" />
 
 There’s no point if *Proof-of-Work* takes little work.
 
@@ -3131,10 +3110,9 @@ It should just take one hash for example to prove that some nonce is correct, ev
 <!----------------------------------- Proof-of-Work: Mining -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image107.png" alt=" "</>
 </p>
 &nbsp;
-<img src="/images/image117.png" style="width:5in;height:2.84399in" />
 
 For a better idea of how mining works, let’s bring up an analogy.
 
@@ -3160,12 +3138,11 @@ It’s as if that target is the green line dividing the valid and invalid blocks
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <<p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image108.png" alt=" "</>
 </p>
 &nbsp;
-<img src="/images/image118.png" style="width:5in;height:2.82065in" />
 
-So how do we adjust the size of this circle?
+How do we adjust the size of this circle?
 
 How do we set and change the target?
 
@@ -3201,36 +3178,33 @@ A quick sanity check to see if your understanding is correct.
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image109.png" alt=" "</>
 </p>
 &nbsp;
-
-<img src="/images/image119.png" style="width:5in;height:2.83623in" />
 
 Let’s say that the current difficulty is 10.
 
 Then what’s the new difficulty if the time to mine 2016 blocks is exactly two weeks?
+
 <!------------------------------------------------------------------------------------------------>
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image110.png" alt=" "</>
 </p>
 &nbsp;
-
-<img src="/images/image120.png" style="width:5in;height:2.80844in" />
 
 Yes, it’s still 10!
 
 The puzzle was precisely as hard as we wanted, so the difficulty stays exactly the same.
+
 <!------------------------------------------------------------------------------------------------>
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image111.png" alt=" "</>
 </p>
 &nbsp;
-<img src="/images/image121.png" style="width:5in;height:2.85016in" />
 
 What about when the time to mine those 2016 blocks is just one week?
 
@@ -3243,26 +3217,26 @@ We mined those blocks in half the expected time, meaning that the puzzle was hal
 If the time to mine is 4 weeks now, the difficulty is now 5!
 
 We mined those blocks in twice the expected time, meaning that the puzzle was twice as hard as necessary, so we make it half as difficult.
+
 <!------------------------------------------------------------------------------------------------>
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image112.png" alt=" "</>
 </p>
 &nbsp;
-<img src="/images/image122.png" style="width:5in;height:2.85169in" />
 
 The difficulty is inversely proportional to the time to mine.
 
 ### Proof-of-Work: Coinbase Transaction
+
 <!------------------------------------------------------------------------------------------------>
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image113.png" alt=" "</>
 </p>
 &nbsp;
-<img src="/images/image123.png" style="width:5in;height:2.86538in" />
 
 You might be asking, where does the block reward to miners even go?
 
@@ -3279,31 +3253,25 @@ Also, the Coinbase transaction has a separate nonce field that is used in our ha
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image114.png" alt=" "</>
 </p>
 &nbsp;
-
-<img src="/images/image124.png" style="width:5in;height:2.86339in" />
 
 <!------------------------------------------------------------------------------------------------>
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image115.png" alt=" "</>
 </p>
 &nbsp;
-
-<img src="/images/image125.png" style="width:5in;height:2.81677in" />
 
 <!------------------------------------------------------------------------------------------------>
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image116.png" alt=" "</>
 </p>
 &nbsp;
-
-<img src="/images/image126.png" style="width:5in;height:2.81677in" />
 
 Here's some mining pseudo code.
 
@@ -3337,11 +3305,9 @@ In this next section, we’ll go over what we want from a digital signature sche
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image117-dss.png" alt=" "</>
 </p>
 &nbsp;
-
-### <img src="/images/image127.png" style="width:5in;height:2.81677in" />
 
 Consider two users on the network: call them Alice and Bob.
 
@@ -3360,11 +3326,9 @@ How can she do this and make sure no one tampers with her message?
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image117-dss-2.png" alt=" "</>
 </p>
 &nbsp;
-
-<img src="/images/image128.png" style="width:5in;height:2.81677in" />
 
 First we point out that Bob has access to Alice’s public key, since that’s public information that’s used to identify Alice.
 
@@ -3374,11 +3338,9 @@ We’ll see later on that this is important to help Bob verify that a message co
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image117-dss-3.png" alt=" "</>
 </p>
 &nbsp;
-
-<img src="/images/image129.png" style="width:5in;height:2.81677in" />
 
 Before sending out her message, Alice signs her message with her private key.
 
@@ -3388,11 +3350,9 @@ This generates a unique signature that proves that she created the message as it
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image117-dss-4.png" alt=" "</>
 </p>
 &nbsp;
-
-<img src="/images/image130.png" style="width:5in;height:2.81677in" />
 
 She then sends her signature along with her original message to Bob.
 
@@ -3402,10 +3362,9 @@ The idea is that the message is the main payload, and the signature can be used 
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image117-dss-5" alt=" "</>
 </p>
 &nbsp;
-<img src="/images/image131.png" style="width:5in;height:2.81677in" />
 
 Bob is then able to easily verify that the signature is valid, given Alice’s public key and the original message.
 
@@ -3421,10 +3380,9 @@ This is how digital signature schemes make messages tamper evident.
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image117-dss-6.png" alt=" "</>
 </p>
 &nbsp;
-<img src="/images/image132.png" style="width:5in;height:2.81677in" />
 
 A key point is that Bob or anyone else should not be able to guess Alice’s private key, given just her public key.
 
@@ -3434,12 +3392,13 @@ We’ll see how this is prevented in the next section, where we explain the way 
 
 ### DSS Key Definitions and Takeways
 
+<!------------------------------------------------------------------------------------------------>
+<!-----------------------------------  -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image116.png" alt=" "</>
 </p>
 &nbsp;
-
-<img src="/images/image133.png" style="width:5in;height:2.81677in" />
 
 In summary, here are some key properties that we should keep in mind.
 
@@ -3461,12 +3420,13 @@ And this is what we saw earlier: that signatures can be used so that messages ca
 
 ### From Private Keys to Addresses
 
+<!------------------------------------------------------------------------------------------------>
+<!-----------------------------------  -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image117.png" alt=" "</>
 </p>
 &nbsp;
-
-<img src="/images/image134.png" style="width:5in;height:2.79396in" />
 
 Here’s a diagram showing a high-level overview of what we’re going to be diving into in the next couple slides.
 
@@ -3484,12 +3444,13 @@ A private key wouldn’t be so private if we could guess the private key from th
 
 Alright, so let’s take a look at elliptic curves first.
 
+<!------------------------------------------------------------------------------------------------>
+<!-----------------------------------  -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image118.png" alt=" "</>
 </p>
 &nbsp;
-
-<img src="/images/image135.png" style="width:5in;height:2.81677in" />
 
 ### Elliptic Curve Cryptography
 
@@ -3503,19 +3464,21 @@ Here’s a picture of Bitcoin’s elliptic curve, secp256k1, on the right side.
 
 ### Elliptic Curve Cryptography: Demo
 
+<!------------------------------------------------------------------------------------------------>
+<!-----------------------------------  -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image118-2.png" alt=" "</>
 </p>
 &nbsp;
 
-<img src="/images/image136.png" style="width:5in;height:2.81677in" />
-
+<!------------------------------------------------------------------------------------------------>
+<!-----------------------------------  -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image119.png" alt=" "</>
 </p>
 &nbsp;
-
-<img src="/images/image137.png" style="width:5in;height:2.81677in" />
 
 To illustrate, here’s a demo.
 
@@ -3529,12 +3492,14 @@ To get 3P, we can add P to 2P via the same process.
 
 Draw a line through P and 2P, find where they intersect, which is -3P, and then reflect that across the x-axis again to yield our answer 3P.
 
+<!------------------------------------------------------------------------------------------------>
+<!-----------------------------------  -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image120.png" alt=" "</>
 </p>
 &nbsp;
-
-<img src="/images/image138.png" style="width:5in;height:2.85097in" />
 
 Its equation is y\^2 = x\^3 + 7, and was engineered to have some unique properties that we’ll be explaining in the coming slides.
 
@@ -3568,12 +3533,14 @@ This is a trapdoor, or one-way, function, because given a point K that is P + Q,
 
 ### Elliptic Curve Cryptography: Security
 
+<!------------------------------------------------------------------------------------------------>
+<!-----------------------------------  -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image129.png" alt=" "</>
 </p>
 &nbsp;
-
-<img src="/images/image139.png" style="width:5in;height:2.81677in" />
 
 The user generates a random number n for their private key.
 
@@ -3597,12 +3564,13 @@ Now that we have our public key, how do we get to our address?
 
 We’ll be going over that in this section.
 
+<!------------------------------------------------------------------------------------------------>
+<!-----------------------------------  -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image130.png" alt=" "</>
 </p>
 &nbsp;
-
-<img src="/images/image140.png" style="width:5in;height:2.81677in" />
 
 If quantum computers exist, we could use them to solve the elliptic curve discrete logarithm problem and find the private key given a public key.
 
@@ -3620,10 +3588,9 @@ After all this, we have our public key hash.
 <!------------------------------  ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image131.png" alt=" "</>
 </p>
 &nbsp;
-<img src="/images/image141.png" style="width:5in;height:2.81677in" />
 
 And after we have our public key hash, we’re just a little bit away from arriving at our Bitcoin address.
 
@@ -3670,22 +3637,20 @@ Bitcoin script, or just Script, is a language that was designed to be used for B
 Before we dive into specifics about how Bitcoin scripts work, it’s important to first review how transactions work.
 
 ### Remember the UTXO Model?
+
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- Bitcoin Scripts: Remember the UTXO Model? --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image142.png" alt="Bit "</>
+<img width="50%" src="/images/image132.png" alt="Bit "</>
 </p>
 &nbsp;
-<img src="/images/image142.png" style="width:5in;height:2.81955in" />
+
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------  ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image143.png" alt=" "</>
-</p>
-&nbsp;
-<img src="/images/image142.png" style="width:5in;height:2.81955in" />
+<img width="50%" src="/images/image133.png" alt=" "</>
 </p>
 &nbsp;
 
@@ -3712,6 +3677,7 @@ We’ll go more into detail later.
 Contents of a Transaction
 
 Let’s take a deeper look into the contents of my transaction to Rustie.
+
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------  ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -3719,11 +3685,16 @@ Let’s take a deeper look into the contents of my transaction to Rustie.
 <img width="50%" src="/images/image144.png" alt=" "</>
 </p>
 &nbsp;
-<img src="/images/image144.png" style="width:5in;height:2.81677in" />
 
 As we can see, a transaction has three main “sections.”
 
-<img src="/images/image145.png" style="width:5in;height:2.81677in" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------  ---------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="50%" src="/images/image145.png" alt=" "</>
+</p>
+&nbsp;
 
 The metadata section contains some housekeeping data, a unique ID of this transaction, locktime, and size.
 
@@ -3732,6 +3703,7 @@ The inputs section contains a list of previously created UTXOs as well as a proo
 This proof allows me to redeem the UTXOs and use them to produce new outputs.
 
 The outputs section contains a list of new UTXOs that will be sent to new addresses.
+
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------  ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -3745,12 +3717,13 @@ Taking a deeper look into the transaction, we start with the metadata.
 
 The first piece of metadata is the hash of our transaction, or the unique “ID” of this transaction.
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------  ---------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image147.png" alt=" "</>
 </p>
 &nbsp;
-
-<img src="/images/image147.png" style="width:5in;height:2.81677in" />
 
 We also get information here in the field vin_sz, which stands for vector input size, or the number of input UTXOs being referenced in this transaction, as well as vout_sz, which stands for vector output size, or the number of new UTXOs being created.
 
@@ -3774,23 +3747,25 @@ We also get a reference to the index of the input in the previous transaction.
 
 “1” means the second, and so on.
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------  ---------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image148.png" alt=" "</>
 </p>
 &nbsp;
-
-<img src="/images/image148.png" style="width:5in;height:2.81677in" />
 
 The scriptSig is the most important part of these inputs because they’re the required proofs that prove that you can redeem the associated UTXO.
 
 Last but not least, the end product of our transaction is the output(s).
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------  ---------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image149.png" alt=" "</>
 </p>
 &nbsp;
-
-<img src="/images/image149.png" style="width:5in;height:2.81677in" />
 
 You can see here in this particular transaction we have only one output with a value of about 10 bitcoin.
 
@@ -3804,12 +3779,13 @@ In this case, only after Rustie provides his proof can he unlock and spend my UT
 
 ### Bitcoin Script Reminders
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------  ---------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image150.png" alt=" "</>
 </p>
 &nbsp;
-
-<img src="/images/image150.png" style="width:5in;height:2.81677in" />
 
 Remember: in this transaction, the output addresses are actually scripts.
 
@@ -3825,7 +3801,13 @@ The Script language is stack-based, has a native support for cryptocurrency, and
 
 ### Intro to P2PKH
 
-<img src="/images/image151.png" style="width:5in;height:2.81677in" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------  ---------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="50%" src="/images/image151.png" alt=" "</>
+</p>
+&nbsp;
 
 Let’s walk through an example of how Script works under the hood.
 
@@ -3835,7 +3817,13 @@ This script specifies the most common type of transaction in Bitcoin, which is t
 
 To redeem this previous transaction, we need to prove our identities with (1) a public key that, when hashed, yields the address to which the previous transaction was sent, and (2) a signature that proves ownership of the private key corresponding to the public key we provided.
 
-<img src="/images/image152.png" style="width:5in;height:2.81677in" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------  ---------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="50%" src="/images/image152.png" alt=" "</>
+</p>
+&nbsp;
 
 This is the most common type of script in Bitcoin Pay to Public Key Hash (shorthanded).
 
@@ -3861,7 +3849,13 @@ In our Pay to Pub Key Hash example, the locking script requires that the users t
 
 For this reason, this script is called scriptPubKey.
 
-<img src="/images/image153.png" style="width:5in;height:2.84409in" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------  ---------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="50%" src="/images/image153.png" alt=" "</>
+</p>
+&nbsp;
 
 To make unlocking and locking scripts work in tandem, we simply concatenate them.
 
@@ -3871,7 +3865,13 @@ And the entire resulting script must execute successfully in order for the trans
 
 ### Demo: P2PKH Example
 
-<img src="/images/image154.png" style="width:5in;height:2.82937in" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------  ---------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="50%" src="/images/image154.png" alt=" "</>
+</p>
+&nbsp;
 
 Now let’s piece everything that we’ve learned so far about Bitcoin script together, and walk through a sample execution of Pay to Public Key Hash.
 
@@ -3891,7 +3891,13 @@ OP_DUP will duplicate the top item on the stack OP_HASH160 hashes the previous i
 
 Next, \<pubKeyHash?\> -- with the question mark in the angle brackets -- is the actual public key hash specified by the previous transaction output.
 
-<img src="/images/image155.png" style="width:5in;height:2.8821in" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------  ---------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="50%" src="/images/image155.png" alt=" "</>
+</p>
+&nbsp;
 
 We put this on the stack as well OP_EQUALVERIFY then checks to see if the top two items in the stack are equal.
 
@@ -3909,7 +3915,13 @@ And then finally, since the final return value is true, we know that the transac
 
 ### Proof of Burn
 
-<img src="/images/image156.png" style="width:5in;height:2.81677in" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------  ---------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="50%" src="/images/image156.png" alt=" "</>
+</p>
+&nbsp;
 
 Something cool you can do with Bitcoin Script is write arbitrary data into the Bitcoin blockchain.
 
@@ -3955,7 +3967,13 @@ In other words, the customer is the sender, and the vendor is the recipient.
 
 ### P2PKH vs P2SH
 
-<img src="/images/image157.png" style="width:5in;height:2.81677in" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------  ---------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="50%" src="/images/image157.png" alt=" "</>
+</p>
+&nbsp;
 
 So as a recap, in Bitcoin, senders specify a locking script in the output of the transaction they are sending, and recipients provide an unlocking script in the input whenever they want to redeem their bitcoin.
 
@@ -3981,7 +3999,13 @@ It’s much more customer friendly if the recipient of the transaction, the vend
 
 ### How P2SH Works
 
-<img src="/images/image158.png" style="width:5in;height:2.83944in" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------  ---------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="50%" src="/images/image158.png" alt=" "</>
+</p>
+&nbsp;
 
 As a refresher, here’s how everything works in Pay to Pub Key Hash.
 
@@ -4002,6 +4026,14 @@ Alice can then send a transaction paying to Bob’s script hash.
 In order for Bob to redeem the bitcoin that Alice just sent him, he must provide a signature and the full script that he had written.
 
 ### Why use P2SH?
+
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------  ---------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="50%" src="/images/image159.png" alt=" "</>
+</p>
+&nbsp;
 
 <img src="/images/image159.png" style="width:5in;height:2.81677in" />
 
