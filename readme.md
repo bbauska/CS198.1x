@@ -1635,7 +1635,7 @@ As a fun fact: as of March 15, 2018, the pizzas Laszlo ordered are now worth 81 
 <!----------------------------------- image041-bitcoin-gains-value-81-million-pizza.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/image041-bitcoin-gains-value-81-million-pizza.png" alt=" "</>
+<img width="50%" src="/images/image041-bitcoin-gains-value-81-million-pizza.png" alt=" "</>
 </p>
 &nbsp;
 
@@ -1780,10 +1780,10 @@ Stellar and Ripple pioneered new federated consensus algorithms, eliminating the
 These are just a few examples of how coins other than Bitcoin are trying to solve their own individual problems, making for a wider crypto space.
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!----------------------------------- image046-bitcoin-headlines.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image051.png" alt=" "</>
+<img width="50%" src="/images/image046-bitcoin-headlines.png" alt=" "</>
 </p>
 &nbsp;
 
@@ -1816,10 +1816,10 @@ At every club meeting, our 7 members would discuss the latest hack, the latest b
 We’ve grown so much since then, and that just comes to show how much the blockchain space has matured over the years.
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!----------------------------------- image047-bitcoin-startups.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image052.png" alt=" "</>
+<img width="50%" src="/images/image047-bitcoin-startups.png" alt=" "</>
 </p>
 &nbsp;
 
@@ -1839,7 +1839,7 @@ Most importantly, during this time, the term “blockchain” started becoming a
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image053.png" alt=" "</>
+<img width="50%" src="/images/image048-and-burst.png" alt=" "</>
 </p>
 &nbsp;
 
@@ -1866,10 +1866,10 @@ In this section, we’re going to talk about the next stage of Bitcoin’s histo
 ### Bitcoin Struggles to Scale
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!----------------------------------- image049-bitcoin-struggles-to-scale.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image054.png" alt=" "</>
+<img width="50%" src="/images/image049-bitcoin-struggles-to-scale.png" alt=" "</>
 </p>
 &nbsp;
 
@@ -1904,10 +1904,10 @@ Members can't directly propose and vote on updates to Bitcoin within the actual 
 ### Ethereum Timeline
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!----------------------------------- image050-2013-2016-ethereum-timeline.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image055.png" alt=" "</>
+<img width="50%" src="/images/image050-2013-2016-ethereum-timeline.png" alt=" "</>
 </p>
 &nbsp;
 
@@ -1926,10 +1926,10 @@ In other words, any type of code that I run on a regular computer can also be ru
 Code execution on Ethereum is fueled by Ethereum’s internal token, called ether.
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!----------------------------------- image051-2013-2016-ethereum-blows-up.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image056.png" alt=" "</>
+<img width="50%" src="/images/image051-2013-2016-ethereum-blows-up.png" alt=" "</>
 </p>
 &nbsp;
 
@@ -1945,7 +1945,7 @@ The Ethereum blockchain officially went live on July 30th 2015, and by May 2016,
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image053-2013-2016-ethereum-timeline-dao.png" alt=" "</>
+<img width="50%" src="/images/image052-2013-2016-ethereum-timeline-dao.pngg" alt=" "</>
 </p>
 &nbsp;
 
