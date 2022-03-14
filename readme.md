@@ -990,10 +990,10 @@ The dashed blue and green lines from Nadir and myself (Rustie) respectively repr
 By looking to the rest of the network for input, considering everyone else the third party, we are protected against Gloria’s attempts at malicious behavior.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------  ---------------------------------->
+<!------------------------------ image022-consensus-victory.png ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image27.png" style="width:5in;height:2.81998in" />
+<img src="/images/image022-consensus-victory.png" style="width:5in;height:2.81998in" />
 
 Peers in the network vote “no” on Gloria’s proposal, as they notice multiple transactions trying to spend the same funds.
 
@@ -1009,7 +1009,7 @@ However, we forgot one fatal truth about Bitcoin: the anonymity.
 <!--------------------------- 23. Consensus: A Stranger Among Us --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image23-consensus-a-stranger-among-us.png" 
+<img src="/images/image023-consensus-a-stranger-among-us.png" 
   alt="Consensus: A Stranger Among Us"
   style="width:5in;height:2.81998in" />
 
@@ -1055,7 +1055,7 @@ Is it even possible to solve this problem?
 <!-------------------------------- 24. Consensus: Pay to Play ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image24-consensus-pay-to-play.png" 
+<img src="/images/image024-consensus-pay-to-play.png" 
   alt="Consensus: Pay to Play"
   style="width:5in;height:2.81998in" />
 
@@ -1085,7 +1085,7 @@ The particular consensus algorithm that Satoshi Nakamoto came up with is known a
 <!------------------------------ 25. Consensus: Proof of Work ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image25-consensus-proof-of-work.png" 
+<img src="/images/image025-consensus-proof-of-work.png" 
   alt="Consensus: Proof of Work"
   style="width:5in;height:2.81998in" />
 
@@ -1105,7 +1105,7 @@ It is this method of voting that made Bitcoin the first successful cryptocurrenc
 <!---------------------------- 26. Consensus: Proof of Work: Works -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image26-consensus-proof-of-work-works.png" 
+<img src="/images/image026-consensus-proof-of-work-works.png" 
 	alt="Consensus: Proof of Work: Works"
 	style="width:5in;height:2.81998in" />
 
@@ -1185,7 +1185,7 @@ We’ll explain more in the course modules for Module 4.
 <!------------------ 27. Key Takeaway - Identity: Your Keys are Your Identity -------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image27-key-takeaway-identity.png" 
+<img src="/images/image027-key-takeaway-identity.png" 
 	alt="Key Takeaway - Identity: Your Keys are Your Identity"
 	style="width:5in;height:2.80395in" />
 
@@ -1213,7 +1213,7 @@ Nor is it at all likely that someone can guess your private key to spend money o
 <!------------------ 28. Key Takeaway - Transactions: Breaking the Piggy Banks ------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image28-key-takeaway-transactions.png" 
+<img src="/images/image028-key-takeaway-transactions.png" 
 	alt="Key Takeaway - Transactions: Breaking the Piggy Banks"
 	style="width:5in;height:2.80395in" />
 
@@ -1233,7 +1233,7 @@ The UTXO model might not be the most intuitive model for us to understand, but i
 <!-------------------- 29. Key Takeaway - Record-Keeping: Everyone's the Bank -------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image29-key-takeaway-record-keeping.png" 
+<img src="/images/image029-key-takeaway-record-keeping.png" 
 	alt="Key Takeaway - Record-Keeping: Everyone's the Banks"
 	style="width:5in;height:2.80395in" />
 
@@ -1247,7 +1247,7 @@ Once a transaction is recorded, it is close to impossible to undo without changi
 <!------------- 30. Key Takeaway - Consensus: Updating the Shared, Immutable Ledger -------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image30-key-takeaway-consensus.png" 
+<img src="/images/image030-key-takeaway-consensus.png" 
 	alt="Key Takeaway - Consensus: Updating the Shared, Immutable Ledger"
 	style="width:5in;height:2.80395in" />
 
