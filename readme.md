@@ -2035,10 +2035,10 @@ A decentralized application built on top of Ethereum called CryptoKitties, an on
 It’s important to have an educated understanding of the space…...rather than make decisions based on volatility and prices.
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!------------------------------ 2017-2019: Get Off at this Station ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image056-2017-get-off-this-train.png" alt=" "</>
+<img width="50%" src="/images/image056-2017-get-off-at-this-station.png" alt=" "</>
 </p>
 &nbsp;
 
@@ -2061,7 +2061,7 @@ As a technology that was initially created to avoid large banks and powerful cen
 ### Banks and Blockchain
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!----------------------------------- Banks and Blockchain -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image057-banks-and-blockchain.png" alt=" "</>
@@ -2085,7 +2085,7 @@ In a sense, they wanted to separate “blockchain” from “Bitcoin”.
 These blockchains take the fundamental cryptographic technology from bitcoin (public key cryptography) and modify it to be more compliant to enterprise use.
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!----------------------------- Private Blockchain Initiatives ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image058-private-blockchain-initiatives.png" alt=" "</>
@@ -2103,10 +2103,10 @@ The way that companies, especially financial institutions, have looked at blockc
 Let’s take a look specifically at Jamie Dimon, the CEO of JP Morgan Chase...
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!-------------------- Quotes from Jamie Dimon, the CEO of JP Morgan Chase ----------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image059-dimon-quotes.png" alt=" "</>
+<img width="50%" src="/images/image059-dimon-quotes.png" alt="Quotes from Jamie Dimon, the CEO of JP Morgan Chase"</>
 </p>
 &nbsp;
 
@@ -2115,10 +2115,10 @@ Let’s take a look specifically at Jamie Dimon, the CEO of JP Morgan Chase...
 In January 2014, he said about Bitcoin “It’s a terrible store of value. It could be replicated over and over.”, which doesn’t really mean anything, indicating that people really didn’t, and still don’t understand what Bitcoin is.
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!------------------ Quotes (2) from Jamie Dimon, the CEO of JP Morgan Chase --------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image060-dimon-quotes-2.png" alt=" "</>
+p align="center" width="100%">
+<img width="50%" src="/images/image060-dimon-quotes-2.png" alt="Quotes (2) from Jamie Dimon, the CEO of JP Morgan Chase"</>
 </p>
 &nbsp;
 
@@ -2127,10 +2127,10 @@ In October 2014, he said “\[Bitcoin developers\] are going to try and eat our 
 The statement seems aggressive, but he actually gives legitimacy to Bitcoin by suggesting that it’s a competitor to traditional banks and finance.
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!------------------ Quotes (3) from Jamie Dimon, the CEO of JP Morgan Chase --------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image061-dimon-quotes-3.png" alt=" "</>
+<img width="50%" src="/images/image061-dimon-quotes-3.png" alt="Quotes (3) from Jamie Dimon, the CEO of JP Morgan Chase"</>
 </p>
 &nbsp;
 
@@ -2141,10 +2141,10 @@ Now, Bitcoin isn’t just competition, it’s a bona fide threat.
 It’s something that bankers can’t control, and they hate it.
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!------------------ Quotes (4) from Jamie Dimon, the CEO of JP Morgan Chase --------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image062-dimon-quotes-4.png" alt=" "</>
+<img width="50%" src="/images/image062-dimon-quotes-4.png" alt="Quotes (4) from Jamie Dimon, the CEO of JP Morgan Chase"</>
 </p>
 &nbsp;
 
@@ -2159,10 +2159,10 @@ These comments were actually made at an event hosted by the Institute of Interna
 Just to drive his point home, here are some more comments he made in September 2017.
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!------------------ Quotes (5) from Jamie Dimon, the CEO of JP Morgan Chase --------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image063-dimon-quotes-5.png" alt=" "</>
+<img width="50%" src="/images/image063-dimon-quotes-5.png" alt="Quotes (5) from Jamie Dimon, the CEO of JP Morgan Chase"</>
 </p>
 &nbsp;
 
@@ -2171,10 +2171,10 @@ Just to drive his point home, here are some more comments he made in September 2
 And in another quote he said “One of my daughters bought bitcoin and it went up, she thinks she is a genius.”
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image064.dimon-quotes-6.png -------------------------------------->
+<!------------------ Quotes (6) from Jamie Dimon, the CEO of JP Morgan Chase --------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image064.dimon-quotes-6.png" alt=" "</>
+<img width="50%" src="/images/image064.dimon-quotes-6.png" alt="Quotes (6) from Jamie Dimon, the CEO of JP Morgan Chase"</>
 </p>
 &nbsp;
 
