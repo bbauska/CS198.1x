@@ -30,9 +30,9 @@ Bitcoin and Cryptocurrencies
 >### 1.06. [**UTXO’s**](#ch1-6)  
 >### 1.07. [**Record Keeping (Stage 3)**](#ch1-7)
 >### 1.08. [**Consensus (Stage 4)**](#ch1-8)
->### 1.09. [**Forking**](#ch1-9)
->### 1.10. [**Bitcoin Review**](#ch1-10)
->### 1.11. [**Module 1 Summary**](#ch1-11)
+>### 1.09. [**Forking
+>### 1.10. [**Bitcoin Review:
+Lecture/Module 1 Summary
 
 ## [**Chapter 2. Blockchain History: From the Cypherpunk Movement to JP Morgan Chases**](#ch2)
 >### 2.01. [**Pre-Bitcoin**](#ch2-1)
@@ -40,13 +40,13 @@ Bitcoin and Cryptocurrencies
 >### 2.03. [**Bitcoin Precursors**](#ch2-3)
 >### 2.04. [**Bitcoin Invention**](#ch2-4)
 >### 2.05. [**Hacks and Scandals**](#ch2-5)
->### 2.06. [**Bitcoin Bubble and Altcoins**](#ch2-5)
->### 2.07. [**Intro: Scalability**](#ch2-5)
->### 2.08. [**Ethereum Timeline**](#ch2-5)
->### 2.09. [**Intro: Enterprise Blockchain**](#ch2-5)
->### 2.10. [**Banks and Blockchain**](#ch2-5)
->### 2.11. [**Intro: State of the Industry**](#ch2-5)
->### 2.12. [**Module 2 Summary**](ch2-12)
+>### 2.05. [**Bitcoin Bubble and Altcoins
+>### 2.05. [**Intro: Scalability
+>### 2.05. [**Ethereum Timeline
+>### 2.05. [**Intro: Enterprise Blockchain
+>### 2.05. [**Banks and Blockchain
+>### 2.05. [**Intro: State of the Industry
+Module/Lecture 2 Summary
 
 ## [**Chapter 3. Bitcoin Mechanics & Optimizations: A Technical Overview**](#ch3)
 >### 3.1. [**Intro: Motivations and Definitions**](#ch3-1)
@@ -56,11 +56,11 @@ Bitcoin and Cryptocurrencies
 >### 3.5. [**SHA256**](#ch3-5)
 >### 3.6. [**SHA256^2 – (Secure Hash Algorithm)**](#ch3-6)
 >### 3.7. [**Intro: A Tamper-Evident Database**](#ch3-7)
-Tamper-Evidence**](#ch2-5)
-Dissecting a Block**](#ch2-5)
-Merkle Trees**](#ch2-5)
-Previous Block Hash**](#ch2-5)
-Proof-of-Work: Mining**](#ch2-5)
+Tamper-Evidence
+Dissecting a Block
+Merkle Trees:
+Previous Block Hash
+Proof-of-Work: Mining
 >### 3.7. [**Intro: Signatures and Authentication
 Digital Signature Schemes (DSS)
 Curve Digital Signature Algorithm
@@ -592,11 +592,11 @@ To illustrate the probability of two users choosing the same identity as someone
 	alt="Identity: Public & Private Keys" 
 	style="width:5in;height:2.81998in" />
 
-Bitcoin has 2\^160<sup>th</sup> different possible addresses.
+Bitcoin has 2\^160^th^ different possible addresses.
 
 To get a sense of how many different addresses exist for users to choose out of, let us compare the number of addresses in Bitcoin to the number of grains of sand on Earth.
 
-The Earth has 2\^63<sup>rd</sup> grains of sand.
+The Earth has 2\^63^rd^ grains of sand.
 
 Imagine every person in the world choosing a grain of sand at random.
 
@@ -604,7 +604,7 @@ The likelihood of two people picking the same grain of sand is less than 0.0001%
 
 In comparison, the number of addresses in Bitcoin is many, many magnitudes greater than the number of grains on sand on Earth, making the probability even smaller.
 
-Let’s consider something more drastic: imagine that for every grain of sand on Earth, there exists another Earth, also with 2\^63<sup>rd</sup> grains of sand.
+Let’s consider something more drastic: imagine that for every grain of sand on Earth, there exists another Earth, also with 2\^63^rd^ grains of sand.
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------- Identity: Public Key Security ---------------------------------->
@@ -614,14 +614,14 @@ Let’s consider something more drastic: imagine that for every grain of sand on
 	alt="Identity: Public Key Security" 
 	style="width:5in;height:2.81998in" />
 
-Now we have 2\^63<sup>rd</sup> times 2\^63<sup>rd</sup> grains of sand per earth, meaning that there are a total of 2\^126<sup>th</sup> grains of sand.
+Now we have 2\^63^rd^ times 2\^63^rd^ grains of sand per earth, meaning that there are a total of 2\^126^th^ grains of sand.
 
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- Identity: Security Hidden in Plain Sight ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image007-identity-security-hidden-in-plain-sight.png" 
-	alt="Identity: Security Hidden in Plain Sight"
+	alt="Identity: Security: Hidden in Plain Sight"
 	style="width:5in;height:2.81998in" />
 
 Even the number of grains of sand upon all these Earths is only 0.0000000058% (8 zeroes) of all the possible Bitcoin addresses.
@@ -636,25 +636,29 @@ After all, that’s the primary goal of the Bitcoin network -- to enable secure 
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image008-what makes-a-transaction-valid.png" 
-	alt="That Makes a Transaction Valid?"
+	alt="Transactions: What Makes a Transaction Valid?"
 	style="width:5in;height:2.81998in" />
 
 As we did before with the concept of identity, we will now be analyzing the idea of a transaction.
 
 Take a moment to ask yourself, “What makes a transaction valid?”
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- Transactions: Validity --------------------------------->
+<!---------------------------- --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image009-validity.png" 
-	alt="Transactions: Validity"
+	alt="Transactions: Validity: What Makes a Transacton Valid?"
 	style="width:5in;height:2.81998in" />
 
 For a transaction to be valid, it must have these three components:
 
-	1.  a proof of ownership, aka a signature,
-	2.  available and sufficient funds to spend, and
-	3.  a guarantee that no other transaction is using or has used the same funds.
+1.  a proof of ownership, aka a signature,
+
+2.  available and sufficient funds to spend, and
+
+3.  a guarantee that no other transaction is using or has used the same
+
+funds.
 
 Let’s understand these criteria in the context of checks and banks:
 
@@ -667,9 +671,8 @@ They must also ensure that you do not spend the same money more than once -- tha
 To ensure that one uses funds not in their possession, all the same conditions apply to Bitcoin.
 
 To enforce this, Bitcoin uses what’s known as a UTXO, or Unspent Transaction Output, model.
-
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- Transactions: UTXO Model --------------------------------->
+<!----------------------------  --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image010-utxo-model.png" 
@@ -677,7 +680,7 @@ To enforce this, Bitcoin uses what’s known as a UTXO, or Unspent Transaction O
 	style="width:5in;height:2.84871in" />
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- Transactions: UTXO Model --------------------------------->
+<!---------------------------- --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image010-utxo-2.png" 
@@ -704,11 +707,11 @@ An easy way to wrap our heads around this unintuitive model is to think of UTXOs
 
 Every time a transaction is made to us, we put all that money into a UTXO, or piggy bank.
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- Transactions: UTXO Model --------------------------------->
+<!----------------------------  --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image011-utxo-model-unspent.png" 
-	alt="Transactions: UTXO Model"
+	alt="Transactions: UTXO Model: Unspent"
 	style="width:5in;height:2.81998in" />
 
 When we want to spend money, we break open that piggy bank...spend whatever we like, and then put the rest into another piggy bank.
@@ -766,10 +769,12 @@ Naturally, the next question to ask is: How do we keep track of the history of t
 After all a user’s current balance can be described as a number of transactions, summing to the current amount, and if we don’t know what transactions have happened in the past, we can’t determine what’s valid in the future.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------  --------------------------------->
+<!---------------------------- Recordkeeping: Distributed DBS --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image013-recordkeeping-distributed-dbs.png" style="width:5in;height:2.81998in" />
+<img src="/images/image013-recordkeeping-distributed-dbs.png" 
+	alt="Recordkeeping: Distributed DBS"
+	style="width:5in;height:2.81998in" />
 
 Consider the diagram above.
 
@@ -808,10 +813,12 @@ Instead of having any selected maintainers, let’s make a simple and straightfo
 We make everyone the bank.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------  --------------------------------->
+<!---------------------------- Recordkeeping: Everyone's the Bank -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image014-recordkeeping-everyones-the-bank.png" style="width:5in;height:2.81998in" />
+<img src="/images/image014-recordkeeping-everyones-the-bank.png" 
+	alt="Recordkeeping: Everyone's the Bank"
+	style="width:5in;height:2.81998in" />
 
 To get as far as possible from centralization, every individual entity in Bitcoin should be equal.
 
@@ -834,10 +841,12 @@ Everyone maintains their own ledger after all, and once a change is made for one
 How do we store our ledger efficiently?
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------  --------------------------------->
+<!---------------------------- Recordkeeping: The Blockchain --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image015-recordkeeping-the-blockchain.png" style="width:5in;height:2.81998in" />
+<img src="/images/image015-recordkeeping-the-blockchain.png" 
+	alt="Recordkeeping: The Blockchain"
+	style="width:5in;height:2.81998in" />
 
 Every update to the distributed database, the Bitcoin ledger, is a batch of transactions grouped into what are called blocks.
 
@@ -885,7 +894,9 @@ In Bitcoin, users on the network must come to consensus, or agreement, on the ne
 <!---------------------------- Consensus: Staying On the Same Page ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image016-consensus-staying-on-the-same-page.png" style="width:5in;height:2.81998in" />
+<img src="/images/image016-consensus-staying-on-the-same-page.png" 
+	alt="Consensus: Staying on the Same Page"
+	style="width:5in;height:2.81998in" />
 
 Because everyone is storing information about the blockchain, we need consensus to make sure that everyone agrees on the history of transactions.
 
@@ -910,10 +921,12 @@ One node proposes a transaction to the network, sending a message about the tran
 All other nodes save the transaction into their history if it’s valid and disregard it otherwise.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------- ?? Consensus: Double Spend Attack --------------------------------->
+<!------------------------------- Consensus: Double Spend Attack --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image017-consensus-double-spend-attack.png" style="width:5in;height:2.81998in" />
+<img src="/images/image017-consensus-double-spend-attack.png" 
+	alt="Consensus: Double Spend Attack"
+	style="width:5in;height:2.81998in" />
 
 We have an example for you here.
 
@@ -929,7 +942,9 @@ As we will see, this does not work because of what’s known as the double spend
 <!---------------------------- Consensus: Double Spend Attack 2 ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image018-consensus-double-spend-attack-2.png" style="width:5in;height:2.81998in" />
+<img src="/images/image018-consensus-double-spend-attack-2.png" 
+	alt="Consensus: Double Spend Attack"
+	style="width:5in;height:2.81998in" />
 
 With centralized systems, we trust banks to check for the validity of all the transactions.
 
@@ -945,7 +960,9 @@ Gloria promises me (Rustie) 10 BTC in one transaction, and promises 10 BTC to Na
 <!-------------------------- 18. Consensus: Double Spend Attack 2 -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image018-consensus-double-spend-attack-2.png" style="width:5in;height:2.81998in" />
+<img src="/images/image018-consensus-double-spend-attack-2.png" 
+	alt="Consensus: Double Spend Attack"
+	style="width:5in;height:2.81998in" />
 
 This is represented by the green arrow from herself to me (Rustie), the green circle, and by the separate blue arrow from herself to Nadir, the blue circle.
 
@@ -971,7 +988,9 @@ Of course, both Nadir and I (Rustie) can’t own the same bitcoins.
 <!--------------------- 19. Consensus: Double Spend Attack Malicious ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image019-consensus-double-spend-attack-malicious.png" style="width:5in;height:2.81998in" />
+<img src="/images/image019-consensus-double-spend-attack-malicious.png" 
+	alt="Consensus: Double Spend Attack: Malicious"
+	style="width:5in;height:2.81998in" />
 
 The moment we try to redeem these tokens with the network, the issue becomes transparent.
 
@@ -989,7 +1008,9 @@ Thus, it is impossible to prevent these double spend attacks with our current mo
 <!-------------------------------- Consensus: Peer Validation ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image020-consensus-peer-validation.png" style="width:5in;height:2.81998in" />
+<img src="/images/image020-consensus-peer-validation.png" 
+	alt="Consensus: Peer Validation"
+	style="width:5in;height:2.81998in" />
 
 Instead of individuals doing their own validation of transaction, we can set up a voting system.
 
@@ -1351,7 +1372,7 @@ You can go to the blockchain and check if your transaction has gone through.
 
 In addition, the Bitcoin network is secured through the Proof-of-Work consensus protocol designed by Satoshi Nakamoto which changed the way everyone thinks about cryptocurrencies.
 
-These are the four essential unique properties of Bitcoin: pseudonymous, decentralized, immutable, and trustless.
+These are the four essential unique properties of Bitcoin: 1. pseudonymous, 2. decentralized, 3. immutable, and 4. trustless.
 
 # Bitcoin Protocol & Consensus: A High Level Overview / Review, Readings, & More
 
@@ -3289,8 +3310,7 @@ Also, the Coinbase transaction has a separate nonce field that is used in our ha
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image114.png" 
-	alt=" "</>
+<img width="50%" src="/images/image114.png" alt=" "</>
 </p>
 &nbsp;
 
@@ -3306,8 +3326,7 @@ Also, the Coinbase transaction has a separate nonce field that is used in our ha
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image116.png" 
-	alt=" "</>
+<img width="50%" src="/images/image116.png" alt=" "</>
 </p>
 &nbsp;
 
@@ -3343,8 +3362,7 @@ In this next section, we’ll go over what we want from a digital signature sche
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image117-dss.png" 
-	alt=" "</>
+<img width="50%" src="/images/image117-dss.png" alt=" "</>
 </p>
 &nbsp;
 
@@ -3365,8 +3383,7 @@ How can she do this and make sure no one tampers with her message?
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image117-dss-2.png" 
-	alt=" "</>
+<img width="50%" src="/images/image117-dss-2.png" alt=" "</>
 </p>
 &nbsp;
 
@@ -3378,8 +3395,7 @@ We’ll see later on that this is important to help Bob verify that a message co
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image117-dss-3.png" 
-	alt=" "</>
+<img width="50%" src="/images/image117-dss-3.png" alt=" "</>
 </p>
 &nbsp;
 
@@ -3391,8 +3407,7 @@ This generates a unique signature that proves that she created the message as it
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image117-dss-4.png" 
-	alt=" "</>
+<img width="50%" src="/images/image117-dss-4.png" alt=" "</>
 </p>
 &nbsp;
 
@@ -3404,8 +3419,7 @@ The idea is that the message is the main payload, and the signature can be used 
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image117-dss-5" 
-	alt=" "</>
+<img width="50%" src="/images/image117-dss-5" alt=" "</>
 </p>
 &nbsp;
 
@@ -3423,8 +3437,7 @@ This is how digital signature schemes make messages tamper evident.
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image117-dss-6.png" 
-	alt=" "</>
+<img width="50%" src="/images/image117-dss-6.png" alt=" "</>
 </p>
 &nbsp;
 
@@ -3440,8 +3453,7 @@ We’ll see how this is prevented in the next section, where we explain the way 
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image116.png" 
-	alt=" "</>
+<img width="50%" src="/images/image116.png" alt=" "</>
 </p>
 &nbsp;
 
