@@ -21,36 +21,30 @@ Bitcoin and Cryptocurrencies
 ## [Table of Contents](#table-of-contents)
 
 ## [**Chapter 1. Bitcoin Protocol & Consensus: A High-Level Overview**](#ch1)
->### 1.1. [**Intro: What is Bitcoin?**](#ch1-1)
->### 1.2. [**Bitcoin vs. Banks**](#ch1-2)
->### 1.3. [**Intro: Bitcoin from the Ground Up**](#ch1-3)
->### 1.4. [**Intro: Identity (Stage 1)*](#ch1-4)
->### 1.5. [**Intro: Transactions (Stage 2)**](#ch1-5)
->### 1.6. [**UTXO’s**](#ch1-6)  
-Intro: Record Keeping (Stage 3)
-Intro: Consensus (Stage 4)
-Supplement: 51% Attacks
-Forking
-Bitcoin Review:
+>### 1.01. [**What is Bitcoin?**](#ch1-1)
+>### 1.02. [**Bitcoin vs. Banks**](#ch1-2)
+>### 1.03. [**Bitcoin from the Ground Up**](#ch1-3)
+>### 1.04. [**Identity (Stage 1)**](#ch1-4)
+>### 1.05. [**Transactions (Stage 2)**](#ch1-5)
+>### 1.06. [**UTXO’s**](#ch1-6)  
+>### 1.07. [**Record Keeping (Stage 3)**](#ch1-7)
+>### 1.08. [**Consensus (Stage 4)**](#ch1-8)
+>### 1.09. [**Forking
+>### 1.10. [**Bitcoin Review:
 Lecture/Module 1 Summary
 
 ## [**Chapter 2. Blockchain History: From the Cypherpunk Movement to JP Morgan Chases**](#ch2)
->### 2.1. [**Intro: Pre-Bitcoin**](#ch2-1)
->### 2.2. [**Libertarian Dreams**](#ch2-2)
->### 2.3. [**Bitcoin Precursors**](#ch2-3)
->### 2.4. [**Bitcoin Invention**](#ch2-4)
->### 2.5. [**Hacks and Scandals**](#ch2-5)
-Bitcoin Bubble and Altcoins
-Bitcoin Headlines
-Intro: Scalability
-Ethereum Timeline
-Ethereum Bubble
-Intro: Enterprise Blockchain
-Banks and Blockchain
-Blockchain Community and Politics
-Intro: State of the Industry
-ICO’s:
-Industry Projects
+>### 2.01. [**Pre-Bitcoin**](#ch2-1)
+>### 2.02. [**Libertarian Dreams**](#ch2-2)
+>### 2.03. [**Bitcoin Precursors**](#ch2-3)
+>### 2.04. [**Bitcoin Invention**](#ch2-4)
+>### 2.05. [**Hacks and Scandals**](#ch2-5)
+>### 2.05. [**Bitcoin Bubble and Altcoins
+>### 2.05. [**Intro: Scalability
+>### 2.05. [**Ethereum Timeline
+>### 2.05. [**Intro: Enterprise Blockchain
+>### 2.05. [**Banks and Blockchain
+>### 2.05. [**Intro: State of the Industry
 Module/Lecture 2 Summary
 
 ## [**Chapter 3. Bitcoin Mechanics & Optimizations: A Technical Overview**](#ch3)
@@ -66,24 +60,24 @@ Dissecting a Block
 Merkle Trees:
 Previous Block Hash
 Proof-of-Work: Mining
-Intro: Signatures and Authentication
+>### 3.7. [**Intro: Signatures and Authentication
 Digital Signature Schemes (DSS)
 Curve Digital Signature Algorithm
 DSS Key Definitions and Takeways
 From Private Keys to Addresses
 Elliptic Curve Cryptography
 Public Key to Address
-Intro: Bitcoin Script
+>### 3.7. [**Intro: Bitcoin Script
 Bitcoin Script Reminders
-Intro to P2PKH
+>### 3.7. [**Intro to P2PKH
 Proof of Burn
-Intro: Advanced Bitcoin Script and P2SH
+>### 3.7. [**Intro: Advanced Bitcoin Script and P2SH
 P2PKH vs P2SH
 How P2SH Works
 Why use P2SH?
 Multisignature
 Timelocks
-Lecture 3 Summary
+>### 3.7. [**Lecture 3 Summary
 
 ## [**Chapter 4. Bitcoin In Real Life: Wallets, Mining, and More **](#ch4)
 >### 4.1. [**Key Components**](#ch4-1)
@@ -130,8 +124,15 @@ Text: Lecture 4 Summary
 
 
 ## [**Chapter 5. Game Theory & Network Attacks: How to Destroy Bitcoin **](#ch5)
->### 5.1. [**Intro: Pool Strategies**](#ch5-1)
->### 5.2. [** **](#ch5-2)
+>### 5.1. [**Pool Strategies**](#ch5-1)
+>### 5.1.1 [**Pool Hopping **](#ch5-2)
+>### 5.1.1 [**Pool Hopping **](#ch5-2)
+>### 5.3. [** **](#ch5-3)
+>### 5.4. [** **](#ch5-4)
+>### 5.5. [** **](#ch5-5)
+>### 5.3. [** **](#ch5-3)
+>### 5.4. [** **](#ch5-4)
+>### 5.5. [** **](#ch5-5)
 >### 5.3. [** **](#ch5-3)
 >### 5.4. [** **](#ch5-4)
 >### 5.5. [** **](#ch5-5)
@@ -140,6 +141,14 @@ Text: Lecture 4 Summary
 >### 6.1. [** **](#ch6-1)
 >### 6.2. [** **](#ch6-2)
 >### 6.3. [** **](#ch6-3)
+>### 6.4. [** **](#ch6-4)
+>### 6.5. [** **](#ch6-5)
+>### 6.6. [** **](#ch6-6)
+>### 6.7. [** **](#ch6-7)
+>### 6.4. [** **](#ch6-4)
+>### 6.5. [** **](#ch6-5)
+>### 6.6. [** **](#ch6-6)
+>### 6.7. [** **](#ch6-7)
 >### 6.4. [** **](#ch6-4)
 >### 6.5. [** **](#ch6-5)
 >### 6.6. [** **](#ch6-6)
@@ -4035,9 +4044,7 @@ In order for Bob to redeem the bitcoin that Alice just sent him, he must provide
 </p>
 &nbsp;
 
-<img src="/images/image159.png" style="width:5in;height:2.81677in" />
-
-So why Pay to Script Hash instead of just pay to a script?
+Why Pay to Script Hash instead of just pay to a script?
 
 By providing a hash of the script to the customer, the vendor offloads the complicated task of having to compose a bitcoin script to himself.
 
@@ -4057,6 +4064,13 @@ Pay to Script Hash was an update to Bitcoin back in 2012, and since then has bee
 
 ### Multisignature
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------  ---------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="50%" src="/images/image159.png" alt=" "</>
+</p>
+&nbsp;
 <img src="/images/image160.png" style="width:5in;height:2.81677in" />
 
 One of the most widely used example of P2SH is multisignature, where a specific number of pre-specified signatures are required to unlock a UTXO.
@@ -4102,6 +4116,12 @@ If they match, the UTXO is unlocked.
 
 ### Timelocks
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------  ---------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="50%" src="/images/imageXXX.png" alt=" "</>
+</p>
 <p align="center">
 <img src="/images/image162.png" style="width:5in;height:2.85253in" />
 
@@ -4155,8 +4175,12 @@ In this lecture, we dove into the low-level specifics of Bitcoin that make it wo
 
 We achieve a tamper evident system using cryptographic hash functions to produce standardized random “fingerprints” of our data. If the data changes, so will the fingerprints. Cryptographic hash functions do the following:
 
-<p align="center">
-<p align="center">
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------  ---------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="50%" src="/images/imageXXX.png" alt=" "</>
+</p>
 <img src="/images/image163.png" style="width:6.5in;height:2.31944in" alt="Cryptographic hash functions" />
 
 Cryptographic hash functions are pseudorandom: although the output for any given input seems random, the output will remain consistent for that input.
@@ -4263,8 +4287,12 @@ While we may primarily only think of miners or casual traders using exchanges or
 
 ### Key Components
 
-<p align="center">
-<img src="/images/image164.png" style="width:5in;height:2.81789in" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ Types of Users: Key Components  --------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="50%" src="/images/image164.png" alt="Types of Users: Key Components"</>
+</p>
 
 In our previous discussions about Bitcoin mechanics, we explained everything from the perspective of a full node and miner: a user with networking capability to interface with the Bitcoin network, actively maintains a full up-to-date copy of the Bitcoin blockchain, has a wallet as a means to manage public and private keys, and mines to support the network and also to earn a mining reward.
 
@@ -4304,8 +4332,12 @@ As we’ll soon find out, wallets come in many different shapes and sizes – ho
 
 ### Purpose of a Wallet
 
-<p align="center">
-<img src="/images/image165.png" style="width:5in;height:2.81317in" />
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------- Purpose of a Wallet: Key Management ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="50%" src="/images/image165.png" alt="Purpose of a Wallet: Key Management"</>
+</p>
 
 As we’ve previously mentioned, Bitcoin is all about granting real-world entities virtual identities.
 
@@ -4321,8 +4353,12 @@ How do we make sure that we’re not subject to identity theft?
 
 ### Types of Wallets
 
-<p align="center">
-<img src="/images/image166.png" style="width:5in;height:2.80947in" />
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------- Bitcoin Wallets: What do Wallets Do? ------------------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="50%" src="/images/image166.png" alt="Bitcoin Wallets: Wallet Types: What Do Wallets Do?"</>
+</p>
 
 This is where wallets come in.
 
@@ -4340,8 +4376,12 @@ To take care of this, wallet software will store all relevant information about 
 
 ### Types of Wallets: Hot and Cold
 
-<p align="center">
-<img src="/images/image167.png" style="width:5in;height:2.80344in" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ Types of Wallets: Hot and Cold  --------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="50%" src="/images/image167.png" alt="Types of Wallets: Hot and Cold"</>
+</p>
 
 Wallets come in many forms.
 
@@ -4352,10 +4392,10 @@ Hot wallets are connected to the internet, and cold storage is not.
 ### Types of Wallets: Hot Wallets
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------  ---------------------------------->
+<!------------------------------- Bitcoin Wallets: Hot Wallets ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image168.png" alt="XXX " style="width:5in;height:2.8in" />
+<img width="50%" src="/images/image168.png" alt="Bitcoin Wallets: Hot Wallets"</>
 </p>
 
 Some examples of hot wallets are smartphone apps such as Mycelium and AirBitz (I personally use AirBitz).
@@ -4789,10 +4829,10 @@ We will go through what a miner actually does to validate blocks.
 ### Recipe for Mining: Overview
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------  ----------------------------->
+<!-------------------------------- Recipe for Mining: Overview ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image156.png" alt="" style="width:5in;height:2.8in" />
+<img src="/images/image157.png" alt="Recipe for Mining: Overview" style="width:5in;height:2.8in" />
 </p>
 
 Let’s first take a look at the generic steps for mining as a full node.
@@ -4818,10 +4858,10 @@ Let’s go into detail on how each of these steps plays out.
 ### Recipe for Mining: Step 0
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------  ----------------------------->
+<!------------------------------ Step 0: Download the Blockchain --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image157.png" alt="" style="width:5in;height:2.8in" />
+<img src="/images/image158.png" alt="Step 0: Download the Blockchain" style="width:5in;height:2.8in" />
 </p>
 
 Step 0, download the history of transactions.
@@ -4843,10 +4883,10 @@ Now that we have the full history, let’s go ahead and get started with mining!
 ### Recipe for Mining: Step 1
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------  ----------------------------->
+<!--------------------------------- Step 1: Verify Transactions ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image158.png" alt="" style="width:5in;height:2.8in" />
+<img src="/images/image159.png" alt="Step 1: Verify Transactions" style="width:5in;height:2.8in" />
 </p>
 
 ### Step 1, verify transactions.
@@ -4866,10 +4906,10 @@ If that piece of code is able to successfully unlock the previous bitcoins, then
 ### Recipe for Mining: Step 2
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------  ----------------------------->
+<!---------------------------------- Step 2: Create a Block -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image159.png" alt="" style="width:5in;height:2.8in" />
+<img src="/images/image160.png" alt="Step 2: Create a Block" style="width:5in;height:2.8in" />
 </p>
 
 After validating all these transactions, it’s time to generate a block.
@@ -4881,10 +4921,10 @@ After constructing the block data, we are finally able to start working on the m
 ### Recipe for Mining: Step 3
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------  ----------------------------->
+<!--------------------------------- Step 3: Find a Valid Nonce ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image160.png" alt="" style="width:5in;height:2.8in" />
+<img src="/images/image161.png" alt="Step 3: Find a Valid Nonce" style="width:5in;height:2.8in" />
 </p>
 
 As mentioned before, every miner needs to find a nonce which makes the hash of the block header less than some target value.
@@ -4912,10 +4952,10 @@ We go through these loops until finally we find a valid nonce.
 ### Recipe for Mining: Step 4
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------- Recipe for Mining: Find a Valid Nonce ------------------------------->
+<!-------------------------- Recipe for Mining: Step 4: Broadcast -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image161.png" alt="Recipe for Mining: Find a Valid Nonce" style="width:5in;height:2.8in" />
+<img src="/images/image162-step4-broadcast.png" alt="Recipe for Mining: Step 4: Broadcast" style="width:5in;height:2.8in" />
 </p>
 
 After finding the nonce, the typical miner broadcasts it as soon as possible so that other miners are aware that a block was found.
@@ -4939,10 +4979,10 @@ That’s all Proof-of-Work really is at its base, a random lottery.
 ### Recipe for Mining: Step 5
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------  ----------------------------->
+<!---------------------------- Recipe for Mining: Step 5: Profit --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image162.png" alt="" style="width:5in;height:2.8in" />
+<img src="/images/image163-step5-profit.png" alt="Recipe for Mining: Step 5: Profit" style="width:5in;height:2.8in" />
 </p>
 
 Assuming that our block made its way into the longest chain, we profit!
@@ -4976,12 +5016,11 @@ Author: Rea Savla
     -   Note: This step is optional if you mine in a mining pool or are doing lightweight mining. 
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------  ----------------------------->
+<!------------------------ Step 0: Download Entire Blockchain ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image163.png" alt="" style="width:5in;height:2.8in" />
+<img src="/images/image165-step0-download-blockchain.png" alt="Step 0: Download Entire Blockchain" style="width:5in;height:2.8in" />
 </p>
-<img src="/images/image190.png" style="width:6.5in;height:1.16736in" alt="Recipe for Mining Step 0: Download the blockchain" />
 
 ### Step 1:
 
@@ -4996,12 +5035,11 @@ Author: Rea Savla
     -   If that script runs successfully, then the transaction is included within our block.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------  ----------------------------->
+<!------------------------ Step 1: Verify Transactions ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image163.png" alt="" style="width:5in;height:2.8in" />
+<img src="/images/image165-step1-verify-transactions.png" alt="Step 1: Verify Transactions" style="width:5in;height:2.8in" />
 </p>
-<img src="/images/image191.png" style="width:5in;height:2.42366in" alt="Checking block chain before continuing transactions" />
 
 ### Step 2:
 
@@ -5014,12 +5052,11 @@ Author: Rea Savla
     -   Construct the Previous Block Hash by hashing the previous block’s header
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------  ----------------------------->
+<!--------- Step 2: Create the block with the given transactions and necessary metadata ---------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image163.png" alt="" style="width:5in;height:2.8in" />
+<img src="/images/image165-step2-create-block.png" alt="Step 2: Create the block with the given transactions and necessary metadata" style="width:5in;height:2.8in" />
 </p>
-<img src="/images/image192.png" style="width:6.5in;height:1.98542in" alt="Recipe for Mining Step 2: Construct the Block" />
 
 ### Step 3:
 
@@ -5032,12 +5069,11 @@ Author: Rea Savla
     -   Note: There are two different nonces, the header nonce and the coinbase nonce. In the event that no permutation of the header nonce solves the hash puzzle, alter the coinbase nonce. This changes the Merkle root, yielding an entirely different hash puzzle.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------  ----------------------------->
+<!-------- Step 3: Find the proof-of-work that solves the partial preimage hash puzzle  ---------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image163.png" alt="" style="width:5in;height:2.8in" />
+<img src="/images/image165-step3-find-proof-of-work.png" alt="Step 3: Find the proof-of-work that solves the partial preimage hash puzzle" style="width:5in;height:2.8in" />
 </p>
-<img src="/images/image193.png" style="width:5in;height:2.32218in" alt="Partial preimage hash puzzle" />
 
 ### Step 4:
 
@@ -5047,7 +5083,11 @@ Author: Rea Savla
 
     -   Other miners will validate the block for themselves before accepting it into their chain and propagating it further through the network. 
 
-<img src="/images/image194.png" style="width:5in;height:3.6148in" alt="Blockchain that has broadcasted the transaction, Derrick Rustie, Gloria, Nick, Nadir" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------------  ----------------------------->
+<!------------------------------------------------------------------------------------------------>
+
+<img src="/images/image165-step4-broadcast.png" alt="Step 4: •	Broadcast your block " style="width:5in;height:3.6148in" alt="Blockchain that has broadcasted the transaction, Derrick Rustie, Gloria, Nick, Nadir" />
 
 ### Step 5:
 
@@ -5084,6 +5124,9 @@ Each person’s definition of profit is different, but it’s pretty straightfor
 It’s such a simple word, yet this concept of profit will come up again and again throughout the rest of this course.
 
 In fact, any type of incentive mechanisms within blockchain protocols focus on aligning personal profit with overall profit.
+<!------------------------------------------------------------------------------------------------>
+<!------------------------  ----------------------------->
+<!------------------------------------------------------------------------------------------------>
 
 <img src="/images/image195.png" style="width:5in;height:2.8368in" />
 
