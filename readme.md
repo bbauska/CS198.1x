@@ -10,7 +10,8 @@ CS198.1x - University of California @ BerkeleyX
 <!----------------------------------- CS198.1x Bitcoin logo -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image001.png" alt="Bitcoin cs198.1x logo"</>
+<img width="50%" src="/images/image001.png" 
+	alt="Bitcoin cs198.1x logo"</>
 </p>
 
 <h2 align="center">
@@ -29,9 +30,9 @@ Bitcoin and Cryptocurrencies
 >### 1.06. [**UTXO’s**](#ch1-6)  
 >### 1.07. [**Record Keeping (Stage 3)**](#ch1-7)
 >### 1.08. [**Consensus (Stage 4)**](#ch1-8)
->### 1.09. [**Forking
->### 1.10. [**Bitcoin Review:
-Lecture/Module 1 Summary
+>### 1.09. [**Forking**](#ch1-9)
+>### 1.10. [**Bitcoin Review**](#ch1-10)
+>### 1.11. [**Module 1 Summary**](#ch1-11)
 
 ## [**Chapter 2. Blockchain History: From the Cypherpunk Movement to JP Morgan Chases**](#ch2)
 >### 2.01. [**Pre-Bitcoin**](#ch2-1)
@@ -39,13 +40,13 @@ Lecture/Module 1 Summary
 >### 2.03. [**Bitcoin Precursors**](#ch2-3)
 >### 2.04. [**Bitcoin Invention**](#ch2-4)
 >### 2.05. [**Hacks and Scandals**](#ch2-5)
->### 2.05. [**Bitcoin Bubble and Altcoins
->### 2.05. [**Intro: Scalability
->### 2.05. [**Ethereum Timeline
->### 2.05. [**Intro: Enterprise Blockchain
->### 2.05. [**Banks and Blockchain
->### 2.05. [**Intro: State of the Industry
-Module/Lecture 2 Summary
+>### 2.06. [**Bitcoin Bubble and Altcoins**](#ch2-5)
+>### 2.07. [**Intro: Scalability**](#ch2-5)
+>### 2.08. [**Ethereum Timeline**](#ch2-5)
+>### 2.09. [**Intro: Enterprise Blockchain**](#ch2-5)
+>### 2.10. [**Banks and Blockchain**](#ch2-5)
+>### 2.11. [**Intro: State of the Industry**](#ch2-5)
+>### 2.12. [**Module 2 Summary**](ch2-12)
 
 ## [**Chapter 3. Bitcoin Mechanics & Optimizations: A Technical Overview**](#ch3)
 >### 3.1. [**Intro: Motivations and Definitions**](#ch3-1)
@@ -55,11 +56,11 @@ Module/Lecture 2 Summary
 >### 3.5. [**SHA256**](#ch3-5)
 >### 3.6. [**SHA256^2 – (Secure Hash Algorithm)**](#ch3-6)
 >### 3.7. [**Intro: A Tamper-Evident Database**](#ch3-7)
-Tamper-Evidence
-Dissecting a Block
-Merkle Trees:
-Previous Block Hash
-Proof-of-Work: Mining
+Tamper-Evidence**](#ch2-5)
+Dissecting a Block**](#ch2-5)
+Merkle Trees**](#ch2-5)
+Previous Block Hash**](#ch2-5)
+Proof-of-Work: Mining**](#ch2-5)
 >### 3.7. [**Intro: Signatures and Authentication
 Digital Signature Schemes (DSS)
 Curve Digital Signature Algorithm
@@ -199,7 +200,9 @@ This module focuses on the properties behind the second largest blockchain platf
 <!-------------------- Expectations: Expect from us, we expect from you -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/expectations.png" alt="Expectations: Expect from us, we expect from you" style="width:5in;height:2.95745in" />
+<img src="/images/expectations.png" 
+	alt="Expectations: Expect from us, we expect from you" 
+	style="width:5in;height:2.95745in" />
 &nbsp;
 
 Also, a good unofficial resource is the Blockchain at Berkeley Public Slack, where we discuss various topics related to blockchain. You can request access to our Slack workspace at the bottom of the [Blockchain at Berkeley website ](https://blockchain.berkeley.edu/)under "Join Blockchain at Berkeley on Slack."
@@ -256,7 +259,9 @@ And this all sets the stage for the next section, in which we’ll build Bitcoin
 <!------------------------------ What is Bitcoin?  Bitcoin Genesis ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/what is bitcoin-bitcoin genesis.png" alt="What is bitcoin, bitcoin genesis" style="width:5in;height:2.8in" />
+<img src="/images/what is bitcoin-bitcoin genesis.png" 
+	alt="What is bitcoin, bitcoin genesis" 
+	style="width:5in;height:2.8in" />
 &nbsp;
 
 Most people struggle to answer the question, “What is Bitcoin?,” because there are so many different ways to respond.
@@ -360,7 +365,8 @@ And even the creation of money is decided not by a central authority, but throug
 <!-------------------------------- Currency: In Banks We Distrust -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/currency-in banks we distrust.png" alt="Currency: In Banks We Distrust"</>
+<img width="50%" src="/images/currency-in banks we distrust.png" 
+	alt="Currency: In Banks We Distrust"</>
 </p>
 
 ### Bitcoin vs. Banks
@@ -403,7 +409,9 @@ Let's take a look at how Bitcoin can fulfill a bank's functions.
 <!------------------------------ Currency: Bitcoin Components ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/Currency-Bitcoin components.png" alt="Currency: Bitcoin Components" style="width:5in;height:2.8in" />
+<img src="/images/Currency-Bitcoin components.png" 
+	alt="Currency: Bitcoin Components" 
+	style="width:5in;height:2.8in" />
 &nbsp;
 
 In Bitcoin, identity and account management are completely autonomous.
@@ -456,7 +464,9 @@ But how do we do this in Bitcoin, without a bank or central entity to keep track
 <!------------------------------- Identity: Identity in Bitcoin ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image003-identity-in-bitcoin.png" alt="Identity: Identity in Bitcoin" style="width:5in;height:2.8in" />
+<img src="/images/image003-identity-in-bitcoin.png" 
+	alt="Identity: Identity in Bitcoin" 
+	style="width:5in;height:2.8in" />
 &nbsp;
 
 ### Identity (Stage 1)
@@ -529,7 +539,9 @@ Similarly, you would never want anyone else to have your Bitcoin private key as 
 <!---------------------------- Identity: Public and Private Keys --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image004.png" alt="Identity: Public and Private Keys" style="width:5in;height:2.8in" />
+<img src="/images/image004.png" 
+	alt="Identity: Public and Private Keys" 
+	style="width:5in;height:2.8in" />
 &nbsp;
 
 In Bitcoin, you can think of your public and private key as a chest and key, respectively.
@@ -558,7 +570,9 @@ To generate an identity, a user picks a private key at random generates the publ
 <!----------------------------- Identity: A few things to note ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image004-identity-few.png" alt="Identity: A few things to note" style="width:5in;height:2.82959in" />
+<img src="/images/image004-identity-few.png" 
+	alt="Identity: A few things to note" 
+	style="width:5in;height:2.82959in" />
 
 You may be concerned about the danger of two users ending up with the same public key without a central registry ensuring that no two people have the same public key.
 
@@ -574,13 +588,15 @@ To illustrate the probability of two users choosing the same identity as someone
 <!----------------------------- Identity: Public & Private Keys ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image005.png" alt="Identity: Public & Private Keys" style="width:5in;height:2.81998in" />
+<img src="/images/image005.png" 
+	alt="Identity: Public & Private Keys" 
+	style="width:5in;height:2.81998in" />
 
-Bitcoin has 2\^160^th^ different possible addresses.
+Bitcoin has 2\^160<sup>th</sup> different possible addresses.
 
 To get a sense of how many different addresses exist for users to choose out of, let us compare the number of addresses in Bitcoin to the number of grains of sand on Earth.
 
-The Earth has 2\^63^rd^ grains of sand.
+The Earth has 2\^63<sup>rd</sup> grains of sand.
 
 Imagine every person in the world choosing a grain of sand at random.
 
@@ -588,21 +604,25 @@ The likelihood of two people picking the same grain of sand is less than 0.0001%
 
 In comparison, the number of addresses in Bitcoin is many, many magnitudes greater than the number of grains on sand on Earth, making the probability even smaller.
 
-Let’s consider something more drastic: imagine that for every grain of sand on Earth, there exists another Earth, also with 2\^63^rd^ grains of sand.
+Let’s consider something more drastic: imagine that for every grain of sand on Earth, there exists another Earth, also with 2\^63<sup>rd</sup> grains of sand.
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------- Identity: Public Key Security ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image006.png" alt="Identity: Public Key Security" style="width:5in;height:2.81998in" />
+<img src="/images/image006.png" 
+	alt="Identity: Public Key Security" 
+	style="width:5in;height:2.81998in" />
 
-Now we have 2\^63^rd^ times 2\^63^rd^ grains of sand per earth, meaning that there are a total of 2\^126^th^ grains of sand.
+Now we have 2\^63<sup>rd</sup> times 2\^63<sup>rd</sup> grains of sand per earth, meaning that there are a total of 2\^126<sup>th</sup> grains of sand.
 
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- Identity: Security Hidden in Plain Sight ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image007-identity-security-hidden-in-plain-sight.png" style="width:5in;height:2.81998in" />
+<img src="/images/image007-identity-security-hidden-in-plain-sight.png" 
+	alt="Identity: Security Hidden in Plain Sight"
+	style="width:5in;height:2.81998in" />
 
 Even the number of grains of sand upon all these Earths is only 0.0000000058% (8 zeroes) of all the possible Bitcoin addresses.
 
@@ -615,26 +635,26 @@ After all, that’s the primary goal of the Bitcoin network -- to enable secure 
 <!------------------------------ What Makes a Transaction Valid? --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image008-what makes-a-transaction-valid.png" style="width:5in;height:2.81998in" />
+<img src="/images/image008-what makes-a-transaction-valid.png" 
+	alt="That Makes a Transaction Valid?"
+	style="width:5in;height:2.81998in" />
 
 As we did before with the concept of identity, we will now be analyzing the idea of a transaction.
 
 Take a moment to ask yourself, “What makes a transaction valid?”
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!---------------------------- Transactions: Validity --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image009-validity.png" style="width:5in;height:2.81998in" />
+<img src="/images/image009-validity.png" 
+	alt="Transactions: Validity"
+	style="width:5in;height:2.81998in" />
 
 For a transaction to be valid, it must have these three components:
 
-1.  a proof of ownership, aka a signature,
-
-2.  available and sufficient funds to spend, and
-
-3.  a guarantee that no other transaction is using or has used the same
-
-funds.
+	1.  a proof of ownership, aka a signature,
+	2.  available and sufficient funds to spend, and
+	3.  a guarantee that no other transaction is using or has used the same funds.
 
 Let’s understand these criteria in the context of checks and banks:
 
@@ -647,17 +667,22 @@ They must also ensure that you do not spend the same money more than once -- tha
 To ensure that one uses funds not in their possession, all the same conditions apply to Bitcoin.
 
 To enforce this, Bitcoin uses what’s known as a UTXO, or Unspent Transaction Output, model.
-<!------------------------------------------------------------------------------------------------>
-<!----------------------------  --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image010-utxo-model.png" style="width:5in;height:2.84871in" />
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!---------------------------- Transactions: UTXO Model --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image010-utxo-2.png" style="width:5in;height:2.82959in" />
+<img src="/images/image010-utxo-model.png" 
+	alt="Transactions: UTXO Model"
+	style="width:5in;height:2.84871in" />
+
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------- Transactions: UTXO Model --------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/image010-utxo-2.png" 
+	alt="Transactions: UTXO Model"
+	style="width:5in;height:2.82959in" />
 
 Traditionally, when we think of banks, we think of a single account where all our funds are aggregated into one count.
 
@@ -679,10 +704,12 @@ An easy way to wrap our heads around this unintuitive model is to think of UTXOs
 
 Every time a transaction is made to us, we put all that money into a UTXO, or piggy bank.
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------  --------------------------------->
+<!---------------------------- Transactions: UTXO Model --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image011-utxo-model-unspent.png" style="width:5in;height:2.81998in" />
+<img src="/images/image011-utxo-model-unspent.png" 
+	alt="Transactions: UTXO Model"
+	style="width:5in;height:2.81998in" />
 
 When we want to spend money, we break open that piggy bank...spend whatever we like, and then put the rest into another piggy bank.
 
@@ -701,10 +728,12 @@ The amount of bitcoin you own is calculated by summing up the value of each of y
 Here’s an example of how transactions work in Bitcoin:
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------  --------------------------------->
+<!---------------------------- UTXO Example --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image012-utxo-example.png" style="width:5in;height:3.92747in" />
+<img src="/images/image012-utxo-example.png" 
+	alt="UTXO Example"
+	style="width:5in;height:3.92747in" />
 
 Let’s say that Gloria has two UTXOs, from past transactions, one worth one hundred (100) bitcoins... and one worth fifty bitcoins.
 
@@ -3260,7 +3289,8 @@ Also, the Coinbase transaction has a separate nonce field that is used in our ha
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image114.png" alt=" "</>
+<img width="50%" src="/images/image114.png" 
+	alt=" "</>
 </p>
 &nbsp;
 
@@ -3276,7 +3306,8 @@ Also, the Coinbase transaction has a separate nonce field that is used in our ha
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image116.png" alt=" "</>
+<img width="50%" src="/images/image116.png" 
+	alt=" "</>
 </p>
 &nbsp;
 
@@ -3312,7 +3343,8 @@ In this next section, we’ll go over what we want from a digital signature sche
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image117-dss.png" alt=" "</>
+<img width="50%" src="/images/image117-dss.png" 
+	alt=" "</>
 </p>
 &nbsp;
 
@@ -3333,7 +3365,8 @@ How can she do this and make sure no one tampers with her message?
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image117-dss-2.png" alt=" "</>
+<img width="50%" src="/images/image117-dss-2.png" 
+	alt=" "</>
 </p>
 &nbsp;
 
@@ -3345,7 +3378,8 @@ We’ll see later on that this is important to help Bob verify that a message co
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image117-dss-3.png" alt=" "</>
+<img width="50%" src="/images/image117-dss-3.png" 
+	alt=" "</>
 </p>
 &nbsp;
 
@@ -3357,7 +3391,8 @@ This generates a unique signature that proves that she created the message as it
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image117-dss-4.png" alt=" "</>
+<img width="50%" src="/images/image117-dss-4.png" 
+	alt=" "</>
 </p>
 &nbsp;
 
@@ -3369,7 +3404,8 @@ The idea is that the message is the main payload, and the signature can be used 
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image117-dss-5" alt=" "</>
+<img width="50%" src="/images/image117-dss-5" 
+	alt=" "</>
 </p>
 &nbsp;
 
@@ -3387,7 +3423,8 @@ This is how digital signature schemes make messages tamper evident.
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image117-dss-6.png" alt=" "</>
+<img width="50%" src="/images/image117-dss-6.png" 
+	alt=" "</>
 </p>
 &nbsp;
 
@@ -3403,7 +3440,8 @@ We’ll see how this is prevented in the next section, where we explain the way 
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image116.png" alt=" "</>
+<img width="50%" src="/images/image116.png" 
+	alt=" "</>
 </p>
 &nbsp;
 
