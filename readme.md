@@ -5070,7 +5070,8 @@ Author: Rea Savla
 <!-------- Step 3: Find the proof-of-work that solves the partial preimage hash puzzle  ---------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image165-step3-find-proof-of-work.png" alt="Step 3: Find the proof-of-work that solves the partial preimage hash puzzle" style="width:5in;height:2.8in" />
+<img src="/images/image165-step3-find-proof-of-work.png" alt="Step 3: Find the proof-of-work that solves the partial preimage hash puzzle" 
+	style="width:5in;height:2.8in" />
 </p>
 
 ### Step 4:
@@ -5082,10 +5083,13 @@ Author: Rea Savla
     -   Other miners will validate the block for themselves before accepting it into their chain and propagating it further through the network. 
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------  ----------------------------->
+<!-------- Step 4: Find the proof-of-work that solves the partial preimage hash puzzle  ---------->
 <!------------------------------------------------------------------------------------------------>
-
-<img src="/images/image165-step4-broadcast.png" alt="Step 4: •	Broadcast your block " style="width:5in;height:3.6148in" alt="Blockchain that has broadcasted the transaction, Derrick Rustie, Gloria, Nick, Nadir" />
+<p align="center" width="100%">
+<img src="/images/image165-step4-broadcast.png" 
+	alt="Step 4: Blockchain that has broadcasted the transaction, Derrick Rustie, Gloria, Nick, Nadir" 
+	style="width:5in;height:2.8in" />
+</p>
 
 ### Step 5:
 
@@ -5122,11 +5126,15 @@ Each person’s definition of profit is different, but it’s pretty straightfor
 It’s such a simple word, yet this concept of profit will come up again and again throughout the rest of this course.
 
 In fact, any type of incentive mechanisms within blockchain protocols focus on aligning personal profit with overall profit.
-<!------------------------------------------------------------------------------------------------>
-<!------------------------  ----------------------------->
-<!------------------------------------------------------------------------------------------------>
 
-<img src="/images/image195.png" style="width:5in;height:2.8368in" />
+<!------------------------------------------------------------------------------------------------>
+<!-------- Mining Incentives: What is Profit?  ---------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image195.png" 
+	alt="Mining Incentives: What is Profit?"
+	style="width:5in;height:2.8368in" />
+</p>
 
 Pay good attention to this slide.
 
@@ -5140,13 +5148,27 @@ Every single person in the Bitcoin network is presumably maximizing the value of
 
 ### Mining Incentives: Block Reward
 
-<img src="/images/image196.png" style="width:5in;height:2.82562in" />
+<!------------------------------------------------------------------------------------------------>
+<!-------- Mining Incentives: How to Profit From Mining  ---------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image196.png" 
+	alt="Mining Incentives: How to Profit From Mining"
+	style="width:5in;height:2.8368in" />
+</p>
 
 Let’s go ahead and break down the various components of profit within Bitcoin.
 
 First, we’ll start by discussing the block reward, the most significant source of profit currently for miners.
 
-<img src="/images/image197.png" style="width:5in;height:2.86645in" />
+<!------------------------------------------------------------------------------------------------>
+<!-------- Mining Incentives: Block Reward  ---------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image197.png" 
+	alt="Mining Incentives: Block Reward"
+	style="width:5in;height:2.8368in" />
+</p>
 
 The block reward is a reward that goes to a miner whose block is included in the longest chain.
 
@@ -5186,7 +5208,14 @@ In addition, some private keys have been lost, and some bitcoins have been burne
 
 ### Mining Incentives: Transaction Fees
 
-<img src="/images/image198.png" style="width:5in;height:2.91123in" />
+<!------------------------------------------------------------------------------------------------>
+<!-------- Mining Incentives: Transaction Fees  ---------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image198.png" 
+	alt="Mining Incentives: Transaction Fees"
+	style="width:5in;height:2.8368in" />
+</p>
 
 Now that we’ve talked about block rewards, let’s go ahead and talk about transaction fees.
 
@@ -5210,7 +5239,14 @@ As block rewards approach zero, transaction fees will become the primary source 
 
 ### Mining Costs: Fixed Costs
 
-<img src="/images/image199.png" style="width:5in;height:2.80884in" />
+<!------------------------------------------------------------------------------------------------>
+<!-------- Mining Incentives: How to Profit From Mining  ---------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image199.png" 
+	alt="Mining Incentives: How to Profit From Mining"
+	style="width:5in;height:2.8368in" />
+</p>
 
 Now that we’ve discussed all the different sources of revenue for miners, we can move on to the costs.
 
@@ -5226,7 +5262,14 @@ This logarithmically scaled graph here shows a quick overview of the growth of m
 
 ### Types of Hardware
 
-<img src="/images/image200.png" style="width:5in;height:2.89531in" />
+<!------------------------------------------------------------------------------------------------>
+<!-------- Mining Incentives: Fixed Cost: CPU Mining ---------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image200.png" 
+	alt="Mining Incentives: Fixed Cost: CPU Mining"
+	style="width:5in;height:2.8368in" />
+</p>
 
 The first type of mining hardware used was a CPU, or central processing unit.
 
@@ -5260,7 +5303,14 @@ For example, mining does not require any floating point numbers, so the excess c
 
 In addition, they are not meant to be run in farms side by side, so it is difficult to operate a large scale GPU mining setup.
 
-<img src="/images/image201.png" style="width:5in;height:2.87528in" />
+<!------------------------------------------------------------------------------------------------>
+<!-------- Mining Incentives: Fixed Cost: FPGA Mining  ---------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image201.png" 
+	alt="Mining Incentives: Fixed Cost: FPGA Mining"
+	style="width:5in;height:2.8368in" />
+</p>
 
 This is where FPGAs, or Field Programmable Gate Arrays, come into play.
 
@@ -5274,7 +5324,14 @@ However, if Bitcoin thrives, then there is a desire to beat out other mining com
 
 However, FPGAs were only used briefly, because much more powerful hardware quickly came into the market around 2014.
 
-<img src="/images/image202.png" style="width:5in;height:2.86957in" />
+<!------------------------------------------------------------------------------------------------>
+<!-------- Mining Incentives: Fixed Cost: ASIC Mining  ---------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image202.png" 
+	alt="Mining Incentives: Fixed Cost: ASIC Mining"
+	style="width:5in;height:2.8368in" />
+</p>
 
 ASICs, or Application Specific Integrated Circuits, are mentioned throughout the Bitcoin ecosystem.
 
@@ -5298,13 +5355,27 @@ A fun stat: one of the most popular and powerful ASICs, the Antminer S9, can per
 
 ### Mining Costs: Operating Costs
 
-<img src="/images/image203.png" style="width:5in;height:2.85403in" />
+<!------------------------------------------------------------------------------------------------>
+<!-------- Mining Incentives: How to Profit from Mining ---------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image203.png" 
+	alt="Mining Incentives: How to Profit from Mining"
+	style="width:5in;height:2.8368in" />
+</p>
 
 Now that we’ve discussed fixed costs, or hardware costs, let’s finish up the equations with an understanding of the variable costs in mining.
 
 As we know, there’s several different costs of energy consumed in the process of mining, all of which are considerations for the cost of Bitcoin on the environment.
 
-<img src="/images/image204.png" style="width:5in;height:2.83991in" />
+<!------------------------------------------------------------------------------------------------>
+<!-------- Mining Incentives: Operating Costs ---------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image204.png" 
+	alt="Mining Incentives: Operating Costs"
+	style="width:5in;height:2.8368in" />
+</p>
 
 These energy costs come in multiple forms, but primarily the following three.
 
@@ -5316,7 +5387,14 @@ On top of that, there is infrastructure and overhead to maintain as well, such a
 
 Depending on the scale of your operation, you may need to go so far as to purchase entire warehouses and a few maintainers to ensure that nothing goes wrong with the hardware, or to take care of things when hardware goes down.
 
-<img src="/images/image205.png" style="width:5in;height:2.84324in" />
+<!------------------------------------------------------------------------------------------------>
+<!-------- Mining Incentives: How to Profit ---------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image205.png" 
+	alt="Mining Incentives: How to Profit from Mining"
+	style="width:5in;height:2.8368in" />
+</p>
 
 Finally, you understand everything there is to know about how to profit from mining.
 
@@ -5338,7 +5416,14 @@ We’ll see that while the initial goal of Bitcoin was to be decentralized, hono
 
 ### ASICs
 
-<img src="/images/image206.png" style="width:5in;height:2.84326in" />
+<!------------------------------------------------------------------------------------------------>
+<!-------- Real World Mining: Chinese ASIC Mining Farm ---------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image206.png" 
+	alt="Real World Mining: Chinese ASIC Mining Farm"
+	style="width:5in;height:2.8368in" />
+</p>
 
 Here, we see a few pictures of what an ASIC mining farm in China.
 
@@ -5378,7 +5463,14 @@ Is there any way that we can reduce the amount of time it takes for us to get pr
 
 ### Mining Pools
 
-<img src="/images/image207.png" style="width:5in;height:2.84715in" />
+<!------------------------------------------------------------------------------------------------>
+<!--------  ---------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image207.png" 
+	alt=""
+	style="width:5in;height:2.8368in" />
+</p>
 
 Well, that’s where mining pools come in.
 
@@ -5432,6 +5524,15 @@ Thus, they wouldn’t get any shares from the mining pool, since the mining pool
 
 ### Mining Pool Schemes
 
+<!------------------------------------------------------------------------------------------------>
+<!--------  ---------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image208.png" 
+	alt=""
+	style="width:5in;height:2.8368in" />
+</p>
+
 <img src="/images/image208.png" style="width:5in;height:2.8268in" />
 
 There are various schemes for payout that mining pool use.
@@ -5462,7 +5563,14 @@ This is more advantageous for the pool, as they’ll never pay out more money th
 
 Because of the difficulty of buy-in, proportional schemes aren’t seen often, if ever, in the mining world.
 
-<img src="/images/image209.png" style="width:5in;height:2.80409in" />
+<!------------------------------------------------------------------------------------------------>
+<!--------  ---------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image209.png" 
+	alt=""
+	style="width:5in;height:2.8368in" />
+</p>
 
 This is a demonstration of several different payout schemes that have been thought of.
 
@@ -5472,7 +5580,14 @@ It all depends on the size and assumptions of the mining pool.
 
 ### Mining Pool Pros and Cons
 
-<img src="/images/image210.png" style="width:5in;height:2.84004in" />
+<!------------------------------------------------------------------------------------------------>
+<!--------  ---------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image210.png" 
+	alt=""
+	style="width:5in;height:2.8368in" />
+</p>
 
 So now that we’re familiar with mining pool schemes, we can talk about the pros and cons of mining pools.
 
@@ -5492,7 +5607,14 @@ On top of that, a multitude of attacks are enabled by mining pools, which we wil
 
 The community typically dislikes large mining pools.
 
-<img src="/images/image211.png" style="width:5in;height:2.80108in" />
+<!------------------------------------------------------------------------------------------------>
+<!--------  ---------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image211.png" 
+	alt=""
+	style="width:5in;height:2.8368in" />
+</p>
 
 For example, GHash.io once approached 50% of the network mining power.
 
@@ -5514,7 +5636,14 @@ We don’t know the true concentration of control over mining hardware, and we m
 
 ### Mining Pool Stats
 
-<img src="/images/image212.png" style="width:5in;height:2.80725in" />
+<!------------------------------------------------------------------------------------------------>
+<!--------  ---------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image212.png" 
+	alt=""
+	style="width:5in;height:2.8368in" />
+</p>
 
 This will be a rundown to show the contrast between solo mining and pool mining.
 
@@ -5556,7 +5685,14 @@ This leads to the paradox that: the more secure Bitcoin gets, with more and more
 
 ### Types of Miners
 
-<img src="/images/image213.png" style="width:5in;height:2.81088in" />
+<!------------------------------------------------------------------------------------------------>
+<!--------  ---------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image213.png" 
+	alt=""
+	style="width:5in;height:2.8368in" />
+</p>
 
 Of course, remember that there are various types of miners.
 
@@ -5649,6 +5785,7 @@ For example, some may feel that it needs to be tied in more to the original cyph
 In this section, we’ll be specifically talking about concerns of mining centralization, proposed changes to Bitcoin’s mining puzzle, and making consensus updates in Bitcoin.
 
 ### Ensuring Decentralization
+
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- --------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -5697,7 +5834,14 @@ You don’t have to find the exact preimage of the hash, as long as you have the
 
 ### Ensuring Decentralization: ASIC Resistance
 
-<img src="/images/image216.png" style="width:5in;height:2.79355in" />
+<!------------------------------------------------------------------------------------------------>
+<!--------  ---------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image216.png" 
+	alt=""
+	style="width:5in;height:2.8368in" />
+</p>
 
 ASICs work because it’s easy to create hardware to compute just a certain puzzle.
 
@@ -5909,8 +6053,12 @@ There is a centralized team working on these protocol changes, the Bitcoin Core 
 This is the software that’s used in full nodes.
 
 ### Consensus Updates: Forks
-
-### <img src="/images/image225.png" style="width:5in;height:2.81901in" />
+<!------------------------------------------------------------------------------------------------>
+<!--------  ---------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="50%" src="/images/image225.png" alt=""</>
+</p>
 
 This brings us to the two ways that blockchains can be updated: hard forks and soft forks.
 
@@ -6045,7 +6193,6 @@ To get a better sense of how mining looks in real life, here is what a real-worl
 <img width="90%" src="/images/image228.png" alt=""</>
 </p>
 
-<img src="/images/image228.png" style="width:6.5in;height:3.65625in" alt="Real-world ASIC mining farm in China" />  
 Image Source: [The Register Opens in new window](https://www.theregister.co.uk/2014/08/12/chinese_bitcoin_farms_from_scifi_to_scuzzy/)
 
 Even with the most impressive technology, it still takes a great amount of time and power to find a block. Mining pools allow miners to join their hash power together so that they will collectively find blocks and collect rewards more often, reducing variance. As a member of a mining pool, your reward is calculated by the number of “shares” you contribute. A share is defined as a near valid block, used to estimate the mining power you contributed. More shares equals more attempts at finding a valid nonce equals a larger slice of the pie.
