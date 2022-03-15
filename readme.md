@@ -1464,7 +1464,7 @@ Several early attempts at making a true cryptocurrency failed, though they came 
 <!----------------- 34. Early Attampts: Digicash -------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image034-early-attempts-Digicash.png" 
+<img src="/images/image034-early-attempts-digicash.png" 
 	alt="Early Attampts: Digicash"
 	style="width:5in;height:2.80395in" />
 
@@ -2162,7 +2162,7 @@ Just to drive his point home, here are some more comments he made in September 2
 <!------------------ Quotes (5) from Jamie Dimon, the CEO of JP Morgan Chase --------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image063-dimon-quotes-5.png" alt="Quotes (5) from Jamie Dimon, the CEO of JP Morgan Chase"</>
+<img width="50%" src="/images/image063-dimon-quotes-5.png" alt="Quotes (5) from Jamie Dimon, the CEO of JP Morgan Chase" </>
 </p>
 &nbsp;
 
@@ -2174,7 +2174,7 @@ And in another quote he said “One of my daughters bought bitcoin and it went u
 <!------------------ Quotes (6) from Jamie Dimon, the CEO of JP Morgan Chase --------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image064.dimon-quotes-6.png" alt="Quotes (6) from Jamie Dimon, the CEO of JP Morgan Chase"</>
+<img width="50%" src="/images/image064-dimon-quotes-6.png" alt="Quotes (6) from Jamie Dimon, the CEO of JP Morgan Chase" </>
 </p>
 &nbsp;
 
@@ -2186,7 +2186,7 @@ In January 2018, he said “The blockchain is real. You can have crypto yen and 
 <!----------------------------------- image065-crypto-anarchy.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image065-crypto-anarchy.png" alt=" "</>
+<img width="50%" src="/images/image065-crypto-anarchy.png" alt="Crypto Anarchy"</>
 </p>
 &nbsp;
 
@@ -2364,7 +2364,7 @@ In Q3’17, ICOs have raised \$1.3B with 150 ICOs while seed/angel investing acr
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image0xx.png" alt=" "</>
+<img width="50%" src="/images/image074-cryptokitties.png" alt=" "</>
 </p>
 &nbsp;
 
@@ -2505,13 +2505,11 @@ Coindesk: [A Bot Named Willy: Did Mt. Gox's Automated Trading Pump Bitcoin's Pr
 
 ### Module 3: Bitcoin Mechanics & Optimizations: A Technical Overview 
 
-# 
-
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image080=bitcoin-overview.png -------------------------------------->
+<!------------------ Bitcoin Mechanics and Optimizations: A Technical Overview ------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image080=bitcoin-overview.png" alt=" "</>
+<img width="50%" src="/images/image080-bitcoin-overview.png" alt="Bitcoin Mechanics and Optimizations: A Technical Overview"</>
 </p>
 &nbsp;
 
