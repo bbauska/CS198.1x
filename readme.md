@@ -1716,7 +1716,7 @@ This was the very first time a Bitcoin transaction traded “magic worthless int
 
 However, it’s not like bitcoins were worth that much when Laszlo spent them on pizza.
 
-# Lecture/Module 2:
+## Lecture/Module 2:
 
 It took years of development and spread before Bitcoin became accepted as a legitimate technology, yet it’s still got a way to go before reaching worldwide legitimacy.
 
@@ -1736,7 +1736,8 @@ Early Bitcoin was thus often the target of scandals, hacks, and illegal activity
 <!----------------------------------- image042-bitcoin-theft-mt-gox-july-2010.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="40%" src="/images/image042-bitcoin-theft-mt-gox-july-2010.png" alt=" "</>
+<img width="40%" src="/images/image042-bitcoin-theft-mt-gox-july-2010.png" 
+alt="Bitcoin Theft: Mt Gox July, 2010 - Feb, 2014"</>
 </p>
 &nbsp;
 
@@ -1770,7 +1771,8 @@ By the end of the month, Mt. Gox filed for bankruptcy.
 <!----------------------------------- image043-bitcoin-drug-scandal-silk-road-feb-2011-thru-oct-2013.png  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image043-bitcoin-drug-scandal-silk-road-feb-2011-thru-oct-2013.png" alt=" "</>
+<img width="50%" src="/images/image043-bitcoin-drug-scandal-silk-road-feb-2011-thru-oct-2013.png" 
+	alt="Bitcoin Drug Scandal: Silk Road Feb, 2011 - Oct, 2013"</>
 </p>
 &nbsp;
 
@@ -1796,7 +1798,8 @@ Ross Ulbricht was sentenced to life in jail, and the FBI seized upwards of 26,00
 <!----------------------------------- image044-bitcoin-bubble.png  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image044-bitcoin-bubble.png" alt=" "</>
+<img width="50%" src="/images/image044-bitcoin-bubble.png" 
+	alt="Bitcoin Bubble"</>
 </p>
 &nbsp;
 
@@ -1818,7 +1821,8 @@ Second, automated trading in Mt. Gox may have artificially driven the price up b
 <!----------------------------------- image045-explosion-of-altcoins.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image045-explosion-of-altcoins.png" alt=" "</>
+<img width="50%" src="/images/image045-explosion-of-altcoins.png" 
+	alt="Explosion of Altcoins"</>
 </p>
 &nbsp;
 
@@ -1842,7 +1846,8 @@ These are just a few examples of how coins other than Bitcoin are trying to solv
 <!----------------------------------- image046-bitcoin-headlines.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image046-bitcoin-headlines.png" alt=" "</>
+<img width="50%" src="/images/image046-bitcoin-headlines.png" 
+	alt="Bitcoin Headlines: Popularity Grows, Merchants Begin to Accept Bitcoin"</>
 </p>
 &nbsp;
 
@@ -1878,7 +1883,8 @@ We’ve grown so much since then, and that just comes to show how much the block
 <!----------------------------------- image047-bitcoin-startups.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image047-bitcoin-startups.png" alt=" "</>
+<img width="50%" src="/images/image047-bitcoin-startups.png" 
+	alt="Bitcoin Startups"</>
 </p>
 &nbsp;
 
@@ -1898,7 +1904,8 @@ Most importantly, during this time, the term “blockchain” started becoming a
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image048-and-burst.png" alt=" "</>
+<img width="50%" src="/images/image048-and-burst.png" 
+	alt="2014-2015 Graph of Bitcoin Prices"</>
 </p>
 &nbsp;
 
@@ -1928,7 +1935,8 @@ In this section, we’re going to talk about the next stage of Bitcoin’s histo
 <!----------------------------------- image049-bitcoin-struggles-to-scale.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image049-bitcoin-struggles-to-scale.png" alt=" "</>
+<img width="50%" src="/images/image049-bitcoin-struggles-to-scale.png" 
+	alt="Bitcoin Struggles to Scale: Block Size Debate 2015"</>
 </p>
 &nbsp;
 
@@ -1966,7 +1974,8 @@ Members can't directly propose and vote on updates to Bitcoin within the actual 
 <!----------------------------------- image050-2013-2016-ethereum-timeline.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image050-2013-2016-ethereum-timeline.png" alt=" "</>
+<img width="50%" src="/images/image050-2013-2016-ethereum-timeline.png" 
+	alt="2013-2016: Ethereum Timeline: Bitcoin vs Ethereum"</>
 </p>
 &nbsp;
 
@@ -1988,7 +1997,8 @@ Code execution on Ethereum is fueled by Ethereum’s internal token, called ethe
 <!----------------------------------- image051-2013-2016-ethereum-blows-up.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image051-2013-2016-ethereum-blows-up.png" alt=" "</>
+<img width="50%" src="/images/image051-2013-2016-ethereum-blows-up.png" 
+	alt="2013-2016: Ethereum Timeline: Ethereum Blows Up in Multiple Ways"</>
 </p>
 &nbsp;
 
@@ -2001,10 +2011,11 @@ At the time, this was equivalent to 2.3 million USD, or in Bugatti terms, about 
 The Ethereum blockchain officially went live on July 30th 2015, and by May 2016, the cumulative value of Ethereum tokens was more than \$1 billion.
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!------------ 2013-2016: Ethereum Timeline: Decentralized Autonomous Organizations -------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image052-2013-2016-ethereum-timeline-dao.png" alt=" "</>
+<img width="50%" src="/images/image052-2013-2016-ethereum-timeline-dao.png" 
+	alt="2013-2016: Ethereum Timeline: Decentralized Autonomous Organizations"</>
 </p>
 &nbsp;
 
@@ -2028,7 +2039,8 @@ The remainder that believed that nothing - including catastrophic events like th
 <!----------------------------------- image053-2016-to-present-ethereum-bubble.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image053-2016-to-present-ethereum-bubble.png" alt=" "</>
+<img width="50%" src="/images/image053-2016-to-present-ethereum-bubble.png" 
+	alt="2016-??: Ethereum Bubble"</>
 </p>
 &nbsp;
 
@@ -2059,10 +2071,11 @@ For better or for worse, people don’t want to miss out on the “next bitcoin�
 The fact that Bitcoin’s and other cryptocurrencies’ prices are starting to be broadcasted on public radio further contributes to this “FOMO.”
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!----------------------------------- 2016-2017: Hype Train -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image054-2016-2017-hype-train.png" alt=" "</>
+<img width="50%" src="/images/image054-2016-2017-hype-train.png" 
+	alt="2016-2017: Hype Train"</>
 </p>
 &nbsp;
 
@@ -2071,10 +2084,11 @@ And economic and political circumstances like Brexit, Trump’s election, or Ind
 Due to some economic and political situations, and of course the aforementioned Fear of Missing Out, cryptocurrencies became extremely popular, resulting in a massive hype train.
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!----------------------------------- 2016-2017: More Hype Train -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image055-2016-2017-hype-train-2.png" alt=" "</>
+<img width="50%" src="/images/image055-2016-2017-hype-train-2.png" 
+	alt="2016-2017: More Hype Train"</>
 </p>
 &nbsp;
 
@@ -2085,10 +2099,11 @@ A decentralized application built on top of Ethereum called CryptoKitties, an on
 It’s important to have an educated understanding of the space…...rather than make decisions based on volatility and prices.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 2017-2019: Get Off at this Station ------------------------------>
+<!------------------------------ 2017-2019ish: Get Off at this Station ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image056-2017-get-off-at-this-station.png" alt=" "</>
+<img width="50%" src="/images/image056-2017-get-off-at-this-station.png" 
+	alt="2017-2019ish: Get Off at This Station"</>
 </p>
 &nbsp;
 
@@ -2114,7 +2129,8 @@ As a technology that was initially created to avoid large banks and powerful cen
 <!----------------------------------- Banks and Blockchain -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image057-banks-and-blockchain.png" alt=" "</>
+<img width="50%" src="/images/image057-banks-and-blockchain.png" 
+	alt="Banks and Blockchain"</>
 </p>
 &nbsp;
 
@@ -2138,7 +2154,8 @@ These blockchains take the fundamental cryptographic technology from bitcoin (pu
 <!----------------------------- Private Blockchain Initiatives ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image058-private-blockchain-initiatives.png" alt=" "</>
+<img width="50%" src="/images/image058-private-blockchain-initiatives.png" 
+	alt="Private Blockchain Initiatives"</>
 </p>
 &nbsp;
 
@@ -2156,7 +2173,8 @@ Let’s take a look specifically at Jamie Dimon, the CEO of JP Morgan Chase...
 <!-------------------- Quotes from Jamie Dimon, the CEO of JP Morgan Chase ----------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image059-dimon-quotes.png" alt="Quotes from Jamie Dimon, the CEO of JP Morgan Chase"</>
+<img width="50%" src="/images/image059-dimon-quotes.png" 
+	alt="Quotes from Jamie Dimon, the CEO of JP Morgan Chase"</>
 </p>
 &nbsp;
 
@@ -2168,7 +2186,8 @@ In January 2014, he said about Bitcoin “It’s a terrible store of value. It c
 <!------------------ Quotes (2) from Jamie Dimon, the CEO of JP Morgan Chase --------------------->
 <!------------------------------------------------------------------------------------------------>
 p align="center" width="100%">
-<img width="50%" src="/images/image060-dimon-quotes-2.png" alt="Quotes (2) from Jamie Dimon, the CEO of JP Morgan Chase"</>
+<img width="50%" src="/images/image060-dimon-quotes-2.png" 
+	alt="Quotes (2) from Jamie Dimon, the CEO of JP Morgan Chase"</>
 </p>
 &nbsp;
 
@@ -2180,7 +2199,8 @@ The statement seems aggressive, but he actually gives legitimacy to Bitcoin by s
 <!------------------ Quotes (3) from Jamie Dimon, the CEO of JP Morgan Chase --------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image061-dimon-quotes-3.png" alt="Quotes (3) from Jamie Dimon, the CEO of JP Morgan Chase"</>
+<img width="50%" src="/images/image061-dimon-quotes-3.png" 
+	alt="Quotes (3) from Jamie Dimon, the CEO of JP Morgan Chase"</>
 </p>
 &nbsp;
 
@@ -2194,7 +2214,8 @@ It’s something that bankers can’t control, and they hate it.
 <!------------------ Quotes (4) from Jamie Dimon, the CEO of JP Morgan Chase --------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image062-dimon-quotes-4.png" alt="Quotes (4) from Jamie Dimon, the CEO of JP Morgan Chase"</>
+<img width="50%" src="/images/image062-dimon-quotes-4.png" 
+	alt="Quotes (4) from Jamie Dimon, the CEO of JP Morgan Chase"</>
 </p>
 &nbsp;
 
@@ -2212,7 +2233,8 @@ Just to drive his point home, here are some more comments he made in September 2
 <!------------------ Quotes (5) from Jamie Dimon, the CEO of JP Morgan Chase --------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image063-dimon-quotes-5.png" alt="Quotes (5) from Jamie Dimon, the CEO of JP Morgan Chase" </>
+<img width="50%" src="/images/image063-dimon-quotes-5.png" 
+	alt="Quotes (5) from Jamie Dimon, the CEO of JP Morgan Chase" </>
 </p>
 &nbsp;
 
@@ -2236,7 +2258,8 @@ In January 2018, he said “The blockchain is real. You can have crypto yen and 
 <!----------------------------------- image065-crypto-anarchy.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image065-crypto-anarchy.png" alt="Crypto Anarchy"</>
+<img width="50%" src="/images/image065-crypto-anarchy.png" 
+	alt="Crypto Anarchy"</>
 </p>
 &nbsp;
 
@@ -2246,7 +2269,8 @@ Cryptocurrency and blockchain technology started its roller coaster of a journey
 <!----------------------------------- image066-digicash.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image066-digicash.png" alt=" "</>
+<img width="50%" src="/images/image066-digicash.png" 
+	alt="Digicash: Untraceable Electronic Cash"</>
 </p>
 &nbsp;
 
@@ -2260,7 +2284,8 @@ As bitcoin began to rise in value and attract attention from a wider and wider a
 <!----------------------------------- image067-community.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image067-community.png" alt=" "</>
+<img width="50%" src="/images/image067-community.png" 
+	alt="Community: Where Does the Community Exist?"</>
 </p>
 &nbsp;
 
@@ -2282,7 +2307,8 @@ And this all done to foster and develop the blockchain community.
 <!----------------------------------- image068-politics-dont-tread.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image068-politics-dont-tread.png" alt=" "</>
+<img width="50%" src="/images/image068-politics-dont-tread.png" 
+	alt="Politics: Internal Politics and Libertarianism"</>
 </p>
 &nbsp;
 
@@ -2306,7 +2332,8 @@ On the other hand, libertarians also think that people should be able to do what
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image069-politics-dont-tread-2.png" alt=" "</>
+<img width="50%" src="/images/image069-politics-dont-tread-2.png" 
+	alt="Politics: More Internal Politics and Libertarianism"</>
 </p>
 &nbsp;
 
@@ -2318,7 +2345,10 @@ It’s used as a libertarian symbol because the porcupine is the “quiet”, un
 <!----------------------------------- image070-controversial-topics.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image070-controversial-topics.png" alt=" "</>
+<img width="50%" src="/images/image070-controversial-topics.png" 
+	alt="Conversational Topics"</>
+</p>
+&nbsp;
 
 The United States government tries to best represent its citizens’ opinions and interests through a representative democracy.
 
@@ -2346,7 +2376,8 @@ That’s what we’re going to explore in this next section on the state of the 
 <!----------------------------------- image071-icos-the-hype.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image071-icos-the-hype.png" alt=" "</>
+<img width="50%" src="/images/image071-icos-the-hype.png" 
+	alt="ICO's: The Hype"</>
 </p>
 &nbsp;
 
@@ -2376,7 +2407,8 @@ We put emphasis on the word ANYONE because of the open and public nature of thes
 <!----------------------------------- image072-icos-doing-what-you-want.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image072-icos-doing-what-you-want.png" alt=" "</>
+<img width="50%" src="/images/image072-icos-doing-what-you-want.png" 
+	alt="ICO's: Doing What You Want"</>
 </p>
 &nbsp;
 
@@ -2719,7 +2751,8 @@ Otherwise, certain issues come up, such as exposing information that we didn’t
 <!----------------------------------- image085-cryptographic-hash-functions-preimage-resistance.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image085-cryptographic-hash-functions-preimage-resistance.png" alt=" "</>
+<img width="50%" src="/images/image085-cryptographic-hash-functions-preimage-resistance.png" 
+	alt=" "</>
 </p>
 &nbsp;
 
@@ -2734,7 +2767,8 @@ In other words, we cannot easily discover the input which created some output.
 <!------------------------------------------------------------------------------------------------>
 <
 <p align="center" width="100%">
-<img width="50%" src="/images/image086-cryptographic-hash-functions-2ndary-preimage-resistance.png" alt=" "</>
+<img width="50%" src="/images/image086-cryptographic-hash-functions-2ndary-preimage-resistance.png" 
+	alt=" "</>
 </p>
 &nbsp;
 
@@ -2751,7 +2785,8 @@ To make sure this doesn’t happen, we need what’s known as second preimage re
 <!------------------------------------------------------------------------------------------------>
 <
 <p align="center" width="100%">
-<img width="50%" src="/images/image087-cryptographic-hash-functions-2ndary-preimage-resistance.png" alt=" "</>
+<img width="50%" src="/images/image087-cryptographic-hash-functions-2ndary-preimage-resistance.png" 
+	alt=" "</>
 </p>
 &nbsp;
 
@@ -2771,7 +2806,8 @@ The technical definition is as follows: given some hash function H, it is comput
 <!----------------------------------- image090-cryptographic-hash-functions-avalanche-effect.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image090-cryptographic-hash-functions-avalanche-effect.png" alt=" "</>
+<img width="50%" src="/images/image090-cryptographic-hash-functions-avalanche-effect.png" 
+	alt=" "</>
 </p>
 &nbsp;
 
@@ -2793,7 +2829,8 @@ There's no relation between the Hashes despite the inputs being so similar.
 <!----------------------------------- image090-cryptographic-hash-sha256.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image090-cryptographic-hash-sha256.png" alt=" "</>
+<img width="50%" src="/images/image090-cryptographic-hash-sha256.png" 
+	alt=" "</>
 </p>
 &nbsp;
 
@@ -2819,7 +2856,8 @@ Once on the original message you want to hash, and another time on the output of
 <!----------------------------------- image090-a-tamper-evident-database.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image090-a-tamper-evident-database.png" alt=" "</>
+<img width="50%" src="/images/image090-a-tamper-evident-database.png" 
+	alt=" "</>
 </p>
 &nbsp;
 
@@ -2829,7 +2867,8 @@ Now that we know about cryptographic hash functions and their properties, how do
 <!----------------------------------- image091-a-tamper-evident-database-dissecting.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image091-a-tamper-evident-database-dissecting.png" alt=" "</>
+<img width="50%" src="/images/image091-a-tamper-evident-database-dissecting.png" 
+	alt=" "</>
 </p>
 &nbsp;
 
