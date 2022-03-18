@@ -4155,10 +4155,9 @@ Pay to Script Hash was an update to Bitcoin back in 2012, and since then has bee
 <!------------------------------  ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image159.png" alt=" "</>
+<img width="50%" src="/images/image160.png" alt=" "</>
 </p>
 &nbsp;
-<img src="/images/image160.png" style="width:5in;height:2.81677in" />
 
 One of the most widely used example of P2SH is multisignature, where a specific number of pre-specified signatures are required to unlock a UTXO.
 
@@ -4207,10 +4206,9 @@ If they match, the UTXO is unlocked.
 <!------------------------------  ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/imageXXX.png" alt=" "</>
+<img width="50%" src="/images/image162.png" alt=" "</>
 </p>
 <p align="center">
-<img src="/images/image162.png" style="width:5in;height:2.85253in" />
 
 Timelocks are a type of functionality in Bitcoin that restrict the spending of funds until a later time or a specific block height.
 
@@ -4263,12 +4261,11 @@ In this lecture, we dove into the low-level specifics of Bitcoin that make it wo
 We achieve a tamper evident system using cryptographic hash functions to produce standardized random “fingerprints” of our data. If the data changes, so will the fingerprints. Cryptographic hash functions do the following:
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------  ---------------------------------->
+<!------------------------------- Cryptographic hash functions ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/imageXXX.png" alt=" "</>
+<img width="80%" src="/images/image163.jpg" alt="Cryptographic hash functions"</>
 </p>
-<img src="/images/image163.png" style="width:6.5in;height:2.31944in" alt="Cryptographic hash functions" />
 
 Cryptographic hash functions are pseudorandom: although the output for any given input seems random, the output will remain consistent for that input.
 
