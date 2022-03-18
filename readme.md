@@ -5550,11 +5550,11 @@ Is there any way that we can reduce the amount of time it takes for us to get pr
 ### Mining Pools
 
 <!------------------------------------------------------------------------------------------------>
-<!--------  ---------->
+<!-------- Real World Mining: Mining Pools ---------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image207.png" 
-	alt=""
+	alt="Real World Mining: Mining Pools"
 	style="width:5in;height:2.8368in" />
 </p>
 
@@ -5611,15 +5611,13 @@ Thus, they wouldn’t get any shares from the mining pool, since the mining pool
 ### Mining Pool Schemes
 
 <!------------------------------------------------------------------------------------------------>
-<!--------  ---------->
+<!-------- Real World Mining: Mining Pool Schemes ---------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image208.png" 
-	alt=""
+	alt="Real World Mining: Mining Pool Schemes"
 	style="width:5in;height:2.8368in" />
 </p>
-
-<img src="/images/image208.png" style="width:5in;height:2.8268in" />
 
 There are various schemes for payout that mining pool use.
 
@@ -5650,11 +5648,11 @@ This is more advantageous for the pool, as they’ll never pay out more money th
 Because of the difficulty of buy-in, proportional schemes aren’t seen often, if ever, in the mining world.
 
 <!------------------------------------------------------------------------------------------------>
-<!--------  ---------->
+<!-------- Pool Rewards: Other Reward Schemes ---------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image209.png" 
-	alt=""
+	alt="Pool Rewards: Other Reward Schemes"
 	style="width:5in;height:2.8368in" />
 </p>
 
@@ -5667,11 +5665,11 @@ It all depends on the size and assumptions of the mining pool.
 ### Mining Pool Pros and Cons
 
 <!------------------------------------------------------------------------------------------------>
-<!--------  ---------->
+<!-------- Real World Mining: Mining Pools: Pros and Cons ---------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image210.png" 
-	alt=""
+	alt="Real World Mining: Mining Pools: Pros and Cons"
 	style="width:5in;height:2.8368in" />
 </p>
 
