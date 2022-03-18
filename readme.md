@@ -7984,9 +7984,10 @@ In addition to network topology, network latency also poses as an issue. Nodes t
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- Bitcoin Network: Sybil Attack Revisited --------------------------->
 <!------------------------------------------------------------------------------------------------>
-<h3 align="center">
+<p align="center">
 <img src="/images/image304.png "Bitcoin Network: Sybil Attack Revisited" style="width:5in;height:2.8in" />
 &nbsp;
+</p>
 
 This module will be the culmination of the last 5 modules.
 
@@ -8038,10 +8039,11 @@ As we did with Bitcoin, we’ll first look at the high level features that we wa
 <!----done & done ----->
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!---------------------------- What makes Bitcoin so special? --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image304.jpg" style="width:5in;height:2.81677in" />
+<img src="/images/image304.jpg" alt="What makes Bitcoin so special?" style="width:5in;height:2.81677in" />
+</p>
 
 First, we have to consider what makes Bitcoin so special.
 
@@ -8059,14 +8061,15 @@ So let’s take some time to review some of what makes Bitcoin so special.
 <!---------------------------- --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image306.png" style="width:5in;height:2.8768in" />
+<img src="/images/image305.png" alt="Bitcoin From the Ground Up: Identity" style="width:5in;height:2.8768in" />
+</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image307.png" style="width:5in;height:2.81677in" />
-
+<img src="/images/image306.png" alt="A Distributed Network: Bitcoin Bare Bones" style="width:5in;height:2.81677in" />
+</p>
 First off, when we built Bitcoin from the ground up, we first emphasized the importance of identity: especially in order to enable authentication and integrity.
 
 We want everyone to control a unique identity, and we also wanted Bitcoin to be pseudonymous.
