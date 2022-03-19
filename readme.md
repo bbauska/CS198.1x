@@ -8423,8 +8423,15 @@ Smart contracts react to the external world when they are poked by transactions,
 
 Smart contracts have direct control over an internal ether balance, internal contract state, and also permanent storage.
 
-<img src="/images/image324.png" style="width:5in;height:2.8125in" />
-
+<!------------------------------------------------------------------------------------------------>
+<!--------------------- Ethereum Virtual Machine: Compilation & Process -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image324.png" 
+   alt="Ethereum Virtual Machine: Compilation & Process"
+   width="50%" </>
+</p>
+   
 Ethereum smart contracts generally serve four main purposes.
 
 1.  They can be used to store and maintain data.
@@ -8447,21 +8454,64 @@ You can write contracts that call other contracts, perhaps using them as a softw
 
 For example, you can define m of n multisignature, which is also something we looked at when we studied Bitcoin.
 
-<img src="/images/image325.png" style="width:5in;height:2.8125in" />
+<p align="center" width="100%">
+<img src="/images/image325.png" 
+   alt=""
+   width="50%" </>
+</p>
 
-<img src="/images/image326.png" style="width:5in;height:2.8125in" />
+<p align="center" width="100%">
+<img src="/images/image326.png" 
+   alt=""
+   width="50%" </>
+</p>
 
-<img src="/images/image327.png" style="width:5in;height:2.8125in" />
+<!------------------------------------------------------------------------------------------------>
+<!---------------------  -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image327.png" 
+   alt=""
+   width="50%" </>
+</p>
 
-<img src="/images/image328.png" style="width:5in;height:2.8125in" />
+<!------------------------------------------------------------------------------------------------>
+<!---------------------  -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image328.png" 
+   alt=""
+   width="50%" </>
+</p>
 
 ### Intro: Ethereum Virtual Machine
 
-### <img src="/images/image329.png" style="width:5in;height:2.8125in" />
+<!------------------------------------------------------------------------------------------------>
+<!---------------------  -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image329.png" 
+   alt=""
+   width="50%" </>
+</p>
 
-### <img src="/images/image330.png" style="width:5in;height:2.8125in" />
+<!------------------------------------------------------------------------------------------------>
+<!---------------------  -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image330.png" 
+   alt=""
+   width="50%" </>
+</p>
 
-### <img src="/images/image331.png" style="width:5in;height:2.8125in" />
+<!------------------------------------------------------------------------------------------------>
+<!---------------------  -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image331.png" 
+   alt=""
+   width="50%" </>
+</p>
 
 We’ve seen how smart contracts can be expressed in code, but how are they executed on the Ethereum network?
 
@@ -8471,7 +8521,14 @@ In this section, we’ll be looking at the Ethereum Virtual Machine -- the heart
 
 ### Understanding Ethereum Virtual Machine
 
-<img src="/images/image332.png" style="width:5in;height:2.8125in" />
+<!------------------------------------------------------------------------------------------------>
+<!---------------------  -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image332.png" 
+   alt=""
+   width="50%" </>
+</p>
 
 Ethereum smart contracts are generally written in high level programming languages.
 
@@ -8483,7 +8540,14 @@ Smart contracts written in these high level programming languages have to be com
 
 We go from a higher level, human readable language, and compile that down into EVM code, which is lower level, simpler language -- much easier for a machine to understand and execute.
 
-<img src="/images/image333.png" style="width:5in;height:2.85621in" />
+<!------------------------------------------------------------------------------------------------>
+<!---------------------  -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image333.png" 
+   alt=""
+   width="50%" </>
+</p>
 
 After the code is compiled to EVM code, every node in the Ethereum network executes it.
 
@@ -8495,13 +8559,27 @@ Nodes then come to consensus on the new system state.
 
 This should be fairly familiar.
 
-<img src="/images/image334.png" style="width:5in;height:2.83226in" />
+<!------------------------------------------------------------------------------------------------>
+<!---------------------  -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image334.png" 
+   alt=""
+   width="50%" </>
+</p>
 
 In module 1, the high-level overview of Bitcoin, we discussed how every full node in Bitcoin stores their own ledger, making everyone the bank.
 
 In Bitcoin, nodes come to consensus on the state of who owns which UTXOs.
 
-<img src="/images/image335.png" style="width:5in;height:2.84505in" />
+<!------------------------------------------------------------------------------------------------>
+<!---------------------  -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image335.png" 
+   alt=""
+   width="50%" </>
+</p>
 
 And in Ethereum...
 
@@ -8509,7 +8587,14 @@ And in Ethereum...
 
 And how do nodes actually come to consensus?
 
-<img src="/images/image336.png" style="width:5in;height:2.8275in" />
+<!------------------------------------------------------------------------------------------------>
+<!---------------------  -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image336.png" 
+   alt=""
+   width="50%" </>
+</p>
 
 With Proof-of-Work!
 
@@ -8519,7 +8604,14 @@ The same distributed consensus protocol used in Bitcoin is also used in Ethereum
 
 Of course, there ARE differences between Ethereum’s and Bitcoin’s Proof-of-Work implementations, but the general concepts that we have learned in the past modules definitely still apply.
 
-<img src="/images/image337.png" style="width:5in;height:2.8534in" />
+<!------------------------------------------------------------------------------------------------>
+<!---------------------  -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image337.png" 
+   alt=""
+   width="50%" </>
+</p>
 
 Remember that Proof-of-Work requires miners to expend computational power to increase their chances of being able to propose blocks to the network.
 
@@ -8527,7 +8619,14 @@ There’s no real smart way to go about solving the hash puzzle, so miners have 
 
 And by tying voting power to computational power, a physical real-world resource, we can prevent naive Sybil attacks.
 
-<img src="/images/image338.png" style="width:5in;height:2.84416in" />
+<!------------------------------------------------------------------------------------------------>
+<!---------------------  -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image338.png" 
+   alt=""
+   width="50%" </>
+</p>
 
 Here are some differences between Bitcoin and Ethereum’s Proof-of-Work algorithms.
 
@@ -8549,7 +8648,14 @@ As of May 23rd, 2018, Ethereum has roughly 275,000 GH/s whereas Bitcoin has a wh
 
 ### Ethereum Virtual Machine: Overview
 
-<img src="/images/image339.png" style="width:5in;height:2.83679in" />
+<!------------------------------------------------------------------------------------------------>
+<!---------------------  -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image339.png" 
+   alt=""
+   width="50%" </>
+</p>
 
 Miners in Ethereum competitively create blocks by executing EVM code and searching for a solution to a mining puzzle.
 
@@ -8557,7 +8663,14 @@ And just like before, Proof-of-Work is a competition, and only one miner is able
 
 Proof-of-Work is essentially a way to randomly select -- based on proportion of hash power -- one node’s execution result as the correct one to add to the blockchain.
 
-<img src="/images/image340.png" style="width:5in;height:2.83679in" />
+<!------------------------------------------------------------------------------------------------>
+<!---------------------  -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image340.png" 
+   alt=""
+   width="50%" </>
+</p>
 
 Every Ethereum node runs the Ethereum Virtual Machine as part of its block verification procedure.
 
@@ -8594,12 +8707,15 @@ And by the halting problem, a well-known problem in computability theory, we kno
 And all of this leads to a very easy way for attackers to launch denial of service attacks:
 
 by trapping computers around the world in an infinite loop, thereby making them unable to execute other more meaningful contracts.
-<!------------------------------------------------------------------------------------------------>
-<!------------------------------  ---------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
 
-<img src="/images/image342.png" style="width:5in;height:2.8125in" />
+<!------------------------------------------------------------------------------------------------>
+<!---------------------  -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image342.png" 
+   alt=""
+   width="50%" </>
+</p>
 
 Luckily, the developers of Ethereum thought of this and implemented a solution: in the form of what’s known as gas.
 
@@ -8608,11 +8724,11 @@ Gas is what fuels the execution of a given contract.
 Every EVM op-code requires gas in order to execute -- thereby preventing the aforementioned infinite loop denial of service attack.
 
 Every transaction specifies two parameters, “***startgas***”, or the maximum quantity of gas the transaction is willing to consume, and the “***gasprice***”, or the fee in ether the contract is willing to pay per unit gas.
+
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------  ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-
 <img src="/images/image343.png" style="width:5in;height:2.8125in" />
 
 At the start of a transaction, “startgas \* gasprice”, which represents the amount of ether paid for a computation, is subtracted from the sender’s account.
@@ -8628,6 +8744,7 @@ However, the amount in ether that was consumed is not refunded.
 The idea here is that although the contract execution gets reverted, someone on the network had to put in the computational power to execute the EVM code, and once the gas is spent up, it’s proof that someone executed the program, so it isn’t refunded.
 
 This gives us two end states: either a program terminates or runs out of gas.
+
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------  ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -8643,6 +8760,7 @@ In a way, you can think of purchasing gas as the price you have to pay to use th
 This thereby disincentivizes users from running expensive computations without having sufficient funds.
 
 Since each computation requires gas, an attacker looking to DoS the network would need an absurdly large amount of ether, and since the attack is so costly, that pretty much disincentivizes this sort of attack.
+
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------  ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
