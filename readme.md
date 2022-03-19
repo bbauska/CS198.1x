@@ -8214,7 +8214,7 @@ We’ll keep Bitcoin’s architecture in mind.
 <!---------------------------- --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image312.png" style="width:5in;height:2.81677in" />
+<img src="/images/image311.jpg" style="width:5in;height:2.81677in" />
 
 Now that we have these design considerations, we can take a look at smart contracts, and how they fall into this whole space.
 
@@ -8232,7 +8232,7 @@ And through consensus, we should be able to agree on both the contents of the co
 <!---------------------------- --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image313.png" style="width:5in;height:2.81677in" />
+<img src="/images/image312.jpg" style="width:5in;height:2.81677in" />
 
 Alright, so now that we know what a contract is, now the question is...what makes a smart contract so “smart?”
 
@@ -8294,7 +8294,7 @@ As more and more people begin to use Ethereum to build applications, Ethereum ne
 <!---------------------------- --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image316.jpg" style="width:5in;height:2.8125in" />
+<img src="/images/image316.ppg" style="width:5in;height:2.8125in" />
 
 On their website, it says Ethereum is a decentralized platform designed to run smart contracts.
 
@@ -8336,7 +8336,7 @@ And one of the most notable features is that it supports a turing complete scrip
 <!---------------------------- --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image319.png" style="width:5in;height:2.81677in" />
+<img src="/images/image318.jpg" style="width:5in;height:2.81677in" />
 
 Ethereum and Bitcoin are the two most popular blockchain platforms in the world today, but have two different goals.
 
