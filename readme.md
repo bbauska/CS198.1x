@@ -262,8 +262,9 @@ And this all sets the stage for the next section, in which we’ll build Bitcoin
 <p align="center">
 <img src="/images/what is bitcoin-bitcoin genesis.png" 
 	alt="What is bitcoin, bitcoin genesis" 
-	style="width:5in;height:2.8in" />
-&nbsp;
+	width="50%" </>
+</p>
+
 
 Most people struggle to answer the question, “What is Bitcoin?,” because there are so many different ways to respond.
 
@@ -411,8 +412,8 @@ Let's take a look at how Bitcoin can fulfill a bank's functions.
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/Currency-Bitcoin components.png" 
-	alt="Currency: Bitcoin Components" 
-	style="width:5in;height:2.8in" />
+   alt="Currency: Bitcoin Components" 
+   width="50%" </>
 &nbsp;
 
 In Bitcoin, identity and account management are completely autonomous.
@@ -466,8 +467,8 @@ But how do we do this in Bitcoin, without a bank or central entity to keep track
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image003-identity-in-bitcoin.png" 
-	alt="Identity: Identity in Bitcoin" 
-	style="width:5in;height:2.8in" />
+   alt="Identity: Identity in Bitcoin" 
+   width="50%" </>
 &nbsp;
 
 ### Identity (Stage 1)
@@ -541,9 +542,9 @@ Similarly, you would never want anyone else to have your Bitcoin private key as 
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image004.png" 
-	alt="Identity: Public and Private Keys" 
-	style="width:5in;height:2.8in" />
-&nbsp;
+   alt="Identity: Public and Private Keys" 
+   width="50%" </>
+sp;
 
 In Bitcoin, you can think of your public and private key as a chest and key, respectively.
 
@@ -572,8 +573,8 @@ To generate an identity, a user picks a private key at random generates the publ
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image004-identity-few.png" 
-	alt="Identity: A few things to note" 
-	style="width:5in;height:2.82959in" />
+   alt="Identity: A few things to note" 
+   width="50%" </>
 
 You may be concerned about the danger of two users ending up with the same public key without a central registry ensuring that no two people have the same public key.
 
@@ -7996,11 +7997,9 @@ In addition to network topology, network latency also poses as an issue. Nodes t
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- Bitcoin Network: Sybil Attack Revisited --------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image304.png 
-   alt="Bitcoin Network: Sybil Attack Revisited" 
-   style="width:50%" />
-&nbsp;
+<p align="center" width="100%">
+<img width="50%" src="/images/image-lecture-overview-mod-6.png" 
+   alt="Culmination of the last 5 modules" 
 </p>
 
 This module will be the culmination of the last 5 modules.
@@ -8168,7 +8167,7 @@ Voting power is limited by compute power -- a physical limitation -- rather than
 <!---------------------------- --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image311.png" style="width:5in;height:2.81677in" />
+<img src="/images/image311.jpg" style="width:5in;height:2.81677in" />
 
 And by carefully designing Bitcoin like that, we have all these nice benefits:
 
