@@ -2488,7 +2488,6 @@ Parity marketed itself as the fastest and most secure way of interacting with th
 <img width="50%" src="/images/image076-parity-oops.png" alt=" "</>
 </p>
 &nbsp;
-<img src="/images/image81.png" style="width:5in;height:2.86699in" />
 
 A user by the name of devops199 accidentally locked up 300 million US dollars worth of ether that had been owned by users of Parity multisig wallet.
 
@@ -4192,8 +4191,14 @@ This redeeming script is only revealed and used when the redeemer wants to spend
 
 The redeeming script is then hashed, to check against the redeeming script hash, and evaluated.
 
-<p align="center">
-<img src="/images/image161.png" style="width:5in;height:2.81677in" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------  ---------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="50%" 
+   src="/images/image162.png" 
+   alt="Recipe for Mining: Step 4"</>
+</p>
 
 Lastly, if you look at the bottom of the diagram, the locking script contains the hash against which the hash of the redeem script will later be compared with.
 
@@ -4495,7 +4500,7 @@ And all these are connected to the internet.
 <!------------------------------ Bitcoin Wallets: Cold Storage ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image143.png" alt="Bitcoin Wallets: Cold Storage" style="width:5in;height:2.8in" />
+<img width="50%" src="/images/image143.png" alt="Bitcoin Wallets: Cold Storage"</>
 </p>
 
 On the flip side, cold storage never touches the internet.
@@ -4556,7 +4561,8 @@ In general, so long as your words are not closely related, it’s still expensiv
 <!----------------------------- Bitcoin Wallets: Key Stretching ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image144" alt="Bitcoin Wallets: Key Stretching" style="width:5in;height:2.8in" />
+<img width="50%" src="/images/image144.png" 
+	alt="Bitcoin Wallets: Key Stretching" 
 </p>
 
 However, for the security minded, to further lessen the probability of someone being able to guess your brain wallet, you can employ what’s known as key stretching.
@@ -4577,8 +4583,11 @@ Hacking a brain wallet that has been key stretched is exponentially harder to br
 <!---------------------------- Bitcoin Wallets: Choosing a Wallet -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image145.png" alt="Bitcoin Wallets: Choosing a Wallet" style="width:5in;height:2.8in" />
+<img src="/images/image145.png" 
+   alt="Bitcoin Wallets: Choosing a Wallet" 
+   width="50%"
 </p>
+
 
 There’s a lot of wallets out there, definitely a lot more than what we’ve gone over, and that’s why users have to do their own research to find the wallet that’s best for them.
 
@@ -4632,7 +4641,9 @@ Some Bitcoin ATMs work a bit differently, and instead of having you scan your QR
 <!----------------------------- How Do I Get Bitcoin: Exchanges ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image146-how-do-i-get-bitcoin.png" alt="How Do I Get Bitcoin: Exchanges" style="width:5in;height:2.8in" />
+<img src="/images/image146-how-do-i-get-bitcoin.png" 
+   alt="Bitcoin Wallets: Choosing a Wallet" 
+   width="50%"
 </p>
 
 You can also get Bitcoin through an exchange, where you can trade between different types of traditional currency and cryptocurrencies.
@@ -7986,7 +7997,9 @@ In addition to network topology, network latency also poses as an issue. Nodes t
 <!---------------------------- Bitcoin Network: Sybil Attack Revisited --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image304.png "Bitcoin Network: Sybil Attack Revisited" style="width:5in;height:2.8in" />
+<img src="/images/image304.png 
+   alt="Bitcoin Network: Sybil Attack Revisited" 
+   style="width:50%" />
 &nbsp;
 </p>
 
