@@ -123,7 +123,6 @@ Consensus Updates: Forks
 Consensus Updates: BIPs
 Text: Lecture 4 Summary
 
-
 ## [**Chapter 5. Game Theory & Network Attacks: How to Destroy Bitcoin **](#ch5)
 >### 5.1. [**Pool Strategies**](#ch5-1)
 >### 5.1.1 [**Pool Hopping **](#ch5-2)
@@ -199,11 +198,13 @@ This module focuses on the properties behind the second largest blockchain platf
 <!------------------------------------------------------------------------------------------------>
 <!-------------------- Expectations: Expect from us, we expect from you -------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
+<p align="center" width="100%">
 <img src="/images/expectations.png" 
-	alt="Expectations: Expect from us, we expect from you" 
-	style="width:5in;height:2.95745in" />
+     alt="Expectations: Expect from us, we expect from you" 
+     width="70%" />
+</p>
 &nbsp;
+<!---   style="width:5in;height:2.95745in" />  -->
 
 Also, a good unofficial resource is the Blockchain at Berkeley Public Slack, where we discuss various topics related to blockchain. You can request access to our Slack workspace at the bottom of the [Blockchain at Berkeley website ](https://blockchain.berkeley.edu/)under "Join Blockchain at Berkeley on Slack."
 
