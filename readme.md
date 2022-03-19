@@ -204,6 +204,7 @@ This module focuses on the properties behind the second largest blockchain platf
      width="70%" />
 </p>
 &nbsp;
+
 <!---   style="width:5in;height:2.95745in" />  -->
 
 Also, a good unofficial resource is the Blockchain at Berkeley Public Slack, where we discuss various topics related to blockchain. You can request access to our Slack workspace at the bottom of the [Blockchain at Berkeley website ](https://blockchain.berkeley.edu/)under "Join Blockchain at Berkeley on Slack."
@@ -259,10 +260,10 @@ And this all sets the stage for the next section, in which we’ll build Bitcoin
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ What is Bitcoin?  Bitcoin Genesis ------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
+<p align="center" width="100%">
 <img src="/images/what is bitcoin-bitcoin genesis.png" 
 	alt="What is bitcoin, bitcoin genesis" 
-	width="50%" </>
+	width="50%" />
 </p>
 
 
@@ -368,7 +369,7 @@ And even the creation of money is decided not by a central authority, but throug
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/currency-in banks we distrust.png" 
-	alt="Currency: In Banks We Distrust"</>
+	alt="Currency: In Banks We Distrust" />
 </p>
 
 ### Bitcoin vs. Banks
@@ -410,11 +411,11 @@ Let's take a look at how Bitcoin can fulfill a bank's functions.
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ Currency: Bitcoin Components ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
+<p align="center" width="100%">
 <img src="/images/Currency-Bitcoin components.png" 
    alt="Currency: Bitcoin Components" 
-   width="50%" </>
-&nbsp;
+   width="70%" />
+</p>
 
 In Bitcoin, identity and account management are completely autonomous.
 
@@ -543,8 +544,8 @@ Similarly, you would never want anyone else to have your Bitcoin private key as 
 <p align="center">
 <img src="/images/image004.png" 
    alt="Identity: Public and Private Keys" 
-   width="50%" </>
-sp;
+   width="50%" />
+</p>
 
 In Bitcoin, you can think of your public and private key as a chest and key, respectively.
 
@@ -591,14 +592,14 @@ To illustrate the probability of two users choosing the same identity as someone
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image005.png" 
-	alt="Identity: Public & Private Keys" 
-	style="width:5in;height:2.81998in" />
+   alt="Identity: Public & Private Keys" 
+   width="50%" </>
 
-Bitcoin has 2\^160^th^ different possible addresses.
+Bitcoin has 2\^160<sup>th</sup> different possible addresses.
 
 To get a sense of how many different addresses exist for users to choose out of, let us compare the number of addresses in Bitcoin to the number of grains of sand on Earth.
 
-The Earth has 2\^63^rd^ grains of sand.
+The Earth has 2\^63<sup>rd</sup> grains of sand.
 
 Imagine every person in the world choosing a grain of sand at random.
 
@@ -606,7 +607,7 @@ The likelihood of two people picking the same grain of sand is less than 0.0001%
 
 In comparison, the number of addresses in Bitcoin is many, many magnitudes greater than the number of grains on sand on Earth, making the probability even smaller.
 
-Let’s consider something more drastic: imagine that for every grain of sand on Earth, there exists another Earth, also with 2\^63^rd^ grains of sand.
+Let’s consider something more drastic: imagine that for every grain of sand on Earth, there exists another Earth, also with 2\^63<sup>rd</sup> grains of sand.
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------- Identity: Public Key Security ---------------------------------->
@@ -616,7 +617,7 @@ Let’s consider something more drastic: imagine that for every grain of sand on
 	alt="Identity: Public Key Security" 
 	style="width:5in;height:2.81998in" />
 
-Now we have 2\^63^rd^ times 2\^63^rd^ grains of sand per earth, meaning that there are a total of 2\^126^th^ grains of sand.
+Now we have 2\^63<sup>rd</sup> times 2\^63<sup>rd</sup> grains of sand per earth, meaning that there are a total of 2\^126<sup>th</sup> grains of sand.
 
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- Identity: Security Hidden in Plain Sight ---------------------------->
@@ -6804,7 +6805,7 @@ Imagine this scenario: in the year 2099, I’m an old lady, and I want to buy th
 
 I’m offering a whopping 100 bitcoins, but I doesn’t actually want to give up my money.
 
-So how can I double spend on Rustie?
+How can I double spend on Rustie?
 
 Well, it all depends on how early Rustie’s willing to give me the iPhone.
 
@@ -6842,7 +6843,7 @@ The second transaction making its way into the blockchain prevents poor Rustie f
 
 Defense: Confirmations
 
-So how might Rustie protect himself from this?
+How might Rustie protect himself from this?
 
 Well, we know that Rustie only gets to keep his bitcoins if a transaction to him makes its way into the longest chain.
 
@@ -6870,6 +6871,10 @@ This is a reasonably simple concept, but we can see some interesting things that
 
 The question you’re probably asking: how many confirmations does Rustie need before he feels confident about the finality of his transaction?
 
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------- --------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
 <img src="/images/image252.png" style="width:5in;height:2.8125in" />
 
 Well, let’s go back to the example with me and Rustie.
@@ -6918,6 +6923,10 @@ One confirmation….
 
 Two confirmations.
 
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------- --------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
 <img src="/images/image254.png" style="width:5in;height:2.8318in" />
 
 Rustie notices the two confirmations and feels confident about the transaction’s finality.
@@ -8197,9 +8206,9 @@ Instead, the execution of transactions depends on a network of miners located ar
 
 All these properties seem pretty nice, and it would be awesome if we could include them in our smart contract platform.
 
-So, we’ll keep Bitcoin’s architecture in mind.
+We’ll keep Bitcoin’s architecture in mind.
 
-### Smart Contracts Overview
+<h3>Smart Contracts Overview</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- --------------------------------->
@@ -8215,7 +8224,7 @@ A contract is a written or spoken agreement that is intended to be enforced by l
 
 Notice specifically that a contract must be agreed upon, and that it is enforceable by law.
 
-So just by these words alone, it sounds like we need some sort of consensus going on in our smart contract system.
+just by these words alone, it sounds like we need some sort of consensus going on in our smart contract system.
 
 And through consensus, we should be able to agree on both the contents of the contract, and also the execution of the contract.
 
@@ -8237,7 +8246,7 @@ Like a traditional contract, it carries a set of conditions that must be fulfill
 
 The difference is that the execution and enforcement is done through carefully designed algorithms, not through law.
 
-### Intro: Ethereum
+<h3>Intro: Ethereum</h3>
 
 Looking first at what makes Bitcoin special, and the underlying architecture that makes it the way it is, we saw how we could keep bitcoins design philosophy in mind as we sought ways to design a smart contract platform.
 
@@ -8245,7 +8254,7 @@ Looking first at what makes Bitcoin special, and the underlying architecture tha
 <!---------------------------- --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image314.png" style="width:5in;height:3.19444in" />
+<img src="/images/image-ethereum.png" style="width:5in;height:3.19444in" />
 
 In the next sections, we’ll take a look at Ethereum.
 
@@ -8263,13 +8272,13 @@ As it turns out, leveraging our understanding of Bitcoin’s inner workings make
 <!---------------------------- --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image315.png" style="width:4.00833in;height:2.27244in" />
+<img src="/images/image313.png" style="width:4.00833in;height:2.27244in" />
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image316.png" style="width:5in;height:2.81677in" />
+<img src="/images/image314.jpg" style="width:5in;height:2.81677in" />
 
 Just like Bitcoin, Ethereum is a platform that’s constantly changing.
 
@@ -8285,7 +8294,7 @@ As more and more people begin to use Ethereum to build applications, Ethereum ne
 <!---------------------------- --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image317.png" style="width:5in;height:2.8125in" />
+<img src="/images/image316.jpg" style="width:5in;height:2.8125in" />
 
 On their website, it says Ethereum is a decentralized platform designed to run smart contracts.
 
@@ -8309,7 +8318,7 @@ Ethereum’s native asset is ether, which is the basis of value in the Ethereum 
 <!---------------------------- --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image318.png" style="width:5in;height:2.81677in" />
+<img src="/images/image317.jpg" style="width:5in;height:2.81677in" />
 
 So as a recap from the previous section, what makes Bitcoin so special are the following properties: it’s trustless, immutable, uncensorable, pseudonymous, has no central point of failure, and aims for a one-cpu-one-vote policy.
 
@@ -9477,11 +9486,11 @@ Centralized solutions have the advantage of handling messy situations with grace
 
 If you do integrate centralization with a blockchain solution, you lose out on most of the benefits of decentralization.
 
-### Supplement: Use Cases
+<h3>Supplement: Use Cases</h3>
 
 Authors: Rea Savla and David Luo
 
-### I. Basic Use Cases
+<h3>I. Basic Use Cases</h3>
 
 The first use case is a smart asset, or token, built on a currently existing blockchain. All that needs to be done is to ensure that a user who wants to spend money has the funds, has been authenticated, and is not double spending.
 
@@ -9496,7 +9505,7 @@ Another meaningful use case for smart contracts is multisignature wallets. On Et
 
 We can also create Proof-of-Existence use cases using smart contracts, which hash intellectual property onto a blockchain to prove the existence of some piece of information at some point in time. With Proof-of-Existence, we leverage both the public auditability and immutability of the blockchain. We can use Proof-of-Existence to record document ownership or implement a decentralized DNS system.
 
-### II. Advanced Use Cases
+<h3>II. Advanced Use Cases</h3>
 
 Many developing nations struggle with broken land titles systems; flawed paperwork, forged signatures, and unclear documents make tracing ownership of land difficult. The pitfalls which keep a central organization from solving this problem are mistrust between citizens and these central parties.
 
