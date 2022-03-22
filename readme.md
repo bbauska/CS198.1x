@@ -5901,10 +5901,12 @@ ASICs on the other hand, are also centralized, but in the sense that ASICs can c
 This means that only people with the enough capital can acquire them, centralizing the mining process.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!------------------- Decentralized Mining: Puzzle Requirements Review --------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image215.png" style="width:5in;height:2.85436in" />
+<p align="center" width="100%">
+<img width="50%" src="/images/image215.png" 
+	alt="Decentralized Mining: Puzzle Requirements Review"</>
+</p>
 
 We’re going to attempt to address the problem of mining centralization by considering the design of the underlying hash puzzle, and see if there’s any way we can redesign it.
 
@@ -5933,12 +5935,11 @@ You don’t have to find the exact preimage of the hash, as long as you have the
 ### Ensuring Decentralization: ASIC Resistance
 
 <!------------------------------------------------------------------------------------------------>
-<!--------  ---------->
+<!--------------------------- Decentralized Mining: ASIC-Resistance ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image216.png" 
-	alt=""
-	style="width:5in;height:2.8368in" />
+<img width="50%" src="/images/image216.png" 
+	alt="Decentralized Mining: ASIC-Resistance" </>
 </p>
 
 ASICs work because it’s easy to create hardware to compute just a certain puzzle.
@@ -5960,10 +5961,12 @@ They still use a partial hash-preimage puzzle like in Bitcoin, just with a diffe
 This means that ASICs that are built for Bitcoin don’t work for Dogecoin or Litecoin.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!-------------------------------- Decentralized Mining: Scrypt ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image217.png" style="width:5in;height:2.67949in" />
+<img width="50%" src="/images/image217.png" 
+	alt="Decentralized Mining: Scrypt" </>
+</p>
 
 Scrypt was originally designed to secure passwords and make them hard to brute force, so a memory-bound type of problem makes sense.
 
@@ -5974,10 +5977,12 @@ To see why this is memory-bound, let’s take a look at what happens when you fi
 Looking something up is easy, since you just find the index of the datum you want.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!--------------------------- Decentralized Mining: Scrypt part II ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image218.png" style="width:5in;height:2.71597in" />
+<img width="50%" src="/images/image218.png" 
+	alt="Decentralized Mining: Scrypt - part II" </>
+</p>
 
 However, if the data is interdependent on other pieces of data, you have to look up those too.
 
@@ -6000,10 +6005,12 @@ Another idea to achieve ASIC resistance that people tried was to chain together 
 The idea was that it’s much harder to create an ASIC that can deal with so many hash functions, not just once.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!-------------------------- Decentralized Mining: ASIC Resistance ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-### <img src="/images/image219.png" style="width:5in;height:2.81572in" />
+<img width="50%" src="/images/image219.png" 
+	alt="Decentralized Mining: ASIC Resistance" </>
+</p>
 
 And that was the idea behind x11 and x13, which chain together 11 and 13 different hash functions together respectfully.
 
@@ -6031,7 +6038,7 @@ In cryptocurrencies, that can take the form of working to create ASICs for new h
 <!---------------------- --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="40%" src="/images/image220.png" alt=""</>
+<img width="40%" src="/images/image220.png" alt="Decentralized Mining: ASIC Resistance"</>
 </p>
 
 Mike Hearn, a Bitcoin Core developer said (quote) “There’s really no such thing as an ASIC-resistant algorithm.”
@@ -6042,7 +6049,7 @@ Mike Hearn, a Bitcoin Core developer said (quote) “There’s really no such th
 <!---------------------- --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="40%" src="/images/image221.png" alt=""</>
+<img width="40%" src="/images/image221.png" alt="Decentralized Mining: ASIC Resistance"</>
 </p>
 
 As it turns out, ASIC resistance might actually not be that great of an idea.
@@ -6077,7 +6084,7 @@ This idea of useless hardware and wasted hashpower leads us to our next slide.
 <!---------------------- --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image222.png" alt=""</>
+<img width="50%" src="/images/image222.png" alt="Proof-of-Useful-Work: Puzzling Concept"</>
 </p>
 
 Since so much computational power is being expended to solve cryptographic puzzles, which at their core are just pumping out random numbers, why not make those puzzles something that can be useful to the rest of the world?
@@ -6106,7 +6113,7 @@ In Bitcoin, since the puzzle is based on the previous block, the problem space i
 <!---------------------- --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image223.png" alt=""</>
+<img width="50%" src="/images/image223.png" alt="Proof-of-Useful-Work: Doesn't it Work?"</>
 </p>
 
 You can always generate more problems with more solutions.
@@ -6139,7 +6146,7 @@ In summary, proof of useful work sounds like a great idea, but it’s incredibly
 <!---------------------- --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image224.png" alt=""</>
+<img width="50%" src="/images/image224.png" alt="Consensus Updates: Bitcoin Core"</>
 </p>
 
 The idea behind a consensus update is that since Bitcoin is decentralized, no one person can say “this is the change we’re going to make in the protocol.”
@@ -6155,7 +6162,7 @@ This is the software that’s used in full nodes.
 <!--------  ---------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image225.png" alt=""</>
+<img width="50%" src="/images/image225.png" alt="Consensus Updates: Forks"</>
 </p>
 
 This brings us to the two ways that blockchains can be updated: hard forks and soft forks.
@@ -6194,7 +6201,8 @@ Before every fork, hard or soft, the entire community launches into debates abou
 <!---------------------- --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image226.png" alt=""</>
+<img width="50%" src="/images/image226.png" 
+   alt="Consensus Updates: Bitcion Improvement Proposal (BIP)"</>
 </p>
 
 In Bitcoin, changes to the protocol come in the form of BIPs, or Bitcoin Improvement Proposals.
@@ -6241,7 +6249,9 @@ We can make powerful generalizations using these 4 key characteristics, however 
 <!---------------------- --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image227.png" alt=""</>
+<img width="50%" 
+   src="/images/image227.png" 
+   alt="Wallet-Miner-Full Blockchain-Routing Node (WMBN)"</>
 </p>
 
 Image Source: [Mastering Bitcoin Opens in new window](https://github.com/bitcoinbook/bitcoinbook)
@@ -6288,7 +6298,8 @@ To get a better sense of how mining looks in real life, here is what a real-worl
 <!---------------------- --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="90%" src="/images/image228.png" alt=""</>
+<img width="90%" src="/images/image228.png" 
+   alt="Real World Mining"</>
 </p>
 
 Image Source: [The Register Opens in new window](https://www.theregister.co.uk/2014/08/12/chinese_bitcoin_farms_from_scifi_to_scuzzy/)
@@ -8064,7 +8075,10 @@ As we did with Bitcoin, we’ll first look at the high level features that we wa
 <!---------------------------- What makes Bitcoin so special? --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image304.jpg" alt="What makes Bitcoin so special?" style="width:5in;height:2.81677in" />
+<p align="center" width="100%">
+<img src="/images/image304.jpg" 
+	width="50%"
+	alt="What makes Bitcoin so special?" />
 </p>
 
 First, we have to consider what makes Bitcoin so special.
@@ -8082,16 +8096,21 @@ So let’s take some time to review some of what makes Bitcoin so special.
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- --------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image305.png" alt="Bitcoin From the Ground Up: Identity" style="width:5in;height:2.8768in" />
+<p align="center" width="100%">
+<img src="/images/image305.png" 
+	width="50%"
+	alt="Bitcoin From the Ground Up: Identity" />
 </p>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!-------------------------- A Distributed Network: Bitcoin Bare Bones --------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image306.png" alt="A Distributed Network: Bitcoin Bare Bones" style="width:5in;height:2.81677in" />
+<p align="center" width="100%">
+<img src="/images/image306.png" 
+	width="50%"
+	alt="A Distributed Network: Bitcoin Bare Bones" />
 </p>
+
 First off, when we built Bitcoin from the ground up, we first emphasized the importance of identity: especially in order to enable authentication and integrity.
 
 We want everyone to control a unique identity, and we also wanted Bitcoin to be pseudonymous.
@@ -8109,10 +8128,12 @@ Also remember that Bitcoin is secure since all the numbers we’re dealing with 
 Think back to the grains of sand on earth example in module 1.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!---------------------------- Bitcoin from the ground up: Transactions -------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image308.png" style="width:5in;height:2.83226in" />
+<p align="center" width="100%">
+<img src="/images/image307.png" 
+	width="50%" 
+	alt="Bitcoin from the ground up: Transactions" />
 
 Of course, the main idea of Bitcoin was to be able to send transactions between users, so naturally, we have a way to do this.
 
@@ -8130,7 +8151,7 @@ Still, implementing UTXOs was the innovation that enabled transactions in Bitcoi
 <!---------------------------- --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image309.png" style="width:5in;height:2.83505in" />
+<img src="/images/image308.png" style="width:5in;height:2.83505in" />
 
 Next, of course, we have the blockchain: the famous data structure that enables record keeping in the network.
 
