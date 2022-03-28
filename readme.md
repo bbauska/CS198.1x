@@ -645,7 +645,7 @@ As we did before with the concept of identity, we will now be analyzing the idea
 
 Take a moment to ask yourself, “What makes a transaction valid?”
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!------------------ Transactions: Validity: What Makes a Transacton Valid? ---------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image009-validity.png" 
@@ -674,7 +674,7 @@ To ensure that one uses funds not in their possession, all the same conditions a
 
 To enforce this, Bitcoin uses what’s known as a UTXO, or Unspent Transaction Output, model.
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------  --------------------------------->
+<!--------------------------------- Transactions: UTXO Model ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image010-utxo-model.png" 
@@ -682,7 +682,7 @@ To enforce this, Bitcoin uses what’s known as a UTXO, or Unspent Transaction O
 	style="width:5in;height:2.84871in" />
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!--------------------------------- Transactions: UTXO Model ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image010-utxo-2.png" 
@@ -709,7 +709,7 @@ An easy way to wrap our heads around this unintuitive model is to think of UTXOs
 
 Every time a transaction is made to us, we put all that money into a UTXO, or piggy bank.
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------  --------------------------------->
+<!---------------------------- Transactions: UTXO Model: Unspent --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image011-utxo-model-unspent.png" 
@@ -733,7 +733,7 @@ The amount of bitcoin you own is calculated by summing up the value of each of y
 Here’s an example of how transactions work in Bitcoin:
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- UTXO Example --------------------------------->
+<!--------------------------------------- UTXO Example ------------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image012-utxo-example.png" 
@@ -843,7 +843,7 @@ Everyone maintains their own ledger after all, and once a change is made for one
 How do we store our ledger efficiently?
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- Recordkeeping: The Blockchain --------------------------------->
+<!-------------------------------- Recordkeeping: The Blockchain --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image015-recordkeeping-the-blockchain.png" 
@@ -1113,7 +1113,7 @@ But how?
 Is it even possible to solve this problem?
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 24. Consensus: Pay to Play ------------------------------------>
+<!-------------------------------- 24. Consensus: Pay to Play (33) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image024-consensus-pay-to-play.png" 
@@ -1161,9 +1161,8 @@ It is the method by which computing power is translated into voting power.
 It is the method by which users vote in Bitcoin.
 
 It is this method of voting that made Bitcoin the first successful cryptocurrency and inspired voting mechanisms for practically every other cryptocurrency to follow.
-
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- 26. Consensus: Proof of Work: Works -------------------------------->
+<!--------------------------- 26. Consensus: Proof of Work: Works -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image026-consensus-proof-of-work-works.png" 
@@ -1996,11 +1995,12 @@ In other words, any type of code that I run on a regular computer can also be ru
 Code execution on Ethereum is fueled by Ethereum’s internal token, called ether.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image051-2013-2016-ethereum-blows-up.png -------------------------------------->
+<!------------------------- image051-2013-2016-ethereum-blows-up.png (63) ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image051-2013-2016-ethereum-blows-up.png" 
-	alt="2013-2016: Ethereum Timeline: Ethereum Blows Up in Multiple Ways"</>
+<img width="50%" 
+   src="/images/image051-2013-2016-ethereum-blows-up.png" 
+   alt="2013-2016: Ethereum Timeline: Ethereum Blows Up in Multiple Ways"</>
 </p>
 &nbsp;
 
@@ -2344,7 +2344,7 @@ The flag on this slide is the Gadsen flag, which has strong Libertarian roots.
 It’s used as a libertarian symbol because the porcupine is the “quiet”, unassuming warrior of the forest, which doesn’t attack so long as you leave it alone.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image070-controversial-topics.png -------------------------------------->
+<!--------------------------- image070-controversial-topics.png (75) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image070-controversial-topics.png" 
@@ -2372,14 +2372,14 @@ So where is the space now?
 
 That’s what we’re going to explore in this next section on the state of the industry.
 
-### ICO’s:
+<h3>ICO’s:</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image071-icos-the-hype.png -------------------------------------->
+<!----------------------------------- image071-icos-the-hype.png --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image071-icos-the-hype.png" 
-	alt="ICO's: The Hype"</>
+	alt="ICO's: The Hype (and greed)"</>
 </p>
 &nbsp;
 
@@ -2406,7 +2406,7 @@ ICOs are permissionless and enable ANYONE to invest in a project that they feel 
 We put emphasis on the word ANYONE because of the open and public nature of these cryptocurrencies.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image072-icos-doing-what-you-want.png -------------------------------------->
+<!------------------------ image072-icos-doing-what-you-want.png (77) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image072-icos-doing-what-you-want.png" 
@@ -2430,7 +2430,9 @@ Normal people now can invest in any blockchain project they want to.
 <!----------------------------------- image073-explosion-of-altcoins.png  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image073-explosion-of-altcoins.png" alt=" "</>
+<img width="50%" 
+   src="/images/image073-explosion-of-altcoins.png" 
+   alt="An explosion of altcoins: 6,000 and counting"</>
 </p>
 &nbsp;
 
@@ -2445,10 +2447,12 @@ In Q3’17, ICOs have raised \$1.3B with 150 ICOs while seed/angel investing acr
 ### Industry Projects
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!----------------------------------- CryptoKitties: The Hype (78) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image074-cryptokitties.png" alt=" "</>
+<img width="50%" 
+   src="/images/image074-cryptokitties.png" 
+   alt="CryptoKitties: The Hype"</>
 </p>
 &nbsp;
 
@@ -2469,10 +2473,12 @@ It’s clear that cryptocurrencies and blockchain are hugely popular now.
 Whether or not its mainstream spotlight and growing popularity is a good thing is another question.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image075-parity-security.png -------------------------------------->
+<!----------------------------- image075-parity-security.png (79) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image075-parity-security.png" alt=" "</>
+<img width="50%" 
+   src="/images/image075-parity-security.png" 
+   alt="Parity Security"</>
 </p>
 &nbsp;
 
@@ -2483,10 +2489,12 @@ Parity wallet is a popular multisignature wallet, which requires multiple people
 Parity marketed itself as the fastest and most secure way of interacting with the Ethereum blockchain, but in November 2017, this happened…
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image076-parity-oops.png -------------------------------------->
+<!----------------------------------- image076-parity-oops.png (79) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image076-parity-oops.png" alt=" "</>
+<img width="50%" 
+   src="/images/image076-parity-oops.png" 
+   alt="300 milion dollar screwup"</>
 </p>
 &nbsp;
 
@@ -4902,7 +4910,9 @@ By generating keys in a known way instead of randomly, we greatly lessen the loa
 <!------------------------  ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image155.png" alt="" style="width:5in;height:2.8in" />
+<img src="/images/image155.png" 
+   alt="" 
+   style="width:5in;height:2.8in" />
 </p>
 
 Of course, exchanges can use HD wallets to greatly reduce their load, but HD wallets are also useful elsewhere.
@@ -4931,13 +4941,14 @@ In this module, we’ll be diving into the nitty gritty of how mining manifests 
 
 We will go through what a miner actually does to validate blocks.
 
-### Recipe for Mining: Overview
-
+<h3>Recipe for Mining: Overview</h3>
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- Recipe for Mining: Overview ----------------------------------->
+<!-------------------------------- Recipe for Mining: Overview (162) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image157.png" alt="Recipe for Mining: Overview" style="width:5in;height:2.8in" />
+<img src="/images/image157.png" 
+   alt="Recipe for Mining: Overview" 
+   style="width:5in;height:2.8in" />
 </p>
 
 Let’s first take a look at the generic steps for mining as a full node.
@@ -5121,7 +5132,7 @@ Author: Rea Savla
     -   Note: This step is optional if you mine in a mining pool or are doing lightweight mining. 
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ Step 0: Download Entire Blockchain ----------------------------->
+<!------------------------------- Step 0: Download Entire Blockchain ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image165-step0-download-blockchain.png" alt="Step 0: Download Entire Blockchain" style="width:5in;height:2.8in" />
@@ -5140,7 +5151,7 @@ Author: Rea Savla
     -   If that script runs successfully, then the transaction is included within our block.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ Step 1: Verify Transactions ----------------------------->
+<!---------------------------------- Step 1: Verify Transactions --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image165-step1-verify-transactions.png" alt="Step 1: Verify Transactions" style="width:5in;height:2.8in" />
@@ -5235,7 +5246,7 @@ It’s such a simple word, yet this concept of profit will come up again and aga
 In fact, any type of incentive mechanisms within blockchain protocols focus on aligning personal profit with overall profit.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------- Mining Incentives: What is Profit?  ---------->
+<!---------------------------- Mining Incentives: What is Profit?  ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image195.png" 
@@ -5256,7 +5267,7 @@ Every single person in the Bitcoin network is presumably maximizing the value of
 ### Mining Incentives: Block Reward
 
 <!------------------------------------------------------------------------------------------------>
-<!-------- Mining Incentives: How to Profit From Mining  ---------->
+<!------------------------- Mining Incentives: How to Profit From Mining  ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image196.png" 
@@ -5269,7 +5280,7 @@ Let’s go ahead and break down the various components of profit within Bitcoin.
 First, we’ll start by discussing the block reward, the most significant source of profit currently for miners.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------- Mining Incentives: Block Reward  ---------->
+<!--------------------------------- Mining Incentives: Block Reward  ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image197.png" 
@@ -5316,7 +5327,7 @@ In addition, some private keys have been lost, and some bitcoins have been burne
 ### Mining Incentives: Transaction Fees
 
 <!------------------------------------------------------------------------------------------------>
-<!-------- Mining Incentives: Transaction Fees  ---------->
+<!------------------------------ Mining Incentives: Transaction Fees  ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image198.png" 
@@ -5347,7 +5358,7 @@ As block rewards approach zero, transaction fees will become the primary source 
 ### Mining Costs: Fixed Costs
 
 <!------------------------------------------------------------------------------------------------>
-<!-------- Mining Incentives: How to Profit From Mining  ---------->
+<!---------------------------- Mining Incentives: How to Profit From Mining  --------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image199.png" 
@@ -5370,7 +5381,7 @@ This logarithmically scaled graph here shows a quick overview of the growth of m
 ### Types of Hardware
 
 <!------------------------------------------------------------------------------------------------>
-<!-------- Mining Incentives: Fixed Cost: CPU Mining ---------->
+<!---------------------------- Mining Incentives: Fixed Cost: CPU Mining ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image200.png" 
