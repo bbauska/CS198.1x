@@ -3741,7 +3741,7 @@ Bitcoin script, or just Script, is a language that was designed to be used for B
 
 Before we dive into specifics about how Bitcoin scripts work, it’s important to first review how transactions work.
 
-### Remember the UTXO Model?
+<h3>Remember the UTXO Model?</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- Bitcoin Scripts: Remember the UTXO Model? --------------------------->
@@ -3955,10 +3955,12 @@ In our Pay to Pub Key Hash example, the locking script requires that the users t
 For this reason, this script is called scriptPubKey.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------  ---------------------------------->
+<!------------------------------ Bitcoin Script: P2PKH Example (131) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image153.png" alt=" "</>
+<img width="50%" 
+   src="/images/image131-p2pkh-example.png" 
+   alt="Bitcoin Script: P2PKH Example"</>
 </p>
 &nbsp;
 
@@ -3968,13 +3970,14 @@ We put the unlocking script on top of the locking script, scriptSig on top of sc
 
 And the entire resulting script must execute successfully in order for the transaction to be considered valid.
 
-### Demo: P2PKH Example
-
+<h3>Demo: P2PKH Example</h3>
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------  ---------------------------------->
+<!---------------------------- Bitcoin Script: P2PKH Example #2 (131) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image154.png" alt=" "</>
+<img width="50%" 
+   src="/images/image131-p2pkh-example-2.png" 
+   alt=" "</>
 </p>
 &nbsp;
 
@@ -3997,10 +4000,12 @@ OP_DUP will duplicate the top item on the stack OP_HASH160 hashes the previous i
 Next, \<pubKeyHash?\> -- with the question mark in the angle brackets -- is the actual public key hash specified by the previous transaction output.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------  ---------------------------------->
+<!--------------------- Bitcoin Script: P2PKH Example Execution (132) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image155.png" alt=" "</>
+<img width="65%" 
+   src="/images/image132-p2pkh.png" 
+   alt="Bitcoin Script: P2PKH Example Execution"</>
 </p>
 &nbsp;
 
@@ -4018,13 +4023,14 @@ If it’s valid, then it returns true.
 
 And then finally, since the final return value is true, we know that the transaction was valid, and so the transaction will go through.
 
-### Proof of Burn
-
+<h3>Proof of Burn</h3>
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------  ---------------------------------->
+<!------------------------------------ Prrof of Burn (133) --------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image156.png" alt=" "</>
+<img width="50%" 
+   src="/images/image133-proof-of-burn.png" 
+   alt="Extra: Bitcoin Scripts: Proof of Burn"</>
 </p>
 &nbsp;
 
@@ -4073,10 +4079,12 @@ In other words, the customer is the sender, and the vendor is the recipient.
 ### P2PKH vs P2SH
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------  ---------------------------------->
+<!---------------------- P2PKH vs P2SH Who Specifies the Script? (134) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image157.png" alt=" "</>
+<img width="50%" 
+   src="/images/image134-p2pkh-p2sh.png" 
+   alt="P2PKH vs P2SH Who Specifies the Script?"</>
 </p>
 &nbsp;
 
@@ -4102,13 +4110,15 @@ This makes sense because we don’t really want vendors to require customers to 
 
 It’s much more customer friendly if the recipient of the transaction, the vendor, specifies the script.
 
-### How P2SH Works
+<h3>How P2SH Works</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------  ---------------------------------->
+<!------------------------ How P2SH works (Pay to Pub Key Hash) (135)----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image158.png" alt=" "</>
+<img width="50%" 
+   src="/images/image135-how-p2sh-works.png" 
+   alt="How P2SH works (Pay to Pub Key Hash)"</>
 </p>
 &nbsp;
 
@@ -4130,13 +4140,14 @@ Alice can then send a transaction paying to Bob’s script hash.
 
 In order for Bob to redeem the bitcoin that Alice just sent him, he must provide a signature and the full script that he had written.
 
-### Why use P2SH?
-
+<h3>Why use P2SH?</h3>
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------  ---------------------------------->
+<!------------------------------  Why Pay-to-Script-Hash? (136) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image159.png" alt=" "</>
+<img width="50%" 
+   src="/images/image136-why-use-p2sh.png" 
+   alt=" "</>
 </p>
 &nbsp;
 
