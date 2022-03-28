@@ -159,8 +159,7 @@ Text: Lecture 4 Summary
 ## <a id="ch1"></a>Chapter 1. Course/Bitcoin Protocol & Consensus: A High Level Overview/Intro
 ---------------------------------------------------------------------------------->
 
-## Course Syllabus
-
+<h2>Course Syllabus</h2>
 This course is a comprehensive and in-depth overview of the fundamental concepts of the crypto space, with a particular emphasis on Bitcoin. By building intuition first from the context of cryptocurrencies, the first application of blockchain, we understand the key strengths and distinguishing factors of blockchain versus traditional database systems. We then leverage these core features of blockchain to solve new problems.
 
 The course is divided into 6 modules: Bitcoin High-Level Overview, Blockchain History, Bitcoin Mechanics Technical Overview, Bitcoin in Real Life, Game Theory & Network Attacks, and Ethereum & Smart Contracts. 
@@ -189,7 +188,7 @@ We look into how to destroy Bitcoin, including various network attacks. Specific
 
 This module focuses on the properties behind the second largest blockchain platform, Ethereum. We introduce the Ethereum Virtual Machine and the idea of Turing completeness and examine some of the key protocol differences between Bitcoin and Ethereum, such as the UTXO vs. accounts model and functionality. We then look into some of the use cases of Ethereum, and conclude with an overview of smart contracts and building decentralized applications. While the last modules primarily focus on cryptocurrencies, this module encourages students to think about blockchain use cases outside of cryptocurrency.
 
-### Resources
+<h3>Resources</h3>
 
 -   [Bitcoin and Cryptocurrency Technologies ](https://d28rh4a8wq0iu5.cloudfront.net/bitcointech/readings/princeton_bitcoin_book.pdf)by Arvind Narayanan, Joseph Bonneau, Edward Felten, Andrew Miller, and Steven Goldfeder
 
@@ -4151,13 +4150,13 @@ It also makes sense that the customer shouldn't need to know anything about how 
 
 Pay to Script Hash was an update to Bitcoin back in 2012, and since then has been one of the most important improvements to Bitcoin since Bitcoin’s inception.
 
-### Multisignature
+<h3>Multisignature</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------  ---------------------------------->
+<!--------------------------- P2PKH vs. P2SH: Multisig Example (137/335) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image160.png" alt=" "</>
+<img width="50%" src="/images/image137-multisignature.png" alt="P2PKH vs. P2SH: Multisig Example" "</>
 </p>
 &nbsp;
 
@@ -4194,12 +4193,12 @@ This redeeming script is only revealed and used when the redeemer wants to spend
 The redeeming script is then hashed, to check against the redeeming script hash, and evaluated.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------  ---------------------------------->
+<!--------------------------- P2PKH vs. P2SH: Multisig Example (138/335) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" 
-   src="/images/image162.png" 
-   alt="Recipe for Mining: Step 4"</>
+   src="/images/image138-multisignature.png" 
+   alt="Recipe for Mining: Step 4: Broadcast"</>
 </p>
 
 Lastly, if you look at the bottom of the diagram, the locking script contains the hash against which the hash of the redeem script will later be compared with.
@@ -4208,13 +4207,14 @@ For a multisig transaction to be valid, the full redeem script is hashed and the
 
 If they match, the UTXO is unlocked.
 
-### Timelocks
-
+<h3>Timelocks</h3>
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------  ---------------------------------->
+<!---------------------------- Transaction locktime: timelocks (139) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image162.png" alt=" "</>
+<img width="50%" 
+   src="/images/image162.png" 
+   alt="Transaction locktime: timelocks"</>
 </p>
 <p align="center">
 
@@ -4260,19 +4260,21 @@ A transaction that seems ready to spend given that a specific amount of time has
 
 Also, blocks are not created at guaranteed intervals either, so any attempts to cancel out of a timelocked transaction should be made a few hours before the timelock, specified in blockheight, expires.
 
-# Lecture 3 Summary
+<h2>Lecture 3 Summary</h2>
 
-### I. Cryptographic Hash Functions 
+<h3>I. Cryptographic Hash Functions</h3>
 
 In this lecture, we dove into the low-level specifics of Bitcoin that make it work. Bitcoin was innovative because it allowed a decentralized network to reach consensus. It achieved this via tamper-evidence, which means although one can modify the information that passes along the Bitcoin network, it would be obvious that some modification has been made. This tamper evident system allows us to be sure any update on Bitcoin is the same for everyone.
 
 We achieve a tamper evident system using cryptographic hash functions to produce standardized random “fingerprints” of our data. If the data changes, so will the fingerprints. Cryptographic hash functions do the following:
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------- Cryptographic hash functions ----------------------------------->
+<!---------------------------- Cryptographic hash functions (141) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="80%" src="/images/image163.jpg" alt="Cryptographic hash functions"</>
+<img width="80%" 
+   src="/images/image163.jpg" 
+   alt="Cryptographic hash functions"</>
 </p>
 
 Cryptographic hash functions are pseudorandom: although the output for any given input seems random, the output will remain consistent for that input.
@@ -4289,7 +4291,7 @@ These properties produce the Avalanche effect, where even any small change in th
 
 The particular hash function Bitcoin uses is SHA256, which takes in an input of size less than 2\^64 bits and produces a 256 bit fix sized output.
 
-### II. A Tamper Evident Database
+<h3>II. A Tamper Evident Database</h3>
 
 This cryptographic hash function is used to make an entire tamper evident database in Bitcoin. The Block Header of a block on Bitcoin, is a hash of many contents within the block, most notably its Merkle Root, Previous Block Hash, and Nonce fields. The Merkle Root represents a summary of transactions, the Previous Block Hash represents the chaining, and the Nonce represents the Proof-of-Work.
 
@@ -4333,7 +4335,7 @@ A transaction has three main sections:
 
 Bitcoin uses the stack-based, Turing-incomplete language named Script to create transactions. Locking and Unlocking Scripts are contained in transaction input and previous transaction output and are used to redeem the output of a previous transaction and specify requirements for redeeming transactions, respectively. Senders specify a Locking Script, and recipients specify an Unlocking Script. In Pay-to-Pub-Key-Hash (P2PKH), the recipient says “send your coins to the hash of this Public Key.” In Pay-to-Script-Hash (P2SH), the recipient says “Send your coins to the hash of this Script; I will provide the script and the data to make the script evaluate to true when I redeem the coins.” The latter is popular among customer-vendor transactions, where the vendor (recipient) is responsible for writing the script.
 
-### Readings
+<h3>Readings</h3>
 
 -   [Where is Double hashing performed in Bitcoin? ](https://bitcoin.stackexchange.com/questions/8443/where-is-double-hashing-performed-in-bitcoin)
 
@@ -4347,7 +4349,7 @@ Princeton Textbook 5.1-5.4 (pg. 131 - 157)
 
 -   (Optional) [Secure Hash Standard (SHS)](https://csrc.nist.gov/csrc/images/publications/fips/180/4/archive/2012-03-06/documents/fips180-4.pdf) (Insane math: a blessing or curse depending on your preference)
 
-### HW2: When Hashes Collide
+<h3>HW2: When Hashes Collide</h3>
 
 Bitcoin operates under certain assumptions, such as an honest majority of computational power. The assumption we discussed in this last lecture was that cryptographic hashes are unique, given the properties of preimage, second preimage, and collision resistance.
 
@@ -4355,7 +4357,7 @@ Let’s say that you manage to break computer science as we know it and devise a
 
 Feel free to discuss amongst each other in the discussion board topic below. We'll be grading the responses you paste into the text input.
 
-### Module 4 - Bitcoin In Real Life: Wallets, Mining, and More 
+<h3>Module 4 - Bitcoin In Real Life: Wallets, Mining, and More</h3>
 
 We’ve looked at Bitcoin mechanics from both a high and low level, explaining the primary motivations of why we do what we do in Bitcoin, and its implementation.
 
@@ -4377,13 +4379,14 @@ Finally, we’ll explore the various ways through which users can change Bitcoin
 
 While we may primarily only think of miners or casual traders using exchanges or their own wallet software, there are actually a plethora of different types of Bitcoin users, each categorized by the different software that they run, and how they interface with the Bitcoin network.
 
-### Key Components
-
+<h3>Key Components</h3>
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ Types of Users: Key Components  --------------------------------->
+<!------------------------------ Types of Users: Key Components (144) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image164.png" alt="Types of Users: Key Components"</>
+<img width="50%" 
+   src="/images/image164.png" 
+   alt="Types of Users: Key Components"</>
 </p>
 
 In our previous discussions about Bitcoin mechanics, we explained everything from the perspective of a full node and miner: a user with networking capability to interface with the Bitcoin network, actively maintains a full up-to-date copy of the Bitcoin blockchain, has a wallet as a means to manage public and private keys, and mines to support the network and also to earn a mining reward.
@@ -4412,7 +4415,7 @@ And finally, as we’ll soon see, not every client needs to be connected to the 
 
 In actuality, the distinction between different types of users isn’t just through these four main functionalities -- mining, routing, having a full blockchain, and key management through wallets -- but it does summarize a lot about the Bitcoin user experience.
 
-Intro: Wallets
+<h3>Intro: Wallets</h3>
 
 The first type of user we’ll be talking about is the most common Bitcoin user.
 
@@ -4422,13 +4425,14 @@ Just a wallet to help manage keys, and this type of user can send and receive bi
 
 As we’ll soon find out, wallets come in many different shapes and sizes – hosted on the web, on your computer, digital, or physical.
 
-### Purpose of a Wallet
-
+<h3>Purpose of a Wallet</h3>
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- Purpose of a Wallet: Key Management ------------------------------->
+<!------------------------- Purpose of a Wallet: Key Management (146) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image165.png" alt="Purpose of a Wallet: Key Management"</>
+<img width="50%" 
+   src="/images/image165.png" 
+   alt="Purpose of a Wallet: Key Management"</>
 </p>
 
 As we’ve previously mentioned, Bitcoin is all about granting real-world entities virtual identities.
@@ -4443,13 +4447,14 @@ But how do we actually protect these private keys?
 
 How do we make sure that we’re not subject to identity theft?
 
-### Types of Wallets
-
+<h3>Types of Wallets</h3>
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- Bitcoin Wallets: What do Wallets Do? ------------------------------>
+<!---------------------------- Bitcoin Wallets: What do Wallets Do? (146) ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image166.png" alt="Bitcoin Wallets: Wallet Types: What Do Wallets Do?"</>
+<img width="50%" 
+   src="/images/image166.png" 
+   alt="Bitcoin Wallets: Wallet Types: What Do Wallets Do?"</>
 </p>
 
 This is where wallets come in.
@@ -4466,13 +4471,14 @@ It would be infeasible to manually keep track of all blockchain activity involvi
 
 To take care of this, wallet software will store all relevant information about the blockchain on your behalf.
 
-### Types of Wallets: Hot and Cold
-
+<h3>Types of Wallets: Hot and Cold</h3>
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ Types of Wallets: Hot and Cold  --------------------------------->
+<!------------------------------ Types of Wallets: Hot and Cold (147) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image167.png" alt="Types of Wallets: Hot and Cold"</>
+<img width="50%" 
+   src="/images/image167.png" 
+   alt="Types of Wallets: Hot and Cold"</>
 </p>
 
 Wallets come in many forms.
@@ -4481,13 +4487,14 @@ We generally make the distinction between two main categories of wallets -- hot 
 
 Hot wallets are connected to the internet, and cold storage is not.
 
-### Types of Wallets: Hot Wallets
-
+<h3>Types of Wallets: Hot Wallets</h3>
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------- Bitcoin Wallets: Hot Wallets ----------------------------------->
+<!------------------------------- Bitcoin Wallets: Hot Wallets (148) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image168.png" alt="Bitcoin Wallets: Hot Wallets"</>
+<img width="50%" 
+   src="/images/image168.png" 
+   alt="Bitcoin Wallets: Hot Wallets"</>
 </p>
 
 Some examples of hot wallets are smartphone apps such as Mycelium and AirBitz (I personally use AirBitz).
@@ -4496,13 +4503,14 @@ There are also online web wallets such as those hosted on Blockchain.info and co
 
 And all these are connected to the internet.
 
-### Types of Wallets: Cold Wallets
-
+<h3>Types of Wallets: Cold Wallets</h3>
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ Bitcoin Wallets: Cold Storage ----------------------------------->
+<!------------------------------ Bitcoin Wallets: Cold Storage (148) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image143.png" alt="Bitcoin Wallets: Cold Storage"</>
+<img width="50%" 
+   src="/images/image143.png" 
+   alt="Bitcoin Wallets: Cold Storage"</>
 </p>
 
 On the flip side, cold storage never touches the internet.
@@ -4557,14 +4565,14 @@ Dictionary attacks are especially dangerous to those who take their brain wallet
 
 In general, so long as your words are not closely related, it’s still expensive and improbable that someone would be able to guess and successfully dictionary attack your brain wallet.
 
-### Key Stretching
-
+<h3>Key Stretching</h3>
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- Bitcoin Wallets: Key Stretching ---------------------------------->
+<!----------------------------- Bitcoin Wallets: Key Stretching (150) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image144.png" 
-	alt="Bitcoin Wallets: Key Stretching" 
+<img width="50%" 
+   src="/images/image144.png" 
+   alt="Bitcoin Wallets: Key Stretching" 
 </p>
 
 However, for the security minded, to further lessen the probability of someone being able to guess your brain wallet, you can employ what’s known as key stretching.
@@ -4579,8 +4587,7 @@ Not only will an attacker have to guess your initial set of words, but they woul
 
 Hacking a brain wallet that has been key stretched is exponentially harder to brute force than a brain wallet that is only hashed once.
 
-### Choosing a Wallet
-
+<h3>Choosing a Wallet</h3>
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- Bitcoin Wallets: Choosing a Wallet -------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -4589,7 +4596,6 @@ Hacking a brain wallet that has been key stretched is exponentially harder to br
    alt="Bitcoin Wallets: Choosing a Wallet" 
    width="50%"
 </p>
-
 
 There’s a lot of wallets out there, definitely a lot more than what we’ve gone over, and that’s why users have to do their own research to find the wallet that’s best for them.
 
@@ -4615,7 +4621,7 @@ At the end of the day, your choice of wallet is really up to you as an individua
 
 Whether you’re more partial to convenience features such as payment via smartphones and QR codes, or fancy multisignature wallets, or go the extra mile to use a hardware wallet, print out a paper wallet, or memorize a brain wallet… it all boils down to your personal needs.
 
-### Bitcoin ATMs
+<h3>Bitcoin ATMs</h3>
 
 You might be thinking: Alright Rustie, we’ve been talking a lot about Bitcoin wallets and how to manage your private keys, but how do I get bitcoins in the first place?
 
@@ -4637,8 +4643,7 @@ Just like that!
 
 Some Bitcoin ATMs work a bit differently, and instead of having you scan your QR code, they simply print out a paper wallet for you after you’ve paid your equivalent amount through cash, debit, or credit card.
 
-### Exchanges
-
+<h3>Exchanges</h3>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- How Do I Get Bitcoin: Exchanges ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -4672,7 +4677,9 @@ A lot of people do this, and it’s unfortunate when they lose all their funds w
 <!---------------------- How Do I Get Bitcoin: Decentralized Exchanges --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image147.png" alt="How Do I Get Bitcoin: Decentralized Exchanges" style="width:5in;height:2.8in" />
+<img src="/images/image147.png" 
+   alt="How Do I Get Bitcoin: Decentralized Exchanges" 
+   width="50%"/>
 </p>
 
 So naturally, following the trend of decentralizing Everything for security reasons, we now have decentralized exchanges
@@ -4691,7 +4698,7 @@ Some examples of decentralized exchanges are Bitsquare, Bitshares, Openledger, N
 
 Decentralized exchanges might not necessarily be better than centralized exchanges, especially since large centralized exchanges are generally backed by powerful companies that can invest in high security, but of course, do your own due diligence.
 
-### Intro: Wallet Mechanics
+<h3>Intro: Wallet Mechanics</h3>
 
 We now know that wallets help manage your identity: your public and private keys.
 
@@ -4701,7 +4708,7 @@ But when it comes to wallet software, it’s a bit more complex.
 
 In this section, we’ll be going into some wallet mechanics and how they enable the functionality in your favorite Bitcoin wallet app.
 
-### Simple Payment Verification
+<h3>Simple Payment Verification</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------ Simple Payment Verification: Thin Clients ----------------------------->
