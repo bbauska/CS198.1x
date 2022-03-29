@@ -1374,7 +1374,7 @@ In addition, the Bitcoin network is secured through the Proof-of-Work consensus 
 
 These are the four essential unique properties of Bitcoin: 1. pseudonymous, 2. decentralized, 3. immutable, and 4. trustless.
 
-# Bitcoin Protocol & Consensus: A High Level Overview / Review, Readings, & More
+<h2>Bitcoin Protocol & Consensus: A High Level Overview / Review, Readings, & More</h2>
 
 <h3>Lecture/Module 1 Summary:</h3>
 
@@ -1716,7 +1716,7 @@ This was the very first time a Bitcoin transaction traded “magic worthless int
 
 However, it’s not like bitcoins were worth that much when Laszlo spent them on pizza.
 
-## Lecture/Module 2:
+<h2>Lecture/Module 2</h2>
 
 It took years of development and spread before Bitcoin became accepted as a legitimate technology, yet it’s still got a way to go before reaching worldwide legitimacy.
 
@@ -2184,7 +2184,7 @@ Let’s take a look specifically at Jamie Dimon, the CEO of JP Morgan Chase...
 In January 2014, he said about Bitcoin “It’s a terrible store of value. It could be replicated over and over.”, which doesn’t really mean anything, indicating that people really didn’t, and still don’t understand what Bitcoin is.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------ Quotes (2) from Jamie Dimon, the CEO of JP Morgan Chase --------------------->
+<!------------------ Quotes (2) from Jamie Dimon, the CEO of JP Morgan Chase (69) ---------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" 
@@ -2198,11 +2198,12 @@ In October 2014, he said “\[Bitcoin developers\] are going to try and eat our 
 The statement seems aggressive, but he actually gives legitimacy to Bitcoin by suggesting that it’s a competitor to traditional banks and finance.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------ Quotes (3) from Jamie Dimon, the CEO of JP Morgan Chase --------------------->
+<!------------------ Quotes (3) from Jamie Dimon, the CEO of JP Morgan Chase (70) ---------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image061-dimon-quotes-3.png" 
-	alt="Quotes (3) from Jamie Dimon, the CEO of JP Morgan Chase"</>
+<img src="/images/image061-dimon-quotes-3.png" 
+   alt="Quotes (3) from Jamie Dimon, the CEO of JP Morgan Chase"
+   width="50%" />
 </p>
 &nbsp;
 
@@ -2213,11 +2214,12 @@ Now, Bitcoin isn’t just competition, it’s a bona fide threat.
 It’s something that bankers can’t control, and they hate it.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------ Quotes (4) from Jamie Dimon, the CEO of JP Morgan Chase --------------------->
+<!------------------ Quotes (4) from Jamie Dimon, the CEO of JP Morgan Chase (70) ---------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image062-dimon-quotes-4.png" 
-	alt="Quotes (4) from Jamie Dimon, the CEO of JP Morgan Chase"</>
+<img src="/images/image062-dimon-quotes-4.png" 
+   alt="Quotes (4) from Jamie Dimon, the CEO of JP Morgan Chase"
+   width="50%" />
 </p>
 &nbsp;
 
@@ -2232,11 +2234,12 @@ These comments were actually made at an event hosted by the Institute of Interna
 Just to drive his point home, here are some more comments he made in September 2017.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------ Quotes (5) from Jamie Dimon, the CEO of JP Morgan Chase --------------------->
+<!------------------ Quotes (5) from Jamie Dimon, the CEO of JP Morgan Chase (71) ---------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image063-dimon-quotes-5.png" 
-	alt="Quotes (5) from Jamie Dimon, the CEO of JP Morgan Chase" </>
+<img src="/images/image063-dimon-quotes-5.png" 
+   alt="Quotes (5) from Jamie Dimon, the CEO of JP Morgan Chase"
+   width="50%" />
 </p>
 &nbsp;
 
@@ -2245,10 +2248,12 @@ Just to drive his point home, here are some more comments he made in September 2
 And in another quote he said “One of my daughters bought bitcoin and it went up, she thinks she is a genius.”
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------ Quotes (6) from Jamie Dimon, the CEO of JP Morgan Chase --------------------->
+<!------------------ Quotes (6) from Jamie Dimon, the CEO of JP Morgan Chase (71) ---------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image064-dimon-quotes-6.png" alt="Quotes (6) from Jamie Dimon, the CEO of JP Morgan Chase" </>
+<img src="/images/image064-dimon-quotes-6.png" 
+   alt="Quotes (6) from Jamie Dimon, the CEO of JP Morgan Chase"
+   width="50%" />
 </p>
 &nbsp;
 
@@ -3863,7 +3868,9 @@ We also get a reference to the index of the input in the previous transaction.
 <!------------------------------  ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image148.png" alt=" "</>
+<src="/images/image148.png" 
+   alt=" "
+   width="50%" />
 </p>
 &nbsp;
 
@@ -3875,7 +3882,9 @@ Last but not least, the end product of our transaction is the output(s).
 <!------------------------------  ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image149.png" alt=" "</>
+<src="/images/image149.png" 
+   alt=" "
+   width="50%" />
 </p>
 &nbsp;
 
@@ -5089,10 +5098,12 @@ We go through these loops until finally we find a valid nonce.
 <h3>Recipe for Mining: Step 4</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------- Recipe for Mining: Step 4: Broadcast -------------------------------->
+<!-------------------------- Recipe for Mining: Step 4: Broadcast (167) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image162-step4-broadcast.png" alt="Recipe for Mining: Step 4: Broadcast" style="width:5in;height:2.8in" />
+<img src="/images/image162-step4-broadcast.png" 
+   alt="Recipe for Mining: Step 4: Broadcast"
+   width="50%" />
 </p>
 
 After finding the nonce, the typical miner broadcasts it as soon as possible so that other miners are aware that a block was found.
@@ -5119,7 +5130,9 @@ That’s all Proof-of-Work really is at its base, a random lottery.
 <!---------------------------- Recipe for Mining: Step 5: Profit --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image163-step5-profit.png" alt="Recipe for Mining: Step 5: Profit" style="width:5in;height:2.8in" />
+<img src="/images/image163-step5-profit.png" 
+   alt="Recipe for Mining: Step 5: Profit" 
+   width="50%" />
 </p>
 
 Assuming that our block made its way into the longest chain, we profit!
@@ -5156,7 +5169,9 @@ Author: Rea Savla
 <!------------------------------- Step 0: Download Entire Blockchain ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image165-step0-download-blockchain.png" alt="Step 0: Download Entire Blockchain" style="width:5in;height:2.8in" />
+<img src="/images/image165-step0-download-blockchain.png" 
+   alt="Step 0: Download Entire Blockchain" 
+   width="50%" />
 </p>
 
 <h3>Step 1:</h3>
@@ -5175,7 +5190,9 @@ Author: Rea Savla
 <!---------------------------------- Step 1: Verify Transactions --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image165-step1-verify-transactions.png" alt="Step 1: Verify Transactions" style="width:5in;height:2.8in" />
+<img src="/images/image165-step1-verify-transactions.png" 
+   alt="Step 1: Verify Transactions" 
+   width="50%" />
 </p>
 
 <h3>Step 2:</h3>
@@ -5192,7 +5209,9 @@ Author: Rea Savla
 <!--------- Step 2: Create the block with the given transactions and necessary metadata ---------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image165-step2-create-block.png" alt="Step 2: Create the block with the given transactions and necessary metadata" style="width:5in;height:2.8in" />
+<img src="/images/image165-step2-create-block.png" 
+   alt="Step 2: Create the block with the given transactions and necessary metadata" 
+   width="50%" />
 </p>
 
 <h3>Step 3:</h3>
@@ -5464,12 +5483,12 @@ However, if Bitcoin thrives, then there is a desire to beat out other mining com
 However, FPGAs were only used briefly, because much more powerful hardware quickly came into the market around 2014.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------- Mining Incentives: Fixed Cost: ASIC Mining  ---------->
+<!--------------------- Mining Incentives: Fixed Cost: ASIC Mining (179) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image202.png" 
-	alt="Mining Incentives: Fixed Cost: ASIC Mining"
-	style="width:5in;height:2.8368in" />
+   alt="Mining Incentives: Fixed Cost: ASIC Mining"
+   width="50%" />
 </p>
 
 ASICs, or Application Specific Integrated Circuits, are mentioned throughout the Bitcoin ecosystem.
@@ -5495,12 +5514,12 @@ A fun stat: one of the most popular and powerful ASICs, the Antminer S9, can per
 <h3>Mining Costs: Operating Costs</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!-------- Mining Incentives: How to Profit from Mining ---------->
+<!------------------------ Mining Incentives: How to Profit from Mining (180)  ------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image203.png" 
-	alt="Mining Incentives: How to Profit from Mining"
-	style="width:5in;height:2.8368in" />
+   alt="Mining Incentives: How to Profit from Mining"
+   width="50%" />
 </p>
 
 Now that we’ve discussed fixed costs, or hardware costs, let’s finish up the equations with an understanding of the variable costs in mining.
@@ -5508,12 +5527,12 @@ Now that we’ve discussed fixed costs, or hardware costs, let’s finish up the
 As we know, there’s several different costs of energy consumed in the process of mining, all of which are considerations for the cost of Bitcoin on the environment.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------- Mining Incentives: Operating Costs ---------->
+<!---------------------------- Mining Incentives: Operating Costs (180) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image204.png" 
-	alt="Mining Incentives: Operating Costs"
-	style="width:5in;height:2.8368in" />
+   alt="Mining Incentives: Operating Costs"
+   width="50%" />
 </p>
 
 These energy costs come in multiple forms, but primarily the following three.
@@ -5527,12 +5546,12 @@ On top of that, there is infrastructure and overhead to maintain as well, such a
 Depending on the scale of your operation, you may need to go so far as to purchase entire warehouses and a few maintainers to ensure that nothing goes wrong with the hardware, or to take care of things when hardware goes down.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------- Mining Incentives: How to Profit ---------->
+<!--------------------------- Mining Incentives: How to Profit (181) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image205.png" 
-	alt="Mining Incentives: How to Profit from Mining"
-	style="width:5in;height:2.8368in" />
+   alt="Mining Incentives: How to Profit from Mining"
+   width="50%" />
 </p>
 
 Finally, you understand everything there is to know about how to profit from mining.
@@ -5556,12 +5575,12 @@ We’ll see that while the initial goal of Bitcoin was to be decentralized, hono
 <h3>ASICs</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!-------- Real World Mining: Chinese ASIC Mining Farm ---------->
+<!---------------------- Real World Mining: Chinese ASIC Mining Farm (182) ----------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image206.png" 
-	alt="Real World Mining: Chinese ASIC Mining Farm"
-	style="width:5in;height:2.8368in" />
+   alt="Real World Mining: Chinese ASIC Mining Farm"
+   width="50%" />
 </p>
 
 Here, we see a few pictures of what an ASIC mining farm in China.
@@ -7654,7 +7673,7 @@ So now that we’ve spent all this time defining all these terms and procedures,
 Here’s the general scenario.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ Publish or Perish: Selfish Miners ------------------------------->
+<!------------------------------ Publish or Perish: Selfish Miners (256) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image287.png 
@@ -7675,7 +7694,7 @@ The key takeway is that no matter which option the selfish miner chooses in the 
 <h3>Publish or Perish: Analysis</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- Publish or Perish: Analysis ----------------------------------->
+<!-------------------------------- Publish or Perish: Analysis (257) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image288.png 
@@ -7700,7 +7719,7 @@ So, S counts into the weight of both the honest and selfish chains.
 Fast forward to the point in time where we the have diagram below, both the honest and selfish chains have a weight of 3 despite the fact that there are only two honest blocks but three selfishly mined blocks
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------------- Publish or Perish: Option 2 ---------------------------------->
+<!--------------------------------- Publish or Perish: Option 2 (258) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image289.png 
@@ -7727,7 +7746,7 @@ This completely nullifies the advantage of having S in the first place.
 Here are a couple graphs on the expected revenue of selfish miners when publish or perish is in effect.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------------- Publish or Perish: Graphs ----------------------------------->
+<!---------------------------------- Publish or Perish: Graphs (259) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image290.png 
@@ -7744,7 +7763,7 @@ Optimal tie breaking is the theoretical optimal defense that always rejects self
 Notice that publish or perish even outperforms this theoretical optimal tie breaking defense.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- Publish or Perish: Limitations -------------------------------->
+<!-------------------------------- Publish or Perish: Limitations (260) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image291.png "Publish or Perish: Limitations" style="width:5in;height:2.8in" />
@@ -7813,7 +7832,7 @@ All my neighbors tell their neighbors, and their neighbors tell their neighbors,
 For example, if the network actually looked like this…
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- Bitcoin Network: A Closer Look -------------------------------->
+<!-------------------------------- Bitcoin Network: A Closer Look (262) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image292.png 
@@ -7838,7 +7857,7 @@ Bitcoin allows each node to have a maximum of 125 connections, and generally you
 To further understand how information propagates through the Bitcoin network, we have to understand the network topology and latency.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- Bitcoin Network: An Uneven Topology ------------------------------>
+<!----------------------------- Bitcoin Network: An Uneven Topology (263) ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image293.png 
@@ -9161,10 +9180,12 @@ In addition, execution of this logic is all public, giving guarantees that all f
 
 Gnosis and Augur are two well-known companies that have deployed prediction market smart contracts.
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------- Prediction Markets: Use Case 1 --------------------------------->
+<!------------------------------- Prediction Markets: Use Case 1 (311) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image347.png "Prediction Markets: Use Case 1" style="width:5in;height:2.85in" />
+<img src="/images/image347.png 
+   alt="Prediction Markets: Use Case 1" 
+   width="50%" />
 &nbsp;
 
 What can we do with these prediction markets?
@@ -9176,10 +9197,12 @@ We can use prediction markets to “buy information.”
 As users have an incentive to monetize information while revealing as little of it as possible, we can set up a prediction market which asks a simple question, such as…
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------- Prediction Markets: And Decentralizing Them ---------------------------->
+<!----------------------- Prediction Markets: And Decentralizing Them (312) ---------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image348.png "Prediction Markets: And Decentralizing Them" style="width:5in;height:2.85in" />
+<img src="/images/image348.png 
+   alt="Prediction Markets: And Decentralizing Them"
+   width="50%" />
 &nbsp;
 
 Will this movie be a flop?
@@ -9304,10 +9327,12 @@ This is one of the most revolutionary concepts in blockchain, giving users the a
 <h3>Advanced Use Cases: After Hours Trading</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------- After Hours Trading: 24/7 Access & Liquidity ---------------------------->
+<!---------------------- After Hours Trading: 24/7 Access & Liquidity (316) ---------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image353.png "After Hours Trading: 24/7 Access & Liquidity" style="width:5in;height:2.85in" />
+<img src="/images/image353.png 
+   alt="After Hours Trading: 24/7 Access & Liquidity"
+   width="50%" />
 &nbsp;
 
 The final use case we’re going to examine is after hours trading.
@@ -9349,10 +9374,12 @@ By coordinating between these untrusting parties on a globally accessible platfo
 <h3>Blockchain vs Internet</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- Blockchain vs The Internet ------------------------------------>
+<!-------------------------------- Blockchain vs The Internet (318) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image354.png "Blockchain vs The Internet" style="width:5in;height:2.85in" />
+<img src="/images/image354.png 
+   alt="Blockchain vs The Internet"
+   width="50%" />
 &nbsp;
 
 In almost every conversation about blockchain’s role in society or path going forward, you’ll hear a comparison to the Internet.
@@ -9420,10 +9447,12 @@ These points can be used to understand and discuss any use case you come across 
 These points describe the properties of a good blockchain use case, along with the scenarios in which a blockchain is not needed or inferior to a centralized solution.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------- Blockchain Generalizations: Viable but Blockchain Not Necessary ----------------->
+<!-------------- Blockchain Generalizations: Viable but Blockchain Not Necessary (320) ----------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image355.png" "Blockchain Generalizations: Viable but Blockchain Not Necessary" style="width:5in;height:2.85in" />
+<img src="/images/image355.png" 
+   alt="Blockchain Generalizations: Viable but Blockchain Not Necessary"
+   width="50%" />
 &nbsp;
 
 To start off, let’s talk about the scenarios where a blockchain will work, but is not necessary.
@@ -9448,7 +9477,9 @@ Each of these bullets can be achieved by using a subset of the technology that g
 <!----------------- Blockchain Generalizations: Solving Coordination Failures -------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image356.png" "Blockchain Generalizations: Solving Coordination Failures" style="width:5in;height:2.85in" />
+<img src="/images/image356.png" 
+   alt="Blockchain Generalizations: Solving Coordination Failures"
+   width="50%" />
 &nbsp;
 
 While blockchains will work, they’re over-engineered solutions to these problems.
@@ -9472,10 +9503,12 @@ The miners will force the actors to honor their commitments, as was the original
 Instead of bringing in lawyers to settle matters when things don’t according to plan, we’re now able to rely on a smart contract to execute as intended, giving us the ability to believe in this code as law.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------- Blockchain Generalizations: Horizontal Integration ------------------------>
+<!-------------------- Blockchain Generalizations: Horizontal Integration (322) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image357.png" "Blockchain Generalizations: Horizontal Integration" style="width:5in;height:2.85in" />
+<img src="/images/image357.png" 
+   alt="Blockchain Generalizations: Horizontal Integration"
+   width="50%" />
 &nbsp;
 
 Blockchains create a standardized platform for access and interaction.
@@ -9507,10 +9540,12 @@ Similar to how more Facebook users makes the platform more worthwhile for all us
 In this way, individuals are supporting the rest of the community while benefiting themselves as well.
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------- Blockchain Generalizations: Essential Properties ------------------------->
+<!--------------------- Blockchain Generalizations: Essential Properties (323) ------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image358.png" "Blockchain Generalizations: Essential Properties" style="width:5in;height:2.85in" />
+<img src="/images/image358.png" 
+   alt="Blockchain Generalizations: Essential Properties"
+   width="50%" />
 &nbsp;
 
 <img src="/images/image369.png" style="width:5in;height:2.83301in" />
@@ -9538,10 +9573,12 @@ Cryptocurrencies aren’t divided by lines or borders--they’re guaranteed to b
 Through blockchain, we can support globally recognized ownership, persisting across nations.
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------- Blockchain Generalizations: Advantages of Centralized Solutions ---------------->
+<!------------- Blockchain Generalizations: Advantages of Centralized Solutions (324) ------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image359.png" "Blockchain Generalizations: Advantages of Centralized Solutions" style="width:5in;height:2.85in" />
+<img src="/images/image359.png" 
+   alt="Blockchain Generalizations: Advantages of Centralized Solutions"
+   width="50%" />
 &nbsp;
 
 Now that we’ve finished talking about all the meaningful properties of decentralized solutions, it wouldn’t be complete if we didn’t go over the caveats.
@@ -9617,10 +9654,12 @@ The first use case is a smart asset, or token, built on a currently existing blo
 Another meaningful use case for smart contracts is multisignature wallets. On Ethereum, we can leverage the platform’s built-in authentication protocol to create a functionality that allows us to have an m of n signature scheme (refer to Lecture 3).
 
 <!------------------------------------------------------------------------------------------------>
-<!------------- Document Ownership: Blockchain Fundamentals: Proof-of-Existence ------------------>
+<!------------- Document Ownership: Blockchain Fundamentals: Proof-of-Existence (326) ------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/document-ownership.png" "Document Ownership: Blockchain Fundamentals: Proof-of-Existence" style="width:5in;height:2.85in" />
+<img src="/images/document-ownership.png" 
+   alt="Document Ownership: Blockchain Fundamentals: Proof-of-Existence"
+   width="50%" />
 &nbsp;
 
 We can also create Proof-of-Existence use cases using smart contracts, which hash intellectual property onto a blockchain to prove the existence of some piece of information at some point in time. With Proof-of-Existence, we leverage both the public auditability and immutability of the blockchain. We can use Proof-of-Existence to record document ownership or implement a decentralized DNS system.
@@ -9674,10 +9713,12 @@ In the end, it is important to always ask why a blockchain is better than a cent
 <h3>Blockchain Use Cases Takeaways</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ Blockchain Use Cases Takeaways ---------------------------------->
+<!------------------------------ Blockchain Use Cases Takeaways (330) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image360.png" "Blockchain Use Cases Takeaways" style="width:5in;height:2.85in" />
+<img src="/images/image360.png" 
+   alt="Blockchain Use Cases Takeaways"
+   width="50%" />
 &nbsp;
 
 The main takeaway is that there are advantages to both centralized and decentralized solutions.
@@ -9755,10 +9796,12 @@ He also founded ConsenSys, which is a company that made great strides in develop
 <h3>Ethereum Research</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- ConsenSys: Ethereum Infrastructure ------------------------------->
+<!----------------------------- ConsenSys: Ethereum Infrastructure (332) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image361.png" "" style="width:5in;height:2.85in" />
+<img src="/images/image361.png" 
+   alt="Consensys: Ethereum Infrastructure"
+   width="50%" />
 &nbsp;
 
 ConsenSys can be best described as a software foundry.
@@ -9775,7 +9818,9 @@ The Ethereum community also spawns a lot of original research.
 <!------------------------------ Reasearh: Paving the Road Ahead --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image362.png" "Research: Paving the Road Ahead" style="width:5in;height:2.85in" />
+<img src="/images/image362.png" 
+   alt="Research: Paving the Road Ahead"
+   width="50%" />
 &nbsp;
 
 Most notably is Casper, the Ethereum Proof-of-Stake implementation that we’ve mentioned a couple times in this module.
@@ -9808,7 +9853,9 @@ Here’s a review of the similarity and differences between Ethereum and Bitcoin
 <!--------- Table reviewing the similarities and differences between Ethereum and Bitcoin -------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image363.jpg" "Bitcoin Network: Flood the Network" style="width:6in;height:2.5in" />
+<img src="/images/image363.jpg" 
+   alt="Bitcoin Network: Flood the Network"
+   width="75%" />
 &nbsp;
 
 There are two kinds of Ethereum accounts: 
@@ -9835,7 +9882,9 @@ The Ethereum Virtual Machine enables the Ethereum blockchain to be programmable.
 <!---------------------------------- Nodes in the Ethereum Network ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image364.jpg" "Nodes in the Ethereum Network" style="width:5in;height:2.5in" />
+<img src="/images/image364.jpg" 
+   alt="Nodes in the Ethereum Network"
+   width="50%" />
 &nbsp;
 
 As in Bitcoin, the nodes come to consensus using Proof-of-Work, removing the need for a trusted third party. Miners in Ethereum competitively create blocks by executing EVM code and searching for a solution to a mining puzzle.
@@ -9848,7 +9897,9 @@ Ethereum is implemented as a distributed state machine, and transactions on the 
 <!---------------- block_state, gas, memory, transaction, msg, code, stack, pc ------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image365.jpg" "Bitcoin Network: Flood the Network" style="width:7in;height:2.4in" />
+<img src="/images/image365.jpg" 
+   alt="Bitcoin Network: Flood the Network"
+   width="100%" />
 &nbsp;
 
 <h3>Readings</h3>
