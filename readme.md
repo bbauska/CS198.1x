@@ -208,7 +208,7 @@ This module focuses on the properties behind the second largest blockchain platf
 
 Also, a good unofficial resource is the Blockchain at Berkeley Public Slack, where we discuss various topics related to blockchain. You can request access to our Slack workspace at the bottom of the [Blockchain at Berkeley website ](https://blockchain.berkeley.edu/)under "Join Blockchain at Berkeley on Slack."
 
-<h3>**Course Staff**</h3>
+<h3><i>Course Staff</i></h3>
 
 Rustie Lin, Mengyi (Gloria) Wang, Nadir Akhtar, Jennifer Hu, Janice Ng.
 
@@ -222,7 +222,7 @@ Blockchain Fundamentals is constantly being improved, in terms of new informatio
 
 Max Fang, Philip Hayes, Sunny Aggarwal, Aparna Krishnan, Gloria Zhao, Gillian Chu, Brian Ho.
 
-<h3>Module 1: Course/Bitcoin Protocol & Consensus: A High Level Overview/Intro
+<h3>Module 1: Course/Bitcoin Protocol & Consensus: A High Level Overview/Intro</h3>
 
 Welcome to the first module in Cryptocurrencies: Bitcoin and the Crypto Space, the first course in the Blockchain Fundamentals program.
 
