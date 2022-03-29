@@ -378,7 +378,9 @@ In order to understand how it does that, we first need to understand what purpos
 
 The first thing that banks do for us is manage accounts.
 
-Banks verify that we are the legitimate owner of the bank account and only we can spend the money or the funds. How does a bank do that? Banks will ask us to provide identification before any activity can take place.
+Banks verify that we are the legitimate owner of the bank account and only we can spend the money or the funds. How does a bank do that? 
+
+Banks will ask us to provide identification before any activity can take place.
 
 Every transaction we conduct can be traced back to our identity.
 
