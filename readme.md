@@ -242,7 +242,7 @@ Then, we’ll dive into four-part buildup of Bitcoin consensus and explain why B
 
 <h3>Bitcoin Protocol & Consensus: A High-Level Overview</h3>
 
-<h3>[What is Bitcoin?](<https://youtu.be/Gc2en3nHxA4>) 1 min, 37 sec</h3>
+[What is Bitcoin?](<https://youtu.be/Gc2en3nHxA4>) 1 min, 37 sec
 
 In this section, you will learn about the origins and motivations of Bitcoin, and the key distinctions between cryptocurrencies and normal currencies.
 
@@ -253,13 +253,14 @@ We’ll then draw a comparison between Bitcoin and Banks and analyze each of the
 And this all sets the stage for the next section, in which we’ll build Bitcoin from the ground up, incorporating each of these features and services and seeing how they fit together.
 
 <h3>What is Bitcoin?</h3>
+
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ What is Bitcoin?  Bitcoin Genesis ------------------------------->
+<!------------------------------ What is Bitcoin?  Bitcoin Genesis (4) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/what is bitcoin-bitcoin genesis.png" 
 	alt="What is bitcoin, bitcoin genesis" 
-	width="50%" />
+	width="75%" />
 </p>
 
 
@@ -346,7 +347,7 @@ Bitcoin as a technology is trying to solve a very specific problem in the realm 
 
 There are enormous possibilities for failures given the complete removal of centralization, which is why there were so so many Bitcoin’s predecessors to Bitcoin which failed.
 
-So how does bitcoin solve these problems?
+How does bitcoin solve these problems?
 
 Bitcoin solves these problems through two things:
 
@@ -364,11 +365,12 @@ And even the creation of money is decided not by a central authority, but throug
 <!-------------------------------- Currency: In Banks We Distrust -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/currency-in banks we distrust.png" 
-	alt="Currency: In Banks We Distrust" />
+<img width="75%" 
+   src="/images/currency-in banks we distrust.png" 
+   alt="Currency: In Banks We Distrust" />
 </p>
 
-### Bitcoin vs. Banks
+<h3>Bitcoin vs. Banks</h3>
 
 Bitcoin aims to get rid of the central entity, the bank.
 
@@ -441,7 +443,7 @@ We trust in the incentive alignment and publicly verifiable, tamper evident ledg
 
 All of these pieces together make Bitcoin the technological revolution that kicked off the Cryptocurrency Movement.
 
-### Intro: Bitcoin from the Ground Up
+<h3>Intro: Bitcoin from the Ground Up</h3>
 
 We saw in the section on Bitcoin versus Banks that we need to enable account and identity management, money transfer as a service, record management, and trust.
 
@@ -468,7 +470,7 @@ But how do we do this in Bitcoin, without a bank or central entity to keep track
    width="50%" </>
 &nbsp;
 
-### Identity (Stage 1)
+<h3>Identity (Stage 1)</h3>
 
 To understand why we need identity in Bitcoin in the first place, let’s understand first why we need identity at all in the context of currencies.
 
@@ -625,7 +627,7 @@ Now we have 2\^63<sup>rd</sup> times 2\^63<sup>rd</sup> grains of sand per earth
 
 Even the number of grains of sand upon all these Earths is only 0.0000000058% (8 zeroes) of all the possible Bitcoin addresses.
 
-### Intro: Transactions (Stage 2)
+<h3>Intro: Transactions (Stage 2)</h3>
 
 So now that we have a clear understanding of the structure and purpose of identity in Bitcoin, we can start asking the question, “How do we make transactions between one another in Bitcoin?”
 
@@ -723,7 +725,7 @@ On the other hand, the complexity of keeping track of one’s own funds goes up,
 
 The amount of bitcoin you own is calculated by summing up the value of each of your piggy banks, or UTXOs.
 
-### UTXO’s:
+<h3>UTXO’s:</h3>
 
 Here’s an example of how transactions work in Bitcoin:
 
@@ -757,7 +759,7 @@ From here, if I'm equally generous and want to give that remaining amount to Der
 
 This is how Bitcoin effectively keeps track of individual transactions and prevents anyone from spending incorrect amounts of bitcoin.
 
-### Intro: Record Keeping (Stage 3)
+<h3>Intro: Record Keeping (Stage 3)</h3>
 
 We have now understood how to assign unique identities to every user through public and private keys and conduct transactions between these entities through the use of the UTXO, or Unspent Transaction Output, model.
 
@@ -873,7 +875,7 @@ Of course, the next question is, “How does everyone come to agreement on the n
 
 We will go over this in the next segment on consensus.
 
-### Intro: Consensus (Stage 4)
+<h3>Intro: Consensus (Stage 4)</h3>
 
 Now we know how to send transactions to one another with unique identities using the UTXO model, and how to store these transactions using a blockchain to maintain a global record.
 
@@ -1210,7 +1212,7 @@ This is what made Bitcoin a revolutionary technology.
 
 Author: Rea Savla
 
-### Supplement: 51% Attacks
+<h3>Supplement: 51% Attacks</h3>
 
 The Bitcoin network requires Proof-of-Work to add new blocks to the blockchain. Users in the Bitcoin network vote on new blocks, and come to consensus on whether or not new blocks should be included in the blockchain. Proof-of-Work ties voting power to computational power rather than digital identity, and was designed to prevent the Sybil attack, where a malicious actor creates many identities to skew the vote. However, due to an uneven distribution of computational power, Satoshi Nakamoto’s “1 CPU 1 Vote” vision is not reflected perfectly in reality.
 
@@ -1224,7 +1226,7 @@ One entity holding majority mining power also makes the network susceptible to t
 
 We’ll explore all these attacks in further detail in future course modules.
 
-### Forking
+<h3>Forking</h3>
 
 Sometimes, different miners may create different blocks, either intentionally (e.g. double spending) or unintentionally, to add at the same point on the blockchain. This creates multiple chains: multiple different versions of the transaction history. We say that the blocks are competing at the same block height, and that there has been a fork. Following protocol, miners eventually resolve the fork and agree upon one of the chains to be the valid blockchain, and continue to build blocks upon it. 
 
@@ -1234,7 +1236,7 @@ Two categories of these protocol changes are soft and hard forks. Soft forks imp
 
 We’ll explain more in the course modules for Module 4.
 
-### Bitcoin Review:
+<h3>Bitcoin Review:</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------ 27. Key Takeaway - Identity: Your Keys are Your Identity -------------------->
@@ -1372,9 +1374,9 @@ These are the four essential unique properties of Bitcoin: 1. pseudonymous, 2. d
 
 # Bitcoin Protocol & Consensus: A High Level Overview / Review, Readings, & More
 
-### Lecture/Module 1 Summary:
+<h3>Lecture/Module 1 Summary:</h3>
 
-### I. What is Bitcoin?
+<h3>I. What is Bitcoin?</h3>
 
 Cryptocurrency is a completely digital, formless currency, tied together using computer science, cryptography and economics. Bitcoin is the first and most widely used cryptocurrency.
 
@@ -1410,7 +1412,7 @@ Instead of storing transactions individually, Bitcoin batches them into “block
 
 Users on the blockchain must come to a consensus on which updates and blocks to add to the blockchain. Doing so also prevents Double Spend Attacks. Bitcoin uses a form of peer validation to build a shared transaction history; everyone on the network casts votes on the validity of a transaction. To prevent a Sybil Attack, where users create multiple identities for malicious purposes, Bitcoin employs Proof of Work, where voting power is based on computational power, to make voting expensive.
 
-### Readings:
+<h3>Readings:</h3>
 
 [The shy college student who helped build Bitcoin into a global phenomenon ](https://www.theverge.com/2015/6/10/8751933/the-shy-college-student-who-helped-build-bitcoin-into-a-global)
 
@@ -1424,7 +1426,7 @@ Users on the blockchain must come to a consensus on which updates and blocks to 
 
 (Optional) [How Bitcoin Works in 5 Minutes (Technical) ](https://www.youtube.com/watch?v=l9jOJk30eQs&feature=youtu.be)
 
-### Module 2: Blockchain History
+<h3>Module 2: Blockchain History</h3>
 
 A question we sometimes get from students in our class here at UC Berkeley is: why use Bitcoin?
 
@@ -1444,7 +1446,7 @@ From there, we’ll explore the present-day state of the blockchain space, inclu
 
 This journey will take us from the Cypherpunks, who hated big banks and championed privacy and power for individuals, to adoption of blockchain technology by JPMorgan Chase, one of the largest banking institutions in the United States.
 
-### Intro: Pre-Bitcoin
+<h3>Intro: Pre-Bitcoin</h3>
 
 The roots of Bitcoin start with libertarianism.
 
@@ -1458,7 +1460,7 @@ Amongst increasing centralized state control, especially of services and of indi
 
 From online discussions on forums and mailing lists, two groups formed: the Cypherpunks and the Crypto-anarchists, both of which advocated for the use of cryptography to protect one’s privacy.
 
-### Libertarian Dreams
+<h3>Libertarian Dreams</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------- 32. Libertarian Dreams: Cypherpunks and Crypto-Anarchists -------------------->
@@ -1500,7 +1502,7 @@ But in an increasingly digital world, the convenience of big banks tracking acco
 
 And so, these libertarians saw early on the need for an anonymous digital “transaction system” or currency -- one that gave users “the power to selectively reveal oneself to the world.”
 
-### Bitcoin Precursors
+<h3>Bitcoin Precursors</h3>
 
 The Cypherpunks didn’t get together, design a cryptocurrency, and succeed on their first attempt.
 
@@ -1580,7 +1582,7 @@ Contracts and transactions are enforced through the broadcast and signing of tra
 
 These ideas from B-money would later influence the development and design philosophy of Bitcoin.
 
-### Bitcoin Invention
+<h3>Bitcoin Invention</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------ 37. Satoshi Nakamoto: Oct, 2008 Bitcoin Whitepaper -------------------------->
@@ -1716,7 +1718,7 @@ However, it’s not like bitcoins were worth that much when Laszlo spent them on
 
 It took years of development and spread before Bitcoin became accepted as a legitimate technology, yet it’s still got a way to go before reaching worldwide legitimacy.
 
-### Intro: Early Bitcoin
+<h3>Intro: Early Bitcoin</h3>
 
 As Bitcoin started to gain popularity, it quickly picked up a bad reputation due to its focus on privacy and decentralized nature.
 
@@ -1737,7 +1739,7 @@ alt="Bitcoin Theft: Mt Gox July, 2010 - Feb, 2014"</>
 </p>
 &nbsp;
 
-### Hacks and Scandals
+<h3>Hacks and Scandals</h3>
 
 In the early stages of Bitcoin, there existed no exchange for trading between bitcoins and regular currencies.
 
@@ -1799,7 +1801,7 @@ Ross Ulbricht was sentenced to life in jail, and the FBI seized upwards of 26,00
 </p>
 &nbsp;
 
-### Bitcoin Bubble and Altcoins
+<h3>Bitcoin Bubble and Altcoins</h3>
 
 Between November 1, 2013 and November 30, 2013 -- less than a month -- the price of Bitcoin rose from just under \$200 to over \$1000
 
@@ -1847,7 +1849,7 @@ These are just a few examples of how coins other than Bitcoin are trying to solv
 </p>
 &nbsp;
 
-### Bitcoin Headlines
+<h3>Bitcoin Headlines</h3>
 
 Following years of hacks and bad reputation, Bitcoin finally began to grow in general popularity.
 
@@ -1917,7 +1919,7 @@ Especially, Chinese investors had sold because of warnings issued by the Chinese
 
 And then of course the market amplified the current trend, so people further dumped because they feared a loss in value.
 
-### Intro: Scalability
+<h3>Intro: Scalability</h3>
 
 Historically, Bitcoin has faced a number of challenges as a technology, including scalability and of course public perception.
 
@@ -1925,7 +1927,7 @@ Even today, being the first successful and most widely used decentralized crypto
 
 In this section, we’re going to talk about the next stage of Bitcoin’s history, when disputes about the core Bitcoin technology sparked internal debates, and when a separate platform called Ethereum quickly came to the mainstream.
 
-### Bitcoin Struggles to Scale
+<h3>Bitcoin Struggles to Scale</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- image049-bitcoin-struggles-to-scale.png -------------------------------------->
@@ -1964,7 +1966,7 @@ Instead, users introduce proposals called BIPs, or ***Bitcoin Improvement Propos
 
 Members can't directly propose and vote on updates to Bitcoin within the actual software, but at least the current mechanism gets the job done.
 
-### Ethereum Timeline
+<h3>Ethereum Timeline</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- image050-2013-2016-ethereum-timeline.png -------------------------------------->
@@ -2033,7 +2035,7 @@ The split that rewinded (zurückgespult) history is the split that is currently 
 The remainder that believed that nothing - including catastrophic events like the DAO Hack – should be reverted stayed on the main chain, now known as Ethereum Classic.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image053-2016-to-present-ethereum-bubble.png -------------------------------------->
+<!--------------------- image053-2016-to-present-ethereum-bubble.png ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image053-2016-to-present-ethereum-bubble.png" 
@@ -2041,7 +2043,7 @@ The remainder that believed that nothing - including catastrophic events like th
 </p>
 &nbsp;
 
-### Ethereum Bubble
+<h3>Ethereum Bubble</h3>
 
 On June 21st 2017, the price of Ethereum on the exchange GDAX crashed briefly to 10 cents USD per ether due to a massive sell order.
 
@@ -2108,7 +2110,7 @@ Although the price of Bitcoin is many, many times higher than what it was a year
 
 An increase in the amount of international regulation especially in India...South Korea…US and the UK, combined with a “mob mentality” of people investing without truly believing in the technology led to quickly changing market caps, and eventually the hype train crashed.
 
-### Intro: Enterprise Blockchain
+<h3>Intro: Enterprise Blockchain</h3>
 
 While blockchain technology was initially developed to underlie cryptocurrencies, it quickly drew the attention of enterprises, which wanted to harness the same technology to create private or permissioned blockchains.
 
@@ -2120,7 +2122,7 @@ Now we’ll be switching gears to see how blockchain fits in with enterprises, p
 
 As a technology that was initially created to avoid large banks and powerful centralized institutions, blockchain seems to have come full circle...
 
-### Banks and Blockchain
+<h3>Banks and Blockchain</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- Banks and Blockchain -------------------------------------->
@@ -2250,7 +2252,7 @@ And in another quote he said “One of my daughters bought bitcoin and it went u
 
 In January 2018, he said “The blockchain is real. You can have crypto yen and dollars and stuff like that … the bitcoin to me was always what the governments are gonna feel about bitcoin as it gets really big, and I just have a different opinion than other people.”
 
-### Blockchain Community and Politics
+<h3>Blockchain Community and Politics</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- image065-crypto-anarchy.png -------------------------------------->
@@ -2358,7 +2360,7 @@ Some controversial topics in the blockchain space have been surrounding problems
 
 In this course, we explain these issues in an objective fashion, and let you form your own opinion on these debates.
 
-### Intro: State of the Industry
+<h3>Intro: State of the Industry</h3>
 
 We’ve told the story of Bitcoin and blockchain: from the cypherpunk movement all the way to JP Morgan Chase.
 
@@ -2440,7 +2442,7 @@ As a comparison:
 
 In Q3’17, ICOs have raised \$1.3B with 150 ICOs while seed/angel investing across all tech sectors has raised \$1.4B across 1,602 deals.
 
-### Industry Projects
+<h3>Industry Projects</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- CryptoKitties: The Hype (78) ------------------------------->
@@ -2534,9 +2536,9 @@ Since blockchain is still young, it’s important to do your own due diligence w
 
 Looking at the broader picture, that’s one of the goals of this course -- to get you to start thinking critically about blockchain fundamentals and the more technical aspects about the technology that can then help inform your own personal decisions.
 
-### Module/Lecture 2 Summary
+<h3>Module/Lecture 2 Summary</h3>
 
-### Pre-Bitcoin: Libertarian Dreams
+<h3>Pre-Bitcoin: Libertarian Dreams</h3>
 
 In the face of increasingly powerful banks and national agencies, the Cypherpunks and Crypto-anarchists of the late 1980s advocated the use of cryptography to preserve privacy, which they defined as the power to selectively reveal oneself. They sought to develop an anonymous digital transaction system. 
 
@@ -2552,7 +2554,7 @@ The first transaction using Bitcoin to purchase a tangible asset occurred in 201
 </p>
 &nbsp;
 
-### Early Bitcoin: Scandals, Hacks, and Illegal Activity
+<h3>Early Bitcoin: Scandals, Hacks, and Illegal Activity</h3>
 
 As Bitcoin began increasing in popularity, it also began facing increasing cases of thefts, hacks, and illegal activity. The first was a large hack on Magic: The Gathering Online Exchange (Mt. Gox), one of the first Bitcoin exchange website created in 2010. 
 
@@ -2562,7 +2564,7 @@ Altcoins, such as Litecoin, ZCash, Stellar, Ripple, Ethereum, Dogecoin, DASH, an
 
 In 2014, merchants, such as Overstock.com and PayPal (with Coinbase), started accepting Bitcoin. Bitcoin startups and wallet companies, including Coinbase, Bitpay, and Blockchain.info, started appearing around this time as well. Around this time, people started to differentiate between the term blockchain from Bitcoin. 
 
-### Scalability Debates and Ethereum
+<h3>Scalability Debates and Ethereum</h3>
 
 Bitcoin is far from perfect. One of the biggest technological challenges Bitcoin faces is that of scalability. Such issues raise concern of decentralized governance. Currently, Bitcoin users may propose Bitcoin Improvement Protocols on online forums and gather ad hoc community votes on proposed matters.
 
@@ -2570,13 +2572,13 @@ Another influential blockchain platform is Ethereum. While Bitcoin is a storage 
 
 While concerns of the SEC’s reaction to The DAO hack initially lowered Ethereum’s price, the growing popularity of Initial Coin Offerings and cryptocurrency exchange-traded-funds increased Ethereum’s price overall. Economic and political changes in early 2017 along with an expansion of the crypto user base to include millennials further contributed to growth in Ethereum value and transaction volume.
 
-### Enterprise Blockchain
+<h3>Enterprise Blockchain</h3>
 
 Meanwhile, banks started seeking ways to apply blockchain technology leading to an increased interest in “private blockchains.” Enterprise blockchain technologies today include R3’s Corda, Chain, JP Morgan’s Quorum and Juno, Digital Asset Holdings, and IBM’s hyperledger. Blockchain has come a long way -- from online ideation amongst Cypherpunks to adoption by JP Morgan Chase.
 
 The blockchain space has expanded to include not only major financial institutions, but also the general public. Initial Coin Offerings, equity-less fundraising schemes for new crypto startups that allow anyone to participate, and the advent of Cryptokitties, an online marketplace for virtual cats, indicate the spread of blockchain across communities and also to popular culture.
 
-### Readings
+<h3>Readings</h3>
 
 [A Cypherpunk’s Manifesto ](https://www.activism.net/cypherpunk/manifesto.html)by Eric Hughes 
 
@@ -2590,7 +2592,7 @@ Coindesk: [A Bot Named Willy: Did Mt. Gox's Automated Trading Pump Bitcoin's Pr
 
 (Optional) [Digital Gold ](https://www.amazon.com/Digital-Gold-Bitcoin-Millionaires-Reinvent/dp/006236250X)by Nathaniel Popper 
 
-### Module 3: Bitcoin Mechanics & Optimizations: A Technical Overview 
+<h3>Module 3: Bitcoin Mechanics & Optimizations: A Technical Overview</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------ Bitcoin Mechanics and Optimizations: A Technical Overview ------------------->
@@ -2624,7 +2626,7 @@ We’ll then discuss digital signatures, the elliptic curve digital signature al
 
 Finally, we’ll introduce Bitcoin script and its functionality as well as its role in making Bitcoin more flexible.
 
-### Intro: Motivations and Definitions
+<h3>Intro: Motivations and Definitions</h3>
 
 Recall our earlier assumptions about Bitcoin: we can’t trust anyone.
 
@@ -2642,7 +2644,7 @@ We’ll see that in order to design our tamper evident database, we first need a
 
 For this, we’ll utilize cryptographic hash functions.
 
-### Motivations and Definitions: Integrity of Information
+<h3>Motivations and Definitions: Integrity of Information</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!--------------- Cryptographic Hash Functions: Integrity of Information (86) -------------------->
@@ -2684,7 +2686,7 @@ But how do we all agree on a way to generate fingerprints?
 
 We need standardized randomness.
 
-### Motivations and Definitions: Cryptographic Hash Functions
+<h3>Motivations and Definitions: Cryptographic Hash Functions</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------- image082-hash-functions-formula.png (87)------------------------------>
@@ -3008,7 +3010,7 @@ The block header is simply the hash of all these fields concatenated.
 
 Let’s first take a look at the Merkle Root.
 
-### Merkle Trees:
+<h3>Merkle Trees:</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!-----------------------------------  -------------------------------------->
@@ -3736,7 +3738,7 @@ And this is something that decoding software will do for us.
 
 It can hash the beginning of our address and compare it with the checksum to see if it is valid.
 
-### Intro: Bitcoin Script
+<h3>Intro: Bitcoin Script</h3>
 
 Now we’ll dive into Bitcoin script.
 
@@ -3885,7 +3887,7 @@ The accompanying output address is a script that locks the transaction and makes
 
 In this case, only after Rustie provides his proof can he unlock and spend my UTXOs.
 
-### Bitcoin Script Reminders
+<h3>Bitcoin Script Reminders</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------  ---------------------------------->
@@ -3907,7 +3909,7 @@ Rather than just connecting public keys together, connecting inputs and outputs 
 
 The Script language is stack-based, has a native support for cryptocurrency, and is purposely limited in capability for security reasons.
 
-### Intro to P2PKH
+<h3>Intro to P2PKH</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------  ---------------------------------->
@@ -4069,7 +4071,7 @@ Transactions are also timestamped, so people can see that you had actually coine
 
 Aside from words, you could also prove the existence of a document, a piece of music, other creative works, or anything else, so long as you have bitcoin to burn.
 
-### Intro: Advanced Bitcoin Script and P2SH
+<h3>Intro: Advanced Bitcoin Script and P2SH</h3>
 
 In this section, we’ll look at how to create arbitrary scripts in a scheme called P2SH, or Pay to Script Hash.
 
@@ -4079,7 +4081,7 @@ To make for a better mental model, we’ll be explaining everything in terms of 
 
 In other words, the customer is the sender, and the vendor is the recipient.
 
-### P2PKH vs P2SH
+<h3>P2PKH vs P2SH</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------- P2PKH vs P2SH Who Specifies the Script? (134) --------------------------->
@@ -5581,6 +5583,16 @@ This is why places that are cold -- hence providing natural cooling -- or that p
 Here is an example of an ASIC.
 
 \[asic goes here\]
+<!------------------------------------------------------------------------------------------------>
+<!-------- ASIC ---------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image###.png" 
+	alt=""
+	style="width:5in;height:2.8368in" />
+</p>
+
+
 
 The machine on the left is an Antminer S9, with 14 trillion hashes per second.
 
@@ -5660,7 +5672,7 @@ Thus, they wouldn’t get any shares from the mining pool, since the mining pool
 <h3>Mining Pool Schemes</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!-------- Real World Mining: Mining Pool Schemes ---------->
+<!------------------------ Real World Mining: Mining Pool Schemes (185) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image208.png" 
@@ -5697,7 +5709,7 @@ This is more advantageous for the pool, as they’ll never pay out more money th
 Because of the difficulty of buy-in, proportional schemes aren’t seen often, if ever, in the mining world.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------- Pool Rewards: Other Reward Schemes ---------->
+<!-------- Pool Rewards: Other Reward Schemes (186) ---------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image209.png" 
@@ -5714,7 +5726,7 @@ It all depends on the size and assumptions of the mining pool.
 <h3>Mining Pool Pros and Cons</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!-------- Real World Mining: Mining Pools: Pros and Cons ---------->
+<!--------------------- Real World Mining: Mining Pools: Pros and Cons (186) --------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image210.png" 
@@ -5722,7 +5734,7 @@ It all depends on the size and assumptions of the mining pool.
 	style="width:5in;height:2.8368in" />
 </p>
 
-So now that we’re familiar with mining pool schemes, we can talk about the pros and cons of mining pools.
+Now that we’re familiar with mining pool schemes, we can talk about the pros and cons of mining pools.
 
 The pros of mining pools are that they give individual and smaller miners the opportunity to make profit without waiting decades to get payment.
 
@@ -5741,11 +5753,11 @@ On top of that, a multitude of attacks are enabled by mining pools, which we wil
 The community typically dislikes large mining pools.
 
 <!------------------------------------------------------------------------------------------------>
-<!--------  ---------->
+<!----------------------------- Real World Mining: Mining Pools (187) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image211.png" 
-	alt=""
+	alt="Real World Mining: Mining Pools: GHash"
 	style="width:5in;height:2.8368in" />
 </p>
 
@@ -5770,11 +5782,11 @@ We don’t know the true concentration of control over mining hardware, and we m
 <h3>Mining Pool Stats</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!--------  ---------->
+<!--------------------------- Real World Mining: Mining Pools (188) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image212.png" 
-	alt=""
+	alt="Real World Mining: Mining Pools"
 	style="width:5in;height:2.8368in" />
 </p>
 
@@ -5782,7 +5794,7 @@ This will be a rundown to show the contrast between solo mining and pool mining.
 
 We’ll show an interesting paradox which you may have noticed: more mining power leads to centralization.
 
-So today’s network hashrate according to blockchain.info is 33,971,919 TH/s (about 34 million).
+Today’s network hashrate according to blockchain.info is 33,971,919 TH/s (about 34 million).
 
 Mining reward is currently 12.5 BTC per block, and since blocks are mined every 10 minutes on average, we can calculate that the total mining reward yearly is 657,000 BTC/yr. (six hundred fifty seven thousand)
 
@@ -5819,11 +5831,11 @@ This leads to the paradox that: the more secure Bitcoin gets, with more and more
 <h3>Types of Miners</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!--------  ---------->
+<!------------------------- Real World Mining: Which Miner are You? (189) ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image213.png" 
-	alt=""
+	alt="Real World Mining: Which Miner are You?"
 	style="width:5in;height:2.8368in" />
 </p>
 
@@ -5920,10 +5932,12 @@ In this section, we’ll be specifically talking about concerns of mining centra
 <h3>Ensuring Decentralization</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!----------------------------Decentralizing Mining: The Problem (192)--------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image214.png" style="width:5in;height:2.84967in" />
+<img src="/images/image214.png" 
+   width="50%"
+   alt="Decentralizing Mining: The Problem" />
 
 Right now, one of the big features of Bitcoin, as well as other cryptocurrencies is the fact they can theoretically be mined in a decentralized manner.
 
@@ -6181,7 +6195,9 @@ In summary, proof of useful work sounds like a great idea, but it’s incredibly
 <!---------------------- --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image224.png" alt="Consensus Updates: Bitcoin Core"</>
+<img width="50%" 
+   src="/images/image224.png" 
+   alt="Consensus Updates: Bitcoin Core"</>
 </p>
 
 The idea behind a consensus update is that since Bitcoin is decentralized, no one person can say “this is the change we’re going to make in the protocol.”
@@ -6198,7 +6214,9 @@ This is the software that’s used in full nodes.
 <!--------  ---------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image225.png" alt="Consensus Updates: Forks"</>
+<img width="50%" 
+   src="/images/image225.png" 
+   alt="Consensus Updates: Forks"</>
 </p>
 
 This brings us to the two ways that blockchains can be updated: hard forks and soft forks.
@@ -7573,7 +7591,9 @@ On the right side, the block received has a height value that’s one greater th
 <!---------------------------- Publish or Perish: Zang and Preneel ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image285.png "Publish or Perish: Zang and Preneel" style="width:5in;height:2.8in" />
+<img src="/images/image285.png 
+   alt="Publish or Perish: Zang and Preneel"
+   width="50%" />
 &nbsp;
 
 The term uncle refers to an in-time block that competes with a block parent – the parent being the previous block to the current.
@@ -7588,7 +7608,9 @@ The diagram on the right side nicely summarized the definition of an uncle block
 <!--------------------- Publish or Perish: Weighted Fork Resolving Policy ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image286.png "Publish or Perish: Weighted Fork Resolving Policy" style="width:5in;height:2.8in" />
+<img src="/images/image286.png 
+   alt="Publish or Perish: Weighted Fork Resolving Policy"
+   width="50%" />
 &nbsp;
 
 We have our child block B, and previous to that, we have its parent A. At the same block height to A, we have blocks C and D. Block C is an uncle to B because it is within tau time of B’s parent, A. Block D on the other hand is not an uncle to B because while it has the correct height – one less the height of B – it was not seen in tau time of B’s parent, A. So it’s not an uncle.
@@ -7633,7 +7655,9 @@ Here’s the general scenario.
 <!------------------------------ Publish or Perish: Selfish Miners ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image287.png "Publish or Perish: Selfish Miners" style="width:5in;height:2.8in" />
+<img src="/images/image287.png 
+   alt="Publish or Perish: Selfish Miners"
+   width="50%" />
 &nbsp;
 
 Say that a selfish miner has already secretly mined one block. Before they can mine a second block, the honest network publishes a competing block. There’s now a block propagation race. At his point in time, the selfish miner has two options: option 1, to publish, or option 2, not to publish.
@@ -7652,7 +7676,9 @@ The key takeway is that no matter which option the selfish miner chooses in the 
 <!-------------------------------- Publish or Perish: Analysis ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image288.png "Publish or Perish: Analysis" style="width:5in;height:2.8in" />
+<img src="/images/image288.png 
+   alt="Publish or Perish: Analysis"
+   width="50%" />
 &nbsp;
 
 For a bit more clarity, let’s take a more rigorous approach to our analysis of the previous scenario.
@@ -7675,7 +7701,9 @@ Fast forward to the point in time where we the have diagram below, both the hone
 <!--------------------------------- Publish or Perish: Option 2 ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image289.png "Publish or Perish: Option 2" style="width:5in;height:2.8in" />
+<img src="/images/image289.png 
+   alt="Publish or Perish: Option 2"
+   width="50%" />
 &nbsp;
 
 In option 2, the selfish miner doesn’t publish S, and instead chooses to wait, and publish later on as part of the selfish chain.
@@ -7700,7 +7728,9 @@ Here are a couple graphs on the expected revenue of selfish miners when publish 
 <!---------------------------------- Publish or Perish: Graphs ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image290.png "Publish or Perish: Graphs" style="width:5in;height:2.8in" />
+<img src="/images/image290.png 
+   alt="Publish or Perish: Graphs"
+   width="50%" />
 &nbsp;
 
 On the left side, we have a graph of selfish miners’ profit, given that certain defenses are in place.
@@ -7784,7 +7814,9 @@ For example, if the network actually looked like this…
 <!-------------------------------- Bitcoin Network: A Closer Look -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image292.png "Bitcoin Network: A Closer LOok" style="width:5in;height:2.8in" />
+<img src="/images/image292.png 
+   alt="Bitcoin Network: A Closer LOok" 
+   width="50%" />
 &nbsp;
 
 ...and I wanted to send a message to Nick…...I would tell my neighbors Derrick and Gloria.
@@ -7807,7 +7839,9 @@ To further understand how information propagates through the Bitcoin network, we
 <!----------------------------- Bitcoin Network: An Uneven Topology ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image293.png "Bitcoin Network: An Uneven Topology" style="width:5in;height:2.8in" />
+<img src="/images/image293.png 
+   alt="Bitcoin Network: An Uneven Topology" 
+   width="50%" />
 &nbsp;
 
 Network topology means how the Bitcoin network looks like if you were to graph it out like we’ve been doing with circles -- for individual nodes -- and lines -- for connections between nodes.
@@ -7833,7 +7867,9 @@ It could be that he’s running a mining farm or pool.
 <!----------------------------- Bitcoin Network: Uneven Influences ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image294.png "Bitcoin Network: Uneven Influences" style="width:5in;height:2.8in" />
+<img src="/images/image294.png 
+   alt="Bitcoin Network: Uneven Influences" 
+   width="50%" />
 &nbsp;
 
 We can’t really tell, since mining farms and pools sometimes want to remain secret so people don’t attack them.
@@ -7858,7 +7894,9 @@ And it turns out that due to this hidden graph topology, and the fact that Derri
 <!----------------------------- Bitcoin Network: An Uneven Topology (3) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image295.png "Bitcoin Network: An Uneven Topology (3)" style="width:5in;height:2.8in" />
+<img src="/images/image295.png 
+   alt="Bitcoin Network: An Uneven Topology (3)" 
+   width="50%" />
 &nbsp;
 
 And scarier yet, Derrick doesn’t even need 50% of the network hash power.
@@ -7875,7 +7913,9 @@ Perhaps there’s an attack or selfish mining scheme that hasn’t been discover
 <!------------------------- Bitcoin Network: Different Propogation Times ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image296.png "Bitcoin Network: Different Propogation Times" style="width:5in;height:2.8in" />
+<img src="/images/image296.png 
+   alt="Bitcoin Network: Different Propogation Times"
+   width="50%" />
 &nbsp;
 
 In addition to network topology, we also have to worry about the network latency.
@@ -7900,7 +7940,9 @@ Meanwhile, it’s possible that a poorly connected miner could spend all this ti
 <!---------------------------- Bitcoin Network: Sybil Attack Revisited --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image297.png "Bitcoin Network: Sybil Attack Revisited" style="width:5in;height:2.8in" />
+<img src="/images/image297.png 
+   alt="Bitcoin Network: Sybil Attack Revisited" 
+   width="50%" />
 &nbsp;
 
 And now for something even bigger.
@@ -7913,7 +7955,9 @@ Well, if we’re clever enough, we can launch a Sybil attack in another kind of 
 <!------------------------------- Bitcoin Network: Flood the Network ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image298.png "Bitcoin Network: Flood the Network" style="width:5in;height:2.8in" />
+<img src="/images/image298.png 
+   alt="Bitcoin Network: Flood the Network" 
+   width="50%" />
 &nbsp;
 
 Let’s say Derrick has the ability to flood the network with nodes.
@@ -7930,7 +7974,9 @@ Let’s say Derrick is also selfish mining, and already has some secret blocks, 
 <!----------------------------- Bitcoin Network: Flood the Network (2)---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image299.png "Bitcoin Network: Flood the Network (2)" style="width:5in;height:2.8in" />
+<img src="/images/image299.png 
+   alt="Bitcoin Network: Flood the Network (2)" 
+   width="50%" />
 &nbsp;
 
 When Derricks nodes hear about the next honest block X, Derrick could ignore X, and publish his secret block P.
@@ -7939,7 +7985,9 @@ When Derricks nodes hear about the next honest block X, Derrick could ignore X, 
 <!----------------------------- Bitcoin Network: Flood the Network (3) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image300.png "Bitcoin Network: Flood the Network (3)" style="width:5in;height:2.8in" />
+<img src="/images/image300.png 
+   alt="Bitcoin Network: Flood the Network (3)"
+   width="50%" />
 &nbsp;
 
 If block P reaches a miner before block X, then the miner by default mines on block P.
@@ -7966,7 +8014,9 @@ Miners can maximize profits via pool hopping. This occurs when miners switch bet
 <!-------------------- Reward Per Share for Pay-Per-Share & Proportional Pools ------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image301.png "Reward Per Share for Pay-Per-Share & Proportional Pools" style="width:5in;height:3.9in" />
+<img src="/images/image301.png 
+   alt="Reward Per Share for Pay-Per-Share & Proportional Pools" 
+   width="50%" />
 &nbsp;
 
 <h3>I.II Pool Cannibalization</h3>
@@ -7979,7 +8029,9 @@ If we model the choice between attacking and not attacking the Bitcoin network u
 <!--- Table demonstrating the results of attacking and not attacking between Pool 1 and Pool 2 --->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image302.png "Table demonstrating the results of attacking and not attacking between Pool 1 and Pool 2" style="width:6.5in;height:1.36597in" />
+<img src="/images/image302.png 
+   alt="Table demonstrating the results of attacking and not attacking between Pool 1 and Pool 2"
+   width="85%" />
 &nbsp;
 
 In this situation, the Nash Equilibrium, or the position from which no actor can change their position to improve their outcome, is also known as the Tragedy of the Commons,where each individual actor finds it individually beneficial to exploit the public good, leading to the ultimate deterioration of the public good.
@@ -8002,7 +8054,9 @@ To protect against this type of attack, the victim should wait for kconfirmation
 <!-------------------- Reward Per Share for Pay-Per-Share & Proportional Pools ------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image303.png "Graph demonstrating the relationship between chains and their lengths" style="width:4in;height:2.8in" />
+<img src="/images/image303.png 
+   alt="Graph demonstrating the relationship between chains and their lengths" 
+   width="40%" />
 &nbsp;
 
 <h3>III. The 51 Percent Attack</h3>
@@ -8027,7 +8081,7 @@ Upon being the first to find a valid block, you can withhold that block from the
 
 <h3>VII. Defense</h3>
 
- We discussed several theorized defenses to selfish mining including
+We discussed several theorized defenses to selfish mining including
 
 [Block Validation Using Time Signatures Opens in new window](https://arxiv.org/abs/1605.02435), proposed by Schultz (2015) and Solat and Potop-Butucaru (2016)
 
@@ -8057,7 +8111,8 @@ In addition to network topology, network latency also poses as an issue. Nodes t
 <!---------------------------- Bitcoin Network: Sybil Attack Revisited --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image-lecture-overview-mod-6.png" 
+<img width="50%" 
+   src="/images/image-lecture-overview-mod-6.png" 
    alt="Culmination of the last 5 modules" 
 </p>
 
@@ -8116,8 +8171,8 @@ As we did with Bitcoin, we’ll first look at the high level features that we wa
 <p align="center">
 <p align="center" width="100%">
 <img src="/images/image304.jpg" 
-	width="50%"
-	alt="What makes Bitcoin so special?" />
+   width="50%"
+   alt="What makes Bitcoin so special?" />
 </p>
 
 First, we have to consider what makes Bitcoin so special.
@@ -8130,15 +8185,15 @@ And it’s the careful design and combination of these components that really di
 
 It turns out that these ideas are much more fundamental than Bitcoin itself, and will help us understand the key components of Ethereum.
 
-So let’s take some time to review some of what makes Bitcoin so special.
+Let’s take some time to review some of what makes Bitcoin so special.
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image305.png" 
-	width="50%"
-	alt="Bitcoin From the Ground Up: Identity" />
+   width="50%"
+   alt="Bitcoin From the Ground Up: Identity" />
 </p>
 
 <!------------------------------------------------------------------------------------------------>
@@ -8146,8 +8201,8 @@ So let’s take some time to review some of what makes Bitcoin so special.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image306.png" 
-	width="50%"
-	alt="A Distributed Network: Bitcoin Bare Bones" />
+   width="50%"
+   alt="A Distributed Network: Bitcoin Bare Bones" />
 </p>
 
 First off, when we built Bitcoin from the ground up, we first emphasized the importance of identity: especially in order to enable authentication and integrity.
