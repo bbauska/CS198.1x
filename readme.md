@@ -2609,7 +2609,7 @@ However, we don’t know how that happens.
 This lecture will teach you everything about the low-level specifics of Bitcoin that make it work.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image080-lecture-overview.png -------------------------------------->
+<!--------------------------- image080-lecture-overview.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image080-lecture-overview.png" alt=" "</>
@@ -2687,7 +2687,7 @@ We need standardized randomness.
 ### Motivations and Definitions: Cryptographic Hash Functions
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------- image082-hash-functions-formula.png (87)------------------------------>
+<!------------------------- image082-hash-functions-formula.png (87)------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" 
@@ -2846,7 +2846,7 @@ There's no relation between the Hashes despite the inputs being so similar.
 </p>
 &nbsp;
 
-<h3>SHA256\^2 – (Secure Hash Algorithm)</h3>
+<h3>SHA256^2 – (Secure Hash Algorithm)</h3>
 
 The particular hash function that Bitcoin chooses to use in many scenarios is called SHA-256.
 
@@ -2865,7 +2865,7 @@ Once on the original message you want to hash, and another time on the output of
 <h3>Intro: A Tamper-Evident Database</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image090-a-tamper-evident-database.png -------------------------------------->
+<!------------------ image090-a-tamper-evident-database.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image090-a-tamper-evident-database.png" 
@@ -2876,7 +2876,7 @@ Once on the original message you want to hash, and another time on the output of
 Now that we know about cryptographic hash functions and their properties, how do we then apply them to design our tamper evident database for Bitcoin?
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image091-a-tamper-evident-database-dissecting.png -------------------------------------->
+<!------------- image091-a-tamper-evident-database-dissecting.png -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image091-a-tamper-evident-database-dissecting.png" 
@@ -2893,7 +2893,7 @@ What does this tamper evident database actually look like?
 Well, if you’re an average user, here’s a real example of a block found on Blockchain.info, a company that keeps track of all information about the Bitcoin Blockchain for public access.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image092-a-tamper-evident-database-merkle.png -------------------------------------->
+<!----------- image092-a-tamper-evident-database-merkle.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image092-a-tamper-evident-database-merkle.png" alt=" "</>
@@ -2903,7 +2903,7 @@ Well, if you’re an average user, here’s a real example of a block found on B
 We’ll explain each of these fields by the end of the video.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image092-tamper-evident-merkle-proof.png -------------------------------------->
+<!---------------- image092-tamper-evident-merkle-proof.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image092-tamper-evident-merkle-proof.png" alt=" "</>
@@ -2913,7 +2913,7 @@ We’ll explain each of these fields by the end of the video.
 Here’s the exact same block, but now in JSON format.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image093-a-tamper-evident-database-example-block.png -------------------------------------->
+<!------------ image093-a-tamper-evident-database-example-block.png ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image093-a-tamper-evident-database-example-block.png" alt=" "</>
@@ -2925,7 +2925,7 @@ This is a much more understandable format for a computer.
 But what is the role of each of these different pieces of information?
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image094-a-tamper-evident-database-example-block.png -------------------------------------->
+<!----------- image094-a-tamper-evident-database-example-block.png ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image094-a-tamper-evident-database-example-block.png" alt=" "</>
@@ -2937,7 +2937,7 @@ But what is the role of each of these different pieces of information?
 Here’s what a block looks like conceptually.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image095-a-tamper-evident-database-dissecting.png -------------------------------------->
+<!--------------- image095-a-tamper-evident-database-dissecting.png ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image095-a-tamper-evident-database-dissecting.png" alt=" "</>
@@ -2965,7 +2965,7 @@ Well, let’s go ahead and look at where hash functions are applied within Bitco
 The block header refers to all the metadata associated with every block.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image096-tamper-evident-dissecting.png -------------------------------------->
+<!------------------ image096-tamper-evident-dissecting.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image096-tamper-evident-dissecting.png" alt=" "</>
