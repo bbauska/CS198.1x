@@ -770,12 +770,12 @@ Naturally, the next question to ask is: How do we keep track of the history of t
 After all a user’s current balance can be described as a number of transactions, summing to the current amount, and if we don’t know what transactions have happened in the past, we can’t determine what’s valid in the future.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- Recordkeeping: Distributed DBS --------------------------------->
+<!---------------------------- Recordkeeping: Distributed DBS (21) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image013-recordkeeping-distributed-dbs.png" 
-	alt="Recordkeeping: Distributed DBS"
-	style="width:5in;height:2.81998in" />
+	alt="Recordkeeping: Distributed Databases"
+	width="75%" />
 
 Consider the diagram above.
 
@@ -1563,8 +1563,8 @@ So, by making it computationally expensive to send out email, hashcash disincent
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image036-early-attempts-b-money.png" 
-	alt="Early Attampts: B-Money"
-	style="width:5in;height:2.80395in" />
+   alt="Early Attampts: B-Money"
+   width="50%" />
 
 B-money was an early proposal for a cryptocurrency created by Wei Dai.
 
@@ -1587,11 +1587,12 @@ These ideas from B-money would later influence the development and design philos
 <h3>Bitcoin Invention</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------ 37. Satoshi Nakamoto: Oct, 2008 Bitcoin Whitepaper -------------------------->
+<!------------------ 37. Satoshi Nakamoto: Oct, 2008 Bitcoin Whitepaper (50) --------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image037-satoshi-nakamoto.png" 
-	alt="Satoshi Nakamoto: Oct, 2008 Bitcoin Whitepaper"</>
+<img width="50%" 
+   src="/images/image037-satoshi-nakamoto.png" 
+   alt="Satoshi Nakamoto: Oct, 2008 Bitcoin Whitepaper"</>
 </p>
 &nbsp;
 
@@ -1635,8 +1636,9 @@ Eventually, the block reward will become 0, at which point 21 million bitcoins w
 <!----------------------------- 38. Bitcoin: The First Cryptocurrency ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image038-bitcoin-the-first-cryptocurrency.png" 
-	alt="Bitcoin: The First Cryptocurrency"</>
+<img width="50%" 
+   src="/images/image038-bitcoin-the-first-cryptocurrency.png" 
+   alt="Bitcoin: The First Cryptocurrency"</>
 </p>
 &nbsp;
 
@@ -1659,10 +1661,12 @@ During this first year, people sent bitcoins to each other out of interest, play
 During this time, however, bitcoins were never exchanged for any tangible good.
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!---------------------- Bitcoin Gains Value: 81 million dollar pizza (52) ----------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image039-bitcoin-gains-value.png" alt=" "</>
+<img width="50%" 
+   src="/images/image039-bitcoin-gains-value.png" 
+   alt="Bitcoin Gains Value: 81 million dollar pizza"</>
 </p>
 &nbsp;
 
@@ -1676,7 +1680,9 @@ In the post, we see that...
 <!----------------------------------- image040-bitcoin-gains-value-2 -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image040-bitcoin-gains-value-2.png" alt=" "</>
+<img width="50%" 
+   src="/images/image040-bitcoin-gains-value-2.png" 
+   alt="Bitcoin Gains Value: 81 million dollar pizza, part II"</>
 </p>
 &nbsp;
 
@@ -1691,10 +1697,12 @@ In this moment, Bitcoin went from worthless internet money to something with rea
 As a fun fact: as of March 15, 2018, the pizzas Laszlo ordered are now worth 81 million dollars.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image041-bitcoin-gains-value-81-million-pizza.png -------------------------------------->
+<!-------------- image041-bitcoin-gains-value-81-million-pizza.png part III (53) ----------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image041-bitcoin-gains-value-81-million-pizza.png" alt=" "</>
+<img width="50%" 
+   src="/images/image041-bitcoin-gains-value-81-million-pizza.png" 
+   alt="Bitcoin Gains Value: 81 million dollar pizza, part III"</>
 </p>
 &nbsp;
 
@@ -1733,11 +1741,12 @@ If someone found your private key and stole your funds, no one else can give you
 Early Bitcoin was thus often the target of scandals, hacks, and illegal activity.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image042-bitcoin-theft-mt-gox-july-2010.png -------------------------------------->
+<!----------------------- image042-bitcoin-theft-mt-gox-july-2010.png ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="40%" src="/images/image042-bitcoin-theft-mt-gox-july-2010.png" 
-alt="Bitcoin Theft: Mt Gox July, 2010 - Feb, 2014"</>
+<img width="50%" 
+   src="/images/image042-bitcoin-theft-mt-gox-july-2010.png" 
+   alt="Bitcoin Theft: Mt Gox July, 2010 - Feb, 2014"</>
 </p>
 &nbsp;
 
@@ -1768,7 +1777,7 @@ In February 2014, Mt. Gox announced that it had lost 744,408 of its customers bi
 By the end of the month, Mt. Gox filed for bankruptcy.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image043-bitcoin-drug-scandal-silk-road-feb-2011-thru-oct-2013.png  -------------------------------------->
+<!----------- image043-bitcoin-drug-scandal-silk-road-feb-2011-thru-oct-2013.png  ---------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image043-bitcoin-drug-scandal-silk-road-feb-2011-thru-oct-2013.png" 
@@ -1795,11 +1804,12 @@ In October 2013, the FBI shut down Silk Road.
 Ross Ulbricht was sentenced to life in jail, and the FBI seized upwards of 26,000 bitcoins, worth \$3.6 million at the time.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image044-bitcoin-bubble.png  -------------------------------------->
+<!----------------------------------- image044-bitcoin-bubble.png (56) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image044-bitcoin-bubble.png" 
-	alt="Bitcoin Bubble"</>
+<img width="50%" 
+   src="/images/image044-bitcoin-bubble.png" 
+   alt="Bitcoin Bubble"</>
 </p>
 &nbsp;
 
@@ -1821,8 +1831,9 @@ Second, automated trading in Mt. Gox may have artificially driven the price up b
 <!----------------------------------- image045-explosion-of-altcoins.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image045-explosion-of-altcoins.png" 
-	alt="Explosion of Altcoins"</>
+<img width="50%" 
+   src="/images/image045-explosion-of-altcoins.png" 
+   alt="Explosion of Altcoins"</>
 </p>
 &nbsp;
 
@@ -1846,8 +1857,9 @@ These are just a few examples of how coins other than Bitcoin are trying to solv
 <!----------------------------------- image046-bitcoin-headlines.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image046-bitcoin-headlines.png" 
-	alt="Bitcoin Headlines: Popularity Grows, Merchants Begin to Accept Bitcoin"</>
+<img width="50%" 
+   src="/images/image046-bitcoin-headlines.png" 
+   alt="Bitcoin Headlines: Popularity Grows, Merchants Begin to Accept Bitcoin"</>
 </p>
 &nbsp;
 
@@ -1880,11 +1892,12 @@ At every club meeting, our 7 members would discuss the latest hack, the latest b
 We’ve grown so much since then, and that just comes to show how much the blockchain space has matured over the years.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image047-bitcoin-startups.png -------------------------------------->
+<!----------------------------------- image047-bitcoin-startups.png (59) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image047-bitcoin-startups.png" 
-	alt="Bitcoin Startups"</>
+<img width="50%" 
+   src="/images/image047-bitcoin-startups.png" 
+   alt="Bitcoin Startups"</>
 </p>
 &nbsp;
 
@@ -1901,11 +1914,12 @@ Blockchain.info is a block explorer that allows users to see individual blocks a
 Most importantly, during this time, the term “blockchain” started becoming a buzz word.
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!----------------------------------- Bitcoin price 2014-2015 (60) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image048-and-burst.png" 
-	alt="2014-2015 Graph of Bitcoin Prices"</>
+<img width="50%" 
+   src="/images/image048-and-burst.png" 
+   alt="2014-2015 Graph of Bitcoin Prices"</>
 </p>
 &nbsp;
 
@@ -1935,8 +1949,9 @@ In this section, we’re going to talk about the next stage of Bitcoin’s histo
 <!----------------------------------- image049-bitcoin-struggles-to-scale.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image049-bitcoin-struggles-to-scale.png" 
-	alt="Bitcoin Struggles to Scale: Block Size Debate 2015"</>
+<img width="50%" 
+   src="/images/image049-bitcoin-struggles-to-scale.png" 
+   alt="Bitcoin Struggles to Scale: Block Size Debate 2015"</>
 </p>
 &nbsp;
 
@@ -1974,8 +1989,9 @@ Members can't directly propose and vote on updates to Bitcoin within the actual 
 <!----------------------------------- image050-2013-2016-ethereum-timeline.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image050-2013-2016-ethereum-timeline.png" 
-	alt="2013-2016: Ethereum Timeline: Bitcoin vs Ethereum"</>
+<img width="50%" 
+   src="/images/image050-2013-2016-ethereum-timeline.png" 
+   alt="2013-2016: Ethereum Timeline: Bitcoin vs Ethereum"</>
 </p>
 &nbsp;
 
@@ -7505,10 +7521,12 @@ In their paper, with their proposed uniform tie-breaking, they claimed that it r
 However, later in 2015, a separate paper published by Sapirshtein proposed a more optimal selfish mining strategy that reduced the profit threshold down to 23.2%.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!---------------------------- Tie-Breaking: Unforgettable Timestamps (250) ---------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image279.png" style="width:5in;height:2.80566in" />
+<img src="/images/image279.png"
+   width="50%"
+   alt="Tie-Breaking: Unforgettable Timestamps" />
 
 A 25% profit threshold using uniform tie-breaking is pretty bad, considering that selfish mining is always profitable when you have 33% of the mining power.
 
@@ -7535,10 +7553,12 @@ Tie-breaking rules only apply when there’s a block propagation race, NOT when 
 And as it turns out, it has been shown that if an attacker has a large amount of computational power, say greater than 40%, then these tie-breaking defenses against selfish mining are essentially worthless.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!------------------- More Tie-Breaking: Unforgettable Timestamps (251) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image280.png" style="width:5in;height:2.83959in" />
+<img src="/images/image280.png" 
+   width="50%"
+   alt="More Tie-Breaking: Unforgettable Timestamps" />
 
 As you can see in the diagram on the bottom, a selfish miner can still invalidate the honest chain if they have the longest chain.
 
@@ -7549,10 +7569,12 @@ And another thing you might have realized is that this defense requires a truste
 The drawback here is that Bitcoin aims to be as decentralized as possible, and while this might work with other systems, centralization certainly doesn’t mix with Bitcoin’s philosophy.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!--------------- Even More Tie-Breaking: Unforgettable Timestamp: drawbacks (252) --------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image281.png" style="width:5in;height:2.82268in" />
+<img src="/images/image281.png" 
+   width="50%"
+   alt="" />
 
 So, we’ll skip this for now.
 
@@ -8794,7 +8816,7 @@ As of May 23rd, 2018, Ethereum has roughly 275,000 GH/s whereas Bitcoin has a wh
 <h3>Ethereum Virtual Machine: Overview</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------  -------------------------->
+<!---------------------  (297) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image339.png" 
@@ -8809,7 +8831,7 @@ And just like before, Proof-of-Work is a competition, and only one miner is able
 Proof-of-Work is essentially a way to randomly select -- based on proportion of hash power -- one node’s execution result as the correct one to add to the blockchain.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------  -------------------------->
+<!--------------------- Basic Use Case: MultiSig (305) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image340.png" 
@@ -8854,11 +8876,11 @@ And all of this leads to a very easy way for attackers to launch denial of servi
 by trapping computers around the world in an infinite loop, thereby making them unable to execute other more meaningful contracts.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------  -------------------------->
+<!------------------------- EVM Gas and Fees: High Level Overview (299) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image342.png" 
-   alt=""
+   alt="EVM Gas and Fees: High Level Overview"
    width="50%" </>
 </p>
 
@@ -9001,7 +9023,7 @@ Securing smart contracts is incredibly tough, as you may have figured out from r
 <h3>Basic Use Cases: Multisig</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------  ---------------------------------->
+<!----------------------- Prediction Markets: Futarchy & Cryptoeconomics (313) ------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image350.png" style="width:5in;height:2.79727in" />
@@ -9225,10 +9247,12 @@ The first market for insurance is a way to let users prepare against disasters t
 
 If a user notices a bug in a smart contract, they can heavily bet “yes” before revealing the vulnerability, allowing them to reap the rewards of their hidden knowledge.
 <!------------------------------------------------------------------------------------------------>
-<!------------------- Prediction Markets: Futarchy & Cryptoeconomics ----------------------------->
+<!------------------- Prediction Markets: Futarchy & Cryptoeconomics (313) ----------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image350.png "Prediction Markets: Futarchy & Cryptoeconomics" style="width:5in;height:2.85in" />
+   <img src="/images/image350.png 
+   alt="Prediction Markets: Futarchy & Cryptoeconomics" 
+   width="50%" />
 &nbsp;
 
 An exciting use case of prediction markets is futarchy.
