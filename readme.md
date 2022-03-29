@@ -208,11 +208,11 @@ This module focuses on the properties behind the second largest blockchain platf
 
 Also, a good unofficial resource is the Blockchain at Berkeley Public Slack, where we discuss various topics related to blockchain. You can request access to our Slack workspace at the bottom of the [Blockchain at Berkeley website ](https://blockchain.berkeley.edu/)under "Join Blockchain at Berkeley on Slack."
 
-### **Course Staff**
+<h3>**Course Staff**</h3>
 
 Rustie Lin, Mengyi (Gloria) Wang, Nadir Akhtar, Jennifer Hu, Janice Ng.
 
-### Major Contributors
+<h3>Major Contributors</h3>
 
 Blockchain Fundamentals started off as the [Cryptocurrency DeCal ](https://blockchain.berkeley.edu/decal/fa16/)(Democratic Education at Cal, student run) course on UC Berkeley campus in Fall 2016, taking inspiration from existing courses, videos, and textbooks. From the beginning, the vision was to lower the barrier of entry and provide a survey into the blockchain and cryptocurrency space -- to explain concepts from the ground up, as clearly and concisely as possible.
 
@@ -222,7 +222,7 @@ Blockchain Fundamentals is constantly being improved, in terms of new informatio
 
 Max Fang, Philip Hayes, Sunny Aggarwal, Aparna Krishnan, Gloria Zhao, Gillian Chu, Brian Ho.
 
-### Module 1: Course/Bitcoin Protocol & Consensus: A High Level Overview/Intro
+<h3>Module 1: Course/Bitcoin Protocol & Consensus: A High Level Overview/Intro
 
 Welcome to the first module in Cryptocurrencies: Bitcoin and the Crypto Space, the first course in the Blockchain Fundamentals program.
 
@@ -240,11 +240,9 @@ Throughout this module, you’ll first learn what Bitcoin is and what its primar
 
 Then, we’ll dive into four-part buildup of Bitcoin consensus and explain why Bitcoin is built the way it is.
 
-### Bitcoin Protocol & Consensus: A High-Level Overview
+<h3>Bitcoin Protocol & Consensus: A High-Level Overview</h3>
 
-### Intro: What is Bitcoin?
-
-### <https://youtu.be/Gc2en3nHxA4> 1 min, 37 sec
+<h3>[What is Bitcoin?](<https://youtu.be/Gc2en3nHxA4>) 1 min, 37 sec</h3>
 
 In this section, you will learn about the origins and motivations of Bitcoin, and the key distinctions between cryptocurrencies and normal currencies.
 
@@ -254,8 +252,7 @@ We’ll then draw a comparison between Bitcoin and Banks and analyze each of the
 
 And this all sets the stage for the next section, in which we’ll build Bitcoin from the ground up, incorporating each of these features and services and seeing how they fit together.
 
-### What is Bitcoin?
-
+<h3>What is Bitcoin?</h3>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ What is Bitcoin?  Bitcoin Genesis ------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -658,9 +655,7 @@ For a transaction to be valid, it must have these three components:
 
 2.  available and sufficient funds to spend, and
 
-3.  a guarantee that no other transaction is using or has used the same
-
-funds.
+3.  a guarantee that no other transaction is using or has used the same funds.
 
 Let’s understand these criteria in the context of checks and banks:
 
@@ -2187,9 +2182,10 @@ In January 2014, he said about Bitcoin “It’s a terrible store of value. It c
 <!------------------------------------------------------------------------------------------------>
 <!------------------ Quotes (2) from Jamie Dimon, the CEO of JP Morgan Chase --------------------->
 <!------------------------------------------------------------------------------------------------>
-p align="center" width="100%">
-<img width="50%" src="/images/image060-dimon-quotes-2.png" 
-	alt="Quotes (2) from Jamie Dimon, the CEO of JP Morgan Chase"</>
+<p align="center" width="100%">
+<img width="50%" 
+   src="/images/image060-dimon-quotes-2.png" 
+   alt="Quotes (2) from Jamie Dimon, the CEO of JP Morgan Chase"</>
 </p>
 &nbsp;
 
@@ -2649,10 +2645,12 @@ For this, we’ll utilize cryptographic hash functions.
 ### Motivations and Definitions: Integrity of Information
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------- Cryptographic Hash Functions: Integrity of Information -------------------->
+<!--------------- Cryptographic Hash Functions: Integrity of Information (86) -------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image081-cryptographic-hash-functions.png" alt=" "</>
+<img width="50%" 
+   src="/images/image081-cryptographic-hash-functions.png" 
+   alt="Cryptographic hash functions are one way functions that take some input and produce a pseudorandom output"</>
 </p>
 &nbsp;
 
@@ -2689,10 +2687,12 @@ We need standardized randomness.
 ### Motivations and Definitions: Cryptographic Hash Functions
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image081-hash-function-formula.png -------------------------------------->
+<!-------------------------- image082-hash-functions-formula.png (87)------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image081-hash-function-formula.png" alt=" "</>
+<img width="50%" 
+   src="/images/image082-hash-functions-formula.png" 
+   alt=""</>
 </p>
 &nbsp;
 
@@ -2709,22 +2709,25 @@ A cryptographic hash function always outputs a message of some given size.
 One note is that we call the output the image, and the input the pre image.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image082-hash-functions-formula.png -------------------------------------->
+<!------------------ image083-cryptographic-hash-functions-cryptography.png (88) ----------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image082-hash-functions-formula.png" alt=" "</>
+<img width="50%" 
+   src="/images/image083-cryptographic-hash-functions-cryptography.png" 
+   alt="What is a Hash Function?  Formula"</>
 </p>
 &nbsp;
 
 Cryptographic hash functions differ from regular hash functions in that they are built for security, but for convenience, we will now refer to cryptographic hash functions as hash functions.
 
-### Key Properties of Cryptographic Hash Functions
+<h3>Key Properties of Cryptographic Hash Functions</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image083-cryptographic-hash-functions-cryptography.png -------------------------------------->
+<!------------- image084-cryptographic-hash-functions-preimage-resistance.png(88) ---------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image083-cryptographic-hash-functions-cryptography.png" alt=" "</>
+   <img width="50%" src="/images/image084-cryptographic-hash-functions-preimage-resistance.png" 
+   alt="Properties of a Hash Function"</>
 </p>
 &nbsp;
 
@@ -2735,10 +2738,12 @@ Well, we have *three* important properties to discuss: *pre-image* and *second-p
 To clarify what these terms mean, let’s go over a couple definitions.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image084-cryptographic-hash-functions-preimage-resistance.png -------------------------------------->
+<------------ image084-cryptographic-hash-functions-preimage-resistance.png (88)------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image084-cryptographic-hash-functions-preimage-resistance.png" alt=" "</>
+<img width="50%" 
+   src="/images/image084-cryptographic-hash-functions-preimage-resistance.png" 
+   alt="Cryptographic Hash Function: Pre-Image Resistance"</>
 </p>
 &nbsp;
 
@@ -2757,11 +2762,11 @@ First off, we want to make sure that no one can reverse engineer our fingerprint
 Otherwise, certain issues come up, such as exposing information that we didn’t want to reveal.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image085-cryptographic-hash-functions-preimage-resistance.png -------------------------------------->
+<!--------- image085-cryptographic-hash-functions-preimage-resistance.png (89) ------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image085-cryptographic-hash-functions-preimage-resistance.png" 
-	alt=" "</>
+	alt=""</>
 </p>
 &nbsp;
 
@@ -2772,9 +2777,8 @@ The technical definition is as follows: given some hash function H and some outp
 In other words, we cannot easily discover the input which created some output.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image086-cryptographic-hash-functions-2ndary-preimage-resistance.png -------------------------------------->
+<!----------- image086-cryptographic-hash-functions-2ndary-preimage-resistance.png --------------->
 <!------------------------------------------------------------------------------------------------>
-<
 <p align="center" width="100%">
 <img width="50%" src="/images/image086-cryptographic-hash-functions-2ndary-preimage-resistance.png" 
 	alt=" "</>
@@ -2790,9 +2794,8 @@ If someone else can generate my fingerprint with a different input, then no one 
 To make sure this doesn’t happen, we need what’s known as second preimage resistance.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image087-cryptographic-hash-functions-2ndary-preimage-resistance.png -------------------------------------->
+<!--- image087-cryptographic-hash-functions-2ndary-preimage-resistance.png (90) ------------------>
 <!------------------------------------------------------------------------------------------------>
-<
 <p align="center" width="100%">
 <img width="50%" src="/images/image087-cryptographic-hash-functions-2ndary-preimage-resistance.png" 
 	alt=" "</>
@@ -2801,7 +2804,7 @@ To make sure this doesn’t happen, we need what’s known as second preimage re
 
 The technical definition is as follows: given some hash function H and some output H of x, it is computationally difficult to find a different input x’ such that H of x equals H of x’.
 
-### Key Properties of Cryptographic Hash Functions: Collision Resistance
+<h3>ey Properties of Cryptographic Hash Functions: Collision Resistance</h3>
 
 Expanding the concept of second preimage resistance, we generally recognize that any two arbitrary inputs mapping to the same output is a bad thing.
 
@@ -2809,10 +2812,10 @@ To prevent this, we need collision resistance.
 
 The technical definition is as follows: given some hash function H, it is computationally difficult to find two different inputs x and y such that H of x equals H of y.
 
-### Key Properties of Cryptographic Hash Functions: Avalanche Effect
+<h3>Key Properties of Cryptographic Hash Functions: Avalanche Effect</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image090-cryptographic-hash-functions-avalanche-effect.png -------------------------------------->
+<!------------ image090-cryptographic-hash-functions-avalanche-effect.png (91) ------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image090-cryptographic-hash-functions-avalanche-effect.png" 
@@ -2832,10 +2835,10 @@ And each result is pseudo random.
 
 There's no relation between the Hashes despite the inputs being so similar.
 
-### SHA256
+<h3>SHA256</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image090-cryptographic-hash-sha256.png -------------------------------------->
+<!----------------------------------- image090-cryptographic-hash-sha256.png (91) ---------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image090-cryptographic-hash-sha256.png" 
@@ -2843,7 +2846,7 @@ There's no relation between the Hashes despite the inputs being so similar.
 </p>
 &nbsp;
 
-### SHA256\^2 – (Secure Hash Algorithm)
+<h3>SHA256\^2 – (Secure Hash Algorithm)</h3>
 
 The particular hash function that Bitcoin chooses to use in many scenarios is called SHA-256.
 
@@ -2859,7 +2862,7 @@ Bitcoin, in many cases, uses SHA-256 squared, or SHA256d, which simply means tha
 
 Once on the original message you want to hash, and another time on the output of this first hash.
 
-### Intro: A Tamper-Evident Database
+<h3>Intro: A Tamper-Evident Database</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- image090-a-tamper-evident-database.png -------------------------------------->
@@ -2883,7 +2886,7 @@ Now that we know about cryptographic hash functions and their properties, how do
 
 In this section, we’ll be taking a look at the structure of a block, looking specifically at some of the metadata contained within the block header that will help us achieve tamper evidence.
 
-### Tamper-Evidence
+<h3>Tamper-Evidence</h3>
 
 What does this tamper evident database actually look like?
 
@@ -2929,7 +2932,7 @@ But what is the role of each of these different pieces of information?
 </p>
 &nbsp;
 
-### Dissecting a Block
+<h3>Dissecting a Block</h3>
 
 Here’s what a block looks like conceptually.
 
@@ -2953,7 +2956,7 @@ The “**Transactions**” field is the actual transaction data.
 
 For this lecture, we’re going to focus first on the composition of a block header, the information that enforces the security of the blockchain.
 
-### The Block Header
+<h3>The Block Header</h3>
 
 How does this ensure tamper evidence?
 
@@ -3059,7 +3062,7 @@ This hash at the very top is the Merkle Root.
 
 This way, we can detect any transaction changes after the commitment with the Merkle Root.
 
-### Merkel Trees: Tamper Detection
+<h3>Merkel Trees: Tamper Detection</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!-----------------------------------  -------------------------------------->
@@ -3075,7 +3078,7 @@ This is demonstrated in the following diagram: when Transaction 3 is changed, th
 
 Because of that, the hash above it is also effective, propagating all the way up to the topmost level.
 
-### Merkle Trees: Proof of Inclusion
+<h3>Merkle Trees: Proof of Inclusion</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!-----------------------------------  -------------------------------------->
@@ -3097,7 +3100,7 @@ Hash B, and Hash F.
 
 This is actually a great efficiency gain as our tree grows larger.
 
-### Previous Block Hash
+<h3>Previous Block Hash</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!-----------------------------------  -------------------------------------->
@@ -3209,7 +3212,7 @@ And finally, an easily verifiable puzzle ensures that computers don’t have to 
 
 It should just take one hash for example to prove that some nonce is correct, even if finding the nonce takes millions of tries.
 
-### Proof-of-Work: Mining
+<h3>Proof-of-Work: Mining</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- Proof-of-Work: Mining -------------------------------------->
@@ -3237,7 +3240,7 @@ This compares to mining because miners are looking for some hash output that is 
 
 It’s as if that target is the green line dividing the valid and invalid blocks in the diagram.
 
-### Proof-of-Work: Block Difficulty
+<h3>Proof-of-Work: Block Difficulty</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!-----------------------------------  -------------------------------------->
@@ -3333,7 +3336,7 @@ We mined those blocks in twice the expected time, meaning that the puzzle was tw
 
 The difficulty is inversely proportional to the time to mine.
 
-### Proof-of-Work: Coinbase Transaction
+<h3>Proof-of-Work: Coinbase Transaction</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!-----------------------------------  -------------------------------------->
@@ -3392,7 +3395,7 @@ It would be more expensive to recalculate the merkle root each time on each iter
 
 We optimize by trying nonces in such a way as to only have to calculate the merkle root in each iteration of the outermost loop.
 
-### Intro: Signatures and Authentication
+<h3>Intro: Signatures and Authentication</h3>
 
 Now we’ll go into how to use digital signatures to send messages and transactions both pseudonymously and trustlessly.
 
@@ -3404,7 +3407,7 @@ Recall from early in the course that our motivation for having signatures is to 
 
 In this next section, we’ll go over what we want from a digital signature scheme at a high level.
 
-### Digital Signature Schemes (DSS)
+<h3>Digital Signature Schemes (DSS)</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!-----------------------------------  -------------------------------------->
@@ -3420,7 +3423,7 @@ Recall that they both have private and public keys.
 
 Private and public keys in Bitcoin are generated through an algorithm called ECDSA, or Elliptic
 
-### Curve Digital Signature Algorithm.
+<h3>Curve Digital Signature Algorithm.</h3>
 
 We’ll go over that in the next section.
 
@@ -3495,7 +3498,7 @@ Otherwise, Bob or anyone else would be able to recreate Alice’s signatures and
 
 We’ll see how this is prevented in the next section, where we explain the way we generate public and private key pairs.
 
-### DSS Key Definitions and Takeways
+<h3>DSS Key Definitions and Takeways</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!-----------------------------------  -------------------------------------->
@@ -3523,7 +3526,7 @@ Finally, message recipients should also be able to verify message integrity.
 
 And this is what we saw earlier: that signatures can be used so that messages can't be modified by anyone after signing.
 
-### From Private Keys to Addresses
+<h3>From Private Keys to Addresses</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!-----------------------------------  -------------------------------------->
@@ -3557,7 +3560,7 @@ Alright, so let’s take a look at elliptic curves first.
 </p>
 &nbsp;
 
-### Elliptic Curve Cryptography
+<h3>Elliptic Curve Cryptography</h3>
 
 Bitcoin uses ECDSA, or Elliptic Curve Digital Signature Algorithm, to produce private keys and public keys.
 
@@ -3567,7 +3570,7 @@ We take everything over a finite field because we want to encode every value pos
 
 Here’s a picture of Bitcoin’s elliptic curve, secp256k1, on the right side.
 
-### Elliptic Curve Cryptography: Demo
+<h3>Elliptic Curve Cryptography: Demo</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!-----------------------------------  -------------------------------------->
@@ -3636,7 +3639,7 @@ And this is called the chord tangent process.
 
 This is a trapdoor, or one-way, function, because given a point K that is P + Q, it is difficult to find the individual points P and Q.
 
-### Elliptic Curve Cryptography: Security
+<h3>Elliptic Curve Cryptography: Security</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!-----------------------------------  -------------------------------------->
@@ -3687,7 +3690,7 @@ Together, the combination of using SHA-256 and RIPEMD-160 is called “double ha
 
 After all this, we have our public key hash.
 
-### Public Key to Address
+<h3>Public Key to Address</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------  ---------------------------------->
@@ -4585,6 +4588,7 @@ Dictionary attacks are especially dangerous to those who take their brain wallet
 In general, so long as your words are not closely related, it’s still expensive and improbable that someone would be able to guess and successfully dictionary attack your brain wallet.
 
 <h3>Key Stretching</h3>
+
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- Bitcoin Wallets: Key Stretching (150) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -4663,6 +4667,7 @@ Just like that!
 Some Bitcoin ATMs work a bit differently, and instead of having you scan your QR code, they simply print out a paper wallet for you after you’ve paid your equivalent amount through cash, debit, or credit card.
 
 <h3>Exchanges</h3>
+
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- How Do I Get Bitcoin: Exchanges ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -4775,7 +4780,7 @@ And as long as you’re connected to a variety of nodes, in the long term, the c
 
 And realistically, we can’t afford to put the entire blockchain on our phones or other lightweight devices, so having a thin client running SPV is a pretty decent tradeoff.
 
-### Multisignature
+<h3>Multisignature</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------  ----------------------------->
@@ -4826,7 +4831,7 @@ The exchange can’t use your funds since they only have one key, but if you eve
 
 As you can imagine, this works similarly for 3-of-5 or any other M-of-N multisig.
 
-### Key Generation Best Practices
+<h3>Key Generation Best Practices</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------  ----------------------------->
@@ -4855,7 +4860,7 @@ It’s a little effort that could potentially go along way in saving your Bitcoi
 
 Wallet software will generally handle this anyways, making it so much easier to comply with best practices.
 
-### JBOK Wallets
+<h3>JBOK Wallets</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------  ----------------------------->
@@ -4886,7 +4891,7 @@ You’d have to deal with so many keys, and even more back ups.
 
 That’d be pretty unmanageable.
 
-### HD Wallets
+<h3>HD Wallets</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------  ----------------------------->
@@ -4944,7 +4949,7 @@ And the president would have the most power.
 
 Everyone’s key originates in some way from the president’s master key, so the president would be able to spend from everyone’s wallet.
 
-### Intro: Mining
+<h3>Intro: Mining</h3>
 
 We’ve talked about consensus and Proof-of-Work, but we haven’t really talked about the implementation of mining in Bitcoin.
 
@@ -4953,6 +4958,7 @@ In this module, we’ll be diving into the nitty gritty of how mining manifests 
 We will go through what a miner actually does to validate blocks.
 
 <h3>Recipe for Mining: Overview</h3>
+
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------- Recipe for Mining: Overview (162) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -4982,7 +4988,7 @@ Step 5, if your block gets included in the longest chain: profit!
 
 Let’s go into detail on how each of these steps plays out.
 
-### Recipe for Mining: Step 0
+<h3>Recipe for Mining: Step 0</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ Step 0: Download the Blockchain --------------------------------->
@@ -5007,7 +5013,7 @@ If you want to be a full, independent miner though, you have to do this step.
 
 Now that we have the full history, let’s go ahead and get started with mining!
 
-### Recipe for Mining: Step 1
+<h3>Recipe for Mining: Step 1</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------------- Step 1: Verify Transactions ---------------------------------->
@@ -5016,7 +5022,7 @@ Now that we have the full history, let’s go ahead and get started with mining!
 <img src="/images/image159.png" alt="Step 1: Verify Transactions" style="width:5in;height:2.8in" />
 </p>
 
-### Step 1, verify transactions.
+<h3>Step 1, verify transactions</h3>
 
 Bitcoin users are sending transactions to the Bitcoin network every second, and it’s the miners’ jobs to verify the validity of those transactions.
 
@@ -5030,7 +5036,7 @@ They verify the validity of each by running the unlocking script as mentioned in
 
 If that piece of code is able to successfully unlock the previous bitcoins, then the transaction goes through.
 
-### Recipe for Mining: Step 2
+<h3>Recipe for Mining: Step 2</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------------- Step 2: Create a Block -------------------------------------->
@@ -5045,7 +5051,7 @@ As previously mentioned, there are several pieces of information necessary to co
 
 After constructing the block data, we are finally able to start working on the most expensive part of the mining process, the step that earned this whole process of Proof-of-Work the “mining” title: finding a valid nonce.
 
-### Recipe for Mining: Step 3
+<h3>Recipe for Mining: Step 3</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------------- Step 3: Find a Valid Nonce ----------------------------------->
@@ -5076,7 +5082,7 @@ Our mining puzzle is completely different.
 
 We go through these loops until finally we find a valid nonce.
 
-### Recipe for Mining: Step 4
+<h3>Recipe for Mining: Step 4</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- Recipe for Mining: Step 4: Broadcast -------------------------------->
@@ -5103,7 +5109,7 @@ All we can do is hope that we got lucky.
 
 That’s all Proof-of-Work really is at its base, a random lottery.
 
-### Recipe for Mining: Step 5
+<h3>Recipe for Mining: Step 5</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- Recipe for Mining: Step 5: Profit --------------------------------->
@@ -5134,7 +5140,7 @@ Text: Recipe for Mining:
 
 Author: Rea Savla
 
-### Step 0:
+<h3>Step 0:</h3>
 
 -   Download the entire Bitcoin blockchain. This only has to be done once. 
 
@@ -5149,7 +5155,7 @@ Author: Rea Savla
 <img src="/images/image165-step0-download-blockchain.png" alt="Step 0: Download Entire Blockchain" style="width:5in;height:2.8in" />
 </p>
 
-### Step 1:
+<h3>Step 1:</h3>
 
 -   Verify transactions.
 
@@ -5168,7 +5174,7 @@ Author: Rea Savla
 <img src="/images/image165-step1-verify-transactions.png" alt="Step 1: Verify Transactions" style="width:5in;height:2.8in" />
 </p>
 
-### Step 2:
+<h3>Step 2:</h3>
 
 -   Create the block with the given transactions and necessary metadata, such as time, version, and target.
 
@@ -5185,7 +5191,7 @@ Author: Rea Savla
 <img src="/images/image165-step2-create-block.png" alt="Step 2: Create the block with the given transactions and necessary metadata" style="width:5in;height:2.8in" />
 </p>
 
-### Step 3:
+<h3>Step 3:</h3>
 
 -   Find the proof-of-work that solves the partial preimage hash puzzle. 
 
@@ -5203,7 +5209,7 @@ Author: Rea Savla
 	style="width:5in;height:2.8in" />
 </p>
 
-### Step 4:
+<h3>Step 4:</h3>
 
 -   Broadcast your block if you have not yet seen any competitor blocks.
 
@@ -5220,7 +5226,7 @@ Author: Rea Savla
 	style="width:5in;height:2.8in" />
 </p>
 
-### Step 5:
+<h3>Step 5:</h3>
 
 -   If your block makes it into the longest chain, you profit!
 
@@ -5230,9 +5236,9 @@ Author: Rea Savla
 
     -   Note: When two valid blocks are submitted to the network at roughly the same time, resulting in a fork, honest miners choose to mine on whichever block they see first. You will not receive block reward if the other fork grows longer. 
 
-### Mining Incentives: Intro
+<h3>Mining Incentives: Intro</h3>
 
-So why do we do things?
+Why do we do things?
 
 Why do we work at a job?
 
@@ -5275,7 +5281,7 @@ This means that, only if the revenue exceeds the cost, will you get profit.
 
 Every single person in the Bitcoin network is presumably maximizing the value of their own profit to the best of their ability.
 
-### Mining Incentives: Block Reward
+<h3>Mining Incentives: Block Reward</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------- Mining Incentives: How to Profit From Mining  ------------------------>
@@ -5335,7 +5341,7 @@ For example, approximately 1 million belongs to Satoshi Nakamoto, and it is poss
 
 In addition, some private keys have been lost, and some bitcoins have been burned, all decreasing the usable supply cap.
 
-### Mining Incentives: Transaction Fees
+<h3>Mining Incentives: Transaction Fees</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ Mining Incentives: Transaction Fees  ---------------------------->
@@ -5366,7 +5372,7 @@ Notice one thing as the block reward diminishes, transaction fees will go up if 
 
 As block rewards approach zero, transaction fees will become the primary source of revenue for miners.
 
-### Mining Costs: Fixed Costs
+<h3>Mining Costs: Fixed Costs</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- Mining Incentives: How to Profit From Mining  --------------------->
@@ -5389,7 +5395,7 @@ There are a few different types of hardware, ranging from generic computation de
 
 This logarithmically scaled graph here shows a quick overview of the growth of mining power produced by miners, which as you can tell has grown incredibly, several orders of magnitude since the start of Bitcoin.
 
-### Types of Hardware
+<h3>Types of Hardware</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- Mining Incentives: Fixed Cost: CPU Mining ------------------------->
@@ -5482,7 +5488,7 @@ Not only do ASICs take a lot of upfront capital to produce, but they also need t
 
 A fun stat: one of the most popular and powerful ASICs, the Antminer S9, can perform 14 trillion hashes per second but would still take about 10.9 years to find a block.
 
-### Mining Costs: Operating Costs
+<h3>Mining Costs: Operating Costs</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!-------- Mining Incentives: How to Profit from Mining ---------->
@@ -5533,7 +5539,7 @@ Keep in mind that most mining operations, don’t turn a profit for quite a whil
 
 Speaking of ASIC farms, we’ll go ahead and examine what some mining operations look like in the real world in the next section.
 
-### Intro: Real World Mining
+<h3>Intro: Real World Mining</h3>
 
 We’ve seen and understood mining from the theoretical and technical side, but what does it look like in practice?
 
@@ -5543,7 +5549,7 @@ Theory and practice often differ in a lot of scenarios, and this is definitely t
 
 We’ll see that while the initial goal of Bitcoin was to be decentralized, honoring the “one CPU one vote” mantra, this could not be farther from the truth.
 
-### ASICs
+<h3>ASICs</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!-------- Real World Mining: Chinese ASIC Mining Farm ---------->
@@ -5590,7 +5596,7 @@ But of course, even with the most impressive technology, it still takes far too 
 
 Is there any way that we can reduce the amount of time it takes for us to get profit from our hardware?
 
-### Mining Pools
+<h3>Mining Pools</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!-------- Real World Mining: Mining Pools ---------->
@@ -5651,7 +5657,7 @@ If a miner wants to get rewards for themselves, they’d have to change the coin
 
 Thus, they wouldn’t get any shares from the mining pool, since the mining pool manager would see that the miner’s coinbase transaction does not pay to the manager’s address.
 
-### Mining Pool Schemes
+<h3>Mining Pool Schemes</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!-------- Real World Mining: Mining Pool Schemes ---------->
@@ -5705,7 +5711,7 @@ The point is that there are many ways to go about paying miners, and each one ha
 
 It all depends on the size and assumptions of the mining pool.
 
-### Mining Pool Pros and Cons
+<h3>Mining Pool Pros and Cons</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!-------- Real World Mining: Mining Pools: Pros and Cons ---------->
@@ -5761,7 +5767,7 @@ Because of this, the graph is only a high-level estimate.
 
 We don’t know the true concentration of control over mining hardware, and we may never know.
 
-### Mining Pool Stats
+<h3>Mining Pool Stats</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!--------  ---------->
@@ -5810,7 +5816,7 @@ And anyways, your ASICs will probably be really out of date in a couple years, s
 
 This leads to the paradox that: the more secure Bitcoin gets, with more and more hash power, the greater the appeal is for joining a mining pool, since your individual hash power decreases when more hash power joins the network.
 
-### Types of Miners
+<h3>Types of Miners</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!--------  ---------->
@@ -5843,7 +5849,7 @@ Supplement: Lightweight Mining
 
 Author: David Luo
 
-### Overview
+<h3>Overview</h3>
 
 Simple Payment Verification (SPV) is a method for verifying if particular transactions are included in a block by only having to download the block headers of each block, instead of the entire block, which includes all of the transactions.
 
@@ -5863,7 +5869,7 @@ If a block is found, it is bound to this template, which includes the coinbase t
 
 This way, a user cannot steal the reward for themselves if they find a block.
 
-### getwork, getblocktemplate, and Stratum
+<h3>getwork, getblocktemplate, and Stratum</h3>
 
 getwork is a remote procedure call method that a client can call to get a block header from a mining pool operator.
 
@@ -5887,7 +5893,7 @@ Similar to getblocktemplate, the server sends the client a block template.
 
 However, in Stratum only the block header and first transaction are included, instead of the entire block.
 
-### Validationless Mining
+<h3>Validationless Mining</h3>
 
 In order to mine, a client needs to have the block header hash of the previous block, which comes from the block header of the previous block, which in turn is generated from previous block.
 
@@ -5897,11 +5903,11 @@ They can simply receive this value from an external source and mine on that bloc
 
 This comes with one caveat, however, as the miner cannot validate the block header hash and must place trust in whatever source such as a pool operator they are getting the block header hash from.
 
-### Spy Mining
+<h3>Spy Mining</h3>
 
 In mining pools, once a block is found, the block header hash is sent imimagestely to the miners so they can all start mining on the new block as soon as possible. Competing miners that are outside of this mining pool can take advantage of this by **connecting to the mining pool**, listen for the **block header hash**, and **mine on it for themselves**.
 
-### Intro: Bitcoin Governance
+<h3>Intro: Bitcoin Governance</h3>
 
 We’ve discussed many of Bitcoin’s underlying mechanisms and protocols, but we haven’t talked about how those changes came to be.
 
@@ -5911,7 +5917,7 @@ For example, some may feel that it needs to be tied in more to the original cyph
 
 In this section, we’ll be specifically talking about concerns of mining centralization, proposed changes to Bitcoin’s mining puzzle, and making consensus updates in Bitcoin.
 
-### Ensuring Decentralization
+<h3>Ensuring Decentralization</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- --------------------------------->
@@ -5961,7 +5967,7 @@ Bitcoin’s puzzle is described as a partial hash preimage puzzle.
 
 You don’t have to find the exact preimage of the hash, as long as you have the prerequisite number of leading zeros.
 
-### Ensuring Decentralization: ASIC Resistance
+<h3>Ensuring Decentralization: ASIC Resistance</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- Decentralized Mining: ASIC-Resistance ------------------------------>
@@ -6072,7 +6078,7 @@ In cryptocurrencies, that can take the form of working to create ASICs for new h
 
 Mike Hearn, a Bitcoin Core developer said (quote) “There’s really no such thing as an ASIC-resistant algorithm.”
 
-### Ensuring Decentralization: ASIC Debate
+<h3>Ensuring Decentralization: ASIC Debate</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------- --------------------------->
@@ -6107,7 +6113,7 @@ Mining pools have historically disbanded once they’ve gotten too large, since 
 
 This idea of useless hardware and wasted hashpower leads us to our next slide.
 
-### Eliminating Waste
+<h3>Eliminating Waste</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------- --------------------------->
@@ -6169,7 +6175,7 @@ When we rely on a central authority or central entity to create the problem.
 
 In summary, proof of useful work sounds like a great idea, but it’s incredibly difficult to implement.
 
-### Consensus Updates: Bitcoin Core
+<h3>Consensus Updates: Bitcoin Core</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------- --------------------------->
@@ -6186,7 +6192,8 @@ There is a centralized team working on these protocol changes, the Bitcoin Core 
 
 This is the software that’s used in full nodes.
 
-### Consensus Updates: Forks
+<h3>Consensus Updates: Forks</h3>
+
 <!------------------------------------------------------------------------------------------------>
 <!--------  ---------->
 <!------------------------------------------------------------------------------------------------>
@@ -6224,7 +6231,7 @@ The new nodes then pressure the old nodes to adapt the new protocol, so that the
 
 Before every fork, hard or soft, the entire community launches into debates about the future of Bitcoin.
 
-### Consensus Updates: BIPs
+<h3>Consensus Updates: BIPs</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------- --------------------------->
@@ -6256,11 +6263,11 @@ The first BIP was by Amit Taaki in 2011, and was actually a BIP to make BIPs.
 
 Miners vote on BIPs by including a reference to that BIP in the block that they mine.
 
-### Text: Lecture 4 Summary
+<h3>Text: Lecture 4 Summary</h3>
 
 Author: Rea Savla
 
-### I. Types of Users
+<h3>I. Types of Users</h3>
 
 Bitcoin makes the distinction of 4 key functionalities ([Mastering Bitcoin <u>Opens in new window</u>](https://unglueit-files.s3.amazonaws.com/ebf/05db7df4f31840f0a873d6ea14dcc28d.pdf), p.152) that every node in the network is a combination of:
 
@@ -6285,7 +6292,7 @@ We can make powerful generalizations using these 4 key characteristics, however 
 
 Image Source: [Mastering Bitcoin Opens in new window](https://github.com/bitcoinbook/bitcoinbook)
 
-### II. Wallets
+<h3>II. Wallets</h3>
 
 The primary function of Bitcoin wallets is to keep track of your identity. In Bitcoin, a private key gives you a claim to your virtual identity; it unlocks your virtual identity and gives you access to your Bitcoin address. Wallets primarily store your private keys, but most wallet softwares also generate public/private keys with each new transaction and track your transactions. Unlike the physical wallets we use for money, Bitcoin wallets do not store physical bitcoins. They’re simply impossible to store. Hence, control over private keys is essentially control over identity and bitcoins.
 
@@ -6293,7 +6300,7 @@ There are two types of Bitcoin wallets: hot wallets (Mycelium, AirBitz, Webapp, 
 
 You can find them at Bitcoin ATMs, where you can trade cash for bitcoins. You can also get bitcoins through an exchange, where you can trade between different types of fiat currencies and cryptocurrencies. Centralized exchanges are easy to use and access, but are single points of failure which may be vulnerable to hacks. Decentralized exchanges (i.e. Bitshares and Bitsquare) conduct trades directly between users by creating proxy tokens and are mostly trustless but may suffer from liquidity problems. 
 
-### III. Wallet Mechanics
+<h3>III. Wallet Mechanics</h3>
 
 For wallets to successfully keep track of your identity and bitcoin, they must implement mechanisms to verify transactions and keep track of many keys. 
 
@@ -6305,7 +6312,7 @@ The traditional way to keep track of a large number of keys is through a “Just
 
 Hierarchically Deterministic (HD) Wallets overcome this problem by deriving all new keys from an original random seed value. In HD Wallets, anyone controlling the parent key can also generate and control child keys.
 
-### IV. Mining
+<h3>IV. Mining</h3>
 
 Mining in Bitcoin requires miners to verify incoming transactions, create a block, find a valid nonce, broadcast the block, and earn a profit in bitcoins.
 
@@ -6319,7 +6326,7 @@ The main fixed cost in mining is the hardware that allows users to mine. CPUs, G
 
 The main variable costs associated with mining are energy and infrastructure costs (i.e. warehouse and personnel). Energy costs are further divided into three types: Embodied Energy, to produce hardware; Electricity, to power hardware; and Cooling, to maintain hardware.
 
-### V. Real World Mining
+<h3>V. Real World Mining</h3>
 
 To get a better sense of how mining looks in real life, here is what a real-world ASIC mining farm in China looks like:
 
@@ -6343,7 +6350,7 @@ Proportional Schemes, where miners receive a reward proportional to the number o
 
 Pay-per-Share pools are advantageous to the miner because of guaranteed payouts, but risky for the pool because miners have no incentive to submit valid blocks to the pool. Proportional Schemes are advantageous for the pool because the pool operator only pays out after a block is found, but more risky for the miner due to greater variance of reward.
 
-### VI. Changing Bitcoin
+<h3>VI. Changing Bitcoin</h3>
 
 One of the current challenges of Bitcoin is that mining is tending towards centralization with the development of ASICs, mining pools, and mining farms. ASICs cost a lot of money, which means only those with access to high volumes of capital can afford them, thereby concentrating the mining power into the hands of a few. To address this issue, we must develop a tweak to the protocol that reduces centralization but still adheres by the puzzle requirements (quick to verify, adjustable difficulty, and computationally difficult).
 
@@ -6353,7 +6360,8 @@ While ASIC resistance may decentralize mining and make it a more democratic proc
 
 Real changes are implemented in Bitcoin via hard or soft forks. Hard forks result from a new protocol that does things not allowed in the old protocol. In a soft fork, the rules of the protocol are only restrained. A soft fork is backwards compatible but not forwards compatible.
 
-### Hard Fork:
+<h3>Hard Fork:</h3>
+
 <!------------------------------------------------------------------------------------------------>
 <!---------------------- Hard fork real changes implemented in Bitcoin --------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -6361,7 +6369,8 @@ Real changes are implemented in Bitcoin via hard or soft forks. Hard forks resul
 <img width="90%" src="/images/image229.png" alt="Hard fork real changes implemented in Bitcoin"</>
 </p>
 
-### Soft Fork:
+<h3>Soft Fork:</h3>
+
 <!------------------------------------------------------------------------------------------------>
 <!---------------------- Soft fork real changes implemented in Bitcoin --------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -6385,7 +6394,7 @@ Readings
 
 (Optional) [BlockShell Opens in new window](https://github.com/rustielin/blockshell) (set up and play around with the CLI)
 
-### Module 5: How to Destroy Bitcoin: Game Theory & Attacks
+<h3>Module 5: How to Destroy Bitcoin: Game Theory & Attacks</h3>
 
 With all our knowledge so far, we have a pretty good understanding of Bitcoin high level motivations and design, as well as low level mechanics.
 
@@ -6397,7 +6406,7 @@ One note is that although we have been focusing primarily on Bitcoin so far, now
 
 This module is called “How to Destroy Bitcoin: Game Theory and Attacks” but you can understand that the game theoretical approach and analysis of attack vectors applies to all proof-of-work blockchains -- not just Bitcoin.
 
-### Intro: Pool Strategies
+<h3>Intro: Pool Strategies</h3>
 
 As we explained in the previous module, everything is driven by profit -- and Bitcoin is certainly no exception.
 
@@ -6409,7 +6418,7 @@ As we’ll see in this section, there are some strategies you can employ to incr
 
 And when it comes to making the most profit, honest strategies are NOT usually the best way to go.
 
-### Pool Reward Scheme Review
+<h3>Pool Reward Scheme Review</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- Pool Reward Schemes: Reviews ------------------------------->
@@ -6445,7 +6454,8 @@ For the same reason, proportional pay-out schemes are beneficial to the pool, si
 
 Given the incentive structures in both pay per share and proportional pool pay-out schemes, is it possible that pools are vulnerable to some incentive misalignment?
 
-### Pool Hopping
+<h3>Pool Hopping</h3>
+
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- Pool Rewards: Pool Hopping Strategy ------------------------------>
 <!------------------------------------------------------------------------------------------------>
@@ -6549,7 +6559,7 @@ Pay-per-share pools are the inverse, as previously mentioned.
 
 We’ll see how this misalignment of incentives in pay-per-share models can lead to even further attacks.
 
-### Pool Cannibalization
+<h3>Pool Cannibalization</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------- Pool Cannibalization: Strategy --------------------------------->
@@ -6675,7 +6685,7 @@ Is everyone going to start being dishonest for profit?
 
 Are pools going to wage war on each other through this attack?
 
-### Nash Equilibrium and the Tragedy of the Commons
+<h3>Nash Equilibrium and the Tragedy of the Commons</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------- Pool Wars: The Game of Life ----------------------------------->
@@ -6769,7 +6779,7 @@ Because of this, you can see the problem as a Tragedy of the Commons, in which a
 
 It all comes back to this issue of aligning personal incentives with group incentives.
 
-### Supplement Game Theory
+<h3>Supplement Game Theory</h3>
 
 Author: Rea Savla
 
@@ -6813,7 +6823,7 @@ We can see that the scenario in which both players choose to act dishonestly is 
 
 If you are interested in learning more about introductory game theory, we recommend the following reading: [A Brief Introduction to Basics of Game Theory ](https://www.ethz.ch/content/dam/ethz/special-interest/gess/chair-of-sociology-dam/documents/education/spieltheorie/literatur/Einf%C3%BChrung/Jackson%20Basics%20of%20Game%20Theory%20SSRN-id1968579.pdf)by Matthew O. Jackson, Stanford University.
 
-### Intro: Double Spending
+<h3>Intro: Double Spending</h3>
 
 Now that we’ve discussed some pool game theory, let’s go ahead and revisit the classic attack of the cryptocurrency world: the double spend attack.
 
@@ -6827,7 +6837,7 @@ Can I double spend with less than a majority of the voting power?
 
 We’ll answer all those questions for you in this upcoming module.
 
-### Race Attack
+<h3>Race Attack</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- --------------------------------->
@@ -6945,7 +6955,7 @@ Hence, the plus one.
 
 Let’s go ahead and see a demonstration.
 
-### Demo: Confirmations
+<h3>Demo: Confirmations</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- --------------------------------->
@@ -7019,7 +7029,7 @@ You might be wondering: what is the probability of me being able to produce a ch
 
 Well, we’ll see right away how that’s possible.
 
-### Probability Analysis
+<h3>Probability Analysis</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- --------------------------------->
@@ -7071,7 +7081,7 @@ With more than 50%, say 51%, I will always be able to double spend.
 
 I will always be in full control of which blocks are included within the history of transactions.
 
-### Goldfinger Attack
+<h3>Goldfinger Attack</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- --------------------------------->
@@ -7113,7 +7123,7 @@ I can first place a bet that Bitcoin is going to go down in value, then I can la
 
 At this point, double spending on someone is -- interestingly enough -- just a means to an end.
 
-### Intro: Censorship Attacks
+<h3>Intro: Censorship Attacks</h3>
 
 Thus far, we’ve looked at examples of how users with enough hashpower can take advantage of the properties of the blockchain in order to maliciously double spend their coins.
 
@@ -7121,7 +7131,7 @@ Now, we’ll look at another sort of attack: the censorship of transactions.
 
 With censorship, we can choose to ignore the transactions from an individual or group of individuals, isolating them from the network and effectively rendering their bitcoins useless.
 
-### Censorship Attacks: Naive Censorship
+<h3>Censorship Attacks: Naive Censorship</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- --------------------------------->
@@ -7147,7 +7157,7 @@ This doesn’t fully blacklist me, and only ends up causing delays and inconveni
 
 Gloria has.
 
-### Censorship Attacks: Punitive Forking
+<h3>Censorship Attacks: Punitive Forking</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- --------------------------------->
@@ -7229,7 +7239,7 @@ They now have to decide whether they should include my transaction in their bloc
 
 Therefore, looking at the math, unless I pay at least q\^2 times the block reward in transaction fees, other miners will mine on the malicious chain. As of April 17th 2018, that would be a \$4000 minimum tx fee, which is incredibly limiting. It’s very likely that I won’t be able to afford those transaction costs, so I won’t be even be able to send my transactions through. Thus, Gloria has succeeded in censoring my transactions with only 20% of the total hashrate.
 
-Intro: Selfish Mining
+<h3>Intro: Selfish Mining</h3>
 
 It's important to consider how rational and malicious actors will behave to increase the amount of money that they make.
 
@@ -7239,7 +7249,7 @@ If there’s a way for miners to maximize profit, assume that they will do so, e
 
 One of the best examples of this sort of behavior is selfish mining.
 
-### Selfish Mining Attacks
+<h3>Selfish Mining Attacks</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- --------------------------------->
@@ -7313,7 +7323,7 @@ If you have greater than 33% of the hashpower, you can lose the propagation race
 
 The math behind these results is omitted here due to complexity, but you’re more than encouraged to look into it!
 
-### Intro: Defenses
+<h3>Intro: Defenses</h3>
 
 As malicious miners are incentivized by higher potential profits to attack or try to subvert the network, honest individuals are incentivized to prevent such behavior.
 
@@ -7323,7 +7333,7 @@ In this next section we’ll be taking a look at some of the defenses we have to
 
 We’ll first take a look at some of the more naive defenses, and see what we can improve from there.
 
-### Block Validation
+<h3>Block Validation</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- --------------------------------->
@@ -7383,7 +7393,7 @@ Furthermore, another downside to having dummy signature blocks is that their imp
 
 Such a change would require a hard fork, which is undesirable.
 
-### Fork Publishment
+<h3>Fork Publishment</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- --------------------------------->
@@ -7421,7 +7431,7 @@ To do this and also to forward half of the block reward to the next block, we’
 
 And in the end, fork punishment would require a hard fork to implement, and as before, that’s pretty undesirable.
 
-### Uniform Tie-Breaking
+<h3>Uniform Tie-Breaking</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- --------------------------------->
@@ -7507,7 +7517,7 @@ The drawback here is that Bitcoin aims to be as decentralized as possible, and w
 
 So, we’ll skip this for now.
 
-### Publish or Perish: Overview
+<h3>Publish or Perish: Overview</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- --------------------------------->
@@ -7636,7 +7646,7 @@ On the other hand, if the selfish miner keeps their block secret and misses the 
 
 The key takeway is that no matter which option the selfish miner chooses in the end, neither option gives weight to the selfish chain that is not also given to the honest chain.
 
-### Publish or Perish: Analysis
+<h3>Publish or Perish: Analysis</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------- Publish or Perish: Analysis ----------------------------------->
@@ -7754,7 +7764,7 @@ However, analyzing publish or perish and all the other works we’ve looked thro
 
 Maybe porting over publish or perish into an asynchronous model is a good direction for how we can approach defending against selfish miners.
 
-### The Bitcoin Network
+<h3>The Bitcoin Network</h3>
 
 Taking a step back from analyzing individual defenses, it’s important to understand the actual Bitcoin network itself.
 
@@ -7942,13 +7952,13 @@ He also has unique ownership of the network topology, since he owns a lot of nod
 
 As a closing note, know that outside of what we presented in this module, there are a lot more attacks and defenses, such as eclipse attacks and stubborn mining, which take into account network latency, topology, and more.
 
-### Text: Lecture 5 Summary
+<h3>Text: Lecture 5 Summary</h3>
 
 Author: Rea Savla 
 
-### I. Pool Strategies
+<h3>I. Pool Strategies</h3>
 
-### I.I Pool Hopping
+<h3>I.I Pool Hopping</h3>
 
 Miners can maximize profits via pool hopping. This occurs when miners switch between Pay-per-Share and Proportional scheme mining pools to whichever payment protocol produces a higher rewards per additional share. In this scenario, honest and loyal pool miners will be cheated out of their profits by miners who pool hop and cause inconsistency in the pool’s hash rate.
 
@@ -7959,7 +7969,7 @@ Miners can maximize profits via pool hopping. This occurs when miners switch bet
 <img src="/images/image301.png "Reward Per Share for Pay-Per-Share & Proportional Pools" style="width:5in;height:3.9in" />
 &nbsp;
 
-### I.II Pool Cannibalization
+<h3>I.II Pool Cannibalization</h3>
 
 In this attack, pool miners distribute a small percent of mining power equally among other pools, without ever submitting valid blocks. In doing so, we increase personal profits to the detriment of our mining pools. Pool Cannibalization is very difficult to detect, unless statistically significant. Since it is more profitable to be dishonest than honest, miners are incentivized to spend mining power cannibalizing each other rather than increasing the useful hashrate for finding the next valid block.
 
@@ -7974,7 +7984,7 @@ If we model the choice between attacking and not attacking the Bitcoin network u
 
 In this situation, the Nash Equilibrium, or the position from which no actor can change their position to improve their outcome, is also known as the Tragedy of the Commons,where each individual actor finds it individually beneficial to exploit the public good, leading to the ultimate deterioration of the public good.
 
-### II. The Double Spend Attack
+<h3>II. The Double Spend Attack</h3>
 
 The double spend attack occurs when an individual successfully spends the same value more than once. You can double spend via race attack:
 
@@ -7995,15 +8005,15 @@ To protect against this type of attack, the victim should wait for kconfirmation
 <img src="/images/image303.png "Graph demonstrating the relationship between chains and their lengths" style="width:4in;height:2.8in" />
 &nbsp;
 
-### III. The 51 Percent Attack
+<h3>III. The 51 Percent Attack</h3>
 
 If you, the attacker, have any more than 50 percent of network hashrate, then you will always be able to double spend because you will always be able to create the longest chain, and since you would be in full control of which blocks are included within that chain. Since individuals on the network would just leave the network when they see a 51 percent attack, and subsequently devalue bitcoin, conducting such an attack is too risky.
 
-### IV. The Goldfinger Attack** **
+<h3>IV. The Goldfinger Attack</h3>
 
 The Goldfinger Attack allows attackers to still profit off of the destruction of Bitcoin. Attackers can “short,” or place a bet on the devaluation of bitcoin.
 
-### V. Censorship
+<h3>V. Censorship</h3>
 
 In addition to attacking Bitcoin by leveraging hashpower, you can also attack the network via censorship. With censorship, we can choose to ignore the transactions from an individual or group of individuals, isolating them from the network and effectively rendering their bitcoins useless.
 
@@ -8011,11 +8021,11 @@ A mining pool with more than 51 percent of the network hashrate can decide not t
 
 Even without 51 percent of the network hashrate, you can censor another address’ transactions using feather forking. In feather forking, the attacker announces they will attempt to fork if they see a block with a certain address’ transactions, but will give up after kconfirmations. Even though the attacker has a low chance of orphaning, or excluding, that block, miners will ignore blocks with the given address. This happens because miners are incentivized primarily by the profit they expect to earn from mining a particular block. Even if there is a small chance of the attacker forking a block with the given address, the math works out such that the expected profit of ignoring that transaction will exceed that of including it. Thus the victim has to pay a much higher transaction fee to incentivize miners to include their transaction.
 
-### VI. Selfish Mining
+<h3>VI. Selfish Mining</h3>
 
 Upon being the first to find a valid block, you can withhold that block from the network and continue to work on it privately. If you find two blocks on your secret chain before the network finds the next one, then you suddenly have the longest chain. This means you get at least two block rewards and you have fooled the network into working on an honest chain that you will render useless. You can keep doing this and submit your longer, secret chain to the network right before you think the network is going to catch up to you. This is selfish mining.
 
-### VII. Defense
+<h3>VII. Defense</h3>
 
  We discussed several theorized defenses to selfish mining including
 
@@ -8029,13 +8039,13 @@ Upon being the first to find a valid block, you can withhold that block from the
 
 However, according to Vitalik Buterin, "in practice, most Bitcoin miners act altruistically to support the network, both out of ideological considerations and because they do not want to destabilize the source of their own revenue. Such higher-level economic concerns are beyond the scope of Eyal and Sirer’s paper, but they seriously reduce the chance that this economic attack will work in practice" ([Bitcoin Magazine Opens in new window](https://bitcoinmagazine.com/articles/selfish-mining-a-25-attack-against-the-bitcoin-network-1383578440/), 2013).
 
-### VIII. The Bitcoin Network
+<h3>VIII. The Bitcoin Network</h3>
 
 In addition to individual attacks, the architecture of the Bitcoin network itself contains vulnerabilities. The Bitcoin protocol is P2P, in which messages get sent via a gossip protocol, where each node passes a message to its connected nodes. Though we would like an even topology, this is not the case. Nodes with higher hashrate, perhaps from running mining pools, may have miners connected to them directly on a lightweight protocol, or a secret subgraph. Due to this hidden graph topology, a user could potentially hide that it has more than 50% of the network hash power.
 
 In addition to network topology, network latency also poses as an issue. Nodes that are better connected to the network see things faster and can send out messages and blocks to the network more quickly. This leads to disproportionate profits in miners.
 
-### Readings
+<h3>Readings</h3>
 
 [Selfish Mining: A 25% Attack Against the Bitcoin Network Opens in new window](https://bitcoinmagazine.com/articles/selfish-mining-a-25-attack-against-the-bitcoin-network-1383578440/)
 
@@ -8083,7 +8093,7 @@ With these accumulated sets of knowledge, we are now going to take you from Bitc
 
 In this module, we’ll be looking at Ethereum and blockchain use cases.
 
-### Intro: Smart Contracts
+<h3>Intro: Smart Contracts</h3>
 
 In the past, we talked about how Bitcoin enabled users to conduct transactions that were decentralized and trustless.
 
@@ -8097,7 +8107,7 @@ Then, we’ll look at what we need in a framework that allows us to run smart co
 
 As we did with Bitcoin, we’ll first look at the high level features that we want to see in Ethereum -- mainly the support of smart contracts -- and then see how they’re implemented at a lower level.
 
-### Bitcoin Review
+<h3>Bitcoin Review</h3>
 <!----done & done ----->
 
 <!------------------------------------------------------------------------------------------------>
@@ -8316,7 +8326,7 @@ But now we can finally ask, what exactly is Ethereum and how does it work?
 
 As it turns out, leveraging our understanding of Bitcoin’s inner workings makes understanding Ethereum a whole lot more accessible.
 
-### High Level Overview
+<h3>High Level Overview</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- --------------------------------->
@@ -8380,7 +8390,7 @@ So, he made Ethereum.
 
 And one of the most notable features is that it supports a turing complete scripting language.
 
-### Ethereum vs Bitcoin
+<h3>Ethereum vs Bitcoin</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- --------------------------------->
@@ -8418,7 +8428,7 @@ So, a wider variety of applications can be made on Ethereum than on Bitcoin, mak
 
 Another key difference is that Bitcoin is UTXO-based, whereas Ethereum is account based.
 
-### Ethereum Features
+<h3>Ethereum Features</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- --------------------------------->
@@ -8543,7 +8553,7 @@ For example, you can define m of n multisignature, which is also something we lo
    width="50%" </>
 </p>
 
-### Intro: Ethereum Virtual Machine
+<h3>Intro: Ethereum Virtual Machine</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------  -------------------------->
@@ -8578,7 +8588,7 @@ What happens under the hood that enables the distributed and decentralized execu
 
 In this section, we’ll be looking at the Ethereum Virtual Machine -- the heart of Ethereum -- which enables the Ethereum blockchain to be programmable.
 
-### Understanding Ethereum Virtual Machine
+<h3>Understanding Ethereum Virtual Machine</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------  -------------------------->
@@ -8705,7 +8715,7 @@ And over on the right side, we can see a graph of Ethereum’s network hash rate
 
 As of May 23rd, 2018, Ethereum has roughly 275,000 GH/s whereas Bitcoin has a whopping 31,000,000 TH/s
 
-### Ethereum Virtual Machine: Overview
+<h3>Ethereum Virtual Machine: Overview</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------  -------------------------->
@@ -8842,7 +8852,7 @@ Basically, everything you need to correctly execute a transaction.
 
 And you feed this into the EVM, and get out the new block state, with all the updated account balances and internal state, and the new gas value, which gets refunded.
 
-### Ethereum Conclusions
+<h3>Ethereum Conclusions</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------  ---------------------------------->
@@ -8876,7 +8886,7 @@ For example, you shouldn’t be training machine learning models or doing anythi
 
 So hopefully this creates an incentive not to use the blockchain for computation that can be done off chain.
 
-### Intro: Ethereum Use Cases
+<h3>Intro: Ethereum Use Cases</h3>
 
 In this next section, we’ll go over both basic and advanced use cases enabled by smart contracts.
 
@@ -8884,7 +8894,7 @@ In these use cases, we will present how we can leverage a particular blockchain 
 
 This is not a necessarily a stamp of approval on the use case, but an opportunity for us to demonstrate the unique and meaningful features provided by a blockchain.
 
-### Basic Use Cases: Smart Assets
+<h3>Basic Use Cases: Smart Assets</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------  ---------------------------------->
@@ -8912,7 +8922,7 @@ It should be noted now that building functional smart contracts and building sec
 
 Securing smart contracts is incredibly tough, as you may have figured out from recent news about smart contract hacks.
 
-### Basic Use Cases: Multisig
+<h3>Basic Use Cases: Multisig</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------  ---------------------------------->
@@ -8940,7 +8950,7 @@ The shown code on the right is the constructor for the contract, establishing th
 
 The value of threshold corresponds to m, and the number of owners represents n.
 
-### Basic Use Cases: Proof of Existence
+<h3>Basic Use Cases: Proof of Existence</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------  ---------------------------------->
@@ -8990,7 +9000,7 @@ In a smart contract, we can easily design a scheme that creates associations bet
 
 We’ll expand on how we take advantage of these properties in the Advanced Use Cases section.
 
-### Advanced Use Cases: Land Titles
+<h3>Advanced Use Cases: Land Titles</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------  ---------------------------------->
@@ -9056,7 +9066,7 @@ This problem has yet to be solved.
 
 Georgia, Ukraine, and Sweden are a few of the major countries tackling decentralized land titles, and several companies are seeking to make decentralized oracle systems as well.
 
-### Advanced Use Cases: Prediction Markets
+<h3>Advanced Use Cases: Prediction Markets</h3>
 <!------------------------------------------------------------------------------------------------>
 <!------------------- Prediction Markets: Draws on the Wisdom of the Crowd ----------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -9155,7 +9165,7 @@ Eventually, only the regularly successful will bet, meaning that policies will b
 
 Research is still being done to examine the feasibility of futarchy on a blockchain, particularly by Gnosis.
 
-### Advanced Use Cases: Supply Chain
+<h3>Advanced Use Cases: Supply Chain</h3>
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------- Supply Chain and Provenance ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -9185,7 +9195,8 @@ There are some caveats however, which include the issue of representing real wor
 
 We have to trust that individuals are not bribed to include false information in the blockchain, and we also have to trust that the identifier of the diamond was not tampered with in the process.
 
-### Advanced Use Cases: Smart Energy Grids
+<h3>Advanced Use Cases: Smart Energy Grids</h3>
+
 <!------------------------------------------------------------------------------------------------>
 <!-------------------- Smart Energy Grids: Revolutionizing Infrastructure ------------------------>
 <!------------------------------------------------------------------------------------------------>
@@ -9233,7 +9244,8 @@ In places where the government can’t or won’t contribute to the quality of l
 
 This is one of the most revolutionary concepts in blockchain, giving users the ability to be their own service providers.
 
-### Advanced Use Cases: After Hours Trading
+<h3>Advanced Use Cases: After Hours Trading</h3>
+
 <!------------------------------------------------------------------------------------------------>
 <!---------------------- After Hours Trading: 24/7 Access & Liquidity ---------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -9277,7 +9289,8 @@ Any broker can tap into this market, allowing for the trustless pooling of these
 
 By coordinating between these untrusting parties on a globally accessible platform, the liquidity problem will have been solved in a way that’s unfeasible for centralized solutions.
 
-### Blockchain vs Internet
+<h3>Blockchain vs Internet</h3>
+
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------- Blockchain vs The Internet ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
@@ -9341,7 +9354,7 @@ When thinking about a blockchain use case, ask yourself whether it leverages som
 
 Blockchain’s innovation was not to enable distributed information sharing, but distributed record-keeping and decentralized exchange of value.
 
-### Blockchain Generalizations
+<h3>Blockchain Generalizations</h3>
 
 Now that we’ve seen all these use cases, let’s go ahead and finish off with some generalizations.
 
@@ -9571,37 +9584,37 @@ In addition to providing a digital service, blockchain can also be used to provi
 
 Finally, blockchain can also allow us to conduct after hours trading by solving the “Liquidity Problem,” which causes the SEC to restrict after hour trading to placing limit orders. With blockchain, brokers can tokenize stocks by creating legal contracts underwriting them. Stock tokens can be traded worldwide even after the markets close and redeemed for their respective stocks during business hours.
 
-### III. Blockchain Generalizations: Essential Properties 
+<h3>III. Blockchain Generalizations: Essential Properties</h3>
 
 Although using blockchain provides numerous properties if implemented in a system, there are often other solutions that provide the desired properties without using a blockchain.
 
 Blockchains provide guarantees of privacy, decentralization, and more. However, these properties are sometimes unaffordable for practical use depending on the user base, goals, and scale of the application.
 
-### III.I Efficiency
+<h3>III.I Efficiency</h3>
 
 The word “efficiency” is often used when used to describe blockchains, but blockchains are not always efficient for their proposed use cases they are proposed for. For example, if one wanted to purchase a coffee using bitcoin, it is far less efficient to wait 10 minutes for a confirmation than it is to simply swipe a credit card or hand the cashier some money. However, sending money across the world using Bitcoin would take a mere ten minutes, compared to the days for coordination between banks internationally. As shown, there are numerous properties that a blockchain provides if implemented, but sometimes there is no need to implement a blockchain in order to achieve these properties for specific uses cases. Efficiency depends on whether the immense cost and complexity of decentralized consensus is overcome by the benefits of blockchain.
 
 In addition, properties like data immutability , integrity, auditability, authenticity, and public key identity infrastructures are all very powerful properties provides by blockchains that a blockchain can possess, but can all be achievable by using previously existing technologies, like cryptography and implementing a system with a hash chains. Redundant, mission-critical, fault-tolerant systems already exist in the form of secure servers or cloud services like such as Amazon Web Services. In addition, these centralized solutions are literally millions of times less expensive to run than current decentralized solutions. Although by definition a blockchain possesses these properties, a centralized solution can just as well implement these, usually cheaper as well.
 
-### III.II Solving coordination failures
+<h3>III.II Solving coordination failures</h3>
 
 One major property of a blockchain system is its ability to create arbitrary incentive structures so as to solve coordination failures. By offering rewards for users to act a certain way, a system can therefore incentivize them to follow those certain expectations. Because of this, blockchain can be considered a “technological solution to a social problem.” This is especially useful in use cases where individuals do not trust each, but could benefit from working together. Blockchain allows for them to still coordinate or collaborate without the need for a trusted third party. Funding public infrastructure/crowdfunding is one such example for coordination, such as with the smart energy grid example, which uses smart contracts in order to create a common law without a third party.
 
-### III.III Horizontal Integration
+<h3>III.III Horizontal Integration</h3>
 
 Blockchains create a standardized platform for access and interaction, combining the power of all users to enhance all of their capabilities. One such example of this is the combining of data silos. Since all information that is stored on a blockchain is shared, it is accessible for all users on the chain. Any individual contribution to the chain increases the protocol’s value for all. This property, along with that of enforcing having a common formatting standards, is known as network effects, which is the increased value of potential of a product for each additional user. Users support the entire community while also benefiting themselves.
 
-### III.IV Pure decentralization
+<h3>III.IV Pure decentralization</h3>
 
 One of the largest selling points of using a blockchain is its decentralization. Pure decentralization refers to decentralization for decentralization’s sake, such as Bitcoin avoiding the functioning bank system out of distrust. So if it required to avoid a centralized authority, a blockchain would be a good solution to this issue. This extends to scenarios of corruption or power saturation in central authorities, such as governments and financial institutions. In a situation where there is a lack of trust in the government due to corruption, a blockchain could be implemented. This decentralization paves the path to also create censorship resistance and disinterimagestion of power. Because blockchains are globally accessible, they are unstoppable as long as there is a community that supports them.
 
-### III.V Advantages of centralized solutions
+<h3>III.V Advantages of centralized solutions</h3>
 
 A central solution is fully controlled by a single organization, keeping everything under the same umbrella. One of the benefits of this is simpler and faster software updates, meaning it is easy to make changes and have the update for all users. Contrast this with a blockchain, where everyone instead must have to voluntarily agree to upgrade. It is much easier to make security patches when you don’t need to reach consensus on upgrades across all users. Centralized solutions are also more efficient, as instead of having to do a computation for every user in a network, it only needs to be done once, and there is no need for verification. Access control is also much easier, as the central authority can simply keep track of access in a centrally controlled database, something that cannot be done in a decentralized system. Most significantly, centralized systems can make decisions with their human judgment, especially helpful when tackling complex decisions. In a decentralized system, smart contracts may not be able to cover or formalize all of the edge cases, and may not be suitable for use in more complex issues. For example, if Airbnb were replaced by used smart contracts, how would a smart contract be able to determine what to do if household possessions were damaged? Which individuals could be trusted to report this information without stripping away the values of decentralization? How would a smart contract handle human error?
 
 In the end, it is important to always ask why a blockchain is better than a centralized solution. Neither is better than the other universally, so it is important to compare the pros and cons of both to determine which one is better for each specific use case.
 
-### Blockchain Use Cases Takeaways
+<h3>Blockchain Use Cases Takeaways</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ Blockchain Use Cases Takeaways ---------------------------------->
@@ -9622,7 +9635,7 @@ Mirages pop up all the time, but that doesn’t make them the real deal.
 
 Be sure that you’re able to justify why a blockchain works for your use case!
 
-### Intro: Ethereum Ecosystem
+<h3>Intro: Ethereum Ecosystem</h3>
 
 Just like with Bitcoin, the Ethereum ecosystem is constantly changing.
 
@@ -9636,7 +9649,7 @@ Knowing some of the key players in the space will get you an upper hand in under
 
 It’ll also introduce you to ways Ethereum and its community are pushing the blockchain space forward.
 
-### Community Leaders
+<h3>Community Leaders</h3>
 
 So, of course the biggest face in Ethereum is Vitalik Buterin.
 
@@ -9682,7 +9695,7 @@ Joseph Lubin was a co-founder of Ethereum.
 
 He also founded ConsenSys, which is a company that made great strides in developing the Ethereum ecosystem.
 
-### Ethereum Research
+<h3>Ethereum Research</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- ConsenSys: Ethereum Infrastructure ------------------------------->
@@ -9724,11 +9737,11 @@ We’ll go into this, and also Plasma, in our next course.
 
 # Lecture 6: Summary
 
-### I. Smart Contracts
+<h3>I. Smart Contracts</h3>
 
 Smart contracts on Ethereum enable us to execute arbitrary computations on the blockchain. A smart contract is a piece of code that facilitates, verifies, or enforces the negotiation or execution of a digital contract. For us to reach consensus, a trusted entity must run this code.
 
-### II. Ethereum
+<h3>II. Ethereum</h3>
 
 Ethereum is a decentralized platform designed to run smart contracts. It is a distributed computer spread across many nodes around the world that executes the code people feed in it, without any possibility of downtime, fraud, censorship, or third-party intervention.
 
@@ -9757,7 +9770,7 @@ Ethereum smart contracts generally serve four main purposes: 
 
 -   Complex authentication
 
-### III. Ethereum Virtual Machines
+<h3>III. Ethereum Virtual Machines</h3>
 
 The Ethereum Virtual Machine enables the Ethereum blockchain to be programmable. Ethereum Smart Contracts are written in high level programming languages like Solidity, which have to be compiled down to Ethereum Virtual Machine (EVM) code. Every node runs EVM as part of its block verification procedure. Once the contract code is compiled to EVM code, every node in the Ethereum network executes the code. Nodes then come to consensus on the new system state. Note: Ethereum is redundantly parallel; its main goal is not to optimize computational efficiency, but to enable distributed and trustless computation.
 
@@ -9781,7 +9794,7 @@ Ethereum is implemented as a distributed state machine, and transactions on the 
 <img src="/images/image365.jpg" "Bitcoin Network: Flood the Network" style="width:7in;height:2.4in" />
 &nbsp;
 
-### Readings
+<h3>Readings</h3>
 
 -   Ethereum Whitepaper: [A Next-Generation Smart Contract and Decentralized Application Platform ](https://github.com/ethereum/wiki/wiki/White-Paper)
 
