@@ -453,7 +453,7 @@ In this section: titled Bitcoin from the Ground Up, we’ll take each of these f
 
 By the end, you should have a high level understanding of how Bitcoin works, and why things are the way they are in Bitcoin.
 
-# Intro: Identity (Stage 1)
+<h2>Intro: Identity (Stage 1)</h2>
 
 We’ll start off by taking a look at one of the most fundamental ideas in Bitcoin:
 
@@ -469,7 +469,7 @@ But how do we do this in Bitcoin, without a bank or central entity to keep track
 <p align="center">
 <img src="/images/image003-identity-in-bitcoin.png" 
    alt="Identity: Identity in Bitcoin" 
-   width="50%" </>
+   width="70%" </>
 &nbsp;
 
 <h3>Identity (Stage 1)</h3>
@@ -544,7 +544,7 @@ Similarly, you would never want anyone else to have your Bitcoin private key as 
 <p align="center">
 <img src="/images/image004.png" 
    alt="Identity: Public and Private Keys" 
-   width="50%" />
+   width="60%" />
 </p>
 
 In Bitcoin, you can think of your public and private key as a chest and key, respectively.
@@ -575,7 +575,7 @@ To generate an identity, a user picks a private key at random generates the publ
 <p align="center">
 <img src="/images/image004-identity-few.png" 
    alt="Identity: A few things to note" 
-   width="50%" </>
+   width="60%" </>
 
 You may be concerned about the danger of two users ending up with the same public key without a central registry ensuring that no two people have the same public key.
 
@@ -593,7 +593,7 @@ To illustrate the probability of two users choosing the same identity as someone
 <p align="center">
 <img src="/images/image005.png" 
    alt="Identity: Public & Private Keys" 
-   width="50%" </>
+   width="60%" </>
 
 Bitcoin has 2\^160<sup>th</sup> different possible addresses.
 
@@ -615,7 +615,7 @@ Let’s consider something more drastic: imagine that for every grain of sand on
 <p align="center">
 <img src="/images/image006.png" 
 	alt="Identity: Public Key Security" 
-	style="width:5in;height:2.81998in" />
+	width="60%"/>
 
 Now we have 2\^63<sup>rd</sup> times 2\^63<sup>rd</sup> grains of sand per earth, meaning that there are a total of 2\^126<sup>th</sup> grains of sand.
 
@@ -625,7 +625,7 @@ Now we have 2\^63<sup>rd</sup> times 2\^63<sup>rd</sup> grains of sand per earth
 <p align="center">
 <img src="/images/image007-identity-security-hidden-in-plain-sight.png" 
 	alt="Identity: Security: Hidden in Plain Sight"
-	style="width:5in;height:2.81998in" />
+	width="60%" />
 
 Even the number of grains of sand upon all these Earths is only 0.0000000058% (8 zeroes) of all the possible Bitcoin addresses.
 
