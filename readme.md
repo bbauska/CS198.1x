@@ -7748,7 +7748,7 @@ On the right side, the block received has a height value that’s one greater th
 <!---------------------------- Publish or Perish: Zang and Preneel ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image285.png 
+<img src="/images/image285.png" 
    alt="Publish or Perish: Zang and Preneel"
    width="50%" />
 &nbsp;
@@ -7765,7 +7765,7 @@ The diagram on the right side nicely summarized the definition of an uncle block
 <!--------------------- Publish or Perish: Weighted Fork Resolving Policy ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image286.png 
+<img src="/images/image286.png" 
    alt="Publish or Perish: Weighted Fork Resolving Policy"
    width="50%" />
 &nbsp;
@@ -7812,7 +7812,7 @@ Here’s the general scenario.
 <!------------------------------ Publish or Perish: Selfish Miners (256) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image287.png 
+<img src="/images/image287.png" 
    alt="Publish or Perish: Selfish Miners"
    width="50%" />
 &nbsp;
@@ -7833,7 +7833,7 @@ The key takeway is that no matter which option the selfish miner chooses in the 
 <!-------------------------------- Publish or Perish: Analysis (257) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image288.png 
+<img src="/images/image288.png" 
    alt="Publish or Perish: Analysis"
    width="50%" />
 &nbsp;
@@ -7858,7 +7858,7 @@ Fast forward to the point in time where we the have diagram below, both the hone
 <!--------------------------------- Publish or Perish: Option 2 (258) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image289.png 
+<img src="/images/image289.png" 
    alt="Publish or Perish: Option 2"
    width="50%" />
 &nbsp;
@@ -7885,7 +7885,7 @@ Here are a couple graphs on the expected revenue of selfish miners when publish 
 <!---------------------------------- Publish or Perish: Graphs (259) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image290.png 
+<img src="/images/image290.png" 
    alt="Publish or Perish: Graphs"
    width="50%" />
 &nbsp;
@@ -7902,7 +7902,7 @@ Notice that publish or perish even outperforms this theoretical optimal tie brea
 <!-------------------------------- Publish or Perish: Limitations (260) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image291.png "Publish or Perish: Limitations" style="width:5in;height:2.8in" />
+<img src="/images/image291.png" "Publish or Perish: Limitations" style="width:5in;height:2.8in" />
 &nbsp;
 
 On the right side, we have revenue given different values of k, which again is the threshold number of blocks ahead a chain has to be in order for miners to just automatically choose to mine on that one.
@@ -7971,7 +7971,7 @@ For example, if the network actually looked like this…
 <!-------------------------------- Bitcoin Network: A Closer Look (262) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image292.png 
+<img src="/images/image292.png" 
    alt="Bitcoin Network: A Closer LOok" 
    width="50%" />
 &nbsp;
@@ -7996,7 +7996,7 @@ To further understand how information propagates through the Bitcoin network, we
 <!----------------------------- Bitcoin Network: An Uneven Topology (263) ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image293.png 
+<img src="/images/image293.png" 
    alt="Bitcoin Network: An Uneven Topology" 
    width="50%" />
 &nbsp;
@@ -8024,7 +8024,7 @@ It could be that he’s running a mining farm or pool.
 <!----------------------------- Bitcoin Network: Uneven Influences ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image294.png 
+<img src="/images/image294.png" 
    alt="Bitcoin Network: Uneven Influences" 
    width="50%" />
 &nbsp;
@@ -8051,7 +8051,7 @@ And it turns out that due to this hidden graph topology, and the fact that Derri
 <!----------------------------- Bitcoin Network: An Uneven Topology (3) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image295.png 
+<img src="/images/image295.png" 
    alt="Bitcoin Network: An Uneven Topology (3)" 
    width="50%" />
 &nbsp;
@@ -8070,7 +8070,7 @@ Perhaps there’s an attack or selfish mining scheme that hasn’t been discover
 <!------------------------- Bitcoin Network: Different Propogation Times ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image296.png 
+<img src="/images/image296.png" 
    alt="Bitcoin Network: Different Propogation Times"
    width="50%" />
 &nbsp;
@@ -8097,7 +8097,7 @@ Meanwhile, it’s possible that a poorly connected miner could spend all this ti
 <!---------------------------- Bitcoin Network: Sybil Attack Revisited --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image297.png 
+<img src="/images/image297.png" 
    alt="Bitcoin Network: Sybil Attack Revisited" 
    width="50%" />
 &nbsp;
@@ -8112,7 +8112,7 @@ Well, if we’re clever enough, we can launch a Sybil attack in another kind of 
 <!------------------------------- Bitcoin Network: Flood the Network ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image298.png 
+<img src="/images/image298.png" 
    alt="Bitcoin Network: Flood the Network" 
    width="50%" />
 &nbsp;
@@ -8131,7 +8131,7 @@ Let’s say Derrick is also selfish mining, and already has some secret blocks, 
 <!----------------------------- Bitcoin Network: Flood the Network (2)---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image299.png 
+<img src="/images/image299.png" 
    alt="Bitcoin Network: Flood the Network (2)" 
    width="50%" />
 &nbsp;
@@ -8142,7 +8142,7 @@ When Derricks nodes hear about the next honest block X, Derrick could ignore X, 
 <!----------------------------- Bitcoin Network: Flood the Network (3) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image300.png 
+<img src="/images/image300.png" 
    alt="Bitcoin Network: Flood the Network (3)"
    width="50%" />
 &nbsp;
@@ -8171,7 +8171,7 @@ Miners can maximize profits via pool hopping. This occurs when miners switch bet
 <!-------------------- Reward Per Share for Pay-Per-Share & Proportional Pools ------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image301.png 
+<img src="/images/image301.png" 
    alt="Reward Per Share for Pay-Per-Share & Proportional Pools" 
    width="50%" />
 &nbsp;
@@ -8186,7 +8186,7 @@ If we model the choice between attacking and not attacking the Bitcoin network u
 <!--- Table demonstrating the results of attacking and not attacking between Pool 1 and Pool 2 --->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image302.png 
+<img src="/images/image302.png" 
    alt="Table demonstrating the results of attacking and not attacking between Pool 1 and Pool 2"
    width="85%" />
 &nbsp;
@@ -8211,7 +8211,7 @@ To protect against this type of attack, the victim should wait for kconfirmation
 <!-------------------- Reward Per Share for Pay-Per-Share & Proportional Pools ------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image303.png 
+<img src="/images/image303.png" 
    alt="Graph demonstrating the relationship between chains and their lengths" 
    width="40%" />
 &nbsp;
