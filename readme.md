@@ -6809,17 +6809,13 @@ This means that their profit from attacking is actually less than if they both c
 Why don’t they just not attack each other and make more profit than in this Nash Equilibrium?
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- Pool Wars: -------------------------------------->
+<!----------------------------- Pool Wars: Tragedy of the Commons -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" 
    src="/images/image244.png" 
-   alt="Pool Wars" />
+   alt="Pool Wars: Tragedy of the Commons" />
 </p>
-
-<!---
-<img src="/images/image244.png" style="width:5in;height:2.8in" />
----->
 
 Well, the no-pool-attacks scenario is not a Nash Equilibrium.
 
@@ -6831,7 +6827,7 @@ By attacking, they can increase their profit, and that’s what we’ve establis
 
 Because of this, you fall into this issue where rational actors will eventually choose the Nash Equilibrium if they’re pursuing profit.
 
-So, they’ll continually attack each other in hopes of making profit.
+They’ll continually attack each other in hopes of making profit.
 
 Sure, if pools adhere to a culture where they agree not to attack each other through cannibalization, then everyone benefits in the long run.
 
@@ -6883,7 +6879,10 @@ Given Player B acts dishonestly, Player A would prefer also acting dishonestly s
 <!---------------------------- --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image247.png" style="width:5in;height:2.09192in" />
+<img src="/images/image247.png" 
+   width="50%" 
+   alt="" />
+</p>
 
 Player B makes the same conclusions, and makes preferences as follows:
 
@@ -6917,12 +6916,12 @@ We’ll answer all those questions for you in this upcoming module.
 <h3>Race Attack</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!--------------------------- Double Spend: The Classic Attack (224) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image249.png" 
    width="50%"
-   alt="" />
+   alt="Double Spend: The Classic Attack" />
 </p>
 
 Let’s revisit the definition of a Double Spend attack.
@@ -6942,12 +6941,12 @@ Well, it all depends on how early Rustie’s willing to give me the iPhone.
 We’ll explain what that means right away.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!---------------------------- Double Spending Race Attack (227) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image250.png" 
    width="50%"
-   alt="" />
+   alt="Double Spending Race Attack" />
 </p>
 
 Suppose Rustie is very naive and trusting.
@@ -8614,12 +8613,12 @@ Execution of transactions bring us from a previous state to a new state, so they
 Ethereum’s native asset is ether, which is the basis of value in the Ethereum ecosystem, and is also crucial in aligning incentives.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!---------------------------- Who would win?  Bitcoin or Ethereum? (284) ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image317.jpg"
    width="50%" 
-   alt="" />
+   alt="Who would win?  Bitcoin or Ethereum?" />
 </p>
 
 So as a recap from the previous section, what makes Bitcoin so special are the following properties: it’s trustless, immutable, uncensorable, pseudonymous, has no central point of failure, and aims for a one-cpu-one-vote policy.
@@ -8669,14 +8668,14 @@ Bitcoin has a stack based primitive scripting language which is not turing compl
 
 Ethereum on the other hand has a Turing-complete scripting language -- one of the motivating factors for Ethereum’s creation in the first place.
 
-So, a wider variety of applications can be made on Ethereum than on Bitcoin, making it more developer friendly.
+A wider variety of applications can be made on Ethereum than on Bitcoin, making it more developer friendly.
 
 Another key difference is that Bitcoin is UTXO-based, whereas Ethereum is account based.
 
 <h3>Ethereum Features</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!---------------------------- (286) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image320.png"
@@ -8766,17 +8765,17 @@ The data representing something useful to users or other contracts.
 
 For example, there could be a smart contract defining a new token currency, or perhaps a certain organization’s membership, which you have to pay a certain amount to obtain.
 
-1.  Smart contracts can also be used to manage a contract or relationship between untrusting users.
+2.  Smart contracts can also be used to manage a contract or relationship between untrusting users.
 
 This is perhaps the most easily understood use of smart contracts, as it’s just running a regular contract but on the distributed Ethereum network.
 
 For example, you could have smart contracts that manage financial contracts, escrow, or insurance.
 
-1.  Smart contracts can also provide additional functionality to other contracts.
+3.  Smart contracts can also provide additional functionality to other contracts.
 
 You can write contracts that call other contracts, perhaps using them as a software library, leveraging the functionality of an existing contract.
 
-1.  And finally, smart contracts can be used for complex authentication use cases.
+4.  And finally, smart contracts can be used for complex authentication use cases.
 
 For example, you can define m of n multisignature, which is also something we looked at when we studied Bitcoin.
 
