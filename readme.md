@@ -4646,7 +4646,7 @@ Hacking a brain wallet that has been key stretched is exponentially harder to br
 <p align="center" width="100%">
 <img src="/images/image145.png" 
    alt="Bitcoin Wallets: Choosing a Wallet" 
-   width="50%"
+   width="75%"
 </p>
 
 There’s a lot of wallets out there, definitely a lot more than what we’ve gone over, and that’s why users have to do their own research to find the wallet that’s best for them.
@@ -5244,7 +5244,8 @@ Author: Rea Savla
 <!-------- Step 3: Find the proof-of-work that solves the partial preimage hash puzzle  ---------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image165-step3-find-proof-of-work.png" alt="Step 3: Find the proof-of-work that solves the partial preimage hash puzzle" 
+<img src="/images/image165-step3-find-proof-of-work.png" 
+   alt="Step 3: Find the proof-of-work that solves the partial preimage hash puzzle" 
 	style="width:5in;height:2.8in" />
 </p>
 
@@ -6849,23 +6850,23 @@ Author: Rea Savla
 
 We can model the behavior of different actors in the Bitcoin network for a given situation using a game theoretical analysis. Our first assumption is that actors will act in a rational way, where rationality is defined as taking the actions that maximize their utility. In our scenario, utility is defined by the monetary gains resulting from an action. While not everyone in Bitcoin is purely motivated by monetary gain, this is still a powerful generalization.
 
-A ***Pure Strategy Nash Equilibrium ***is the set of actions that maximize each actor's utility given the responses of all the other actors. Note, the utility each player receives depends on the player's own decisions and the decisions of all the other actors, in the same way that the rewards a miner gets in the mining pool depend on the miner's own decision to attack or cooperate and the rest of the pool's decision to attack or cooperate. Players in the Bitcoin network or in a mining pool will converge to acting according to the Pure Strategy Nash Equilibrium for a given scenario, assuming they all behave rationally.
+A ***Pure Strategy Nash Equilibrium*** is the set of actions that maximize each actor's utility given the responses of all the other actors. Note, the utility each player receives depends on the player's own decisions and the decisions of all the other actors, in the same way that the rewards a miner gets in the mining pool depend on the miner's own decision to attack or cooperate and the rest of the pool's decision to attack or cooperate. Players in the Bitcoin network or in a mining pool will converge to acting according to the Pure Strategy Nash Equilibrium for a given scenario, assuming they all behave rationally.
 
 Let’s take a look at a simple scenario. Suppose there are only 2 mining pools in the Bitcoin network, Pool A and Pool B. Their utilities are shown below. The numerical value of utility is arbitrary in economics; it does not have any associated units, and it is calculated using a utility function of other parameters, defined by the economist. We are only interested in the comparative value of an action’s utility, whether it is higher or lower than another; we are not interested in its absolute value. In this example, the respective utilities are derived from the monetary gains each player would receive from the given scenarios of attacking or cooperating with the other.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!------------------------ Pool A horizontal and Pool B vertical (224) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image245.png" 
-   alt="A table representing Pool A and Pool B demonstrating the relationship between their utilies" 
+<img src="/images/image245.jpg" 
+   alt="A table representing Pool A and Pool B demonstrating the relationship between their utilities" 
    width="50%" />
 </p>
 
 The specific numerical values for the utilities in this example were chosen arbitrarily to reflect a scenario where players are incentivized to act dishonestly, but fare worse when both players are dishonest than when both players are honest. Let’s take the perspective of Player A. Given Player B acts honestly, player A gains the most utility from acting dishonestly, since a utility of 3 is greater than the utility of 2 that A would receive by acting honestly.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!------------------------- Pool A horizontal and Pool B vertical (224) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image246.png" 
@@ -6876,18 +6877,18 @@ The specific numerical values for the utilities in this example were chosen arbi
 Given Player B acts dishonestly, Player A would prefer also acting dishonestly since a utility of 1 \>utility of 0.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!------------------------- Pool A horizontal and Pool B vertical (225) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image247.png" 
    width="50%" 
-   alt="" />
+   alt="Pool A and Pool B" />
 </p>
 
 Player B makes the same conclusions, and makes preferences as follows:
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!------------------------- Pool A horizontal and Pool B vertical (225) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image248.png" 
@@ -6916,7 +6917,7 @@ We’ll answer all those questions for you in this upcoming module.
 <h3>Race Attack</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------- Double Spend: The Classic Attack (224) ----------------------------->
+<!--------------------------- Double Spend: The Classic Attack (226) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image249.png" 
@@ -6980,12 +6981,12 @@ How might Rustie protect himself from this?
 Well, we know that Rustie only gets to keep his bitcoins if a transaction to him makes its way into the longest chain.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!------------------------ Double Spending: Confirmations (228) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image251.png"
    width="50%"
-   alt="" />
+   alt="Double Spending: Confirmations" />
 </p>
 
 And, as we know, the longest chain could be forked early on.
@@ -7007,12 +7008,12 @@ This is a reasonably simple concept, but we can see some interesting things that
 The question you’re probably asking: how many confirmations does Rustie need before he feels confident about the finality of his transaction?
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!---------------------------- Double Spending: K Confirmations ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image252.png" 
    width="50%"
-   alt="" />
+   alt="Double Spending: K Confirmations" />
 </p>
 
 Well, let’s go back to the example with me and Rustie.
