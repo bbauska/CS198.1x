@@ -27,8 +27,8 @@ Bitcoin and Cryptocurrencies
 >### 1.06. [**UTXO’s**](#ch1-6)  
 >### 1.07. [**Record Keeping (Stage 3)**](#ch1-7)
 >### 1.08. [**Consensus (Stage 4)**](#ch1-8)
->### 1.09. [**Forking
->### 1.10. [**Bitcoin Review:
+>### 1.09. [**Forking(#ch1-9)
+>### 1.10. [**Bitcoin Review:(#ch1-10)
 Lecture/Module 1 Summary
 
 ## [**Chapter 2. Blockchain History: From the Cypherpunk Movement to JP Morgan Chases**](#ch2)
@@ -37,22 +37,22 @@ Lecture/Module 1 Summary
 >### 2.03. [**Bitcoin Precursors**](#ch2-3)
 >### 2.04. [**Bitcoin Invention**](#ch2-4)
 >### 2.05. [**Hacks and Scandals**](#ch2-5)
->### 2.05. [**Bitcoin Bubble and Altcoins
->### 2.05. [**Intro: Scalability
->### 2.05. [**Ethereum Timeline
->### 2.05. [**Intro: Enterprise Blockchain
->### 2.05. [**Banks and Blockchain
->### 2.05. [**Intro: State of the Industry
+>### 2.06. [**Bitcoin Bubble and Altcoins(#ch2-6)
+>### 2.07. [**Intro: Scalability(#ch2-7)
+>### 2.08. [**Ethereum Timeline(#ch2-8)
+>### 2.09. [**Intro: Enterprise Blockchain(#ch2-9)
+>### 2.10. [**Banks and Blockchain(#ch2-10)
+>### 2.11. [**Intro: State of the Industry(#ch2-11)
 Module/Lecture 2 Summary
 
 ## [**Chapter 3. Bitcoin Mechanics & Optimizations: A Technical Overview**](#ch3)
->### 3.1. [**Intro: Motivations and Definitions**](#ch3-1)
->### 3.2. [**Integrity of Information**](#ch3-2)
->### 3.3. [**Cryptographic Hash Functions**](#ch3-3)
->### 3.4. [**Key Properties of Cryptographic Hash Functions**](#ch3-4)
->### 3.5. [**SHA256**](#ch3-5)
->### 3.6. [**SHA256^2 – (Secure Hash Algorithm)**](#ch3-6)
->### 3.7. [**Intro: A Tamper-Evident Database**](#ch3-7)
+>### 3.01. [**Intro: Motivations and Definitions**](#ch3-1)
+>### 3.02. [**Integrity of Information**](#ch3-2)
+>### 3.03. [**Cryptographic Hash Functions**](#ch3-3)
+>### 3.04. [**Key Properties of Cryptographic Hash Functions**](#ch3-4)
+>### 3.05. [**SHA256**](#ch3-5)
+>### 3.06. [**SHA256^2 – (Secure Hash Algorithm)**](#ch3-6)
+>### 3.07. [**Intro: A Tamper-Evident Database**](#ch3-7)
 Tamper-Evidence
 Dissecting a Block
 Merkle Trees:
@@ -78,11 +78,11 @@ Timelocks
 >### 3.7. [**Lecture 3 Summary
 
 ## [**Chapter 4. Bitcoin In Real Life: Wallets, Mining, and More **](#ch4)
->### 4.1. [**Key Components**](#ch4-1)
->### 4.2. [**Purpose of a Wallet**](#ch4-2)
->### 4.3. [**Types of Wallets**](#ch4-3)
->### 4.4. [**Key Stretching**](#ch4-4)
->### 4.5. [**Choosing a Wallet**](#ch4-5)
+>### 4.01. [**Key Components**](#ch4-1)
+>### 4.02. [**Purpose of a Wallet**](#ch4-2)
+>### 4.03. [**Types of Wallets**](#ch4-3)
+>### 4.04. [**Key Stretching**](#ch4-4)
+>### 4.05. [**Choosing a Wallet**](#ch4-5)
 Bitcoin ATMs
 Exchanges
 Intro: Wallet Mechanics
@@ -121,10 +121,10 @@ Consensus Updates: BIPs
 Text: Lecture 4 Summary
 
 ## [**Chapter 5. Game Theory & Network Attacks: How to Destroy Bitcoin **](#ch5)
->### 5.1. [**Pool Strategies**](#ch5-1)
->### 5.1.1 [**Pool Hopping **](#ch5-2)
->### 5.1.1 [**Pool Hopping **](#ch5-2)
->### 5.3. [** **](#ch5-3)
+>### 5.01. [**Pool Strategies**](#ch5-1)
+>### 5.02. [**Pool Hopping **](#ch5-2)
+>### 5.03. [**Pool Hopping **](#ch5-2)
+>### 5.04. [** **](#ch5-3)
 >### 5.4. [** **](#ch5-4)
 >### 5.5. [** **](#ch5-5)
 >### 5.3. [** **](#ch5-3)
@@ -135,21 +135,21 @@ Text: Lecture 4 Summary
 >### 5.5. [** **](#ch5-5)
 
 ## [**Chapter 6. Ethereum & Smart Contracts: Enabling a Decentralized Future **](#ch6)
->### 6.1. [** **](#ch6-1)
->### 6.2. [** **](#ch6-2)
->### 6.3. [** **](#ch6-3)
->### 6.4. [** **](#ch6-4)
->### 6.5. [** **](#ch6-5)
->### 6.6. [** **](#ch6-6)
->### 6.7. [** **](#ch6-7)
->### 6.4. [** **](#ch6-4)
->### 6.5. [** **](#ch6-5)
->### 6.6. [** **](#ch6-6)
->### 6.7. [** **](#ch6-7)
->### 6.4. [** **](#ch6-4)
->### 6.5. [** **](#ch6-5)
->### 6.6. [** **](#ch6-6)
->### 6.7. [** **](#ch6-7)
+>### 6.01. [** **](#ch6-1)
+>### 6.02. [** **](#ch6-2)
+>### 6.03. [** **](#ch6-3)
+>### 6.04. [** **](#ch6-4)
+>### 6.05. [** **](#ch6-5)
+>### 6.06. [** **](#ch6-6)
+>### 6.07. [** **](#ch6-7)
+>### 6.08. [** **](#ch6-4)
+>### 6.09. [** **](#ch6-5)
+>### 6.10. [** **](#ch6-6)
+>### 6.11. [** **](#ch6-7)
+>### 6.12. [** **](#ch6-4)
+>### 6.13. [** **](#ch6-5)
+>### 6.14. [** **](#ch6-6)
+>### 6.15. [** **](#ch6-7)
 
 **[`^        back to top        ^`](#table-of-contents)**
 
