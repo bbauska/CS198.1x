@@ -1,8 +1,7 @@
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- readme.md in CS198.1x.bauska.site --------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<h2 align="center" width="100%">
-CS198.1x - University of California @ BerkeleyX
+<h2 align="center" width="100%">CS198.1x - University of California @ BerkeleyX</h2>
 &nbsp;
 <br/><br/>
 
@@ -16,8 +15,8 @@ CS198.1x - University of California @ BerkeleyX
 
 <h2 align="center">
 Bitcoin and Cryptocurrencies
-&nbsp;
 </h2>
+	
 <!-------------------------------------------------------------------------------------------------->
 ## [Table of Contents](#table-of-contents)
 
