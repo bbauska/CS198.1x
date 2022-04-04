@@ -37,12 +37,12 @@ Lecture/Module 1 Summary
 >### 2.03. [**Bitcoin Precursors**](#ch2-3)
 >### 2.04. [**Bitcoin Invention**](#ch2-4)
 >### 2.05. [**Hacks and Scandals**](#ch2-5)
->### 2.06. [**Bitcoin Bubble and Altcoins(#ch2-6)
->### 2.07. [**Intro: Scalability(#ch2-7)
->### 2.08. [**Ethereum Timeline(#ch2-8)
->### 2.09. [**Intro: Enterprise Blockchain(#ch2-9)
->### 2.10. [**Banks and Blockchain(#ch2-10)
->### 2.11. [**Intro: State of the Industry(#ch2-11)
+>### 2.06. [**Bitcoin Bubble and Altcoins**](#ch2-6)
+>### 2.07. [**Intro: Scalability**](#ch2-7)
+>### 2.08. [**Ethereum Timeline**](#ch2-8)
+>### 2.09. [**Intro: Enterprise Blockchain**](#ch2-9)
+>### 2.10. [**Banks and Blockchain**](#ch2-10)
+>### 2.11. [**Intro: State of the Industry**](#ch2-11)
 Module/Lecture 2 Summary
 
 ## [**Chapter 3. Bitcoin Mechanics & Optimizations: A Technical Overview**](#ch3)
@@ -53,29 +53,28 @@ Module/Lecture 2 Summary
 >### 3.05. [**SHA256**](#ch3-5)
 >### 3.06. [**SHA256^2 – (Secure Hash Algorithm)**](#ch3-6)
 >### 3.07. [**Intro: A Tamper-Evident Database**](#ch3-7)
-Tamper-Evidence
-Dissecting a Block
-Merkle Trees:
-Previous Block Hash
-Proof-of-Work: Mining
->### 3.7. [**Intro: Signatures and Authentication
-Digital Signature Schemes (DSS)
-Curve Digital Signature Algorithm
-DSS Key Definitions and Takeways
+>### 3.08. [**Tamper-Evidence**](#ch3-8)
+>### 3.09. [**Dissecting a Block**](#ch3-9)
+>### 3.10. [**Merkle Tree**](#ch3-10)
+>### 3.11. [**Previous Block Hash**](#ch3-11)
+>### 3.12. [**Proof-of-Work: Mining**](#ch3-12)
+>### 3.13. [**Signatures and Authentication**](#ch3-13)
+>### 3.14. [**Curve Digital Signature Algorithms**](#ch3-14)
+>### 3.15. [**DSS Key Definitions and Takeaways**](#ch3-15)
 From Private Keys to Addresses
 Elliptic Curve Cryptography
 Public Key to Address
 >### 3.7. [**Intro: Bitcoin Script
 Bitcoin Script Reminders
->### 3.7. [**Intro to P2PKH
+Intro to P2PKH
 Proof of Burn
->### 3.7. [**Intro: Advanced Bitcoin Script and P2SH
+Advanced Bitcoin Script and P2SH
 P2PKH vs P2SH
 How P2SH Works
 Why use P2SH?
 Multisignature
 Timelocks
->### 3.7. [**Lecture 3 Summary
+[**Lecture 3 Summary
 
 ## [**Chapter 4. Bitcoin In Real Life: Wallets, Mining, and More **](#ch4)
 >### 4.01. [**Key Components**](#ch4-1)
@@ -9271,7 +9270,9 @@ By coordinating between these untrusting parties on a globally accessible platfo
 <!-------------------------------- Blockchain vs The Internet ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image354.png "Blockchain vs The Internet" style="width:5in;height:2.85in" />
+<img src="/images/image354.png 
+   alt="Blockchain vs The Internet" 
+   width="65%" />
 &nbsp;
 
 In almost every conversation about blockchain’s role in society or path going forward, you’ll hear a comparison to the Internet.
@@ -9735,20 +9736,18 @@ Here’s a review of the similarity and differences between Ethereum and Bitcoin
 &nbsp;
 
 There are two kinds of Ethereum accounts: 
-
--   Externally Owned Accounts contain an address that allows people to send them ether and a balance of ether
-
--   Contract Accounts contain an address, persistent storage, and code which is executed by transactions or function calls
+<ol type="1">
+<li>Externally Owned Accounts contain an address that allows people to send them ether and a balance of ether.</li>
+<li>Contract Accounts contain an address, persistent storage, and code which is executed by transactions or function calls.</li>
+</ol>
 
 Ethereum smart contracts generally serve four main purposes: 
-
--   Store and maintain data
-
--   Manage contract or relationship between untrusting users
-
--   Provide functions to other contracts
-
--   Complex authentication
+<ul>
+<li>Store and maintain data</li>
+<li>Manage contract or relationship between untrusting users</li>
+<li>Provide functions to other contracts</li>
+<li>Complex authentication</li>
+</ul>
 
 <h3>III. Ethereum Virtual Machines</h3>
 
@@ -9773,19 +9772,18 @@ Ethereum is implemented as a distributed state machine, and transactions on the 
 <!-------------- block_state, gas, memory, transaction, msg, code, stack, pc (335) --------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image365.jpg" "Bitcoin Network: Flood the Network" style="width:7in;height:2.4in" />
+<img src="/images/image365.jpg" 
+   alt="Bitcoin Network: Flood the Network" 
+   width="85%" />
 &nbsp;
 
 <h3>Readings</h3>
-
--   Ethereum Whitepaper: [A Next-Generation Smart Contract and Decentralized Application Platform ](https://github.com/ethereum/wiki/wiki/White-Paper)
-
--   (Optional) [Explore decentralized applications ](https://www.stateofthedapps.com/)Check out all the different Ethereum Apps that have been created!
-
--   (Optional) [Ethereum: A Secure Decentralized Generalised Transaction Ledger ](http://gavwood.com/paper.pdf)
-
--   [Blockchain, Cryptocurrencies & The New Decentralized Economy](https://blockchainatberkeley.blog/blockchains-cryptocurrencies-the-new-decentralized-economy-part-1-a-gentle-introduction-edcb4824b174)
-
+<ul>
+<li>Ethereum Whitepaper: [A Next-Generation Smart Contract and Decentralized Application Platform ](https://github.com/ethereum/wiki/wiki/White-Paper)</li>
+<li>(Optional) [Explore decentralized applications ](https://www.stateofthedapps.com/)Check out all the different Ethereum Apps that have been created!</li>
+<li>(Optional) [Ethereum: A Secure Decentralized Generalised Transaction Ledger ](http://gavwood.com/paper.pdf)</li>
+<li>[Blockchain, Cryptocurrencies & The New Decentralized Economy](https://blockchainatberkeley.blog/blockchains-cryptocurrencies-the-new-decentralized-economy-part-1-a-gentle-introduction-edcb4824b174)</li>
+</ul>
 Congratulations on completing the course!
 
 On behalf of all of our lovely course staff, I’d like to thank you for finishing part one of the Blockchain Fundamentals program: Bitcoin and Cryptocurrencies.
@@ -9803,4 +9801,4 @@ If you’re looking for more, there’s still a great deal of complexity and inn
 We wish you all the best on the rest of your blockchain journey!
 
 the end…
-4/1/2022
+4/3/2022
