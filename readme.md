@@ -15,7 +15,7 @@
 Bitcoin and Cryptocurrencies
 </h2>
 	
-<!-------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 ## [Table of Contents](#table-of-contents)
 
 ## [**Chapter 1. Bitcoin Protocol & Consensus: A High-Level Overview**](#ch1)
@@ -61,11 +61,12 @@ Module/Lecture 2 Summary
 >### 3.13. [**Signatures and Authentication**](#ch3-13)
 >### 3.14. [**Curve Digital Signature Algorithms**](#ch3-14)
 >### 3.15. [**DSS Key Definitions and Takeaways**](#ch3-15)
-From Private Keys to Addresses
-Elliptic Curve Cryptography
-Public Key to Address
->### 3.7. [**Intro: Bitcoin Script
-Bitcoin Script Reminders
+>### 3.16. [**From Private Keys to Addresses**](#ch3-16)
+>### 3.17. [**Elliptic Curve Cryptography**](#ch3-17)
+>### 3.18. [**Public Key to Address**](#ch3-18)
+Module/Lecture 2 Summary
+
+<!-------- Bitcoin Script Reminders
 Intro to P2PKH
 Proof of Burn
 Advanced Bitcoin Script and P2SH
@@ -74,7 +75,7 @@ How P2SH Works
 Why use P2SH?
 Multisignature
 Timelocks
-[**Lecture 3 Summary
+----------------------------->
 
 ## [**Chapter 4. Bitcoin In Real Life: Wallets, Mining, and More **](#ch4)
 >### 4.01. [**Key Components**](#ch4-1)
@@ -9801,4 +9802,4 @@ If you’re looking for more, there’s still a great deal of complexity and inn
 We wish you all the best on the rest of your blockchain journey!
 
 the end…
-4/3/2022
+4/4/2022
