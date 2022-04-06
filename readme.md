@@ -83,6 +83,7 @@ Timelocks
 >### 4.03. [**Types of Wallets**](#ch4-3)
 >### 4.04. [**Key Stretching**](#ch4-4)
 >### 4.05. [**Choosing a Wallet**](#ch4-5)
+<!---
 Bitcoin ATMs
 Exchanges
 Intro: Wallet Mechanics
@@ -119,10 +120,13 @@ Consensus Updates: Bitcoin Core
 Consensus Updates: Forks
 Consensus Updates: BIPs
 Text: Lecture 4 Summary
+-------->
 
 ## [**Chapter 5. Game Theory & Network Attacks: How to Destroy Bitcoin **](#ch5)
 >### 5.01. [**Pool Strategies**](#ch5-1)
 >### 5.02. [**Pool Hopping **](#ch5-2)
+
+<!----------------------------------------
 >### 5.03. [**Pool Hopping **](#ch5-2)
 >### 5.04. [** **](#ch5-3)
 >### 5.4. [** **](#ch5-4)
@@ -150,6 +154,7 @@ Text: Lecture 4 Summary
 >### 6.13. [** **](#ch6-5)
 >### 6.14. [** **](#ch6-6)
 >### 6.15. [** **](#ch6-7)
+------------------------------------->
 
 **[`^        back to top        ^`](#table-of-contents)**
 
