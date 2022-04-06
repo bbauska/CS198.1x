@@ -248,7 +248,7 @@ Then, we’ll dive into four-part buildup of Bitcoin consensus and explain why B
 
 <h3>Intro: What is Bitcoin?</h3>
 
-<h3><https://youtu.be/Gc2en3nHxA4> 1 min, 37 sec</h3>
+[What is Bitcoin?](https://youtu.be/Gc2en3nHxA4) 1 min, 37 sec
 
 In this section, you will learn about the origins and motivations of Bitcoin, and the key distinctions between cryptocurrencies and normal currencies.
 
