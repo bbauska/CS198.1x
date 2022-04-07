@@ -1,7 +1,10 @@
+	/*   */
+	/*   */
+	/* replace serif with Bahnschrift   */
 .block_ {
     background-color: #FFF;
     display: block;
-    font-family: "Calibri Light", sans-serif;
+    font-family: "Calibri Light", Bahnschrift;
     font-size: 2em;
     font-weight: bold;
     letter-spacing: -0.5pt;
@@ -16,10 +19,11 @@
     padding-top: 0;
     text-align: center
     }
+	/*   */
 .block_1 {
     background-color: #FFF;
     display: block;
-    font-family: "Calibri Light", sans-serif;
+    font-family: "Calibri Light", Bahnschrift;
     font-size: 1.41667em;
     font-weight: bold;
     letter-spacing: -0.5pt;
@@ -37,7 +41,7 @@
 .block_2 {
     background-color: #FFF;
     display: block;
-    font-family: "Calibri Light", sans-serif;
+    font-family: "Calibri Light", Bahnschrift;
     font-size: 2em;
     letter-spacing: -0.5pt;
     line-height: 1.2;
@@ -642,7 +646,7 @@
     }
 .calibre {
     display: block;
-    font-family: "Bahnschrift", sans-serif;
+    font-family: "Bahnschrift", Bahnschrift;
     font-size: 1em;
     margin-bottom: 0;
     margin-left: 5pt;
@@ -1069,7 +1073,7 @@
     line-height: 1.2
     }
 .text_9 {
-    font-family: "Bahnschrift", sans-serif;
+    font-family: "Bahnschrift", Bahnschrift;
     line-height: 1.2
     }
 .text_10 {
@@ -1085,7 +1089,7 @@
 .text_12 {
     background-color: #FCFCFC;
     color: #444;
-    font-family: "Arial", sans-serif;
+    font-family: "Arial", Bahnschrift;
     line-height: 1.2
     }
 .text_13 {
@@ -1097,7 +1101,7 @@
     line-height: 1.2
     }
 .text_15 {
-    font-family: "Inter", sans-serif;
+    font-family: "Inter", Bahnschrift;
     line-height: 1.2
     }
 .text_16 {
@@ -1111,11 +1115,11 @@
     font-weight: bold
     }
 .text_18 {
-    font-family: "Bahnschrift", sans-serif;
+    font-family: "Bahnschrift", Bahnschrift;
     font-size: 1.33333em
     }
 .text_19 {
-    font-family: "Inter", sans-serif;
+    font-family: "Inter", Bahnschrift;
     font-size: 1.5em;
     font-weight: bold;
     line-height: 1.2
@@ -1153,7 +1157,7 @@
     }
 .text_22 {
     color: #222;
-    font-family: "Inter", sans-serif;
+    font-family: "Inter", Bahnschrift;
     line-height: 1.2
     }
 .text_23 {
@@ -1205,7 +1209,7 @@
     padding-top: 0
     }
 .text_26 {
-    font-family: "Inter", sans-serif;
+    font-family: "Inter", Bahnschrift;
     font-size: 1.33333em
     }
 .text_27 {
