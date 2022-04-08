@@ -27,9 +27,9 @@ Bitcoin and Cryptocurrencies
 >### 1.06. [**UTXO’s**](#ch1-6)  
 >### 1.07. [**Record Keeping (Stage 3)**](#ch1-7)
 >### 1.08. [**Consensus (Stage 4)**](#ch1-8)
->### 1.09. [**Forking(#ch1-9)
->### 1.10. [**Bitcoin Review:(#ch1-10)
-Lecture/Module 1 Summary
+>### 1.09. [**Forking**](#ch1-9)
+>### 1.10. [**Bitcoin Review**](#ch1-10)
+>### 1.11. [**Chapter 1 Summary**](#ch1-11)
 
 ## [**Chapter 2. Blockchain History: From the Cypherpunk Movement to JP Morgan Chases**](#ch2)
 >### 2.01. [**Pre-Bitcoin**](#ch2-1)
@@ -43,7 +43,7 @@ Lecture/Module 1 Summary
 >### 2.09. [**Intro: Enterprise Blockchain**](#ch2-9)
 >### 2.10. [**Banks and Blockchain**](#ch2-10)
 >### 2.11. [**Intro: State of the Industry**](#ch2-11)
-Module/Lecture 2 Summary
+>### 2.12. [**Chapter 2 Summary**](#ch2-12)
 
 ## [**Chapter 3. Bitcoin Mechanics & Optimizations: A Technical Overview**](#ch3)
 >### 3.01. [**Intro: Motivations and Definitions**](#ch3-1)
@@ -64,7 +64,7 @@ Module/Lecture 2 Summary
 >### 3.16. [**From Private Keys to Addresses**](#ch3-16)
 >### 3.17. [**Elliptic Curve Cryptography**](#ch3-17)
 >### 3.18. [**Public Key to Address**](#ch3-18)
-Module/Lecture 2 Summary
+>### 3.19. [**Chapter 3 Summary**](#ch3-19)
 
 <!-------- Bitcoin Script Reminders
 Intro to P2PKH
@@ -83,6 +83,7 @@ Timelocks
 >### 4.03. [**Types of Wallets**](#ch4-3)
 >### 4.04. [**Key Stretching**](#ch4-4)
 >### 4.05. [**Choosing a Wallet**](#ch4-5)
+>### 4.06. [**Chapter 4 Summary**](#ch4-6)
 <!---
 Bitcoin ATMs
 Exchanges
@@ -124,7 +125,8 @@ Text: Lecture 4 Summary
 
 ## [**Chapter 5. Game Theory & Network Attacks: How to Destroy Bitcoin **](#ch5)
 >### 5.01. [**Pool Strategies**](#ch5-1)
->### 5.02. [**Pool Hopping **](#ch5-2)
+>### 5.02. [**Pool Hopping**](#ch5-2)
+>### 5.03. [**Chapter 5 Summary**](#ch5-3)
 
 <!----------------------------------------
 >### 5.03. [**Pool Hopping **](#ch5-2)
@@ -226,7 +228,7 @@ Blockchain Fundamentals is constantly being improved, in terms of new informatio
 
 Max Fang, Philip Hayes, Sunny Aggarwal, Aparna Krishnan, Gloria Zhao, Gillian Chu, Brian Ho.
 
-<h3>Module 1: Course/Bitcoin Protocol & Consensus: A High Level Overview/Intro</h3>
+<h3 id="ch1">Chapter 1: Course/Bitcoin Protocol & Consensus: A High Level Overview/Intro</h3>
 
 Welcome to the first module in Cryptocurrencies: Bitcoin and the Crypto Space, the first course in the Blockchain Fundamentals program.
 
@@ -246,7 +248,7 @@ Then, we’ll dive into four-part buildup of Bitcoin consensus and explain why B
 
 <h3>Bitcoin Protocol & Consensus: A High-Level Overview</h3>
 
-<h3>Intro: What is Bitcoin?</h3>
+<h3 id="ch1-1">1.1 Intro: What is Bitcoin?</h3>
 
 [What is Bitcoin?](https://youtu.be/Gc2en3nHxA4) 1 min, 37 sec
 
@@ -268,7 +270,6 @@ And this all sets the stage for the next section, in which we’ll build Bitcoin
 	alt="What is bitcoin, bitcoin genesis" 
 	width="65%" />
 </p>
-
 
 Most people struggle to answer the question, “What is Bitcoin?,” because there are so many different ways to respond.
 
@@ -376,7 +377,7 @@ And even the creation of money is decided not by a central authority, but throug
    alt="Currency: In Banks We Distrust" />
 </p>
 
-<h3>Bitcoin vs. Banks</h3>
+<h3 id="ch1-2">1.2 Bitcoin vs. Banks</h3>
 
 Bitcoin aims to get rid of the central entity, the bank.
 
@@ -449,7 +450,7 @@ We trust in the incentive alignment and publicly verifiable, tamper evident ledg
 
 All of these pieces together make Bitcoin the technological revolution that kicked off the Cryptocurrency Movement.
 
-<h3>Intro: Bitcoin from the Ground Up</h3>
+<h3 id="ch1-3">1.3 Intro: Bitcoin from the Ground Up</h3>
 
 We saw in the section on Bitcoin versus Banks that we need to enable account and identity management, money transfer as a service, record management, and trust.
 
@@ -457,7 +458,7 @@ In this section: titled Bitcoin from the Ground Up, we’ll take each of these f
 
 By the end, you should have a high level understanding of how Bitcoin works, and why things are the way they are in Bitcoin.
 
-<h1>Intro: Identity (Stage 1)</h1>
+<h1 id="ch1-4">1.4 Intro: Identity (Stage 1)</h1>
 
 We’ll start off by taking a look at one of the most fundamental ideas in Bitcoin:
 
@@ -476,7 +477,7 @@ But how do we do this in Bitcoin, without a bank or central entity to keep track
    width="65%" </>
 &nbsp;
 
-<h3>Identity (Stage 1)</h3>
+<h3>1.4 Identity (Stage 1)</h3>
 
 To understand why we need identity in Bitcoin in the first place, let’s understand first why we need identity at all in the context of currencies.
 
@@ -1270,7 +1271,7 @@ While some forks occur naturally, and some are the result of double spending att
 
 Two categories of these protocol changes are soft and hard forks. Soft forks implement protocol updates that strictly reduces the set of valid transactions, while hard forks, conversely, allow for previously invalid transactions to become valid.
 
-We’ll explain more in the course modules for Module 4.
+We’ll explain more in the course modules for Chapter 4.
 
 <h3>Bitcoin Review:</h3>
 
@@ -1415,7 +1416,7 @@ These are the four essential unique properties of Bitcoin: 1. pseudonymous, 2. d
 
 <h2>Bitcoin Protocol & Consensus: A High Level Overview / Review, Readings, & More</h2>
 
-<h3>Lecture/Module 1 Summary:</h3>
+<h3 id="ch1-11">1.11 Chapter 1 Summary:</h3>
 
 <h3>I. What is Bitcoin?</h3>
 
@@ -1487,7 +1488,7 @@ From there, we’ll explore the present-day state of the blockchain space, inclu
 
 This journey will take us from the Cypherpunks, who hated big banks and championed privacy and power for individuals, to adoption of blockchain technology by JPMorgan Chase, one of the largest banking institutions in the United States.
 
-<h3>Intro: Pre-Bitcoin</h3>
+<h3 id="ch2-1">2.1 Intro: Pre-Bitcoin</h3>
 
 The roots of Bitcoin start with libertarianism.
 
@@ -1501,7 +1502,7 @@ Amongst increasing centralized state control, especially of services and of indi
 
 From online discussions on forums and mailing lists, two groups formed: the Cypherpunks and the Crypto-anarchists, both of which advocated for the use of cryptography to protect one’s privacy.
 
-<h3>Libertarian Dreams</h3>
+<h3 id="ch2-2">2.2 Libertarian Dreams</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------- 32. Libertarian Dreams: Cypherpunks and Crypto-Anarchists -------------------->
@@ -1545,7 +1546,7 @@ But in an increasingly digital world, the convenience of big banks tracking acco
 
 And so, these libertarians saw early on the need for an anonymous digital “transaction system” or currency -- one that gave users “the power to selectively reveal oneself to the world.”
 
-<h3>Bitcoin Precursors</h3>
+<h3 id="ch2-3">2.3 Bitcoin Precursors</h3>
 
 The Cypherpunks didn’t get together, design a cryptocurrency, and succeed on their first attempt.
 
@@ -8070,7 +8071,7 @@ In addition to network topology, network latency also poses as an issue. Nodes t
 
 ["Ethereum Whitepaper up to "Miscellanea And Concerns" ](https://github.com/ethereum/wiki/wiki/White-Paper)
 
-**Module 6: Ethereum & Smart Contracts: Enabling a Decentralized Future**
+**Chapter 6: Ethereum & Smart Contracts: Enabling a Decentralized Future**
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- Bitcoin Network: Sybil Attack Revisited --------------------------->
@@ -9854,4 +9855,4 @@ If you’re looking for more, there’s still a great deal of complexity and inn
 We wish you all the best on the rest of your blockchain journey!
 
 the end…
-4/4/2022
+4/7/2022
