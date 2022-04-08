@@ -9842,13 +9842,13 @@ Ethereum is implemented as a distributed state machine, and transactions on the 
 &nbsp;
 
 <h3>Readings</h3>
-<ul>
-<li>Ethereum Whitepaper: [A Next-Generation Smart Contract and Decentralized Application Platform ](https://github.com/ethereum/wiki/wiki/White-Paper)</li>
-<li>(Optional) [Explore decentralized applications ](https://www.stateofthedapps.com/)Check out all the different Ethereum Apps that have been created!</li>
-<li>(Optional) [Ethereum: A Secure Decentralized Generalised Transaction Ledger ](http://gavwood.com/paper.pdf)</li>
-<li>[Blockchain, Cryptocurrencies & The New Decentralized Economy](https://blockchainatberkeley.blog/blockchains-cryptocurrencies-the-new-decentralized-economy-part-1-a-gentle-introduction-edcb4824b174)</li>
-</ul>
-Congratulations on completing the course!
+
+   * Ethereum Whitepaper: [A Next-Generation Smart Contract and Decentralized Application Platform](https://github.com/ethereum/wiki/wiki/White-Paper)
+   * (Optional) [Explore decentralized applications](https://www.stateofthedapps.com/). Check out all the different Ethereum Apps that have been created!
+   * (Optional) [Ethereum: A Secure Decentralized Generalised Transaction Ledger](http://gavwood.com/paper.pdf)
+   * [Blockchain, Cryptocurrencies & The New Decentralized Economy](https://blockchainatberkeley.blog/blockchains-cryptocurrencies-the-new-decentralized-economy-part-1-a-gentle-introduction-edcb4824b174)
+
+Congratulations on completing the course!<br/>
 
 On behalf of all of our lovely course staff, I’d like to thank you for finishing part one of the Blockchain Fundamentals program: Bitcoin and Cryptocurrencies.
 
@@ -9865,4 +9865,4 @@ If you’re looking for more, there’s still a great deal of complexity and inn
 We wish you all the best on the rest of your blockchain journey!
 
 the end…
-4/8/2022
+4/7/2022
