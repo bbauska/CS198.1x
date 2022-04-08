@@ -7,8 +7,9 @@
 <!----------------------------------- CS198.1x Bitcoin logo -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image001.png" 
-	alt="Bitcoin cs198.1x logo"</>
+<img src="/images/image001.png"
+	alt="Bitcoin cs198.1x logo"
+	width="50%" />
 </p>
 
 <h2 align="center">
@@ -267,7 +268,7 @@ And this all sets the stage for the next section, in which we’ll build Bitcoin
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/what is bitcoin-bitcoin genesis.png" 
-	alt="What is bitcoin, bitcoin genesis" 
+	alt="What is Bitcoin? Bitcoin Genesis"
 	width="65%" />
 </p>
 
@@ -369,12 +370,12 @@ Instead, everyone can verify and audit the transaction history on their own.
 And even the creation of money is decided not by a central authority, but through the process of mining, or Proof-of-Work.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- Currency: In Banks We Distrust -------------------------------->
+<!-------------------------------- currency: in Banks we distrust -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="65%" 
-   src="/images/currency-in banks we distrust.png" 
-   alt="Currency: In Banks We Distrust" />
+<img src="/images/currency-in banks we distrust.png" 
+   alt="Currency: In Banks We Distrust"
+   width="65%" />
 </p>
 
 <h3 id="ch1-2">1.2 Bitcoin vs. Banks</h3>
@@ -546,7 +547,7 @@ Similarly, you would never want anyone else to have your Bitcoin private key as 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- Identity: Public and Private Keys --------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
+<p align="center" width="100%">
 <img src="/images/image004.png" 
    alt="Identity: Public and Private Keys" 
    width="65%" />
@@ -577,7 +578,7 @@ To generate an identity, a user picks a private key at random generates the publ
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- Identity: A few things to note ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
+<p align="center" width="100%">
 <img src="/images/image004-identity-few.png" 
    alt="Identity: A few things to note" 
    width="65%" />
@@ -3903,10 +3904,12 @@ We also get a reference to the index of the input in the previous transaction.
 “1” means the second, and so on.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------  ---------------------------------->
+<!--------------------- Contents of a Transaction: Inputs: scriptSig (129) ----------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image148.png" alt=" "</>
+<img src="/images/image148.jpg"
+   alt="Contents of a Transaction: Inputs: scriptSig"
+   width="50%" />
 </p>
 &nbsp;
 
@@ -3915,10 +3918,12 @@ The scriptSig is the most important part of these inputs because they’re the r
 Last but not least, the end product of our transaction is the output(s).
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------  ---------------------------------->
+<!----------------------------- Contents of a Transaction: Outputs ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image149.png" alt=" "</>
+<img src="/images/image149.jpg"
+   alt="Contents of a Transaction: Outputs"
+   width="50%" />
 </p>
 &nbsp;
 
@@ -4181,7 +4186,6 @@ Alice can then send a transaction paying to Bob’s script hash.
 In order for Bob to redeem the bitcoin that Alice just sent him, he must provide a signature and the full script that he had written.
 
 <h3>Why use P2SH?</h3>
-
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ (136) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -4209,12 +4213,13 @@ It also makes sense that the customer shouldn't need to know anything about how 
 Pay to Script Hash was an update to Bitcoin back in 2012, and since then has been one of the most important improvements to Bitcoin since Bitcoin’s inception.
 
 <h3>Multisignature</h3>
-
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------  ---------------------------------->
+<!----------------------- P2PKH vs P2SH: Multisignature Example (139) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image160.png" alt=" "</>
+<img src="/images/image161.jpg" 
+   alt="P2PSH vs P2SH: Multisignature Example"
+   width="50%" />
 </p>
 &nbsp;
 
@@ -4266,14 +4271,14 @@ For a multisig transaction to be valid, the full redeem script is hashed and the
 If they match, the UTXO is unlocked.
 
 <h3>Timelocks</h3>
-
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------  ---------------------------------->
+<!--------------------------- transaction locktime: timelocks (141) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image162.png" alt=" "</>
+<img src="/images/image162.png" 
+   alt="Transaction Locktime: Timelocks"
+   width="50%" />
 </p>
-<p align="center">
 
 Timelocks are a type of functionality in Bitcoin that restrict the spending of funds until a later time or a specific block height.
 
@@ -4326,10 +4331,12 @@ In this lecture, we dove into the low-level specifics of Bitcoin that make it wo
 We achieve a tamper evident system using cryptographic hash functions to produce standardized random “fingerprints” of our data. If the data changes, so will the fingerprints. Cryptographic hash functions do the following:
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------- Cryptographic hash functions ----------------------------------->
+<!----------------------------- cryptographic hash functions (143) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="80%" src="/images/image163.jpg" alt="Cryptographic hash functions"</>
+<img src="/images/image163.jpg" 
+   alt="Cryptographic hash functions"
+   width="80%" />
 </p>
 
 Cryptographic hash functions are pseudorandom: although the output for any given input seems random, the output will remain consistent for that input.
@@ -9031,10 +9038,13 @@ We’ll expand on how we take advantage of these properties in the Advanced Use 
 <h3>Advanced Use Cases: Land Titles</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------- Decentralized Land Titles: Blockchain Fundamentals (307) --------------------->
+<!------------------ Decentralized Land Titles: Blockchain Fundamentals (309) -------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image353.png" style="width:5in;height:2.8125in" />
+<p align="center" >
+<img src="/images/image353.png" 
+   alt="Decentralized Land Titles: Blockchain Fundamentals"
+   width="65%" />
+</p>
 
 A problem that several underdeveloped countries face is a broken land titles system.
 
@@ -9855,4 +9865,4 @@ If you’re looking for more, there’s still a great deal of complexity and inn
 We wish you all the best on the rest of your blockchain journey!
 
 the end…
-4/7/2022
+4/8/2022
