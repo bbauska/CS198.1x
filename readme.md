@@ -2623,7 +2623,7 @@ Coindesk: [A Bot Named Willy: Did Mt. Gox's Automated Trading Pump Bitcoin's Pr
 
 (Optional) [Digital Gold ](https://www.amazon.com/Digital-Gold-Bitcoin-Millionaires-Reinvent/dp/006236250X)by Nathaniel Popper 
 
-<h3>Module 3: Bitcoin Mechanics & Optimizations: A Technical Overview</h3>
+<h3 id="ch3">Module 3: Bitcoin Mechanics & Optimizations: A Technical Overview</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------ Bitcoin Mechanics and Optimizations: A Technical Overview ------------------->
@@ -2675,13 +2675,14 @@ We’ll see that in order to design our tamper evident database, we first need a
 
 For this, we’ll utilize cryptographic hash functions.
 
-<h3>Motivations and Definitions: Integrity of Information</h3>
-
+<h3 id="ch3-1">Motivations and Definitions: Integrity of Information</h3>
 <!------------------------------------------------------------------------------------------------>
-<!-------------------- Cryptographic Hash Functions: Integrity of Information -------------------->
+<!------------------- cryptographic hash functions: integrity of information --------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image081-cryptographic-hash-functions.png" alt=" "</>
+<img src="/images/image081-cryptographic-hash-functions.png"
+   alt="Cryptographic Hash Functions: Integrity of Information"
+   width="50%" />
 </p>
 &nbsp;
 
@@ -2721,9 +2722,11 @@ We need standardized randomness.
 <!----------------------------------- image081-hash-function-formula.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image081-hash-function-formula.png" alt=" "</>
+<img src="/images/image081-hash-function-formula.png" 
+   alt="Hash Function Formula"
+   width="50%" />
 </p>
-&nbsp;
+Motif&nbsp;
 
 Cryptographic hash functions are one way functions that take some input and produce a pseudorandom output.
 
@@ -2861,7 +2864,7 @@ And each result is pseudo random.
 
 There's no relation between the Hashes despite the inputs being so similar.
 
-<h3>SHA256</h3>
+<h3 id="ch3-5">SHA256</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- image090-cryptographic-hash-sha256.png -------------------------------------->
@@ -2872,7 +2875,7 @@ There's no relation between the Hashes despite the inputs being so similar.
 </p>
 &nbsp;
 
-<h3>SHA256\^2 – (Secure Hash Algorithm)</h3>
+<h3 id="ch3-6">SHA256\^2 – (Secure Hash Algorithm)</h3>
 
 The particular hash function that Bitcoin chooses to use in many scenarios is called SHA-256.
 
@@ -2888,14 +2891,15 @@ Bitcoin, in many cases, uses SHA-256 squared, or SHA256d, which simply means tha
 
 Once on the original message you want to hash, and another time on the output of this first hash.
 
-<h3>Intro: A Tamper-Evident Database</h3>
+<h3 id="ch3-7">Intro: A Tamper-Evident Database</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- image090-a-tamper-evident-database.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image090-a-tamper-evident-database.png" 
-	alt=" "</>
+<img src="/images/image090-a-tamper-evident-database.png"
+	alt=" "
+	width="50%" />
 </p>
 &nbsp;
 
@@ -2922,7 +2926,9 @@ Well, if you’re an average user, here’s a real example of a block found on B
 <!----------------------------------- image092-a-tamper-evident-database-merkle.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image092-a-tamper-evident-database-merkle.png" alt=" "</>
+<img src="/images/image092-a-tamper-evident-database-merkle.png" 
+   alt=" "
+   width="50%" />
 </p>
 &nbsp;
 
@@ -2942,7 +2948,9 @@ Here’s the exact same block, but now in JSON format.
 <!----------------------------------- image093-a-tamper-evident-database-example-block.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image093-a-tamper-evident-database-example-block.png" alt=" "</>
+<img src="/images/image093-a-tamper-evident-database-example-block.png"
+   alt=" "
+   width="50%" />
 </p>
 &nbsp;
 
@@ -2966,7 +2974,9 @@ Here’s what a block looks like conceptually.
 <!----------------------------------- image095-a-tamper-evident-database-dissecting.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image095-a-tamper-evident-database-dissecting.png" alt=" "</>
+<img src="/images/image095-a-tamper-evident-database-dissecting.png"
+   alt=" "
+   width="50%" />
 </p>
 &nbsp;
 
@@ -2994,7 +3004,9 @@ The block header refers to all the metadata associated with every block.
 <!----------------------------------- image096-tamper-evident-dissecting.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image096-tamper-evident-dissecting.png" alt=" "</>
+<img src="/images/image096-tamper-evident-dissecting.png"
+   alt=" "
+   width="50%" />
 </p>
 &nbsp;
 
@@ -3014,7 +3026,9 @@ The *Merkle Root* represents a summary of transactions.
 <!----------------------------------- image097.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image098-tamper-evident-3.png" alt=" "</>
+<img src="/images/image098-tamper-evident-3.png"
+   alt=" "
+   width="50%" />
 </p>
 &nbsp;
 
@@ -3040,7 +3054,9 @@ Let’s first take a look at the Merkle Root.
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image098.png" alt=" "</>
+<img src="/images/image098.png"
+   alt=" "
+   width="50%" />
 </p>
 &nbsp;
 
@@ -3078,7 +3094,9 @@ We then hash each pair together, making a new level with half as many hashes.
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image099-tamper-protect.png" alt=" "</>
+<img src="/images/image099-tamper-protect.png" 
+   alt=" "
+   width="50%" />
 </p>
 &nbsp;
 
@@ -3094,7 +3112,9 @@ This way, we can detect any transaction changes after the commitment with the Me
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image099.png" alt=" "</>
+<img src="/images/image099.png"
+   alt=" "
+   width="50%" />
 </p>
 &nbsp;
 
@@ -3252,13 +3272,15 @@ And finally, an easily verifiable puzzle ensures that computers don’t have to 
 
 It should just take one hash for example to prove that some nonce is correct, even if finding the nonce takes millions of tries.
 
-<h3>Proof-of-Work: Mining
+<h3 id="ch3-12">3.12Proof-of-Work: Mining</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- Proof-of-Work: Mining -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image107.png" alt=" "</>
+<img src="/images/image107.png"
+   alt=" "
+   width="50%" />
 </p>
 &nbsp;
 
@@ -3286,7 +3308,9 @@ It’s as if that target is the green line dividing the valid and invalid blocks
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <<p align="center" width="100%">
-<img width="50%" src="/images/image108.png" alt=" "</>
+<img src="/images/image108.png" 
+   alt=" "
+   width="50%" />
 </p>
 &nbsp;
 
@@ -3326,7 +3350,9 @@ A quick sanity check to see if your understanding is correct.
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image109.png" alt=" "</>
+<img src="/images/image109.png" 
+   alt=" "
+   width="50%" />
 </p>
 &nbsp;
 
@@ -3338,7 +3364,9 @@ Then what’s the new difficulty if the time to mine 2016 blocks is exactly two 
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image110.png" alt=" "</>
+<img src="/images/image110.png" 
+   alt=" "
+   width="50%" />
 </p>
 &nbsp;
 
@@ -3350,7 +3378,9 @@ The puzzle was precisely as hard as we wanted, so the difficulty stays exactly t
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image111.png" alt=" "</>
+<img src="/images/image111.png" 
+   alt=" "
+   width="50%" />
 </p>
 &nbsp;
 
@@ -3370,7 +3400,9 @@ We mined those blocks in twice the expected time, meaning that the puzzle was tw
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image112.png" alt=" "</>
+<img src="/images/image112.png" 
+   alt=" "
+   width="50%" />
 </p>
 &nbsp;
 
@@ -3382,7 +3414,9 @@ The difficulty is inversely proportional to the time to mine.
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image113.png" alt=" "</>
+<img src="/images/image113.png" 
+   alt=" "
+   width="50%" />
 </p>
 &nbsp;
 
@@ -3401,7 +3435,9 @@ Also, the Coinbase transaction has a separate nonce field that is used in our ha
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image114.png" alt=" "</>
+<img src="/images/image114.png" 
+   alt=" "
+   width="50%" />
 </p>
 &nbsp;
 
@@ -3409,7 +3445,9 @@ Also, the Coinbase transaction has a separate nonce field that is used in our ha
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image115.png" alt=" "</>
+<img width="50%" src="/images/image115.png" 
+   alt=" "
+   width="50%" />
 </p>
 &nbsp;
 
@@ -3417,7 +3455,9 @@ Also, the Coinbase transaction has a separate nonce field that is used in our ha
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image116.png" alt=" "</>
+<img src="/images/image116.png" 
+   alt=" "
+   width="50%" />
 </p>
 &nbsp;
 
@@ -3453,7 +3493,9 @@ In this next section, we’ll go over what we want from a digital signature sche
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image117-dss.png" alt=" "</>
+<img src="/images/image117-dss.png" 
+   alt=" "
+   width="50%" />
 </p>
 &nbsp;
 
@@ -3474,7 +3516,9 @@ How can she do this and make sure no one tampers with her message?
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image117-dss-2.png" alt=" "</>
+<img src="/images/image117-dss-2.png" 
+   alt=" "
+   width="50%" />
 </p>
 &nbsp;
 
@@ -3486,7 +3530,9 @@ We’ll see later on that this is important to help Bob verify that a message co
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image117-dss-3.png" alt=" "</>
+<img src="/images/image117-dss-3.png" 
+   alt=" "
+   width="50%" />
 </p>
 &nbsp;
 
@@ -3498,7 +3544,9 @@ This generates a unique signature that proves that she created the message as it
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image117-dss-4.png" alt=" "</>
+<img src="/images/image117-dss-4.png" 
+   alt=" "
+   width="50%" />
 </p>
 &nbsp;
 
@@ -3510,7 +3558,9 @@ The idea is that the message is the main payload, and the signature can be used 
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image117-dss-5" alt=" "</>
+<img src="/images/image117-dss-5" 
+   alt=" "
+   width="50%" />
 </p>
 &nbsp;
 
@@ -3528,7 +3578,9 @@ This is how digital signature schemes make messages tamper evident.
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image117-dss-6.png" alt=" "</>
+<img src="/images/image117-dss-6.png" 
+   alt=" "
+   width="50%" />
 </p>
 &nbsp;
 
@@ -3544,7 +3596,9 @@ We’ll see how this is prevented in the next section, where we explain the way 
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image116.png" alt=" "</>
+<img src="/images/image116.png" 
+   alt=" "
+   width="50%" />
 </p>
 &nbsp;
 
@@ -3572,7 +3626,9 @@ And this is what we saw earlier: that signatures can be used so that messages ca
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image117.png" alt=" "</>
+<img src="/images/image117.png" 
+   alt=" "
+   width="50%" />
 </p>
 &nbsp;
 
@@ -3596,7 +3652,9 @@ Alright, so let’s take a look at elliptic curves first.
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image118.png" alt=" "</>
+<img src="/images/image118.png" 
+   alt=" "
+   width="50%" />
 </p>
 &nbsp;
 
@@ -3616,7 +3674,9 @@ Here’s a picture of Bitcoin’s elliptic curve, secp256k1, on the right side.
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image118-2.png" alt=" "</>
+<img src="/images/image118-2.png" 
+   alt=" "
+   width="50%" />
 </p>
 &nbsp;
 
@@ -3624,7 +3684,9 @@ Here’s a picture of Bitcoin’s elliptic curve, secp256k1, on the right side.
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image119.png" alt=" "</>
+<img src="/images/image119.png" 
+   alt=" "
+   width="50%" />
 </p>
 &nbsp;
 
@@ -3643,9 +3705,10 @@ Draw a line through P and 2P, find where they intersect, which is -3P, and then 
 <!------------------------------------------------------------------------------------------------>
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
-
 <p align="center" width="100%">
-<img width="50%" src="/images/image120.png" alt=" "</>
+<img src="/images/image120.png" 
+   alt=" "
+   width="50%" />
 </p>
 &nbsp;
 
@@ -3685,7 +3748,9 @@ This is a trapdoor, or one-way, function, because given a point K that is P + Q,
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image129.png" alt=" "</>
+<img src="/images/image129.png" 
+   alt=" "
+   width="50%" />
 </p>
 &nbsp;
 
@@ -3715,7 +3780,9 @@ We’ll be going over that in this section.
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image130.png" alt=" "</>
+<img src="/images/image130.png" 
+   alt=" "
+   width="50%" />
 </p>
 &nbsp;
 
@@ -3735,7 +3802,9 @@ After all this, we have our public key hash.
 <!------------------------------  ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image131.png" alt=" "</>
+<img src="/images/image131.png" 
+   alt=" "
+   width="50%" />
 </p>
 &nbsp;
 
@@ -3789,7 +3858,9 @@ Before we dive into specifics about how Bitcoin scripts work, it’s important t
 <!-------------------------- Bitcoin Scripts: Remember the UTXO Model? --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image132.png" alt="Bit "</>
+<img src="/images/image132.png" 
+   alt="Bit "
+   width="50%" />
 </p>
 &nbsp;
 
@@ -3797,7 +3868,9 @@ Before we dive into specifics about how Bitcoin scripts work, it’s important t
 <!------------------------------  ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image133.png" alt=" "</>
+<img src="/images/image133.png" 
+   alt=" "
+   width="50%" />
 </p>
 &nbsp;
 
@@ -3829,7 +3902,9 @@ Let’s take a deeper look into the contents of my transaction to Rustie.
 <!------------------------------  ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image144.png" alt=" "</>
+<img src="/images/image144.png" 
+   alt=" "
+   width="50%" />
 </p>
 &nbsp;
 
@@ -3839,7 +3914,9 @@ As we can see, a transaction has three main “sections.”
 <!------------------------------  ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image145.png" alt=" "</>
+<img src="/images/image145.png" 
+   alt=" "
+   width="50%" />
 </p>
 &nbsp;
 
@@ -3852,10 +3929,12 @@ This proof allows me to redeem the UTXOs and use them to produce new outputs.
 The outputs section contains a list of new UTXOs that will be sent to new addresses.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------  ---------------------------------->
+<!------------------------------  (128) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image146.png" alt=" "</>
+<img src="/images/image146.jpg"
+   alt=" "
+   width="50%" />
 </p>
 
 Each of these values is accompanied with a script that locks the value away from everyone except the intended redeemer who can provide a valid proof.
@@ -3868,7 +3947,9 @@ The first piece of metadata is the hash of our transaction, or the unique “ID�
 <!------------------------------  ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image147.png" alt=" "</>
+<img src="/images/image147.png" 
+   alt=" "
+   width="50%" />
 </p>
 &nbsp;
 
