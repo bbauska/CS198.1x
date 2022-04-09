@@ -2,19 +2,16 @@
 <!----------------------------- readme.md in CS198.1x.bauska.org --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <h2 align="center" width="100%">CS198.1x - University of California @ BerkeleyX</h2>
-&nbsp;
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- CS198.1x Bitcoin logo -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image001.png"
-	alt="Bitcoin cs198.1x logo"
-	width="50%" />
+   alt="Bitcoin cs198.1x logo"
+   width="50%" />
 </p>
 
-<h2 align="center">
-Bitcoin and Cryptocurrencies
-</h2>
+<h2 align="center">Bitcoin and Cryptocurrencies</h2>
 	
 <!------------------------------------------------------------------------------------------------>
 ## [Table of Contents](#table-of-contents)
@@ -157,12 +154,6 @@ Text: Lecture 4 Summary
 >### 6.13. [** **](#ch6-5)
 >### 6.14. [** **](#ch6-6)
 >### 6.15. [** **](#ch6-7)
-------------------------------------->
-
-**[`^        back to top        ^`](#table-of-contents)**
-
-<h2 id="ch1"></a>Chapter 1. Course/Bitcoin Protocol & Consensus: A High Level Overview/Intro</h2>
--------------------------------------------------------------------------------------------------->
 
 <h2>Course Syllabus</h2>
 
@@ -202,16 +193,14 @@ This module focuses on the properties behind the second largest blockchain platf
 -   [Mastering Bitcoin ](https://github.com/bitcoinbook/bitcoinbook/blob/develop/book.asciidoc)by Andreas Antonopoulos
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------- Expectations: Expect from us, we expect from you -------------------------->
+<!-------------------- expectations: expect from us, we expect from you (3) ---------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/expectations.png" 
-     alt="Expectations: Expect from us, we expect from you" 
+     alt="Expectations: Expect from Us, We Expect from You" 
      width="65%" />
 </p>
 &nbsp;
-
-<!---   style="width:5in;height:2.95745in" />  -->
 
 Also, a good unofficial resource is the Blockchain at Berkeley Public Slack, where we discuss various topics related to blockchain. You can request access to our Slack workspace at the bottom of the [Blockchain at Berkeley website ](https://blockchain.berkeley.edu/)under "Join Blockchain at Berkeley on Slack."
 
@@ -262,9 +251,8 @@ We’ll then draw a comparison between Bitcoin and Banks and analyze each of the
 And this all sets the stage for the next section, in which we’ll build Bitcoin from the ground up, incorporating each of these features and services and seeing how they fit together.
 
 <h3>What is Bitcoin?</h3>
-
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ What is Bitcoin?  Bitcoin Genesis ------------------------------->
+<!---------------------------- What is Bitcoin?  Bitcoin Genesis (5) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/what is bitcoin-bitcoin genesis.png" 
@@ -370,7 +358,7 @@ Instead, everyone can verify and audit the transaction history on their own.
 And even the creation of money is decided not by a central authority, but through the process of mining, or Proof-of-Work.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- currency: in Banks we distrust -------------------------------->
+<!------------------------------ currency: in banks we distrust (8) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/currency-in banks we distrust.png" 
@@ -415,11 +403,11 @@ And this is where Bitcoin comes in.
 Let's take a look at how Bitcoin can fulfill a bank's functions.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ Currency: Bitcoin Components ------------------------------------>
+<!------------------------------ currency: bitcoin components (9) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/Currency-Bitcoin components.png" 
-   alt="Currency: Bitcoin Components" 
+<img src="/images/Currency-Bitcoin components.png"
+   alt="Currency: Bitcoin Components"
    width="65%" />
 </p>
 
@@ -470,7 +458,7 @@ We saw earlier that banks need to keep track of the accounts and identities of t
 But how do we do this in Bitcoin, without a bank or central entity to keep track of who’s who and who owns what?
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------- Identity: Identity in Bitcoin ---------------------------------->
+<!----------------------------- identity: identity in bitcoin (11) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image003-identity-in-bitcoin.png" 
@@ -545,7 +533,7 @@ If anyone else gets their hands on your email password, for example, they can pr
 Similarly, you would never want anyone else to have your Bitcoin private key as that would give control of your Bitcoin public key and, by implication, your Bitcoin identity.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- Identity: Public and Private Keys --------------------------------->
+<!-------------------------- identity: public and private keys (13) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image004.png" 
@@ -2455,7 +2443,7 @@ ICOs are permissionless and enable ANYONE to invest in a project that they feel 
 We put emphasis on the word ANYONE because of the open and public nature of these cryptocurrencies.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image072-icos-doing-what-you-want.png -------------------------------------->
+<!--------------------------- image072-icos-doing-what-you-want.png ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" src="/images/image072-icos-doing-what-you-want.png" 
@@ -3119,12 +3107,12 @@ Because of that, the hash above it is also effective, propagating all the way up
 <h3>Merkle Trees: Proof of Inclusion</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------- A Tamper-Evident Database: Merkle Branch & Proof of Inclusion (100) ------------->
+<!------------- A Tamper-Evident Database: Merkle Branch & Proof of Inclusion (102) -------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" 
-   src="/images/image100.png" 
-   alt="A Tamper-Evident Database: Merkle Branch & Proof of Inclusion" />
+<img src="/images/image100.png"
+   alt="A Tamper-Evident Database: Merkle Branch & Proof of Inclusion"
+   width="50%" />
 </p>
 &nbsp;
 
@@ -3143,24 +3131,24 @@ This is actually a great efficiency gain as our tree grows larger.
 <h3>Previous Block Hash</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------  A Tamper-Evident Database: Merkle Root(101) --------------------------->
+<!-----------------------  A Tamper-Evident Database: Merkle Root (103) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" 
-   src="/images/image102.png" 
-   alt="A Tamper-Evident Database: Merkle Root" />
+<img src="/images/image102.png"
+   alt="A Tamper-Evident Database: Merkle Root"
+   width="50%" />
 </p>
 &nbsp;
 
 It’s pretty obvious what the Previous Block Hash does: It merely contains the hash of the previous block.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------- A Tamper-Evident Database: Protecting the Chain (102) --------------------->
+<!-------------------- A Tamper-Evident Database: Protecting the Chain (103) --------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" 
-   src="/images/image104.png" 
-   alt="A Tamper-Evident Database: Protecting the Chain" />
+<img src="/images/image104.png"
+   alt="A Tamper-Evident Database: Protecting the Chain"
+   width="50%" />
 </p>
 &nbsp;
 
@@ -3173,12 +3161,12 @@ Changing any part of this history also changes the entire future after that poin
 Here’s an example of what happens when that tampered Merkle Root from before manifests within the blockchain.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------ A Tamper-Evident Database: Protecting the Chain (102) ----------------------->
+<!------------------ a tamper-evident database: protecting the chain (104) ----------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" 
-   src="/images/image105-tamper.png" 
-   alt="A Tamper-Evident Database: Protecting the Chain" />
+<img src="/images/image105-tamper.png"
+   alt="A Tamper-Evident Database: Protecting the Chain"
+   width="50%" />
 </p>
 &nbsp;
 
@@ -3193,12 +3181,12 @@ Proof-of-Work: Partial Preimage Hash Puzzle
 Now that we’ve finished talking about how Prev Block Hashes, let’s talk about the **nonce**, the physical manifestation of Proof-of-Work.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- A Tamper-Evident Database: Nonce (102) -------------------------------------->
+<!--------------------------- a tamper-evident database: nonce (105) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" 
-   src="/images/image105-tamper-nonce.png" 
-   alt="A Tamper-Evident Database: Nonce" />
+<img src="/images/image105-tamper-nonce.png"
+   alt="A Tamper-Evident Database: Nonce"
+   width="50%" />
 </p>
 &nbsp;
 
@@ -3207,18 +3195,22 @@ Keep in mind that we need entities to prove that they’ve done some work before
 The way we do this in Bitcoin is with a partial preimage hash puzzle.
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!----------------------------- partial preimage hash puzzle (106) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image104-partial-preimage-1.png" alt=" "</>
+<img src="/images/image104-partial-preimage-1.png" 
+   alt="Partial Preimage Hash Puzzle; Computationally Difficult, Adjustable, and Easily Verifiable"
+   width="50%" />
 </p>
 &nbsp;
 <br/>
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!----------------------------- partial preimage hash puzzle (107) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image104-partial-preimage-2.png" alt=" "</>
+<img src="/images/image104-partial-preimage-2.png"
+   alt="Partial Preimage Hash Puzzle; Computationally Difficult, Adjustable, and Easily Verifiable"
+   width="50%" />
 </p>
 &nbsp;
 
@@ -3692,7 +3684,6 @@ This is a trapdoor, or one-way, function, because given a point K that is P + Q,
 <!------------------------------------------------------------------------------------------------>
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
-
 <p align="center" width="100%">
 <img width="50%" src="/images/image129.png" alt=" "</>
 </p>
@@ -3738,7 +3729,7 @@ Together, the combination of using SHA-256 and RIPEMD-160 is called “double ha
 
 After all this, we have our public key hash.
 
-<h3>Public Key to Address</h3>
+<h3 id="ch3-18">3.18 Public Key to Address</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------  ---------------------------------->
