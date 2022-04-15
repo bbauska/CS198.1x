@@ -1193,6 +1193,10 @@ Two categories of these protocol changes are soft and hard forks. Soft forks imp
 
 We’ll explain more in the course modules for Chapter 4.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3 id="ch1-10">1.10 Bitcoin Review:</h3>
 
 <!------------------------------------------------------------------------------------------------>
@@ -9868,4 +9872,4 @@ If you’re looking for more, there’s still a great deal of complexity and inn
 We wish you all the best on the rest of your blockchain journey!
 
 the end…
-4/16/2022 after 8:42am
+4/15/2022 6:18pm
