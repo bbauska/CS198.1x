@@ -82,6 +82,7 @@ Timelocks
 >### 4.04. [**Key Stretching**](#ch4-4)
 >### 4.05. [**Choosing a Wallet**](#ch4-5)
 >### 4.06. [**Chapter 4 Summary**](#ch4-6)
+
 <!---
 Bitcoin ATMs
 Exchanges
@@ -137,6 +138,7 @@ Text: Lecture 4 Summary
 >### 5.3. [** **](#ch5-3)
 >### 5.4. [** **](#ch5-4)
 >### 5.5. [** **](#ch5-5)
+----------------------------------------->
 
 ## [**Chapter 6. Ethereum & Smart Contracts: Enabling a Decentralized Future **](#ch6)
 >### 6.01. [** **](#ch6-1)
@@ -146,14 +148,13 @@ Text: Lecture 4 Summary
 >### 6.05. [** **](#ch6-5)
 >### 6.06. [** **](#ch6-6)
 >### 6.07. [** **](#ch6-7)
->### 6.08. [** **](#ch6-4)
->### 6.09. [** **](#ch6-5)
->### 6.10. [** **](#ch6-6)
->### 6.11. [** **](#ch6-7)
->### 6.12. [** **](#ch6-4)
->### 6.13. [** **](#ch6-5)
->### 6.14. [** **](#ch6-6)
->### 6.15. [** **](#ch6-7)
+>### 6.4. [**Ethereum Virtual Machine: Overview**](#ch6-4)
+>### 6.3. [**Ethereum Use Cases**](#ch6-3)
+>### 6.5. [**Blockchain vs. Internet**](#ch6-5)
+>### 6.6. [**Blockchain Generalizations**](#ch6-6)
+>### 6.7. [**Supplement: Use Cases**](#ch6-7)
+>### 6.4. [**Ethereum Ecosystem**](#ch6-4)
+>### 6.5. [**Module/Lecture 6 Summary**](#ch6-5)
 
 <h2>Course Syllabus</h2>
 
@@ -9937,4 +9938,4 @@ If you’re looking for more, there’s still a great deal of complexity and inn
 We wish you all the best on the rest of your blockchain journey!
 
 the end…
-4/7/2022
+4/15/2022 6:18pm
