@@ -190,6 +190,10 @@ And this all sets the stage for the next section, in which we’ll build Bitcoin
 	width="65%" />
 </p>
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 Most people struggle to answer the question, “What is Bitcoin?,” because there are so many different ways to respond.
 
 <b>First</b>, Bitcoin is considered the first and the most widely used cryptocurrency.<br/>
@@ -9917,4 +9921,4 @@ If you’re looking for more, there’s still a great deal of complexity and inn
 We wish you all the best on the rest of your blockchain journey!
 
 the end…
-4/15/2022 10:00am
+4/15/2022 12:00pm
