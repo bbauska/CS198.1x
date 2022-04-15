@@ -62,7 +62,7 @@
 >### 4.04. [**Mining**](#ch4-4)
 >### 4.05. [**Real World Mining**](#ch4-5)
 >### 4.06. [**Bitcoin Governance**](#ch4-6)
->### 4.06. [**Chapter 4 Summary**](#ch4-6)
+>### 4.07. [**Chapter 4 Summary**](#ch4-7)
 
 ## [**Chapter 5. Game Theory & Network Attacks: How to Destroy Bitcoin**](#ch5)
 >### 5.01. [**Pool Strategies**](#ch5-1)
@@ -1200,7 +1200,7 @@ We’ll explain more in the course modules for Chapter 4.
 <h3 id="ch1-10">1.10 Bitcoin Review:</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------- 27. Key Takeaway - Identity: Your Keys are Your Identity (37) ------------------>
+<!--------------- 27. Key Takeaway - Identity: Your Keys are Your Identity (38) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image027-key-takeaway-identity.png" 
@@ -1229,7 +1229,7 @@ It is extremely unlikely that someone might happen to generate the same private 
 Nor is it at all likely that someone can guess your private key to spend money on your behalf.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------ 28. Key Takeaway - Transactions: Breaking the Piggy Banks ------------------->
+<!--------------- 28. Key Takeaway - Transactions: Breaking the Piggy Banks (39) ----------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image028-key-takeaway-transactions.png" 
@@ -1250,7 +1250,7 @@ These UTXOs are uniquely identifiable and make tracking payments at the protocol
 The UTXO model might not be the most intuitive model for us to understand, but it works well for bitcoin from an architectural standpoint.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------- 29. Key Takeaway - Record-Keeping: Everyone's the Bank -------------------->
+<!----------------- 29. Key Takeaway - Record-Keeping: Everyone's the Bank (39) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image029-key-takeaway-record-keeping.png" 
@@ -1286,7 +1286,7 @@ Because, again, there is no central authority to make sure that one person only 
 Proof-of-Work hence aims to make votes expensive for everyone, so that the voting power one has is based on how much computational power one has, instead of based on the number of identities.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 31. Unique Properties of Bitcoin: Demystifying the Buzzwords ------------------>
+<!------------- 31. Unique Properties of Bitcoin: Demystifying the Buzzwords (41) ---------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image031-unique-properties-of-bitcoin.png" 
@@ -1392,7 +1392,7 @@ Users on the blockchain must come to a consensus on which updates and blocks to 
 
 (Optional) [How Bitcoin Works in 5 Minutes (Technical) ](https://www.youtube.com/watch?v=l9jOJk30eQs&feature=youtu.be)
 
-<h3>Module 2: Blockchain History</h3>
+<h3 id="ch2">Module 2: Blockchain History</h3>
 
 A question we sometimes get from students in our class here at UC Berkeley is: why use Bitcoin?
 
@@ -1429,7 +1429,7 @@ From online discussions on forums and mailing lists, two groups formed: the Cyph
 <h3 id="ch2-2">2.2 Libertarian Dreams</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------- 32. Libertarian Dreams: Cypherpunks and Crypto-Anarchists -------------------->
+<!--------------- 32. Libertarian Dreams: Cypherpunks and Crypto-Anarchists (45) ----------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image032-libertarian-dreams-cypherpunks.png" 
@@ -1438,15 +1438,15 @@ From online discussions on forums and mailing lists, two groups formed: the Cyph
 </p>
 
 Before explaining a bit of the background behind all of this, let’s look at this quote first:
-
+<blockquote>
 “Privacy is necessary for an open society in the electronic age. Privacy is not secrecy. A private matter is something one doesn’t want the whole world to know, but a secret matter is something one doesn’t want anybody to know. Privacy is the power to selectively reveal oneself to the world.”
-
+</blockquote>
 The quote comes from the Cypherpunk Manifesto, which was written by Eric Hughes, a computer programmer and mathematician from UC Berkeley.
 
 He’s one of the founders of the Cypherpunk movement, and in the 90s founded and administered the Cypherpunk mailing list.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------- 33. Libertarian Dreams: Cypherpunks and Crypto-Anarchists -------------------->
+<!--------------- 33. Libertarian Dreams: Cypherpunks and Crypto-Anarchists (46) ----------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image033-libertarian-dreams-cypherpunks-2.png" 
@@ -1477,7 +1477,7 @@ The Cypherpunks didn’t get together, design a cryptocurrency, and succeed on t
 Several early attempts at making a true cryptocurrency failed, though they came close.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------- 34. Early Attampts: Digicash -------------------->
+<!----------------------------- 34. Early Attampts: Digicash (47) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image034-early-attempts-digicash.png" 
@@ -1504,7 +1504,7 @@ And that’s exactly what happened.
 Chaum’s company DigiCash Inc bore the overwhelming burden of having to validate each and every digital signature in the DigiCash system, which eventually led to bankruptcy in 1998.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------- 35. Early Attampts: HashCash -------------------->
+<!----------------------------- 35. Early Attampts: HashCash (48) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image035-early-attempts-hashcash.png" 
@@ -1527,7 +1527,7 @@ It would be too costly, as spammers goals are to send out huge numbers of emails
 So, by making it computationally expensive to send out email, hashcash disincentivized spammers.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------- 36. Early Attampts: B-Money -------------------->
+<!------------------------------ 36. Early Attampts: B-Money (49) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image036-early-attempts-b-money.png" 
@@ -1553,10 +1553,10 @@ Contracts and transactions are enforced through the broadcast and signing of tra
 
 These ideas from B-money would later influence the development and design philosophy of Bitcoin.
 
-<h3>Bitcoin Invention</h3>
+<h3 id="ch2-4">2.4 Bitcoin Invention</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------ 37. Satoshi Nakamoto: Oct, 2008 Bitcoin Whitepaper -------------------------->
+<!------------------- 37. Satoshi Nakamoto: Oct, 2008 Bitcoin Whitepaper (50) -------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image037-satoshi-nakamoto.png" 
@@ -1601,7 +1601,7 @@ It began at 50 bitcoins and is halved every (two hundred and ten thousand) 210,0
 Eventually, the block reward will become 0, at which point 21 million bitcoins will have been minted.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- 38. Bitcoin: The First Cryptocurrency ---------------------------->
+<!--------------------- 38. Bitcoin: The First Cryptocurrency  1/3/2009 (51) --------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image038-bitcoin-the-first-cryptocurrency.png" 
@@ -1629,11 +1629,11 @@ During this first year, people sent bitcoins to each other out of interest, play
 During this time, however, bitcoins were never exchanged for any tangible good.
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!--------------------------------- 39. bitcoin gains value (52) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image039-bitcoin-gains-value.png" 
-   alt=" "
+   alt="Bitcoin gains value"
    width="65%" />
 </p>
 &nbsp;
@@ -1645,11 +1645,11 @@ Feel free to pause the video and read through the post, or follow the source lin
 In the post, we see that...
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image040-bitcoin-gains-value-2 -------------------------------------->
+<!---------------- 40. may 22, 2010 - $25 pizza value paid 10,000 bitcoins (52) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image040-bitcoin-gains-value-2.png" 
-   alt=" "</>
+   alt="10,000 bitcoins for a 20 dollar pizza"
    width="65%" />
 </p>
 &nbsp;
@@ -1665,10 +1665,12 @@ In this moment, Bitcoin went from worthless internet money to something with rea
 As a fun fact: as of March 15, 2018, the pizzas Laszlo ordered are now worth 81 million dollars.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image041-bitcoin-gains-value-81-million-pizza.png -------------------------------------->
+<!-------------------- 41. 81 million dollar pizza, may, 2010 - a first (53) --------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image041-bitcoin-gains-value-81-million-pizza.png" alt=" "</>
+<img src="/images/image041-bitcoin-gains-value-81-million-pizza.png"
+   alt="81 million dollar pizza, the first purchase"
+   width="50%" />
 </p>
 &nbsp;
 
@@ -1707,15 +1709,16 @@ If someone found your private key and stole your funds, no one else can give you
 Early Bitcoin was thus often the target of scandals, hacks, and illegal activity.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image042-bitcoin-theft-mt-gox-july-2010.png -------------------------------------->
+<!-------------------- 42. bitcoin theft: mt gox july, 2010 - feb, 2014 (54) --------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="40%" src="/images/image042-bitcoin-theft-mt-gox-july-2010.png" 
-alt="Bitcoin Theft: Mt Gox July, 2010 - Feb, 2014"</>
+<img src="/images/image042-bitcoin-theft-mt-gox-july-2010.png"
+   alt="Bitcoin Theft: Mt Gox July, 2010 - Feb, 2014"
+   width="40%" />
 </p>
 &nbsp;
 
-<h3>Hacks and Scandals</h3>
+<h3 id="ch2-5">2.5 Hacks and Scandals</h3>
 
 In the early stages of Bitcoin, there existed no exchange for trading between bitcoins and regular currencies.
 
@@ -1742,11 +1745,12 @@ In February 2014, Mt. Gox announced that it had lost 744,408 of its customers bi
 By the end of the month, Mt. Gox filed for bankruptcy.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image043-bitcoin-drug-scandal-silk-road-feb-2011-thru-oct-2013.png  -------------------------------------->
+<!------------------------ 43. Drug Scandal: feb, 2011 - oct, 2013 (55) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image043-bitcoin-drug-scandal-silk-road-feb-2011-thru-oct-2013.png" 
-	alt="Bitcoin Drug Scandal: Silk Road Feb, 2011 - Oct, 2013"</>
+<img src="/images/image043-bitcoin-drug-scandal-silk-road-feb-2011-thru-oct-2013.png" 
+	alt="Bitcoin Drug Scandal: Silk Road Feb, 2011 - Oct, 2013"
+	width="50%" />
 </p>
 &nbsp;
 
@@ -1769,15 +1773,16 @@ In October 2013, the FBI shut down Silk Road.
 Ross Ulbricht was sentenced to life in jail, and the FBI seized upwards of 26,000 bitcoins, worth \$3.6 million at the time.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image044-bitcoin-bubble.png  -------------------------------------->
+<!------------------------------------ 44. bitcoin bubble (56) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image044-bitcoin-bubble.png" 
-	alt="Bitcoin Bubble"</>
+<img src="/images/image044-bitcoin-bubble.png"
+	alt="Bitcoin Bubble"
+	width="50%" />
 </p>
 &nbsp;
 
-<h3>Bitcoin Bubble and Altcoins</h3>
+<h3 id="ch2-6">2.6 Bitcoin Bubble and Altcoins</h3>
 
 Between November 1, 2013 and November 30, 2013 -- less than a month -- the price of Bitcoin rose from just under \$200 to over \$1000
 
@@ -1792,11 +1797,12 @@ Many sold because of warnings issued by the Chinese government
 Second, automated trading in Mt. Gox may have artificially driven the price up by continuously buying bitcoins.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image045-explosion-of-altcoins.png -------------------------------------->
+<!------------------------------------- 45. altcoins (57) ---------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image045-explosion-of-altcoins.png" 
-	alt="Explosion of Altcoins"</>
+<img src="/images/image045-explosion-of-altcoins.png"
+	alt="Explosion of Altcoins"
+	width="50%" />
 </p>
 &nbsp;
 
@@ -1817,11 +1823,12 @@ Stellar and Ripple pioneered new federated consensus algorithms, eliminating the
 These are just a few examples of how coins other than Bitcoin are trying to solve their own individual problems, making for a wider crypto space.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image046-bitcoin-headlines.png -------------------------------------->
+<!------------------------- 46. bitcoin headlines - popularity grows (58) ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image046-bitcoin-headlines.png" 
-	alt="Bitcoin Headlines: Popularity Grows, Merchants Begin to Accept Bitcoin"</>
+<img src="/images/image046-bitcoin-headlines.png"
+   alt="Bitcoin Headlines: Popularity Grows, Merchants Begin to Accept Bitcoin"
+   width="50%" />
 </p>
 &nbsp;
 
@@ -1854,11 +1861,12 @@ At every club meeting, our 7 members would discuss the latest hack, the latest b
 We’ve grown so much since then, and that just comes to show how much the blockchain space has matured over the years.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image047-bitcoin-startups.png -------------------------------------->
+<!--------------------------------- 47. bitcoin startups (59) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image047-bitcoin-startups.png" 
-	alt="Bitcoin Startups"</>
+<img src="/images/image047-bitcoin-startups.png"
+   alt="Bitcoin Startups"
+   width="50%" />
 </p>
 &nbsp;
 
@@ -1875,11 +1883,12 @@ Blockchain.info is a block explorer that allows users to see individual blocks a
 Most importantly, during this time, the term “blockchain” started becoming a buzz word.
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!--------------------------- 48. and, burst the bubble (2014-2015) (60) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image048-and-burst.png" 
-	alt="2014-2015 Graph of Bitcoin Prices"</>
+<img src="/images/image048-and-burst.png"
+   alt="2014-2015 Graph of Bitcoin Prices"
+   width="50%" />
 </p>
 &nbsp;
 
@@ -1895,7 +1904,7 @@ Especially, Chinese investors had sold because of warnings issued by the Chinese
 
 And then of course the market amplified the current trend, so people further dumped because they feared a loss in value.
 
-<h3>Intro: Scalability</h3>
+<h3 id="ch2-7">2.7 Intro: Scalability</h3>
 
 Historically, Bitcoin has faced a number of challenges as a technology, including scalability and of course public perception.
 
@@ -1906,11 +1915,12 @@ In this section, we’re going to talk about the next stage of Bitcoin’s histo
 <h3>Bitcoin Struggles to Scale</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image049-bitcoin-struggles-to-scale.png -------------------------------------->
+<!----------------- 49. Bitcoin Struggles to Scale: Block Size Debate 2015 (61) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image049-bitcoin-struggles-to-scale.png" 
-	alt="Bitcoin Struggles to Scale: Block Size Debate 2015"</>
+<img src="/images/image049-bitcoin-struggles-to-scale.png"
+   alt="Bitcoin Struggles to Scale: Block Size Debate 2015"
+   width="50%" />
 </p>
 &nbsp;
 
@@ -1942,14 +1952,15 @@ Instead, users introduce proposals called BIPs, or ***Bitcoin Improvement Propos
 
 Members can't directly propose and vote on updates to Bitcoin within the actual software, but at least the current mechanism gets the job done.
 
-<h3>Ethereum Timeline</h3>
+<h3 id="ch2-8">2.8 Ethereum Timeline</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image050-2013-2016-ethereum-timeline.png -------------------------------------->
+<!----------------- 50. bitcoin vs. ethereum: ethereum timeline 2013-2016 (62) ------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image050-2013-2016-ethereum-timeline.png" 
-	alt="2013-2016: Ethereum Timeline: Bitcoin vs Ethereum"</>
+<img src="/images/image050-2013-2016-ethereum-timeline.png"
+   alt="2013-2016: Ethereum Timeline: Bitcoin vs Ethereum"
+   width="50%" />
 </p>
 &nbsp;
 
@@ -1968,11 +1979,12 @@ In other words, any type of code that I run on a regular computer can also be ru
 Code execution on Ethereum is fueled by Ethereum’s internal token, called ether.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image051-2013-2016-ethereum-blows-up.png -------------------------------------->
+<!-------------------- 51. ethreum blows up: ethereum timeline 2013-2016 (63) -------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image051-2013-2016-ethereum-blows-up.png" 
-	alt="2013-2016: Ethereum Timeline: Ethereum Blows Up in Multiple Ways"</>
+<img src="/images/image051-2013-2016-ethereum-blows-up.png" 
+   alt="2013-2016: Ethereum Timeline: Ethereum Blows Up in Multiple Ways"
+   width="50%" />
 </p>
 &nbsp;
 
@@ -1985,11 +1997,12 @@ At the time, this was equivalent to 2.3 million USD, or in Bugatti terms, about 
 The Ethereum blockchain officially went live on July 30th 2015, and by May 2016, the cumulative value of Ethereum tokens was more than \$1 billion.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------ 2013-2016: Ethereum Timeline: Decentralized Autonomous Organizations -------------->
+<!--------- 2013-2016: Ethereum Timeline: Decentralized Autonomous Organizations (63) ------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image052-2013-2016-ethereum-timeline-dao.png" 
-	alt="2013-2016: Ethereum Timeline: Decentralized Autonomous Organizations"</>
+<img src="/images/image052-2013-2016-ethereum-timeline-dao.png"
+   alt="2013-2016: Ethereum Timeline: Decentralized Autonomous Organizations"
+   width="50%" />
 </p>
 &nbsp;
 
@@ -2010,11 +2023,12 @@ The split that rewinded (zurückgespult) history is the split that is currently 
 The remainder that believed that nothing - including catastrophic events like the DAO Hack – should be reverted stayed on the main chain, now known as Ethereum Classic.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------- image053-2016-to-present-ethereum-bubble.png (64) ---------------------->
+<!---------------------------- 53. ethereum bubble 2016-2018ish (64) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image053-2016-to-present-ethereum-bubble.png" 
-	alt="2016-??: Ethereum Bubble"</>
+<img src="/images/image053-2016-to-present-ethereum-bubble.png"
+	alt="2016-??: Ethereum Bubble"
+   width="50%" />
 </p>
 &nbsp;
 
@@ -2045,11 +2059,12 @@ For better or for worse, people don’t want to miss out on the “next bitcoin�
 The fact that Bitcoin’s and other cryptocurrencies’ prices are starting to be broadcasted on public radio further contributes to this “FOMO.”
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 2016-2017: Hype Train -------------------------------------->
+<!------------------------------- 54. 2016-2017: Hype Train (##) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image054-2016-2017-hype-train.png" 
-	alt="2016-2017: Hype Train"</>
+<img src="/images/image054-2016-2017-hype-train.png" 
+	alt="2016-2017: Hype Train"
+   width="50%" />
 </p>
 &nbsp;
 
@@ -2058,11 +2073,12 @@ And economic and political circumstances like Brexit, Trump’s election, or Ind
 Due to some economic and political situations, and of course the aforementioned Fear of Missing Out, cryptocurrencies became extremely popular, resulting in a massive hype train.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 2016-2017: More Hype Train -------------------------------------->
+<!------------------------------ 55. 2016-2017: More Hype Train (66) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image055-2016-2017-hype-train-2.png" 
-	alt="2016-2017: More Hype Train"</>
+<img src="/images/image055-2016-2017-hype-train-2.png"
+   alt="2016-2017: More Hype Train"
+   width="50%" />
 </p>
 &nbsp;
 
@@ -2073,11 +2089,12 @@ A decentralized application built on top of Ethereum called CryptoKitties, an on
 It’s important to have an educated understanding of the space…...rather than make decisions based on volatility and prices.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 2017-2019ish: Get Off at this Station ------------------------------>
+<!------------------------ 56. 2017-2019ish: Get Off at this Station (66) ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image056-2017-get-off-at-this-station.png" 
-	alt="2017-2019ish: Get Off at This Station"</>
+<img src="/images/image056-2017-get-off-at-this-station.png"
+   alt="2017-2019ish: Get Off at This Station"
+   width="50%" />
 </p>
 &nbsp;
 
@@ -2085,7 +2102,7 @@ Although the price of Bitcoin is many, many times higher than what it was a year
 
 An increase in the amount of international regulation especially in India...South Korea…US and the UK, combined with a “mob mentality” of people investing without truly believing in the technology led to quickly changing market caps, and eventually the hype train crashed.
 
-<h3>Intro: Enterprise Blockchain</h3>
+<h3 id="ch2-9">2.9 Intro: Enterprise Blockchain</h3>
 
 While blockchain technology was initially developed to underlie cryptocurrencies, it quickly drew the attention of enterprises, which wanted to harness the same technology to create private or permissioned blockchains.
 
@@ -2097,14 +2114,15 @@ Now we’ll be switching gears to see how blockchain fits in with enterprises, p
 
 As a technology that was initially created to avoid large banks and powerful centralized institutions, blockchain seems to have come full circle...
 
-<h3>Banks and Blockchain</h3>
+<h3 id="ch2-10">2.10 Banks and Blockchain</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- Banks and Blockchain -------------------------------------->
+<!----------------------------------- 57. Banks and Blockchain (67) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image057-banks-and-blockchain.png" 
-	alt="Banks and Blockchain"</>
+<img src="/images/image057-banks-and-blockchain.png"
+   alt="Banks and Blockchain"
+   width="50%" />
 </p>
 &nbsp;
 
@@ -2125,11 +2143,12 @@ In a sense, they wanted to separate “blockchain” from “Bitcoin”.
 These blockchains take the fundamental cryptographic technology from bitcoin (public key cryptography) and modify it to be more compliant to enterprise use.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- Private Blockchain Initiatives ----------------------------------->
+<!---------------------- 58. Private Blockchain Initiatives (##) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image058-private-blockchain-initiatives.png" 
-	alt="Private Blockchain Initiatives"</>
+<img src="/images/image058-private-blockchain-initiatives.png"
+	alt="Private Blockchain Initiatives"
+   width="50%" />
 </p>
 &nbsp;
 
@@ -2144,11 +2163,12 @@ The way that companies, especially financial institutions, have looked at blockc
 Let’s take a look specifically at Jamie Dimon, the CEO of JP Morgan Chase...
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------- Quotes from Jamie Dimon, the CEO of JP Morgan Chase ----------------------->
+<!-------------- 59. Quotes from Jamie Dimon, the CEO of JP Morgan Chase (##) -------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image059-dimon-quotes.png" 
-	alt="Quotes from Jamie Dimon, the CEO of JP Morgan Chase"</>
+<img src="/images/image059-dimon-quotes.png"
+   alt="Quotes from Jamie Dimon, the CEO of JP Morgan Chase"
+   width="50%" />
 </p>
 &nbsp;
 
@@ -2160,8 +2180,9 @@ In January 2014, he said about Bitcoin “It’s a terrible store of value. It c
 <!------------------ Quotes (2) from Jamie Dimon, the CEO of JP Morgan Chase --------------------->
 <!------------------------------------------------------------------------------------------------>
 p align="center" width="100%">
-<img width="50%" src="/images/image060-dimon-quotes-2.png" 
-	alt="Quotes (2) from Jamie Dimon, the CEO of JP Morgan Chase"</>
+<img src="/images/image060-dimon-quotes-2.png"
+   alt="Quotes (2) from Jamie Dimon, the CEO of JP Morgan Chase"
+   width="50%" />
 </p>
 &nbsp;
 
@@ -2173,8 +2194,9 @@ The statement seems aggressive, but he actually gives legitimacy to Bitcoin by s
 <!------------------ Quotes (3) from Jamie Dimon, the CEO of JP Morgan Chase --------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image061-dimon-quotes-3.png" 
-	alt="Quotes (3) from Jamie Dimon, the CEO of JP Morgan Chase"</>
+<img src="/images/image061-dimon-quotes-3.png"
+   alt="Quotes (3) from Jamie Dimon, the CEO of JP Morgan Chase"
+   width="50%" />
 </p>
 &nbsp;
 
@@ -2185,11 +2207,12 @@ Now, Bitcoin isn’t just competition, it’s a bona fide threat.
 It’s something that bankers can’t control, and they hate it.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------ Quotes (4) from Jamie Dimon, the CEO of JP Morgan Chase --------------------->
+<!------------------ 62. Quotes (4) from Jamie Dimon, the CEO of JP Morgan Chase --------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image062-dimon-quotes-4.png" 
-	alt="Quotes (4) from Jamie Dimon, the CEO of JP Morgan Chase"</>
+<img src="/images/image062-dimon-quotes-4.png"
+   alt="Quotes (4) from Jamie Dimon, the CEO of JP Morgan Chase"
+   width="50%" />
 </p>
 &nbsp;
 
@@ -2204,11 +2227,12 @@ These comments were actually made at an event hosted by the Institute of Interna
 Just to drive his point home, here are some more comments he made in September 2017.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------ Quotes (5) from Jamie Dimon, the CEO of JP Morgan Chase --------------------->
+<!------------ 63. Quotes (5) from Jamie Dimon, the CEO of JP Morgan Chase (##) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image063-dimon-quotes-5.png" 
-	alt="Quotes (5) from Jamie Dimon, the CEO of JP Morgan Chase" </>
+<img src="/images/image063-dimon-quotes-5.png"
+   alt="Quotes (5) from Jamie Dimon, the CEO of JP Morgan Chase"
+   width="50%" />
 </p>
 &nbsp;
 
@@ -2217,10 +2241,12 @@ Just to drive his point home, here are some more comments he made in September 2
 And in another quote he said “One of my daughters bought bitcoin and it went up, she thinks she is a genius.”
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------ Quotes (6) from Jamie Dimon, the CEO of JP Morgan Chase --------------------->
+<!---------------- 64. Quotes (6) from Jamie Dimon, the CEO of JP Morgan Chase ------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image064-dimon-quotes-6.png" alt="Quotes (6) from Jamie Dimon, the CEO of JP Morgan Chase" </>
+<img src="/images/image064-dimon-quotes-6.png"
+   alt="Quotes (6) from Jamie Dimon, the CEO of JP Morgan Chase"
+   width="50%" />
 </p>
 &nbsp;
 
@@ -2229,22 +2255,24 @@ In January 2018, he said “The blockchain is real. You can have crypto yen and 
 <h3>Blockchain Community and Politics</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image065-crypto-anarchy.png -------------------------------------->
+<!----------------------------------- 65. crypto-anarchy (##) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image065-crypto-anarchy.png" 
-	alt="Crypto Anarchy"</>
+<img src="/images/image065-crypto-anarchy.png"
+   alt="Crypto Anarchy"
+   width="50%" />
 </p>
 &nbsp;
 
 Cryptocurrency and blockchain technology started its roller coaster of a journey with a small group of cypherpunks, who believed in cryptography as means to promote privacy…it had a rough beginning as we saw with the failed DigiCash…but now we’ve ended up here at JP Morgan Chase, one of the largest American multinational financial services firms.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image066-digicash.png -------------------------------------->
+<!------------------------ 66. digicash: untraceable electronic cash (##) ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image066-digicash.png" 
-	alt="Digicash: Untraceable Electronic Cash"</>
+<img src="/images/image066-digicash.png"
+   alt="Digicash: Untraceable Electronic Cash"
+   width="50%" />
 </p>
 &nbsp;
 
@@ -2255,11 +2283,12 @@ Originating as a fledgling technology founded on libertarian ideals, Bitcoin had
 As bitcoin began to rise in value and attract attention from a wider and wider audience, there was a shift in focus away from Bitcoin itself and more into the other innovations made possible by the underlying technology, the blockchain.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image067-community.png -------------------------------------->
+<!------------------ 67. community: where does the community exist? (##) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image067-community.png" 
+<img src="/images/image067-community.png"
 	alt="Community: Where Does the Community Exist?"</>
+   width="50%" />
 </p>
 &nbsp;
 
@@ -2278,11 +2307,12 @@ We also host many public events, workshops, and meetups, teach multiple classes 
 And this all done to foster and develop the blockchain community.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image068-politics-dont-tread.png -------------------------------------->
+<!----------------- 68. politics: internal politics and libertarianism (##) ---------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image068-politics-dont-tread.png" 
-	alt="Politics: Internal Politics and Libertarianism"</>
+<img src="/images/image068-politics-dont-tread.png"
+   alt="Politics: Internal Politics and Libertarianism"
+   width="50%" />
 </p>
 &nbsp;
 
@@ -2306,8 +2336,9 @@ On the other hand, libertarians also think that people should be able to do what
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image069-politics-dont-tread-2.png" 
-	alt="Politics: More Internal Politics and Libertarianism"</>
+<img src="/images/image069-politics-dont-tread-2.png"
+   alt="Politics: More Internal Politics and Libertarianism"
+   width="50%" />
 </p>
 &nbsp;
 
@@ -2319,8 +2350,9 @@ It’s used as a libertarian symbol because the porcupine is the “quiet”, un
 <!----------------------------------- image070-controversial-topics.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image070-controversial-topics.png" 
-	alt="Conversational Topics"</>
+<img src="/images/image070-controversial-topics.png"
+   alt="Conversational Topics"
+   width="50%" />
 </p>
 &nbsp;
 
@@ -2350,8 +2382,9 @@ That’s what we’re going to explore in this next section on the state of the 
 <!----------------------------------- image071-icos-the-hype.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image071-icos-the-hype.png" 
-	alt="ICO's: The Hype"</>
+<img src="/images/image071-icos-the-hype.png"
+   alt="ICO's: The Hype"
+   width="50%" />
 </p>
 &nbsp;
 
@@ -2402,7 +2435,9 @@ Normal people now can invest in any blockchain project they want to.
 <!----------------------------------- image073-explosion-of-altcoins.png  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image073-explosion-of-altcoins.png" alt=" "</>
+<img src="/images/image073-explosion-of-altcoins.png" 
+   alt=" "</>
+   width="50%" />
 </p>
 &nbsp;
 
@@ -2420,7 +2455,9 @@ In Q3’17, ICOs have raised \$1.3B with 150 ICOs while seed/angel investing acr
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image074-cryptokitties.png" alt=" "</>
+<img src="/images/image074-cryptokitties.png"
+   alt=" "
+   width="50%" />
 </p>
 &nbsp;
 
@@ -2444,7 +2481,9 @@ Whether or not its mainstream spotlight and growing popularity is a good thing i
 <!----------------------------------- image075-parity-security.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image075-parity-security.png" alt=" "</>
+<img src="/images/image075-parity-security.png"
+   alt=" "
+   width="50%" />
 </p>
 &nbsp;
 
@@ -2564,7 +2603,9 @@ Coindesk: [A Bot Named Willy: Did Mt. Gox's Automated Trading Pump Bitcoin's Pr
 <!------------------ Bitcoin Mechanics and Optimizations: A Technical Overview ------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image080-bitcoin-overview.png" alt="Bitcoin Mechanics and Optimizations: A Technical Overview"</>
+<img src="/images/image080-bitcoin-overview.png"
+   alt="Bitcoin Mechanics and Optimizations: A Technical Overview"
+   width="50%" />
 </p>
 &nbsp;
 
@@ -9785,7 +9826,7 @@ The project is called Ethermint, because it runs Ethereum on a modular blockchai
 
 We’ll go into this, and also Plasma, in our next course.
 
-<h2>Lecture 6: Summary</h2>
+<h2>6.9 Lecture 6: Summary</h2>
 
 <h3>I. Smart Contracts</h3>
 
@@ -9798,11 +9839,11 @@ Ethereum is a decentralized platform designed to run smart contracts. It is a di
 Here’s a review of the similarity and differences between Ethereum and Bitcoin:
 
 <!------------------------------------------------------------------------------------------------>
-<!----- Table reviewing the similarities and differences between Ethereum and Bitcoin (334) ------>
+<!----- table reviewing the similarities and differences between ethereum and bitcoin (338) ------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image363.jpg" 
-   alt= "Bitcoin Network: Flood the Network" 
+<img src="/images/image363.jpg"
+   alt= "Similarity and Differences between Ethereum and Bitcoin"
    width="85%" />
 &nbsp;
 
@@ -9825,7 +9866,7 @@ Ethereum smart contracts generally serve four main purposes: 
 The Ethereum Virtual Machine enables the Ethereum blockchain to be programmable. Ethereum Smart Contracts are written in high level programming languages like Solidity, which have to be compiled down to Ethereum Virtual Machine (EVM) code. Every node runs EVM as part of its block verification procedure. Once the contract code is compiled to EVM code, every node in the Ethereum network executes the code. Nodes then come to consensus on the new system state. Note: Ethereum is redundantly parallel; its main goal is not to optimize computational efficiency, but to enable distributed and trustless computation.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- Nodes in the Ethereum Network (335) --------------------------->
+<!-------------------------------- Nodes in the Ethereum Network (339) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image364.jpg" 
@@ -9872,4 +9913,4 @@ If you’re looking for more, there’s still a great deal of complexity and inn
 We wish you all the best on the rest of your blockchain journey!
 
 the end…
-4/15/2022 9:38am
+4/15/2022 10:00am
