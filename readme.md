@@ -39,9 +39,8 @@
 >### 2.07. [**Scalability**](#ch2-7)
 >### 2.08. [**Ethereum Timeline**](#ch2-8)
 >### 2.09. [**Intro: Enterprise Blockchain**](#ch2-9)
->### 2.10. [**Banks and Blockchain**](#ch2-10)
->### 2.11. [**Intro: State of the Industry**](#ch2-11)
->### 2.12. [**Chapter 2 Summary**](#ch2-12)
+>### 2.10. [**Intro: State of the Industry**](#ch2-10)
+>### 2.11. [**Chapter 2 Summary**](#ch2-11)
 
 ## [**Chapter 3. Bitcoin Mechanics & Optimizations: A Technical Overview**](#ch3)
 >### 3.01. [**Motivations and Definitions**](#ch3-1)
@@ -2114,10 +2113,10 @@ Now we’ll be switching gears to see how blockchain fits in with enterprises, p
 
 As a technology that was initially created to avoid large banks and powerful centralized institutions, blockchain seems to have come full circle...
 
-<h3 id="ch2-10">2.10 Banks and Blockchain</h3>
+<h3>Banks and Blockchain</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 57. Banks and Blockchain (67) ----------------------------------->
+<!------------------------------- 57. Banks and Blockchain (67) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image057-banks-and-blockchain.png"
@@ -2143,7 +2142,7 @@ In a sense, they wanted to separate “blockchain” from “Bitcoin”.
 These blockchains take the fundamental cryptographic technology from bitcoin (public key cryptography) and modify it to be more compliant to enterprise use.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------- 58. Private Blockchain Initiatives (##) --------------------------------->
+<!---------------------- 58. Private Blockchain Initiatives (68) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image058-private-blockchain-initiatives.png"
@@ -2163,11 +2162,11 @@ The way that companies, especially financial institutions, have looked at blockc
 Let’s take a look specifically at Jamie Dimon, the CEO of JP Morgan Chase...
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------- 59. Quotes from Jamie Dimon, the CEO of JP Morgan Chase (##) -------------------->
+<!-------------- 59. Quotes from Jamie Dimon, the CEO of JP Morgan Chase (69) -------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image059-dimon-quotes.png"
-   alt="Quotes from Jamie Dimon, the CEO of JP Morgan Chase"
+   alt="Quotes from Jamie Dimon, the CEO of JP Morgan Chase - Jan, 2014"
    width="50%" />
 </p>
 &nbsp;
@@ -2177,7 +2176,7 @@ Let’s take a look specifically at Jamie Dimon, the CEO of JP Morgan Chase...
 In January 2014, he said about Bitcoin “It’s a terrible store of value. It could be replicated over and over.”, which doesn’t really mean anything, indicating that people really didn’t, and still don’t understand what Bitcoin is.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------ Quotes (2) from Jamie Dimon, the CEO of JP Morgan Chase --------------------->
+<!--------------- 60. Quotes (2) from Jamie Dimon, the CEO of JP Morgan Chase -------------------->
 <!------------------------------------------------------------------------------------------------>
 p align="center" width="100%">
 <img src="/images/image060-dimon-quotes-2.png"
@@ -2191,7 +2190,7 @@ In October 2014, he said “\[Bitcoin developers\] are going to try and eat our 
 The statement seems aggressive, but he actually gives legitimacy to Bitcoin by suggesting that it’s a competitor to traditional banks and finance.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------ Quotes (3) from Jamie Dimon, the CEO of JP Morgan Chase --------------------->
+<!------------- 61. Quotes (3) from Jamie Dimon, the CEO of JP Morgan Chase (70) ----------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image061-dimon-quotes-3.png"
@@ -2207,7 +2206,7 @@ Now, Bitcoin isn’t just competition, it’s a bona fide threat.
 It’s something that bankers can’t control, and they hate it.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------ 62. Quotes (4) from Jamie Dimon, the CEO of JP Morgan Chase --------------------->
+<!-------- 62. Quotes (4) from Jamie Dimon, the CEO of JP Morgan Chase - Oct, 2017 (71) ---------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image062-dimon-quotes-4.png"
@@ -2241,11 +2240,11 @@ Just to drive his point home, here are some more comments he made in September 2
 And in another quote he said “One of my daughters bought bitcoin and it went up, she thinks she is a genius.”
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 64. Quotes (6) from Jamie Dimon, the CEO of JP Morgan Chase ------------------->
+<!-------- 64. Quotes (6) from Jamie Dimon, the CEO of JP Morgan Chase - Jan, 2018 (72) ---------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image064-dimon-quotes-6.png"
-   alt="Quotes (6) from Jamie Dimon, the CEO of JP Morgan Chase"
+   alt="Quotes (6) from Jamie Dimon, the CEO of JP Morgan Chase - Jan, 2018"
    width="50%" />
 </p>
 &nbsp;
@@ -2255,7 +2254,7 @@ In January 2018, he said “The blockchain is real. You can have crypto yen and 
 <h3>Blockchain Community and Politics</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 65. crypto-anarchy (##) ------------------------------------>
+<!----------------------------------- 65. crypto-anarchy (73) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image065-crypto-anarchy.png"
@@ -2267,7 +2266,7 @@ In January 2018, he said “The blockchain is real. You can have crypto yen and 
 Cryptocurrency and blockchain technology started its roller coaster of a journey with a small group of cypherpunks, who believed in cryptography as means to promote privacy…it had a rough beginning as we saw with the failed DigiCash…but now we’ve ended up here at JP Morgan Chase, one of the largest American multinational financial services firms.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 66. digicash: untraceable electronic cash (##) ------------------------>
+<!------------------------ 66. digicash: untraceable electronic cash (73) ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image066-digicash.png"
@@ -2283,11 +2282,11 @@ Originating as a fledgling technology founded on libertarian ideals, Bitcoin had
 As bitcoin began to rise in value and attract attention from a wider and wider audience, there was a shift in focus away from Bitcoin itself and more into the other innovations made possible by the underlying technology, the blockchain.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------ 67. community: where does the community exist? (##) ------------------------->
+<!------------------ 67. community: where does the community exist? (74) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image067-community.png"
-	alt="Community: Where Does the Community Exist?"</>
+   alt="Community: Where Does the Community Exist?"
    width="50%" />
 </p>
 &nbsp;
@@ -2307,7 +2306,7 @@ We also host many public events, workshops, and meetups, teach multiple classes 
 And this all done to foster and develop the blockchain community.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------- 68. politics: internal politics and libertarianism (##) ---------------------->
+<!----------------- 68. politics: internal politics and libertarianism (75) ---------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image068-politics-dont-tread.png"
@@ -2333,7 +2332,7 @@ Many libertarians think that implementing blockchain into the government is a go
 On the other hand, libertarians also think that people should be able to do what they want.
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!------------------ 69. politics: more internal politics and libertarianism (76) ---------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image069-politics-dont-tread-2.png"
@@ -2347,7 +2346,7 @@ The flag on this slide is the Gadsen flag, which has strong Libertarian roots.
 It’s used as a libertarian symbol because the porcupine is the “quiet”, unassuming warrior of the forest, which doesn’t attack so long as you leave it alone.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image070-controversial-topics.png -------------------------------------->
+<!-------------------------------- 70. controversial topics (76) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image070-controversial-topics.png"
@@ -2366,7 +2365,7 @@ Some controversial topics in the blockchain space have been surrounding problems
 
 In this course, we explain these issues in an objective fashion, and let you form your own opinion on these debates.
 
-<h3>Intro: State of the Industry</h3>
+<h3 id="ch2-10">2.10 Intro: State of the Industry</h3>
 
 We’ve told the story of Bitcoin and blockchain: from the cypherpunk movement all the way to JP Morgan Chase.
 
@@ -2379,7 +2378,7 @@ That’s what we’re going to explore in this next section on the state of the 
 <h3>ICO’s:</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image071-icos-the-hype.png -------------------------------------->
+<!---------------------------------- 71. icos: the hypee (77) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image071-icos-the-hype.png"
@@ -2411,11 +2410,12 @@ ICOs are permissionless and enable ANYONE to invest in a project that they feel 
 We put emphasis on the word ANYONE because of the open and public nature of these cryptocurrencies.
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------- image072-icos-doing-what-you-want.png ------------------------------>
+<!--------------------------- 72. Initial Coin Offerings (ICO's) (78) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image072-icos-doing-what-you-want.png" 
-	alt="ICO's: Doing What You Want"</>
+<img src="/images/image072-icos-doing-what-you-want.png"
+   alt="ICO's: Doing What You Want"
+   width="50%" />
 </p>
 &nbsp;
 
@@ -2432,11 +2432,11 @@ This shows that ICOs are leveling the playing field for investments.
 Normal people now can invest in any blockchain project they want to.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image073-explosion-of-altcoins.png  -------------------------------------->
+<!-------------------------------- 73. explosion of altcoins (79) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image073-explosion-of-altcoins.png" 
-   alt=" "</>
+   alt="Explosion of altcoins"
    width="50%" />
 </p>
 &nbsp;
@@ -2452,11 +2452,11 @@ In Q3’17, ICOs have raised \$1.3B with 150 ICOs while seed/angel investing acr
 <h3>Industry Projects</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!------------------------- 74. cryptokitties: they hype - 2017 (80) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image074-cryptokitties.png"
-   alt=" "
+   alt="Cryptokitties and the hype, 2017"
    width="50%" />
 </p>
 &nbsp;
@@ -2494,10 +2494,12 @@ Parity wallet is a popular multisignature wallet, which requires multiple people
 Parity marketed itself as the fastest and most secure way of interacting with the Ethereum blockchain, but in November 2017, this happened…
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image076-parity-oops.png -------------------------------------->
+<!----------------------------- 76. Parity got hacked - Nov, 2017 (81) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image076-parity-oops.png" alt=" "</>
+<img src="/images/image076-parity-oops.png"
+   alt="Parity got hacked...accidentally - Nov, 2017"
+   width="50%" />
 </p>
 &nbsp;
 
@@ -2514,10 +2516,12 @@ Due to Ethereum architecture, and the immutability of public blockchains, code t
 This was a huge eye-opening moment for the Ethereum community as a whole, and taught developers -- especially open source developers -- to fully audit the security of mission critical code.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image077-coincheck-the-biggest-yet.png  -------------------------------------->
+<!------------------------- 77. coincheck got hacked - jan, 2018 (82) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image077-coincheck-the-biggest-yet.png" alt=" "</>
+<img src="/images/image077-coincheck-the-biggest-yet.png"
+   alt="Coincheck got hacked, jan, 2018"
+   width="50%" />
 </p>
 &nbsp;
 
@@ -2541,7 +2545,7 @@ Since blockchain is still young, it’s important to do your own due diligence w
 
 Looking at the broader picture, that’s one of the goals of this course -- to get you to start thinking critically about blockchain fundamentals and the more technical aspects about the technology that can then help inform your own personal decisions.
 
-<h3>Module/Lecture 2 Summary</h3>
+<h3 id="ch2-11">2.11 Module/Lecture 2 Summary</h3>
 
 <h3>Pre-Bitcoin: Libertarian Dreams</h3>
 
