@@ -2482,7 +2482,7 @@ It’s clear that cryptocurrencies and blockchain are hugely popular now.
 Whether or not its mainstream spotlight and growing popularity is a good thing is another question.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image075-parity-security.png -------------------------------------->
+<!----------------------------------- 75.  ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image075-parity-security.png"
@@ -2563,7 +2563,9 @@ The first transaction using Bitcoin to purchase a tangible asset occurred in 201
 <!----------------------------------- image078-pizza-pizza.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image078-pizza-pizza.png" alt="Image of Laszlo Hanyecz&#39;s pizzas that he ordered online. His post: &quot;I just want to report that I successfully traded 10,000 bitcoins for pizza"</>
+<img src="/images/image078-pizza-pizza.png"
+   alt="Image of Laszlo Hanyecz&#39;s pizzas that he ordered online. His post: &quot;I just want to report that I successfully traded 10,000 bitcoins for pizza"
+   width="50%" />
 </p>
 &nbsp;
 
@@ -2629,7 +2631,9 @@ This lecture will teach you everything about the low-level specifics of Bitcoin 
 <!----------------------------------- image080-lecture-overview.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image080-lecture-overview.png" alt=" "</>
+<img src="/images/image080-lecture-overview.png"
+   alt=" "
+   width="50%" />
 </p>
 &nbsp;
 
@@ -2706,7 +2710,7 @@ We need standardized randomness.
 <!----------------------------------- image081-hash-function-formula.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image081-hash-function-formula.png" 
+<img src="/images/image081-hash-function-formula.png"
    alt="Hash Function Formula"
    width="50%" />
 </p>
@@ -2725,10 +2729,12 @@ A cryptographic hash function always outputs a message of some given size.
 One note is that we call the output the image, and the input the pre image.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image082-hash-functions-formula.png -------------------------------------->
+<!----------------------------------- 82. hash function formula  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image082-hash-functions-formula.png" alt=" "</>
+<img src="/images/image082-hash-functions-formula.png"
+   alt=" "
+   width="50%" />
 </p>
 &nbsp;
 
@@ -2740,7 +2746,9 @@ Cryptographic hash functions differ from regular hash functions in that they are
 <!----------------------------------- image083-cryptographic-hash-functions-cryptography.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image083-cryptographic-hash-functions-cryptography.png" alt=" "</>
+<img src="/images/image083-cryptographic-hash-functions-cryptography.png"
+   alt=" "
+   width="50%" />
 </p>
 &nbsp;
 
@@ -2776,8 +2784,9 @@ Otherwise, certain issues come up, such as exposing information that we didn’t
 <!----------------------------------- image085-cryptographic-hash-functions-preimage-resistance.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image085-cryptographic-hash-functions-preimage-resistance.png" 
-	alt=" "</>
+<img src="/images/image085-cryptographic-hash-functions-preimage-resistance.png" 
+   alt=" "
+   width="50%" />
 </p>
 &nbsp;
 
@@ -2792,8 +2801,9 @@ In other words, we cannot easily discover the input which created some output.
 <!------------------------------------------------------------------------------------------------>
 <
 <p align="center" width="100%">
-<img width="50%" src="/images/image086-cryptographic-hash-functions-2ndary-preimage-resistance.png" 
-	alt=" "</>
+<img src="/images/image086-cryptographic-hash-functions-2ndary-preimage-resistance.png"
+   alt=" "
+   width="50%" />
 </p>
 &nbsp;
 
@@ -2806,12 +2816,13 @@ If someone else can generate my fingerprint with a different input, then no one 
 To make sure this doesn’t happen, we need what’s known as second preimage resistance.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image087-cryptographic-hash-functions-2ndary-preimage-resistance.png -------------------------------------->
+<!------------ 87. Cryptographic hash functions: 2ndary preimage resistance (92) ----------------->
 <!------------------------------------------------------------------------------------------------>
 <
 <p align="center" width="100%">
-<img width="50%" src="/images/image087-cryptographic-hash-functions-2ndary-preimage-resistance.png" 
-	alt=" "</>
+<img src="/images/image087-cryptographic-hash-functions-2ndary-preimage-resistance.png"
+   alt="Cryptographic Hash Functions: 2ndary Preimage Resistance"
+   width="50%" />
 </p>
 &nbsp;
 
@@ -2828,11 +2839,12 @@ The technical definition is as follows: given some hash function H, it is comput
 <h3>Key Properties of Cryptographic Hash Functions: Avalanche Effect</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image090-cryptographic-hash-functions-avalanche-effect.png -------------------------------------->
+<!----------------- 90. Cryptographic Hash Functions: Avalanche Effect (93) ---------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image090-cryptographic-hash-functions-avalanche-effect.png" 
-	alt=" "</>
+<img width="50%" 
+   src="/images/image090-cryptographic-hash-functions-avalanche-effect.png" 
+   alt="Cryptographic Hash Functions: Avalanche Effect"</>
 </p>
 &nbsp;
 
@@ -9922,4 +9934,4 @@ We wish you all the best on the rest of your blockchain journey!
 
 the end…
 
-<b></i> 4/15/2022 4:12pm+</i></b>
+<b></i> 4/15/2022 4:43pm+</i></b>
