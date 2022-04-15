@@ -2117,7 +2117,7 @@ Now we’ll be switching gears to see how blockchain fits in with enterprises, p
 
 As a technology that was initially created to avoid large banks and powerful centralized institutions, blockchain seems to have come full circle...
 
-<h3>Banks and Blockchain</h3>
+<h3 id="ch2-10">2.10 Banks and Blockchain</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------- 57. Banks and Blockchain (67) ---------------------------------->
@@ -2641,7 +2641,7 @@ We’ll then discuss digital signatures, the elliptic curve digital signature al
 
 Finally, we’ll introduce Bitcoin script and its functionality as well as its role in making Bitcoin more flexible.
 
-<h3>Intro: Motivations and Definitions</h3>
+<h3 id="ch3-1">3.1 Intro: Motivations and Definitions</h3>
 
 Recall our earlier assumptions about Bitcoin: we can’t trust anyone.
 
@@ -2700,7 +2700,7 @@ But how do we all agree on a way to generate fingerprints?
 
 We need standardized randomness.
 
-<h3>Motivations and Definitions: Cryptographic Hash Functions</h3>
+<h3 id="ch3-2">3.2 Motivations and Definitions: Cryptographic Hash Functions</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- image081-hash-function-formula.png -------------------------------------->
@@ -2848,7 +2848,7 @@ And each result is pseudo random.
 
 There's no relation between the Hashes despite the inputs being so similar.
 
-<h3 id="ch3-5">SHA256</h3>
+<h3 id="ch3-3">3.3 SHA256</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- image090-cryptographic-hash-sha256.png -------------------------------------->
@@ -2859,7 +2859,7 @@ There's no relation between the Hashes despite the inputs being so similar.
 </p>
 &nbsp;
 
-<h3 id="ch3-6">SHA256\^2 – (Secure Hash Algorithm)</h3>
+<h3>SHA256\^2 – (Secure Hash Algorithm)</h3>
 
 The particular hash function that Bitcoin chooses to use in many scenarios is called SHA-256.
 
@@ -2875,7 +2875,7 @@ Bitcoin, in many cases, uses SHA-256 squared, or SHA256d, which simply means tha
 
 Once on the original message you want to hash, and another time on the output of this first hash.
 
-<h3 id="ch3-7">Intro: A Tamper-Evident Database</h3>
+<h3 id="ch3-4">3.4 Intro: A Tamper-Evident Database</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- image090-a-tamper-evident-database.png -------------------------------------->
@@ -9921,4 +9921,5 @@ If you’re looking for more, there’s still a great deal of complexity and inn
 We wish you all the best on the rest of your blockchain journey!
 
 the end…
-4/15/2022 12:00pm
+
+<b></i> 4/15/2022 4:12pm+</i></b>
