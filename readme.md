@@ -44,117 +44,47 @@
 >### 2.12. [**Chapter 2 Summary**](#ch2-12)
 
 ## [**Chapter 3. Bitcoin Mechanics & Optimizations: A Technical Overview**](#ch3)
->### 3.01. [**Intro: Motivations and Definitions**](#ch3-1)
->### 3.02. [**Integrity of Information**](#ch3-2)
->### 3.03. [**Cryptographic Hash Functions**](#ch3-3)
->### 3.04. [**Key Properties of Cryptographic Hash Functions**](#ch3-4)
->### 3.05. [**SHA256**](#ch3-5)
->### 3.06. [**SHA256^2 – (Secure Hash Algorithm)**](#ch3-6)
->### 3.07. [**Intro: A Tamper-Evident Database**](#ch3-7)
->### 3.08. [**Tamper-Evidence**](#ch3-8)
->### 3.09. [**Dissecting a Block**](#ch3-9)
->### 3.10. [**Merkle Tree**](#ch3-10)
->### 3.11. [**Previous Block Hash**](#ch3-11)
->### 3.12. [**Proof-of-Work: Mining**](#ch3-12)
->### 3.13. [**Signatures and Authentication**](#ch3-13)
->### 3.14. [**Curve Digital Signature Algorithms**](#ch3-14)
->### 3.15. [**DSS Key Definitions and Takeaways**](#ch3-15)
->### 3.16. [**From Private Keys to Addresses**](#ch3-16)
->### 3.17. [**Elliptic Curve Cryptography**](#ch3-17)
->### 3.18. [**Public Key to Address**](#ch3-18)
->### 3.19. [**Chapter 3 Summary**](#ch3-19)
+>### 3.01. [**Motivations and Definitions**](#ch3-1)
+>### 3.02. [**Cryptographic Hash Functions**](#ch3-2)
+>### 3.03. [**SHA256**](#ch3-3)
+>### 3.04. [**A Tamper-Evident Database**](#ch3-4)
+>### 3.05. [**Merkle Trees**](#ch3-5)
+>### 3.06. [**Proof-of-Work: Mining**](#ch3-6)
+>### 3.07. [**Signatures and Authentication**](#ch3-7)
+>### 3.08. [**Bitcoin Script**](#ch3-8)
+>### 3.09. [**P2PKH**](#ch3-9)
+>### 3.10. [**Chapter 3 Summary**](#ch3-10)
 
-<!-------- Bitcoin Script Reminders
-Intro to P2PKH
-Proof of Burn
-Advanced Bitcoin Script and P2SH
-P2PKH vs P2SH
-How P2SH Works
-Why use P2SH?
-Multisignature
-Timelocks
------------------------------>
-
-## [**Chapter 4. Bitcoin In Real Life: Wallets, Mining, and More **](#ch4)
+## [**Chapter 4. Bitcoin In Real Life: Wallets, Mining, and More**](#ch4)
 >### 4.01. [**Key Components**](#ch4-1)
->### 4.02. [**Purpose of a Wallet**](#ch4-2)
->### 4.03. [**Types of Wallets**](#ch4-3)
->### 4.04. [**Key Stretching**](#ch4-4)
->### 4.05. [**Choosing a Wallet**](#ch4-5)
+>### 4.02. [**Wallets**](#ch4-2)
+>### 4.03. [**Wallet Mechanics**](#ch4-3)
+>### 4.04. [**Mining**](#ch4-4)
+>### 4.05. [**Real World Mining**](#ch4-5)
+>### 4.06. [**Bitcoin Governance**](#ch4-6)
 >### 4.06. [**Chapter 4 Summary**](#ch4-6)
 
-<!---
-Bitcoin ATMs
-Exchanges
-Intro: Wallet Mechanics
-Simple Payment Verification
-Multisignature
-Key Generation Best Practices
-JBOK Wallets
-HD Wallets
-Intro: Mining
-Recipe for Mining: Overview
-Mining Incentives: Intro
-Mining Incentives: Block Reward
-Mining Incentives: Transaction Fees
-Mining Costs: Fixed Costs
-Types of Hardware
-Mining Costs: Operating Costs
-Intro: Real World Mining
-ASICs
-Mining Pools
-Mining Pool Schemes
-Mining Pool Pros and Cons
-Mining Pool Stats
-Types of Miners
-Overview
-getwork, getblocktemplate, and Stratum
-Validationless Mining
-Spy Mining
-Intro: Bitcoin Governance
-Ensuring Decentralization
-Ensuring Decentralization: ASIC Resistance
-Ensuring Decentralization: ASIC Debate
-Eliminating Waste
-Consensus Updates: Bitcoin Core
-Consensus Updates: Forks
-Consensus Updates: BIPs
-Text: Lecture 4 Summary
--------->
-
-## [**Chapter 5. Game Theory & Network Attacks: How to Destroy Bitcoin **](#ch5)
+## [**Chapter 5. Game Theory & Network Attacks: How to Destroy Bitcoin**](#ch5)
 >### 5.01. [**Pool Strategies**](#ch5-1)
 >### 5.02. [**Pool Hopping**](#ch5-2)
->### 5.03. [**Chapter 5 Summary**](#ch5-3)
-
-<!----------------------------------------
->### 5.03. [**Pool Hopping **](#ch5-2)
->### 5.04. [** **](#ch5-3)
->### 5.4. [** **](#ch5-4)
->### 5.5. [** **](#ch5-5)
->### 5.3. [** **](#ch5-3)
->### 5.4. [** **](#ch5-4)
->### 5.5. [** **](#ch5-5)
->### 5.3. [** **](#ch5-3)
->### 5.4. [** **](#ch5-4)
->### 5.5. [** **](#ch5-5)
------------------------------------------>
+>### 5.03. [**Pool Cannibalization**](#ch5-3)
+>### 5.04. [**Nash Equilibrium and the Tragedy of the Commons**](#ch5-4)
+>### 5.05. [**Double Spending**](#ch5-5)
+>### 5.06. [**Censorship Attacks**](#ch5-6)
+>### 5.07. [**Selfish Mining**](#ch5-7)
+>### 5.08. [**The Bitcoin Network**](#ch5-8)
+>### 5.09. [**Module/Lecutre 5 Summary**](#ch5-9)
 
 ## [**Chapter 6. Ethereum & Smart Contracts: Enabling a Decentralized Future **](#ch6)
->### 6.01. [** **](#ch6-1)
->### 6.02. [** **](#ch6-2)
->### 6.03. [** **](#ch6-3)
->### 6.04. [** **](#ch6-4)
->### 6.05. [** **](#ch6-5)
->### 6.06. [** **](#ch6-6)
->### 6.07. [** **](#ch6-7)
->### 6.4. [**Ethereum Virtual Machine: Overview**](#ch6-4)
->### 6.3. [**Ethereum Use Cases**](#ch6-3)
->### 6.5. [**Blockchain vs. Internet**](#ch6-5)
->### 6.6. [**Blockchain Generalizations**](#ch6-6)
->### 6.7. [**Supplement: Use Cases**](#ch6-7)
->### 6.4. [**Ethereum Ecosystem**](#ch6-4)
->### 6.5. [**Module/Lecture 6 Summary**](#ch6-5)
+>### 6.01. [**Smart Contracts**](#ch6-1)
+>### 6.02. [**Ethereum**](#ch6-2)
+>### 6.03. [**Ethereum Virtual Machine: Overview**](#ch6-3)
+>### 6.04. [**Ethereum Use Cases**](#ch6-4)
+>### 6.05. [**Blockchain vs. Internet**](#ch6-5)
+>### 6.06. [**Blockchain Generalizations**](#ch6-6)
+>### 6.07. [**Supplement: Use Cases**](#ch6-7)
+>### 6.08. [**Ethereum Ecosystem**](#ch6-8)
+>### 6.09. [**Module/Lecture 6 Summary**](#ch6-9)
 
 <h2>Course Syllabus</h2>
 
