@@ -36,7 +36,7 @@
 >### 2.04. [**Bitcoin Invention**](#ch2-4)
 >### 2.05. [**Hacks and Scandals**](#ch2-5)
 >### 2.06. [**Bitcoin Bubble and Altcoins**](#ch2-6)
->### 2.07. [**Intro: Scalability**](#ch2-7)
+>### 2.07. [**Scalability**](#ch2-7)
 >### 2.08. [**Ethereum Timeline**](#ch2-8)
 >### 2.09. [**Intro: Enterprise Blockchain**](#ch2-9)
 >### 2.10. [**Banks and Blockchain**](#ch2-10)
@@ -73,9 +73,9 @@
 >### 5.06. [**Censorship Attacks**](#ch5-6)
 >### 5.07. [**Selfish Mining**](#ch5-7)
 >### 5.08. [**The Bitcoin Network**](#ch5-8)
->### 5.09. [**Module/Lecutre 5 Summary**](#ch5-9)
+>### 5.09. [**Chapter 5 Summary**](#ch5-9)
 
-## [**Chapter 6. Ethereum & Smart Contracts: Enabling a Decentralized Future **](#ch6)
+## [**Chapter 6. Ethereum & Smart Contracts: Enabling a Decentralized Future**](#ch6)
 >### 6.01. [**Smart Contracts**](#ch6-1)
 >### 6.02. [**Ethereum**](#ch6-2)
 >### 6.03. [**Ethereum Virtual Machine: Overview**](#ch6-3)
@@ -84,7 +84,7 @@
 >### 6.06. [**Blockchain Generalizations**](#ch6-6)
 >### 6.07. [**Supplement: Use Cases**](#ch6-7)
 >### 6.08. [**Ethereum Ecosystem**](#ch6-8)
->### 6.09. [**Module/Lecture 6 Summary**](#ch6-9)
+>### 6.09. [**Chapter 6 Summary**](#ch6-9)
 
 <h2>Course Syllabus</h2>
 
@@ -274,7 +274,7 @@ Bitcoin as a technology is trying to solve a very specific problem in the realm 
 
 There are enormous possibilities for failures given the complete removal of centralization, which is why there were so so many Bitcoin’s predecessors to Bitcoin which failed.
 
-So how does bitcoin solve these problems?
+How does bitcoin solve these problems?
 
 Bitcoin solves these problems through two things:
 
@@ -378,7 +378,7 @@ In this section: titled Bitcoin from the Ground Up, we’ll take each of these f
 
 By the end, you should have a high level understanding of how Bitcoin works, and why things are the way they are in Bitcoin.
 
-<h1 id="ch1-4">1.4 Intro: Identity (Stage 1)</h1>
+<h2 id="ch1-4">1.4 Intro: Identity (Stage 1)</h2>
 
 We’ll start off by taking a look at one of the most fundamental ideas in Bitcoin:
 
@@ -397,7 +397,7 @@ But how do we do this in Bitcoin, without a bank or central entity to keep track
    width="65%" </>
 &nbsp;
 
-<h3>1.4 Identity (Stage 1)</h3>
+<h3>Identity (Stage 1)</h3>
 
 To understand why we need identity in Bitcoin in the first place, let’s understand first why we need identity at all in the context of currencies.
 
@@ -548,7 +548,7 @@ Let’s consider something more drastic: imagine that for every grain of sand on
 Now we have 2\^63<sup>rd</sup> times 2\^63<sup>rd</sup> grains of sand per earth, meaning that there are a total of 2\^126<sup>th</sup> grains of sand.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------- Identity: Security Hidden in Plain Sight ---------------------------->
+<!-------------------------- Identity: Security Hidden in Plain Sight (16) ----------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image007-identity-security-hidden-in-plain-sight.png" 
@@ -558,7 +558,7 @@ Now we have 2\^63<sup>rd</sup> times 2\^63<sup>rd</sup> grains of sand per earth
 
 Even the number of grains of sand upon all these Earths is only 0.0000000058% (8 zeroes) of all the possible Bitcoin addresses.
 
-<h3>Intro: Transactions (Stage 2)</h3>
+<h3 id="ch1-5">1.5 Intro: Transactions (Stage 2)</h3>
 
 So now that we have a clear understanding of the structure and purpose of identity in Bitcoin, we can start asking the question, “How do we make transactions between one another in Bitcoin?”
 
@@ -661,7 +661,7 @@ On the other hand, the complexity of keeping track of one’s own funds goes up,
 
 The amount of bitcoin you own is calculated by summing up the value of each of your piggy banks, or UTXOs.
 
-<h3>UTXO’s:</h3>
+<h3 id="ch1-6">1.6 UTXO’s:</h3>
 
 Here’s an example of how transactions work in Bitcoin:
 
@@ -696,7 +696,7 @@ From here, if I'm equally generous and want to give that remaining amount to Der
 
 This is how Bitcoin effectively keeps track of individual transactions and prevents anyone from spending incorrect amounts of bitcoin.
 
-<h3>Intro: Record Keeping (Stage 3)</h3>
+<h3 id="ch1-7">1.7 Intro: Record Keeping (Stage 3)</h3>
 
 We have now understood how to assign unique identities to every user through public and private keys and conduct transactions between these entities through the use of the UTXO, or Unspent Transaction Output, model.
 
@@ -815,7 +815,7 @@ Of course, the next question is, “How does everyone come to agreement on the n
 
 We will go over this in the next segment on consensus.
 
-<h3>Intro: Consensus (Stage 4)</h3>
+<h3 id="ch1-8">1.8 Intro: Consensus (Stage 4)</h3>
 
 Now we know how to send transactions to one another with unique identities using the UTXO model, and how to store these transactions using a blockchain to maintain a global record.
 
@@ -1183,7 +1183,7 @@ One entity holding majority mining power also makes the network susceptible to t
 
 We’ll explore all these attacks in further detail in future course modules.
 
-<h3>Forking</h3>
+<h3 id="ch1-9">1.9 Forking</h3>
 
 Sometimes, different miners may create different blocks, either intentionally (e.g. double spending) or unintentionally, to add at the same point on the blockchain. This creates multiple chains: multiple different versions of the transaction history. We say that the blocks are competing at the same block height, and that there has been a fork. Following protocol, miners eventually resolve the fork and agree upon one of the chains to be the valid blockchain, and continue to build blocks upon it. 
 
@@ -1193,10 +1193,10 @@ Two categories of these protocol changes are soft and hard forks. Soft forks imp
 
 We’ll explain more in the course modules for Chapter 4.
 
-<h3>Bitcoin Review:</h3>
+<h3 id="ch1-10">1.10 Bitcoin Review:</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------ 27. Key Takeaway - Identity: Your Keys are Your Identity -------------------->
+<!--------------- 27. Key Takeaway - Identity: Your Keys are Your Identity (37) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image027-key-takeaway-identity.png" 
@@ -1261,7 +1261,7 @@ New transactions are recorded within new blocks added to the existing, establish
 Once a transaction is recorded, it is close to impossible to undo without changing every single version of this database in the universe.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------- 30. Key Takeaway - Consensus: Updating the Shared, Immutable Ledger -------------->
+<!---------- 30. Key Takeaway - Consensus: Updating the Shared, Immutable Ledger (40) ------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image030-key-takeaway-consensus.png" 
@@ -9868,4 +9868,4 @@ If you’re looking for more, there’s still a great deal of complexity and inn
 We wish you all the best on the rest of your blockchain journey!
 
 the end…
-4/15/2022 6:18pm
+4/16/2022 after 8:42am
