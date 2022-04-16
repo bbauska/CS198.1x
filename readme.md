@@ -1395,7 +1395,7 @@ Users on the blockchain must come to a consensus on which updates and blocks to 
 
 (Optional) [How Bitcoin Works in 5 Minutes (Technical) ](https://www.youtube.com/watch?v=l9jOJk30eQs&feature=youtu.be)
 
-<h3 id="ch2">Module 2: Blockchain History</h3>
+<h3 id="ch2">Chapter 2: Blockchain History</h3>
 
 A question we sometimes get from students in our class here at UC Berkeley is: why use Bitcoin?
 
@@ -1695,7 +1695,7 @@ This was the very first time a Bitcoin transaction traded “magic worthless int
 
 However, it’s not like bitcoins were worth that much when Laszlo spent them on pizza.
 
-<h2>Lecture/Module 2:</h2>
+<h2>Lecture/Module/Chapter 2:</h2>
 
 It took years of development and spread before Bitcoin became accepted as a legitimate technology, yet it’s still got a way to go before reaching worldwide legitimacy.
 
@@ -2663,7 +2663,7 @@ We’ll see that in order to design our tamper evident database, we first need a
 
 For this, we’ll utilize cryptographic hash functions.
 
-<h3 id="ch3-1">Motivations and Definitions: Integrity of Information</h3>
+<h3>Motivations and Definitions: Integrity of Information</h3>
 <!------------------------------------------------------------------------------------------------>
 <!------------------- cryptographic hash functions: integrity of information --------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -3050,7 +3050,7 @@ The block header is simply the hash of all these fields concatenated.
 
 Let’s first take a look at the Merkle Root.
 
-<h3>Merkle Trees:</h3>
+<h3 id="ch3-5">3.5 Merkle Trees:</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!-----------------------------------  -------------------------------------->
@@ -3276,7 +3276,7 @@ And finally, an easily verifiable puzzle ensures that computers don’t have to 
 
 It should just take one hash for example to prove that some nonce is correct, even if finding the nonce takes millions of tries.
 
-<h3 id="ch3-12">3.12Proof-of-Work: Mining</h3>
+<h3 id="ch3-6">3.6 Proof-of-Work: Mining</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- Proof-of-Work: Mining -------------------------------------->
@@ -3479,7 +3479,7 @@ It would be more expensive to recalculate the merkle root each time on each iter
 
 We optimize by trying nonces in such a way as to only have to calculate the merkle root in each iteration of the outermost loop.
 
-<h3>Intro: Signatures and Authentication</h3>
+<h3 id="ch3-7">3.7 Intro: Signatures and Authentication</h3>
 
 Now we’ll go into how to use digital signatures to send messages and transactions both pseudonymously and trustlessly.
 
@@ -3800,7 +3800,7 @@ Together, the combination of using SHA-256 and RIPEMD-160 is called “double ha
 
 After all this, we have our public key hash.
 
-<h3 id="ch3-18">3.18 Public Key to Address</h3>
+<h3>Public Key to Address</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------  ---------------------------------->
@@ -3848,7 +3848,7 @@ And this is something that decoding software will do for us.
 
 It can hash the beginning of our address and compare it with the checksum to see if it is valid.
 
-<h3>Intro: Bitcoin Script</h3>
+<h3 id="ch3-8">3.8 Intro: Bitcoin Script</h3>
 
 Now we’ll dive into Bitcoin script.
 
@@ -4037,7 +4037,7 @@ Rather than just connecting public keys together, connecting inputs and outputs 
 
 The Script language is stack-based, has a native support for cryptocurrency, and is purposely limited in capability for security reasons.
 
-<h3>Intro to P2PKH</h3>
+<h3 id="ch3-9">3.9 Intro to P2PKH</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------  ---------------------------------->
@@ -4418,7 +4418,7 @@ A transaction that seems ready to spend given that a specific amount of time has
 
 Also, blocks are not created at guaranteed intervals either, so any attempts to cancel out of a timelocked transaction should be made a few hours before the timelock, specified in blockheight, expires.
 
-# Lecture 3 Summary
+<h3 id="ch3-10">3.10 Lecture 3 Summary</h3>
 
 <h3>I. Cryptographic Hash Functions </h3>
 
@@ -6428,7 +6428,7 @@ The first BIP was by Amit Taaki in 2011, and was actually a BIP to make BIPs.
 
 Miners vote on BIPs by including a reference to that BIP in the block that they mine.
 
-<h3>Text: Lecture 4 Summary</h3>
+<h3 id="ch4-7">4.7 Text: Lecture 4 Summary</h3>
 
 Author: Rea Savla
 
@@ -8114,7 +8114,7 @@ He also has unique ownership of the network topology, since he owns a lot of nod
 
 As a closing note, know that outside of what we presented in this module, there are a lot more attacks and defenses, such as eclipse attacks and stubborn mining, which take into account network latency, topology, and more.
 
-<h3>Text: Lecture 5 Summary</h3>
+<h3 id="ch5-9">5.9 Text: Lecture 5 Summary</h3>
 
 Author: Rea Savla 
 
@@ -9913,7 +9913,7 @@ The project is called Ethermint, because it runs Ethereum on a modular blockchai
 
 We’ll go into this, and also Plasma, in our next course.
 
-<h2>6.9 Lecture 6: Summary</h2>
+<h2 id="ch6-9">6.9 Lecture 6 Summary</h2>
 
 <h3>I. Smart Contracts</h3>
 
