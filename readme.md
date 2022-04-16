@@ -2934,7 +2934,9 @@ We’ll explain each of these fields by the end of the video.
 <!----------------------------------- image092-tamper-evident-merkle-proof.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image092-tamper-evident-merkle-proof.png" alt=" "</>
+<img src="/images/image092-tamper-evident-merkle-proof.png"
+   alt=" "
+   width="50%" />
 </p>
 &nbsp;
 
@@ -2958,7 +2960,9 @@ But what is the role of each of these different pieces of information?
 <!----------------------------------- image094-a-tamper-evident-database-example-block.png -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image094-a-tamper-evident-database-example-block.png" alt=" "</>
+<img src="/images/image094-a-tamper-evident-database-example-block.png"
+   alt=" "
+   width="50%" />
 </p>
 &nbsp;
 
@@ -3038,7 +3042,9 @@ The block header is simply the hash of all these fields concatenated.
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image097.png" alt=" "</>
+<img src="/images/image097.png"
+   alt=" "
+   width="50%" />
 </p>
 &nbsp;
 
@@ -3254,7 +3260,9 @@ Computational difficulty means ensuring that the solution to the puzzle cannot b
 <!-----------------------------------  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image104-partial-preimage-3.png" alt=" "</>
+<img src="/images/image104-partial-preimage-3.png"
+   alt=" "
+   width="50%" />
 </p>
 &nbsp;
 
@@ -3745,8 +3753,8 @@ This is a trapdoor, or one-way, function, because given a point K that is P + Q,
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image129.png" 
-   alt=" "
-   width="50%" />
+  alt=" "
+  width="50%" />
 </p>
 &nbsp;
 
@@ -4011,7 +4019,9 @@ In this case, only after Rustie provides his proof can he unlock and spend my UT
 <!------------------------------  ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image150.png" alt=" "</>
+<img src="/images/image150.png"
+   alt=" "
+   width="50%" />
 </p>
 &nbsp;
 
@@ -4033,7 +4043,9 @@ The Script language is stack-based, has a native support for cryptocurrency, and
 <!------------------------------  ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image151.png" alt=" "</>
+<img src="/images/image151.png"
+   alt=" "
+   width="50%" />
 </p>
 &nbsp;
 
@@ -4049,7 +4061,9 @@ To redeem this previous transaction, we need to prove our identities with (1) a 
 <!------------------------------  ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image152.png" alt=" "</>
+<img src="/images/image152.png"
+   alt=" "
+   width="50%" />
 </p>
 &nbsp;
 
@@ -4081,7 +4095,9 @@ For this reason, this script is called scriptPubKey.
 <!------------------------------  ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image153.png" alt=" "</>
+<img src="/images/image153.png"
+   alt=" "
+   width="50%" />
 </p>
 &nbsp;
 
@@ -4097,7 +4113,9 @@ And the entire resulting script must execute successfully in order for the trans
 <!------------------------------  ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image154.png" alt=" "</>
+<img src="/images/image154.png"
+   alt=" "
+   width="50%" />
 </p>
 &nbsp;
 
@@ -4123,7 +4141,9 @@ Next, \<pubKeyHash?\> -- with the question mark in the angle brackets -- is the 
 <!------------------------------  ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image155.png" alt=" "</>
+<img src="/images/image155.png"
+   alt=" "
+   width="50%" />
 </p>
 &nbsp;
 
@@ -4147,7 +4167,9 @@ And then finally, since the final return value is true, we know that the transac
 <!------------------------------  ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image156.png" alt=" "</>
+<img src="/images/image156.png"
+   alt=" "
+   width="50%" />
 </p>
 &nbsp;
 
@@ -4199,11 +4221,13 @@ In other words, the customer is the sender, and the vendor is the recipient.
 <!------------------------------  ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image157.png" alt=" "</>
+<img src="/images/image157.png"
+   alt=" "
+   width="50%" />
 </p>
 &nbsp;
 
-So as a recap, in Bitcoin, senders specify a locking script in the output of the transaction they are sending, and recipients provide an unlocking script in the input whenever they want to redeem their bitcoin.
+As a recap, in Bitcoin, senders specify a locking script in the output of the transaction they are sending, and recipients provide an unlocking script in the input whenever they want to redeem their bitcoin.
 
 In the previous section, we gave the example of Pay to Pub Key Hash, or P2PKH.
 
@@ -4231,7 +4255,9 @@ It’s much more customer friendly if the recipient of the transaction, the vend
 <!------------------------------ (135) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image158.png" alt=" "</>
+<img src="/images/image158.png"
+   alt=" "
+   width="50%" />
 </p>
 &nbsp;
 
@@ -4258,7 +4284,9 @@ In order for Bob to redeem the bitcoin that Alice just sent him, he must provide
 <!------------------------------ (136) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image159.png" alt=" "</>
+<img src="/images/image159.png"
+   alt=" "
+   width="50%" />
 </p>
 &nbsp;
 
@@ -4327,9 +4355,9 @@ The redeeming script is then hashed, to check against the redeeming script hash,
 <!------------------------------  ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" 
-   src="/images/image162.png" 
-   alt="Recipe for Mining: Step 4"</>
+<img src="/images/image162.png"
+   alt="Recipe for Mining: Step 4"
+   width="50%" />
 </p>
 
 Lastly, if you look at the bottom of the diagram, the locking script contains the hash against which the hash of the redeem script will later be compared with.
@@ -4515,7 +4543,9 @@ While we may primarily only think of miners or casual traders using exchanges or
 <!------------------------------ Types of Users: Key Components  --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image164.png" alt="Types of Users: Key Components"</>
+<img src="/images/image164.png"
+   alt="Types of Users: Key Components"
+   width="50%" />
 </p>
 
 In our previous discussions about Bitcoin mechanics, we explained everything from the perspective of a full node and miner: a user with networking capability to interface with the Bitcoin network, actively maintains a full up-to-date copy of the Bitcoin blockchain, has a wallet as a means to manage public and private keys, and mines to support the network and also to earn a mining reward.
@@ -4557,10 +4587,12 @@ As we’ll soon find out, wallets come in many different shapes and sizes – ho
 <h3>Purpose of a Wallet</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- Purpose of a Wallet: Key Management ------------------------------->
+<!----------------------- 165. Purpose of a Wallet: Key Management (148) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image165.png" alt="Purpose of a Wallet: Key Management"</>
+<img src="/images/image165.png"
+   alt="Purpose of a Wallet: Key Management"
+   width="50%" />
 </p>
 
 As we’ve previously mentioned, Bitcoin is all about granting real-world entities virtual identities.
@@ -4578,10 +4610,12 @@ How do we make sure that we’re not subject to identity theft?
 <h3>Types of Wallets</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- Bitcoin Wallets: What do Wallets Do? ------------------------------>
+<!-------------------------- Bitcoin Wallets: What do Wallets Do? (148) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image166.png" alt="Bitcoin Wallets: Wallet Types: What Do Wallets Do?"</>
+<img src="/images/image166.png"
+   alt="Bitcoin Wallets: Wallet Types: What Do Wallets Do?"
+   width="50%" />
 </p>
 
 This is where wallets come in.
@@ -4601,10 +4635,12 @@ To take care of this, wallet software will store all relevant information about 
 <h3>Types of Wallets: Hot and Cold</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ Types of Wallets: Hot and Cold  --------------------------------->
+<!--------------------------- Types of Wallets: Hot and Cold (149) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image167.png" alt="Types of Wallets: Hot and Cold"</>
+<img src="/images/image167.png"
+   alt="Types of Wallets: Hot and Cold"
+   width="50%" />
 </p>
 
 Wallets come in many forms.
@@ -4616,10 +4652,12 @@ Hot wallets are connected to the internet, and cold storage is not.
 <h3>Types of Wallets: Hot Wallets</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------- Bitcoin Wallets: Hot Wallets ----------------------------------->
+<!------------------------------- Bitcoin Wallets: Hot Wallets (150) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image168.png" alt="Bitcoin Wallets: Hot Wallets"</>
+<img src="/images/image168.png"
+   alt="Bitcoin Wallets: Hot Wallets"
+   width="50%" />
 </p>
 
 Some examples of hot wallets are smartphone apps such as Mycelium and AirBitz (I personally use AirBitz).
@@ -4631,10 +4669,12 @@ And all these are connected to the internet.
 <h3>Types of Wallets: Cold Wallets</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ Bitcoin Wallets: Cold Storage ----------------------------------->
+<!------------------------------ Bitcoin Wallets: Cold Storage (150) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image143.png" alt="Bitcoin Wallets: Cold Storage"</>
+<img src="/images/image143.png"
+   alt="Bitcoin Wallets: Cold Storage"
+   width="50%" />
 </p>
 
 On the flip side, cold storage never touches the internet.
@@ -4692,11 +4732,12 @@ In general, so long as your words are not closely related, it’s still expensiv
 <h3>Key Stretching</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- Bitcoin Wallets: Key Stretching ---------------------------------->
+<!----------------------------- Bitcoin Wallets: Key Stretching (152) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image144.png" 
-	alt="Bitcoin Wallets: Key Stretching" 
+<img src="/images/image144.png" 
+   alt="Bitcoin Wallets: Key Stretching"
+   width="50%" />
 </p>
 
 However, for the security minded, to further lessen the probability of someone being able to guess your brain wallet, you can employ what’s known as key stretching.
@@ -4714,12 +4755,12 @@ Hacking a brain wallet that has been key stretched is exponentially harder to br
 <h3>Choosing a Wallet</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- Bitcoin Wallets: Choosing a Wallet -------------------------------->
+<!---------------------------- Bitcoin Wallets: Choosing a Wallet (153) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image145.png" 
    alt="Bitcoin Wallets: Choosing a Wallet" 
-   width="50%"
+   width="50%" />
 </p>
 
 
@@ -4772,12 +4813,12 @@ Some Bitcoin ATMs work a bit differently, and instead of having you scan your QR
 <h3>Exchanges</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- How Do I Get Bitcoin: Exchanges ---------------------------------->
+<!----------------------------- How Do I Get Bitcoin: Exchanges (155) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image146-how-do-i-get-bitcoin.png" 
    alt="Bitcoin Wallets: Choosing a Wallet" 
-   width="50%"
+   width="50%" />
 </p>
 
 You can also get Bitcoin through an exchange, where you can trade between different types of traditional currency and cryptocurrencies.
@@ -4801,10 +4842,12 @@ As a general rule of thumb, it’s never safe to keep your money in exchanges in
 A lot of people do this, and it’s unfortunate when they lose all their funds when a hack does occur.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------- How Do I Get Bitcoin: Decentralized Exchanges --------------------------->
+<!---------------------- How Do I Get Bitcoin: Decentralized Exchanges (156) --------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image147.png" alt="How Do I Get Bitcoin: Decentralized Exchanges" style="width:5in;height:2.8in" />
+<img src="/images/image147.png" 
+   alt="How Do I Get Bitcoin: Decentralized Exchanges"
+   width="50%" />
 </p>
 
 So naturally, following the trend of decentralizing Everything for security reasons, we now have decentralized exchanges
@@ -4836,10 +4879,12 @@ In this section, we’ll be going into some wallet mechanics and how they enable
 <h3>Simple Payment Verification</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ Simple Payment Verification: Thin Clients ----------------------------->
+<!------------------------ Simple Payment Verification: Thin Clients (157) ----------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image148.png" alt="Simple Payment Verification: Thin Clients" style="width:5in;height:2.8in" />
+<img src="/images/image148.png"
+   alt="Simple Payment Verification: Thin Clients"
+   width="50%" />
 </p>
 
 First off, let’s address the elephant in the room.
@@ -4861,10 +4906,12 @@ Instead, you have a wallet, to keep track of your keys, and a network routing co
 This is all done without a full blockchain, and for this reason, clients that run SPV are called lightweight or thin clients.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------- Simple Payment Verification: Thin Clients: Assumptions --------------------->
+<!------------------- Simple Payment Verification: Thin Clients: Assumptions (158) --------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image149.png" alt="Simple Payment Verification: Thin Clients: Assumptions" style="width:5in;height:2.8in" />
+<img src="/images/image149.png"
+   alt="Simple Payment Verification: Thin Clients: Assumptions"
+   width="50%" />
 </p>
 
 In SPV, by having the block headers, you can simply run a merkle proof of inclusion, which we explained in the previous module in the tamper evident database section.
@@ -4884,10 +4931,12 @@ And realistically, we can’t afford to put the entire blockchain on our phones 
 <h3>Multisignature</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------  ----------------------------->
+<!-------------- multisignature: m of n transactions - multi-person account access (159) --------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image150.png" alt="" style="width:5in;height:2.8in" />
+<img src="/images/image150.png"
+   alt="Multisig is a way of cryptographically sharing a key between participants, and serves to distribute points of failure"
+   width="50%" />
 </p>
 
 We mentioned multisignature in the previous module in regards to pay to script hash, but just to explain again and elaborate on its potential uses, we generalize, saying that multisig enables what are called M-of-N transactions.
@@ -4897,10 +4946,12 @@ In simple terms, multisig is a way of cryptographically sharing a key between pa
 Imagine if you want to share a wallet with your family, or even with yourself.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------  ----------------------------->
+<!------------------------ bitcoin mechanics: multisig transactions (159) ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image151.png" alt="" style="width:5in;height:2.8in" />
+<img src="/images/image151.png"
+   alt="Bitcoin Mechanics: Multisig Transactions"
+   width="50%" />
 </p>
 
 For example, consider a 2-of-3 multisig.
@@ -4918,10 +4969,12 @@ Instead of losing my private key and then subsequently losing all of my funds, I
 After losing one private key, i still have two of the three total keys, so I still have sufficient keys to access my funds in a 2-of-3 multisig scheme.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------  ----------------------------->
+<!------------------------ bitcoin mechanics: multisig transactions (160) ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image152.png" alt="" style="width:5in;height:2.8in" />
+<img src="/images/image152.png"
+   alt="Bitcoin Mechanics: Multisig Transactions, part 2"
+   width="50%" />
 </p>
 
 As another example, some exchanges and software wallet companies provide 2-of-3 or 3-of-5 multisig services.
@@ -4935,10 +4988,12 @@ As you can imagine, this works similarly for 3-of-5 or any other M-of-N multisig
 <h3>Key Generation Best Practices</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------  ----------------------------->
+<!------------------------ key generation practices: never reuse pseudonyms (161) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image153.png" alt="" style="width:5in;height:2.8in" />
+<img src="/images/image153.png"
+   alt="key generation practices: never reuse pseudonyms"
+   width="50%" />
 </p>
 
 It’s generally considered best practice to never reuse pseudonyms.
@@ -4964,10 +5019,12 @@ Wallet software will generally handle this anyways, making it so much easier to 
 <h3>JBOK Wallets</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------  ----------------------------->
+<!------------------------ JBOK wallets (162) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image153.png" alt="" style="width:5in;height:2.8in" />
+<img src="/images/image153.png"
+   alt="JBOK Wallets"
+   width="50%" />
 </p>
 
 Now if you’re complying with best practices and generating a new public and private key for every transaction you make, the natural question is: how do I manage an increasing number of keys?
@@ -4995,10 +5052,12 @@ That’d be pretty unmanageable.
 <h3>HD Wallets</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------  ----------------------------->
+<!------------------------ hd wallets (163) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image154.png" alt="" style="width:5in;height:2.8in" />
+<img src="/images/image154.png"
+   alt="HD Wallets"
+   width="50%" />
 </p>
 
 Instead of having just a bunch of keys, let’s try something a bit more clever.
@@ -5024,10 +5083,12 @@ And to make things more interesting, we can also use child keys as parent keys t
 By generating keys in a known way instead of randomly, we greatly lessen the load on wallets having to keep track of all your keys -- especially if you’re dealing with thousands of keys like exchanges do.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------  ----------------------------->
+<!------------------------ bitcoin wallets: wallet backups (164) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image155.png" alt="" style="width:5in;height:2.8in" />
+<img src="/images/image155.png"
+   alt="bitcoin wallets: wallet backups"
+   width="50%" />
 </p>
 
 Of course, exchanges can use HD wallets to greatly reduce their load, but HD wallets are also useful elsewhere.
@@ -5062,7 +5123,9 @@ We will go through what a miner actually does to validate blocks.
 <!-------------------------------- Recipe for Mining: Overview ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image157.png" alt="Recipe for Mining: Overview" style="width:5in;height:2.8in" />
+<img src="/images/image157.png"
+   alt="Recipe for Mining: Ethereum"
+   width="50%" />
 </p>
 
 Let’s first take a look at the generic steps for mining as a full node.
@@ -5091,7 +5154,9 @@ Let’s go into detail on how each of these steps plays out.
 <!------------------------------ Step 0: Download the Blockchain --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image158.png" alt="Step 0: Download the Blockchain" style="width:5in;height:2.8in" />
+<img src="/images/image158.png"
+   alt="Step 0: Download the Blockchain"
+   width="70%" />
 </p>
 
 Step 0, download the history of transactions.
@@ -5141,7 +5206,9 @@ If that piece of code is able to successfully unlock the previous bitcoins, then
 <!---------------------------------- Step 2: Create a Block -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image160.png" alt="Step 2: Create a Block" style="width:5in;height:2.8in" />
+<img src="/images/image160.png"
+   alt="Step 2: Create a Block"
+   width="50%" />
 </p>
 
 After validating all these transactions, it’s time to generate a block.
@@ -9934,4 +10001,4 @@ We wish you all the best on the rest of your blockchain journey!
 
 the end…
 
-<b></i> 4/15/2022 4:43pm+</i></b>
+<b></i> 4/15/2022 5:36pm+</i></b>
