@@ -174,6 +174,10 @@ Then, we’ll dive into four-part buildup of Bitcoin consensus and explain why B
 
 In this section, you will learn about the origins and motivations of Bitcoin, and the key distinctions between cryptocurrencies and normal currencies.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 We’ll clear up some common misconception about Bitcoin and Blockchain, and also explain briefly Bitcoin’s origins in the Cypherpunk movement.
 
 We’ll then draw a comparison between Bitcoin and Banks and analyze each of the features and services they provide.
@@ -187,7 +191,7 @@ And this all sets the stage for the next section, in which we’ll build Bitcoin
 <p align="center" width="100%">
 <img src="/images/what is bitcoin-bitcoin genesis.png" 
 	alt="What is Bitcoin? Bitcoin Genesis"
-	width="65%" />
+	width="100%" />
 </p>
 
 <div align="right">
@@ -198,7 +202,7 @@ Most people struggle to answer the question, “What is Bitcoin?,” because the
 
 <b>First</b>, Bitcoin is considered the first and the most widely used cryptocurrency.<br/>
 
-A cryptocurrency is a completely digital, decentralized currency that is built using principles of computer science, cryptography, and economics.
+A cryptocurrency is a completely digital, decentralized currency that is built using principles of computer science, cryptography, and economics.<br/>
 The term “Bitcoin” refers to the protocol governing this currency.<br/>
 
 <b>Second</b>, bitcoin lowercase refers to the actual units of currency.<br/>
