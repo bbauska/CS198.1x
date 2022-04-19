@@ -1699,7 +1699,7 @@ This was the very first time a Bitcoin transaction traded “magic worthless int
 
 However, it’s not like bitcoins were worth that much when Laszlo spent them on pizza.
 
-<h2>Lecture/Module/Chapter 2:</h2>
+<h2 id="ch2">2.5 Lecture/Module/Chapter 2:</h2>
 
 It took years of development and spread before Bitcoin became accepted as a legitimate technology, yet it’s still got a way to go before reaching worldwide legitimacy.
 
@@ -9469,7 +9469,7 @@ By coordinating between these untrusting parties on a globally accessible platfo
 <!-------------------------------- Blockchain vs The Internet ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image354.png 
+<img src="/images/image354.png"
    alt="Blockchain vs The Internet" 
    width="65%" />
 &nbsp;
@@ -10005,4 +10005,4 @@ We wish you all the best on the rest of your blockchain journey!
 
 the end…&nbsp;<br/>
 <b><i>Readme.md</i></b>&nbsp;<br/>
-<b><i>Last Updated: 4/18/2022 9:01pm+</i></b>
+<b><i>Last Updated: 4/18/2022 (Monday) 6:55pm+</i></b>
