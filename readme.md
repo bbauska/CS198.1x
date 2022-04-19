@@ -5187,7 +5187,7 @@ Now that we have the full history, let’s go ahead and get started with mining!
 <p align="center" width="100%">
 <img src="/images/image159.png" 
    alt="Step 1: Verify Transactions" 
-   width="70%" />
+   width="65%" />
 </p>
 
 <h3>Step 1, Verify Transactions</h3>
@@ -5227,7 +5227,10 @@ After constructing the block data, we are finally able to start working on the m
 <!--------------------------------- Step 3: Find a Valid Nonce ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image161.png" alt="Step 3: Find a Valid Nonce" style="width:5in;height:2.8in" />
+<img src="/images/image161.png"
+   alt="Step 3: Find a Valid Nonce"
+   width="65%" />
+&nbsp;
 </p>
 
 As mentioned before, every miner needs to find a nonce which makes the hash of the block header less than some target value.
@@ -5258,7 +5261,10 @@ We go through these loops until finally we find a valid nonce.
 <!-------------------------- Recipe for Mining: Step 4: Broadcast -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image162-step4-broadcast.png" alt="Recipe for Mining: Step 4: Broadcast" style="width:5in;height:2.8in" />
+<img src="/images/image162-step4-broadcast.png" 
+   alt="Recipe for Mining: Step 4: Broadcast"
+   width="65%" />
+&nbsp;
 </p>
 
 After finding the nonce, the typical miner broadcasts it as soon as possible so that other miners are aware that a block was found.
@@ -5285,7 +5291,10 @@ That’s all Proof-of-Work really is at its base, a random lottery.
 <!---------------------------- Recipe for Mining: Step 5: Profit --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image163-step5-profit.png" alt="Recipe for Mining: Step 5: Profit" style="width:5in;height:2.8in" />
+<img src="/images/image163-step5-profit.png" 
+   alt="Recipe for Mining: Step 5: Profit"
+   width="65%" />
+&nbsp;
 </p>
 
 Assuming that our block made its way into the longest chain, we profit!
@@ -5322,7 +5331,10 @@ Author: Rea Savla
 <!------------------------ Step 0: Download Entire Blockchain ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image165-step0-download-blockchain.png" alt="Step 0: Download Entire Blockchain" style="width:5in;height:2.8in" />
+<img src="/images/image165-step0-download-blockchain.png" 
+   alt="Step 0: Download Entire Blockchain"
+   width="65%" />
+&nbsp;
 </p>
 
 <h3>Step 1:</h3>
@@ -5338,10 +5350,13 @@ Author: Rea Savla
     -   If that script runs successfully, then the transaction is included within our block.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ Step 1: Verify Transactions ----------------------------->
+<!------------------------ Step 1: Verify Transactions (167) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image165-step1-verify-transactions.png" alt="Step 1: Verify Transactions" style="width:5in;height:2.8in" />
+<img src="/images/image165-step1-verify-transactions.png"
+   alt="Step 1: Verify Transactions"
+   width="65%" />
+&nbsp;
 </p>
 
 <h3>Step 2:</h3>
@@ -6315,10 +6330,12 @@ The problem can’t be used for proof-of-work anymore.
 In Bitcoin, since the puzzle is based on the previous block, the problem space is inexhaustible.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------- --------------------------->
+<!--------------------- 223. Proof-of-useful-work: does it work? (203) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image223.png" alt="Proof-of-Useful-Work: Doesn't it Work?"</>
+<img src="/images/image223.png" 
+   alt="Proof-of-Useful-Work: Doesn't it Work?"
+   width="65%" />
 </p>
 
 You can always generate more problems with more solutions.
@@ -6348,10 +6365,12 @@ In summary, proof of useful work sounds like a great idea, but it’s incredibly
 <h3>Consensus Updates: Bitcoin Core</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------- --------------------------->
+<!----------------------------- Consensus Updates: Bitcoin Core (204) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image224.png" alt="Consensus Updates: Bitcoin Core"</>
+<img src="/images/image224.png"
+   alt="Consensus Updates: Bitcoin Core"
+   width="65%" />
 </p>
 
 The idea behind a consensus update is that since Bitcoin is decentralized, no one person can say “this is the change we’re going to make in the protocol.”
@@ -6364,10 +6383,12 @@ This is the software that’s used in full nodes.
 
 <h3>Consensus Updates: Forks</h3>
 <!------------------------------------------------------------------------------------------------>
-<!--------  ---------->
+<!------------------------------ 225. Consensus Updates: Forks (204) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image225.png" alt="Consensus Updates: Forks"</>
+<img src="/images/image225.png" 
+   alt="Consensus Updates: Forks"
+   width="65%" />
 </p>
 
 This brings us to the two ways that blockchains can be updated: hard forks and soft forks.
@@ -6403,11 +6424,12 @@ Before every fork, hard or soft, the entire community launches into debates abou
 <h3>Consensus Updates: BIPs</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------- --------------------------->
+<!------------------ 226. Consensus Updates: bitcoin improvement proposal (206) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image226.png" 
-   alt="Consensus Updates: Bitcion Improvement Proposal (BIP)"</>
+<img src="/images/image226.png" 
+   alt="Consensus Updates: Bitcion Improvement Proposal (BIP)"
+   width="65%" />
 </p>
 
 In Bitcoin, changes to the protocol come in the form of BIPs, or Bitcoin Improvement Proposals.
@@ -6451,12 +6473,12 @@ Routing: software that allows you to talk to other Bitcoin nodes
 We can make powerful generalizations using these 4 key characteristics, however there exist other distinctions between users too.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------- --------------------------->
+<!----------------- 227. Wallet-Miner-Full Blockchain-Routing Node (WMBN) (207) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" 
-   src="/images/image227.png" 
-   alt="Wallet-Miner-Full Blockchain-Routing Node (WMBN)"</>
+<img src="/images/image227.png"
+   alt="Wallet-Miner-Full Blockchain-Routing Node (WMBN)"
+   width="65%" />
 </p>
 
 Image Source: [Mastering Bitcoin Opens in new window](https://github.com/bitcoinbook/bitcoinbook)
@@ -6503,8 +6525,9 @@ To get a better sense of how mining looks in real life, here is what a real-worl
 <!---------------------- --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="90%" src="/images/image228.png" 
+<img src="/images/image228.png" 
    alt="Real World Mining"</>
+   width="100%" />
 </p>
 
 Image Source: [The Register Opens in new window](https://www.theregister.co.uk/2014/08/12/chinese_bitcoin_farms_from_scifi_to_scuzzy/)
@@ -6534,7 +6557,9 @@ Real changes are implemented in Bitcoin via hard or soft forks. Hard forks resul
 <!---------------------- Hard fork real changes implemented in Bitcoin --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="90%" src="/images/image229.png" alt="Hard fork real changes implemented in Bitcoin"</>
+<img src="/images/image229.png" 
+   alt="Hard fork real changes implemented in Bitcoin"
+   width="100%" />
 </p>
 
 <h3>Soft Fork:</h3>
@@ -6542,7 +6567,9 @@ Real changes are implemented in Bitcoin via hard or soft forks. Hard forks resul
 <!---------------------- Soft fork real changes implemented in Bitcoin --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="90%" src="/images/image230.png" alt="Soft fork real changes implemented in Bitcoin"</>
+<img src="/images/image230.png"
+   alt="Soft fork real changes implemented in Bitcoin"
+   width="100%" />
 </p>
 
 In Bitcoin, changes to the protocol come in the form of BIPs, or Bitcoin Improvement Proposals. These can be changes in the network protocol, block or transaction validation, or anything affecting interoperability. There are three main kinds of BIPS: standard, informational, process.
@@ -6591,7 +6618,9 @@ And when it comes to making the most profit, honest strategies are NOT usually t
 <!----------------------------- Pool Reward Schemes: Reviews ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image231.png" alt="Pool Reward Schemes: Reviews"</>
+<img src="/images/image231.png" 
+   alt="Pool Reward Schemes: Reviews"
+   width="65%" />
 </p>
 
 Remember from last lecture that pay-per-share schemes will pay you a fixed amount of money for each share, or near-valid block.
@@ -6606,7 +6635,9 @@ Miners will stop doing work on their current block as soon as it satisfies the n
 <!----------------------------- Pool Reward Schemes: Proportional ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image232.png" alt="Pool Reward Schemes: Proportional"</>
+<img src="/images/image232.png"
+   alt="Pool Reward Schemes: Proportional"
+   width="65%" />
 </p>
 
 Proportional schemes are the other category which pay out only when a block is found.
@@ -6626,7 +6657,9 @@ Given the incentive structures in both pay per share and proportional pool pay-o
 <!----------------------------- Pool Rewards: Pool Hopping Strategy ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image233.png" alt="Pool Rewards: Pool Hopping"</>
+<img src="/images/image233.png" 
+   alt="Pool Rewards: Pool Hopping"
+   width="65%" />
 </p>
 
 Remember that we as miners want to maximize their payout.
@@ -6641,7 +6674,9 @@ We know there must be some intersection between these two because the proportion
 <!----------------------------- Pool Rewards: Pool Hopping Strategy ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image234.png" alt="Pool Rewards: Pool Hopping"</>
+<img src="/images/image234.png" 
+   alt="Pool Rewards: Pool Hopping"
+   width="65%" />
 </p>
 
 This graph might reveal something to you right away.
@@ -6653,10 +6688,12 @@ Here, you see the area under the curve, which represents the total reward per sh
 If we mine under just the proportional scheme, the reward gained per share decreases as more and more shares get submitted towards this block, meaning that our marginal rewards start to approach zero.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- Pool Rewards: Pool Hopping Strategy ------------------------------>
+<!----------------------------- Pool Rewards: Pool Hopping Strategy (216) ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image235.png" alt="Pool Rewards: Pool Hopping"</>
+<img src="/images/image235.png" 
+   alt="Pool Rewards: Pool Hopping"
+   width="65%" />
 </p>
 
 In this example, we see the same type of graph but for pay-per-share.
@@ -6672,10 +6709,12 @@ A clever miner will look for ways to take advantage of both payout schemes to in
 And here’s how they can do that.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- Pool Rewards: Pool Hopping Strategy ------------------------------>
+<!----------------------------- Pool Rewards: Pool Hopping Strategy (217) ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image236.png" alt="Pool Rewards: Pool Hopping"</>
+<img src="/images/image236.png" 
+   alt="Pool Rewards: Pool Hopping"
+   width="65%" />
 </p>
 
 Let’s say a miner starts off mining under the proportional payout scheme.
@@ -6699,10 +6738,12 @@ Because the reward per additional share there is higher, and will yield more pro
 To fully understand this attack, you need to see the point at which the two curves intersect.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- Pool Rewards: Pool Hopping Strategy ------------------------------>
+<!----------------------------- Pool Rewards: Pool Hopping Strategy (218) ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image237.png" alt="Pool Rewards: Pool Hopping"</>
+<img src="/images/image237.png"
+   alt="Pool Rewards: Pool Hopping"
+   width="65%" />
 </p>
 
 And this is when the value per share of the proportional scheme decreases beneath the value per share of the pay-per-share scheme.
@@ -6728,10 +6769,12 @@ We’ll see how this misalignment of incentives in pay-per-share models can lead
 <h3 id="ch5-3">5.3 Pool Cannibalization</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------- Pool Cannibalization: Strategy --------------------------------->
+<!----------------------- Pool Cannibalization: Strategy: Nom Nom Nom Nom (219) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image238.png" alt="Pool Cannibalization: Strategy"</>
+<img src="/images/image238.png" 
+   alt="Pool Cannibalization: Strategy"
+   width="65%" />
 </p>
 
 Remember, in a pay-per-share model, a miner is not incentivized to give their mining pool any valid blocks.
@@ -6763,10 +6806,12 @@ The advantage of this attack is that it’s very hard to detect in small amounts
 Let’s go ahead and show why this is the case through some calculations.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------- Pool Cannibalization: Strategy --------------------------------->
+<!------------------------------- Pool Cannibalization: Strategy (220) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image239.png" alt="Pool Cannibalization: Strategy"</>
+<img src="/images/image239.png"
+   alt="Pool Cannibalization: Strategy: Don't Submit Valid Blocks"
+   width="65%" />
 </p>
 
 Let’s first establish some assumptions.
@@ -6802,10 +6847,12 @@ This means that our increase in profit is 0.0069 bitcoins from our extra hardwar
 But how can we leverage our previous knowledge about pay-per-share pools?
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- Pool Cannibalization: Example ---------------------------------->
+<!------------------------ Pool Cannibalization: Example: Strategy (221) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image240.png" alt="Pool Cannibalization: Example"</>
+<img src="/images/image240.png" 
+   alt="Pool Cannibalization: Example: Pool Cannibalization Strategy"
+   width="65%" />
 </p>
 
 Well, by doing something mean but profitable: distributing our 1 unit of mining power among all the other pools -- the other 70% of the network hash power.
@@ -6831,10 +6878,12 @@ This means that our expected value of mining with this one percent of hashpower 
 You’ll notice a scary conclusion.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- Pool Cannibalization: Example ---------------------------------->
+<!------------------------ Pool Cannibalization: Example: Givens (222) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image241.png" alt="Pool Cannibalization: Example"</>
+<img src="/images/image241.png" 
+   alt="Pool Cannibalization: Example: Givens"
+   width="65%" />
 </p>
 
 Dishonesty is more profitable than honesty!
@@ -6854,10 +6903,12 @@ Are pools going to wage war on each other through this attack?
 <h3 id="ch5-4">5.4 Nash Equilibrium and the Tragedy of the Commons</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- Pool Wars: The Game of Life ----------------------------------->
+<!-------------------------------- Pool Wars: The Game of Life (222) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image242.png" alt="Pool Wars: The Game of Life"</>
+<img src="/images/image242.png" 
+   alt="Pool Wars: The Game of Life"
+   width="65%" />
 </p>
 
 Like all other competitions for resources, we can model this problem as a game and analyze it with economic game theory.
@@ -6879,17 +6930,19 @@ Pool 1 and Pool 2 both want to attack each other to increase their own personal 
 However, if they both attack each other, they’ll be worse off than if they both chose to cooperate and not attack at all.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- Pool Wars: Nash Equilibrium ----------------------------------->
+<!-------------------------------- Pool Wars: Nash Equilibrium (223) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image243.png" alt="Pool Wars: Nash Equilibrium"</>
+<img src="/images/image243.png" 
+   alt="Pool Wars: Nash Equilibrium"
+   width="65%" />
 </p>
 
 Let’s say Pool 1 chooses to attack Pool 2.
 
 Pool 1 increases its own personal profit, as demonstrated in the last section, but Pool 2 suffers.
 
-So what’s to stop Pool 2 from retaliating to increase revenue?
+What’s to stop Pool 2 from retaliating to increase revenue?
 
 Well, nothing!
 
@@ -6910,14 +6963,13 @@ This means that their profit from attacking is actually less than if they both c
 Why don’t they just not attack each other and make more profit than in this Nash Equilibrium?
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- Pool Wars: -------------------------------------->
+<!--------------------------- Pool Wars: Tragedy of the Commons (224) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" src="/images/image244.png" alt="Pool Wars"</>
+<src="/images/image244.png" 
+   alt="Pool Wars"
+   width="65%" />
 </p>
-<!---
-<img src="/images/image244.png" style="width:5in;height:2.8in" />
----->
 
 Well, the no-pool-attacks scenario is not a Nash Equilibrium.
 
@@ -7300,15 +7352,18 @@ With censorship, we can choose to ignore the transactions from an individual or 
 <h3>Censorship Attacks: Naive Censorship</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!---------------------------- Blacklisting: Naive Censorship(238) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image261.png" style="width:5in;height:2.82384in" />
+<img src="/images/image261.png"
+   alt=
+   width="65%" />
+&nbsp;
 
 Let’s say that Gloria is in charge of the Glorian nation, and has jurisdiction over all of the mining pools within its boundaries, which sums up to be over 51% of the Bitcoin network's hash power . Gloria doesn’t like me, so her goal is to censor all of my Bitcoin addresses and prevent me from spending any of my Bitcoin.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!------------------------ Blacklisting: Naive Censorship Strategy (239)  ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image262.png" style="width:5in;height:2.85528in" />
@@ -7326,10 +7381,12 @@ Gloria has.
 <h3>Censorship Attacks: Punitive Forking</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!---------------------------- Blacklisting: Naive Censorship Strategy - Punitive Forking (239) --------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image263.png" style="width:5in;height:2.82018in" />
+<img src="/images/image263.png"
+   alt="Blacklisting: Naive Censorship Strategy - Punitive Forking"
+
 
 Let’s look at another strategy for Gloria.
 
@@ -9221,10 +9278,12 @@ This provides transparency and immutability, since information about all documen
 
 Just like transferring bitcoin between users through UTXOs, we’re simply transferring the land title through smart contracts as well.
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------------- Decentralized Land Titles ------------------------------------>
+<!--------------------------------- Decentralized Land Titles (311) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image344.png "Decentralized Land Titles" style="width:5in;height:2.85in" />
+<img src="/images/image344.png 
+   alt="Decentralized Land Titles"
+   width="65%" />
 &nbsp;
 
 However, there’s a big caveat that affects this blockchain use case, along with several others that link real world information to digital information.
@@ -9245,10 +9304,12 @@ Georgia, Ukraine, and Sweden are a few of the major countries tackling decentral
 
 <h3>Advanced Use Cases: Prediction Markets</h3>
 <!------------------------------------------------------------------------------------------------>
-<!------------------- Prediction Markets: Draws on the Wisdom of the Crowd ----------------------->
+<!------------------- Prediction Markets: Draws on the Wisdom of the Crowd (312) ----------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image345.png "Prediction Markets: Draws on the Wisdom of the Crowd" style="width:5in;height:2.85in" />
+<img src="/images/image345.png 
+   alt="Prediction Markets: Draws on the Wisdom of the Crowd"
+   width="65%" />
 &nbsp;
 
 A prediction market allows users to bet on the future and receive winnings if they bet correctly.
@@ -9257,10 +9318,12 @@ An example of this is the Presidential Election: PredictIt.org gave anyone the o
 
 The organization would then decide on what happened, and pay out to users as specified.
 <!------------------------------------------------------------------------------------------------>
-<!---------------------- Prediction Markets: Transparent & Never Crashes ------------------------->
+<!---------------------- Prediction Markets: Transparent & Never Crashes (313) ------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image346.png "Prediction Markets: Transparent & Never Crashes" style="width:5in;height:2.85in" />
+<img src="/images/image346.png 
+   "Prediction Markets: Transparent & Never Crashes"
+   width="65%" />
 &nbsp;
 
 However, with a central organization, we depend both on the organization to provide honest information about payouts and to truthfully act on political events.
@@ -9281,10 +9344,12 @@ In addition, execution of this logic is all public, giving guarantees that all f
 
 Gnosis and Augur are two well-known companies that have deployed prediction market smart contracts.
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------- Prediction Markets: Use Case 1 --------------------------------->
+<!------------------------------- Prediction Markets: Use Case 1 (314) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image347.png "Prediction Markets: Use Case 1" style="width:5in;height:2.85in" />
+<img src="/images/image347.png 
+   alt="Prediction Markets: Use Case 1"
+   width="65%" />
 &nbsp;
 
 What can we do with these prediction markets?
@@ -9299,7 +9364,9 @@ As users have an incentive to monetize information while revealing as little of 
 <!----------------------- Prediction Markets: And Decentralizing Them ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image348.png "Prediction Markets: And Decentralizing Them" style="width:5in;height:2.85in" />
+<img src="/images/image348.png 
+   alt="Prediction Markets: And Decentralizing Them"
+   width="65%" />
 &nbsp;
 
 Will this movie be a flop?
@@ -9313,7 +9380,9 @@ This allows the person asking the question to gather information while letting u
 <!--------------------------- Prediction Markets: Other Use Cases--------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image349.png "Prediction Markets: Other Use Cases" style="width:5in;height:2.85in" />
+<img src="/images/image349.png 
+   alt="Prediction Markets: Other Use Cases"
+   width="65%" />
 &nbsp;
 
 Other use cases include insurance, bug bounties, and ICO signaling.
@@ -9322,10 +9391,12 @@ The first market for insurance is a way to let users prepare against disasters t
 
 If a user notices a bug in a smart contract, they can heavily bet “yes” before revealing the vulnerability, allowing them to reap the rewards of their hidden knowledge.
 <!------------------------------------------------------------------------------------------------>
-<!------------------- Prediction Markets: Futarchy & Cryptoeconomics ----------------------------->
+<!------------------- Prediction Markets: Futarchy & Cryptoeconomics (315) ----------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image350.png "Prediction Markets: Futarchy & Cryptoeconomics" style="width:5in;height:2.85in" />
+<img src="/images/image350.png
+   alt="Prediction Markets: Futarchy & Cryptoeconomics"
+   width="65%" />
 &nbsp;
 
 An exciting use case of prediction markets is futarchy.
@@ -9347,7 +9418,9 @@ Research is still being done to examine the feasibility of futarchy on a blockch
 <!-------------------------------- Supply Chain and Provenance ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image351.png "Supply Chain and Provenance" style="width:5in;height:2.85in" />
+<img src="/images/image351.png
+   alt= "Supply Chain and Provenance"
+   width="65%" />
 &nbsp;
 
 A popular conception is that blockchain is the perfect solution for supply chain.
@@ -9377,7 +9450,9 @@ We have to trust that individuals are not bribed to include false information in
 <!-------------------- Smart Energy Grids: Revolutionizing Infrastructure ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image352.png "Smart Energy Grids: Revolutionizing Infrastructure" style="width:5in;height:2.85in" />
+<img src="/images/image352.png
+   alt= "Smart Energy Grids: Revolutionizing Infrastructure"
+   width="65%" />
 &nbsp;
 
 Thus far, we’ve mentioned how we can provide a digital service using a blockchain.
@@ -9425,7 +9500,9 @@ This is one of the most revolutionary concepts in blockchain, giving users the a
 <!---------------------- After Hours Trading: 24/7 Access & Liquidity ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image353.png "After Hours Trading: 24/7 Access & Liquidity" style="width:5in;height:2.85in" />
+<img src="/images/image353.png
+   alt="After Hours Trading: 24/7 Access & Liquidity"
+   width="65%" />
 &nbsp;
 
 The final use case we’re going to examine is after hours trading.
@@ -9466,7 +9543,7 @@ By coordinating between these untrusting parties on a globally accessible platfo
 
 <h3 id="ch6-5">6.5 Blockchain vs Internet</h3>
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- Blockchain vs The Internet ------------------------------------>
+<!-------------------------------- Blockchain vs The Internet (320) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image354.png"
@@ -9478,9 +9555,9 @@ In almost every conversation about blockchain’s role in society or path going 
 
 You’ll hear about how the Internet took 20 years to flesh out meaningful use cases, about how several companies sprung up during the Dot Com boom only to fade out as the few significant startups survived, about how blockchain is an Internet of Value as opposed to information.
 
-So, what’s a full comparison of blockchain versus the Internet?
+What’s a full comparison of blockchain versus the Internet?
 
-First, we know that both blockchain technology and the Internet describe protocols for connectivity.
+<b><em>First</em></b>, we know that both blockchain technology and the Internet describe protocols for connectivity.
 
 However, the type of connectivity differs.
 
@@ -9494,7 +9571,7 @@ If you didn’t have the public validating transactions, then blockchain protoco
 
 Whereas, with the Internet, it doesn’t matter who else is on the network as long as each individual is able to communicate with its relevant parties.
 
-Second, the way in which blockchain and the Internet manifested also differs.
+<b><em>Second</em></b>, the way in which blockchain and the Internet manifested also differs.
 
 The Internet was a project developed by academics.
 
@@ -9508,7 +9585,7 @@ A grassroots movement, Bitcoin was an open-source project between libertarian ad
 
 From there, Bitcoin and blockchain started to move into the realms of academia and enterprise.
 
-Third, the social environment developed around these projects differs immensely because of both their origins and the eras in which they were born.
+<b><em>Third</em></b>, the social environment developed around these projects differs immensely because of both their origins and the eras in which they were born.
 
 During the Internet era, the concept of personal computers hadn’t even developed yet, let alone the idea of connecting individuals around the country, or around the world.
 
@@ -9539,10 +9616,12 @@ These points can be used to understand and discuss any use case you come across 
 These points describe the properties of a good blockchain use case, along with the scenarios in which a blockchain is not needed or inferior to a centralized solution.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------- Blockchain Generalizations: Viable but Blockchain Not Necessary ----------------->
+<!-------------- Blockchain Generalizations: Viable but Blockchain Not Necessary (322) ----------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image355.png" "Blockchain Generalizations: Viable but Blockchain Not Necessary" style="width:5in;height:2.85in" />
+<img src="/images/image355.png" 
+   alt="Blockchain Generalizations: Viable but Blockchain Not Necessary"
+   width="65%" />
 &nbsp;
 
 To start off, let’s talk about the scenarios where a blockchain will work, but is not necessary.
@@ -9564,10 +9643,12 @@ For example, just because you didn’t hear of fault tolerance, consensus, or pu
 Each of these bullets can be achieved by using a subset of the technology that goes into making a blockchain.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------- Blockchain Generalizations: Solving Coordination Failures -------------------->
+<!----------------- Blockchain Generalizations: Solving Coordination Failures (323) -------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image356.png" "Blockchain Generalizations: Solving Coordination Failures" style="width:5in;height:2.85in" />
+<img src="/images/image356.png" 
+   alt="Blockchain Generalizations: Solving Coordination Failures"
+   width="65%" />
 &nbsp;
 
 While blockchains will work, they’re over-engineered solutions to these problems.
@@ -9591,10 +9672,12 @@ The miners will force the actors to honor their commitments, as was the original
 Instead of bringing in lawyers to settle matters when things don’t according to plan, we’re now able to rely on a smart contract to execute as intended, giving us the ability to believe in this code as law.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------- Blockchain Generalizations: Horizontal Integration ------------------------>
+<!-------------------- Blockchain Generalizations: Horizontal Integration (324) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image357.png" "Blockchain Generalizations: Horizontal Integration" style="width:5in;height:2.85in" />
+<img src="/images/image357.png" 
+   alt= "Blockchain Generalizations: Horizontal Integration"
+   width="65%" />
 &nbsp;
 
 Blockchains create a standardized platform for access and interaction.
@@ -9626,13 +9709,13 @@ Similar to how more Facebook users makes the platform more worthwhile for all us
 In this way, individuals are supporting the rest of the community while benefiting themselves as well.
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------- Blockchain Generalizations: Essential Properties ------------------------->
+<!--------- Blockchain Generalizations: Essential Properties: Pure Decentralization (326)--------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image358.png" "Blockchain Generalizations: Essential Properties" style="width:5in;height:2.85in" />
+<img src="/images/image358.png" 
+   alt="Blockchain Generalizations: Essential Properties: Pure Decentralization"
+   width="65%" />
 &nbsp;
-
-<img src="/images/image369.png" style="width:5in;height:2.83301in" />
 
 Finally, the most abstract yet fundamental property of a good blockchain use case is pure decentralization.
 
@@ -9657,10 +9740,12 @@ Cryptocurrencies aren’t divided by lines or borders--they’re guaranteed to b
 Through blockchain, we can support globally recognized ownership, persisting across nations.
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------- Blockchain Generalizations: Advantages of Centralized Solutions ---------------->
+<!--------------- Blockchain Generalizations: Advantages of Centralized Solutions (327) ---------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image359.png" "Blockchain Generalizations: Advantages of Centralized Solutions" style="width:5in;height:2.85in" />
+<img src="/images/image359.png" 
+   alt="Blockchain Generalizations: Advantages of Centralized Solutions"
+   width="65%" />
 &nbsp;
 
 Now that we’ve finished talking about all the meaningful properties of decentralized solutions, it wouldn’t be complete if we didn’t go over the caveats.
@@ -9736,10 +9821,12 @@ The first use case is a smart asset, or token, built on a currently existing blo
 Another meaningful use case for smart contracts is multisignature wallets. On Ethereum, we can leverage the platform’s built-in authentication protocol to create a functionality that allows us to have an m of n signature scheme (refer to Lecture 3).
 
 <!------------------------------------------------------------------------------------------------>
-<!------------- Document Ownership: Blockchain Fundamentals: Proof-of-Existence ------------------>
+<!------------- Document Ownership: Blockchain Fundamentals: Proof-of-Existence (329) ------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/document-ownership.png" "Document Ownership: Blockchain Fundamentals: Proof-of-Existence" style="width:5in;height:2.85in" />
+<img src="/images/document-ownership.png"
+   alt= "Document Ownership: Blockchain Fundamentals: Proof-of-Existence"
+   width="65%" />
 &nbsp;
 
 We can also create Proof-of-Existence use cases using smart contracts, which hash intellectual property onto a blockchain to prove the existence of some piece of information at some point in time. With Proof-of-Existence, we leverage both the public auditability and immutability of the blockchain. We can use Proof-of-Existence to record document ownership or implement a decentralized DNS system.
@@ -9798,7 +9885,7 @@ In the end, it is important to always ask why a blockchain is better than a cent
 <p align="center">
 <img src="/images/image360.png" 
    alt="Blockchain Use Cases Takeaways" 
-   width="70%" />
+   width="65%" />
 &nbsp;
 
 The main takeaway is that there are advantages to both centralized and decentralized solutions.
@@ -9881,7 +9968,7 @@ He also founded ConsenSys, which is a company that made great strides in develop
 <p align="center">
 <img src="/images/image361.png" 
    alt="ConsenSys: Ethereum Infrastructure" 
-   width="70%" />
+   width="65%" />
 &nbsp;
 
 ConsenSys can be best described as a software foundry.
@@ -9935,7 +10022,7 @@ Here’s a review of the similarity and differences between Ethereum and Bitcoin
 <p align="center">
 <img src="/images/image363.jpg"
    alt= "Similarity and Differences between Ethereum and Bitcoin"
-   width="85%" />
+   width="65%" />
 &nbsp;
 
 There are two kinds of Ethereum accounts: 
@@ -9962,7 +10049,7 @@ The Ethereum Virtual Machine enables the Ethereum blockchain to be programmable.
 <p align="center">
 <img src="/images/image364.jpg" 
    alt="Nodes in the Ethereum Network" 
-   width="75%" />
+   width="65%" />
 &nbsp;
 
 As in Bitcoin, the nodes come to consensus using Proof-of-Work, removing the need for a trusted third party. Miners in Ethereum competitively create blocks by executing EVM code and searching for a solution to a mining puzzle.
@@ -9977,7 +10064,7 @@ Ethereum is implemented as a distributed state machine, and transactions on the 
 <p align="center">
 <img src="/images/image365.jpg" 
    alt="Bitcoin Network: Flood the Network" 
-   width="85%" />
+   width="65%" />
 &nbsp;
 
 <h3>Readings</h3>
