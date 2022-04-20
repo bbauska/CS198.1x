@@ -239,6 +239,10 @@ One massive point of centralization in modern day society is the financial syste
 
 <b><i>banks govern the economies of entire countries.</i></b>
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 Several different companies and researchers attempted to make a decentralized or anonymous currency, but all of them failed.
 
 Bitcoin was the first technology to succeed as a cryptocurrency.
@@ -295,6 +299,9 @@ Instead, everyone can verify and audit the transaction history on their own.
 
 And even the creation of money is decided not by a central authority, but through the process of mining, or Proof-of-Work.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ currency: in banks we distrust (8) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
@@ -340,6 +347,9 @@ And this is where Bitcoin comes in.
 
 Let's take a look at how Bitcoin can fulfill a bank's functions.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ currency: bitcoin components (9) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -376,6 +386,10 @@ We trust that the Bitcoin protocol is correct, allowing us not to trust the user
 We trust in the incentive alignment and publicly verifiable, tamper evident ledger instead of our fellow users.
 
 All of these pieces together make Bitcoin the technological revolution that kicked off the Cryptocurrency Movement.
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3 id="ch1-3">1.3 Intro: Bitcoin from the Ground Up</h3>
 
@@ -10222,3 +10236,6 @@ We wish you all the best on the rest of your blockchain journey!
 the end…&nbsp;<br/>
 <b><i>Readme.md</i></b>&nbsp;<br/>
 <b><i>Last Updated: 4/19/2022 (Tuesday) 4:55pm+</i></b>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
