@@ -418,6 +418,10 @@ But how do we do this in Bitcoin, without a bank or central entity to keep track
    width="65%" </>
 &nbsp;
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3>Identity (Stage 1)</h3>
 
 To understand why we need identity in Bitcoin in the first place, let’s understand first why we need identity at all in the context of currencies.
@@ -585,7 +589,7 @@ So now that we have a clear understanding of the structure and purpose of identi
 
 After all, that’s the primary goal of the Bitcoin network -- to enable secure transactions between any two users in the network.
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ What Makes a Transaction Valid? --------------------------------->
+<!------------------------------ What Makes a Transaction Valid? (16) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image008-what makes-a-transaction-valid.png" 
@@ -597,13 +601,17 @@ As we did before with the concept of identity, we will now be analyzing the idea
 
 Take a moment to ask yourself, “What makes a transaction valid?”
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!------------------- Transactions: validity: what makes a transaction valid? (17) --------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image009-validity.png" 
    alt="Transactions: Validity: What Makes a Transacton Valid?"
    width=65%" />
 </p>
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 For a transaction to be valid, it must have these three components:
 
@@ -3879,21 +3887,21 @@ Before we dive into specifics about how Bitcoin scripts work, it’s important t
 <h3>Remember the UTXO Model?</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------- Bitcoin Scripts: Remember the UTXO Model? --------------------------->
+<!-------------------- 132. Bitcoin Scripts: Remember the UTXO Model? (125) ---------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image132.png" 
-   alt="Bit "
+   alt="Bitcoin Scripts: Remember the UTXO Model?"
    width="65%" />
 </p>
 &nbsp;
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------  ---------------------------------->
+<!------------------------------ 133. Bitcoin Scripts: Remember the UTXO Model? (125)  ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image133.png" 
-   alt=" "
+   alt="Bitcoin Scripts: Remember the UTXO Model?"
    width="65%" />
 </p>
 &nbsp;
@@ -3923,11 +3931,11 @@ Contents of a Transaction
 Let’s take a deeper look into the contents of my transaction to Rustie.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------  ---------------------------------->
+<!------------------------------ 144. contents of a transaction (127) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image144.png" 
-   alt=" "
+   alt="Contents of a Transaction: Metadata, Input(s), and Output(s)"
    width="65%" />
 </p>
 &nbsp;
@@ -3935,11 +3943,11 @@ Let’s take a deeper look into the contents of my transaction to Rustie.
 As we can see, a transaction has three main “sections.”
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------  ---------------------------------->
+<!---------------------- 145. contents of a transaction: metadata (127) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image145.png" 
-   alt=" "
+   alt="Contents of a Transaction: Metadata"
    width="65%" />
 </p>
 &nbsp;
@@ -3953,11 +3961,11 @@ This proof allows me to redeem the UTXOs and use them to produce new outputs.
 The outputs section contains a list of new UTXOs that will be sent to new addresses.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------  (128) ---------------------------------->
+<!----------------------- 146. contents of a transaction: metadata (128) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image146.jpg"
-   alt=" "
+   alt="Contents of a Transaction: Metadata"
    width="65%" />
 </p>
 
@@ -3968,11 +3976,11 @@ Taking a deeper look into the transaction, we start with the metadata.
 The first piece of metadata is the hash of our transaction, or the unique “ID” of this transaction.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------  ---------------------------------->
+<!----------------------- 147. contents of a transaction: input(s) (128) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image147.png" 
-   alt=" "
+   alt="Contents of a Transaction: Input(s)"
    width="65%" />
 </p>
 &nbsp;
@@ -4000,7 +4008,7 @@ We also get a reference to the index of the input in the previous transaction.
 “1” means the second, and so on.
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------- Contents of a Transaction: Inputs: scriptSig (129) ----------------------->
+<!--------------------- 148. Contents of a Transaction: Inputs: scriptSig (129) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image148.jpg"
@@ -4014,7 +4022,7 @@ The scriptSig is the most important part of these inputs because they’re the r
 Last but not least, the end product of our transaction is the output(s).
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- Contents of a Transaction: Outputs ------------------------------->
+<!-------------------------- 149. Contents of a Transaction: Outputs ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image149.jpg"
@@ -4036,11 +4044,11 @@ In this case, only after Rustie provides his proof can he unlock and spend my UT
 <h3>Bitcoin Script Reminders</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------  ---------------------------------->
+<!---------------------------- 150. Bitcoin Scripts: reminders (130) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image150.png"
-   alt=" "
+   alt="Bitcoin Scripts: Reminders: Output Addresses are Scripts"
    width="65%" />
 </p>
 &nbsp;
@@ -4060,11 +4068,11 @@ The Script language is stack-based, has a native support for cryptocurrency, and
 <h3 id="ch3-9">3.9 Intro to P2PKH</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------  ---------------------------------->
+<!-------------------------- 151. bitcoin scripts: p2pkh example (131) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image151.png"
-   alt=" "
+   alt="Bitcoin Scripts: P2PKH Example: Remember the UTXO Model?"
    width="65%" />
 </p>
 &nbsp;
@@ -4078,11 +4086,11 @@ This script specifies the most common type of transaction in Bitcoin, which is t
 To redeem this previous transaction, we need to prove our identities with (1) a public key that, when hashed, yields the address to which the previous transaction was sent, and (2) a signature that proves ownership of the private key corresponding to the public key we provided.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------  ---------------------------------->
+<!-------------------- 152. bitcoin scripts: p2pkh example execution (132) ----------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image152.png"
-   alt=" "
+   alt="Bitcoin Scripts: P2PKH Example Execution"
    width="65%" />
 </p>
 &nbsp;
@@ -4112,11 +4120,11 @@ In our Pay to Pub Key Hash example, the locking script requires that the users t
 For this reason, this script is called scriptPubKey.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------  ---------------------------------->
+<!------------------- 153. bitcoin scripts: p2pkh example execution (133) ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image153.png"
-   alt=" "
+   alt="Bitcoin Scripts: P2PKH Example Execution"
    width="65%" />
 </p>
 &nbsp;
@@ -4130,11 +4138,11 @@ And the entire resulting script must execute successfully in order for the trans
 <h3>Demo: P2PKH Example</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------  ---------------------------------->
+<!-------------------- 154. bitcoin scripts: p2pkh example execution (133) ----------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image154.png"
-   alt=" "
+   alt="Bitcoin Scripts: P2PKH Example Execution"
    width="65%" />
 </p>
 &nbsp;
@@ -4158,11 +4166,11 @@ OP_DUP will duplicate the top item on the stack OP_HASH160 hashes the previous i
 Next, \<pubKeyHash?\> -- with the question mark in the angle brackets -- is the actual public key hash specified by the previous transaction output.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------  ---------------------------------->
+<!-------------------- 155. bitcoin scripts: p2pkh example execution (134) ----------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image155.png"
-   alt=" "
+   alt="Bitcoin Scripts: P2PKH Example Execution"
    width="65%" />
 </p>
 &nbsp;
@@ -4184,11 +4192,11 @@ And then finally, since the final return value is true, we know that the transac
 <h3>Proof of Burn</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------  ---------------------------------->
+<!-------------------------- 156. bitcoin scripts: proof-of-burn (135) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image156.png"
-   alt=" "
+   alt="Bitcoin Scripts: Proof-of-Burn"
    width="65%" />
 </p>
 &nbsp;
@@ -4238,11 +4246,11 @@ In other words, the customer is the sender, and the vendor is the recipient.
 <h3>P2PKH vs P2SH</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------  ---------------------------------->
+<!-------------------- 157. p2pkh vs p2sh: who specifies the script? (136) ----------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image157.png"
-   alt=" "
+   alt="P2PKH vs P2SH: Who Specifies the Script?"
    width="65%" />
 </p>
 &nbsp;
@@ -4272,11 +4280,11 @@ It’s much more customer friendly if the recipient of the transaction, the vend
 <h3>How P2SH Works</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ (135) ---------------------------------->
+<!------------------- 158. p2pkh vs p2sh: creating a p2pkh pub key hash (137) -------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image158.png"
-   alt=" "
+   alt="P2PKH vs P2SH: Creating a P2PKH Pub Key Hash"
    width="65%" />
 </p>
 &nbsp;
@@ -4301,11 +4309,11 @@ In order for Bob to redeem the bitcoin that Alice just sent him, he must provide
 
 <h3>Why use P2SH?</h3>
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ (136) ---------------------------------->
+<!------------------------------ 159. p2pkh vs p2sh: why p2pkh? (138) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image159.png"
-   alt=" "
+   alt="158. P2PKH vs P2SH: Why P2PKH?"
    width="65%" />
 </p>
 &nbsp;
@@ -4330,7 +4338,7 @@ Pay to Script Hash was an update to Bitcoin back in 2012, and since then has bee
 
 <h3>Multisignature</h3>
 <!------------------------------------------------------------------------------------------------>
-<!----------------------- P2PKH vs P2SH: Multisignature Example (139) ---------------------------->
+<!---------------------- 161. P2PKH vs P2SH: Multisignature Example (139) ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image161.jpg" 
@@ -4372,11 +4380,11 @@ This redeeming script is only revealed and used when the redeemer wants to spend
 The redeeming script is then hashed, to check against the redeeming script hash, and evaluated.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------  ---------------------------------->
+<!----------------------- 161. p2pkh vs p2sh: multisig example (140) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image162.png"
-   alt="Recipe for Mining: Step 4"
+<img src="/images/image161.jpg"
+   alt="P2PKH vs P2SH: Multisignature Example"
    width="65%" />
 </p>
 
@@ -4388,7 +4396,7 @@ If they match, the UTXO is unlocked.
 
 <h3>Timelocks</h3>
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------- transaction locktime: timelocks (141) ------------------------------>
+<!------------------------- 162. transaction locktime: timelocks (141) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image162.png" 
@@ -4560,7 +4568,7 @@ While we may primarily only think of miners or casual traders using exchanges or
 <h3 id="ch4-1">4.1 Key Components</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ Types of Users: Key Components  --------------------------------->
+<!------------------------- 164. Types of Users: Key Components (146) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image164.png"
@@ -4630,7 +4638,7 @@ How do we make sure that we’re not subject to identity theft?
 <h3>Types of Wallets</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------- Bitcoin Wallets: What do Wallets Do? (148) -------------------------->
+<!----------------------- 166. Bitcoin Wallets: What do Wallets Do? (148) ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image166.png"
@@ -4655,7 +4663,7 @@ To take care of this, wallet software will store all relevant information about 
 <h3>Types of Wallets: Hot and Cold</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------- Types of Wallets: Hot and Cold (149) ------------------------------->
+<!------------------------- 167. Types of Wallets: Hot and Cold (149) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image167.png"
@@ -5008,7 +5016,7 @@ As you can imagine, this works similarly for 3-of-5 or any other M-of-N multisig
 <h3>Key Generation Best Practices</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ key generation practices: never reuse pseudonyms (161) ----------------------------->
+<!--------------------- key generation practices: never reuse pseudonyms (161) ------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image153.png"
@@ -5039,7 +5047,7 @@ Wallet software will generally handle this anyways, making it so much easier to 
 <h3>JBOK Wallets</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ JBOK wallets (162) ----------------------------->
+<!----------------------------------- 153. JBOK wallets (162) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image153.png"
@@ -7414,11 +7422,11 @@ With censorship, we can choose to ignore the transactions from an individual or 
 <h3>Censorship Attacks: Naive Censorship</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- Blacklisting: Naive Censorship(238) ------------------------------->
+<!------------------------- 261. Blacklisting: Naive Censorship (238) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image261.png"
-   alt=""
+   alt="Blacklisting: Freeze Peach is Dead"
    width="65%" />
 &nbsp;
 
@@ -7429,6 +7437,7 @@ Let’s say that Gloria is in charge of the Glorian nation, and has jurisdiction
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image262.png"
+   alt="Blacklisting: Naive Censorship"
    width="65%" />
 </p>
 
@@ -7445,7 +7454,7 @@ Gloria has.
 <h3>Censorship Attacks: Punitive Forking</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- Blacklisting: Naive Censorship Strategy - Punitive Forking (239) --------------------->
+<!--------------- Blacklisting: Naive Censorship Strategy - Punitive Forking (239) --------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image263.png"
@@ -7460,10 +7469,11 @@ Remember that Gloria’s mining pools have over 51% of the network hashrate.
 She can say that all Glorian pools will refuse to work on a chain containing transactions spending from my address and announce this to the world.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!---------------------------- blacklisting: punitive foring (240) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image264.png"
+   alt="Blacklisting: Punitive Forking"
    width="65%" />
 </p>
 
@@ -7474,10 +7484,11 @@ The blocks containing my transactions are now invalid since they aren’t on the
 This also means that the miners on that chain will receive no mining rewards for their efforts.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!---------------------------- blacklisting: punitive foring (240) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image265.png"
+   alt="Blacklisting: Punitive Forking"
    width="65%" />
 </p>
 
@@ -7492,10 +7503,11 @@ That entity can prevent anybody from accessing their funds.
 Censorship Attacks: Feather Forking
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!---------------------------- blacklisting: feather forking (241) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image266.png"
+   alt="Blacklisting: Feather Forking"
    width="65%" />
 </p>
 
@@ -7508,10 +7520,13 @@ There is a strategy called feather forking, in which Gloria announces that she w
 This is in contrast to punitive forking, since that only works if a longer chain is guaranteed by the fork. In short, Gloria gives up after a block with my transactions has k confirmations, where k is any number. In the diagram, Gloria sees a block containing one of my transactions and attempts to fork. However, I get 3 confirmations, so she gives up trying to continue her fork.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!---------------------------- blacklisting: feather forking (241) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image267.png" style="width:5in;height:2.80724in" />
+<img src="/images/image267.png"
+   alt=""
+   width="65%" />
+</p>
 
 Let’s look at a little bit of math. Let q be the proportion of mining power that Gloria has. Let k equal one, so that Gloria gives up after one confirmation on my block. This means that the chance of successfully orphaning my block is q squared, since Gloria has to compete with each confirmation. If q is 20%, then gloria has a 4% chance to orphan my block, which isn’t that great.
 
@@ -7520,6 +7535,7 @@ Let’s look at a little bit of math. Let q be the proportion of mining power th
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image268.png"
+   alt=""
    width="65%" />
 </p>
 
@@ -7532,6 +7548,7 @@ They now have to decide whether they should include my transaction in their bloc
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image269.png"
+   alt=""
    width="65%" />
 </p>
 
@@ -7554,6 +7571,7 @@ One of the best examples of this sort of behavior is selfish mining.
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image270.png"
+   alt=""
    width="65%" />
 </p>
 
@@ -7572,6 +7590,7 @@ This is called selfish mining, or block withholding.
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image271.png"
+   alt=""
    width="65%" />
 </p>
 
@@ -7596,6 +7615,7 @@ You’ve guaranteed yourself more block reward than the honest network, and most
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image272.png"
+   alt=""
    width="65%" />
 </p>
 
@@ -7616,6 +7636,7 @@ If you can’t, then your computation is the one that goes to waste.
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image273.png"
+   alt=""
    width="65%" />
 </p>
 
@@ -7646,6 +7667,7 @@ We’ll first take a look at some of the more naive defenses, and see what we ca
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image274.png"
+   alt=""
    width="65%" />
 </p>
 
@@ -7686,6 +7708,7 @@ For example…
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image275.png"
+   alt=""
    width="65%" />
 </p>
 
@@ -7728,6 +7751,7 @@ In the diagram below, we see that there’s a fork, the top being the honest cha
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image277.png"
+   alt=""
    width="65%" />
 </p>
 
@@ -7748,10 +7772,11 @@ And in the end, fork punishment would require a hard fork to implement, and as b
 <h3>Uniform Tie-Breaking</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!---------------------------- tie-breaking: uniform tie-breaking(251) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image278.png"
+   alt="Tie-Breaking: Uniform Tie-Breaking"
    width="65%" />
 </p>
 
@@ -7782,10 +7807,11 @@ In their paper, with their proposed uniform tie-breaking, they claimed that it r
 However, later in 2015, a separate paper published by Sapirshtein proposed a more optimal selfish mining strategy that reduced the profit threshold down to 23.2%.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!------------------------- tie-breaking: unforgettable timestamps (252) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image279.png"
+   alt="Tie-Breaking: Unforgettable Timestamps"
    width="65%" />
 </p>
 
@@ -7814,10 +7840,11 @@ Tie-breaking rules only apply when there’s a block propagation race, NOT when 
 And as it turns out, it has been shown that if an attacker has a large amount of computational power, say greater than 40%, then these tie-breaking defenses against selfish mining are essentially worthless.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!------------------------ tie-breaking: unforgettable timestamps (253) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image280.png"
+   alt="Tie-Breaking: Unforgettable Timestamps"
    width="65%" />
 </p>
 
@@ -7830,10 +7857,11 @@ And another thing you might have realized is that this defense requires a truste
 The drawback here is that Bitcoin aims to be as decentralized as possible, and while this might work with other systems, centralization certainly doesn’t mix with Bitcoin’s philosophy.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!---------------------------- tiebreaking: unforgetable timestamps (254) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image281.png"
+   alt="Tiebreaking: Unforgetable Timestamps"
    width="65%" />
 </p>
 
@@ -7842,10 +7870,11 @@ We’ll skip this for now.
 <h3>Publish or Perish: Overview</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!----------------------- zang and preneel, publish or perish (2017)(254) ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image282.png"
+   alt="Zang and Perneel, Publish or Perish (2017)"
    width="65%" />
 </p>
 
@@ -7854,6 +7883,7 @@ We’ll skip this for now.
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image283.png"
+   alt=""
    width="65%" />
 </p>
 
@@ -7862,6 +7892,7 @@ We’ll skip this for now.
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image284.png"
+   alt=""
    width="65%" />
 </p>
 
@@ -7898,7 +7929,7 @@ On the left side, a block is received withing tau time, so that block is in comp
 On the right side, the block received has a height value that’s one greater than the local head, so we just append it to the blockchain.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- Publish or Perish: Zang and Preneel ------------------------------->
+<!-------------------------- Publish or Perish: Zang and Preneel (256) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image285.png 
@@ -7916,7 +7947,7 @@ And for the uncle of B to be in time, it must be within tau time of B’s parent
 The diagram on the right side nicely summarized the definition of an uncle block.
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------- Publish or Perish: Weighted Fork Resolving Policy ------------------------>
+<!------------------- Publish or Perish: Weighted Fork Resolving Policy (257) -------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image286.png
@@ -8264,7 +8295,9 @@ Meanwhile, it’s possible that a poorly connected miner could spend all this ti
 <!---------------------------- Bitcoin Network: Sybil Attack Revisited --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image297.png "Bitcoin Network: Sybil Attack Revisited" style="width:5in;height:2.8in" />
+<img src="/images/image297.png 
+   alt="Bitcoin Network: Sybil Attack Revisited"
+   width="65%" />
 &nbsp;
 
 And now for something even bigger.
@@ -8277,7 +8310,9 @@ Well, if we’re clever enough, we can launch a Sybil attack in another kind of 
 <!------------------------------- Bitcoin Network: Flood the Network ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image298.png "Bitcoin Network: Flood the Network" style="width:5in;height:2.8in" />
+<img src="/images/image298.png 
+   alt="Bitcoin Network: Flood the Network"
+   width="65%" />
 &nbsp;
 
 Let’s say Derrick has the ability to flood the network with nodes.
@@ -8294,7 +8329,9 @@ Let’s say Derrick is also selfish mining, and already has some secret blocks, 
 <!----------------------------- Bitcoin Network: Flood the Network (2)---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image299.png "Bitcoin Network: Flood the Network (2)" style="width:5in;height:2.8in" />
+<img src="/images/image299.png
+   alt="Bitcoin Network: Flood the Network (2)"
+   width="65%" />
 &nbsp;
 
 When Derricks nodes hear about the next honest block X, Derrick could ignore X, and publish his secret block P.
@@ -8303,7 +8340,9 @@ When Derricks nodes hear about the next honest block X, Derrick could ignore X, 
 <!----------------------------- Bitcoin Network: Flood the Network (3) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image300.png "Bitcoin Network: Flood the Network (3)" style="width:5in;height:2.8in" />
+<img src="/images/image300.png 
+   alt="Bitcoin Network: Flood the Network (3)"
+   width="65%" />
 &nbsp;
 
 If block P reaches a miner before block X, then the miner by default mines on block P.
@@ -8330,7 +8369,9 @@ Miners can maximize profits via pool hopping. This occurs when miners switch bet
 <!-------------------- Reward Per Share for Pay-Per-Share & Proportional Pools ------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image301.png "Reward Per Share for Pay-Per-Share & Proportional Pools" style="width:5in;height:3.9in" />
+<img src="/images/image301.png
+   alt="Reward Per Share for Pay-Per-Share & Proportional Pools"
+   width="65%" />
 &nbsp;
 
 <h3>I.II Pool Cannibalization</h3>
@@ -8340,10 +8381,12 @@ In this attack, pool miners distribute a small percent of mining power equally a
 If we model the choice between attacking and not attacking the Bitcoin network using game theory, we see that the dominant strategy is for each miner to attack the network, leading to the ultimate detriment of Bitcoin.
 
 <!------------------------------------------------------------------------------------------------>
-<!--- Table demonstrating the results of attacking and not attacking between Pool 1 and Pool 2 --->
+<!- Table demonstrating the results of attacking & not attacking between Pool 1 and Pool 2 (271) ->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image302.png "Table demonstrating the results of attacking and not attacking between Pool 1 and Pool 2" style="width:6.5in;height:1.36597in" />
+<img src="/images/image302.png 
+   alt="Table demonstrating the results of attacking and not attacking between Pool 1 and Pool 2"
+   width="100% />
 &nbsp;
 
 In this situation, the Nash Equilibrium, or the position from which no actor can change their position to improve their outcome, is also known as the Tragedy of the Commons,where each individual actor finds it individually beneficial to exploit the public good, leading to the ultimate deterioration of the public good.
@@ -8363,10 +8406,11 @@ While you can show your victim a valid transaction, you can also send into the n
 To protect against this type of attack, the victim should wait for kconfirmations, kblocks built off of some particular block. In practice, kequals 6. If you still want to double spend, you must create a longer private chain with the same UTXO. If the victim waits kconfirmations, you must mine k+1blocks upon your private chain and then publish your private chain to the network, since no one else can see it when it is private, to complete the Double Spend Attack. Using the following graph, we can see that if you have over 50 percent of the hashing power, the probability that you will eventually get a longer chain than the honest chain is 100 percent, and you will thus successfully conduct a race attack.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------- Reward Per Share for Pay-Per-Share & Proportional Pools ------------------->
-<!------------------------------------------------------------------------------------------------>
+<!----- 303. Graph demo between number of blocks and probability attackers catches up (272) ------> <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image303.png "Graph demonstrating the relationship between chains and their lengths" style="width:4in;height:2.8in" />
+<img src="/images/image303.png
+   alt="Graph demonstrating the relationship between number of blocks and probability attackers catches up"
+   width="65%" />
 &nbsp;
 
 <h3>III. The 51 Percent Attack</h3>
