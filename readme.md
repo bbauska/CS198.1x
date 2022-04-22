@@ -186,7 +186,7 @@ And this all sets the stage for the next section, in which we’ll build Bitcoin
 
 <h3>What is Bitcoin?</h3>
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- What is Bitcoin?  Bitcoin Genesis (5) ----------------------------->
+<!---------------------------- what is bitcoin?  bitcoin genesis (5) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/what is bitcoin-bitcoin genesis.png" 
@@ -410,7 +410,7 @@ We saw earlier that banks need to keep track of the accounts and identities of t
 But how do we do this in Bitcoin, without a bank or central entity to keep track of who’s who and who owns what?
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- identity: identity in bitcoin (11) ------------------------------->
+<!--------------------------- 03. identity: identity in bitcoin (11) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image003-identity-in-bitcoin.png" 
@@ -493,11 +493,11 @@ Similarly, you would never want anyone else to have your Bitcoin private key as 
 </div>
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------- identity: public and private keys (13) ------------------------------>
+<!------------------------- 04. identity: public and private keys (13) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image004.png" 
-   alt="Identity: Public and Private Keys" 
+   alt="Identity: Public and Private Keys"
    width="65%" />
 </p>
 
@@ -524,11 +524,11 @@ This means that users have to generate their own identities.
 To generate an identity, a user picks a private key at random generates the public key from the private key through a mathematical function.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- Identity: A few things to note ----------------------------------->
+<!----------------------------- 04. identity: a few things to note ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image004-identity-few.png" 
-   alt="Identity: A few things to note" 
+   alt="Identity: A Few Things to Note"
    width="65%" />
 </p>
 
@@ -547,7 +547,7 @@ How do we trust that no two users end up with the same identity?
 To illustrate the probability of two users choosing the same identity as someone else in Bitcoin, let’s consider something we’re all familiar with: the Earth.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- Identity: Public & Private Keys ---------------------------------->
+<!----------------------------- 05. identity: public & private Keys ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image005.png" 
@@ -570,7 +570,7 @@ In comparison, the number of addresses in Bitcoin is many, many magnitudes great
 Let’s consider something more drastic: imagine that for every grain of sand on Earth, there exists another Earth, also with 2\^63<sup>rd</sup> grains of sand.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------- Identity: Public Key Security ---------------------------------->
+<!----------------------------- 06. identity: public key security -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image006.png" 
@@ -581,7 +581,7 @@ Let’s consider something more drastic: imagine that for every grain of sand on
 Now we have 2\^63<sup>rd</sup> times 2\^63<sup>rd</sup> grains of sand per earth, meaning that there are a total of 2\^126<sup>th</sup> grains of sand.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------- Identity: Security Hidden in Plain Sight (16) ----------------------->
+<!---------------------- 07. identity: security hidden in plain sight (16) ----------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image007-identity-security-hidden-in-plain-sight.png" 
@@ -601,7 +601,7 @@ So now that we have a clear understanding of the structure and purpose of identi
 
 After all, that’s the primary goal of the Bitcoin network -- to enable secure transactions between any two users in the network.
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ What Makes a Transaction Valid? (16) ---------------------------->
+<!---------------------------- 08. What Makes a Transaction Valid? (16) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image008-what makes-a-transaction-valid.png" 
@@ -613,7 +613,7 @@ As we did before with the concept of identity, we will now be analyzing the idea
 
 Take a moment to ask yourself, “What makes a transaction valid?”
 <!------------------------------------------------------------------------------------------------>
-<!------------------- Transactions: validity: what makes a transaction valid? (17) --------------->
+<!----------------- 09. Transactions: validity: what makes a transaction valid? (17) ------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image009-validity.png" 
@@ -645,22 +645,26 @@ To ensure that one uses funds not in their possession, all the same conditions a
 
 To enforce this, Bitcoin uses what’s known as a UTXO, or Unspent Transaction Output, model.
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------  --------------------------------->
+<!---------------------------- 10. transactions: utxo model: example ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image010-utxo-model.png" 
-	alt="Transactions: UTXO Model"
+	alt="Transactions: UTXO Model: Example"
    width=65%" />
 </p>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- UTXO Model --------------------------------->
+<!------------ 10. transactions: utxo model: blockchain keeps track of unspent money ------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image010-utxo-2.png" 
-   alt="Transactions: UTXO Model"
+   alt="Transactions: UTXO Model: Blockchain Tracks Unspent Money"
    width=65%" />
 </p>
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 Traditionally, when we think of banks, we think of a single account where all our funds are aggregated into one count.
 
@@ -682,10 +686,10 @@ An easy way to wrap our heads around this unintuitive model is to think of UTXOs
 
 Every time a transaction is made to us, we put all that money into a UTXO, or piggy bank.
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------------- UTXO Model Unspent -------------------------------------->
+<!----------------------------------- 11. utxo model: unspent ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image011-utxo-model-unspent.png" 
+<img src="/images/image011-utxo-model-unspent.png"
    alt="Transactions: UTXO Model: Unspent"
    width=65%" />
 </p>
@@ -702,15 +706,19 @@ On the other hand, the complexity of keeping track of one’s own funds goes up,
 
 The amount of bitcoin you own is calculated by summing up the value of each of your piggy banks, or UTXOs.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3 id="ch1-6">1.6 UTXO’s:</h3>
 
 Here’s an example of how transactions work in Bitcoin:
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------------------ UTXO Example ---------------------------------------->
+<!--------------------------------------- 12. utxo example --------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image012-utxo-example.png" 
+<img src="/images/image012-utxo-example.png"
    alt="UTXO Example"
    width=65%" />
 </p>
@@ -737,6 +745,10 @@ From here, if I'm equally generous and want to give that remaining amount to Der
 
 This is how Bitcoin effectively keeps track of individual transactions and prevents anyone from spending incorrect amounts of bitcoin.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3 id="ch1-7">1.7 Intro: Record Keeping (Stage 3)</h3>
 
 We have now understood how to assign unique identities to every user through public and private keys and conduct transactions between these entities through the use of the UTXO, or Unspent Transaction Output, model.
@@ -746,7 +758,7 @@ Naturally, the next question to ask is: How do we keep track of the history of t
 After all a user’s current balance can be described as a number of transactions, summing to the current amount, and if we don’t know what transactions have happened in the past, we can’t determine what’s valid in the future.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------- Recordkeeping: Distributed DBS --------------------------------->
+<!----------------------------- 13. recordkeeping: distributed dbs ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image013-recordkeeping-distributed-dbs.png" 
@@ -790,8 +802,12 @@ Instead of having any selected maintainers, let’s make a simple and straightfo
 
 We make everyone the bank.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- Recordkeeping: Everyone's the Bank -------------------------------->
+<!--------------------------- 14. recordkeeping: everyone's the bank ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image014-recordkeeping-everyones-the-bank.png" 
@@ -819,8 +835,12 @@ Everyone maintains their own ledger after all, and once a change is made for one
 
 How do we store our ledger efficiently?
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- Recordkeeping: The Blockchain --------------------------------->
+<!------------------------------ 15. recordkeeping: the blockchain ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image015-recordkeeping-the-blockchain.png" 
@@ -856,6 +876,10 @@ Of course, the next question is, “How does everyone come to agreement on the n
 
 We will go over this in the next segment on consensus.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3 id="ch1-8">1.8 Intro: Consensus (Stage 4)</h3>
 
 Now we know how to send transactions to one another with unique identities using the UTXO model, and how to store these transactions using a blockchain to maintain a global record.
@@ -871,7 +895,7 @@ With no central entity deciding on the next update, we have to find a way to mak
 In Bitcoin, users on the network must come to consensus, or agreement, on the next valid update.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- Consensus: Staying On the Same Page ------------------------------->
+<!-------------------------- 16. consensus: staying on the same page ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image016-consensus-staying-on-the-same-page.png" 
@@ -884,6 +908,10 @@ Because everyone is storing information about the blockchain, we need consensus 
 Not only do all users need to agree on the update, but they also need to agree on a valid update to make sure that no corrupted information is accepted by the network.
 
 If there was no way for different parties to come to agreement on this, then there will forever be this schism between them.
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 Without agreement, we cannot have a functioning distributed database.
 
@@ -902,7 +930,7 @@ One node proposes a transaction to the network, sending a message about the tran
 All other nodes save the transaction into their history if it’s valid and disregard it otherwise.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------- Consensus: Double Spend Attack --------------------------------->
+<!----------------------------- 17. consensus: double spend attack ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image017-consensus-double-spend-attack.png" 
@@ -920,8 +948,12 @@ The implication of this system is that nodes don’t engage in conversation with
 
 As we will see, this does not work because of what’s known as the double spend attack.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- Consensus: Double Spend Attack 2 ---------------------------------->
+<!---------------------------- 18. consensus: double spend attack 2 ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image018-consensus-double-spend-attack-2.png" 
@@ -940,13 +972,17 @@ Let’s say that Gloria is purchasing tons of laptops and is willing to pay both
 Gloria promises me (Rustie) 10 BTC in one transaction, and promises 10 BTC to Nadir at the same time.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------- 18. Consensus: Double Spend Attack 2 -------------------------------->
+<!---------------------------- 18. consensus: double spend attack 2 ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image018-consensus-double-spend-attack-2.png" 
    alt="Consensus: Double Spend Attack"
    width="65%" />
 </p>
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 This is represented by the green arrow from herself to me (Rustie), the green circle, and by the separate blue arrow from herself to Nadir, the blue circle.
 
@@ -969,13 +1005,17 @@ Both Nadir and I see that the transaction is valid and each believe that we have
 Of course, both Nadir and I (Rustie) can’t own the same bitcoins.
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------- 19. Consensus: Double Spend Attack Malicious ----------------------------->
+<!----------------------- 19. consensus: double spend attack: malicious -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image019-consensus-double-spend-attack-malicious.png" 
+<img src="/images/image019-consensus-double-spend-attack-malicious.png"
    alt="Consensus: Double Spend Attack: Malicious"
    width="65%" />
 </p>
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 The moment we try to redeem these tokens with the network, the issue becomes transparent.
 
@@ -990,7 +1030,7 @@ In this scheme where entities only see the transactions that directly involve th
 Thus, it is impossible to prevent these double spend attacks with our current model of consensus.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- Consensus: Peer Validation ------------------------------------>
+<!------------------------------- 20. consensus: peer validation --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image020-consensus-peer-validation.png" 
@@ -1001,6 +1041,10 @@ Thus, it is impossible to prevent these double spend attacks with our current mo
 Instead of individuals doing their own validation of transaction, we can set up a voting system.
 
 The problem with our previous version of consensus was that there wasn’t any consensus!
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 Instead of making siloed decisions as we did before, let’s implement a system of proposers and voters.
 
