@@ -8844,15 +8844,16 @@ A contract is a written or spoken agreement that is intended to be enforced by l
 
 Notice specifically that a contract must be agreed upon, and that it is enforceable by law.
 
-just by these words alone, it sounds like we need some sort of consensus going on in our smart contract system.
+Just by these words alone, it sounds like we need some sort of consensus going on in our smart contract system.
 
 And through consensus, we should be able to agree on both the contents of the contract, and also the execution of the contract.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!---------------------------- (282) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image312.jpg" style="width:5in;height:2.81677in" />
+<img src="/images/image312.jpg"
+
 
 Alright, so now that we know what a contract is, now the question is...what makes a smart contract so “smart?”
 
@@ -8871,10 +8872,13 @@ The difference is that the execution and enforcement is done through carefully d
 Looking first at what makes Bitcoin special, and the underlying architecture that makes it the way it is, we saw how we could keep bitcoins design philosophy in mind as we sought ways to design a smart contract platform.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!--------------------------------------- ethereum (284) ----------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image-ethereum.png" style="width:5in;height:3.19444in" />
+<img src="/images/image-ethereum.png"
+   alt="Ethereum logo"
+   width="65%" />
+</p>
 
 In the next sections, we’ll take a look at Ethereum.
 
@@ -8889,16 +8893,23 @@ As it turns out, leveraging our understanding of Bitcoin’s inner workings make
 <h3>High Level Overview</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!---------------------------------- 313. ethereum logo (284) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image313.png" style="width:4.00833in;height:2.27244in" />
+<img src="/images/image313.png"
+   alt="Ethereum logo"
+   width="65%" />
+</p>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!----------- 314. Ethereum & Smart Contracts: Enabling a Decentralized Future (285) ------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image314.jpg" style="width:5in;height:2.81677in" />
+<img src="/images/image314.jpg"
+   alt="Ethereum & Smart Contracts: Enabling a Decentralized Future"
+   width="65%" />
+</p>
+
 
 Just like Bitcoin, Ethereum is a platform that’s constantly changing.
 
@@ -8911,10 +8922,13 @@ And the software improvements and proposals over the years are, like in Bitcoin,
 As more and more people begin to use Ethereum to build applications, Ethereum needs to adapt more and more.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!---------------------- 316. what is ethereum? high-level overview (285) ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image316.ppg" style="width:5in;height:2.8125in" />
+<img src="/images/image316.png"
+   alt="What is Ethereum? A High-Level Overview"
+   width="65%" />
+</p>
 
 On their website, it says Ethereum is a decentralized platform designed to run smart contracts.
 
@@ -8935,12 +8949,15 @@ Execution of transactions bring us from a previous state to a new state, so they
 Ethereum’s native asset is ether, which is the basis of value in the Ethereum ecosystem, and is also crucial in aligning incentives.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!------------------------- 317. what is ethereum? who would win? (286) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image317.jpg" style="width:5in;height:2.81677in" />
+<img src="/images/image317.jpg"
+   alt="What is Ethereum? Who Would Win?"
+   width="65%" />
+</p>
 
-So as a recap from the previous section, what makes Bitcoin so special are the following properties: it’s trustless, immutable, uncensorable, pseudonymous, has no central point of failure, and aims for a one-cpu-one-vote policy.
+As a recap from the previous section, what makes Bitcoin so special are the following properties: it’s trustless, immutable, uncensorable, pseudonymous, has no central point of failure, and aims for a one-cpu-one-vote policy.
 
 Ethereum has all of these, but has a different use case.
 
@@ -8953,10 +8970,13 @@ And one of the most notable features is that it supports a turing complete scrip
 <h3>Ethereum vs Bitcoin</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!-------------------- 318. What is Ethereum? A Comparison with Bitcoin (287) -------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image318.jpg" style="width:5in;height:2.81677in" />
+<img src="/images/image318.jpg"
+   alt="What is Ethereum? A Comparison with Bitcoin"
+   width="65%" />
+</p>
 
 Ethereum and Bitcoin are the two most popular blockchain platforms in the world today, but have two different goals.
 
@@ -8994,7 +9014,10 @@ Another key difference is that Bitcoin is UTXO-based, whereas Ethereum is accoun
 <!---------------------------- --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image320.png" style="width:5in;height:2.8125in" />
+<img src="/images/image320.png"
+   alt=""
+   width="65%" />
+</p>
 
 In Bitcoin, private keys prove ownership of UTXOs.
 
@@ -9012,7 +9035,10 @@ In Ethereum, private keys prove ownership of an account, which tracks a current 
 <!---------------------------- --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image321.png" style="width:5in;height:2.8125in" />
+<img src="/images/image321.png"
+   alt=""
+   width="65%" />
+</p>
 
 Accounts are more space efficient than UTXOs, since to calculate your balance, you only have to reference your account, rather than summing across all your UTXOs.
 
@@ -9024,7 +9050,10 @@ In Ethereum, there are two types of accounts: externally owned accounts and cont
 <!---------------------------- --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image322.png" style="width:5in;height:2.8125in" />
+<img src="/images/image322.png"
+   alt=""
+   width="65%" />
+</p>
 
 Externally owned accounts are, as their name implies, owned by some external entity – outside of the Ethereum network.
 
@@ -9038,7 +9067,10 @@ This type of account can send transactions to transfer ether or to trigger contr
 <!---------------------------- --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image323.png" style="width:5in;height:2.8125in" />
+<img src="/images/image323.png"
+   alt=""
+   width="65%" />
+</p>
 
 Contract accounts are owned by smart contracts.
 
@@ -9058,7 +9090,7 @@ Smart contracts have direct control over an internal ether balance, internal con
 <p align="center" width="100%">
 <img src="/images/image324.png" 
    alt="Ethereum Virtual Machine: Compilation & Process"
-   width="65%" </>
+   width="65%" />
 </p>
    
 Ethereum smart contracts generally serve four main purposes.
@@ -9096,7 +9128,7 @@ For example, you can define m of n multisignature, which is also something we lo
 </p>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------  -------------------------->
+<!--------------------- 327.  -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image327.png" 
@@ -9192,7 +9224,7 @@ This should be fairly familiar.
 <!---------------------  -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image334.png" 
+<img src="/images/image324.png" 
    alt=""
    width="65%" </>
 </p>
@@ -9205,7 +9237,7 @@ In Bitcoin, nodes come to consensus on the state of who owns which UTXOs.
 <!---------------------  -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image335.png" 
+<img src="/images/image325.png" 
    alt=""
    width="65%" </>
 </p>
@@ -9220,9 +9252,9 @@ And how do nodes actually come to consensus?
 <!---------------------  -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image336.png" 
+<img src="/images/image326.png" 
    alt=""
-   width="65%" </>
+   width="65%" />
 </p>
 
 With Proof-of-Work!
@@ -9237,9 +9269,9 @@ Of course, there ARE differences between Ethereum’s and Bitcoin’s Proof-of-W
 <!---------------------  -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image337.png" 
+<img src="/images/image327.png"
    alt=""
-   width="65%" </>
+   width="65%" />
 </p>
 
 Remember that Proof-of-Work requires miners to expend computational power to increase their chances of being able to propose blocks to the network.
@@ -9252,9 +9284,9 @@ And by tying voting power to computational power, a physical real-world resource
 <!---------------------  -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image338.png" 
+<img src="/images/image328.png" 
    alt=""
-   width="65%" </>
+   width="65%" />
 </p>
 
 Here are some differences between Bitcoin and Ethereum’s Proof-of-Work algorithms.
@@ -9281,9 +9313,9 @@ As of May 23rd, 2018, Ethereum has roughly 275,000 GH/s whereas Bitcoin has a wh
 <!---------------------  -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image339.png" 
+<img src="/images/image329.png" 
    alt=""
-   width="65%" </>
+   width="65%" />
 </p>
 
 Miners in Ethereum competitively create blocks by executing EVM code and searching for a solution to a mining puzzle.
@@ -9296,9 +9328,9 @@ Proof-of-Work is essentially a way to randomly select -- based on proportion of 
 <!---------------------  -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image340.png" 
+<img src="/images/image330.png"
    alt=""
-   width="65%" </>
+   width="65%" />
 </p>
 
 Every Ethereum node runs the Ethereum Virtual Machine as part of its block verification procedure.
@@ -9323,7 +9355,7 @@ The fact that we can compile complex smart contract code into simple machine und
 <!------------------------------  ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image341.png" style="width:5in;height:2.8125in" />
+<img src="/images/image331.png" style="width:5in;height:2.8125in" />
 
 Because every node in the Ethereum network is executing smart contracts, one imimageste issue we face is: What if a contract has an infinite loop?
 
@@ -9341,7 +9373,7 @@ by trapping computers around the world in an infinite loop, thereby making them 
 <!---------------------  -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image342.png" 
+<img src="/images/image332.png" 
    alt=""
    width="65%" </>
 </p>
@@ -9358,7 +9390,10 @@ Every transaction specifies two parameters, “***startgas***”, or the maximum
 <!------------------------------  ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image343.png" style="width:5in;height:2.8125in" />
+<img src="/images/image333.png"
+   alt=""
+   width="65%" />
+</p>
 
 At the start of a transaction, “startgas \* gasprice”, which represents the amount of ether paid for a computation, is subtracted from the sender’s account.
 
@@ -9378,7 +9413,10 @@ This gives us two end states: either a program terminates or runs out of gas.
 <!------------------------------  ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image344.png" style="width:5in;height:2.83398in" />
+<img src="/images/image334.png"
+   alt=""
+   width="65%" />
+</p>
 
 Ethereum still allows someone to write an infinite loop in a smart contract.
 
@@ -9394,7 +9432,10 @@ Since each computation requires gas, an attacker looking to DoS the network woul
 <!------------------------------  ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image345.png" style="width:5in;height:2.79754in" />
+<img src="/images/image335.png"
+   alt=""
+   width="65%" />
+</p>
 
 We mentioned that nodes come to consensus on the network state, and that code execution on the EVM changes the state.
 
@@ -9418,13 +9459,20 @@ And you feed this into the EVM, and get out the new block state, with all the up
 <!------------------------------  ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image346.png" style="width:5in;height:2.8125in" />
+<img src="/images/image336.png"
+   alt=""
+   width="65%" />
+</p>
+
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------  ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image347.png" style="width:5in;height:2.8125in" />
+<img src="/images/image337.png"
+   alt=""
+   width="65%" />
+</p>
 
 So, some conclusions about Ethereum’s high level architecture.
 
@@ -9440,7 +9488,10 @@ And because contract executions are redundantly replicated across all nodes, exe
 <!------------------------------  ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image348.png" style="width:5in;height:2.8125in" />
+<img src="/images/image338.png"
+   alt=""
+   width="65%" />
+</p>
 
 For example, you shouldn’t be training machine learning models or doing anything else computationally expensive directly on smart contracts.
 
@@ -9460,7 +9511,7 @@ This is not a necessarily a stamp of approval on the use case, but an opportunit
 <!------------------------- Basic use cases: smart assets (304) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image349.png"
+<img src="/images/image339.png"
    alt="Basic Use Cases: Smart Assets"
    width="65%" />
 &nbsp;
@@ -9491,7 +9542,7 @@ Securing smart contracts is incredibly tough, as you may have figured out from r
 <!----------------------------------------- Multisig (305)  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image350.png" 
+<img src="/images/image340.png" 
    alt="Multisig"
    width="65%" />
 &nbsp;
@@ -9519,11 +9570,11 @@ The value of threshold corresponds to m, and the number of owners represents n.
 <h3>Basic Use Cases: Proof of Existence</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  Proof-of-Existence (306) ---------------------------------->
+<!------------------------------- 341. proof-of-existence (306) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image351.png" 
-   alt="Proof of Existence"
+<img src="/images/image341.png" 
+   alt="Basic Use Cases: Proof of Existence"
    width="65%" />
 &nbsp;
 
@@ -9574,10 +9625,10 @@ We’ll expand on how we take advantage of these properties in the Advanced Use 
 <h3>Advanced Use Cases: Land Titles</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------ Decentralized Land Titles: Blockchain Fundamentals (309) -------------------->
+<!---------------- 342. Decentralized Land Titles: Blockchain Fundamentals (309) ----------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" >
-<img src="/images/image353.png" 
+<img src="/images/image342.png"
    alt="Decentralized Land Titles: Blockchain Fundamentals"
    width="65%" />
 </p>
@@ -9603,10 +9654,13 @@ Well, let’s try a decentralized approach.
 What do we include in our decentralized approach?
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------  ---------------------------------->
+<!--------------- 343. decentralized land titles: blockchain fundamentals (311) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image354.png" style="width:5in;height:2.8125in" />
+<img src="/images/image343.png"
+   alt="Decentralized Land Titles: Blockchain Fundamentals"
+   width="65%" />
+&nbsp;
 
 Well, what we’re doing here is tracking ownership of documents, similar to Proof-of-Existence.
 
@@ -9618,7 +9672,7 @@ This provides transparency and immutability, since information about all documen
 
 Just like transferring bitcoin between users through UTXOs, we’re simply transferring the land title through smart contracts as well.
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------------- Decentralized Land Titles (311) ------------------------------>
+<!------------------------------ 344. Decentralized Land Titles (311) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image344.png 
@@ -9644,7 +9698,7 @@ Georgia, Ukraine, and Sweden are a few of the major countries tackling decentral
 
 <h3>Advanced Use Cases: Prediction Markets</h3>
 <!------------------------------------------------------------------------------------------------>
-<!------------------- Prediction Markets: Draws on the Wisdom of the Crowd (312) ----------------->
+<!---------------- 345. Prediction Markets: Draws on the Wisdom of the Crowd (312) --------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image345.png 
@@ -9658,7 +9712,7 @@ An example of this is the Presidential Election: PredictIt.org gave anyone the o
 
 The organization would then decide on what happened, and pay out to users as specified.
 <!------------------------------------------------------------------------------------------------>
-<!---------------------- Prediction Markets: Transparent & Never Crashes (313) ------------------->
+<!-------------------- 346. Prediction Markets: Transparent & Never Crashes (313) ---------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image346.png 
@@ -9731,7 +9785,7 @@ The first market for insurance is a way to let users prepare against disasters t
 
 If a user notices a bug in a smart contract, they can heavily bet “yes” before revealing the vulnerability, allowing them to reap the rewards of their hidden knowledge.
 <!------------------------------------------------------------------------------------------------>
-<!------------------- Prediction Markets: Futarchy & Cryptoeconomics (315) ----------------------->
+<!----------------- 350. prediction markets: futarchy & cryptoeconomics (315) -------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image350.png
@@ -9755,11 +9809,11 @@ Research is still being done to examine the feasibility of futarchy on a blockch
 
 <h3>Advanced Use Cases: Supply Chain</h3>
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- Supply Chain and Provenance ----------------------------------->
+<!----------------------- supply chain and provenance: bool diamonds (316) ----------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image351.png
-   alt= "Supply Chain and Provenance"
+   alt= "Supply Chain and Provenance: Blood Diamonds"
    width="65%" />
 &nbsp;
 
@@ -9787,7 +9841,7 @@ We have to trust that individuals are not bribed to include false information in
 
 <h3>Advanced Use Cases: Smart Energy Grids</h3>
 <!------------------------------------------------------------------------------------------------>
-<!-------------------- Smart Energy Grids: Revolutionizing Infrastructure ------------------------>
+<!------------------ Smart Energy Grids: Revolutionizing Infrastructure (317) -------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image352.png
