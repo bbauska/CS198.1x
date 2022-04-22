@@ -1113,6 +1113,10 @@ However, we forgot one fatal truth about Bitcoin: the anonymity.
    width="65%" />
 </p>
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 Recall that Bitcoin is an accessible, anonymous network with no central registry.
 
 Banks keep track of everyone’s identities and accounts, but no such infrastructure is available in Bitcoin to prevent anyone from producing multiple identities.
@@ -1151,8 +1155,12 @@ But how?
 
 Is it even possible to solve this problem?
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 24. consensus: pay to play ------------------------------------>
+<!--------------------------------- 24. consensus: pay to play ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image024-consensus-pay-to-play.png" 
@@ -1181,6 +1189,10 @@ In his whitepaper, he envisioned a “1-CPU-1-vote” network, rather than the t
 It is this new concept of voting with resources instead of with identities that earned the title “Nakamoto Consensus.”
 
 The particular consensus algorithm that Satoshi Nakamoto came up with is known as “Proof-of-Work.”
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------- 25. consensus: proof of work ---------------------------------->
@@ -1211,6 +1223,10 @@ It is this method of voting that made Bitcoin the first successful cryptocurrenc
    alt="Consensus: Proof of Work: Works"
    width="65%" />
 </p>
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 Here’s how Proof-of-Work works: whenever someone wants to make a proposal to the rest of the Bitcoin network, they first have to solve a computationally difficult problem.
 
@@ -1258,6 +1274,10 @@ This is what made Bitcoin a revolutionary technology.
 
 Author: Rea Savla
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3>Supplement: 51% Attacks</h3>
 
 The Bitcoin network requires Proof-of-Work to add new blocks to the blockchain. Users in the Bitcoin network vote on new blocks, and come to consensus on whether or not new blocks should be included in the blockchain. Proof-of-Work ties voting power to computational power rather than digital identity, and was designed to prevent the Sybil attack, where a malicious actor creates many identities to skew the vote. However, due to an uneven distribution of computational power, Satoshi Nakamoto’s “1 CPU 1 Vote” vision is not reflected perfectly in reality.
@@ -1271,6 +1291,10 @@ With 51% of the mining power, malicious actors can double spend, and use the sam
 One entity holding majority mining power also makes the network susceptible to the Goldfinger Attack, where a 51% is used to destroy the value of a cryptocurrency. 
 
 We’ll explore all these attacks in further detail in future course modules.
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3 id="ch1-9">1.9 Forking</h3>
 
@@ -1289,7 +1313,7 @@ We’ll explain more in the course modules for Chapter 4.
 <h3 id="ch1-10">1.10 Bitcoin Review:</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------- 27. Key Takeaway - Identity: Your Keys are Your Identity (38) ------------------>
+<!--------------- 27. key takeaway - identity: your keys are your identity (38) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image027-key-takeaway-identity.png" 
@@ -1317,8 +1341,12 @@ It is extremely unlikely that someone might happen to generate the same private 
 
 Nor is it at all likely that someone can guess your private key to spend money on your behalf.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <!------------------------------------------------------------------------------------------------>
-<!--------------- 28. Key Takeaway - Transactions: Breaking the Piggy Banks (39) ----------------->
+<!--------------- 28. key takeaway - transactions: breaking the piggy banks (39) ----------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image028-key-takeaway-transactions.png" 
@@ -1347,6 +1375,10 @@ The UTXO model might not be the most intuitive model for us to understand, but i
    width="65%" />
 </p>
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 As we mentioned earlier, the blockchain is the key data structure for recording Bitcoin activity.
 
 New transactions are recorded within new blocks added to the existing, established chain.
@@ -1373,6 +1405,10 @@ But why do we need Proof-of-Work?
 Because, again, there is no central authority to make sure that one person only vote once, and there is no limitation on how many identities one person can generate, Bitcoin uses computational power as a resource constraint to limit the voting power of malicious entities.
 
 Proof-of-Work hence aims to make votes expensive for everyone, so that the voting power one has is based on how much computational power one has, instead of based on the number of identities.
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------- 31. Unique Properties of Bitcoin: Demystifying the Buzzwords (41) ---------------->
@@ -1427,6 +1463,10 @@ In addition, the Bitcoin network is secured through the Proof-of-Work consensus 
 
 These are the four essential unique properties of Bitcoin: 1. pseudonymous, 2. decentralized, 3. immutable, and 4. trustless.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h2>Bitcoin Protocol & Consensus: A High Level Overview / Review, Readings, & More</h2>
 
 <h3 id="ch1-11">1.11 Lecture 1 Summary:</h3>
@@ -1457,6 +1497,10 @@ Bitcoin is robust because it serves the same functions as a bank:
 
 Unlike a bank, Bitcoin is decentralized and ensures a high degree of privacy and trust. 
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 Trust is built on the blockchain due to a high level of transparency: blockchain is a publicly verifiable ledger, not owned by any entity, and it prevents any single point of failure.
 
 To maintain this trust, we need identity in Bitcoin for authentication and assigning blame. Bitcoin uses public keys to send funds and private keys to prove ownership of the public key and redeem the sent funds. Each individual is responsible for creating and managing their own private and public keys. Public keys are generated from Private keys and are used to send/receive funds. Private keys are randomly generated and used to prove ownership of the public key. The chances of guessing the same private key are very low.
@@ -1481,7 +1525,11 @@ Users on the blockchain must come to a consensus on which updates and blocks to 
 
 (Optional) [How Bitcoin Works in 5 Minutes (Technical) ](https://www.youtube.com/watch?v=l9jOJk30eQs&feature=youtu.be)
 
-<h3 id="ch2">Module 2: Blockchain History</h3>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
+<h2 id="ch2">Module 2: Blockchain History</h2>
 
 A question we sometimes get from students in our class here at UC Berkeley is: why use Bitcoin?
 
@@ -1515,6 +1563,10 @@ Amongst increasing centralized state control, especially of services and of indi
 
 From online discussions on forums and mailing lists, two groups formed: the Cypherpunks and the Crypto-anarchists, both of which advocated for the use of cryptography to protect one’s privacy.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3 id="ch2-2">2.2 Libertarian Dreams</h3>
 
 <!------------------------------------------------------------------------------------------------>
@@ -1542,6 +1594,10 @@ He’s one of the founders of the Cypherpunk movement, and in the 90s founded an
    alt="Libertarian Dreams: Cypherpunks and Crypto-Anarchists (2)"
    width="65%" />
 </p>
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 The Cypherpunks and Crypto-anarchists hated the idea of national agencies being able to spy on them and have access to their information.
 
@@ -1574,6 +1630,10 @@ Several early attempts at making a true cryptocurrency failed, though they came 
    width="65%" />
 </p>
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 These early failures inspired Bitcoin to adopt some key features that they implemented and learned from their mistakes.
 
 As the existing financial system was one of the greatest threats to individual privacy, cryptographer David Chaum implemented Digicash using the latest advancements in public and private key cryptography.
@@ -1601,6 +1661,10 @@ Chaum’s company DigiCash Inc bore the overwhelming burden of having to validat
    width="65%" />
 </p>
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 Hashcash was originally invented as a mechanism to limit email spam.
 
 In order to send out an email, one would have to solve a cryptographic hash puzzle and provide a proof of work.
@@ -1623,6 +1687,10 @@ So, by making it computationally expensive to send out email, hashcash disincent
    alt="Early Attampts: B-Money"
    width="65%" />
 </p>
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 B-money was an early proposal for a cryptocurrency created by Wei Dai.
 
@@ -1652,6 +1720,10 @@ These ideas from B-money would later influence the development and design philos
    alt="Satoshi Nakamoto: Oct, 2008 Bitcoin Whitepaper"
    width="65%" />
 </p>
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 In October 2008, a whitepaper was published online, titled, “Bitcoin: A Peer-to-Peer Electronic Cash System.”
 
@@ -1699,6 +1771,10 @@ Eventually, the block reward will become 0, at which point 21 million bitcoins w
 </p>
 &nbsp;
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 Interestingly enough, Satoshi chose to include a message within the first block of the Bitcoin blockchain.
 
 This information is a powerful glimpse into the mentality and motivations of Satoshi Nakamoto.
@@ -1726,6 +1802,10 @@ During this time, however, bitcoins were never exchanged for any tangible good.
    width="65%" />
 </p>
 &nbsp;
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 And then in May of 2010, this post showed up on the bitcoin talk forum.
 
@@ -1762,6 +1842,10 @@ As a fun fact: as of March 15, 2018, the pizzas Laszlo ordered are now worth 81 
    width="65%" />
 </p>
 &nbsp;
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 And here’s Laszlo reporting back on the forum about the pizza’s safe delivery.
 
