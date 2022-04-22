@@ -3687,11 +3687,11 @@ Alice wants to send over a message to Bob.
 
 How can she do this and make sure no one tampers with her message?
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!------------------------ 117. digital signature schemes: example (115) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image117-dss-2.png" 
-   alt=" "
+   alt="Digital Signature Schemes (DSS): Example: Bob Needs Alice's Public Key"
    width="65%" />
 </p>
 &nbsp;
@@ -3701,11 +3701,11 @@ First we point out that Bob has access to Alice’s public key, since that’s p
 We’ll see later on that this is important to help Bob verify that a message coming from Alice was actually sent by Alice.
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!------------------------ 117. digital signature schemes: example (116) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image117-dss-3.png" 
-   alt=" "
+   alt="Digital Signature Schemes (DSS): Example: "
    width="65%" />
 </p>
 &nbsp;
@@ -3715,11 +3715,11 @@ Before sending out her message, Alice signs her message with her private key.
 This generates a unique signature that proves that she created the message as it is.
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!------------------------ 117. digital signature schemes: example (116) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image117-dss-4.png" 
-   alt=" "
+   alt="Digital Signature Schemes (DSS): Example: Alice Sends Message + Signature"
    width="65%" />
 </p>
 &nbsp;
@@ -3729,11 +3729,11 @@ She then sends her signature along with her original message to Bob.
 The idea is that the message is the main payload, and the signature can be used to prove that Alice was the one who created that exact message.
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!----------------------- 117. digital signature schemes: example (116) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image117-dss-5" 
-   alt=" "
+<img src="/images/image117-dss-5"
+   alt="Digital Signature Schemes (DSS): Example: Bob Can Easily Verify if Alice Signed"
    width="65%" />
 </p>
 &nbsp;
@@ -3749,11 +3749,11 @@ Also, at any point in time if her message was tampered with, the signature could
 This is how digital signature schemes make messages tamper evident.
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!----------------------- 117. digital signature schemes: example (117) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image117-dss-6.png" 
-   alt=" "
+   alt="Digital Signature Schemes (DSS): Example"
    width="65%" />
 </p>
 &nbsp;
