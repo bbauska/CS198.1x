@@ -4685,7 +4685,7 @@ Let’s say that you manage to break computer science as we know it and devise a
 
 Feel free to discuss amongst each other in the discussion board topic below. We'll be grading the responses you paste into the text input.
 
-<h3 id="ch4">Module 4 - Bitcoin In Real Life: Wallets, Mining, and More</h3>
+<h2 id="ch4">Module 4 - Bitcoin In Real Life: Wallets, Mining, and More</h2>
 
 We’ve looked at Bitcoin mechanics from both a high and low level, explaining the primary motivations of why we do what we do in Bitcoin, and its implementation.
 
@@ -6754,7 +6754,7 @@ Readings
 
 (Optional) [BlockShell Opens in new window](https://github.com/rustielin/blockshell) (set up and play around with the CLI)
 
-<h3 id="ch5">Module 5: How to Destroy Bitcoin: Game Theory & Attacks</h3>
+<h2 id="ch5">Module 5: How to Destroy Bitcoin: Game Theory & Attacks</h2>
 
 With all our knowledge so far, we have a pretty good understanding of Bitcoin high level motivations and design, as well as low level mechanics.
 
@@ -8607,8 +8607,9 @@ In addition to network topology, network latency also poses as an issue. Nodes t
 <!---------------------------- Bitcoin Network: Sybil Attack Revisited --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="65%" src="/images/image-lecture-overview-mod-6.png" 
-   alt="Culmination of the last 5 modules" 
+<img src="/images/image-lecture-overview-mod-6.png"
+   alt="Culmination of the last 5 modules"
+   width="65%" />
 </p>
 
 This module will be the culmination of the last 5 modules.
@@ -8658,15 +8659,14 @@ Then, we’ll look at what we need in a framework that allows us to run smart co
 As we did with Bitcoin, we’ll first look at the high level features that we want to see in Ethereum -- mainly the support of smart contracts -- and then see how they’re implemented at a lower level.
 
 <h3>Bitcoin Review</h3>
-<!----done & done ----->
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- What makes Bitcoin so special? (276) --------------------------->
+<!------------------------- 304. what makes bitcoin so special? (276) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image304.jpg"
-   width="65%"
-   alt="What makes Bitcoin so special?" />
+   alt="What Makes Bitcoin So Special?"
+   width="65%" />
 </p>
 
 First, we have to consider what makes Bitcoin so special.
@@ -8679,10 +8679,10 @@ And it’s the careful design and combination of these components that really di
 
 It turns out that these ideas are much more fundamental than Bitcoin itself, and will help us understand the key components of Ethereum.
 
-So let’s take some time to review some of what makes Bitcoin so special.
+Let’s take some time to review some of what makes Bitcoin so special.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!------------------------ 305. bitcoin from the ground up: identity (277) ----------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image305.png" 
@@ -8691,7 +8691,7 @@ So let’s take some time to review some of what makes Bitcoin so special.
 </p>
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------- A Distributed Network: Bitcoin Bare Bones --------------------------->
+<!----------------------- 306. a distributed network: bitcoin bare bones ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image306.jpg"
@@ -8716,12 +8716,13 @@ Also remember that Bitcoin is secure since all the numbers we’re dealing with 
 Think back to the grains of sand on earth example in module 1.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- Bitcoin from the ground up: Transactions -------------------------->
+<!--------------------- 307. Bitcoin from the ground up: Transactions (278) ---------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image307.png" 
 	width="65%" 
 	alt="Bitcoin from the ground up: Transactions" />
+</p>
 
 Of course, the main idea of Bitcoin was to be able to send transactions between users, so naturally, we have a way to do this.
 
@@ -8736,10 +8737,13 @@ You’d also potentially have to reference more than one UTXO when making a tran
 Still, implementing UTXOs was the innovation that enabled transactions in Bitcoin, and it works well despite the tradeoffs it makes.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!---------------------------- 308. bitcoin from the ground up (279) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image308.png" style="width:5in;height:2.83505in" />
+<img src="/images/image308.png"
+   alt="Bitcoin from the Ground Up"
+   width="65%" />
+</p>
 
 Next, of course, we have the blockchain: the famous data structure that enables record keeping in the network.
 
@@ -8760,10 +8764,13 @@ This then invalidates the block, since all blocks refer to the previous block ha
 With the blockchain, we have an efficient way to not only store data, but also to make sure that the data is tamper evident: and this is crucial especially since we’re deploying this for the public, where we can’t expect everyone to be honest.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!----------------- 309. bitcoin from the ground up: proof-of-work consensus (280) --------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image310.png" style="width:5in;height:2.80284in" />
+<img src="/images/image309.png"
+   alt="Bitcoin from the Ground Up: Proof-of-Work Consensus"
+   width="65%" />
+</p>
 
 And finally, we have Proof-of-Work consensus.
 
@@ -8782,10 +8789,14 @@ And the more compute power you had, the more likely you’d solve the hash puzzl
 Voting power is limited by compute power -- a physical limitation -- rather than by the number of identities a user holds.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!------------ 310. a distributed network: transferrable benefits of bitcoin (281) --------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image311.jpg" style="width:5in;height:2.81677in" />
+<img src="/images/image310.jpg"
+   alt="A Distributed Network: Transferrable Benefits of Bitcoin"
+   width="65%" />
+</p>
+
 
 And by carefully designing Bitcoin like that, we have all these nice benefits:
 
@@ -10421,7 +10432,7 @@ We wish you all the best on the rest of your blockchain journey!
 
 the end…&nbsp;<br/>
 <b><i>Readme.md</i></b>&nbsp;<br/>
-<b><i>Last Updated: 4/21/2022 (Thursday) 9:26pm+</i></b>
+<b><i>Last Updated: 4/21/2022 (Thursday) 9:56pm+</i></b>
 
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
