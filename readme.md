@@ -3335,7 +3335,7 @@ This is actually a great efficiency gain as our tree grows larger.
 It’s pretty obvious what the Previous Block Hash does: It merely contains the hash of the previous block.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------- A Tamper-Evident Database: Protecting the Chain (103) --------------------->
+<!----------------- 104. a tamper-evident database: protecting the chain (103) ------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image104.png"
@@ -3353,7 +3353,7 @@ Changing any part of this history also changes the entire future after that poin
 Here’s an example of what happens when that tampered Merkle Root from before manifests within the blockchain.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------ a tamper-evident database: protecting the chain (104) ----------------------->
+<!----------------- 105. a tamper-evident database: protecting the chain (104) ------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image105-tamper.png"
@@ -3373,7 +3373,7 @@ Proof-of-Work: Partial Preimage Hash Puzzle
 Now that we’ve finished talking about how Prev Block Hashes, let’s talk about the **nonce**, the physical manifestation of Proof-of-Work.
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------- a tamper-evident database: nonce (105) ----------------------------->
+<!------------------------- 105. a tamper-evident database: nonce (105) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image105-tamper-nonce.png"
@@ -3387,7 +3387,7 @@ Keep in mind that we need entities to prove that they’ve done some work before
 The way we do this in Bitcoin is with a partial preimage hash puzzle.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- partial preimage hash puzzle (106) ------------------------------->
+<!--------------------------- 104. partial preimage hash puzzle (106) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image104-partial-preimage-1.png" 
@@ -3397,7 +3397,7 @@ The way we do this in Bitcoin is with a partial preimage hash puzzle.
 &nbsp;
 <br/>
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- partial preimage hash puzzle (107) ------------------------------->
+<!--------------------------- 104. partial preimage hash puzzle (107) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image104-partial-preimage-2.png"
@@ -3427,11 +3427,11 @@ To satisfy our needs for a puzzle, these hash puzzles need to have **three** cha
 Computational difficulty means ensuring that the solution to the puzzle cannot be easily found.
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!-------------------------- 104. partial preimage hash puzzle (10#) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image104-partial-preimage-3.png"
-   alt=" "
+   alt="Partial Preimage Hash Puzzle; Computationally Difficult, Adjustable, and Easily Verifiable"
    width="65%" />
 </p>
 &nbsp;
@@ -3449,11 +3449,11 @@ It should just take one hash for example to prove that some nonce is correct, ev
 <h3 id="ch3-6">3.6 Proof-of-Work: Mining</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- Proof-of-Work: Mining -------------------------------------->
+<!------------------------------ 107. proof-of-work: mining (###) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image107.png"
-   alt=" "
+   alt="Proof-of-Work: Mining"
    width="65%" />
 </p>
 &nbsp;
@@ -3479,7 +3479,7 @@ It’s as if that target is the green line dividing the valid and invalid blocks
 <h3>Proof-of-Work: Block Difficulty</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!------------------------- 108. proof-of-work: block difficulty (###) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <<p align="center" width="100%">
 <img src="/images/image108.png" 
@@ -3521,7 +3521,7 @@ We make adjustments on the puzzle difficulty accordingly going forward.
 A quick sanity check to see if your understanding is correct.
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!----------------------------------- 109.  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image109.png" 
@@ -3535,7 +3535,7 @@ Let’s say that the current difficulty is 10.
 Then what’s the new difficulty if the time to mine 2016 blocks is exactly two weeks?
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!----------------------------------- 110.  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image110.png" 
@@ -3549,7 +3549,7 @@ Yes, it’s still 10!
 The puzzle was precisely as hard as we wanted, so the difficulty stays exactly the same.
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!----------------------------------- 111.  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image111.png" 
@@ -3571,7 +3571,7 @@ If the time to mine is 4 weeks now, the difficulty is now 5!
 We mined those blocks in twice the expected time, meaning that the puzzle was twice as hard as necessary, so we make it half as difficult.
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!----------------------------------- 112. -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image112.png" 
@@ -3585,7 +3585,7 @@ The difficulty is inversely proportional to the time to mine.
 <h3>Proof-of-Work: Coinbase Transaction</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!----------------------------------- 113. -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image113.png" 
@@ -3606,7 +3606,7 @@ This is how new bitcoins are minted, or introduced, into the network.
 
 Also, the Coinbase transaction has a separate nonce field that is used in our hash puzzle as well.
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!----------------------------------- 114. -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image114.png" 
@@ -3616,7 +3616,7 @@ Also, the Coinbase transaction has a separate nonce field that is used in our ha
 &nbsp;
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!----------------------------------- 115. -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="65%" src="/images/image115.png" 
@@ -3626,7 +3626,7 @@ Also, the Coinbase transaction has a separate nonce field that is used in our ha
 &nbsp;
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!----------------------------------- 116.  -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image116.png" 
@@ -3664,7 +3664,7 @@ In this next section, we’ll go over what we want from a digital signature sche
 <h3>Digital Signature Schemes (DSS)</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!-------------------- 117. digital signature schemes: example part 1 (115) ---------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image117-dss.png" 
@@ -4839,7 +4839,7 @@ And all these are connected to the internet.
 <h3>Types of Wallets: Cold Wallets</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ Bitcoin Wallets: Cold Storage (150) ----------------------------->
+<!-------------------------- 143. Bitcoin Wallets: Cold Storage (150) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image143.png"
@@ -4902,7 +4902,7 @@ In general, so long as your words are not closely related, it’s still expensiv
 <h3>Key Stretching</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- Bitcoin Wallets: Key Stretching (152) ---------------------------->
+<!------------------------- 144. Bitcoin Wallets: Key Stretching (152) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image144.png" 
@@ -8831,10 +8831,14 @@ We’ll keep Bitcoin’s architecture in mind.
 <h3>Smart Contracts Overview</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!---------------------------- 311. smart contracts: contracts (###) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image311.jpg" style="width:5in;height:2.81677in" />
+<img src="/images/image311.jpg"
+   alt=""
+   width="65%" />
+</p>
+&nbsp;
 
 Now that we have these design considerations, we can take a look at smart contracts, and how they fall into this whole space.
 
@@ -8849,11 +8853,13 @@ Just by these words alone, it sounds like we need some sort of consensus going o
 And through consensus, we should be able to agree on both the contents of the contract, and also the execution of the contract.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- (282) --------------------------------->
+<!---------------------- 312. what is ethereum? high-level overview (###) ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image312.jpg"
-
+   alt="What is Ethereum?  High-Level Overview"
+   width="65%" />
+</p>
 
 Alright, so now that we know what a contract is, now the question is...what makes a smart contract so “smart?”
 
@@ -9011,7 +9017,7 @@ Another key difference is that Bitcoin is UTXO-based, whereas Ethereum is accoun
 <h3>Ethereum Features</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!---------------------------- 320. (###) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image320.png"
@@ -9032,7 +9038,7 @@ Think back to the piggy bank analogy from module 1.
 In Ethereum, private keys prove ownership of an account, which tracks a current balance.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!---------------------------- 321. (###) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image321.png"
@@ -9047,11 +9053,11 @@ Also, since our ultimate goal is to support smart contracts, it’s much cheaper
 In Ethereum, there are two types of accounts: externally owned accounts and contract accounts.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!----------------------- 322. ethereum smart contracts: control (###) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image322.png"
-   alt=""
+   alt="Ethereum Smart Contracts: Control"
    width="65%" />
 </p>
 
@@ -9085,7 +9091,7 @@ Smart contracts react to the external world when they are poked by transactions,
 Smart contracts have direct control over an internal ether balance, internal contract state, and also permanent storage.
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------- Ethereum Virtual Machine: Compilation & Process -------------------------->
+<!-------------------- 324. Ethereum Virtual Machine: Compilation & Process ---------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image324.png" 
@@ -9128,7 +9134,7 @@ For example, you can define m of n multisignature, which is also something we lo
 </p>
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------- 327.  -------------------------->
+<!--------------------- 327. (###) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image327.png" 
@@ -9137,7 +9143,7 @@ For example, you can define m of n multisignature, which is also something we lo
 </p>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------  -------------------------->
+<!--------------------- 328. (###) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image328.png" 
@@ -9148,7 +9154,7 @@ For example, you can define m of n multisignature, which is also something we lo
 <h3 id="ch6-3">6.3 Intro: Ethereum Virtual Machine</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------  -------------------------->
+<!--------------------- 329. (###) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image329.png" 
@@ -9183,7 +9189,7 @@ In this section, we’ll be looking at the Ethereum Virtual Machine -- the heart
 <h3>Understanding Ethereum Virtual Machine</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------  -------------------------->
+<!--------------------- 332. (###) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image332.png" 
@@ -9370,12 +9376,12 @@ And all of this leads to a very easy way for attackers to launch denial of servi
 by trapping computers around the world in an infinite loop, thereby making them unable to execute other more meaningful contracts.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------  -------------------------->
+<!--------------------- 332. -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image332.png" 
    alt=""
-   width="65%" </>
+   width="65%" />
 </p>
 
 Luckily, the developers of Ethereum thought of this and implemented a solution: in the form of what’s known as gas.
@@ -9387,7 +9393,7 @@ Every EVM op-code requires gas in order to execute -- thereby preventing the afo
 Every transaction specifies two parameters, “***startgas***”, or the maximum quantity of gas the transaction is willing to consume, and the “***gasprice***”, or the fee in ether the contract is willing to pay per unit gas.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------  ---------------------------------->
+<!---------------------- 333.  ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image333.png"
@@ -9410,7 +9416,7 @@ The idea here is that although the contract execution gets reverted, someone on 
 This gives us two end states: either a program terminates or runs out of gas.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------  ---------------------------------->
+<!--------------------------- 334.  ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image334.png"
@@ -9429,7 +9435,7 @@ This thereby disincentivizes users from running expensive computations without h
 Since each computation requires gas, an attacker looking to DoS the network would need an absurdly large amount of ether, and since the attack is so costly, that pretty much disincentivizes this sort of attack.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------  ---------------------------------->
+<!------------------------------ 335. ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image335.png"
@@ -9456,7 +9462,7 @@ And you feed this into the EVM, and get out the new block state, with all the up
 <h3>Ethereum Conclusions</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------  ---------------------------------->
+<!--------------------- 336. ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image336.png"
@@ -9466,7 +9472,7 @@ And you feed this into the EVM, and get out the new block state, with all the up
 
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------  ---------------------------------->
+<!-------------------------- 337.  ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image337.png"
@@ -9485,7 +9491,7 @@ And this is all to efficiently reach consensus on the system state without needi
 And because contract executions are redundantly replicated across all nodes, execution is expensive.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------  ---------------------------------->
+<!------------------------------ 338. ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image338.png"
@@ -9508,7 +9514,7 @@ This is not a necessarily a stamp of approval on the use case, but an opportunit
 <h3>Basic Use Cases: Smart Assets</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- Basic use cases: smart assets (304) ---------------------------------->
+<!--------------------- 339. basic use cases: smart assets (304) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image339.png"
@@ -9539,7 +9545,7 @@ Securing smart contracts is incredibly tough, as you may have figured out from r
 <h3>Basic Use Cases: Multisig</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------------- Multisig (305)  -------------------------------------->
+<!------------------------------------ 340. multisig (305) --------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image340.png" 
@@ -10010,7 +10016,7 @@ These points can be used to understand and discuss any use case you come across 
 These points describe the properties of a good blockchain use case, along with the scenarios in which a blockchain is not needed or inferior to a centralized solution.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------- Blockchain Generalizations: Viable but Blockchain Not Necessary (322) ----------->
+<!----------- 355. Blockchain Generalizations: Viable but Blockchain Not Necessary (322) --------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image355.png" 
@@ -10037,7 +10043,7 @@ For example, just because you didn’t hear of fault tolerance, consensus, or pu
 Each of these bullets can be achieved by using a subset of the technology that goes into making a blockchain.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------- Blockchain Generalizations: Solving Coordination Failures (323) -------------->
+<!-------------- 356. Blockchain Generalizations: Solving Coordination Failures (323) ------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image356.png" 
@@ -10066,7 +10072,7 @@ The miners will force the actors to honor their commitments, as was the original
 Instead of bringing in lawyers to settle matters when things don’t according to plan, we’re now able to rely on a smart contract to execute as intended, giving us the ability to believe in this code as law.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------- Blockchain Generalizations: Horizontal Integration (324) ------------------>
+<!----------------- 357. Blockchain Generalizations: Horizontal Integration (324) ---------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image357.png" 
@@ -10103,7 +10109,7 @@ Similar to how more Facebook users makes the platform more worthwhile for all us
 In this way, individuals are supporting the rest of the community while benefiting themselves as well.
 
 <!------------------------------------------------------------------------------------------------>
-<!--------- Blockchain Generalizations: Essential Properties: Pure Decentralization (326) -------->
+<!------ 358. Blockchain Generalizations: Essential Properties: Pure Decentralization (326) ------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image358.png" 
@@ -10134,7 +10140,7 @@ Cryptocurrencies aren’t divided by lines or borders--they’re guaranteed to b
 Through blockchain, we can support globally recognized ownership, persisting across nations.
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------- Blockchain Generalizations: Advantages of Centralized Solutions (327) ---------->
+<!------------ 359. Blockchain Generalizations: Advantages of Centralized Solutions (327) -------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image359.png" 
@@ -10274,7 +10280,7 @@ In the end, it is important to always ask why a blockchain is better than a cent
 <h3>Blockchain Use Cases Takeaways</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ Blockchain Use Cases Takeaways ---------------------------------->
+<!--------------------------- 360. Blockchain Use Cases Takeaways -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image360.png" 
@@ -10357,7 +10363,7 @@ He also founded ConsenSys, which is a company that made great strides in develop
 <h3>Ethereum Research</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------- ConsenSys: Ethereum Infrastructure (332) ---------------------------->
+<!----------------------- 361. ConsenSys: Ethereum Infrastructure (332) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image361.png" 
@@ -10376,7 +10382,7 @@ And here are some of the many other spoke ventures in Consensys.
 The Ethereum community also spawns a lot of original research.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ Reasearh: Paving the Road Ahead --------------------------------->
+<!--------------------------- 362. Reasearh: Paving the Road Ahead ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image362.png" 
@@ -10486,7 +10492,7 @@ We wish you all the best on the rest of your blockchain journey!
 
 the end…&nbsp;<br/>
 <b><i>Readme.md</i></b>&nbsp;<br/>
-<b><i>Last Updated: 4/22/2022 (Friday) 1:34pm+</i></b>
+<b><i>Last Updated: 4/22/2022 (Friday) 2:07pm+</i></b>
 
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
