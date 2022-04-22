@@ -9937,7 +9937,7 @@ By coordinating between these untrusting parties on a globally accessible platfo
 
 <h3 id="ch6-5">6.5 Blockchain vs Internet</h3>
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- Blockchain vs The Internet (320) ------------------------------>
+<!---------------------------- 354. Blockchain vs The Internet (320) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image354.png"
@@ -10103,7 +10103,7 @@ Similar to how more Facebook users makes the platform more worthwhile for all us
 In this way, individuals are supporting the rest of the community while benefiting themselves as well.
 
 <!------------------------------------------------------------------------------------------------>
-<!--------- Blockchain Generalizations: Essential Properties: Pure Decentralization (326)--------->
+<!--------- Blockchain Generalizations: Essential Properties: Pure Decentralization (326) -------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image358.png" 
@@ -10380,7 +10380,7 @@ The Ethereum community also spawns a lot of original research.
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image362.png" 
-   alt= "Research: Paving the Road Ahead" 
+   alt= "Research: Paving the Road Ahead"
    width="65%" />
 &nbsp;
 
@@ -10486,7 +10486,7 @@ We wish you all the best on the rest of your blockchain journey!
 
 the end…&nbsp;<br/>
 <b><i>Readme.md</i></b>&nbsp;<br/>
-<b><i>Last Updated: 4/21/2022 (Thursday) 9:56pm+</i></b>
+<b><i>Last Updated: 4/22/2022 (Friday) 1:34pm+</i></b>
 
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
