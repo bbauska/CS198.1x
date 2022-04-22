@@ -488,6 +488,10 @@ If anyone else gets their hands on your email password, for example, they can pr
 
 Similarly, you would never want anyone else to have your Bitcoin private key as that would give control of your Bitcoin public key and, by implication, your Bitcoin identity.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- identity: public and private keys (13) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
@@ -536,6 +540,10 @@ How do we simulate a bank’s identification process in Bitcoin?
 
 How do we trust that no two users end up with the same identity?
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 To illustrate the probability of two users choosing the same identity as someone else in Bitcoin, let’s consider something we’re all familiar with: the Earth.
 
 <!------------------------------------------------------------------------------------------------>
@@ -582,6 +590,10 @@ Now we have 2\^63<sup>rd</sup> times 2\^63<sup>rd</sup> grains of sand per earth
 </p>
 
 Even the number of grains of sand upon all these Earths is only 0.0000000058% (8 zeroes) of all the possible Bitcoin addresses.
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3 id="ch1-5">1.5 Intro: Transactions (Stage 2)</h3>
 
@@ -10279,7 +10291,7 @@ We wish you all the best on the rest of your blockchain journey!
 
 the end…&nbsp;<br/>
 <b><i>Readme.md</i></b>&nbsp;<br/>
-<b><i>Last Updated: 4/19/2022 (Tuesday) 4:55pm+</i></b>
+<b><i>Last Updated: 4/21/2022 (Thursday) 5:54pm+</i></b>
 
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
