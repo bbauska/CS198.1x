@@ -1061,13 +1061,17 @@ Like before, there are blue lines from Gloria to the rest of the network to indi
 Unlike before, there are dashed blue lines from each node to everyone else (excluding Gloria) as an indication of communication about two things: the received transaction and a vote for or against its validity.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- 21. Consensus: Reject Double Spend -------------------------------->
+<!----------------------------- 21. consensus: reject double spend ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
    <img src="/images/image021-consensus-reject-double-spend.png" 
-   alt="Consensus"
+   alt="Consensus: Rejecting the Double Spend"
    width="65%" />
 </p>
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 Let’s observe what happens when Gloria tries to double spend under these circumstances.
 
@@ -1082,11 +1086,11 @@ The dashed blue and green lines from Nadir and myself (Rustie) respectively repr
 By looking to the rest of the network for input, considering everyone else the third party, we are protected against Gloria’s attempts at malicious behavior.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ image022-consensus-victory.png ---------------------------------->
+<!----------------------------- 22. consensus: victory: or is it? -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image022-consensus-victory.png" 
-   alt="Consensus"
+   alt="Consensus: Victory (or is it?)"
    width="65%" />
 </p>
 
@@ -1101,7 +1105,7 @@ It looks as if we are victorious!
 However, we forgot one fatal truth about Bitcoin: the anonymity.
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------- 23. Consensus: A Stranger Among Us --------------------------------->
+<!----------------------------- 23. consensus: a stranger among us ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image023-consensus-a-stranger-among-us.png" 
@@ -1148,7 +1152,7 @@ But how?
 Is it even possible to solve this problem?
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 24. Consensus: Pay to Play ------------------------------------>
+<!-------------------------------- 24. consensus: pay to play ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image024-consensus-pay-to-play.png" 
@@ -1179,7 +1183,7 @@ It is this new concept of voting with resources instead of with identities that 
 The particular consensus algorithm that Satoshi Nakamoto came up with is known as “Proof-of-Work.”
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 25. Consensus: Proof of Work ------------------------------------>
+<!-------------------------------- 25. consensus: proof of work ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image025-consensus-proof-of-work.png" 
@@ -1187,7 +1191,7 @@ The particular consensus algorithm that Satoshi Nakamoto came up with is known a
    width="65%" />
 </p>
 
-Let’s break down the word “Proof-of-Work.”
+Let’s break down the term “Proof-of-Work”.
 
 We know “proof” to mean “evidence,” and “work” to mean “spent resources.”
 
@@ -1200,7 +1204,7 @@ It is the method by which users vote in Bitcoin.
 It is this method of voting that made Bitcoin the first successful cryptocurrency and inspired voting mechanisms for practically every other cryptocurrency to follow.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- 26. Consensus: Proof of Work: Works -------------------------------->
+<!----------------------------- 26. consensus: proof of work: works ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image026-consensus-proof-of-work-works.png" 
@@ -10335,7 +10339,7 @@ We wish you all the best on the rest of your blockchain journey!
 
 the end…&nbsp;<br/>
 <b><i>Readme.md</i></b>&nbsp;<br/>
-<b><i>Last Updated: 4/21/2022 (Thursday) 5:54pm+</i></b>
+<b><i>Last Updated: 4/21/2022 (Thursday) 6:53pm+</i></b>
 
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
