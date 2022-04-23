@@ -2879,11 +2879,11 @@ This lecture will teach you everything about the low-level specifics of Bitcoin 
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------------ 80. lecture overview -------------------------------------->
+<!--------------------------------- 80. lecture overview (87) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image080-lecture-overview.png"
-   alt="Low-level Specifics of Bitcoin: What Makes Up Bitcoin?"
+   alt="Low-level Specifics of Bitcoin: What Makes Bitcoin Work?"
    width="65%" />
 </p>
 &nbsp;
@@ -2913,6 +2913,10 @@ Tamper evident means that although information can be tampered, it is obvious th
 We’ll see that in order to design our tamper evident database, we first need a source of standardized randomness.
 
 For this, we’ll utilize cryptographic hash functions.
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3 id="ch3-2">Motivations and Definitions: Integrity of Information</h3>
 <!------------------------------------------------------------------------------------------------>
@@ -2955,8 +2959,11 @@ But how do we all agree on a way to generate fingerprints?
 
 We need standardized randomness.
 
-<h3>Motivations and Definitions: Cryptographic Hash Functions</h3>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
+<h3>Motivations and Definitions: Cryptographic Hash Functions</h3>
 <!------------------------------------------------------------------------------------------------>
 <!--------------- 81. crypographic hash functions: what is a hash function? (89) ----------------->
 <!------------------------------------------------------------------------------------------------>
@@ -2980,6 +2987,9 @@ A cryptographic hash function always outputs a message of some given size.
 
 One note is that we call the output the image, and the input the pre image.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <!------------------------------------------------------------------------------------------------>
 <!------------------- 82. crypographic hash functions: pseudocode formula (90) ------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -3009,6 +3019,10 @@ What are the properties of hash functions then?
 Well, we have *three* important properties to discuss: *pre-image* and *second-preimage* resistance, along with *collision* resistance.
 
 To clarify what these terms mean, let’s go over a couple definitions.
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------- 84. crypographic hash functions: preimage resistance (91) -------------------->
@@ -3043,6 +3057,9 @@ Otherwise, certain issues come up, such as exposing information that we didn’t
    width="65%" />
 </p>
 &nbsp;
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 To make sure this doesn't happen, we need what’s known as preimage resistance.
 
@@ -3079,6 +3096,9 @@ To make sure this doesn’t happen, we need what’s known as second preimage re
    width="65%" />
 </p>
 &nbsp;
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 The technical definition is as follows: given some hash function H and some output H of x, it is computationally difficult to find a different input x’ such that H of x equals H of x’.
 
@@ -3114,6 +3134,10 @@ And each result is pseudo random.
 
 There's no relation between the Hashes despite the inputs being so similar.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3 id="ch3-3">3.3 SHA256</h3>
 
 <!------------------------------------------------------------------------------------------------>
@@ -3126,7 +3150,7 @@ There's no relation between the Hashes despite the inputs being so similar.
 </p>
 &nbsp;
 
-<h3>SHA256\^2 – (Secure Hash Algorithm)</h3>
+<h3>SHA256^2 – (Secure Hash Algorithm)</h3>
 
 The particular hash function that Bitcoin chooses to use in many scenarios is called SHA-256.
 
@@ -3141,6 +3165,10 @@ In practice, the 2\^64 bit upper bound on the input size is so massive that we u
 Bitcoin, in many cases, uses SHA-256 squared, or SHA256d, which simply means that SHA-256 is used twice in a row.
 
 Once on the original message you want to hash, and another time on the output of this first hash.
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3 id="ch3-4">3.4 Intro: A Tamper-Evident Database</h3>
 
@@ -3167,6 +3195,10 @@ Now that we know about cryptographic hash functions and their properties, how do
 &nbsp;
 
 In this section, we’ll be taking a look at the structure of a block, looking specifically at some of the metadata contained within the block header that will help us achieve tamper evidence.
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Tamper-Evidence</h3>
 
@@ -3198,6 +3230,10 @@ We’ll explain each of these fields by the end of the video.
 
 Here’s the exact same block, but now in JSON format.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <!------------------------------------------------------------------------------------------------>
 <!----------------------- 93. a tamper-evident database: example block (97) ---------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -3213,7 +3249,7 @@ This is a much more understandable format for a computer.
 But what is the role of each of these different pieces of information?
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------- 94. a tamper-evident database: role of each of the pieces ----------------->
+<!--------------- 94. a tamper-evident database: role of each of the pieces (97) ----------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image094-a-tamper-evident-database-example-block.png"
@@ -3221,6 +3257,9 @@ But what is the role of each of these different pieces of information?
    width="65%" />
 </p>
 &nbsp;
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Dissecting a Block</h3>
 
@@ -3257,14 +3296,17 @@ Well, let’s go ahead and look at where hash functions are applied within Bitco
 The block header refers to all the metadata associated with every block.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image096-tamper-evident-dissecting.png -------------------------------------->
+<!----------------- 96. a tamper-evident database: dissecting the blockchain (99) ---------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image096-tamper-evident-dissecting.png"
-   alt=" "
+   alt="A Tamper-Evident Database: Dissecting the Blockchain"
    width="65%" />
 </p>
 &nbsp;
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 There are **six** fields in the implementation, but we’re going to speak to the **three important ones** that implement the protocol explained in module 1.
 
@@ -3279,11 +3321,11 @@ Those are;
 The *Merkle Root* represents a summary of transactions.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image097.png -------------------------------------->
+<!------------------------ 98. a tamper-evident database: block header (99) ---------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image098-tamper-evident-3.png"
-   alt=" "
+   alt="A Temper-Evident Database: Block Header"
    width="65%" />
 </p>
 &nbsp;
@@ -3295,11 +3337,11 @@ And the *Nonce* represents the proof-of-work.
 The block header is simply the hash of all these fields concatenated.
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!-------------------- 97. a tamper-evident database: block header (100) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image097.png"
-   alt=" "
+   alt="A Temper-Evident Database: Block Header"
    width="65%" />
 </p>
 &nbsp;
@@ -3309,11 +3351,11 @@ Let’s first take a look at the Merkle Root.
 <h3 id="ch3-5">3.5 Merkle Trees:</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!---------------------- 98. a tamper-evident database: merkle tree (100) ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image098.png"
-   alt=" "
+   alt="A Temper-Evident Database: Merkle Tree"
    width="65%" />
 </p>
 &nbsp;
@@ -3349,11 +3391,11 @@ We hash each one to get a level of hashes.
 We then hash each pair together, making a new level with half as many hashes.
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!------------------- 99.  a tamper-evident database: protecting the chain (101) ----------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image099-tamper-protect.png" 
-   alt=" "
+<img src="/images/image099-tamper-protect.png"
+   alt="A Tamper-Evident Database: Protecting the Chain"
    width="65%" />
 </p>
 &nbsp;
@@ -3367,11 +3409,11 @@ This way, we can detect any transaction changes after the commitment with the Me
 <h3>Merkel Trees: Tamper Detection</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!---------- 99.  a tamper-evident database: getting to the root of the problem (102) ------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image099.png"
-   alt=" "
+   alt="A Tamper-Evident Database: Getting to the Root of the Problem"
    width="65%" />
 </p>
 &nbsp;
@@ -3385,7 +3427,7 @@ Because of that, the hash above it is also effective, propagating all the way up
 <h3>Merkle Trees: Proof of Inclusion</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------- A Tamper-Evident Database: Merkle Branch & Proof of Inclusion (102) -------------->
+<!---------- 100. A Tamper-Evident Database: Merkle Branch & Proof of Inclusion (102) ------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image100.png"
@@ -3409,7 +3451,7 @@ This is actually a great efficiency gain as our tree grows larger.
 <h3>Previous Block Hash</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------  A Tamper-Evident Database: Merkle Root (103) -------------------------->
+<!--------------------- 102. A Tamper-Evident Database: Merkle Root (103) ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image102.png"
@@ -3535,7 +3577,7 @@ It should just take one hash for example to prove that some nonce is correct, ev
 <h3 id="ch3-6">3.6 Proof-of-Work: Mining</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 107. proof-of-work: mining (###) -------------------------------->
+<!------------------------------ 107. proof-of-work: mining (107) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image107.png"
@@ -3565,11 +3607,11 @@ It’s as if that target is the green line dividing the valid and invalid blocks
 <h3>Proof-of-Work: Block Difficulty</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 108. proof-of-work: block difficulty (###) --------------------------->
+<!------------------------- 108. proof-of-work: block difficulty (108) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <<p align="center" width="100%">
 <img src="/images/image108.png" 
-   alt=" "
+   alt="A Tamper-Evident Database: Block Difficulty"
    width="65%" />
 </p>
 &nbsp;
@@ -3607,11 +3649,11 @@ We make adjustments on the puzzle difficulty accordingly going forward.
 A quick sanity check to see if your understanding is correct.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 109.  -------------------------------------->
+<!------------------------- 109. proof-of-work: block difficulty (109) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image109.png" 
-   alt=" "
+<img src="/images/image109.png"
+   alt="A Tamper-Evident Database: Block Difficulty"
    width="65%" />
 </p>
 &nbsp;
@@ -3621,11 +3663,11 @@ Let’s say that the current difficulty is 10.
 Then what’s the new difficulty if the time to mine 2016 blocks is exactly two weeks?
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 110.  -------------------------------------->
+<!------------------------- 110. proof-of-work: block difficulty (110) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image110.png" 
-   alt=" "
+   alt="A Tamper-Evident Database: Block Difficulty"
    width="65%" />
 </p>
 &nbsp;
@@ -3635,11 +3677,11 @@ Yes, it’s still 10!
 The puzzle was precisely as hard as we wanted, so the difficulty stays exactly the same.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 111.  -------------------------------------->
+<!------------------------- 111. proof-of-work: block difficulty (110) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image111.png" 
-   alt=" "
+   alt="A Tamper-Evident Database: Block Difficulty"
    width="65%" />
 </p>
 &nbsp;
@@ -3657,11 +3699,11 @@ If the time to mine is 4 weeks now, the difficulty is now 5!
 We mined those blocks in twice the expected time, meaning that the puzzle was twice as hard as necessary, so we make it half as difficult.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 112. -------------------------------------->
+<!------------------------- 112. proof-of-work: block difficulty (111) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image112.png" 
-   alt=" "
+<img src="/images/image112.png"
+   alt="A Tamper-Evident Database: Block Difficulty"
    width="65%" />
 </p>
 &nbsp;
@@ -3671,11 +3713,11 @@ The difficulty is inversely proportional to the time to mine.
 <h3>Proof-of-Work: Coinbase Transaction</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 113. -------------------------------------->
+<!------------------------ 113. proof-of-work: coinbase transaction (111) ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image113.png" 
-   alt=" "
+<img src="/images/image113.png"
+   alt="A Tamper-Evident Database: Coinbase Transaction"
    width="65%" />
 </p>
 &nbsp;
@@ -3692,31 +3734,31 @@ This is how new bitcoins are minted, or introduced, into the network.
 
 Also, the Coinbase transaction has a separate nonce field that is used in our hash puzzle as well.
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 114. -------------------------------------->
+<!------------------------ 114. proof-of-work: mining pseudocode (112) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image114.png" 
-   alt=" "
+<img src="/images/image114.png"
+   alt="A Tamper-Evident Database: Mining Pseudocode"
    width="65%" />
 </p>
 &nbsp;
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 115. -------------------------------------->
+<!--------------------------- 115. proof-of-work: example block (112) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="65%" src="/images/image115.png" 
-   alt=" "
+<img src="/images/image115.png"
+   alt="A Tamper-Evident Database: Example Block"
    width="65%" />
 </p>
 &nbsp;
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 116.  -------------------------------------->
+<!------------------------ 116. proof-of-work: mining pseudocode (113) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image116.png" 
-   alt=" "
+<img src="/images/image116.png"
+   alt="A Tamper-Evident Database: Mining Pseudocode"
    width="65%" />
 </p>
 &nbsp;
@@ -3750,11 +3792,11 @@ In this next section, we’ll go over what we want from a digital signature sche
 <h3>Digital Signature Schemes (DSS)</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------- 117. digital signature schemes: example part 1 (115) ---------------------->
+<!-------------------- 117. digital signature schemes: example part 1 (114) ---------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image117-dss.png" 
-   alt=" "
+   alt="Digital Signature: Schemes (DSS): Example"
    width="65%" />
 </p>
 &nbsp;
@@ -10578,7 +10620,7 @@ We wish you all the best on the rest of your blockchain journey!
 
 the end…&nbsp;<br/>
 <b><i>readme.md</i></b>&nbsp;<br/>
-<b><i>Last Updated: 4/23/2022 (Saturday) 11:18am+</i></b>
+<b><i>Last Updated: 4/23/2022 (Saturday) 12:51pm+</i></b>
 
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
