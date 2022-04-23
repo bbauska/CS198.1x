@@ -2391,6 +2391,9 @@ In January 2014, he said about Bitcoin “It’s a terrible store of value. It c
    width="65%" />
 </p>
 &nbsp;
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 In October 2014, he said “Bitcoin developers are going to try and eat our lunch. And that’s fine. That’s called competition, and we’ll be competing.”
 
@@ -2421,6 +2424,9 @@ It’s something that bankers can’t control, and they hate it.
    width="65%" />
 </p>
 &nbsp;
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 In October 2017, he said “Bitcoin is a fraud that won’t end well. If you’re stupid enough to buy Bitcoin, you’ll pay for the price of it one day. The blockchain is a technology which is a good technology. We actually use it...God bless the blockchain.”
 
@@ -2455,6 +2461,9 @@ And in another quote he said “One of my daughters bought bitcoin and it went u
    width="65%" />
 </p>
 &nbsp;
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 In January 2018, he said “The blockchain is real. You can have crypto yen and dollars and stuff like that … the bitcoin to me was always what the governments are gonna feel about bitcoin as it gets really big, and I just have a different opinion than other people.”
 
@@ -2481,6 +2490,9 @@ Cryptocurrency and blockchain technology started its roller coaster of a journey
    width="65%" />
 </p>
 &nbsp;
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 The history of Bitcoin and Blockchain is a story of rapid transformation.
 
@@ -2512,6 +2524,9 @@ We also host many public events, workshops, and meetups, teach multiple classes 
 
 And this all done to foster and develop the blockchain community.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <!------------------------------------------------------------------------------------------------>
 <!----------------- 68. politics: internal politics and libertarianism (75) ---------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -2547,6 +2562,9 @@ On the other hand, libertarians also think that people should be able to do what
    width="65%" />
 </p>
 &nbsp;
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 The flag on this slide is the Gadsen flag, which has strong Libertarian roots.
 
@@ -2571,6 +2589,10 @@ For example, in a previous section, we talked about Bitcoin Improvement Proposal
 Some controversial topics in the blockchain space have been surrounding problems like block size (specifically segwit2x), confirmation times, and centralization in third party companies (Intel’s SGX).
 
 In this course, we explain these issues in an objective fashion, and let you form your own opinion on these debates.
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3 id="ch2-10">2.10 Intro: State of the Industry</h3>
 
@@ -2601,6 +2623,11 @@ They’re a way for new projects, startups, and companies to sell their underlyi
 Think of ICOs as Initial Public Offerings, but instead of investors purchasing shares of a company, they purchase the coin underlying a new project.
 
 ICOs are very different from equity.
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 
 Having a new project’s coin doesn’t give you ownership of the project, but instead enable you to use the project when it becomes available.
 
@@ -2656,8 +2683,11 @@ As a comparison:
 
 In Q3’17, ICOs have raised \$1.3B with 150 ICOs while seed/angel investing across all tech sectors has raised \$1.4B across 1,602 deals.
 
-<h3>Industry Projects</h3>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
+<h3>Industry Projects</h3>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------- 74. cryptokitties: they hype - 2017 (80) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -2693,6 +2723,9 @@ Whether or not its mainstream spotlight and growing popularity is a good thing i
    width="65%" />
 </p>
 &nbsp;
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 With the growing popularity of blockchain and cryptocurrencies, it’s important to have good wallet software.
 
@@ -2722,6 +2755,9 @@ Due to Ethereum architecture, and the immutability of public blockchains, code t
 
 This was a huge eye-opening moment for the Ethereum community as a whole, and taught developers -- especially open source developers -- to fully audit the security of mission critical code.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------- 77. coincheck got hacked - jan, 2018 (82) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -2752,6 +2788,9 @@ Since blockchain is still young, it’s important to do your own due diligence w
 
 Looking at the broader picture, that’s one of the goals of this course -- to get you to start thinking critically about blockchain fundamentals and the more technical aspects about the technology that can then help inform your own personal decisions.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <h3 id="ch2-11">2.11 Lecture 2 Summary</h3>
 
 <h3>Pre-Bitcoin: Libertarian Dreams</h3>
@@ -10527,7 +10566,7 @@ We wish you all the best on the rest of your blockchain journey!
 
 the end…&nbsp;<br/>
 <b><i>readme.md</i></b>&nbsp;<br/>
-<b><i>Last Updated: 4/23/2022 (Saturday) 10:51am+</i></b>
+<b><i>Last Updated: 4/23/2022 (Saturday) 11:18am+</i></b>
 
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
