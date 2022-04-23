@@ -2802,7 +2802,7 @@ In October 2008, Satoshi Nakamoto released the Bitcoin whitepaper, which outline
 The first transaction using Bitcoin to purchase a tangible asset occurred in 2010, when Laszlo Hanyecz exchanged 10,000 bitcoin for \$25 worth of pizza. This exchange gave bitcoins real value, a first step towards legitimacy. 
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image078-pizza-pizza.png -------------------------------------->
+<!--------------------------------- 78. pizza 10,000 bitcoins ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image078-pizza-pizza.png"
@@ -2810,7 +2810,9 @@ The first transaction using Bitcoin to purchase a tangible asset occurred in 201
    width="65%" />
 </p>
 &nbsp;
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <h3>Early Bitcoin: Scandals, Hacks, and Illegal Activity</h3>
 
 As Bitcoin began increasing in popularity, it also began facing increasing cases of thefts, hacks, and illegal activity. The first was a large hack on Magic: The Gathering Online Exchange (Mt. Gox), one of the first Bitcoin exchange website created in 2010. 
@@ -2835,6 +2837,10 @@ Meanwhile, banks started seeking ways to apply blockchain technology leading to 
 
 The blockchain space has expanded to include not only major financial institutions, but also the general public. Initial Coin Offerings, equity-less fundraising schemes for new crypto startups that allow anyone to participate, and the advent of Cryptokitties, an online marketplace for virtual cats, indicate the spread of blockchain across communities and also to popular culture.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3>Readings</h3>
 
 [A Cypherpunk’s Manifesto ](https://www.activism.net/cypherpunk/manifesto.html)by Eric Hughes 
@@ -2852,7 +2858,7 @@ Coindesk: [A Bot Named Willy: Did Mt. Gox's Automated Trading Pump Bitcoin's Pr
 <h3 id="ch3">Module 3: Bitcoin Mechanics & Optimizations: A Technical Overview</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------ Bitcoin Mechanics and Optimizations: A Technical Overview ------------------->
+<!---------------- 80. Bitcoin Mechanics and Optimizations: A Technical Overview ----------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image080-bitcoin-overview.png"
@@ -2869,12 +2875,15 @@ However, we don’t know how that happens.
 
 This lecture will teach you everything about the low-level specifics of Bitcoin that make it work.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image080-lecture-overview.png -------------------------------------->
+<!------------------------------------ 80. lecture overview -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image080-lecture-overview.png"
-   alt=" "
+   alt="Low-level Specifics of Bitcoin: What Makes Up Bitcoin?"
    width="65%" />
 </p>
 &nbsp;
@@ -2905,9 +2914,9 @@ We’ll see that in order to design our tamper evident database, we first need a
 
 For this, we’ll utilize cryptographic hash functions.
 
-<h3>Motivations and Definitions: Integrity of Information</h3>
+<h3 id="ch3-2">Motivations and Definitions: Integrity of Information</h3>
 <!------------------------------------------------------------------------------------------------>
-<!------------------- cryptographic hash functions: integrity of information --------------------->
+<!----------------- 81. cryptographic hash functions: integrity of information ------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image081-cryptographic-hash-functions.png"
@@ -2946,16 +2955,17 @@ But how do we all agree on a way to generate fingerprints?
 
 We need standardized randomness.
 
-<h3 id="ch3-2">3.2 Motivations and Definitions: Cryptographic Hash Functions</h3>
+<h3>Motivations and Definitions: Cryptographic Hash Functions</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image081-hash-function-formula.png -------------------------------------->
+<!--------------- 81. crypographic hash functions: what is a hash function? (89) ----------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image081-hash-function-formula.png"
-   alt="Hash Function Formula"
+   alt="Cryptographic Hash Functions: What is a Hash Function?"
    width="65%" />
 </p>
+
 Motif&nbsp;
 
 Cryptographic hash functions are one way functions that take some input and produce a pseudorandom output.
@@ -2971,11 +2981,11 @@ A cryptographic hash function always outputs a message of some given size.
 One note is that we call the output the image, and the input the pre image.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 82. hash function formula  -------------------------------------->
+<!------------------- 82. crypographic hash functions: pseudocode formula (90) ------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image082-hash-functions-formula.png"
-   alt=" "
+   alt="Cryptographic Hash Functions: Pseudocode"
    width="65%" />
 </p>
 &nbsp;
@@ -2985,11 +2995,11 @@ Cryptographic hash functions differ from regular hash functions in that they are
 <h3>Key Properties of Cryptographic Hash Functions</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image083-cryptographic-hash-functions-cryptography.png -------------------------------------->
+<!--------------------- 83. crypographic hash functions: cryptography (90) ----------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image083-cryptographic-hash-functions-cryptography.png"
-   alt=" "
+   alt="Cryptographic Hash Functions: Cryptography"
    width="65%" />
 </p>
 &nbsp;
@@ -3001,10 +3011,12 @@ Well, we have *three* important properties to discuss: *pre-image* and *second-p
 To clarify what these terms mean, let’s go over a couple definitions.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image084-cryptographic-hash-functions-preimage-resistance.png -------------------------------------->
+<!----------------- 84. crypographic hash functions: preimage resistance (91) -------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="65%" src="/images/image084-cryptographic-hash-functions-preimage-resistance.png" alt=" "</>
+<img src="/images/image084-cryptographic-hash-functions-preimage-resistance.png"
+   alt="Cryptographic Hash Functions: Preimage Resistance"
+   width="65%" />
 </p>
 &nbsp;
 
@@ -3023,11 +3035,11 @@ First off, we want to make sure that no one can reverse engineer our fingerprint
 Otherwise, certain issues come up, such as exposing information that we didn’t want to reveal.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image085-cryptographic-hash-functions-preimage-resistance.png -------------------------------------->
+<!--------------- 85. crypographic hash functions: preimage resistance #2 (91) ------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image085-cryptographic-hash-functions-preimage-resistance.png" 
-   alt=" "
+   alt="Cryptographic Hash Functions: Preimage Resistance"
    width="65%" />
 </p>
 &nbsp;
@@ -3039,12 +3051,12 @@ The technical definition is as follows: given some hash function H and some outp
 In other words, we cannot easily discover the input which created some output.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image086-cryptographic-hash-functions-2ndary-preimage-resistance.png -------------------------------------->
+<!--------------- 86. crypographic hash functions: 2nd preimage resistance (92) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <
 <p align="center" width="100%">
 <img src="/images/image086-cryptographic-hash-functions-2ndary-preimage-resistance.png"
-   alt=" "
+   alt="Cryptographic Hash Functions: 2nd Preimage Resistance"
    width="65%" />
 </p>
 &nbsp;
@@ -3058,12 +3070,12 @@ If someone else can generate my fingerprint with a different input, then no one 
 To make sure this doesn’t happen, we need what’s known as second preimage resistance.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------ 87. Cryptographic hash functions: 2ndary preimage resistance (92) ----------------->
+<!-------------- 87. Cryptographic hash functions: 2nd preimage resistance (92) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <
 <p align="center" width="100%">
 <img src="/images/image087-cryptographic-hash-functions-2ndary-preimage-resistance.png"
-   alt="Cryptographic Hash Functions: 2ndary Preimage Resistance"
+   alt="Cryptographic Hash Functions: 2nd Preimage Resistance #2"
    width="65%" />
 </p>
 &nbsp;
