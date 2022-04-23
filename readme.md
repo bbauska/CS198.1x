@@ -1888,6 +1888,9 @@ Early Bitcoin was thus often the target of scandals, hacks, and illegal activity
    width="40%" />
 </p>
 &nbsp;
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3 id="ch2-5">2.5 Hacks and Scandals</h3>
 
@@ -1924,6 +1927,9 @@ By the end of the month, Mt. Gox filed for bankruptcy.
 	width="65%" />
 </p>
 &nbsp;
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 Meanwhile, in the depths of the dark web, Bitcoin was also used to purchase drugs.
 
@@ -1952,6 +1958,9 @@ Ross Ulbricht was sentenced to life in jail, and the FBI seized upwards of 26,00
 	width="65%" />
 </p>
 &nbsp;
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3 id="ch2-6">2.6 Bitcoin Bubble and Altcoins</h3>
 
@@ -2002,6 +2011,9 @@ These are just a few examples of how coins other than Bitcoin are trying to solv
    width="65%" />
 </p>
 &nbsp;
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Bitcoin Headlines</h3>
 
@@ -2074,6 +2086,9 @@ One was that investors who had speculated and bought a lot of bitcoin had second
 Especially, Chinese investors had sold because of warnings issued by the Chinese government.
 
 And then of course the market amplified the current trend, so people further dumped because they feared a loss in value.
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3 id="ch2-7">2.7 Intro: Scalability</h3>
 
@@ -2123,6 +2138,10 @@ Instead, users introduce proposals called BIPs, or ***Bitcoin Improvement Propos
 
 Members can't directly propose and vote on updates to Bitcoin within the actual software, but at least the current mechanism gets the job done.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3 id="ch2-8">2.8 Ethereum Timeline</h3>
 
 <!------------------------------------------------------------------------------------------------>
@@ -2167,6 +2186,9 @@ At the time, this was equivalent to 2.3 million USD, or in Bugatti terms, about 
 
 The Ethereum blockchain officially went live on July 30th 2015, and by May 2016, the cumulative value of Ethereum tokens was more than \$1 billion.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <!------------------------------------------------------------------------------------------------>
 <!--------- 2013-2016: Ethereum Timeline: Decentralized Autonomous Organizations (63) ------------>
 <!------------------------------------------------------------------------------------------------>
@@ -2202,6 +2224,9 @@ The remainder that believed that nothing - including catastrophic events like th
    width="65%" />
 </p>
 &nbsp;
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Ethereum Bubble</h3>
 
@@ -2238,6 +2263,9 @@ The fact that Bitcoin’s and other cryptocurrencies’ prices are starting to b
    width="65%" />
 </p>
 &nbsp;
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 And economic and political circumstances like Brexit, Trump’s election, or India’s war on cash can also contribute to driving up the price of cryptocurrencies, since they tend to undermine people’s trust in centralized systems and cause them to shift towards more decentralized systems like cryptocurrencies.
 
@@ -2272,6 +2300,10 @@ It’s important to have an educated understanding of the space…...rather than
 Although the price of Bitcoin is many, many times higher than what it was a year ago, it’s started to take a downward turn in the beginning of 2018 after peaking in December 2017.
 
 An increase in the amount of international regulation especially in India...South Korea…US and the UK, combined with a “mob mentality” of people investing without truly believing in the technology led to quickly changing market caps, and eventually the hype train crashed.
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3 id="ch2-9">2.9 Intro: Enterprise Blockchain</h3>
 
@@ -2322,6 +2354,9 @@ These blockchains take the fundamental cryptographic technology from bitcoin (pu
    width="65%" />
 </p>
 &nbsp;
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 There are many different enterprise technologies in the space today, including R3’s Corda, Chain, JP Morgan’s Quorum and Juno, and Digital Asset Holdings.
 
@@ -2350,14 +2385,14 @@ In January 2014, he said about Bitcoin “It’s a terrible store of value. It c
 <!------------------------------------------------------------------------------------------------>
 <!--------------- 60. Quotes (2) from Jamie Dimon, the CEO of JP Morgan Chase -------------------->
 <!------------------------------------------------------------------------------------------------>
-p align="center" width="100%">
+<p align="center" width="100%">
 <img src="/images/image060-dimon-quotes-2.png"
    alt="Quotes (2) from Jamie Dimon, the CEO of JP Morgan Chase"
    width="65%" />
 </p>
 &nbsp;
 
-In October 2014, he said “\[Bitcoin developers\] are going to try and eat our lunch. And that’s fine. That’s called competition, and we’ll be competing.”
+In October 2014, he said “Bitcoin developers are going to try and eat our lunch. And that’s fine. That’s called competition, and we’ll be competing.”
 
 The statement seems aggressive, but he actually gives legitimacy to Bitcoin by suggesting that it’s a competitor to traditional banks and finance.
 
@@ -10491,8 +10526,8 @@ If you’re looking for more, there’s still a great deal of complexity and inn
 We wish you all the best on the rest of your blockchain journey!
 
 the end…&nbsp;<br/>
-<b><i>Readme.md</i></b>&nbsp;<br/>
-<b><i>Last Updated: 4/22/2022 (Friday) 2:07pm+</i></b>
+<b><i>readme.md</i></b>&nbsp;<br/>
+<b><i>Last Updated: 4/23/2022 (Saturday) 10:51am+</i></b>
 
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
