@@ -5943,7 +5943,7 @@ Every single person in the Bitcoin network is presumably maximizing the value of
 <h3>Mining Incentives: Block Reward</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!-------- 196. Mining Incentives: How to Profit From Mining  ---------->
+<!-------- 196. Mining Incentives: How to Profit From Mining (175) ---------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image196.png"
@@ -5956,7 +5956,7 @@ Let’s go ahead and break down the various components of profit within Bitcoin.
 First, we’ll start by discussing the block reward, the most significant source of profit currently for miners.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------- 197. Mining Incentives: Block Reward  ---------->
+<!------------------------- 197. Mining Incentives: Block Reward (175) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image197.png" 
@@ -6003,7 +6003,7 @@ In addition, some private keys have been lost, and some bitcoins have been burne
 <h3>Mining Incentives: Transaction Fees</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!-------- Mining Incentives: Transaction Fees  ---------->
+<!----------------------- 198. Mining Incentives: Transaction Fees (177) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image198.png" 
@@ -6034,11 +6034,11 @@ As block rewards approach zero, transaction fees will become the primary source 
 <h3>Mining Costs: Fixed Costs</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!-------- Mining Incentives: How to Profit From Mining  ---------->
+<!------------ 199. Mining Incentives: How to Profit From Mining: fixed costs (178) -------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image199.png" 
-   alt="Mining Incentives: How to Profit From Mining"
+   alt="Mining Incentives: How to Profit From Mining: Fixed Costs"
    width="65%" />
 </p>
 
@@ -6057,7 +6057,7 @@ This logarithmically scaled graph here shows a quick overview of the growth of m
 <h3>Types of Hardware</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!-------- Mining Incentives: Fixed Cost: CPU Mining ---------->
+<!-------------------- 200. Mining Incentives: Fixed Cost: CPU Mining (179) ---------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image200.png" 
@@ -6098,11 +6098,11 @@ For example, mining does not require any floating point numbers, so the excess c
 In addition, they are not meant to be run in farms side by side, so it is difficult to operate a large scale GPU mining setup.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------- Mining Incentives: Fixed Cost: FPGA Mining  ---------->
+<!------------------- 201. Mining Incentives: Fixed Cost: FPGA Mining (180) ---------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image201.png" 
-   alt="Mining Incentives: Fixed Cost: FPGA Mining"
+   alt="Mining Incentives: Fixed Cost: FPGA (Field Programmable Gate Arrays) Mining"
    width="65%" />
 </p>
 
@@ -6319,7 +6319,7 @@ Thus, they wouldn’t get any shares from the mining pool, since the mining pool
 <h3>Mining Pool Schemes</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!-------- Real World Mining: Mining Pool Schemes ---------->
+<!-------- 208. Real World Mining: Mining Pool Schemes ---------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image208.png" 
@@ -7934,7 +7934,7 @@ The blocks containing my transactions are now invalid since they aren’t on the
 This also means that the miners on that chain will receive no mining rewards for their efforts.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- blacklisting: punitive foring (240) ------------------------------->
+<!-------------------------- 265. blacklisting: punitive foring (240) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image265.png"
@@ -7950,10 +7950,10 @@ This strategy is known as punitive forking, and can be very powerful in the hand
 
 That entity can prevent anybody from accessing their funds.
 
-Censorship Attacks: Feather Forking
+<h3>Censorship Attacks: Feather Forking</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- blacklisting: feather forking (241) ------------------------------->
+<!-------------------------- 266. blacklisting: feather forking (241) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image266.png"
@@ -7970,7 +7970,7 @@ There is a strategy called feather forking, in which Gloria announces that she w
 This is in contrast to punitive forking, since that only works if a longer chain is guaranteed by the fork. In short, Gloria gives up after a block with my transactions has k confirmations, where k is any number. In the diagram, Gloria sees a block containing one of my transactions and attempts to fork. However, I get 3 confirmations, so she gives up trying to continue her fork.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- blacklisting: feather forking (241) --------------------------------->
+<!------------------------- 267. blacklisting: feather forking 2 (241) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image267.png"
@@ -7981,7 +7981,7 @@ This is in contrast to punitive forking, since that only works if a longer chain
 Let’s look at a little bit of math. Let q be the proportion of mining power that Gloria has. Let k equal one, so that Gloria gives up after one confirmation on my block. This means that the chance of successfully orphaning my block is q squared, since Gloria has to compete with each confirmation. If q is 20%, then gloria has a 4% chance to orphan my block, which isn’t that great.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!------------------------- 268. blacklisting: feather forking 3 (241) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image268.png"
@@ -7994,7 +7994,7 @@ However, other miners are now aware that their block has a q\^2, or 4% chance of
 They now have to decide whether they should include my transaction in their block. The expected value of including my transaction is the chance that my block is included times the block reward, plus the transaction fee that I pay. The expected value of not including my transaction is simply just the block reward, since all miners would be working on that chain.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!------------------------ 269. blacklisting: feather forking 4 (241) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image269.png"
@@ -8017,11 +8017,11 @@ One of the best examples of this sort of behavior is selfish mining.
 <h3>Selfish Mining Attacks</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!------------------------- 270. selfish mining: block withholding (244) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image270.png"
-   alt=""
+   alt="Selfish Mining: Block Withholding"
    width="65%" />
 </p>
 
@@ -8036,11 +8036,11 @@ Nobody else on the network can even attempt to solve the hash puzzle.
 This is called selfish mining, or block withholding.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!----------------------- 271. selfish mining: block withholding 2 (244) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image271.png"
-   alt=""
+   alt="Selfish Mining: Block Withholding 2"
    width="65%" />
 </p>
 
@@ -8061,11 +8061,11 @@ So, you can continue mining this way and continue cheating the system until the 
 You’ve guaranteed yourself more block reward than the honest network, and most importantly, you deny the honest network the chance to do any meaningful work because you have your own secret chain, and you can imimagestely invalidate the honest chain as soon as you publish your secret chain.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!----------------------- 272. selfish mining: block withholding 2 (245) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image272.png"
-   alt=""
+   alt="Selfish Mining: Block Withholding 3"
    width="65%" />
 </p>
 
@@ -8082,11 +8082,11 @@ The key thing to note here is that you assume that you as a malicious miner can 
 If you can’t, then your computation is the one that goes to waste.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!------------------- 273. selfish mining: block withholding 4 (245) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image273.png"
-   alt=""
+   alt="Selfish Mining: Block Withholding 4"
    width="65%" />
 </p>
 
@@ -8113,11 +8113,11 @@ We’ll first take a look at some of the more naive defenses, and see what we ca
 <h3>Block Validation</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!--------------------- 274. block validation: dummy block signatures (247) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image274.png"
-   alt=""
+   alt="Block Validation: Dummy Block Signatures"
    width="65%" />
 </p>
 
@@ -8127,7 +8127,7 @@ This technique was proposed by Schultz in 2015, and later by Solat and Potop-But
 
 The idea is that in addition to having regular blocks, we also create additional (dummy) blocks that contain signatures for that block.
 
-So, for any given block, it is easy to look at the corresponding dummy block to verify how many users have seen and signed off on that block.
+For any given block, it is easy to look at the corresponding dummy block to verify how many users have seen and signed off on that block.
 
 Blocks that are selfishly mined would only have been seen by the one withholding the blocks, and would not have sufficient signatures.
 
@@ -8154,11 +8154,11 @@ And furthermore, there’s no real way of determining how many signatures is eno
 For example…
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!------------------ 275. Block validation: dummy block signatures 2 (248) ----------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image275.png"
-   alt=""
+   alt="Block Validation: Dummy Block Signatures 2"
    width="65%" />
 </p>
 
@@ -8179,11 +8179,11 @@ Such a change would require a hard fork, which is undesirable.
 <h3>Fork Publishment</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!-------------------- 276. Fork Punishment: fork punishment rule (249) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image276.png"
-   alt=""
+   alt="Fork Punishment: Fork Punishment Rule"
    width="65%" />
 
 Another idea for a defense against selfish mining was fork-punishment, which was proposed by Lear Bahack in 2013.
@@ -8197,11 +8197,11 @@ This disincentivizes malicious users to attempt to fork the blockchain by workin
 In the diagram below, we see that there’s a fork, the top being the honest chain and the bottom being the dishonest chain.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!----------------------277. Fork Punishment: fork punishment rule 2 (250) ----------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image277.png"
-   alt=""
+   alt="Fork Punishment: Fork Punishment Rule 2"
    width="65%" />
 </p>
 
@@ -8222,7 +8222,7 @@ And in the end, fork punishment would require a hard fork to implement, and as b
 <h3>Uniform Tie-Breaking</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- tie-breaking: uniform tie-breaking(251) --------------------------->
+<!------------------------- 278. tie-breaking: uniform tie-breaking (251) ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image278.png"
@@ -8257,7 +8257,7 @@ In their paper, with their proposed uniform tie-breaking, they claimed that it r
 However, later in 2015, a separate paper published by Sapirshtein proposed a more optimal selfish mining strategy that reduced the profit threshold down to 23.2%.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- tie-breaking: unforgettable timestamps (252) ------------------------->
+<!----------------------- 279. tie-breaking: unforgettable timestamps (252) ---------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image279.png"
@@ -8290,7 +8290,7 @@ Tie-breaking rules only apply when there’s a block propagation race, NOT when 
 And as it turns out, it has been shown that if an attacker has a large amount of computational power, say greater than 40%, then these tie-breaking defenses against selfish mining are essentially worthless.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ tie-breaking: unforgettable timestamps (253) -------------------------->
+<!---------------------- 280. tie-breaking: unforgettable timestamps (253) ----------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image280.png"
@@ -8307,11 +8307,11 @@ And another thing you might have realized is that this defense requires a truste
 The drawback here is that Bitcoin aims to be as decentralized as possible, and while this might work with other systems, centralization certainly doesn’t mix with Bitcoin’s philosophy.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- tiebreaking: unforgetable timestamps (254) --------------------------------->
+<!----------------------- 281. tiebreaking: unforgetable timestamps 2 (254) ---------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image281.png"
-   alt="Tiebreaking: Unforgetable Timestamps"
+   alt="Tiebreaking: Unforgetable Timestamps 2"
    width="65%" />
 </p>
 
@@ -8320,7 +8320,7 @@ We’ll skip this for now.
 <h3>Publish or Perish: Overview</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------- zang and preneel, publish or perish (2017)(254) ------------------------>
+<!-------------------- 282. zang and preneel, publish or perish (2017)(254) ---------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image282.png"
@@ -8329,7 +8329,7 @@ We’ll skip this for now.
 </p>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!-------------------- 283. zang and preneel, publish or perish (2017) #2 (255) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image283.png"
@@ -8338,7 +8338,7 @@ We’ll skip this for now.
 </p>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!-------------------- 284. zang and preneel, publish or perish (2017) #3 (255) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image284.png"
@@ -8379,7 +8379,7 @@ On the left side, a block is received withing tau time, so that block is in comp
 On the right side, the block received has a height value that’s one greater than the local head, so we just append it to the blockchain.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------- Publish or Perish: Zang and Preneel (256) --------------------------->
+<!-------------------- 285. zang and preneel, publish or perish (2017) #4 (256) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image285.png 
@@ -8397,7 +8397,7 @@ And for the uncle of B to be in time, it must be within tau time of B’s parent
 The diagram on the right side nicely summarized the definition of an uncle block.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------- Publish or Perish: Weighted Fork Resolving Policy (257) -------------------->
+<!------------------ 286. zang and preneel, publish or perish (2017) #5 (257) -------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image286.png
@@ -8445,7 +8445,7 @@ So now that we’ve spent all this time defining all these terms and procedures,
 Here’s the general scenario.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ Publish or Perish: Selfish Miners ------------------------------->
+<!------------------ 287. zang and preneel, publish or perish (2017) #6 (257) -------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image287.png
@@ -8467,7 +8467,7 @@ The key takeway is that no matter which option the selfish miner chooses in the 
 <h3>Publish or Perish: Analysis</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- Publish or Perish: Analysis ----------------------------------->
+<!------------------ 288. zang and preneel, publish or perish (2017) #7 (257) -------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image288.png
@@ -8482,18 +8482,18 @@ In the diagram on the bottom, the dark circles represent blocks that are found b
 
 The circle and triangle outlines represent a count in the weight of the selfish and honest chains, respectively, and as always, blocks are mined from left to right.
 
-So imagine at this point in time, as before, the selfish miner has one block, let’s call it S, and the honest network just published a competitor to S.
+Imagine at this point in time, as before, the selfish miner has one block, let’s call it S, and the honest network just published a competitor to S.
 
 In option 1, the selfish miner chooses to publish S. Since S is published within tau time of the honest competitor, it counts into the weight of the selfish chain.
 
 However, since S then becomes an uncle to the next honest block, it also counts into the weight of the honest chain.
 
-So, S counts into the weight of both the honest and selfish chains.
+S counts into the weight of both the honest and selfish chains.
 
 Fast forward to the point in time where we the have diagram below, both the honest and selfish chains have a weight of 3 despite the fact that there are only two honest blocks but three selfishly mined blocks
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------------- Publish or Perish: Option 2 ---------------------------------->
+<!------------------ 289. zang and preneel, publish or perish (2017) #8 (2xx) -------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image289.png
@@ -8521,7 +8521,7 @@ This completely nullifies the advantage of having S in the first place.
 Here are a couple graphs on the expected revenue of selfish miners when publish or perish is in effect.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------------- Publish or Perish: Graphs ----------------------------------->
+<!------------------- 290. zang and preneel, publish or perish (2017) #9 (2) --------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image290.png
@@ -8539,7 +8539,7 @@ Optimal tie breaking is the theoretical optimal defense that always rejects self
 Notice that publish or perish even outperforms this theoretical optimal tie breaking defense.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- Publish or Perish: Limitations -------------------------------->
+<!------------------- 291. zang and preneel, publish or perish (2017) #10 (257) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image291.png
