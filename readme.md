@@ -3884,6 +3884,9 @@ Before sending out her message, Alice signs her message with her private key.
 
 This generates a unique signature that proves that she created the message as it is.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------ 117. digital signature schemes: example (116) ------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -3907,6 +3910,9 @@ The idea is that the message is the main payload, and the signature can be used 
    width="65%" />
 </p>
 &nbsp;
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 Bob is then able to easily verify that the signature is valid, given Alice’s public key and the original message.
 
@@ -3937,10 +3943,10 @@ We’ll see how this is prevented in the next section, where we explain the way 
 <h3>DSS Key Definitions and Takeways</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!------------------- 115. digital signature schemes: security definition (117) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image116.png" 
+<img src="/images/image115.png" 
    alt=" "
    width="65%" />
 </p>
@@ -3964,14 +3970,17 @@ Finally, message recipients should also be able to verify message integrity.
 
 And this is what we saw earlier: that signatures can be used so that messages can't be modified by anyone after signing.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <h3>From Private Keys to Addresses</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!-------------------- 116. keys and addresses: before the technical stuff (118)  ---------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image117.png" 
-   alt=" "
+<img src="/images/image116-keys-and-addresses.png" 
+   alt="Keys and Addresses: Before the Technical Stuff"
    width="65%" />
 </p>
 &nbsp;
@@ -3993,10 +4002,10 @@ A private key wouldn’t be so private if we could guess the private key from th
 Alright, so let’s take a look at elliptic curves first.
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
+<!------------------ 117. elliptic curve cryptography: part 1: elliptic curve (119) -------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image118.png" 
+<img src="/images/image117-cryptography-part1.png" 
    alt=" "
    width="65%" />
 </p>
