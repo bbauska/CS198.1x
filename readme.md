@@ -3348,6 +3348,9 @@ The block header is simply the hash of all these fields concatenated.
 
 Let’s first take a look at the Merkle Root.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <h3 id="ch3-5">3.5 Merkle Trees:</h3>
 
 <!------------------------------------------------------------------------------------------------>
@@ -3390,6 +3393,9 @@ We hash each one to get a level of hashes.
 
 We then hash each pair together, making a new level with half as many hashes.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <!------------------------------------------------------------------------------------------------>
 <!------------------- 99.  a tamper-evident database: protecting the chain (101) ----------------->
 <!------------------------------------------------------------------------------------------------>
@@ -3424,8 +3430,11 @@ This is demonstrated in the following diagram: when Transaction 3 is changed, th
 
 Because of that, the hash above it is also effective, propagating all the way up to the topmost level.
 
-<h3>Merkle Trees: Proof of Inclusion</h3>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
+<h3>Merkle Trees: Proof of Inclusion</h3>
 <!------------------------------------------------------------------------------------------------>
 <!---------- 100. A Tamper-Evident Database: Merkle Branch & Proof of Inclusion (102) ------------>
 <!------------------------------------------------------------------------------------------------>
@@ -3459,6 +3468,9 @@ This is actually a great efficiency gain as our tree grows larger.
    width="65%" />
 </p>
 &nbsp;
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 It’s pretty obvious what the Previous Block Hash does: It merely contains the hash of the previous block.
 
@@ -3485,10 +3497,13 @@ Here’s an example of what happens when that tampered Merkle Root from before m
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image105-tamper.png"
-   alt="A Tamper-Evident Database: Protecting the Chain"
+   alt="A Tamper-Evident Database: Nonce"
    width="65%" />
 </p>
 &nbsp;
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 It changes the block header, which changes the next block’s Prev Block Hash, which affects the rest of the future block hashes as well.
 
@@ -3501,10 +3516,10 @@ Proof-of-Work: Partial Preimage Hash Puzzle
 Now that we’ve finished talking about how Prev Block Hashes, let’s talk about the **nonce**, the physical manifestation of Proof-of-Work.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 105. a tamper-evident database: nonce (105) -------------------------->
+<!------------------------- 109. a tamper-evident database: nonce (105) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image105-tamper-nonce.png"
+<img src="/images/image109.png"
    alt="A Tamper-Evident Database: Nonce"
    width="65%" />
 </p>
@@ -10620,7 +10635,7 @@ We wish you all the best on the rest of your blockchain journey!
 
 the end…&nbsp;<br/>
 <b><i>readme.md</i></b>&nbsp;<br/>
-<b><i>Last Updated: 4/23/2022 (Saturday) 12:51pm+</i></b>
+<b><i>Last Updated: 4/24/2022 (Sunday) 12:57pm+</i></b>
 
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
