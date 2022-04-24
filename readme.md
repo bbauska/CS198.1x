@@ -3548,6 +3548,9 @@ The way we do this in Bitcoin is with a partial preimage hash puzzle.
    width="65%" />
 </p>
 &nbsp;
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 Keep in mind the definition of preimage from before, which was the input.
 
@@ -3589,6 +3592,10 @@ And finally, an easily verifiable puzzle ensures that computers don’t have to 
 
 It should just take one hash for example to prove that some nonce is correct, even if finding the nonce takes millions of tries.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3 id="ch3-6">3.6 Proof-of-Work: Mining</h3>
 
 <!------------------------------------------------------------------------------------------------>
@@ -3619,12 +3626,15 @@ This compares to mining because miners are looking for some hash output that is 
 
 It’s as if that target is the green line dividing the valid and invalid blocks in the diagram.
 
-<h3>Proof-of-Work: Block Difficulty</h3>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
+<h3>Proof-of-Work: Block Difficulty</h3>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------- 108. proof-of-work: block difficulty (108) --------------------------->
 <!------------------------------------------------------------------------------------------------>
-<<p align="center" width="100%">
+<p align="center" width="100%">
 <img src="/images/image108.png" 
    alt="A Tamper-Evident Database: Block Difficulty"
    width="65%" />
@@ -3663,6 +3673,9 @@ We make adjustments on the puzzle difficulty accordingly going forward.
 
 A quick sanity check to see if your understanding is correct.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------- 109. proof-of-work: block difficulty (109) --------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -3700,6 +3713,9 @@ The puzzle was precisely as hard as we wanted, so the difficulty stays exactly t
    width="65%" />
 </p>
 &nbsp;
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 What about when the time to mine those 2016 blocks is just one week?
 
@@ -3747,6 +3763,10 @@ This coinbase transaction grants miners a reward of some bitcoins which can be s
 
 This is how new bitcoins are minted, or introduced, into the network.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 Also, the Coinbase transaction has a separate nonce field that is used in our hash puzzle as well.
 <!------------------------------------------------------------------------------------------------>
 <!------------------------ 114. proof-of-work: mining pseudocode (112) --------------------------->
@@ -3777,6 +3797,9 @@ Also, the Coinbase transaction has a separate nonce field that is used in our ha
    width="65%" />
 </p>
 &nbsp;
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 Here's some mining pseudo code.
 
@@ -3815,6 +3838,10 @@ In this next section, we’ll go over what we want from a digital signature sche
    width="65%" />
 </p>
 &nbsp;
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 Consider two users on the network: call them Alice and Bob.
 
@@ -3875,7 +3902,7 @@ The idea is that the message is the main payload, and the signature can be used 
 <!----------------------- 117. digital signature schemes: example (116) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image117-dss-5"
+<img src="/images/image117-dss-5.png"
    alt="Digital Signature Schemes (DSS): Example: Bob Can Easily Verify if Alice Signed"
    width="65%" />
 </p>
