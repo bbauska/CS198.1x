@@ -5584,6 +5584,10 @@ And the president would have the most power.
 
 Everyone’s key originates in some way from the president’s master key, so the president would be able to spend from everyone’s wallet.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3 id="ch4-4">4.4 Intro: Mining</h3>
 
 We’ve talked about consensus and Proof-of-Work, but we haven’t really talked about the implementation of mining in Bitcoin.
@@ -5623,6 +5627,10 @@ Step 5, if your block gets included in the longest chain: profit!
 
 Let’s go into detail on how each of these steps plays out.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3>Recipe for Mining: Step 0</h3>
 
 <!------------------------------------------------------------------------------------------------>
@@ -5660,6 +5668,9 @@ Now that we have the full history, let’s go ahead and get started with mining!
    alt="Recipe for Mining: Step 1: Verify Transactions"
    width="65%" />
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Step 1, Verify Transactions</h3>
 
@@ -5691,6 +5702,10 @@ After validating all these transactions, it’s time to generate a block.
 As previously mentioned, there are several pieces of information necessary to construct a block, For example, the Merkle Root, which we generate from our list of transactions.
 
 After constructing the block data, we are finally able to start working on the most expensive part of the mining process, the step that earned this whole process of Proof-of-Work the “mining” title: finding a valid nonce.
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Recipe for Mining: Step 3</h3>
 
@@ -5737,6 +5752,9 @@ We go through these loops until finally we find a valid nonce.
    width="65%" />
 &nbsp;
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 After finding the nonce, the typical miner broadcasts it as soon as possible so that other miners are aware that a block was found.
 
@@ -5790,6 +5808,10 @@ Text: Recipe for Mining:
 
 Author: Rea Savla
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3>Step 0:</h3>
 
 -   Download the entire Bitcoin blockchain. This only has to be done once. 
@@ -5829,6 +5851,9 @@ Author: Rea Savla
    width="65%" />
 &nbsp;
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Step 2:</h3>
 
@@ -5867,6 +5892,9 @@ Author: Rea Savla
    alt="Step 3: Find the proof-of-work that solves the partial preimage hash puzzle"
    width="65%" />
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Step 4:</h3>
 
@@ -5895,9 +5923,9 @@ Author: Rea Savla
 
     -   Note: When two valid blocks are submitted to the network at roughly the same time, resulting in a fork, honest miners choose to mine on whichever block they see first. You will not receive block reward if the other fork grows longer. 
 
-<h3>Mining Incentives: Intro
+<h3>Mining Incentives: Intro</h3>
 
-So why do we do things?
+Why do we do things?
 
 Why do we work at a job?
 
@@ -5929,6 +5957,9 @@ In fact, any type of incentive mechanisms within blockchain protocols focus on a
    alt="Mining Incentives: What is Profit?"
    width="65%" />
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 Pay good attention to this slide.
 
@@ -5963,6 +5994,9 @@ First, we’ll start by discussing the block reward, the most significant source
    alt="Mining Incentives: Block Reward"
    width="65%" />
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 The block reward is a reward that goes to a miner whose block is included in the longest chain.
 
@@ -6000,6 +6034,10 @@ For example, approximately 1 million belongs to Satoshi Nakamoto, and it is poss
 
 In addition, some private keys have been lost, and some bitcoins have been burned, all decreasing the usable supply cap.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3>Mining Incentives: Transaction Fees</h3>
 
 <!------------------------------------------------------------------------------------------------>
@@ -6030,6 +6068,10 @@ What this means is that the overall transaction fees for their block will be max
 Notice one thing as the block reward diminishes, transaction fees will go up if miners seek the same amount of profit in bitcoins.
 
 As block rewards approach zero, transaction fees will become the primary source of revenue for miners.
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Mining Costs: Fixed Costs</h3>
 
@@ -6087,6 +6129,10 @@ They are an order of magnitude faster than CPUs when it comes to computing, mean
 
 If you look in the chart, you’ll see that in order to mine a block, GPUs only take about a mere 762 thousands years!
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 GPU miners were most common about 6 years ago, back in 2012, when still not many people had heard of Bitcoin.
 
 They were repurposed from gaming to mining, providing GPU miners a significant advantage above CPU miners.
@@ -6126,6 +6172,9 @@ However, FPGAs were only used briefly, because much more powerful hardware quick
    alt="Mining Incentives: Fixed Cost: ASIC Mining"
    width="65%" />
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 ASICs, or Application Specific Integrated Circuits, are mentioned throughout the Bitcoin ecosystem.
 
@@ -6170,6 +6219,9 @@ As we know, there’s several different costs of energy consumed in the process 
    alt="Mining Incentives: Operating Costs"
    width="65%" />
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 These energy costs come in multiple forms, but primarily the following three.
 
@@ -6207,6 +6259,10 @@ In this section, we’ll see what mining operations look like in the real world.
 Theory and practice often differ in a lot of scenarios, and this is definitely the case in Bitcoin.
 
 We’ll see that while the initial goal of Bitcoin was to be decentralized, honoring the “one CPU one vote” mantra, this could not be farther from the truth.
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>ASICs</h3>
 
@@ -6254,6 +6310,10 @@ This particular photo was taken from an online listing that rented out Antminer 
 But of course, even with the most impressive technology, it still takes far too long to find a block.
 
 Is there any way that we can reduce the amount of time it takes for us to get profit from our hardware?
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Mining Pools</h3>
 
@@ -6316,6 +6376,10 @@ If a miner wants to get rewards for themselves, they’d have to change the coin
 
 Thus, they wouldn’t get any shares from the mining pool, since the mining pool manager would see that the miner’s coinbase transaction does not pay to the manager’s address.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3>Mining Pool Schemes</h3>
 
 <!------------------------------------------------------------------------------------------------>
@@ -6369,6 +6433,10 @@ This is a demonstration of several different payout schemes that have been thoug
 The point is that there are many ways to go about paying miners, and each one has a different set of incentive tradeoffs.
 
 It all depends on the size and assumptions of the mining pool.
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Mining Pool Pros and Cons</h3>
 
@@ -6426,6 +6494,10 @@ Because of this, the graph is only a high-level estimate.
 
 We don’t know the true concentration of control over mining hardware, and we may never know.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3>Mining Pool Stats</h3>
 
 <!------------------------------------------------------------------------------------------------>
@@ -6475,15 +6547,19 @@ And anyways, your ASICs will probably be really out of date in a couple years, s
 
 This leads to the paradox that: the more secure Bitcoin gets, with more and more hash power, the greater the appeal is for joining a mining pool, since your individual hash power decreases when more hash power joins the network.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3>Types of Miners</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!--------  ---------->
+<!--------------------- 213. real world mining: which miner are you? (192) ----------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image213.png" 
-	alt=""
-	style="width:5in;height:2.8368in" />
+   alt="Real World Mining: Which Miner are You?"
+   width="65%" />
 </p>
 
 Of course, remember that there are various types of miners.
@@ -6579,10 +6655,12 @@ In this section, we’ll be specifically talking about concerns of mining centra
 <h3>Ensuring Decentralization</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!------------------------- 214. decentralizing mining: the problem (195) ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image214.png" style="width:5in;height:2.84967in" />
+<img src="/images/image214.png"
+   alt=""
+   width="65%" />
 
 Right now, one of the big features of Bitcoin, as well as other cryptocurrencies is the fact they can theoretically be mined in a decentralized manner.
 
@@ -6598,8 +6676,9 @@ This means that only people with the enough capital can acquire them, centralizi
 <!------------------- Decentralized Mining: Puzzle Requirements Review --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="65%" src="/images/image215.png" 
-	alt="Decentralized Mining: Puzzle Requirements Review"</>
+<img src="/images/image215.png"
+   alt="Decentralized Mining: Puzzle Requirements Review"
+   width="65%" />
 </p>
 
 We’re going to attempt to address the problem of mining centralization by considering the design of the underlying hash puzzle, and see if there’s any way we can redesign it.
@@ -6632,8 +6711,9 @@ You don’t have to find the exact preimage of the hash, as long as you have the
 <!--------------------------- Decentralized Mining: ASIC-Resistance ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="65%" src="/images/image216.png" 
-	alt="Decentralized Mining: ASIC-Resistance" </>
+<img src="/images/image216.png"
+   alt="Decentralized Mining: ASIC-Resistance"
+   width="65%" />
 </p>
 
 ASICs work because it’s easy to create hardware to compute just a certain puzzle.
@@ -6658,8 +6738,9 @@ This means that ASICs that are built for Bitcoin don’t work for Dogecoin or Li
 <!-------------------------------- Decentralized Mining: Scrypt ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img width="65%" src="/images/image217.png" 
-	alt="Decentralized Mining: Scrypt" </>
+<img src="/images/image217.png"
+	alt="Decentralized Mining: Scrypt"
+   width="65%" />
 </p>
 
 Scrypt was originally designed to secure passwords and make them hard to brute force, so a memory-bound type of problem makes sense.
@@ -6674,8 +6755,9 @@ Looking something up is easy, since you just find the index of the datum you wan
 <!--------------------------- Decentralized Mining: Scrypt part II ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img width="65%" src="/images/image218.png" 
-	alt="Decentralized Mining: Scrypt - part II" </>
+<img src="/images/image218.png"
+   alt="Decentralized Mining: Scrypt - part II"
+   width="65%" />
 </p>
 
 However, if the data is interdependent on other pieces of data, you have to look up those too.
@@ -6702,8 +6784,9 @@ The idea was that it’s much harder to create an ASIC that can deal with so man
 <!-------------------------- Decentralized Mining: ASIC Resistance ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img width="65%" src="/images/image219.png" 
-	alt="Decentralized Mining: ASIC Resistance" </>
+<img src="/images/image219.png"
+   alt="Decentralized Mining: ASIC Resistance"
+   width="65%" />
 </p>
 
 And that was the idea behind x11 and x13, which chain together 11 and 13 different hash functions together respectfully.
@@ -6732,7 +6815,9 @@ In cryptocurrencies, that can take the form of working to create ASICs for new h
 <!---------------------- --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="40%" src="/images/image220.png" alt="Decentralized Mining: ASIC Resistance"</>
+<img src="/images/image220.png"
+   alt="Decentralized Mining: ASIC Resistance"
+   width="65%" />
 </p>
 
 Mike Hearn, a Bitcoin Core developer said (quote) “There’s really no such thing as an ASIC-resistant algorithm.”
@@ -6743,7 +6828,9 @@ Mike Hearn, a Bitcoin Core developer said (quote) “There’s really no such th
 <!---------------------- --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="40%" src="/images/image221.png" alt="Decentralized Mining: ASIC Resistance"</>
+<img src="/images/image221.png"
+   alt="Decentralized Mining: ASIC Resistance"
+   width="65%" />
 </p>
 
 As it turns out, ASIC resistance might actually not be that great of an idea.
@@ -6775,10 +6862,12 @@ This idea of useless hardware and wasted hashpower leads us to our next slide.
 <h3>Eliminating Waste</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------- --------------------------->
+<!------------------ 222. proof-of-useful-work: not a puzzling concept (202) --------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="65%" src="/images/image222.png" alt="Proof-of-Useful-Work: Puzzling Concept"</>
+<img src="/images/image222.png"
+   alt="Proof-of-Useful-Work: Puzzling Concept"
+   width="65%" />
 </p>
 
 Since so much computational power is being expended to solve cryptographic puzzles, which at their core are just pumping out random numbers, why not make those puzzles something that can be useful to the rest of the world?
@@ -6996,11 +7085,11 @@ The main variable costs associated with mining are energy and infrastructure cos
 To get a better sense of how mining looks in real life, here is what a real-world ASIC mining farm in China looks like:
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------- --------------------------->
+<!-------------------------- 228. real world photo mining bitcon (210) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image228.png" 
-   alt="Real World Mining"</>
+<img src="/images/image228.png"
+   alt="Real World Mining"
    width="100%" />
 </p>
 
@@ -7028,7 +7117,7 @@ Real changes are implemented in Bitcoin via hard or soft forks. Hard forks resul
 
 <h3>Hard Fork:</h3>
 <!------------------------------------------------------------------------------------------------>
-<!---------------------- Hard fork real changes implemented in Bitcoin --------------------------->
+<!-------------------- 229. Hard fork real changes implemented in Bitcoin ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image229.png" 
@@ -7038,7 +7127,7 @@ Real changes are implemented in Bitcoin via hard or soft forks. Hard forks resul
 
 <h3>Soft Fork:</h3>
 <!------------------------------------------------------------------------------------------------>
-<!---------------------- Soft fork real changes implemented in Bitcoin --------------------------->
+<!-------------------- 230. Soft fork real changes implemented in Bitcoin ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image230.png"
@@ -7089,7 +7178,7 @@ And when it comes to making the most profit, honest strategies are NOT usually t
 <h3>Pool Reward Scheme Review</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- Pool Reward Schemes: Reviews ------------------------------->
+<!----------------------------- Pool Reward Schemes: Reviews (213) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image231.png" 
@@ -7106,7 +7195,7 @@ One issue is that there’s no incentive for a miner to actually submit valid bl
 Miners will stop doing work on their current block as soon as it satisfies the near-valid block requirements.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- Pool Reward Schemes: Proportional ------------------------------->
+<!--------------------------- Pool Reward Schemes: Proportional (214) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image232.png"
@@ -7128,7 +7217,7 @@ Given the incentive structures in both pay per share and proportional pool pay-o
 
 <h3 id="ch5-2">5.2 Pool Hopping</h3>
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- Pool Rewards: Pool Hopping Strategy ------------------------------>
+<!-------------------------- Pool Rewards: Pool Hopping Strategy (215) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image233.png" 
@@ -9429,25 +9518,31 @@ You can write contracts that call other contracts, perhaps using them as a softw
 
 For example, you can define m of n multisignature, which is also something we looked at when we studied Bitcoin.
 
+<!------------------------------------------------------------------------------------------------>
+<!------------ 325. ethereum virtual machine: distr, verification & consensus (###) -------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image325.png" 
    alt=""
-   width="65%" </>
-</p>
-
-<p align="center" width="100%">
-<img src="/images/image326.png" 
-   alt=""
-   width="65%" </>
+   width="65%" />
 </p>
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------- 327. (###) -------------------------->
+<!-------------------------- 326. module 1: everyone's the bank (296) ---------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image326.png" 
+   alt="Module 1: Everyone's the Bank"
+   width="65%" />
+</p>
+
+<!------------------------------------------------------------------------------------------------>
+<!------------ 327. ethereum virtual machine: distr, verification & consensus (###) -------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image327.png" 
-   alt=""
-   width="65%" </>
+   alt="Ethereum Virtual Machine"
+   width="65%" />
 </p>
 
 <!------------------------------------------------------------------------------------------------>
@@ -9471,7 +9566,7 @@ For example, you can define m of n multisignature, which is also something we lo
 </p>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------  -------------------------->
+<!--------------------- 330. (###) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image330.png" 
@@ -9480,7 +9575,7 @@ For example, you can define m of n multisignature, which is also something we lo
 </p>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------  -------------------------->
+<!--------------------- 331. (###) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image331.png" 
@@ -9516,7 +9611,7 @@ Smart contracts written in these high level programming languages have to be com
 We go from a higher level, human readable language, and compile that down into EVM code, which is lower level, simpler language -- much easier for a machine to understand and execute.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------  -------------------------->
+<!--------------------- 333. (###) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image333.png" 
@@ -10800,7 +10895,7 @@ We wish you all the best on the rest of your blockchain journey!
 
 the end…&nbsp;<br/>
 <b><i>readme.md</i></b>&nbsp;<br/>
-<b><i>Last Updated: 4/24/2022 (Sunday) 12:57pm+</i></b>
+<b><i>Last Updated: 4/24/2022 (Sunday) 9:39pm+</i></b>
 
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
