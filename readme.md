@@ -6267,7 +6267,7 @@ We’ll see that while the initial goal of Bitcoin was to be decentralized, hono
 <h3>ASICs</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!-------- Real World Mining: Chinese ASIC Mining Farm ---------->
+<!------------------- 206. Real World Mining: Chinese ASIC Mining Farm (184) --------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image206.png" 
@@ -6318,7 +6318,7 @@ Is there any way that we can reduce the amount of time it takes for us to get pr
 <h3>Mining Pools</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!-------- Real World Mining: Mining Pools ---------->
+<!------------------------- 207. Real World Mining: Mining Pools (186) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image207.png" 
@@ -6420,7 +6420,7 @@ This is more advantageous for the pool, as they’ll never pay out more money th
 Because of the difficulty of buy-in, proportional schemes aren’t seen often, if ever, in the mining world.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------- Pool Rewards: Other Reward Schemes ---------->
+<!------------------------ 209. Pool Rewards: Other Reward Schemes (188) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image209.png" 
@@ -6441,12 +6441,12 @@ It all depends on the size and assumptions of the mining pool.
 <h3>Mining Pool Pros and Cons</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!-------- Real World Mining: Mining Pools: Pros and Cons ---------->
+<!------------------ 210. Real World Mining: Mining Pools: Pros and Cons (189) ------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image210.png" 
-	alt="Real World Mining: Mining Pools: Pros and Cons"
-	style="width:5in;height:2.8368in" />
+<img src="/images/image210.png"
+   alt="Real World Mining: Mining Pools: Pros and Cons"
+   width="65%" />
 </p>
 
 So now that we’re familiar with mining pool schemes, we can talk about the pros and cons of mining pools.
@@ -6468,12 +6468,12 @@ On top of that, a multitude of attacks are enabled by mining pools, which we wil
 The community typically dislikes large mining pools.
 
 <!------------------------------------------------------------------------------------------------>
-<!--------  ---------->
+<!------------------------ 211. real world mining: mining poools:  (191) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image211.png" 
-	alt=""
-	style="width:5in;height:2.8368in" />
+   alt="Real World Mining: Mining Pools"
+   width="65%" />
 </p>
 
 For example, GHash.io once approached 65% of the network mining power.
@@ -6501,12 +6501,12 @@ We don’t know the true concentration of control over mining hardware, and we m
 <h3>Mining Pool Stats</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!--------  ---------->
+<!------------------ 212. real world mining: mining poools: quick facts (191) -------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image212.png" 
-	alt=""
-	style="width:5in;height:2.8368in" />
+<img src="/images/image212.png"
+   alt="Real World Mining: Mining Pools"
+   width="65%" />
 </p>
 
 This will be a rundown to show the contrast between solo mining and pool mining.
@@ -6584,6 +6584,10 @@ Supplement: Lightweight Mining
 
 Author: David Luo
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3>Overview</h3>
 
 Simple Payment Verification (SPV) is a method for verifying if particular transactions are included in a block by only having to download the block headers of each block, instead of the entire block, which includes all of the transactions.
@@ -6628,6 +6632,10 @@ Similar to getblocktemplate, the server sends the client a block template.
 
 However, in Stratum only the block header and first transaction are included, instead of the entire block.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3>Validationless Mining</h3>
 
 In order to mine, a client needs to have the block header hash of the previous block, which comes from the block header of the previous block, which in turn is generated from previous block.
@@ -6659,8 +6667,12 @@ In this section, we’ll be specifically talking about concerns of mining centra
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image214.png"
-   alt=""
+   alt="Decentralizing Mining: The Problem"
    width="65%" />
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 Right now, one of the big features of Bitcoin, as well as other cryptocurrencies is the fact they can theoretically be mined in a decentralized manner.
 
@@ -6705,6 +6717,10 @@ Bitcoin’s puzzle is described as a partial hash preimage puzzle.
 
 You don’t have to find the exact preimage of the hash, as long as you have the prerequisite number of leading zeros.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3>Ensuring Decentralization: ASIC Resistance</h3>
 
 <!------------------------------------------------------------------------------------------------>
@@ -6742,6 +6758,9 @@ This means that ASICs that are built for Bitcoin don’t work for Dogecoin or Li
 	alt="Decentralized Mining: Scrypt"
    width="65%" />
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 Scrypt was originally designed to secure passwords and make them hard to brute force, so a memory-bound type of problem makes sense.
 
@@ -6788,6 +6807,9 @@ The idea was that it’s much harder to create an ASIC that can deal with so man
    alt="Decentralized Mining: ASIC Resistance"
    width="65%" />
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 And that was the idea behind x11 and x13, which chain together 11 and 13 different hash functions together respectfully.
 
@@ -6859,6 +6881,10 @@ Mining pools have historically disbanded once they’ve gotten too large, since 
 
 This idea of useless hardware and wasted hashpower leads us to our next slide.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3>Eliminating Waste</h3>
 
 <!------------------------------------------------------------------------------------------------>
@@ -6925,6 +6951,10 @@ When we rely on a central authority or central entity to create the problem.
 
 In summary, proof of useful work sounds like a great idea, but it’s incredibly difficult to implement.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3>Consensus Updates: Bitcoin Core</h3>
 
 <!------------------------------------------------------------------------------------------------>
@@ -6983,6 +7013,10 @@ As seen in the bottom picture, the new and old nodes will accept blocks from the
 The new nodes then pressure the old nodes to adapt the new protocol, so that they’re not left behind.
 
 Before every fork, hard or soft, the entire community launches into debates about the future of Bitcoin.
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Consensus Updates: BIPs</h3>
 
@@ -7046,6 +7080,10 @@ We can make powerful generalizations using these 4 key characteristics, however 
 
 Image Source: [Mastering Bitcoin Opens in new window](https://github.com/bitcoinbook/bitcoinbook)
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3>II. Wallets</h3>
 
 The primary function of Bitcoin wallets is to keep track of your identity. In Bitcoin, a private key gives you a claim to your virtual identity; it unlocks your virtual identity and gives you access to your Bitcoin address. Wallets primarily store your private keys, but most wallet softwares also generate public/private keys with each new transaction and track your transactions. Unlike the physical wallets we use for money, Bitcoin wallets do not store physical bitcoins. They’re simply impossible to store. Hence, control over private keys is essentially control over identity and bitcoins.
@@ -7094,6 +7132,10 @@ To get a better sense of how mining looks in real life, here is what a real-worl
 </p>
 
 Image Source: [The Register Opens in new window](https://www.theregister.co.uk/2014/08/12/chinese_bitcoin_farms_from_scifi_to_scuzzy/)
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 Even with the most impressive technology, it still takes a great amount of time and power to find a block. Mining pools allow miners to join their hash power together so that they will collectively find blocks and collect rewards more often, reducing variance. As a member of a mining pool, your reward is calculated by the number of “shares” you contribute. A share is defined as a near valid block, used to estimate the mining power you contributed. More shares equals more attempts at finding a valid nonce equals a larger slice of the pie.
 
@@ -7150,6 +7192,10 @@ Readings
 (Optional) [Bitcoin Hash Rate vs Difficulty Opens in new window](https://bitcoinwisdom.com/bitcoin/difficulty) (play around with different variables!)
 
 (Optional) [BlockShell Opens in new window](https://github.com/rustielin/blockshell) (set up and play around with the CLI)
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h2 id="ch5">Module 5: How to Destroy Bitcoin: Game Theory & Attacks</h2>
 
@@ -8803,7 +8849,7 @@ Or 25%... or 23.2%....or 32%....
 Perhaps there’s an attack or selfish mining scheme that hasn’t been discovered yet that lowers the profit threshold even lower.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- Bitcoin Network: Different Propogation Times ------------------------->
+<!---------------------- 296. Bitcoin Network: Different Propogation Times ----------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image296.png
@@ -8831,7 +8877,7 @@ Miners who are better connected in the network see things faster and are able to
 Meanwhile, it’s possible that a poorly connected miner could spend all this time finding a block, and when it finally finds one, its propagation time could be so slow due to network latency that within that time, another miner would have already found and submitted a competing block to a majority of the network.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- Bitcoin Network: Sybil Attack Revisited --------------------------->
+<!------------------------- 297. Bitcoin Network: Sybil Attack Revisited ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image297.png 
@@ -8846,7 +8892,7 @@ Think back to the first module, where we discussed Sybil attacks and how it’s 
 Well, if we’re clever enough, we can launch a Sybil attack in another kind of way, leveraging what we just went over: network topology and latency.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------- Bitcoin Network: Flood the Network ----------------------------->
+<!---------------------------- 298. Bitcoin Network: Flood the Network --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image298.png 
@@ -10895,7 +10941,7 @@ We wish you all the best on the rest of your blockchain journey!
 
 the end…&nbsp;<br/>
 <b><i>readme.md</i></b>&nbsp;<br/>
-<b><i>Last Updated: 4/24/2022 (Sunday) 9:39pm+</i></b>
+<b><i>Last Updated: 4/25/2022 (Monday) 12:19pm+</i></b>
 
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
