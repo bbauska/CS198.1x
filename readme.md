@@ -9583,7 +9583,7 @@ For example, you can define m of n multisignature, which is also something we lo
 </p>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------ 327. ethereum virtual machine: distr, verification & consensus (295) -------------->
+<!------------ 327. standard bounty: ethereum virtual machine: distr, verification & consensus (295) -------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image327.png" 
@@ -9592,23 +9592,22 @@ For example, you can define m of n multisignature, which is also something we lo
 </p>
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------- 328. (###) -------------------------->
+<!------------------- 328. standard bounties: ethereum smart contracts (293) --------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image328.png" 
    alt=""
-   width="65%" </>
+   width="65%" />
 </p>
 
 <h3 id="ch6-3">6.3 Intro: Ethereum Virtual Machine</h3>
-
 <!------------------------------------------------------------------------------------------------>
-<!--------------------- 329. (###) -------------------------->
+<!---------------------------- 329b. ethereum virtual machine (293) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image329.png" 
-   alt=""
-   width="65%" </>
+<img src="/images/image329b.png" 
+   alt="Ethereum Virtual Machine"
+   width="65%" />
 </p>
 
 <!------------------------------------------------------------------------------------------------>
@@ -9765,11 +9764,11 @@ As of May 23rd, 2018, Ethereum has roughly 275,000 GH/s whereas Bitcoin has a wh
 <h3>Ethereum Virtual Machine: Overview</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------  -------------------------->
+<!-------------------- 331. evm: distributed verification & consensus (299) ---------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image329.png" 
-   alt=""
+<img src="/images/image331.png"
+   alt="EVM: Distributed Verification & Consensus"
    width="65%" />
 </p>
 
@@ -9780,11 +9779,11 @@ And just like before, Proof-of-Work is a competition, and only one miner is able
 Proof-of-Work is essentially a way to randomly select -- based on proportion of hash power -- one node’s execution result as the correct one to add to the blockchain.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------  -------------------------->
+<!----------------------- 332. evm gas fees: high-level overview #1 (299) ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image330.png"
-   alt=""
+<img src="/images/image332.png"
+   alt="EVM Gas Fees: High-Level Overview #1"
    width="65%" />
 </p>
 
@@ -9807,10 +9806,13 @@ If you’re familiar with the JVM, it’s like how JVM languages such as Java, S
 The fact that we can compile complex smart contract code into simple machine understandable instructions in the form of EVM code that all nodes in the network can execute in the same deterministic way provides the basis for consensus in Ethereum.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------  ---------------------------------->
+<!----------------------- 333. evm gas fees: high-level overview #2 (302) ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image331.png" style="width:5in;height:2.8125in" />
+<img src="/images/image333.png"
+   alt="EVM Gas Fees: High-Level Overview #2"
+   width="65%" />
+</p>
 
 Because every node in the Ethereum network is executing smart contracts, one imimageste issue we face is: What if a contract has an infinite loop?
 
@@ -9825,11 +9827,11 @@ And all of this leads to a very easy way for attackers to launch denial of servi
 by trapping computers around the world in an infinite loop, thereby making them unable to execute other more meaningful contracts.
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------- 332. -------------------------->
+<!----------------------- 334. evm gas fees: high-level overview #3 (301) ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image332.png" 
-   alt=""
+<img src="/images/image334.png"
+   alt="EVM Gas Fees: High-Level Overview #3"
    width="65%" />
 </p>
 
@@ -9842,11 +9844,11 @@ Every EVM op-code requires gas in order to execute -- thereby preventing the afo
 Every transaction specifies two parameters, “***startgas***”, or the maximum quantity of gas the transaction is willing to consume, and the “***gasprice***”, or the fee in ether the contract is willing to pay per unit gas.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------- 333.  ---------------------------------->
+<!----------------------- 335. evm gas fees: high-level overview #4 (302) ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image333.png"
-   alt=""
+<img src="/images/image335.png"
+   alt="EVM Gas Fees: High-Level Overview #4"
    width="65%" />
 </p>
 
@@ -9865,11 +9867,11 @@ The idea here is that although the contract execution gets reverted, someone on 
 This gives us two end states: either a program terminates or runs out of gas.
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------- 334.  ---------------------------------->
+<!---------------------- 336. evm gas fees: high-level overview #5 (303) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image334.png"
-   alt=""
+<img src="/images/image336.png"
+   alt="EVM Gas Fees: High-Level Overview #5"
    width="65%" />
 </p>
 
@@ -9884,11 +9886,11 @@ This thereby disincentivizes users from running expensive computations without h
 Since each computation requires gas, an attacker looking to DoS the network would need an absurdly large amount of ether, and since the attack is so costly, that pretty much disincentivizes this sort of attack.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 335. ---------------------------------->
+<!---------------- 337. ethereum network state: state transition function (303) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image335.png"
-   alt=""
+<img src="/images/image337.png"
+   alt="Ethereum Network State: State Transition Function"
    width="65%" />
 </p>
 
