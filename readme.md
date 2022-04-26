@@ -9460,11 +9460,11 @@ Another key difference is that Bitcoin is UTXO-based, whereas Ethereum is accoun
 <h3>Ethereum Features</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- 320. (###) --------------------------------->
+<!-------------------- 319. ethereum accounts: accounts vs utxo model (288) ---------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image320.png"
-   alt=""
+<img src="/images/image319.png"
+   alt="Ethereum Accounts: Accounts vs UTXO Model"
    width="65%" />
 </p>
 
@@ -9481,11 +9481,11 @@ Think back to the piggy bank analogy from module 1.
 In Ethereum, private keys prove ownership of an account, which tracks a current balance.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- 321. (###) --------------------------------->
+<!-------------------- 320. ethereum accounts: accounts rationale #2 (289) ----------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image321.png"
-   alt=""
+<img src="/images/image320.png"
+   alt="Ethereum Accounts: Accounts Rationale"
    width="65%" />
 </p>
 
@@ -9496,11 +9496,11 @@ Also, since our ultimate goal is to support smart contracts, it’s much cheaper
 In Ethereum, there are two types of accounts: externally owned accounts and contract accounts.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------- 322. ethereum smart contracts: control (###) --------------------------->
+<!----------------------- 321. ethereum accounts: account types (289) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image322.png"
-   alt="Ethereum Smart Contracts: Control"
+<img src="/images/image321.png"
+   alt="Ethereum Accounts: Account Types"
    width="65%" />
 </p>
 
@@ -9513,11 +9513,11 @@ Externally owned accounts contain an address that they use to let people send th
 This type of account can send transactions to transfer ether or to trigger contract code, which lives in contract accounts.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!--------------------------- 322. ethereum smart contracts: control ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image323.png"
-   alt=""
+<img src="/images/image322.png"
+   alt="Ethereum Smart Contracts: Control"
    width="65%" />
 </p>
 
@@ -9534,11 +9534,11 @@ Smart contracts react to the external world when they are poked by transactions,
 Smart contracts have direct control over an internal ether balance, internal contract state, and also permanent storage.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------- 324. Ethereum Virtual Machine: Compilation & Process ---------------------->
+<!------------- 323. Ethereum smart contracts: : smart contracts in ethereum (291) --------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image324.png" 
-   alt="Ethereum Virtual Machine: Compilation & Process"
+<img src="/images/image323.png" 
+   alt="Ethereum Smart Contracts: Smart Contracts in Ethereum"
    width="65%" />
 </p>
    
@@ -9565,11 +9565,11 @@ You can write contracts that call other contracts, perhaps using them as a softw
 For example, you can define m of n multisignature, which is also something we looked at when we studied Bitcoin.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------ 325. ethereum virtual machine: distr, verification & consensus (###) -------------->
+<!------------ 325. ethereum virtual machine: distr, verification & consensus (295) -------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image325.png" 
-   alt=""
+   alt="Ethreum Virtual Machine: Distributed Verification & Consensus: Distributed Computer"
    width="65%" />
 </p>
 
@@ -9689,10 +9689,10 @@ In module 1, the high-level overview of Bitcoin, we discussed how every full nod
 In Bitcoin, nodes come to consensus on the state of who owns which UTXOs.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------  -------------------------->
+<!--------------------- 327.  -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image325.png" 
+<img src="/images/image327.png" 
    alt=""
    width="65%" </>
 </p>
@@ -9704,10 +9704,10 @@ And in Ethereum...
 And how do nodes actually come to consensus?
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------  -------------------------->
+<!--------------------- 328. module 1: proof-of-work (297) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image326.png" 
+<img src="/images/image328.png" 
    alt=""
    width="65%" />
 </p>
@@ -9721,10 +9721,10 @@ The same distributed consensus protocol used in Bitcoin is also used in Ethereum
 Of course, there ARE differences between Ethereum’s and Bitcoin’s Proof-of-Work implementations, but the general concepts that we have learned in the past modules definitely still apply.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------  -------------------------->
+<!-------------------------- 329. module 1: proof-of-work works (297) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image327.png"
+<img src="/images/image329.png"
    alt=""
    width="65%" />
 </p>
@@ -9736,11 +9736,11 @@ There’s no real smart way to go about solving the hash puzzle, so miners have 
 And by tying voting power to computational power, a physical real-world resource, we can prevent naive Sybil attacks.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------  -------------------------->
+<!--------------------- 330. proof-of-work: comparison with bitcoin (298) ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image328.png" 
-   alt=""
+<img src="/images/image330.png" 
+   alt="Proof-of-Work: Comparison with Bitcoin"
    width="65%" />
 </p>
 
@@ -10210,7 +10210,7 @@ We can use prediction markets to “buy information.”
 As users have an incentive to monetize information while revealing as little of it as possible, we can set up a prediction market which asks a simple question, such as…
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------- Prediction Markets: And Decentralizing Them ---------------------------->
+<!------------------- 348. Prediction Markets: And Decentralizing Them (314) --------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image348.png 
@@ -10941,7 +10941,7 @@ We wish you all the best on the rest of your blockchain journey!
 
 the end…&nbsp;<br/>
 <b><i>readme.md</i></b>&nbsp;<br/>
-<b><i>Last Updated: 4/25/2022 (Monday) 12:19pm+</i></b>
+<b><i>Last Updated: 4/26/2022 (Tuesday) 9:15am+</i></b>
 
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
