@@ -9513,7 +9513,7 @@ Externally owned accounts contain an address that they use to let people send th
 This type of account can send transactions to transfer ether or to trigger contract code, which lives in contract accounts.
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------- 322. ethereum smart contracts: control ----------------------------->
+<!------------------------ 322. ethereum smart contracts: control (290) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image322.png"
@@ -9542,48 +9542,40 @@ Smart contracts have direct control over an internal ether balance, internal con
    width="65%" />
 </p>
    
-Ethereum smart contracts generally serve four main purposes.
-
-1.  They can be used to store and maintain data.
-
+Ethereum smart contracts generally serve four main purposes:
+<ol>
+<li>They can be used to store and maintain data.<br/>
 The data representing something useful to users or other contracts.
-
-For example, there could be a smart contract defining a new token currency, or perhaps a certain organization’s membership, which you have to pay a certain amount to obtain.
-
-1.  Smart contracts can also be used to manage a contract or relationship between untrusting users.
-
+For example, there could be a smart contract defining a new token currency, or perhaps a certain organization’s membership, which you have to pay a certain amount to obtain.</li>
+<li>Smart contracts can also be used to manage a contract or relationship between untrusting users.<br/>
 This is perhaps the most easily understood use of smart contracts, as it’s just running a regular contract but on the distributed Ethereum network.
-
-For example, you could have smart contracts that manage financial contracts, escrow, or insurance.
-
-1.  Smart contracts can also provide additional functionality to other contracts.
-
-You can write contracts that call other contracts, perhaps using them as a software library, leveraging the functionality of an existing contract.
-
-1.  And finally, smart contracts can be used for complex authentication use cases.
-
-For example, you can define m of n multisignature, which is also something we looked at when we studied Bitcoin.
+For example, you could have smart contracts that manage financial contracts, escrow, or insurance.</li>
+<li>Smart contracts can also provide additional functionality to other contracts.<br/>
+You can write contracts that call other contracts, perhaps using them as a software library, leveraging the functionality of an existing contract.</li>
+<li>And finally, smart contracts can be used for complex authentication use cases.<br/>
+For example, you can define m of n multisignature, which is also something we looked at when we studied Bitcoin.</li>
+</ol>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------ 325. ethereum virtual machine: distr, verification & consensus (295) -------------->
+<!---------------- 325b. ethereum smart contract: sample betting contract (295) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image325.png" 
-   alt="Ethreum Virtual Machine: Distributed Verification & Consensus: Distributed Computer"
+<img src="/images/image325b.png" 
+   alt="Ethereum Smart Contract: Sample Betting Contract"
    width="65%" />
 </p>
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------- 326. module 1: everyone's the bank (296) ---------------------------->
+<!------------------ 325c. standard bounties: ethereum smart contracts (296) --------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image326.png" 
-   alt="Module 1: Everyone's the Bank"
+<img src="/images/image325c.png"
+   alt="Standard Bounties: Ethereum Smart Contracts"
    width="65%" />
 </p>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------ 327. standard bounty: ethereum virtual machine: distr, verification & consensus (295) -------------->
+<!--- 327. standard bounty: ethereum virtual machine: distr, verification & consensus (295) ------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image327.png" 
@@ -9602,12 +9594,12 @@ For example, you can define m of n multisignature, which is also something we lo
 
 <h3 id="ch6-3">6.3 Intro: Ethereum Virtual Machine</h3>
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- 329b. ethereum virtual machine (293) ------------------------------>
+<!------------------------- 324b. ethereum virtual machine logo (293) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image329b.png" 
+<img src="/images/image324b.png"
    alt="Ethereum Virtual Machine"
-   width="65%" />
+   width="65%" </>
 </p>
 
 <!------------------------------------------------------------------------------------------------>
@@ -9637,7 +9629,15 @@ In this section, we’ll be looking at the Ethereum Virtual Machine -- the heart
 <h3>Understanding Ethereum Virtual Machine</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 324. ethereum virtual machine: compilation and process (295) ------------------>
+<!------------------------- 324b. ethereum virtual machine logo (293) ---------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image324b.png"
+   alt="Ethereum Virtual Machine"
+   width="65%" </>
+</p>
+<!------------------------------------------------------------------------------------------------>
+<!---------------- 324. ethereum virtual machine: compilation and process (294) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image324.png" 
