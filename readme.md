@@ -8517,7 +8517,7 @@ On the right side, the block received has a height value that’s one greater th
 <!-------------------- 285. zang and preneel, publish or perish (2017) #4 (256) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image285.png 
+<img src="/images/image285.png"
    alt="Publish or Perish: Zang and Preneel"
    width="65%" />
 </p>
@@ -8535,7 +8535,7 @@ The diagram on the right side nicely summarized the definition of an uncle block
 <!------------------ 286. zang and preneel, publish or perish (2017) #5 (257) -------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image286.png
+<img src="/images/image286.png"
    alt="Publish or Perish: Weighted Fork Resolving Policy"
    width="65%" />
 </p>
@@ -8583,7 +8583,7 @@ Here’s the general scenario.
 <!------------------ 287. zang and preneel, publish or perish (2017) #6 (257) -------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image287.png
+<img src="/images/image287.png"
    alt="Publish or Perish: Selfish Miners"
    width="65%" />
 </p>
@@ -8605,7 +8605,7 @@ The key takeway is that no matter which option the selfish miner chooses in the 
 <!------------------ 288. zang and preneel, publish or perish (2017) #7 (257) -------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image288.png
+<img src="/images/image288.png"
    alt="Publish or Perish: Analysis"
    width="65%" />
 </p>
@@ -8631,7 +8631,7 @@ Fast forward to the point in time where we the have diagram below, both the hone
 <!------------------ 289. zang and preneel, publish or perish (2017) #8 (2xx) -------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image289.png
+<img src="/images/image289.png"
    alt="Publish or Perish: Option 2"
    width="65%" />
 </p>
@@ -8659,7 +8659,7 @@ Here are a couple graphs on the expected revenue of selfish miners when publish 
 <!------------------- 290. zang and preneel, publish or perish (2017) #9 (2) --------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image290.png
+<img src="/images/image290.png"
    alt="Publish or Perish: Graphs"
    width="65%" />
 </p>
@@ -8677,7 +8677,7 @@ Notice that publish or perish even outperforms this theoretical optimal tie brea
 <!------------------- 291. zang and preneel, publish or perish (2017) #10 (257) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image291.png
+<img src="/images/image291.png"
    alt="Publish or Perish: Limitations"
    width="65%" />
 </p>
@@ -8746,10 +8746,10 @@ All my neighbors tell their neighbors, and their neighbors tell their neighbors,
 For example, if the network actually looked like this…
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- Bitcoin Network: A Closer Look -------------------------------->
+<!--------------------------- 292. Bitcoin Network: A Closer Look (264) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image292.png
+<img src="/images/image292.png"
    alt="Bitcoin Network: A Closer LOok"
    width="65%" />
 </p>
@@ -8772,7 +8772,7 @@ Bitcoin allows each node to have a maximum of 125 connections, and generally you
 To further understand how information propagates through the Bitcoin network, we have to understand the network topology and latency.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- Bitcoin Network: An Uneven Topology ------------------------------>
+<!-----------------------293. Bitcoin Network: An Uneven Topology (265) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image293.png
@@ -8801,7 +8801,7 @@ Let’s say Derrick has an incredibly high hash rate…
 
 It could be that he’s running a mining farm or pool.
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- Bitcoin Network: Uneven Influences ------------------------------->
+<!----------------------- 294. Bitcoin Network: Uneven Influences (266) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image294.png 
@@ -8829,7 +8829,7 @@ So all of Derrick’s miners form a secret subgraph essentially.
 And it turns out that due to this hidden graph topology, and the fact that Derrick could be multiple nodes on the network, possibly running multiple pools, Derrick could potentially hide the fact that he has more than 65% of the network hash power.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- Bitcoin Network: An Uneven Topology (3) -------------------------->
+<!--------------------- 295. Bitcoin Network: An Uneven Topology (3) (267) ----------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image295.png
@@ -8877,7 +8877,7 @@ Miners who are better connected in the network see things faster and are able to
 Meanwhile, it’s possible that a poorly connected miner could spend all this time finding a block, and when it finally finds one, its propagation time could be so slow due to network latency that within that time, another miner would have already found and submitted a competing block to a majority of the network.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 297. Bitcoin Network: Sybil Attack Revisited ------------------------->
+<!---------------------- 297. Bitcoin Network: Sybil Attack Revisited (268) ---------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image297.png 
@@ -10951,7 +10951,7 @@ We wish you all the best on the rest of your blockchain journey!
 
 the end…&nbsp;<br/>
 <b><i>readme.md</i></b>&nbsp;<br/>
-<b><i>Last Updated: 4/26/2022 (Tuesday) 9:15am+</i></b>
+<b><i>Last Updated: 4/26/2022 (Tuesday) 1:53pm+</i></b>
 
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
