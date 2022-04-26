@@ -9583,7 +9583,7 @@ For example, you can define m of n multisignature, which is also something we lo
 </p>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------ 327. ethereum virtual machine: distr, verification & consensus (###) -------------->
+<!------------ 327. ethereum virtual machine: distr, verification & consensus (295) -------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image327.png" 
@@ -9612,20 +9612,20 @@ For example, you can define m of n multisignature, which is also something we lo
 </p>
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------- 330. (###) -------------------------->
+<!--------------- 324. ethereum virtual machine: compilation and process (294) ------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image330.png" 
-   alt=""
+<img src="/images/image324.png"
+   alt="Ethereum Virtual Machine: Compilation and Process"
    width="65%" </>
 </p>
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------- 331. (###) -------------------------->
+<!--------------- 333. evm gas and fees: high-level overview: function foo (294) ----------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image331.png" 
-   alt=""
+<img src="/images/image333.png"
+   alt="EVM Gas and Fees: High-Level Overview: Function Foo"
    width="65%" </>
 </p>
 
@@ -9638,11 +9638,11 @@ In this section, we’ll be looking at the Ethereum Virtual Machine -- the heart
 <h3>Understanding Ethereum Virtual Machine</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------- 332. (###) -------------------------->
+<!---------------- 324. ethereum virtual machine: compilation and process (295) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image332.png" 
-   alt=""
+<img src="/images/image324.png" 
+   alt="Ethereum Virtual Machine: Compilation and Process"
    width="65%" </>
 </p>
 
@@ -9657,10 +9657,10 @@ Smart contracts written in these high level programming languages have to be com
 We go from a higher level, human readable language, and compile that down into EVM code, which is lower level, simpler language -- much easier for a machine to understand and execute.
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------- 333. (###) -------------------------->
+<!---------- 325. ethereum virtual machine: distributed verification & consensus (295) ----------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image333.png" 
+<img src="/images/image325.png"
    alt=""
    width="65%" </>
 </p>
@@ -9676,11 +9676,11 @@ Nodes then come to consensus on the new system state.
 This should be fairly familiar.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------  -------------------------->
+<!-------------------------- 326. module 1: everyone's the bank (296) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image324.png" 
-   alt=""
+<img src="/images/image326.png" 
+   alt="Module 1: Everyone's the Bank"
    width="65%" </>
 </p>
 
@@ -9689,7 +9689,7 @@ In module 1, the high-level overview of Bitcoin, we discussed how every full nod
 In Bitcoin, nodes come to consensus on the state of who owns which UTXOs.
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------- 327.  -------------------------->
+<!---------- 327. ethereum virtual machine: distributed verification & consensus (296) ----------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image327.png" 
@@ -9911,25 +9911,23 @@ And you feed this into the EVM, and get out the new block state, with all the up
 <h3>Ethereum Conclusions</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------- 336. ---------------------------------->
+<!------------------ 338. ethereum conclusions: it's not for everything (304) -------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image336.png"
-   alt=""
+<img src="/images/image338.png"
+   alt="Ethereum Conclusions: It's Not for Everything"
+   width="65%" />
+</p>
+<!------------------------------------------------------------------------------------------------>
+<!---------------- 338-2. ethereum conclusions: it's not for everything #2 (305) ----------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/image338-ethereum-conclusions.png"
+   alt="Ethereum Conclusions: It's Not for Everything: How Would you Decide Between Centralized & Decentralized?"
    width="65%" />
 </p>
 
-
-<!------------------------------------------------------------------------------------------------>
-<!-------------------------- 337.  ---------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image337.png"
-   alt=""
-   width="65%" />
-</p>
-
-So, some conclusions about Ethereum’s high level architecture.
+Some conclusions about Ethereum’s high level architecture.
 
 Ethereum’s main goal is not to optimize computational efficiency, but to enable distributed and trustless computation.
 
@@ -9940,7 +9938,16 @@ And this is all to efficiently reach consensus on the system state without needi
 And because contract executions are redundantly replicated across all nodes, execution is expensive.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 338. ---------------------------------->
+<!----------------- 339-2. ethereum conclusions: it's not for everything (305) ------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/image339-ethereum-blockchain-or-centralized.png"
+   alt="Ethereum Conclusions: It's Not for Everything: Blockchain or Centralized?"
+   width="65%" />
+</p>
+
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------- 338. basic use cases: smart assets (306) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image338.png"
@@ -9994,11 +10001,11 @@ Securing smart contracts is incredibly tough, as you may have figured out from r
 <h3>Basic Use Cases: Multisig</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------------ 340. multisig (305) --------------------------------------->
+<!---------------------------- 340. basic use cases: multisig (307) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image340.png" 
-   alt="Multisig"
+   alt="Basic Use Cases: Multisig"
    width="65%" />
 &nbsp;
 
@@ -10025,7 +10032,7 @@ The value of threshold corresponds to m, and the number of owners represents n.
 <h3>Basic Use Cases: Proof of Existence</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------- 341. proof-of-existence (306) ---------------------------------->
+<!------------------------------- 341. proof-of-existence (308) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image341.png" 
@@ -10060,12 +10067,13 @@ We can prove that we own some document at some time through a commitment scheme:
 Reveal the inputs later to prove your ownership.
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------  Public Registry: Namecoin: Blockchain Fundamentals (307) -------------------->
+<!--------------  341b. Public Registry: Namecoin: Blockchain Fundamentals (309) ----------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image352.png" 
+<img src="/images/image341b.png" 
    alt="Public Registry: Namecoin: Blockchain Fundamentals"
-   width="70%" />
+   width="65%" />
+</p>
 
 In addition, there’s the opportunity to implement a decentralized DNS system.
 
@@ -10080,7 +10088,7 @@ We’ll expand on how we take advantage of these properties in the Advanced Use 
 <h3>Advanced Use Cases: Land Titles</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 342. Decentralized Land Titles: Blockchain Fundamentals (309) ----------------->
+<!---------------- 342. Decentralized Land Titles: Blockchain Fundamentals (310) ----------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" >
 <img src="/images/image342.png"
