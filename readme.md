@@ -9085,7 +9085,7 @@ In this attack, pool miners distribute a small percent of mining power equally a
 If we model the choice between attacking and not attacking the Bitcoin network using game theory, we see that the dominant strategy is for each miner to attack the network, leading to the ultimate detriment of Bitcoin.
 
 <!------------------------------------------------------------------------------------------------>
-<!- Table demonstrating the results of attacking & not attacking between Pool 1 and Pool 2 (271) ->
+<!---- Table demonstrating the results of attacking & not attacking between Pool 1 and Pool 2 ---->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image302.png"
