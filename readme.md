@@ -7058,15 +7058,12 @@ Author: Rea Savla
 <h3>I. Types of Users</h3>
 
 Bitcoin makes the distinction of 4 key functionalities ([Mastering Bitcoin <u>Opens in new window</u>](https://unglueit-files.s3.amazonaws.com/ebf/05db7df4f31840f0a873d6ea14dcc28d.pdf), p.152) that every node in the network is a combination of:
-
-Wallets: management of keys and addresses
-
-Mining: the voting process which expends computational power
-
-Full Blockchain: a copy of the full Bitcoin blockchain
-
-Routing: software that allows you to talk to other Bitcoin nodes
-
+<ul>
+<li>Wallets: management of keys and addresses</li>
+<li>Mining: the voting process which expends computational power</li>
+<li>Full Blockchain: a copy of the full Bitcoin blockchain</li>
+<li>Routing: software that allows you to talk to other Bitcoin nodes</li>
+</ul>
 We can make powerful generalizations using these 4 key characteristics, however there exist other distinctions between users too.
 
 <!------------------------------------------------------------------------------------------------>
@@ -7078,7 +7075,7 @@ We can make powerful generalizations using these 4 key characteristics, however 
    width="65%" />
 </p>
 
-Image Source: [Mastering Bitcoin Opens in new window](https://github.com/bitcoinbook/bitcoinbook)
+Image Source: [Mastering Bitcoin](https://github.com/bitcoinbook/bitcoinbook) Opens in new window.
 
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
@@ -7176,7 +7173,6 @@ Real changes are implemented in Bitcoin via hard or soft forks. Hard forks resul
    alt="Soft fork real changes implemented in Bitcoin"
    width="100%" />
 </p>
-
 In Bitcoin, changes to the protocol come in the form of BIPs, or Bitcoin Improvement Proposals. These can be changes in the network protocol, block or transaction validation, or anything affecting interoperability. There are three main kinds of BIPS: standard, informational, process.
 
 Readings
@@ -7201,7 +7197,7 @@ Readings
 
 With all our knowledge so far, we have a pretty good understanding of Bitcoin high level motivations and design, as well as low level mechanics.
 
-So now with our knowledge of the ins and outs of Bitcoin… let’s destroy it :)
+Now with our knowledge of the ins and outs of Bitcoin… let’s destroy it :)
 
 Looking from a game theoretical perspective, we’ll formulate attacks and other malicious behavior that can potentially destroy Bitcoin.
 
@@ -7231,6 +7227,9 @@ And when it comes to making the most profit, honest strategies are NOT usually t
    alt="Pool Reward Schemes: Reviews"
    width="65%" />
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 Remember from last lecture that pay-per-share schemes will pay you a fixed amount of money for each share, or near-valid block.
 
@@ -7270,6 +7269,9 @@ Given the incentive structures in both pay per share and proportional pool pay-o
    alt="Pool Rewards: Pool Hopping"
    width="65%" />
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 Remember that we as miners want to maximize their payout.
 
@@ -7304,6 +7306,9 @@ If we mine under just the proportional scheme, the reward gained per share decre
    alt="Pool Rewards: Pool Hopping"
    width="65%" />
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 In this example, we see the same type of graph but for pay-per-share.
 
@@ -7354,6 +7359,9 @@ To fully understand this attack, you need to see the point at which the two curv
    alt="Pool Rewards: Pool Hopping"
    width="65%" />
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 And this is when the value per share of the proportional scheme decreases beneath the value per share of the pay-per-share scheme.
 
@@ -7422,6 +7430,9 @@ Let’s go ahead and show why this is the case through some calculations.
    alt="Pool Cannibalization: Strategy: Don't Submit Valid Blocks"
    width="65%" />
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 Let’s first establish some assumptions.
 
@@ -7494,6 +7505,9 @@ You’ll notice a scary conclusion.
    alt="Pool Cannibalization: Example: Givens"
    width="65%" />
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 Dishonesty is more profitable than honesty!
 
@@ -7546,6 +7560,9 @@ However, if they both attack each other, they’ll be worse off than if they bot
    alt="Pool Wars: Nash Equilibrium"
    width="65%" />
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 Let’s say Pool 1 chooses to attack Pool 2.
 
@@ -7590,7 +7607,7 @@ By attacking, they can increase their profit, and that’s what we’ve establis
 
 Because of this, you fall into this issue where rational actors will eventually choose the Nash Equilibrium if they’re pursuing profit.
 
-So, they’ll continually attack each other in hopes of making profit.
+They’ll continually attack each other in hopes of making profit.
 
 Sure, if pools adhere to a culture where they agree not to attack each other through cannibalization, then everyone benefits in the long run.
 
@@ -7620,7 +7637,7 @@ Let’s take a look at a simple scenario. Suppose there are only 2 mining pools 
 <!---------------------- 245. Pool A and pool b; honest & dishonest (226) ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image245.png"
+<img src="/images/image245.jpg"
    alt="A table representing Pool A and Pool B demonstrating the relationship between their utilities"
    width="65%" />
 </p>
@@ -10951,7 +10968,7 @@ We wish you all the best on the rest of your blockchain journey!
 
 the end…&nbsp;<br/>
 <b><i>readme.md</i></b>&nbsp;<br/>
-<b><i>Last Updated: 4/26/2022 (Tuesday) 2:09pm+</i></b>
+<b><i>Last Updated: 4/26/2022 (Tuesday) 6:08pm+</i></b>
 
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
