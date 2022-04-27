@@ -4694,6 +4694,9 @@ In order for Bob to redeem the bitcoin that Alice just sent him, he must provide
    width="65%" />
 </p>
 &nbsp;
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 Why Pay to Script Hash instead of just pay to a script?
 
@@ -7641,6 +7644,9 @@ Let’s take a look at a simple scenario. Suppose there are only 2 mining pools 
    alt="A table representing Pool A and Pool B demonstrating the relationship between their utilities"
    width="65%" />
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 The specific numerical values for the utilities in this example were chosen arbitrarily to reflect a scenario where players are incentivized to act dishonestly, but fare worse when both players are dishonest than when both players are honest. Let’s take the perspective of Player A. Given Player B acts honestly, player A gains the most utility from acting dishonestly, since a utility of 3 is greater than the utility of 2 that A would receive by acting honestly.
 
@@ -7648,7 +7654,7 @@ The specific numerical values for the utilities in this example were chosen arbi
 <!---------------------- 246. Pool A and pool b; honest & dishonest (226) ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image246.png"
+<img src="/images/image246.jpg"
    alt="Pool A&#39;s utility is 3 and Pool B&#39;s utility is 0. Pool A&#39;s dishonest utility is highlighted"
    width="65%" />
 </p>
@@ -7660,8 +7666,8 @@ Given Player B acts dishonestly, Player A would prefer also acting dishonestly s
 <!---------------------- 247. Pool A and pool b; honest & dishonest (227) ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image247.png"
-   alt=""
+<img src="/images/image247.jpg"
+   alt="Pool A and Pool B; Honety & Dishonesty"
    width="65%" />
 </p>
 
