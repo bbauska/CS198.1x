@@ -7659,7 +7659,6 @@ The specific numerical values for the utilities in this example were chosen arbi
    width="65%" />
 </p>
 
-
 Given Player B acts dishonestly, Player A would prefer also acting dishonestly since a utility of 1 \>utility of 0.
 
 <!------------------------------------------------------------------------------------------------>
@@ -7677,11 +7676,10 @@ Player B makes the same conclusions, and makes preferences as follows:
 <!---------- 248. player b makes same conclusions & makes preferences as follows (227) ----------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image248.png"
+<img src="/images/image248.jpg"
    alt="Player B&#39;s dishonesty utilities are highlighted as well as Player A&#39;s"
    width="65%" />
 </p>
-   
 
 We can see that the scenario in which both players choose to act dishonestly is the Pure Strategy Nash Equilibrium, since at this position, both players are maximizing their payoffs given the other player’s actions. Thus, despite receiving higher returns from both acting honestly, Players A and B will both act dishonestly.
 
