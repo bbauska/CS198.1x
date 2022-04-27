@@ -7632,7 +7632,7 @@ Author: Rea Savla
 
 We can model the behavior of different actors in the Bitcoin network for a given situation using a game theoretical analysis. Our first assumption is that actors will act in a rational way, where rationality is defined as taking the actions that maximize their utility. In our scenario, utility is defined by the monetary gains resulting from an action. While not everyone in Bitcoin is purely motivated by monetary gain, this is still a powerful generalization.
 
-A ***Pure Strategy Nash Equilibrium ***is the set of actions that maximize each actor's utility given the responses of all the other actors. Note, the utility each player receives depends on the player's own decisions and the decisions of all the other actors, in the same way that the rewards a miner gets in the mining pool depend on the miner's own decision to attack or cooperate and the rest of the pool's decision to attack or cooperate. Players in the Bitcoin network or in a mining pool will converge to acting according to the Pure Strategy Nash Equilibrium for a given scenario, assuming they all behave rationally.
+A <b><i>Pure Strategy Nash Equilibrium</i></b> is the set of actions that maximize each actor's utility given the responses of all the other actors. Note, the utility each player receives depends on the player's own decisions and the decisions of all the other actors, in the same way that the rewards a miner gets in the mining pool depend on the miner's own decision to attack or cooperate and the rest of the pool's decision to attack or cooperate. Players in the Bitcoin network or in a mining pool will converge to acting according to the Pure Strategy Nash Equilibrium for a given scenario, assuming they all behave rationally.
 
 Let’s take a look at a simple scenario. Suppose there are only 2 mining pools in the Bitcoin network, Pool A and Pool B. Their utilities are shown below. The numerical value of utility is arbitrary in economics; it does not have any associated units, and it is calculated using a utility function of other parameters, defined by the economist. We are only interested in the comparative value of an action’s utility, whether it is higher or lower than another; we are not interested in its absolute value. In this example, the respective utilities are derived from the monetary gains each player would receive from the given scenarios of attacking or cooperating with the other.
 
@@ -9116,6 +9116,9 @@ To protect against this type of attack, the victim should wait for kconfirmation
    alt="Graph demonstrating the relationship between number of blocks and probability attackers catches up"
    width="65%" />
 &nbsp;
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>III. The 51 Percent Attack</h3>
 
@@ -9173,6 +9176,9 @@ In addition to network topology, network latency also poses as an issue. Nodes t
    alt="Culmination of the last 5 modules"
    width="65%" />
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 This module will be the culmination of the last 5 modules.
 
@@ -9230,6 +9236,9 @@ As we did with Bitcoin, we’ll first look at the high level features that we wa
    alt="What Makes Bitcoin So Special?"
    width="65%" />
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 First, we have to consider what makes Bitcoin so special.
 
@@ -9285,6 +9294,9 @@ Think back to the grains of sand on earth example in module 1.
 	width="65%" 
 	alt="Bitcoin from the ground up: Transactions" />
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 Of course, the main idea of Bitcoin was to be able to send transactions between users, so naturally, we have a way to do this.
 
@@ -9333,6 +9345,9 @@ With the blockchain, we have an efficient way to not only store data, but also t
    alt="Bitcoin from the Ground Up: Proof-of-Work Consensus"
    width="65%" />
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 And finally, we have Proof-of-Work consensus.
 
@@ -9393,14 +9408,17 @@ We’ll keep Bitcoin’s architecture in mind.
 <h3>Smart Contracts Overview</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- 311. smart contracts: contracts (###) ----------------------------->
+<!---------------------------- 311. smart contracts: contracts (282) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image311.jpg"
-   alt=""
+   alt="Smart Contracts Overview"
    width="65%" />
 </p>
 &nbsp;
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 Now that we have these design considerations, we can take a look at smart contracts, and how they fall into this whole space.
 
@@ -9434,6 +9452,10 @@ After all, we need to trust that a digital contract is enforced correctly.
 Like a traditional contract, it carries a set of conditions that must be fulfilled, or terms that must be executed on.
 
 The difference is that the execution and enforcement is done through carefully designed algorithms, not through law.
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3 id="ch6-2">6.2 Intro: Ethereum</h3>
 
@@ -9477,7 +9499,9 @@ As it turns out, leveraging our understanding of Bitcoin’s inner workings make
    alt="Ethereum & Smart Contracts: Enabling a Decentralized Future"
    width="65%" />
 </p>
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 Just like Bitcoin, Ethereum is a platform that’s constantly changing.
 
@@ -9524,6 +9548,9 @@ Ethereum’s native asset is ether, which is the basis of value in the Ethereum 
    alt="What is Ethereum? Who Would Win?"
    width="65%" />
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 As a recap from the previous section, what makes Bitcoin so special are the following properties: it’s trustless, immutable, uncensorable, pseudonymous, has no central point of failure, and aims for a one-cpu-one-vote policy.
 
@@ -9586,6 +9613,9 @@ Another key difference is that Bitcoin is UTXO-based, whereas Ethereum is accoun
    alt="Ethereum Accounts: Accounts vs UTXO Model"
    width="65%" />
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 In Bitcoin, private keys prove ownership of UTXOs.
 
@@ -9639,6 +9669,9 @@ This type of account can send transactions to transfer ether or to trigger contr
    alt="Ethereum Smart Contracts: Control"
    width="65%" />
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 Contract accounts are owned by smart contracts.
 
@@ -9711,6 +9744,10 @@ For example, you can define m of n multisignature, which is also something we lo
    width="65%" />
 </p>
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3 id="ch6-3">6.3 Intro: Ethereum Virtual Machine</h3>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------- 324b. ethereum virtual machine logo (293) ---------------------------->
@@ -9763,6 +9800,9 @@ In this section, we’ll be looking at the Ethereum Virtual Machine -- the heart
    alt="Ethereum Virtual Machine: Compilation and Process"
    width="65%" </>
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 Ethereum smart contracts are generally written in high level programming languages.
 
@@ -9829,6 +9869,9 @@ And how do nodes actually come to consensus?
    alt=""
    width="65%" />
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 With Proof-of-Work!
 
@@ -9890,6 +9933,9 @@ As of May 23rd, 2018, Ethereum has roughly 275,000 GH/s whereas Bitcoin has a wh
    alt="EVM: Distributed Verification & Consensus"
    width="65%" />
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 Miners in Ethereum competitively create blocks by executing EVM code and searching for a solution to a mining puzzle.
 
@@ -9953,6 +9999,9 @@ by trapping computers around the world in an infinite loop, thereby making them 
    alt="EVM Gas Fees: High-Level Overview #3"
    width="65%" />
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 Luckily, the developers of Ethereum thought of this and implemented a solution: in the form of what’s known as gas.
 
@@ -10012,6 +10061,9 @@ Since each computation requires gas, an attacker looking to DoS the network woul
    alt="Ethereum Network State: State Transition Function"
    width="65%" />
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 We mentioned that nodes come to consensus on the network state, and that code execution on the EVM changes the state.
 
@@ -10078,7 +10130,11 @@ And because contract executions are redundantly replicated across all nodes, exe
 
 For example, you shouldn’t be training machine learning models or doing anything else computationally expensive directly on smart contracts.
 
-So hopefully this creates an incentive not to use the blockchain for computation that can be done off chain.
+Hopefully this creates an incentive not to use the blockchain for computation that can be done off chain.
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3 id="ch6-4">6.4 Intro: Ethereum Use Cases</h3>
 
@@ -10160,6 +10216,9 @@ The value of threshold corresponds to m, and the number of owners represents n.
    alt="Basic Use Cases: Proof of Existence"
    width="65%" />
 &nbsp;
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 Let’s say we came up with an amazing new tech buzzword, “3D printing artificial intelligence on the blockchain.”
 
@@ -10245,6 +10304,9 @@ What do we include in our decentralized approach?
    alt="Decentralized Land Titles: Blockchain Fundamentals"
    width="65%" />
 &nbsp;
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 Well, what we’re doing here is tracking ownership of documents, similar to Proof-of-Existence.
 
@@ -10322,13 +10384,16 @@ In addition, execution of this logic is all public, giving guarantees that all f
 
 Gnosis and Augur are two well-known companies that have deployed prediction market smart contracts.
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------- Prediction Markets: Use Case 1 (314) --------------------------->
+<!---------------------------- 347. Prediction Markets: Use Case 1 (314) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image347.png"
    alt="Prediction Markets: Use Case 1"
    width="65%" />
 &nbsp;
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 What can we do with these prediction markets?
 
@@ -10400,6 +10465,9 @@ Research is still being done to examine the feasibility of futarchy on a blockch
    alt= "Supply Chain and Provenance: Blood Diamonds"
    width="65%" />
 &nbsp;
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 A popular conception is that blockchain is the perfect solution for supply chain.
 
@@ -10482,6 +10550,9 @@ This is one of the most revolutionary concepts in blockchain, giving users the a
    alt="After Hours Trading: 24/7 Access & Liquidity"
    width="65%" />
 &nbsp;
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 The final use case we’re going to examine is after hours trading.
 
@@ -10601,6 +10672,9 @@ These points describe the properties of a good blockchain use case, along with t
    alt="Blockchain Generalizations: Viable but Blockchain Not Necessary"
    width="65%" />
 &nbsp;
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 To start off, let’s talk about the scenarios where a blockchain will work, but is not necessary.
 
@@ -10694,6 +10768,9 @@ In this way, individuals are supporting the rest of the community while benefiti
    alt="Blockchain Generalizations: Essential Properties: Pure Decentralization"
    width="65%" />
 &nbsp;
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 Finally, the most abstract yet fundamental property of a good blockchain use case is pure decentralization.
 
@@ -10788,6 +10865,10 @@ Centralized solutions have the advantage of handling messy situations with grace
 
 If you do integrate centralization with a blockchain solution, you lose out on most of the benefits of decentralization.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3 id="ch6-7">6.7 Supplement: Use Cases</h3>
 
 Authors: Rea Savla and David Luo
@@ -10831,6 +10912,10 @@ Although using blockchain provides numerous properties if implemented in a syste
 
 Blockchains provide guarantees of privacy, decentralization, and more. However, these properties are sometimes unaffordable for practical use depending on the user base, goals, and scale of the application.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3>III.I Efficiency</h3>
 
 The word “efficiency” is often used when used to describe blockchains, but blockchains are not always efficient for their proposed use cases they are proposed for. For example, if one wanted to purchase a coffee using bitcoin, it is far less efficient to wait 10 minutes for a confirmation than it is to simply swipe a credit card or hand the cashier some money. However, sending money across the world using Bitcoin would take a mere ten minutes, compared to the days for coordination between banks internationally. As shown, there are numerous properties that a blockchain provides if implemented, but sometimes there is no need to implement a blockchain in order to achieve these properties for specific uses cases. Efficiency depends on whether the immense cost and complexity of decentralized consensus is overcome by the benefits of blockchain.
@@ -10854,6 +10939,10 @@ One of the largest selling points of using a blockchain is its decentralization.
 A central solution is fully controlled by a single organization, keeping everything under the same umbrella. One of the benefits of this is simpler and faster software updates, meaning it is easy to make changes and have the update for all users. Contrast this with a blockchain, where everyone instead must have to voluntarily agree to upgrade. It is much easier to make security patches when you don’t need to reach consensus on upgrades across all users. Centralized solutions are also more efficient, as instead of having to do a computation for every user in a network, it only needs to be done once, and there is no need for verification. Access control is also much easier, as the central authority can simply keep track of access in a centrally controlled database, something that cannot be done in a decentralized system. Most significantly, centralized systems can make decisions with their human judgment, especially helpful when tackling complex decisions. In a decentralized system, smart contracts may not be able to cover or formalize all of the edge cases, and may not be suitable for use in more complex issues. For example, if Airbnb were replaced by used smart contracts, how would a smart contract be able to determine what to do if household possessions were damaged? Which individuals could be trusted to report this information without stripping away the values of decentralization? How would a smart contract handle human error?
 
 In the end, it is important to always ask why a blockchain is better than a centralized solution. Neither is better than the other universally, so it is important to compare the pros and cons of both to determine which one is better for each specific use case.
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Blockchain Use Cases Takeaways</h3>
 
@@ -10938,6 +11027,10 @@ Joseph Lubin was a co-founder of Ethereum.
 
 He also founded ConsenSys, which is a company that made great strides in developing the Ethereum ecosystem.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3>Ethereum Research</h3>
 
 <!------------------------------------------------------------------------------------------------>
@@ -10981,6 +11074,10 @@ And this is a bit less directly associated with the main Ethereum project, but t
 The project is called Ethermint, because it runs Ethereum on a modular blockchain system called Tendermint.
 
 We’ll go into this, and also Plasma, in our next course.
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h2 id="ch6-9">6.9 Chapter 6 Summary</h2>
 
@@ -11070,7 +11167,7 @@ We wish you all the best on the rest of your blockchain journey!
 
 the end…&nbsp;<br/>
 <b><i>readme.md</i></b>&nbsp;<br/>
-<b><i>Last Updated: 4/26/2022 (Tuesday) 7:27pm+</i></b>
+<b><i>Last Updated: 4/26/2022 (Tuesday) 7:49pm+</i></b>
 
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
