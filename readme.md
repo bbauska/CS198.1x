@@ -8886,6 +8886,9 @@ To further understand how information propagates through the Bitcoin network, we
    width="65%" />
 </p>
 &nbsp;
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 Network topology means how the Bitcoin network looks like if you were to graph it out like we’ve been doing with circles -- for individual nodes -- and lines -- for connections between nodes.
 
@@ -8943,6 +8946,9 @@ And it turns out that due to this hidden graph topology, and the fact that Derri
    width="65%" />
 </p>
 &nbsp;
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 And scarier yet, Derrick doesn’t even need 65% of the network hash power.
 
@@ -9005,6 +9011,9 @@ Well, if we’re clever enough, we can launch a Sybil attack in another kind of 
    alt="Bitcoin Network: Sybil Attack Revisited #2"
    width="65%" />
 &nbsp;
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 Let’s say Derrick has the ability to flood the network with nodes.
 
@@ -9046,6 +9055,10 @@ He also has unique ownership of the network topology, since he owns a lot of nod
 
 As a closing note, know that outside of what we presented in this module, there are a lot more attacks and defenses, such as eclipse attacks and stubborn mining, which take into account network latency, topology, and more.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3 id="ch5-9">5.9 Chapter 5 Summary</h3>
 
 Author: Rea Savla 
@@ -9060,7 +9073,7 @@ Miners can maximize profits via pool hopping. This occurs when miners switch bet
 <!------------- 301. Reward Per Share for Pay-Per-Share & Proportional Pools (270) --------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image301.png
+<img src="/images/image301.png"
    alt="Reward Per Share for Pay-Per-Share & Proportional Pools"
    width="65%" />
 &nbsp;
@@ -9075,7 +9088,7 @@ If we model the choice between attacking and not attacking the Bitcoin network u
 <!- Table demonstrating the results of attacking & not attacking between Pool 1 and Pool 2 (271) ->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image302.png 
+<img src="/images/image302.png"
    alt="Table demonstrating the results of attacking and not attacking between Pool 1 and Pool 2"
    width="100% />
 &nbsp;
@@ -9099,7 +9112,7 @@ To protect against this type of attack, the victim should wait for kconfirmation
 <!------------------------------------------------------------------------------------------------>
 <!----- 303. Graph demo between number of blocks and probability attackers catches up (272) ------> <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image303.png
+<img src="/images/image303.png"
    alt="Graph demonstrating the relationship between number of blocks and probability attackers catches up"
    width="65%" />
 &nbsp;
@@ -11057,7 +11070,7 @@ We wish you all the best on the rest of your blockchain journey!
 
 the end…&nbsp;<br/>
 <b><i>readme.md</i></b>&nbsp;<br/>
-<b><i>Last Updated: 4/26/2022 (Tuesday) 7:21pm+</i></b>
+<b><i>Last Updated: 4/26/2022 (Tuesday) 7:27pm+</i></b>
 
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
