@@ -7883,7 +7883,9 @@ He now sends me the iPhone so as not to keep me waiting.
    alt="Double Spending: k Confirmations"
    width="65%" />
 </p>
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 But that was exactly what I was expecting.
 
@@ -7931,6 +7933,10 @@ You might be wondering: what is the probability of me being able to produce a ch
 
 Well, we’ll see right away how that’s possible.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3>Probability Analysis</h3>
 
 <!------------------------------------------------------------------------------------------------>
@@ -7968,6 +7974,9 @@ The exception is mainly with the 50 percent model.
    alt="Double Spending: 51% attack"
    width="65%" />
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 As you can see, the 50 percent model has a probability of 1 no matter what.
 
@@ -7999,6 +8008,9 @@ I will always be in full control of which blocks are included within the history
    alt="Double Spending: Incentives"
    width="65%" />
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 But here’s a question to ask: just because I can double spend doesn’t mean I should.
 
@@ -8034,6 +8046,10 @@ I can first place a bet that Bitcoin is going to go down in value, then I can la
 
 At this point, double spending on someone is -- interestingly enough -- just a means to an end.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3 id="ch5-6">5.6 Intro: Censorship Attacks</h3>
 
 Thus far, we’ve looked at examples of how users with enough hashpower can take advantage of the properties of the blockchain in order to maliciously double spend their coins.
@@ -8063,6 +8079,9 @@ Let’s say that Gloria is in charge of the Glorian nation, and has jurisdiction
    alt="Blacklisting: Naive Censorship"
    width="65%" />
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 The blocks in Gloria’s ideal blockchain will include none of my transactions.
 
@@ -8099,6 +8118,9 @@ She can say that all Glorian pools will refuse to work on a chain containing tra
    alt="Blacklisting: Punitive Forking"
    width="65%" />
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 If miners include one of my transactions in a block, Gloria will fork and create a longer proof-of-work chain, which is possible only because she has the majority of the hashrate.
 
@@ -8133,6 +8155,9 @@ That entity can prevent anybody from accessing their funds.
    alt="Blacklisting: Feather Forking"
    width="65%" />
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 However, punitive forking doesn’t work unless Gloria has 51% of the hashpower, which is extremely difficult to achieve in reality. Is there another way? Unfortunately for me,
 
@@ -8161,6 +8186,9 @@ Let’s look at a little bit of math. Let q be the proportion of mining power th
    alt="Blacklisting: Feather Forking #3"
    width="65%" />
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 However, other miners are now aware that their block has a q\^2, or 4% chance of being orphaned.
 
@@ -8177,7 +8205,7 @@ They now have to decide whether they should include my transaction in their bloc
 
 Therefore, looking at the math, unless I pay at least q\^2 times the block reward in transaction fees, other miners will mine on the malicious chain. As of April 17th 2018, that would be a \$4000 minimum tx fee, which is incredibly limiting. It’s very likely that I won’t be able to afford those transaction costs, so I won’t be even be able to send my transactions through. Thus, Gloria has succeeded in censoring my transactions with only 20% of the total hashrate.
 
-<h3 id="ch5-7">5.7 Intro: Selfish Mining<h3>
+<h3 id="ch5-7">5.7 Intro: Selfish Mining</h3>
 
 It's important to consider how rational and malicious actors will behave to increase the amount of money that they make.
 
@@ -8186,6 +8214,10 @@ Think back to the previous module, specifically the motivations for mining.
 If there’s a way for miners to maximize profit, assume that they will do so, even if it’s not totally fair to everyone else.
 
 One of the best examples of this sort of behavior is selfish mining.
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Selfish Mining Attacks</h3>
 
@@ -8216,6 +8248,9 @@ This is called selfish mining, or block withholding.
    alt="Selfish Mining: Block Withholding #2"
    width="65%" />
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 Note that Block withholding is sometimes also used in the context of mining pools, where you submit shares but withhold blocks.
 
@@ -8262,6 +8297,9 @@ If you can’t, then your computation is the one that goes to waste.
    alt="Selfish Mining: Block Withholding #4"
    width="65%" />
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 What if the network finds a block before you find a second one?
 
@@ -8334,6 +8372,9 @@ For example…
    alt="Block Validation: Dummy Block Signatures #2"
    width="65%" />
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 What order of magnitude is the threshold number of signatures?
 
@@ -8377,6 +8418,9 @@ In the diagram below, we see that there’s a fork, the top being the honest cha
    alt="Fork Punishment: Fork Punishment Rule #2"
    width="65%" />
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 Since two blocks are broadcast at the same block height, they are competing blocks and thus neither of them have an associated block reward.
 
@@ -8437,6 +8481,9 @@ However, later in 2015, a separate paper published by Sapirshtein proposed a mor
    alt="Tie-Breaking: Unforgettable Timestamps"
    width="65%" />
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 A 25% profit threshold using uniform tie-breaking is pretty bad, considering that selfish mining is always profitable when you have 33% of the mining power.
 
@@ -8490,6 +8537,10 @@ The drawback here is that Bitcoin aims to be as decentralized as possible, and w
 
 We’ll skip this for now.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3>Publish or Perish: Overview</h3>
 
 <!------------------------------------------------------------------------------------------------>
@@ -8524,6 +8575,10 @@ Now we get into one of the more recent developments in selfish mining defenses.
 This one is called Publish or Perish, and was published by Zhang and Prenell in 2017.
 
 Previous defenses we’ve seen had many flaws, such as requiring a hard fork – for example in fork punishment – or not disincentivizing selfish mining when the selfish miner has a longer chain – for example in unforgeable timestamps.
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 Publish or perish claims to be the best – yet defense of selfish mining, and addresses all these previous issues.
 
@@ -8578,6 +8633,9 @@ The diagram on the right side nicely summarized the definition of an uncle block
    width="65%" />
 </p>
 &nbsp;
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 We have our child block B, and previous to that, we have its parent A. At the same block height to A, we have blocks C and D. Block C is an uncle to B because it is within tau time of B’s parent, A. Block D on the other hand is not an uncle to B because while it has the correct height – one less the height of B – it was not seen in tau time of B’s parent, A. So it’s not an uncle.
 
@@ -8648,6 +8706,9 @@ The key takeway is that no matter which option the selfish miner chooses in the 
    width="65%" />
 </p>
 &nbsp;
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 For a bit more clarity, let’s take a more rigorous approach to our analysis of the previous scenario.
 
@@ -8702,6 +8763,9 @@ Here are a couple graphs on the expected revenue of selfish miners when publish 
    width="65%" />
 </p>
 &nbsp;
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 On the left side, we have a graph of selfish miners’ profit, given that certain defenses are in place.
 
@@ -8767,6 +8831,10 @@ However, analyzing publish or perish and all the other works we’ve looked thro
 
 Maybe porting over publish or perish into an asynchronous model is a good direction for how we can approach defending against selfish miners.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3 id="ch5-8">5.8 The Bitcoin Network</h3>
 
 Taking a step back from analyzing individual defenses, it’s important to understand the actual Bitcoin network itself.
@@ -8810,11 +8878,11 @@ Bitcoin allows each node to have a maximum of 125 connections, and generally you
 To further understand how information propagates through the Bitcoin network, we have to understand the network topology and latency.
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------293. Bitcoin Network: An Uneven Topology (265) -------------------------->
+<!--------------------- 293. Bitcoin Network: An Uneven Topology #1 (265) ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image293.png
-   alt="Bitcoin Network: An Uneven Topology"
+<img src="/images/image293.png"
+   alt="Bitcoin Network: An Uneven Topology #1"
    width="65%" />
 </p>
 &nbsp;
@@ -8839,11 +8907,11 @@ Let’s say Derrick has an incredibly high hash rate…
 
 It could be that he’s running a mining farm or pool.
 <!------------------------------------------------------------------------------------------------>
-<!----------------------- 294. Bitcoin Network: Uneven Influences (266) -------------------------->
+<!----------------------- 294. Bitcoin Network: Uneven Topology #2 (266) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image294.png 
-   alt="Bitcoin Network: Uneven Influences"
+<img src="/images/image294.png"
+   alt="Bitcoin Network: Uneven Topology #2"
    width="65%" />
 </p>
 &nbsp;
@@ -8867,11 +8935,11 @@ So all of Derrick’s miners form a secret subgraph essentially.
 And it turns out that due to this hidden graph topology, and the fact that Derrick could be multiple nodes on the network, possibly running multiple pools, Derrick could potentially hide the fact that he has more than 65% of the network hash power.
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------- 295. Bitcoin Network: An Uneven Topology (3) (267) ----------------------->
+<!--------------------- 295. Bitcoin Network: An Uneven Topology #3 (267) ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image295.png
-   alt="Bitcoin Network: An Uneven Topology (3)"
+<img src="/images/image295.png"
+   alt="Bitcoin Network: An Uneven Topology #3"
    width="65%" />
 </p>
 &nbsp;
@@ -8887,11 +8955,11 @@ Or 25%... or 23.2%....or 32%....
 Perhaps there’s an attack or selfish mining scheme that hasn’t been discovered yet that lowers the profit threshold even lower.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------- 296. Bitcoin Network: Different Propogation Times ----------------------->
+<!------------------------- 296. Bitcoin Network: network latency (267) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image296.png
-   alt="Bitcoin Network: Different Propogation Times"
+<img src="/images/image296.png"
+   alt="Bitcoin Network: Network Latency"
    width="65%" />
 </p>
 &nbsp;
@@ -8915,11 +8983,11 @@ Miners who are better connected in the network see things faster and are able to
 Meanwhile, it’s possible that a poorly connected miner could spend all this time finding a block, and when it finally finds one, its propagation time could be so slow due to network latency that within that time, another miner would have already found and submitted a competing block to a majority of the network.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------- 297. Bitcoin Network: Sybil Attack Revisited (268) ---------------------->
+<!-------------------- 297. Bitcoin Network: Sybil Attack Revisited #1 (268) --------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image297.png 
-   alt="Bitcoin Network: Sybil Attack Revisited"
+<img src="/images/image297.png"
+   alt="Bitcoin Network: Sybil Attack Revisited #1"
    width="65%" />
 &nbsp;
 
@@ -8930,11 +8998,11 @@ Think back to the first module, where we discussed Sybil attacks and how it’s 
 Well, if we’re clever enough, we can launch a Sybil attack in another kind of way, leveraging what we just went over: network topology and latency.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- 298. Bitcoin Network: Flood the Network --------------------------->
+<!-------------------- 298. Bitcoin Network: sybil attack revisited #2 (268) --------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image298.png 
-   alt="Bitcoin Network: Flood the Network"
+<img src="/images/image298.png"
+   alt="Bitcoin Network: Sybil Attack Revisited #2"
    width="65%" />
 &nbsp;
 
@@ -8949,22 +9017,22 @@ Derrick could sybil attack honest miners by leveraging his network level dominan
 Let’s say Derrick is also selfish mining, and already has some secret blocks, which are distributed to all of his 0-power nodes.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- Bitcoin Network: Flood the Network (2)---------------------------->
+<!-------------------- 299. Bitcoin Network: sybil attack revisited #3 (269) --------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image299.png
-   alt="Bitcoin Network: Flood the Network (2)"
+<img src="/images/image299.png"
+   alt="Bitcoin Network: Sybil Attack Revisited #3"
    width="65%" />
 &nbsp;
 
 When Derricks nodes hear about the next honest block X, Derrick could ignore X, and publish his secret block P.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- Bitcoin Network: Flood the Network (3) --------------------------->
+<!------------------- 300. Bitcoin Network: sybil attack revisited #4 (269) ---------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image300.png 
-   alt="Bitcoin Network: Flood the Network (3)"
+<img src="/images/image300.png"
+   alt="Bitcoin Network: Sybil Attack Revisited #4"
    width="65%" />
 &nbsp;
 
@@ -8989,7 +9057,7 @@ Author: Rea Savla 
 Miners can maximize profits via pool hopping. This occurs when miners switch between Pay-per-Share and Proportional scheme mining pools to whichever payment protocol produces a higher rewards per additional share. In this scenario, honest and loyal pool miners will be cheated out of their profits by miners who pool hop and cause inconsistency in the pool’s hash rate.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------- Reward Per Share for Pay-Per-Share & Proportional Pools ------------------->
+<!------------- 301. Reward Per Share for Pay-Per-Share & Proportional Pools (270) --------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image301.png
@@ -10989,7 +11057,7 @@ We wish you all the best on the rest of your blockchain journey!
 
 the end…&nbsp;<br/>
 <b><i>readme.md</i></b>&nbsp;<br/>
-<b><i>Last Updated: 4/26/2022 (Tuesday) 6:08pm+</i></b>
+<b><i>Last Updated: 4/26/2022 (Tuesday) 7:21pm+</i></b>
 
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
