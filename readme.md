@@ -1469,7 +1469,7 @@ These are the four essential unique properties of Bitcoin: 1. pseudonymous, 2. d
 
 <h2>Bitcoin Protocol & Consensus: A High Level Overview / Review, Readings, & More</h2>
 
-<h3 id="ch1-11">1.11 Lecture 1 Summary:</h3>
+<h3 id="ch1-11">1.11 Chapter 1 Summary:</h3>
 
 <h3>I. What is Bitcoin?</h3>
 
@@ -2791,7 +2791,7 @@ Looking at the broader picture, that’s one of the goals of this course -- to g
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
-<h3 id="ch2-11">2.11 Lecture 2 Summary</h3>
+<h3 id="ch2-11">2.11 Chapter 2 Summary</h3>
 
 <h3>Pre-Bitcoin: Libertarian Dreams</h3>
 
@@ -4835,7 +4835,7 @@ Also, blocks are not created at guaranteed intervals either, so any attempts to 
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-<h3 id="ch3-10">3.10 Lecture 3 Summary</h3>
+<h3 id="ch3-10">3.10 Chapter 3 Summary</h3>
 
 <h3>I. Cryptographic Hash Functions </h3>
 
@@ -7051,7 +7051,7 @@ The first BIP was by Amit Taaki in 2011, and was actually a BIP to make BIPs.
 
 Miners vote on BIPs by including a reference to that BIP in the block that they mine.
 
-<h3 id="ch4-7">4.7 Lecture 4 Summary</h3>
+<h3 id="ch4-7">4.7 Chapter 4 Summary</h3>
 
 Author: Rea Savla
 
@@ -8940,7 +8940,7 @@ He also has unique ownership of the network topology, since he owns a lot of nod
 
 As a closing note, know that outside of what we presented in this module, there are a lot more attacks and defenses, such as eclipse attacks and stubborn mining, which take into account network latency, topology, and more.
 
-<h3 id="ch5-9">5.9 Lecture 5 Summary</h3>
+<h3 id="ch5-9">5.9 Chapter 5 Summary</h3>
 
 Author: Rea Savla 
 
@@ -10863,7 +10863,7 @@ The project is called Ethermint, because it runs Ethereum on a modular blockchai
 
 We’ll go into this, and also Plasma, in our next course.
 
-<h2 id="ch6-9">6.9 Lecture 6 Summary</h2>
+<h2 id="ch6-9">6.9 Chapter 6 Summary</h2>
 
 <h3>I. Smart Contracts</h3>
 
