@@ -7680,6 +7680,9 @@ Player B makes the same conclusions, and makes preferences as follows:
    alt="Player B&#39;s dishonesty utilities are highlighted as well as Player A&#39;s"
    width="65%" />
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 We can see that the scenario in which both players choose to act dishonestly is the Pure Strategy Nash Equilibrium, since at this position, both players are maximizing their payoffs given the other player’s actions. Thus, despite receiving higher returns from both acting honestly, Players A and B will both act dishonestly.
 
@@ -7709,6 +7712,9 @@ We’ll answer all those questions for you in this upcoming module.
    alt="Double-Spending: the Classic Attack"
    width="65%" />
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 Let’s revisit the definition of a Double Spend attack.
 
@@ -7766,13 +7772,16 @@ How might Rustie protect himself from this?
 Well, we know that Rustie only gets to keep his bitcoins if a transaction to him makes its way into the longest chain.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- 251. double-spending: confirmations (230) --------------------------------->
+<!------------------------- 251. double-spending: k confirmations (230) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image251.png"
-   alt="Double-Spending: Confirmations"
+   alt="Double-Spending: k Confirmations #1"
    width="65%" />
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 And, as we know, the longest chain could be forked early on.
 
@@ -7793,11 +7802,11 @@ This is a reasonably simple concept, but we can see some interesting things that
 The question you’re probably asking: how many confirmations does Rustie need before he feels confident about the finality of his transaction?
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- 252. double-spending: k confirmations (231) ----------------------->
+<!----------------------- 252. double-spending: k confirmations #2 (231) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image252.png"
-   alt="Double-Spending: K Confirmations"
+   alt="Double-Spending: K Confirmations #2"
    width="65%" />
 </p>
 
@@ -7832,13 +7841,16 @@ Let’s go ahead and see a demonstration.
 <h3>Demo: Confirmations</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- 253. () --------------------------------->
+<!----------------------- 253. double-spending: k confirmations #3 (231) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image253.png"
-   alt=""
+   alt="Double Spending: k Confirmations #3"
    width="65%" />
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 Let’s say that k in this case is equal to 2 confirmations.
 
@@ -7851,24 +7863,24 @@ One confirmation….
 Two confirmations.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- 254. () --------------------------------->
+<!----------------------- 254. double-spending: k confirmations #4 (232) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image254.png"
+   alt="Double Spending: k Confirmations #4"
    width="65%" />
 </p>
-
 
 Rustie notices the two confirmations and feels confident about the transaction’s finality.
 
 He now sends me the iPhone so as not to keep me waiting.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!----------------------- 255. double-spending: k confirmations #5 (233) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image255.png"
-   alt=""
+   alt="Double Spending: k Confirmations"
    width="65%" />
 </p>
 
@@ -7886,10 +7898,11 @@ This is because once the network accepts the transaction from me to myself, the 
 UTXO is used up, and since both this transaction as well as the transaction from me to Rustie spend from the same UTXO, this then invalidates the transaction from me to Rustie.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!----------------------- 256. double-spending: k confirmations #6 (234) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image256.png"
+   alt="Double Spending: k Confirmations #6"
    width="65%" />
 </p>
 
@@ -7898,10 +7911,11 @@ When I broadcast my chain, the rest of the network accepts my chain over the pre
 Because of this, the entire chain of blocks, containing the transaction from me to Rustie, and onward is invalidated.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!----------------------- 257. double-spending: k confirmations #7 (234) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image257.png"
+   alt="Double Spending: k Confirmations #7"
    width="65%" />
 </p>
 
@@ -7920,10 +7934,11 @@ Well, we’ll see right away how that’s possible.
 <h3>Probability Analysis</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!-------------------------- 258. double spending: probabilities (235) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image258.png"
+   alt="Double Spending: Probabilities"
    width="65%" />
 </p>
 
@@ -7946,10 +7961,11 @@ The curves generally look like an inverse exponential curve, in that the probabi
 The exception is mainly with the 50 percent model.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!--------------------------- 259. double spending: 51% attack (236) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image259.png"
+   alt="Double Spending: 51% attack"
    width="65%" />
 </p>
 
@@ -7976,10 +7992,11 @@ I will always be in full control of which blocks are included within the history
 <h3>Goldfinger Attack</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
+<!--------------------------- 260. double spending: incentives (237) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image260.png"
+   alt="Double Spending: Incentives"
    width="65%" />
 </p>
 
@@ -8039,7 +8056,7 @@ With censorship, we can choose to ignore the transactions from an individual or 
 Let’s say that Gloria is in charge of the Glorian nation, and has jurisdiction over all of the mining pools within its boundaries, which sums up to be over 51% of the Bitcoin network's hash power . Gloria doesn’t like me, so her goal is to censor all of my Bitcoin addresses and prevent me from spending any of my Bitcoin.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ Blacklisting: Naive Censorship Strategy (239)  ------------------------>
+<!--------------------- 262 Blacklisting: Naive Censorship Strategy (239) ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image262.png"
@@ -8060,7 +8077,7 @@ Gloria has.
 <h3>Censorship Attacks: Punitive Forking</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------- Blacklisting: Naive Censorship Strategy - Punitive Forking (239) --------------->
+<!------------ 263. Blacklisting: Naive Censorship Strategy - Punitive Forking (239) ------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image263.png"
@@ -8075,7 +8092,7 @@ Remember that Gloria’s mining pools have over 51% of the network hashrate.
 She can say that all Glorian pools will refuse to work on a chain containing transactions spending from my address and announce this to the world.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- blacklisting: punitive foring (240) ------------------------------->
+<!-------------------------- 264. blacklisting: punitive forking (240) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image264.png"
@@ -8090,7 +8107,7 @@ The blocks containing my transactions are now invalid since they aren’t on the
 This also means that the miners on that chain will receive no mining rewards for their efforts.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------- 265. blacklisting: punitive foring (240) ----------------------------->
+<!-------------------------- 265. blacklisting: punitive forking (240) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image265.png"
@@ -8109,7 +8126,7 @@ That entity can prevent anybody from accessing their funds.
 <h3>Censorship Attacks: Feather Forking</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------- 266. blacklisting: feather forking (241) ---------------------------->
+<!------------------------ 266. blacklisting: feather forking #1 (241) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image266.png"
@@ -8126,11 +8143,11 @@ There is a strategy called feather forking, in which Gloria announces that she w
 This is in contrast to punitive forking, since that only works if a longer chain is guaranteed by the fork. In short, Gloria gives up after a block with my transactions has k confirmations, where k is any number. In the diagram, Gloria sees a block containing one of my transactions and attempts to fork. However, I get 3 confirmations, so she gives up trying to continue her fork.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 267. blacklisting: feather forking 2 (241) --------------------------->
+<!------------------------- 267. blacklisting: feather forking #2 (241) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image267.png"
-   alt=""
+   alt="Blacklisting: Feather Forking #2"
    width="65%" />
 </p>
 
@@ -8141,7 +8158,7 @@ Let’s look at a little bit of math. Let q be the proportion of mining power th
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image268.png"
-   alt=""
+   alt="Blacklisting: Feather Forking #3"
    width="65%" />
 </p>
 
@@ -8150,11 +8167,11 @@ However, other miners are now aware that their block has a q\^2, or 4% chance of
 They now have to decide whether they should include my transaction in their block. The expected value of including my transaction is the chance that my block is included times the block reward, plus the transaction fee that I pay. The expected value of not including my transaction is simply just the block reward, since all miners would be working on that chain.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 269. blacklisting: feather forking 4 (241) --------------------------------->
+<!------------------------ 269. blacklisting: feather forking 4 (241) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image269.png"
-   alt=""
+   alt="Blacklisting: Feather Forking #4"
    width="65%" />
 </p>
 
@@ -8192,11 +8209,11 @@ Nobody else on the network can even attempt to solve the hash puzzle.
 This is called selfish mining, or block withholding.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------- 271. selfish mining: block withholding 2 (244) ------------------------->
+<!---------------------- 271. selfish mining: block withholding #2 (244) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image271.png"
-   alt="Selfish Mining: Block Withholding 2"
+   alt="Selfish Mining: Block Withholding #2"
    width="65%" />
 </p>
 
@@ -8217,11 +8234,11 @@ So, you can continue mining this way and continue cheating the system until the 
 You’ve guaranteed yourself more block reward than the honest network, and most importantly, you deny the honest network the chance to do any meaningful work because you have your own secret chain, and you can imimagestely invalidate the honest chain as soon as you publish your secret chain.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------- 272. selfish mining: block withholding 2 (245) ------------------------->
+<!----------------------- 272. selfish mining: block withholding #3 (245) ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image272.png"
-   alt="Selfish Mining: Block Withholding 3"
+   alt="Selfish Mining: Block Withholding #3"
    width="65%" />
 </p>
 
@@ -8238,11 +8255,11 @@ The key thing to note here is that you assume that you as a malicious miner can 
 If you can’t, then your computation is the one that goes to waste.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------- 273. selfish mining: block withholding 4 (245) ----------------------------->
+<!------------------- 273. selfish mining: block withholding #4 (245) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image273.png"
-   alt="Selfish Mining: Block Withholding 4"
+   alt="Selfish Mining: Block Withholding #4"
    width="65%" />
 </p>
 
@@ -8310,11 +8327,11 @@ And furthermore, there’s no real way of determining how many signatures is eno
 For example…
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------ 275. Block validation: dummy block signatures 2 (248) ----------------------->
+<!------------------ 275. Block validation: dummy block signatures #2 (248) ---------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image275.png"
-   alt="Block Validation: Dummy Block Signatures 2"
+   alt="Block Validation: Dummy Block Signatures #2"
    width="65%" />
 </p>
 
@@ -8353,11 +8370,11 @@ This disincentivizes malicious users to attempt to fork the blockchain by workin
 In the diagram below, we see that there’s a fork, the top being the honest chain and the bottom being the dishonest chain.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------277. Fork Punishment: fork punishment rule 2 (250) ----------------------->
+<!----------------------277. Fork Punishment: fork punishment rule #2 (250) ---------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image277.png"
-   alt="Fork Punishment: Fork Punishment Rule 2"
+   alt="Fork Punishment: Fork Punishment Rule #2"
    width="65%" />
 </p>
 
