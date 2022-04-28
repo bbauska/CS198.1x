@@ -399,7 +399,7 @@ In this section: titled Bitcoin from the Ground Up, we’ll take each of these f
 
 By the end, you should have a high level understanding of how Bitcoin works, and why things are the way they are in Bitcoin.
 
-<h2 id="ch1-4">1.4 Intro: Identity (Stage 1)</h2>
+<h3 id="ch1-4">1.4 Intro: Identity (Stage 1)</h3>
 
 We’ll start off by taking a look at one of the most fundamental ideas in Bitcoin:
 
@@ -1529,7 +1529,7 @@ Users on the blockchain must come to a consensus on which updates and blocks to 
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-<h2 id="ch2">Module 2: Blockchain History</h2>
+<h2 id="ch2">Chapter 2: Blockchain History</h2>
 
 A question we sometimes get from students in our class here at UC Berkeley is: why use Bitcoin?
 
@@ -2855,7 +2855,7 @@ Coindesk: [A Bot Named Willy: Did Mt. Gox's Automated Trading Pump Bitcoin's Pr
 
 (Optional) [Digital Gold ](https://www.amazon.com/Digital-Gold-Bitcoin-Millionaires-Reinvent/dp/006236250X)by Nathaniel Popper 
 
-<h3 id="ch3">Module 3: Bitcoin Mechanics & Optimizations: A Technical Overview</h3>
+<h2 id="ch3">Chapter 3: Bitcoin Mechanics & Optimizations: A Technical Overview</h2>
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------- 80. Bitcoin Mechanics and Optimizations: A Technical Overview ----------------->
@@ -4943,7 +4943,7 @@ Let’s say that you manage to break computer science as we know it and devise a
 
 Feel free to discuss amongst each other in the discussion board topic below. We'll be grading the responses you paste into the text input.
 
-<h2 id="ch4">Module 4 - Bitcoin In Real Life: Wallets, Mining, and More</h2>
+<h2 id="ch4">Chapter 4 - Bitcoin In Real Life: Wallets, Mining, and More</h2>
 
 We’ve looked at Bitcoin mechanics from both a high and low level, explaining the primary motivations of why we do what we do in Bitcoin, and its implementation.
 
@@ -6278,7 +6278,7 @@ We’ll see that while the initial goal of Bitcoin was to be decentralized, hono
    width="65%" />
 </p>
 
-Here, we see a few pictures of what an ASIC mining farm in China.
+Here, we see a few pictures of what an ASIC mining farm in China looks like.
 
 As you can see, the look is very industrial.
 
@@ -7196,7 +7196,7 @@ Readings
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-<h2 id="ch5">Module 5: How to Destroy Bitcoin: Game Theory & Attacks</h2>
+<h2 id="ch5">Chapter 5: How to Destroy Bitcoin: Game Theory & Attacks</h2>
 
 With all our knowledge so far, we have a pretty good understanding of Bitcoin high level motivations and design, as well as low level mechanics.
 
@@ -9169,7 +9169,7 @@ In addition to network topology, network latency also poses as an issue. Nodes t
 <h2 id="ch6">Chapter 6: Ethereum & Smart Contracts: Enabling a Decentralized Future</h2>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- Bitcoin Network: Sybil Attack Revisited --------------------------->
+<!------------- lecture overview: smart contracts, ethereum, evm & use cases (274) --------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image-lecture-overview-mod-6.png"
@@ -11079,7 +11079,7 @@ We’ll go into this, and also Plasma, in our next course.
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-<h2 id="ch6-9">6.9 Chapter 6 Summary</h2>
+<h3 id="ch6-9">6.9 Chapter 6 Summary</h3>
 
 <h3>I. Smart Contracts</h3>
 
@@ -11167,7 +11167,7 @@ We wish you all the best on the rest of your blockchain journey!
 
 the end…&nbsp;<br/>
 <b><i>readme.md</i></b>&nbsp;<br/>
-<b><i>Last Updated: 4/27/2022 (Wednesday) 7:22pm+</i></b>
+<b><i>Last Updated: 4/27/2022 (Wednesday) 7:36pm+</i></b>
 
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
