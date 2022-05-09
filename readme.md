@@ -601,7 +601,7 @@ So now that we have a clear understanding of the structure and purpose of identi
 
 After all, that’s the primary goal of the Bitcoin network -- to enable secure transactions between any two users in the network.
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- 08. What Makes a Transaction Valid? (16) -------------------------->
+<!-------------------------- 08. What Makes a Transaction Valid? (17) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image008-what makes-a-transaction-valid.png" 
@@ -613,7 +613,7 @@ As we did before with the concept of identity, we will now be analyzing the idea
 
 Take a moment to ask yourself, “What makes a transaction valid?”
 <!------------------------------------------------------------------------------------------------>
-<!----------------- 09. Transactions: validity: what makes a transaction valid? (17) ------------->
+<!-------------- 09. Transactions: validity: what makes a transaction valid? (18) ---------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image009-validity.png" 
@@ -645,16 +645,16 @@ To ensure that one uses funds not in their possession, all the same conditions a
 
 To enforce this, Bitcoin uses what’s known as a UTXO, or Unspent Transaction Output, model.
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- 10. transactions: utxo model: example ----------------------------->
+<!-------------------------- 10. transactions: utxo model: example (19) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image010-utxo-model.png" 
-	alt="Transactions: UTXO Model: Example"
+<img src="/images/image010-utxo-model.png"
+   alt="Transactions: UTXO Model: Example"
    width=65%" />
 </p>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------ 10. transactions: utxo model: blockchain keeps track of unspent money ------------->
+<!--------- 10. transactions: utxo model: blockchain keeps track of unspent money (19) ----------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image010-utxo-2.png" 
@@ -685,8 +685,9 @@ To make transaction processing much easier and more secure, users do not spend f
 An easy way to wrap our heads around this unintuitive model is to think of UTXOs as piggy banks!
 
 Every time a transaction is made to us, we put all that money into a UTXO, or piggy bank.
+
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 11. utxo model: unspent ------------------------------------>
+<!--------------------------------- 11. utxo model: unspent (20) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image011-utxo-model-unspent.png"
@@ -5527,11 +5528,11 @@ That’d be pretty unmanageable.
 <h3>HD Wallets</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------- 181. wallet backups: hd wallets: hierarchical deterministic (163) ---------------->
+<!---------- 181. wallet backups: hd wallets: hierarchical deterministic wallets (164) ----------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image181.png"
-   alt="Wallet Backups: HD Wallets: Hierarchical Deterministic"
+   alt="Wallet Backups: HD Wallets: Hierarchical Deterministic Wallets"
    width="65%" />
 </p>
 <div align="right">
@@ -5561,11 +5562,11 @@ And to make things more interesting, we can also use child keys as parent keys t
 By generating keys in a known way instead of randomly, we greatly lessen the load on wallets having to keep track of all your keys -- especially if you’re dealing with thousands of keys like exchanges do.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------- 182. bitcoin wallets: wallet backups (164) ----------------------------->
+<!------------------------- 182. bitcoin wallets: wallet backups (165) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image182.png"
-   alt="bitcoin wallets: wallet backups"
+   alt="Bitcoin Wallets: Wallet Backups"
    width="65%" />
 </p>
 
@@ -5602,11 +5603,11 @@ We will go through what a miner actually does to validate blocks.
 <h3>Recipe for Mining: Overview</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------- 157. Recipe for Mining: Overview (165) ----------------------------->
+<!--------------------------- 157. Recipe for Mining: ethereum (166) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image157.png"
-   alt="Recipe for Mining: Overview"
+   alt="Recipe for Mining: Ethereum"
    width="65%" />
 </p>
 
@@ -5637,7 +5638,7 @@ Let’s go into detail on how each of these steps plays out.
 <h3>Recipe for Mining: Step 0</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 158. recipe for mining: step 0: download the blockchain (166) ----------------->
+<!---------------- 158. recipe for mining: step 0: download the blockchain (167) ----------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image158.png"
@@ -5664,7 +5665,7 @@ Now that we have the full history, let’s go ahead and get started with mining!
 <h3>Recipe for Mining: Step 1</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------ 159. recipe for mining: step 1: verify transactions (167) ------------------->
+<!------------------ 159. recipe for mining: step 1: verify transactions (168) ------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image159.png" 
@@ -5692,7 +5693,7 @@ If that piece of code is able to successfully unlock the previous bitcoins, then
 <h3>Recipe for Mining: Step 2</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------- 160. recipe for mining: step 2: create a block (168) ---------------------->
+<!-------------------- 160. recipe for mining: step 2: create a block (169) ---------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image160.png"
@@ -5713,7 +5714,7 @@ After constructing the block data, we are finally able to start working on the m
 <h3>Recipe for Mining: Step 3</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------- 161. recipe for mining: step 3: find a valid nonce (168) ------------------>
+<!-------------------- 161. recipe for mining: step 3: find a valid nonce (169) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image161.png"
@@ -5747,7 +5748,7 @@ We go through these loops until finally we find a valid nonce.
 <h3>Recipe for Mining: Step 4</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------- 162. Recipe for Mining: Step 4: Broadcast -------------------------------->
+<!---------------------- 162. Recipe for Mining: Step 4: Broadcast (170) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image162-step4-broadcast.png" 
@@ -5780,7 +5781,7 @@ That’s all Proof-of-Work really is at its base, a random lottery.
 <h3>Recipe for Mining: Step 5</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 163. Recipe for Mining: Step 5: Profit (170) -------------------------->
+<!------------------------ 163. Recipe for Mining: Step 5: Profit (171) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image163-step5-profit.png" 
@@ -5824,7 +5825,7 @@ Author: Rea Savla
     -   Note: This step is optional if you mine in a mining pool or are doing lightweight mining. 
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------- 165. Step 0: Download Entire Blockchain (171) -------------------------->
+<!----------------------- 165. Step 0: Download Entire Blockchain (172) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image165-step0-download-blockchain.png"
@@ -5846,7 +5847,7 @@ Author: Rea Savla
     -   If that script runs successfully, then the transaction is included within our block.
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------- 165. Step 1: Verify Transactions (171) ----------------------------->
+<!--------------------------- 165. Step 1: Verify Transactions (172) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image165-step1-verify-transactions.png"
@@ -5869,7 +5870,7 @@ Author: Rea Savla
     -   Construct the Previous Block Hash by hashing the previous block’s header
 
 <!------------------------------------------------------------------------------------------------>
-<!------ Step 2: Create the block with the given transactions and necessary metadata (172) ------->
+<!------ Step 2: Create the block with the given transactions and necessary metadata (173) ------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image165-step2-create-block.png"
@@ -5888,7 +5889,7 @@ Author: Rea Savla
     -   Note: There are two different nonces, the header nonce and the coinbase nonce. In the event that no permutation of the header nonce solves the hash puzzle, alter the coinbase nonce. This changes the Merkle root, yielding an entirely different hash puzzle.
 
 <!------------------------------------------------------------------------------------------------>
-<!------ Step 3: Find the proof-of-work that solves the partial preimage hash puzzle (172) ------->
+<!------ Step 3: Find the proof-of-work that solves the partial preimage hash puzzle (173) ------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image165-step3-find-proof-of-work.png"
@@ -5908,7 +5909,7 @@ Author: Rea Savla
     -   Other miners will validate the block for themselves before accepting it into their chain and propagating it further through the network. 
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------- 165. Step 4: broadcast if not seen competitor blocks (173) ---------------->
+<!-------------------- 165. Step 4: broadcast if not seen competitor blocks (174) ---------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image165-step4-broadcast.png"
@@ -5953,7 +5954,7 @@ It’s such a simple word, yet this concept of profit will come up again and aga
 In fact, any type of incentive mechanisms within blockchain protocols focus on aligning personal profit with overall profit.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 195. Mining Incentives: What is Profit? (174) ------------------------->
+<!------------------------ 195. Mining Incentives: What is Profit? (175) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image195.png"
@@ -5977,7 +5978,7 @@ Every single person in the Bitcoin network is presumably maximizing the value of
 <h3>Mining Incentives: Block Reward</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!-------- 196. Mining Incentives: How to Profit From Mining (175) ---------->
+<!------------------ 196. Mining Incentives: How to Profit From Mining (176) --------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image196.png"
@@ -5990,7 +5991,7 @@ Let’s go ahead and break down the various components of profit within Bitcoin.
 First, we’ll start by discussing the block reward, the most significant source of profit currently for miners.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 197. Mining Incentives: Block Reward (175) --------------------------->
+<!------------------------- 197. Mining Incentives: Block Reward (176) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image197.png" 
@@ -6044,7 +6045,7 @@ In addition, some private keys have been lost, and some bitcoins have been burne
 <h3>Mining Incentives: Transaction Fees</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------- 198. Mining Incentives: Transaction Fees (177) ------------------------->
+<!----------------------- 198. Mining Incentives: Transaction Fees (178) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image198.png" 
@@ -6237,7 +6238,7 @@ On top of that, there is infrastructure and overhead to maintain as well, such a
 Depending on the scale of your operation, you may need to go so far as to purchase entire warehouses and a few maintainers to ensure that nothing goes wrong with the hardware, or to take care of things when hardware goes down.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------- Mining Incentives: How to Profit ---------->
+<!---------------------------- 205. Mining Incentives: How to Profit ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image205.png" 
@@ -6386,7 +6387,7 @@ Thus, they wouldn’t get any shares from the mining pool, since the mining pool
 <h3>Mining Pool Schemes</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!-------- 208. Real World Mining: Mining Pool Schemes ---------->
+<!------------------------ 208. Real World Mining: Mining Pool Schemes --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image208.png" 
@@ -6555,9 +6556,8 @@ This leads to the paradox that: the more secure Bitcoin gets, with more and more
 </div>
 
 <h3>Types of Miners</h3>
-
 <!------------------------------------------------------------------------------------------------>
-<!--------------------- 213. real world mining: which miner are you? (192) ----------------------->
+<!--------------------- 213. real world mining: which miner are you? (193) ----------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image213.png" 
@@ -6666,7 +6666,7 @@ In this section, we’ll be specifically talking about concerns of mining centra
 <h3>Ensuring Decentralization</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 214. decentralizing mining: the problem (195) ------------------------>
+<!------------------------- 214. decentralizing mining: the problem (196) ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image214.png"
@@ -6688,7 +6688,7 @@ ASICs on the other hand, are also centralized, but in the sense that ASICs can c
 This means that only people with the enough capital can acquire them, centralizing the mining process.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------- Decentralized Mining: Puzzle Requirements Review --------------------------->
+<!---------------- 215. Decentralized Mining: Puzzle Requirements Review  (197) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image215.png"
@@ -6727,7 +6727,7 @@ You don’t have to find the exact preimage of the hash, as long as you have the
 <h3>Ensuring Decentralization: ASIC Resistance</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------- Decentralized Mining: ASIC-Resistance ------------------------------>
+<!---------------------- 216. Decentralized Mining: ASIC-Resistance (198) ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image216.png"
@@ -6754,7 +6754,7 @@ They still use a partial hash-preimage puzzle like in Bitcoin, just with a diffe
 This means that ASICs that are built for Bitcoin don’t work for Dogecoin or Litecoin.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- Decentralized Mining: Scrypt ---------------------------------->
+<!-------------------------- 217. Decentralized Mining: Scrypt (199) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image217.png"
@@ -6774,7 +6774,7 @@ To see why this is memory-bound, let’s take a look at what happens when you fi
 Looking something up is easy, since you just find the index of the datum you want.
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------- Decentralized Mining: Scrypt part II ------------------------------->
+<!------------------------ 218. Decentralized Mining: Scrypt part II ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image218.png"
@@ -6803,7 +6803,7 @@ Another idea to achieve ASIC resistance that people tried was to chain together 
 The idea was that it’s much harder to create an ASIC that can deal with so many hash functions, not just once.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------- Decentralized Mining: ASIC Resistance ------------------------------->
+<!--------------------- 219. Decentralized Mining: ASIC Resistance (200) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image219.png"
@@ -6837,11 +6837,11 @@ As a closing note, whenever there’s money that can be made, someone’s going 
 In cryptocurrencies, that can take the form of working to create ASICs for new hashing algorithms.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------- --------------------------->
+<!--------------------- 220. Decentralized Mining: ASIC Resistance #2 (201) ---------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image220.png"
-   alt="Decentralized Mining: ASIC Resistance"
+   alt="Decentralized Mining: ASIC Resistance, part 2"
    width="65%" />
 </p>
 
@@ -6850,11 +6850,11 @@ Mike Hearn, a Bitcoin Core developer said (quote) “There’s really no such th
 <h3>Ensuring Decentralization: ASIC Debate</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------- --------------------------->
+<!--------------- 221. Decentralized Mining: ASIC Resistance: Pros and Cons (202)----------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image221.png"
-   alt="Decentralized Mining: ASIC Resistance"
+   alt="Decentralized Mining: ASIC Resistance: Pros and Cons"
    width="65%" />
 </p>
 
@@ -6891,7 +6891,7 @@ This idea of useless hardware and wasted hashpower leads us to our next slide.
 <h3>Eliminating Waste</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------ 222. proof-of-useful-work: not a puzzling concept (202) --------------------->
+<!------------------ 222. proof-of-useful-work: not a puzzling concept (203) --------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image222.png"
@@ -6922,7 +6922,7 @@ The problem can’t be used for proof-of-work anymore.
 In Bitcoin, since the puzzle is based on the previous block, the problem space is inexhaustible.
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------- 223. Proof-of-useful-work: does it work? (203) --------------------------->
+<!--------------------- 223. Proof-of-useful-work: does it work? (204) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image223.png" 
@@ -6961,7 +6961,7 @@ In summary, proof of useful work sounds like a great idea, but it’s incredibly
 <h3>Consensus Updates: Bitcoin Core</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- Consensus Updates: Bitcoin Core (204) ---------------------------->
+<!--------------------------- 224. Consensus Updates: Bitcoin Core (205) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image224.png"
@@ -6979,7 +6979,7 @@ This is the software that’s used in full nodes.
 
 <h3>Consensus Updates: Forks</h3>
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 225. Consensus Updates: Forks (204) ----------------------------->
+<!------------------------------ 225. Consensus Updates: Forks (205) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image225.png" 
@@ -7024,7 +7024,7 @@ Before every fork, hard or soft, the entire community launches into debates abou
 <h3>Consensus Updates: BIPs</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------ 226. Consensus Updates: bitcoin improvement proposal (206) ------------------>
+<!------------------ 226. Consensus Updates: bitcoin improvement proposal (207) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image226.png" 
@@ -7070,7 +7070,7 @@ Bitcoin makes the distinction of 4 key functionalities ([Mastering Bitcoin <u>O
 We can make powerful generalizations using these 4 key characteristics, however there exist other distinctions between users too.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------- 227. Wallet-Miner-Full Blockchain-Routing Node (WMBN) (207) ------------------>
+<!----------------- 227. Wallet-Miner-Full Blockchain-Routing Node (WMBN) (208) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image227.png"
@@ -7123,7 +7123,7 @@ The main variable costs associated with mining are energy and infrastructure cos
 To get a better sense of how mining looks in real life, here is what a real-world ASIC mining farm in China looks like:
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------- 228. real world photo mining bitcon (210) --------------------------->
+<!-------------------------- 228. real world photo mining bitcon (211) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image228.png"
@@ -9604,7 +9604,6 @@ So, a wider variety of applications can be made on Ethereum than on Bitcoin, mak
 Another key difference is that Bitcoin is UTXO-based, whereas Ethereum is account based.
 
 <h3>Ethereum Features</h3>
-
 <!------------------------------------------------------------------------------------------------>
 <!-------------------- 319. ethereum accounts: accounts vs utxo model (288) ---------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -11134,7 +11133,7 @@ The developers of Ethereum implemented ‘gas’ to protect against the Denial o
 Ethereum is implemented as a distributed state machine, and transactions on the network change the global state of the system. In the transaction execution, or “state transition function,” nodes in Ethereum come to consensus on the network state, and their code execution on the EVM changes the global state from the previous state to the new state. The function looks like this:
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------- block_state, gas, memory, transaction, msg, code, stack, pc (339) --------------->
+<!----------- 365. block_state, gas, memory, transaction, msg, code, stack, pc (339) ------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image365.jpg" 
@@ -11167,7 +11166,7 @@ We wish you all the best on the rest of your blockchain journey!
 
 the end…&nbsp;<br/>
 <b><i>readme.md</i></b>&nbsp;<br/>
-<b><i>Last Updated: 4/27/2022 (Wednesday) 7:36pm+</i></b>
+<b><i>Last Updated: 5/9/2022 (Monday) 11:31am+</i></b>
 
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
