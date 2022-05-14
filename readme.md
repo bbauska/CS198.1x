@@ -10267,7 +10267,7 @@ We’ll expand on how we take advantage of these properties in the Advanced Use 
 <h3>Advanced Use Cases: Land Titles</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 342. Decentralized Land Titles: Blockchain Fundamentals (310) ----------------->
+<!---------------- 342. Decentralized Land Titles: Blockchain Fundamentals (311) ----------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" >
 <img src="/images/image342.png"
@@ -10296,7 +10296,7 @@ Well, let’s try a decentralized approach.
 What do we include in our decentralized approach?
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------- 343. decentralized land titles: blockchain fundamentals (311) ------------------>
+<!--------------- 343. decentralized land titles: blockchain fundamentals (312) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image343.png"
@@ -10317,7 +10317,7 @@ This provides transparency and immutability, since information about all documen
 
 Just like transferring bitcoin between users through UTXOs, we’re simply transferring the land title through smart contracts as well.
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 344. Decentralized Land Titles (311) ---------------------------->
+<!------------------------------ 344. Decentralized Land Titles (312) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image344.png"
@@ -10407,7 +10407,7 @@ As users have an incentive to monetize information while revealing as little of 
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image348.png"
-   alt="Prediction Markets: And Decentralizing Them"
+   alt="Prediction Markets: And Decentralizing Them: Will This Movie be a Flop?"
    width="65%" />
 &nbsp;
 
@@ -10419,7 +10419,7 @@ Hollywood insiders, for example, would be particularly drawn to this, as they ca
 
 This allows the person asking the question to gather information while letting users keep specifics to themselves.
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------- Prediction Markets: Other Use Cases--------------------------------->
+<!--------------------------- 349. Prediction Markets: Other Use Cases--------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image349.png"
@@ -10457,13 +10457,14 @@ Research is still being done to examine the feasibility of futarchy on a blockch
 
 <h3>Advanced Use Cases: Supply Chain</h3>
 <!------------------------------------------------------------------------------------------------>
-<!----------------------- supply chain and provenance: bool diamonds (316) ----------------------->
+<!--------------------- 351. supply chain and provenance: bool diamonds (317) -------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image351.png"
    alt= "Supply Chain and Provenance: Blood Diamonds"
    width="65%" />
 &nbsp;
+	
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
@@ -10492,7 +10493,7 @@ We have to trust that individuals are not bribed to include false information in
 
 <h3>Advanced Use Cases: Smart Energy Grids</h3>
 <!------------------------------------------------------------------------------------------------>
-<!------------------ Smart Energy Grids: Revolutionizing Infrastructure (317) -------------------->
+<!------------------- 352. Smart Energy Grids: blockchain fundamentals (318) --------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image352.png"
@@ -10542,7 +10543,7 @@ This is one of the most revolutionary concepts in blockchain, giving users the a
 
 <h3>Advanced Use Cases: After Hours Trading</h3>
 <!------------------------------------------------------------------------------------------------>
-<!---------------------- After Hours Trading: 24/7 Access & Liquidity ---------------------------->
+<!------------------- 353. After Hours Trading: 24/7 Access & Liquidity (320) -------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image353.png"
