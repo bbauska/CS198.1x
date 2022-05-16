@@ -2716,11 +2716,11 @@ It’s clear that cryptocurrencies and blockchain are hugely popular now.
 Whether or not its mainstream spotlight and growing popularity is a good thing is another question.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 75.  ----------------------------->
+<!---------------------------------- 75. parity: security (82) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image075-parity-security.png"
-   alt=" "
+   alt="Parity: Security"
    width="65%" />
 </p>
 &nbsp;
@@ -2735,7 +2735,7 @@ Parity wallet is a popular multisignature wallet, which requires multiple people
 Parity marketed itself as the fastest and most secure way of interacting with the Ethereum blockchain, but in November 2017, this happened…
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- 76. Parity got hacked - Nov, 2017 (81) --------------------------->
+<!----------------------------- 76. Parity got hacked - Nov, 2017 (82) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image076-parity-oops.png"
@@ -2760,7 +2760,7 @@ This was a huge eye-opening moment for the Ethereum community as a whole, and ta
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 77. coincheck got hacked - jan, 2018 (82) ---------------------------->
+<!------------------------- 77. coincheck got hacked - jan, 2018 (83) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image077-coincheck-the-biggest-yet.png"
@@ -2803,7 +2803,7 @@ In October 2008, Satoshi Nakamoto released the Bitcoin whitepaper, which outline
 The first transaction using Bitcoin to purchase a tangible asset occurred in 2010, when Laszlo Hanyecz exchanged 10,000 bitcoin for \$25 worth of pizza. This exchange gave bitcoins real value, a first step towards legitimacy. 
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------------- 78. pizza 10,000 bitcoins ------------------------------------>
+<!------------------------------- 78. pizza 10,000 bitcoins (85) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image078-pizza-pizza.png"
@@ -2859,7 +2859,7 @@ Coindesk: [A Bot Named Willy: Did Mt. Gox's Automated Trading Pump Bitcoin's Pr
 <h2 id="ch3">Chapter 3: Bitcoin Mechanics & Optimizations: A Technical Overview</h2>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 80. Bitcoin Mechanics and Optimizations: A Technical Overview ----------------->
+<!------------- 80. Bitcoin Mechanics and Optimizations: A Technical Overview (87) --------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image080-bitcoin-overview.png"
@@ -2921,7 +2921,7 @@ For this, we’ll utilize cryptographic hash functions.
 
 <h3 id="ch3-2">Motivations and Definitions: Integrity of Information</h3>
 <!------------------------------------------------------------------------------------------------>
-<!----------------- 81. cryptographic hash functions: integrity of information ------------------->
+<!--------------- 81. cryptographic hash functions: integrity of information (89) ---------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image081-cryptographic-hash-functions.png"
@@ -2966,7 +2966,7 @@ We need standardized randomness.
 
 <h3>Motivations and Definitions: Cryptographic Hash Functions</h3>
 <!------------------------------------------------------------------------------------------------>
-<!--------------- 81. crypographic hash functions: what is a hash function? (89) ----------------->
+<!--------------- 81. crypographic hash functions: what is a hash function? (90) ----------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image081-hash-function-formula.png"
@@ -3006,7 +3006,7 @@ Cryptographic hash functions differ from regular hash functions in that they are
 <h3>Key Properties of Cryptographic Hash Functions</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------- 83. crypographic hash functions: cryptography (90) ----------------------->
+<!--------------------- 83. crypographic hash functions: cryptography (91) ----------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image083-cryptographic-hash-functions-cryptography.png"
@@ -3026,7 +3026,7 @@ To clarify what these terms mean, let’s go over a couple definitions.
 </div>
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------- 84. crypographic hash functions: preimage resistance (91) -------------------->
+<!----------------- 84. crypographic hash functions: preimage resistance (92) -------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image084-cryptographic-hash-functions-preimage-resistance.png"
@@ -3050,7 +3050,7 @@ First off, we want to make sure that no one can reverse engineer our fingerprint
 Otherwise, certain issues come up, such as exposing information that we didn’t want to reveal.
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------- 85. crypographic hash functions: preimage resistance #2 (91) ------------------->
+<!--------------- 85. crypographic hash functions: preimage resistance #2 (92) ------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image085-cryptographic-hash-functions-preimage-resistance.png" 
@@ -3069,9 +3069,8 @@ The technical definition is as follows: given some hash function H and some outp
 In other words, we cannot easily discover the input which created some output.
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------- 86. crypographic hash functions: 2nd preimage resistance (92) ------------------>
+<!--------------- 86. crypographic hash functions: 2nd preimage resistance (93) ------------------>
 <!------------------------------------------------------------------------------------------------>
-<
 <p align="center" width="100%">
 <img src="/images/image086-cryptographic-hash-functions-2ndary-preimage-resistance.png"
    alt="Cryptographic Hash Functions: 2nd Preimage Resistance"
@@ -3088,9 +3087,8 @@ If someone else can generate my fingerprint with a different input, then no one 
 To make sure this doesn’t happen, we need what’s known as second preimage resistance.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------- 87. Cryptographic hash functions: 2nd preimage resistance (92) ------------------>
+<!-------------- 87. Cryptographic hash functions: 2nd preimage resistance (93) ------------------>
 <!------------------------------------------------------------------------------------------------>
-<
 <p align="center" width="100%">
 <img src="/images/image087-cryptographic-hash-functions-2ndary-preimage-resistance.png"
    alt="Cryptographic Hash Functions: 2nd Preimage Resistance #2"
@@ -3574,7 +3572,7 @@ To satisfy our needs for a puzzle, these hash puzzles need to have **three** cha
 Computational difficulty means ensuring that the solution to the puzzle cannot be easily found.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------- 104. partial preimage hash puzzle (10#) ----------------------------->
+<!-------------------------- 104. partial preimage hash puzzle (108) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image104-partial-preimage-3.png"
@@ -3600,7 +3598,7 @@ It should just take one hash for example to prove that some nonce is correct, ev
 <h3 id="ch3-6">3.6 Proof-of-Work: Mining</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 107. proof-of-work: mining (107) -------------------------------->
+<!------------------------------ 107. proof-of-work: mining (108) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image107.png"
@@ -4003,7 +4001,7 @@ A private key wouldn’t be so private if we could guess the private key from th
 Alright, so let’s take a look at elliptic curves first.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------ 117. elliptic curve cryptography: part 1: elliptic curve (119) -------------->
+<!------------------ 117. elliptic curve cryptography: part 1: elliptic curve (120) -------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image117-cryptography-part1.png" 
@@ -4028,7 +4026,7 @@ Here’s a picture of Bitcoin’s elliptic curve, secp256k1, on the right side.
 <h3>Elliptic Curve Cryptography: Demo</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------- 118-2. elliptic curve cryptography: part 2: chord-tangent process --------------->
+<!----------- 118-2. elliptic curve cryptography: part 2: chord-tangent process (121) ------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image118-2.png" 
@@ -4038,7 +4036,7 @@ Here’s a picture of Bitcoin’s elliptic curve, secp256k1, on the right side.
 &nbsp;
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------119. elliptic-curve cryptography: part 2.5: point multiplication demo ------------->
+<!----------119. elliptic-curve cryptography: part 2.5: point multiplication demo (121) ---------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image119.png" 
@@ -4063,7 +4061,7 @@ To get 3P, we can add P to 2P via the same process.
 Draw a line through P and 2P, find where they intersect, which is -3P, and then reflect that across the x-axis again to yield our answer 3P.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------- 120. elliptic curve crypography: part 1: elliptic curve -------------------->
+<!---------------- 120. elliptic curve crypography: part 1: elliptic curve (122) ----------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image120.png" 
@@ -4109,7 +4107,7 @@ This is a trapdoor, or one-way, function, because given a point K that is P + Q,
 <h3>Elliptic Curve Cryptography: Security</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------- 120. Elliptic Curve Cryptography: Part 3: Security of ECC (122) ---------------->
+<!--------------- 120. Elliptic Curve Cryptography: Part 3: Security of ECC (123) ---------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image120-cryptography.png"
@@ -4141,7 +4139,7 @@ Now that we have our public key, how do we get to our address?
 We’ll be going over that in this section.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------- 121. public key to bitcoin address (123) ---------------------------->
+<!-------------------------- 121. public key to bitcoin address (124) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image121-cryptography.png" 
@@ -4166,7 +4164,7 @@ After all this, we have our public key hash.
 <h3>Public Key to Address</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------- 122. public key to bitcoin address (124) ---------------------------->
+<!-------------------------- 122. public key to bitcoin address (125) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image122-public-key-to-bitcoin-address.png"
@@ -4226,7 +4224,7 @@ Before we dive into specifics about how Bitcoin scripts work, it’s important t
 <h3>Remember the UTXO Model?</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------- 123. bitcoin scripts: remember the utxo model? (125) ---------------------->
+<!-------------------- 123. bitcoin scripts: remember the utxo model? (126) ---------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image123-bitcoin-scripts.png"
@@ -4236,7 +4234,7 @@ Before we dive into specifics about how Bitcoin scripts work, it’s important t
 &nbsp;
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------- 124. Bitcoin Scripts: Remember the UTXO Model? (125) ---------------------->
+<!-------------------- 124. Bitcoin Scripts: Remember the UTXO Model? (127) ---------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image124-bitcoin-scripts.png" 
@@ -4273,7 +4271,7 @@ Contents of a Transaction
 Let’s take a deeper look into the contents of my transaction to Rustie.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 125. contents of a transaction (127) ---------------------------->
+<!------------------------------ 125. contents of a transaction (128) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image125-contents-transaction.png" 
@@ -4285,7 +4283,7 @@ Let’s take a deeper look into the contents of my transaction to Rustie.
 As we can see, a transaction has three main “sections.”
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------- 125. contents of a transaction: metadata (127) -------------------------->
+<!---------------------- 125. contents of a transaction: metadata (128) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image125-contents-metadata.png" 
@@ -4307,7 +4305,7 @@ This proof allows me to redeem the UTXOs and use them to produce new outputs.
 The outputs section contains a list of new UTXOs that will be sent to new addresses.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------- 126. contents of a transaction: metadata (128) ------------------------->
+<!----------------------- 126. contents of a transaction: metadata (129) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image126-contents-metadata-2.png"
@@ -4322,7 +4320,7 @@ Taking a deeper look into the transaction, we start with the metadata.
 The first piece of metadata is the hash of our transaction, or the unique “ID” of this transaction.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------- 126. contents of a transaction: input(s) (128) ------------------------->
+<!----------------------- 126. contents of a transaction: input(s) (129) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image126-contents-inputs.png"
@@ -4358,7 +4356,7 @@ We also get a reference to the index of the input in the previous transaction.
 </div>
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------- 127. contents of a transaction: inputs: scriptSig (129) ------------------>
+<!--------------------- 127. contents of a transaction: inputs: scriptSig (130) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image127-contents-inputs.png"
@@ -4372,7 +4370,7 @@ The scriptSig is the most important part of these inputs because they’re the r
 Last but not least, the end product of our transaction is the output(s).
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------- 128. contents of a transaction: outputs ----------------------------->
+<!----------------------- 128. contents of a transaction: outputs (131) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image128-contents-outputs.png"
@@ -4398,7 +4396,7 @@ In this case, only after Rustie provides his proof can he unlock and spend my UT
 <h3>Bitcoin Script Reminders</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- 128. bitcoin scripts: reminders (130) ----------------------------->
+<!---------------------------- 128. bitcoin scripts: reminders (131) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image128-bitcoin-scripts.png"
@@ -4426,7 +4424,7 @@ The Script language is stack-based, has a native support for cryptocurrency, and
 <h3 id="ch3-9">3.9 Intro to P2PKH</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------- 129. bitcoin scripts: p2pkh example (131) --------------------------->
+<!-------------------------- 129. bitcoin scripts: p2pkh example (132) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image129-intro-to-p2pkh.png"
@@ -4444,7 +4442,7 @@ This script specifies the most common type of transaction in Bitcoin, which is t
 To redeem this previous transaction, we need to prove our identities with (1) a public key that, when hashed, yields the address to which the previous transaction was sent, and (2) a signature that proves ownership of the private key corresponding to the public key we provided.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------- 130. bitcoin scripts: p2pkh example execution (132) ----------------------->
+<!-------------------- 130. bitcoin scripts: p2pkh example execution (133) ----------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image130-bitcoin-scripts.png"
@@ -4481,7 +4479,7 @@ In our Pay to Pub Key Hash example, the locking script requires that the users t
 For this reason, this script is called scriptPubKey.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------- 131. bitcoin scripts: p2pkh example execution (133) ------------------------>
+<!------------------- 131. bitcoin scripts: p2pkh example execution (134) ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image131-p2pkh-example.png"
@@ -4502,7 +4500,7 @@ And the entire resulting script must execute successfully in order for the trans
 <h3>Demo: P2PKH Example</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------- 131. bitcoin scripts: p2pkh example execution (133) ----------------------->
+<!-------------------- 131. bitcoin scripts: p2pkh example execution (134) ----------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image131-p2pkh-example-2.png"
@@ -4530,7 +4528,7 @@ OP_DUP will duplicate the top item on the stack OP_HASH160 hashes the previous i
 Next, \<pubKeyHash?\> -- with the question mark in the angle brackets -- is the actual public key hash specified by the previous transaction output.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------- 132. bitcoin scripts: p2pkh example execution (134) ----------------------->
+<!-------------------- 132. bitcoin scripts: p2pkh example execution (135) ----------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image132-p2pkh.png"
@@ -4559,7 +4557,7 @@ And then finally, since the final return value is true, we know that the transac
 <h3>Proof of Burn</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------- 133. bitcoin scripts: proof-of-burn (135) --------------------------->
+<!-------------------------- 133. bitcoin scripts: proof-of-burn (136) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image133-proof-of-burn.png"
@@ -4620,7 +4618,7 @@ In other words, the customer is the sender, and the vendor is the recipient.
 <h3>P2PKH vs P2SH</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------- 134. p2pkh vs p2sh: who specifies the script? (136) ----------------------->
+<!-------------------- 134. p2pkh vs p2sh: who specifies the script? (137) ----------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image134-p2pkh-p2sh.png"
@@ -4658,7 +4656,7 @@ It’s much more customer friendly if the recipient of the transaction, the vend
 <h3>How P2SH Works</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------- 135. p2pkh vs p2sh: creating a p2pkh pub key hash (137) -------------------->
+<!------------------- 135. p2pkh vs p2sh: creating a p2pkh pub key hash (138) -------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image135-how-p2sh-works.png"
@@ -4687,7 +4685,7 @@ In order for Bob to redeem the bitcoin that Alice just sent him, he must provide
 
 <h3>Why use P2SH?</h3>
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 136. p2pkh vs p2sh: why p2pkh? (138) ---------------------------->
+<!------------------------------ 136. p2pkh vs p2sh: why p2pkh? (139) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image136-why-use-p2sh.png"
@@ -4723,7 +4721,7 @@ Pay to Script Hash was an update to Bitcoin back in 2012, and since then has bee
 
 <h3>Multisignature</h3>
 <!------------------------------------------------------------------------------------------------>
-<!---------------------- 161. P2PKH vs P2SH: Multisignature Example (139) ------------------------>
+<!---------------------- 161. P2PKH vs P2SH: Multisignature Example (140) ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image161.jpg" 
@@ -4765,7 +4763,7 @@ This redeeming script is only revealed and used when the redeemer wants to spend
 The redeeming script is then hashed, to check against the redeeming script hash, and evaluated.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------- 161. p2pkh vs p2sh: multisig example (140) ----------------------------->
+<!----------------------- 161. p2pkh vs p2sh: multisig example (141) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image161.jpg"
@@ -4785,7 +4783,7 @@ If they match, the UTXO is unlocked.
 
 <h3>Timelocks</h3>
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 162. transaction locktime: timelocks (141) --------------------------->
+<!------------------------- 162. transaction locktime: timelocks (142) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image162.png" 
@@ -4848,7 +4846,7 @@ In this lecture, we dove into the low-level specifics of Bitcoin that make it wo
 We achieve a tamper evident system using cryptographic hash functions to produce standardized random “fingerprints” of our data. If the data changes, so will the fingerprints. Cryptographic hash functions do the following:
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- cryptographic hash functions (143) ------------------------------->
+<!----------------------------- cryptographic hash functions (144) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image163.jpg" 
@@ -4973,7 +4971,7 @@ While we may primarily only think of miners or casual traders using exchanges or
 <h3 id="ch4-1">4.1 Key Components</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 164. Types of Users: Key Components (146) ---------------------------->
+<!------------------------- 164. Types of Users: Key Components (147) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image164.png"
@@ -7223,7 +7221,7 @@ And when it comes to making the most profit, honest strategies are NOT usually t
 <h3>Pool Reward Scheme Review</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- Pool Reward Schemes: Reviews (213) ------------------------------->
+<!--------------------------- 231. Pool Reward Schemes: Reviews (213) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image231.png" 
@@ -7243,7 +7241,7 @@ One issue is that there’s no incentive for a miner to actually submit valid bl
 Miners will stop doing work on their current block as soon as it satisfies the near-valid block requirements.
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------- Pool Reward Schemes: Proportional (214) ---------------------------->
+<!------------------------- 232. Pool Reward Schemes: Proportional (214) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image232.png"
@@ -7265,7 +7263,7 @@ Given the incentive structures in both pay per share and proportional pool pay-o
 
 <h3 id="ch5-2">5.2 Pool Hopping</h3>
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------- Pool Rewards: Pool Hopping Strategy (215) --------------------------->
+<!------------------------ 233. Pool Rewards: Pool Hopping Strategy (215) ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image233.png" 
@@ -7285,7 +7283,7 @@ This graph is a general representation of the difference between pay-per-share p
 We know there must be some intersection between these two because the proportional payout starts off high but decreases while the pay-per-share scheme stays constant.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- Pool Rewards: Pool Hopping Strategy ------------------------------>
+<!--------------------------- 234. Pool Rewards: Pool Hopping Strategy --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image234.png" 
@@ -7302,7 +7300,7 @@ Here, you see the area under the curve, which represents the total reward per sh
 If we mine under just the proportional scheme, the reward gained per share decreases as more and more shares get submitted towards this block, meaning that our marginal rewards start to approach zero.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- Pool Rewards: Pool Hopping Strategy (216) ------------------------>
+<!--------------------------- 235. Pool Rewards: Pool Hopping Strategy (216) --------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image235.png" 
@@ -7326,7 +7324,7 @@ A clever miner will look for ways to take advantage of both payout schemes to in
 And here’s how they can do that.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- Pool Rewards: Pool Hopping Strategy (217) ------------------------>
+<!--------------------------- 236. Pool Rewards: Pool Hopping Strategy (217) --------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image236.png" 
@@ -7355,7 +7353,7 @@ Because the reward per additional share there is higher, and will yield more pro
 To fully understand this attack, you need to see the point at which the two curves intersect.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- Pool Rewards: Pool Hopping Strategy (218) ------------------------>
+<!--------------------------- 237. Pool Rewards: Pool Hopping Strategy (218) --------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image237.png"
@@ -7389,7 +7387,7 @@ We’ll see how this misalignment of incentives in pay-per-share models can lead
 <h3 id="ch5-3">5.3 Pool Cannibalization</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------- Pool Cannibalization: Strategy: Nom Nom Nom Nom (219) ------------------>
+<!--------------------- 238. Pool Cannibalization: Strategy: Nom Nom Nom Nom (219) --------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image238.png" 
@@ -7426,7 +7424,7 @@ The advantage of this attack is that it’s very hard to detect in small amounts
 Let’s go ahead and show why this is the case through some calculations.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------- Pool Cannibalization: Strategy (220) --------------------------->
+<!----------------------------- 239. Pool Cannibalization: Strategy (220) ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image239.png"
@@ -7470,7 +7468,7 @@ This means that our increase in profit is 0.0069 bitcoins from our extra hardwar
 But how can we leverage our previous knowledge about pay-per-share pools?
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ Pool Cannibalization: Example: Strategy (221) ------------------------->
+<!---------------------- 240. Pool Cannibalization: Example: Strategy (221) ---------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image240.png" 
