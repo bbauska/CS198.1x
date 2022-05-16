@@ -3,7 +3,7 @@
 <!------------------------------------------------------------------------------------------------>
 <h2 align="center" width="100%">CS198.1x - University of California @ BerkeleyX</h2>
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- CS198.1x Bitcoin logo -------------------------------------->
+<!--------------------------------- CS198.1x Bitcoin logo (01) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image001.png"
@@ -123,7 +123,7 @@ This module focuses on the properties behind the second largest blockchain platf
 -   [Mastering Bitcoin ](https://github.com/bitcoinbook/bitcoinbook/blob/develop/book.asciidoc)by Andreas Antonopoulos
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------- expectations: expect from us, we expect from you (3) ---------------------->
+<!-------------------- expectations: expect from us, we expect from you (04) --------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/expectations.png" 
@@ -186,7 +186,7 @@ And this all sets the stage for the next section, in which we’ll build Bitcoin
 
 <h3>What is Bitcoin?</h3>
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- what is bitcoin?  bitcoin genesis (5) ----------------------------->
+<!---------------------------- what is bitcoin?  bitcoin genesis (06) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/what is bitcoin-bitcoin genesis.png" 
@@ -303,7 +303,7 @@ And even the creation of money is decided not by a central authority, but throug
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ currency: in banks we distrust (8) ------------------------------>
+<!----------------------------- currency: in banks we distrust (09) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/currency-in banks we distrust.png" 
@@ -351,7 +351,7 @@ Let's take a look at how Bitcoin can fulfill a bank's functions.
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ currency: bitcoin components (9) -------------------------------->
+<!------------------------------ currency: bitcoin components (11) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/Currency-Bitcoin components.png"
@@ -410,7 +410,7 @@ We saw earlier that banks need to keep track of the accounts and identities of t
 But how do we do this in Bitcoin, without a bank or central entity to keep track of who’s who and who owns what?
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------- 03. identity: identity in bitcoin (11) ----------------------------->
+<!--------------------------- 03. identity: identity in bitcoin (13) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image003-identity-in-bitcoin.png" 
@@ -493,7 +493,7 @@ Similarly, you would never want anyone else to have your Bitcoin private key as 
 </div>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 04. identity: public and private keys (13) --------------------------->
+<!------------------------- 04. identity: public and private keys (15) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image004.png" 
@@ -524,7 +524,7 @@ This means that users have to generate their own identities.
 To generate an identity, a user picks a private key at random generates the public key from the private key through a mathematical function.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- 04. identity: a few things to note ------------------------------->
+<!--------------------------- 04. identity: a few things to note (16) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image004-identity-few.png" 
@@ -547,7 +547,7 @@ How do we trust that no two users end up with the same identity?
 To illustrate the probability of two users choosing the same identity as someone else in Bitcoin, let’s consider something we’re all familiar with: the Earth.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- 05. identity: public & private Keys ------------------------------>
+<!--------------------------- 05. identity: public & private Keys (17) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image005.png" 
@@ -570,7 +570,7 @@ In comparison, the number of addresses in Bitcoin is many, many magnitudes great
 Let’s consider something more drastic: imagine that for every grain of sand on Earth, there exists another Earth, also with 2\^63<sup>rd</sup> grains of sand.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- 06. identity: public key security -------------------------------->
+<!--------------------------- 06. identity: public key security (18) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image006.png" 
@@ -581,7 +581,7 @@ Let’s consider something more drastic: imagine that for every grain of sand on
 Now we have 2\^63<sup>rd</sup> times 2\^63<sup>rd</sup> grains of sand per earth, meaning that there are a total of 2\^126<sup>th</sup> grains of sand.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------- 07. identity: security hidden in plain sight (16) ----------------------->
+<!---------------------- 07. identity: security hidden in plain sight (18	) ----------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image007-identity-security-hidden-in-plain-sight.png" 
@@ -601,7 +601,7 @@ So now that we have a clear understanding of the structure and purpose of identi
 
 After all, that’s the primary goal of the Bitcoin network -- to enable secure transactions between any two users in the network.
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------- 08. What Makes a Transaction Valid? (17) ---------------------------->
+<!-------------------------- 08. What Makes a Transaction Valid? (19) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image008-what makes-a-transaction-valid.png" 
@@ -613,7 +613,7 @@ As we did before with the concept of identity, we will now be analyzing the idea
 
 Take a moment to ask yourself, “What makes a transaction valid?”
 <!------------------------------------------------------------------------------------------------>
-<!-------------- 09. Transactions: validity: what makes a transaction valid? (18) ---------------->
+<!-------------- 09. Transactions: validity: what makes a transaction valid? (20) ---------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image009-validity.png" 
@@ -645,7 +645,7 @@ To ensure that one uses funds not in their possession, all the same conditions a
 
 To enforce this, Bitcoin uses what’s known as a UTXO, or Unspent Transaction Output, model.
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------- 10. transactions: utxo model: example (19) -------------------------->
+<!-------------------------- 10. transactions: utxo model: example (21) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image010-utxo-model.png"
@@ -654,7 +654,7 @@ To enforce this, Bitcoin uses what’s known as a UTXO, or Unspent Transaction O
 </p>
 
 <!------------------------------------------------------------------------------------------------>
-<!--------- 10. transactions: utxo model: blockchain keeps track of unspent money (19) ----------->
+<!--------- 10. transactions: utxo model: blockchain keeps track of unspent money (21) ----------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image010-utxo-2.png" 
@@ -687,7 +687,7 @@ An easy way to wrap our heads around this unintuitive model is to think of UTXOs
 Every time a transaction is made to us, we put all that money into a UTXO, or piggy bank.
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------------- 11. utxo model: unspent (20) --------------------------------->
+<!--------------------------------- 11. utxo model: unspent (22) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image011-utxo-model-unspent.png"
@@ -716,7 +716,7 @@ The amount of bitcoin you own is calculated by summing up the value of each of y
 Here’s an example of how transactions work in Bitcoin:
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------------------- 12. utxo example --------------------------------------->
+<!------------------------------------ 12. utxo example (23) ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image012-utxo-example.png"
@@ -759,7 +759,7 @@ Naturally, the next question to ask is: How do we keep track of the history of t
 After all a user’s current balance can be described as a number of transactions, summing to the current amount, and if we don’t know what transactions have happened in the past, we can’t determine what’s valid in the future.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- 13. recordkeeping: distributed dbs ------------------------------->
+<!--------------------------- 13. recordkeeping: distributed dbs (25) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image013-recordkeeping-distributed-dbs.png" 
@@ -808,7 +808,7 @@ We make everyone the bank.
 </div>
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------- 14. recordkeeping: everyone's the bank ----------------------------->
+<!------------------------- 14. recordkeeping: everyone's the bank (26) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image014-recordkeeping-everyones-the-bank.png" 
@@ -841,7 +841,7 @@ How do we store our ledger efficiently?
 </div>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 15. recordkeeping: the blockchain ------------------------------->
+<!--------------------------- 15. recordkeeping: the blockchain (27) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image015-recordkeeping-the-blockchain.png" 
@@ -896,7 +896,7 @@ With no central entity deciding on the next update, we have to find a way to mak
 In Bitcoin, users on the network must come to consensus, or agreement, on the next valid update.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------- 16. consensus: staying on the same page ----------------------------->
+<!------------------------ 16. consensus: staying on the same page (29) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image016-consensus-staying-on-the-same-page.png" 
@@ -931,7 +931,7 @@ One node proposes a transaction to the network, sending a message about the tran
 All other nodes save the transaction into their history if it’s valid and disregard it otherwise.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- 17. consensus: double spend attack ------------------------------->
+<!--------------------------- 17. consensus: double spend attack (30) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image017-consensus-double-spend-attack.png" 
@@ -954,7 +954,7 @@ As we will see, this does not work because of what’s known as the double spend
 </div>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- 18. consensus: double spend attack 2 ------------------------------>
+<!-------------------------- 18. consensus: double spend attack 2 (31) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image018-consensus-double-spend-attack-2.png" 
@@ -973,7 +973,7 @@ Let’s say that Gloria is purchasing tons of laptops and is willing to pay both
 Gloria promises me (Rustie) 10 BTC in one transaction, and promises 10 BTC to Nadir at the same time.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- 18. consensus: double spend attack 2 ------------------------------>
+<!-------------------------- 18. consensus: double spend attack 2 (32) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image018-consensus-double-spend-attack-2.png" 
@@ -1006,7 +1006,7 @@ Both Nadir and I see that the transaction is valid and each believe that we have
 Of course, both Nadir and I (Rustie) can’t own the same bitcoins.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------- 19. consensus: double spend attack: malicious -------------------------->
+<!--------------------- 19. consensus: double spend attack: malicious (33) ----------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image019-consensus-double-spend-attack-malicious.png"
@@ -1031,7 +1031,7 @@ In this scheme where entities only see the transactions that directly involve th
 Thus, it is impossible to prevent these double spend attacks with our current model of consensus.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------- 20. consensus: peer validation --------------------------------->
+<!----------------------------- 20. consensus: peer validation (34) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image020-consensus-peer-validation.png" 
@@ -1062,7 +1062,7 @@ Like before, there are blue lines from Gloria to the rest of the network to indi
 Unlike before, there are dashed blue lines from each node to everyone else (excluding Gloria) as an indication of communication about two things: the received transaction and a vote for or against its validity.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- 21. consensus: reject double spend ------------------------------->
+<!--------------------------- 21. consensus: reject double spend (35) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
    <img src="/images/image021-consensus-reject-double-spend.png" 
@@ -1087,7 +1087,7 @@ The dashed blue and green lines from Nadir and myself (Rustie) respectively repr
 By looking to the rest of the network for input, considering everyone else the third party, we are protected against Gloria’s attempts at malicious behavior.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- 22. consensus: victory: or is it? -------------------------------->
+<!--------------------------- 22. consensus: victory: or is it? (36) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image022-consensus-victory.png" 
@@ -1106,7 +1106,7 @@ It looks as if we are victorious!
 However, we forgot one fatal truth about Bitcoin: the anonymity.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- 23. consensus: a stranger among us ------------------------------->
+<!--------------------------- 23. consensus: a stranger among us (37) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image023-consensus-a-stranger-among-us.png" 
@@ -1161,7 +1161,7 @@ Is it even possible to solve this problem?
 </div>
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------------- 24. consensus: pay to play ----------------------------------->
+<!------------------------------- 24. consensus: pay to play (38) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image024-consensus-pay-to-play.png" 
@@ -1196,7 +1196,7 @@ The particular consensus algorithm that Satoshi Nakamoto came up with is known a
 </div>
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 25. consensus: proof of work ---------------------------------->
+<!------------------------------ 25. consensus: proof of work (39) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image025-consensus-proof-of-work.png" 
@@ -1886,7 +1886,7 @@ Early Bitcoin was thus often the target of scandals, hacks, and illegal activity
 <p align="center" width="100%">
 <img src="/images/image042-bitcoin-theft-mt-gox-july-2010.png"
    alt="Bitcoin Theft: Mt Gox July, 2010 - Feb, 2014"
-   width="40%" />
+   width="65%" />
 </p>
 &nbsp;
 <div align="right">
@@ -2608,7 +2608,7 @@ That’s what we’re going to explore in this next section on the state of the 
 <h3>ICO’s:</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------------- 71. icos: the hypee (77) ------------------------------------>
+<!---------------------------------- 71. icos: the hypee (85) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image071-icos-the-hype.png"
@@ -2645,7 +2645,7 @@ ICOs are permissionless and enable ANYONE to invest in a project that they feel 
 We put emphasis on the word ANYONE because of the open and public nature of these cryptocurrencies.
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------- 72. Initial Coin Offerings (ICO's) (78) ---------------------------->
+<!--------------------------- 72. Initial Coin Offerings (ICO's) (86) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image072-icos-doing-what-you-want.png"
@@ -2667,7 +2667,7 @@ This shows that ICOs are leveling the playing field for investments.
 Normal people now can invest in any blockchain project they want to.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 73. explosion of altcoins (79) -------------------------------->
+<!-------------------------------- 73. explosion of altcoins (87) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image073-explosion-of-altcoins.png" 
@@ -2690,7 +2690,7 @@ In Q3’17, ICOs have raised \$1.3B with 150 ICOs while seed/angel investing acr
 
 <h3>Industry Projects</h3>
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 74. cryptokitties: they hype - 2017 (80) ----------------------------->
+<!------------------------- 74. cryptokitties: they hype - 2017 (88) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image074-cryptokitties.png"
@@ -2716,7 +2716,7 @@ It’s clear that cryptocurrencies and blockchain are hugely popular now.
 Whether or not its mainstream spotlight and growing popularity is a good thing is another question.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------------- 75. parity: security (82) ----------------------------------->
+<!---------------------------------- 75. parity: security (89) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image075-parity-security.png"
@@ -2735,7 +2735,7 @@ Parity wallet is a popular multisignature wallet, which requires multiple people
 Parity marketed itself as the fastest and most secure way of interacting with the Ethereum blockchain, but in November 2017, this happened…
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- 76. Parity got hacked - Nov, 2017 (82) --------------------------->
+<!----------------------------- 76. Parity got hacked - Nov, 2017 (90) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image076-parity-oops.png"
@@ -2760,7 +2760,7 @@ This was a huge eye-opening moment for the Ethereum community as a whole, and ta
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 77. coincheck got hacked - jan, 2018 (83) ---------------------------->
+<!------------------------- 77. coincheck got hacked - jan, 2018 (91) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image077-coincheck-the-biggest-yet.png"
@@ -2803,7 +2803,7 @@ In October 2008, Satoshi Nakamoto released the Bitcoin whitepaper, which outline
 The first transaction using Bitcoin to purchase a tangible asset occurred in 2010, when Laszlo Hanyecz exchanged 10,000 bitcoin for \$25 worth of pizza. This exchange gave bitcoins real value, a first step towards legitimacy. 
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------- 78. pizza 10,000 bitcoins (85) --------------------------------->
+<!------------------------------- 78. pizza 10,000 bitcoins (92) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image078-pizza-pizza.png"
@@ -2859,7 +2859,7 @@ Coindesk: [A Bot Named Willy: Did Mt. Gox's Automated Trading Pump Bitcoin's Pr
 <h2 id="ch3">Chapter 3: Bitcoin Mechanics & Optimizations: A Technical Overview</h2>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------- 80. Bitcoin Mechanics and Optimizations: A Technical Overview (87) --------------->
+<!------------- 80. Bitcoin Mechanics and Optimizations: A Technical Overview (95) --------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image080-bitcoin-overview.png"
@@ -2880,7 +2880,7 @@ This lecture will teach you everything about the low-level specifics of Bitcoin 
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------------- 80. lecture overview (87) ------------------------------------>
+<!--------------------------------- 80. lecture overview (95) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image080-lecture-overview.png"
@@ -2921,7 +2921,7 @@ For this, we’ll utilize cryptographic hash functions.
 
 <h3 id="ch3-2">Motivations and Definitions: Integrity of Information</h3>
 <!------------------------------------------------------------------------------------------------>
-<!--------------- 81. cryptographic hash functions: integrity of information (89) ---------------->
+<!--------------- 81. cryptographic hash functions: integrity of information (97) ---------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image081-cryptographic-hash-functions.png"
@@ -2966,7 +2966,7 @@ We need standardized randomness.
 
 <h3>Motivations and Definitions: Cryptographic Hash Functions</h3>
 <!------------------------------------------------------------------------------------------------>
-<!--------------- 81. crypographic hash functions: what is a hash function? (90) ----------------->
+<!--------------- 81. crypographic hash functions: what is a hash function? (98) ----------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image081-hash-function-formula.png"
@@ -11165,7 +11165,7 @@ We wish you all the best on the rest of your blockchain journey!
 
 the end…&nbsp;<br/>
 <b><i>readme.md</i></b>&nbsp;<br/>
-<b><i>Last Updated: 5/9/2022 (Monday) 11:31am+</i></b>
+<b><i>Last Updated: 5/16/2022 (Monday) 8:41am+</i></b>
 
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
