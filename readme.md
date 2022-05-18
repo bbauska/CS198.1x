@@ -2256,7 +2256,7 @@ For better or for worse, people don’t want to miss out on the “next bitcoin�
 The fact that Bitcoin’s and other cryptocurrencies’ prices are starting to be broadcasted on public radio further contributes to this “FOMO.”
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------- 54. 2016-2017: Hype Train (##) --------------------------------->
+<!------------------------------- 54. 2016-2017: Hype Train (65) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image054-2016-2017-hype-train.png" 
@@ -2440,7 +2440,7 @@ These comments were actually made at an event hosted by the Institute of Interna
 Just to drive his point home, here are some more comments he made in September 2017.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------ 63. Quotes (5) from Jamie Dimon, the CEO of JP Morgan Chase (##) ------------------>
+<!------------ 63. Quotes (5) from Jamie Dimon, the CEO of JP Morgan Chase (71) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image063-dimon-quotes-5.png"
@@ -5027,7 +5027,7 @@ As we’ll soon find out, wallets come in many different shapes and sizes – ho
 <p align="center" width="100%">
 <img src="/images/image165.png"
    alt="Purpose of a Wallet: Key Management"
-   width="65%" />
+   width="85%" />
 </p>
 
 As we’ve previously mentioned, Bitcoin is all about granting real-world entities virtual identities.
@@ -11141,12 +11141,12 @@ Ethereum is implemented as a distributed state machine, and transactions on the 
 &nbsp;
 
 <h3>Readings</h3>
-
-   * Ethereum Whitepaper: [A Next-Generation Smart Contract and Decentralized Application Platform](https://github.com/ethereum/wiki/wiki/White-Paper)
-   * (Optional) [Explore decentralized applications](https://www.stateofthedapps.com/). Check out all the different Ethereum Apps that have been created!
-   * (Optional) [Ethereum: A Secure Decentralized Generalised Transaction Ledger](http://gavwood.com/paper.pdf)
-   * [Blockchain, Cryptocurrencies & The New Decentralized Economy](https://blockchainatberkeley.blog/blockchains-cryptocurrencies-the-new-decentralized-economy-part-1-a-gentle-introduction-edcb4824b174)
-
+<ul>
+<li>Ethereum Whitepaper: [A Next-Generation Smart Contract and Decentralized Application Platform](https://github.com/ethereum/wiki/wiki/White-Paper)</li>
+<li>(Optional) [Explore decentralized applications](https://www.stateofthedapps.com/). Check out all the different Ethereum Apps that have been created!</li>
+<li>(Optional) [Ethereum: A Secure Decentralized Generalised Transaction Ledger](http://gavwood.com/paper.pdf)</li>
+<li>[Blockchain, Cryptocurrencies & The New Decentralized Economy](https://blockchainatberkeley.blog/blockchains-cryptocurrencies-the-new-decentralized-economy-part-1-a-gentle-introduction-edcb4824b174)</li>
+</ul>
 Congratulations on completing the course!<br/>
 
 On behalf of all of our lovely course staff, I’d like to thank you for finishing part one of the Blockchain Fundamentals program: Bitcoin and Cryptocurrencies.
@@ -11165,7 +11165,7 @@ We wish you all the best on the rest of your blockchain journey!
 
 the end…&nbsp;<br/>
 <b><i>readme.md</i></b>&nbsp;<br/>
-<b><i>Last Updated: 5/16/2022 (Monday) 8:41am+</i></b>
+<b><i>Last Updated: 5/18/2022 (Wednesday) 4:28pm+</i></b>
 
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
