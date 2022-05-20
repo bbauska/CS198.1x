@@ -10417,7 +10417,7 @@ Hollywood insiders, for example, would be particularly drawn to this, as they ca
 
 This allows the person asking the question to gather information while letting users keep specifics to themselves.
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------- 349. Prediction Markets: Other Use Cases--------------------------------->
+<!----------------------- 349. Prediction Markets: Other Use Cases (333) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image349.png"
@@ -10431,7 +10431,7 @@ The first market for insurance is a way to let users prepare against disasters t
 
 If a user notices a bug in a smart contract, they can heavily bet “yes” before revealing the vulnerability, allowing them to reap the rewards of their hidden knowledge.
 <!------------------------------------------------------------------------------------------------>
-<!----------------- 350. prediction markets: futarchy & cryptoeconomics (315) -------------------->
+<!----------------- 350. prediction markets: futarchy & cryptoeconomics (333) -------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image350.png"
@@ -10455,7 +10455,7 @@ Research is still being done to examine the feasibility of futarchy on a blockch
 
 <h3>Advanced Use Cases: Supply Chain</h3>
 <!------------------------------------------------------------------------------------------------>
-<!--------------------- 351. supply chain and provenance: bool diamonds (317) -------------------->
+<!------------------- 351. supply chain and provenance: bool diamonds (334) ---------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image351.png"
@@ -10491,7 +10491,7 @@ We have to trust that individuals are not bribed to include false information in
 
 <h3>Advanced Use Cases: Smart Energy Grids</h3>
 <!------------------------------------------------------------------------------------------------>
-<!------------------- 352. Smart Energy Grids: blockchain fundamentals (318) --------------------->
+<!------------------- 352. Smart Energy Grids: blockchain fundamentals (335) --------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image352.png"
@@ -10541,7 +10541,7 @@ This is one of the most revolutionary concepts in blockchain, giving users the a
 
 <h3>Advanced Use Cases: After Hours Trading</h3>
 <!------------------------------------------------------------------------------------------------>
-<!------------------- 353. After Hours Trading: 24/7 Access & Liquidity (320) -------------------->
+<!------------------- 353. After Hours Trading: 24/7 Access & Liquidity (337) -------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image353.png"
@@ -10590,7 +10590,7 @@ By coordinating between these untrusting parties on a globally accessible platfo
 
 <h3 id="ch6-5">6.5 Blockchain vs Internet</h3>
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- 354. Blockchain vs The Internet (320) ----------------------------->
+<!---------------------------- 354. Blockchain vs The Internet (338) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image354.png"
@@ -10663,7 +10663,7 @@ These points can be used to understand and discuss any use case you come across 
 These points describe the properties of a good blockchain use case, along with the scenarios in which a blockchain is not needed or inferior to a centralized solution.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------- 355. Blockchain Generalizations: Viable but Blockchain Not Necessary (322) --------->
+<!--------- 355. Blockchain Generalizations: Viable but Blockchain Not Necessary (340) ----------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image355.png" 
@@ -10693,7 +10693,7 @@ For example, just because you didn’t hear of fault tolerance, consensus, or pu
 Each of these bullets can be achieved by using a subset of the technology that goes into making a blockchain.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------- 356. Blockchain Generalizations: Solving Coordination Failures (323) ------------>
+<!------------ 356. Blockchain Generalizations: Solving Coordination Failures (341) -------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image356.png" 
@@ -10722,7 +10722,7 @@ The miners will force the actors to honor their commitments, as was the original
 Instead of bringing in lawyers to settle matters when things don’t according to plan, we’re now able to rely on a smart contract to execute as intended, giving us the ability to believe in this code as law.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------- 357. Blockchain Generalizations: Horizontal Integration (324) ---------------->
+<!---------------- 357. Blockchain Generalizations: Horizontal Integration (342) ----------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image357.png" 
@@ -10759,7 +10759,7 @@ Similar to how more Facebook users makes the platform more worthwhile for all us
 In this way, individuals are supporting the rest of the community while benefiting themselves as well.
 
 <!------------------------------------------------------------------------------------------------>
-<!------ 358. Blockchain Generalizations: Essential Properties: Pure Decentralization (326) ------>
+<!------ 358. Blockchain Generalizations: Essential Properties: Pure Decentralization (344) ------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image358.png" 
@@ -10793,7 +10793,7 @@ Cryptocurrencies aren’t divided by lines or borders--they’re guaranteed to b
 Through blockchain, we can support globally recognized ownership, persisting across nations.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------ 359. Blockchain Generalizations: Advantages of Centralized Solutions (327) -------->
+<!--------- 359. Blockchain Generalizations: Advantages of Centralized Solutions (345) ----------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image359.png" 
@@ -10878,7 +10878,7 @@ The first use case is a smart asset, or token, built on a currently existing blo
 Another meaningful use case for smart contracts is multisignature wallets. On Ethereum, we can leverage the platform’s built-in authentication protocol to create a functionality that allows us to have an m of n signature scheme (refer to Lecture 3).
 
 <!------------------------------------------------------------------------------------------------>
-<!------------- Document Ownership: Blockchain Fundamentals: Proof-of-Existence (329) ------------>
+<!------------- Document Ownership: Blockchain Fundamentals: Proof-of-Existence (347) ------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/document-ownership.png"
@@ -10945,7 +10945,7 @@ In the end, it is important to always ask why a blockchain is better than a cent
 <h3>Blockchain Use Cases Takeaways</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 360. Blockchain generalizations: essential properties (333) ------------------->
+<!----------------- 360. Blockchain generalizations: essential properties (351) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image360.png" 
@@ -11032,7 +11032,7 @@ He also founded ConsenSys, which is a company that made great strides in develop
 <h3>Ethereum Research</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------- 361. ConsenSys: Ethereum Infrastructure (335) -------------------------->
+<!----------------------- 361. ConsenSys: Ethereum Infrastructure (353) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image361.png" 
@@ -11051,7 +11051,7 @@ And here are some of the many other spoke ventures in Consensys.
 The Ethereum community also spawns a lot of original research.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 362. Research: Paving the Road Ahead (336) ---------------------------->
+<!------------------------ 362. Research: Paving the Road Ahead (354) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image362.png"
@@ -11090,7 +11090,7 @@ Ethereum is a decentralized platform designed to run smart contracts. It is a di
 Here’s a review of the similarity and differences between Ethereum and Bitcoin:
 
 <!------------------------------------------------------------------------------------------------>
-<!----- table reviewing the similarities and differences between ethereum and bitcoin (337) ------>
+<!----- table reviewing the similarities and differences between ethereum and bitcoin (355) ------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image363.jpg"
@@ -11117,7 +11117,7 @@ Ethereum smart contracts generally serve four main purposes: 
 The Ethereum Virtual Machine enables the Ethereum blockchain to be programmable. Ethereum Smart Contracts are written in high level programming languages like Solidity, which have to be compiled down to Ethereum Virtual Machine (EVM) code. Every node runs EVM as part of its block verification procedure. Once the contract code is compiled to EVM code, every node in the Ethereum network executes the code. Nodes then come to consensus on the new system state. Note: Ethereum is redundantly parallel; its main goal is not to optimize computational efficiency, but to enable distributed and trustless computation.
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------- 364. Nodes in the Ethereum Network (338) --------------------------->
+<!-------------------------- 364. Nodes in the Ethereum Network (356) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image364.jpg" 
@@ -11132,7 +11132,7 @@ The developers of Ethereum implemented ‘gas’ to protect against the Denial o
 Ethereum is implemented as a distributed state machine, and transactions on the network change the global state of the system. In the transaction execution, or “state transition function,” nodes in Ethereum come to consensus on the network state, and their code execution on the EVM changes the global state from the previous state to the new state. The function looks like this:
 
 <!------------------------------------------------------------------------------------------------>
-<!----------- 365. block_state, gas, memory, transaction, msg, code, stack, pc (339) ------------->
+<!----------- 365. block_state, gas, memory, transaction, msg, code, stack, pc (357) ------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image365.jpg" 
@@ -11165,7 +11165,7 @@ We wish you all the best on the rest of your blockchain journey!
 
 the end…&nbsp;<br/>
 <b><i>readme.md</i></b>&nbsp;<br/>
-<b><i>Last Updated: 5/18/2022 (Wednesday) 4:28pm+</i></b>
+<b><i>Last Updated: 5/20/2022 (Friday) 11:11am+</i></b>
 
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
