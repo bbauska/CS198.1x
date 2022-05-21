@@ -2974,8 +2974,6 @@ We need standardized randomness.
    width="65%" />
 </p>
 
-Motif&nbsp;
-
 Cryptographic hash functions are one way functions that take some input and produce a pseudorandom output.
 
 We say pseudorandom because, while it appears random to us, it is actually always going to be the same output for some given input.
@@ -11165,7 +11163,7 @@ We wish you all the best on the rest of your blockchain journey!
 
 the end…&nbsp;<br/>
 <b><i>readme.md</i></b>&nbsp;<br/>
-<b><i>Last Updated: 5/20/2022 (Friday) 11:11am+</i></b>
+<b><i>Last Updated: 5/21/2022 (Saturday) 12:38pm+</i></b>
 
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
