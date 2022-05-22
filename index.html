@@ -289,7 +289,6 @@ ol.g {list-style-type: lower-latin;
 
     <title>CS198.1x - Bitcoin and Cryptocurrencies</title>
 
-	</head>
   <body>
   
 <!--------------------- Table of Contents style definitions --------------------------->
@@ -600,7 +599,7 @@ href="https://github.com/bitcoinbook/bitcoinbook/blob/develop/book.asciidoc">Mas
 Bitcoin </a>by Andreas Antonopoulos</p></li>
 </ul>
 <!------------------------------------------------------------------------------------------------>
-<!-------------------- expectations: expect from us, we expect from you (3) ---------------------->
+<!-------------------- expectations: expect from us, we expect from you (4) ---------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/expectations.png?raw=true"
@@ -686,7 +685,7 @@ and services and seeing how they fit together.</p>
 What is Bitcoin?
 </h3>
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- what is bitcoin?  bitcoin genesis (5) ----------------------------->
+<!---------------------------- what is bitcoin?  bitcoin genesis (6) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/what is bitcoin-bitcoin genesis.png?raw=true"
@@ -796,7 +795,7 @@ their own.</p>
 <p>And even the creation of money is decided not by a central authority,
 but through the process of mining, or Proof-of-Work.</p>
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ currency: in banks we distrust (8) ------------------------------>
+<!------------------------------ currency: in banks we distrust (9) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/currency-in banks we distrust.png"
@@ -837,7 +836,7 @@ government, then you can trust the bank.</p>
 <p>And this is where Bitcoin comes in.</p>
 <p>Let’s take a look at how Bitcoin can fulfill a bank’s functions.</p>
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ currency: bitcoin components (9) -------------------------------->
+<!------------------------------ currency: bitcoin components (11) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/Currency-Bitcoin components.png"
@@ -900,7 +899,7 @@ identities of their customers.</p>
 <p>But how do we do this in Bitcoin, without a bank or central entity to
 keep track of who’s who and who owns what?</p>
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------- 03. identity: identity in bitcoin (11) ----------------------------->
+<!--------------------------- 03. identity: identity in bitcoin (13) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="./images/image003-identity-in-bitcoin.png"
@@ -981,7 +980,7 @@ behalf.</p>
 private key as that would give control of your Bitcoin public key and,
 by implication, your Bitcoin identity.</p>
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 04. identity: public and private keys (13) --------------------------->
+<!------------------------- 04. identity: public and private keys (15) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image004.png"
@@ -1017,7 +1016,7 @@ for users.</p>
 generates the public key from the private key through a mathematical
 function.</p>
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- 04. identity: a few things to note ------------------------------->
+<!--------------------------- 04. identity: a few things to note (16) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image004-identity-few.png" 
@@ -1036,7 +1035,7 @@ user.</p>
 as someone else in Bitcoin, let’s consider something we’re all familiar
 with: the Earth.</p>
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- 05. identity: public & private Keys ------------------------------>
+<!--------------------------- 05. identity: public & private Keys (17) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="./images/image005.png" 
@@ -1059,7 +1058,7 @@ the probability even smaller.</p>
 of sand on Earth, there exists another Earth, also with
 2^63<sup>rd</sup> grains of sand.</p>
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- 06. identity: public key security -------------------------------->
+<!--------------------------- 06. identity: public key security (18) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="./images/image006.png" 
@@ -1070,7 +1069,7 @@ of sand on Earth, there exists another Earth, also with
 per earth, meaning that there are a total of 2^126<sup>th</sup> grains
 of sand.</p>
 <!------------------------------------------------------------------------------------------------>
-<!---------------------- 07. identity: security hidden in plain sight (16) ----------------------->
+<!---------------------- 07. identity: security hidden in plain sight (18) ----------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="./images/image007-identity-security-hidden-in-plain-sight.png" 
@@ -1088,7 +1087,7 @@ do we make transactions between one another in Bitcoin?”</p>
 After all, that’s the primary goal of the Bitcoin network – to enable
 secure transactions between any two users in the network.
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- 08. What Makes a Transaction Valid? (16) -------------------------->
+<!---------------------------- 08. What Makes a Transaction Valid? (19) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="./images/image008-what makes-a-transaction-valid.png" 
@@ -1099,7 +1098,7 @@ secure transactions between any two users in the network.
 analyzing the idea of a transaction.</p>
 Take a moment to ask yourself, “What makes a transaction valid?”
 <!------------------------------------------------------------------------------------------------>
-<!----------------- 09. Transactions: validity: what makes a transaction valid? (17) ------------->
+<!-------------- 09. Transactions: validity: what makes a transaction valid? (20) ---------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="./images/image009-validity.png" 
@@ -1129,7 +1128,7 @@ conditions apply to Bitcoin.</p>
 To enforce this, Bitcoin uses what’s known as a UTXO, or Unspent
 Transaction Output, model.
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- 10. transactions: utxo model: example ----------------------------->
+<!-------------------------- 10. transactions: utxo model: example (21) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="./images/image010-utxo-model.png" 
@@ -1137,7 +1136,7 @@ Transaction Output, model.
    width=65%" />
 </p>
 <!------------------------------------------------------------------------------------------------>
-<!------------ 10. transactions: utxo model: blockchain keeps track of unspent money ------------->
+<!---------- 10. transactions: utxo model: blockchain keeps track of unspent money (21) ---------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="./images/image010-utxo-2.png" 
@@ -1168,7 +1167,7 @@ think of UTXOs as piggy banks!</p>
 Every time a transaction is made to us, we put all that money into a
 UTXO, or piggy bank.
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 11. utxo model: unspent ------------------------------------>
+<!--------------------------------- 11. utxo model: unspent (22) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="./images/image011-utxo-model-unspent.png"
@@ -1194,7 +1193,7 @@ of each of your piggy banks, or UTXOs.</p>
 </h3>
 <p>Here’s an example of how transactions work in Bitcoin:</p>
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------------------- 12. utxo example --------------------------------------->
+<!------------------------------------- 12. utxo example (23) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="./images/image012-utxo-example.png"
@@ -1244,7 +1243,7 @@ transactions, summing to the current amount, and if we don’t know what
 transactions have happened in the past, we can’t determine what’s valid
 in the future.</p>
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- 13. recordkeeping: distributed dbs ------------------------------->
+<!--------------------------- 13. recordkeeping: distributed dbs (25) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="./images/image013-recordkeeping-distributed-dbs.png" 
@@ -1293,7 +1292,7 @@ going against Bitcoin’s aim to be a trustless system.</p>
 straightforward choice: we have everyone keep a copy of the ledger.</p>
 <p>We make everyone the bank.</p>
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------- 14. recordkeeping: everyone's the bank ----------------------------->
+<!------------------------- 14. recordkeeping: everyone's the bank (26) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="./images/image014-recordkeeping-everyones-the-bank.png" 
@@ -1324,7 +1323,7 @@ made for one entity, it must propagate throughout the entire
 network.</p>
 <p>How do we store our ledger efficiently?</p>
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 15. recordkeeping: the blockchain ------------------------------->
+<!---------------------------- 15. recordkeeping: the blockchain (27) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="./images/image015-recordkeeping-the-blockchain.png" 
@@ -1378,7 +1377,7 @@ way to make this decision in a decentralized way.</p>
 <p>In Bitcoin, users on the network must come to consensus, or
 agreement, on the next valid update.</p>
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------- 16. consensus: staying on the same page ----------------------------->
+<!------------------------ 16. consensus: staying on the same page (29) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="./images/image016-consensus-staying-on-the-same-page.png" 
@@ -1412,7 +1411,7 @@ about the transaction directly to every other node.</p>
 <p>All other nodes save the transaction into their history if it’s valid
 and disregard it otherwise.</p>
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- 17. consensus: double spend attack ------------------------------->
+<!--------------------------- 17. consensus: double spend attack (30) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="./images/image017-consensus-double-spend-attack.png" 
@@ -1432,7 +1431,7 @@ recipient.</p>
 <p>As we will see, this does not work because of what’s known as the
 double spend attack.</p>
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- 18. consensus: double spend attack 2 ------------------------------>
+<!-------------------------- 18. consensus: double spend attack 2 (31) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="./images/image018-consensus-double-spend-attack-2.png" 
@@ -1451,7 +1450,7 @@ pay both Nadir and myself (Rustie) 10 bitcoins for our laptops.</p>
 <p>Gloria promises me (Rustie) 10 BTC in one transaction, and promises
 10 BTC to Nadir at the same time.</p>
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- 18. consensus: double spend attack 2 ------------------------------>
+<!-------------------------- 18. consensus: double spend attack 2 (32) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="./images/image018-consensus-double-spend-attack-2.png" 
@@ -1480,7 +1479,7 @@ ledger.</p>
 that we have received the bitcoins.</p>
 <p>Of course, both Nadir and I (Rustie) can’t own the same bitcoins.</p>
 <!------------------------------------------------------------------------------------------------>
-<!----------------------- 19. consensus: double spend attack: malicious -------------------------->
+<!--------------------- 19. consensus: double spend attack: malicious (33) ----------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="./images/image019-consensus-double-spend-attack-malicious.png"
@@ -1501,7 +1500,7 @@ consensus on a history of transactions because of dishonest actors.</p>
 <p>Thus, it is impossible to prevent these double spend attacks with our
 current model of consensus.</p>
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------- 20. consensus: peer validation --------------------------------->
+<!----------------------------- 20. consensus: peer validation (34) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="./images/image020-consensus-peer-validation.png" 
@@ -1529,7 +1528,7 @@ else (excluding Gloria) as an indication of communication about two
 things: the received transaction and a vote for or against its
 validity.</p>
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- 21. consensus: reject double spend ------------------------------->
+<!--------------------------- 21. consensus: reject double spend (35) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="./images/image021-consensus-reject-double-spend.png" 
@@ -1551,7 +1550,7 @@ network.</p>
 else the third party, we are protected against Gloria’s attempts at
 malicious behavior.</p>
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- 22. consensus: victory: or is it? -------------------------------->
+<!--------------------------- 22. consensus: victory: or is it? (36) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="./images/image022-consensus-victory.png" 
@@ -1569,7 +1568,7 @@ themselves that the funds exist.</p>
 <p>It looks as if we are victorious!</p>
 <p>However, we forgot one fatal truth about Bitcoin: the anonymity.</p>
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- 23. consensus: a stranger among us ------------------------------->
+<!--------------------------- 23. consensus: a stranger among us (37) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="./images/image023-consensus-a-stranger-among-us.png" 
@@ -1620,7 +1619,7 @@ identities they have.</p>
 <p>But how?</p>
 <p>Is it even possible to solve this problem?</p>
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------------- 24. consensus: pay to play ----------------------------------->
+<!------------------------------- 24. consensus: pay to play (38) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="./images/image024-consensus-pay-to-play.png" 
@@ -1648,7 +1647,7 @@ identities that earned the title “Nakamoto Consensus.”</p>
 <p>The particular consensus algorithm that Satoshi Nakamoto came up with
 is known as “Proof-of-Work.”</p>
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 25. consensus: proof of work ---------------------------------->
+<!------------------------------ 25. consensus: proof of work (39) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="./images/image025-consensus-proof-of-work.png" 
@@ -1667,7 +1666,7 @@ power.</p>
 cryptocurrency and inspired voting mechanisms for practically every
 other cryptocurrency to follow.</p>
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- 26. consensus: proof of work: works ------------------------------>
+<!--------------------------- 26. consensus: proof of work: works (40) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="./images/image026-consensus-proof-of-work-works.png" 
@@ -1787,7 +1786,7 @@ invalid transactions to become valid.</p>
 1.10 Bitcoin Review:
 </h3>
 <!------------------------------------------------------------------------------------------------>
-<!--------------- 27. key takeaway - identity: your keys are your identity (38) ------------------>
+<!--------------- 27. key takeaway - identity: your keys are your identity (43) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="./images/image027-key-takeaway-identity.png" 
@@ -1811,7 +1810,7 @@ same private key as yours.</p>
 <p>Nor is it at all likely that someone can guess your private key to
 spend money on your behalf.</p>
 <!------------------------------------------------------------------------------------------------>
-<!--------------- 28. key takeaway - transactions: breaking the piggy banks (39) ----------------->
+<!--------------- 28. key takeaway - transactions: breaking the piggy banks (44) ----------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="./images/image028-key-takeaway-transactions.png" 
@@ -1832,7 +1831,7 @@ UTXOs.</p>
 understand, but it works well for bitcoin from an architectural
 standpoint.</p>
 <!------------------------------------------------------------------------------------------------>
-<!----------------- 29. Key Takeaway - Record-Keeping: Everyone's the Bank (39) ------------------>
+<!----------------- 29. Key Takeaway - Record-Keeping: Everyone's the Bank (45) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="./images/image029-key-takeaway-record-keeping.png" 
@@ -1847,7 +1846,7 @@ existing, established chain.</p>
 without changing every single version of this database in the
 universe.</p>
 <!------------------------------------------------------------------------------------------------>
-<!---------- 30. Key Takeaway - Consensus: Updating the Shared, Immutable Ledger (40) ------------>
+<!---------- 30. Key Takeaway - Consensus: Updating the Shared, Immutable Ledger (45) ------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="./images/image030-key-takeaway-consensus.png" 
@@ -1868,7 +1867,7 @@ constraint to limit the voting power of malicious entities.</p>
 that the voting power one has is based on how much computational power
 one has, instead of based on the number of identities.</p>
 <!------------------------------------------------------------------------------------------------>
-<!------------- 31. Unique Properties of Bitcoin: Demystifying the Buzzwords (41) ---------------->
+<!------------- 31. Unique Properties of Bitcoin: Demystifying the Buzzwords (46) ---------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="./images/image031-unique-properties-of-bitcoin.png" 
@@ -2061,7 +2060,7 @@ advocated for the use of cryptography to protect one’s privacy.</p>
 2.2 Libertarian Dreams
 </h3>
 <!------------------------------------------------------------------------------------------------>
-<!--------------- 32. Libertarian Dreams: Cypherpunks and Crypto-Anarchists (45) ----------------->
+<!--------------- 32. Libertarian Dreams: Cypherpunks and Crypto-Anarchists (51) ----------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="./images/image032-libertarian-dreams-cypherpunks.png" 
@@ -2083,7 +2082,7 @@ Berkeley.</p>
 <p>He’s one of the founders of the Cypherpunk movement, and in the 90s
 founded and administered the Cypherpunk mailing list.</p>
 <!------------------------------------------------------------------------------------------------>
-<!--------------- 33. Libertarian Dreams: Cypherpunks and Crypto-Anarchists (46) ----------------->
+<!--------------- 33. Libertarian Dreams: Cypherpunks and Crypto-Anarchists (52) ----------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="./images/image033-libertarian-dreams-cypherpunks-2.png" 
@@ -2116,7 +2115,7 @@ succeed on their first attempt.</p>
 <p>Several early attempts at making a true cryptocurrency failed, though
 they came close.</p>
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- 34. Early Attampts: Digicash (47) -------------------------------->
+<!----------------------------- 34. Early Attampts: Digicash (53) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="./images/image034-early-attempts-digicash.png" 
@@ -2145,7 +2144,7 @@ went down, Digicash would also go with it.</p>
 to validate each and every digital signature in the DigiCash system,
 which eventually led to bankruptcy in 1998.</p>
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- 35. Early Attampts: HashCash (48) -------------------------------->
+<!----------------------------- 35. Early Attampts: HashCash (54) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="./images/image035-early-attempts-hashcash.png" 
@@ -2168,7 +2167,7 @@ numbers of emails with little cost per message.</p>
 <p>So, by making it computationally expensive to send out email,
 hashcash disincentivized spammers.</p>
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 36. Early Attampts: B-Money (49) -------------------------------->
+<!------------------------------ 36. Early Attampts: B-Money (55) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="./images/image036-early-attempts-b-money.png" 
@@ -2199,7 +2198,7 @@ design philosophy of Bitcoin.</p>
 2.4 Bitcoin Invention
 </h3>
 <!------------------------------------------------------------------------------------------------>
-<!------------------- 37. Satoshi Nakamoto: Oct, 2008 Bitcoin Whitepaper (50) -------------------->
+<!------------------- 37. Satoshi Nakamoto: Oct, 2008 Bitcoin Whitepaper (57) -------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image037-satoshi-nakamoto.png" 
@@ -2248,7 +2247,7 @@ thousand) 210,000 blocks.</p>
 <p>Eventually, the block reward will become 0, at which point 21 million
 bitcoins will have been minted.</p>
 <!------------------------------------------------------------------------------------------------>
-<!--------------------- 38. Bitcoin: The First Cryptocurrency  1/3/2009 (51) --------------------->
+<!--------------------- 38. Bitcoin: The First Cryptocurrency  1/3/2009 (58) --------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image038-bitcoin-the-first-cryptocurrency.png" 
@@ -2274,7 +2273,7 @@ interest, playing around with the software.</p>
 <p>During this time, however, bitcoins were never exchanged for any
 tangible good.</p>
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------------- 39. bitcoin gains value (52) --------------------------------->
+<!--------------------------------- 39. bitcoin gains value (59) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image039-bitcoin-gains-value.png" 
@@ -2306,7 +2305,7 @@ something with real value.</p>
 <p>As a fun fact: as of March 15, 2018, the pizzas Laszlo ordered are
 now worth 81 million dollars.</p>
 <!------------------------------------------------------------------------------------------------>
-<!-------------------- 41. 81 million dollar pizza, may, 2010 - a first (53) --------------------->
+<!-------------------- 41. 81 million dollar pizza, may, 2010 - a first (60) --------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image041-bitcoin-gains-value-81-million-pizza.png"
@@ -2348,7 +2347,7 @@ can give your stolen funds back to you.</p>
 <p>Early Bitcoin was thus often the target of scandals, hacks, and
 illegal activity.</p>
 <!------------------------------------------------------------------------------------------------>
-<!-------------------- 42. bitcoin theft: mt gox july, 2010 - feb, 2014 (54) --------------------->
+<!-------------------- 42. bitcoin theft: mt gox july, 2010 - feb, 2014 (61) --------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image042-bitcoin-theft-mt-gox-july-2010.png"
@@ -2383,7 +2382,7 @@ customers bitcoins in an ongoing theft that had gone unnoticed for
 years.</p>
 <p>By the end of the month, Mt. Gox filed for bankruptcy.</p>
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 43. Drug Scandal: feb, 2011 - oct, 2013 (55) -------------------------->
+<!------------------------ 43. Drug Scandal: feb, 2011 - oct, 2013 (62) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image043-bitcoin-drug-scandal-silk-road-feb-2011-thru-oct-2013.png" 
@@ -2406,7 +2405,7 @@ case that came to mind when anyone mentioned Bitcoin.</p>
 <p>Ross Ulbricht was sentenced to life in jail, and the FBI seized
 upwards of 26,000 bitcoins, worth $3.6 million at the time.</p>
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------------ 44. bitcoin bubble (56) ----------------------------------->
+<!------------------------------------ 44. bitcoin bubble (63) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image044-bitcoin-bubble.png"
@@ -2428,7 +2427,7 @@ investment.</p>
 <p>Second, automated trading in Mt. Gox may have artificially driven the
 price up by continuously buying bitcoins.</p>
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------------- 45. altcoins (57) ---------------------------------------->
+<!------------------------------------- 45. altcoins (64) ---------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image045-explosion-of-altcoins.png"
@@ -2458,7 +2457,7 @@ puzzles.</p>
 trying to solve their own individual problems, making for a wider crypto
 space.</p>
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 46. bitcoin headlines - popularity grows (58) ------------------------>
+<!------------------------- 46. bitcoin headlines - popularity grows (65) ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image046-bitcoin-headlines.png"
@@ -2496,7 +2495,7 @@ the latest bankruptcy, and the latest Ponzi scheme.</p>
 <p>We’ve grown so much since then, and that just comes to show how much
 the blockchain space has matured over the years.</p>
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------------- 47. bitcoin startups (59) ------------------------------------>
+<!--------------------------------- 47. bitcoin startups (66) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image047-bitcoin-startups.png"
@@ -2516,7 +2515,7 @@ without having to download the entire blockchain themselves.</p>
 <p>Most importantly, during this time, the term “blockchain” started
 becoming a buzz word.</p>
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------- 48. and, burst the bubble (2014-2015) (60) ------------------------->
+<!--------------------------- 48. and, burst the bubble (2014-2015) (67) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image048-and-burst.png"
@@ -2552,7 +2551,7 @@ quickly came to the mainstream.</p>
 Bitcoin Struggles to Scale
 </h3>
 <!------------------------------------------------------------------------------------------------>
-<!----------------- 49. Bitcoin Struggles to Scale: Block Size Debate 2015 (61) ------------------>
+<!----------------- 49. Bitcoin Struggles to Scale: Block Size Debate 2015 (68) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image049-bitcoin-struggles-to-scale.png"
@@ -2600,7 +2599,7 @@ done.</p>
 2.8 Ethereum Timeline
 </h3>
 <!------------------------------------------------------------------------------------------------>
-<!----------------- 50. bitcoin vs. ethereum: ethereum timeline 2013-2016 (62) ------------------->
+<!----------------- 50. bitcoin vs. ethereum: ethereum timeline 2013-2016 (69) ------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image050-2013-2016-ethereum-timeline.png"
@@ -2623,7 +2622,7 @@ also be run on Ethereum.</p>
 <p>Code execution on Ethereum is fueled by Ethereum’s internal token,
 called ether.</p>
 <!------------------------------------------------------------------------------------------------>
-<!-------------------- 51. ethreum blows up: ethereum timeline 2013-2016 (63) -------------------->
+<!-------------------- 51. ethreum blows up: ethereum timeline 2013-2016 (70) -------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image051-2013-2016-ethereum-blows-up.png" 
@@ -2642,7 +2641,7 @@ terms, about 1.2 Veyrons.</p>
 by May 2016, the cumulative value of Ethereum tokens was more than $1
 billion.</p>
 <!------------------------------------------------------------------------------------------------>
-<!--------- 2013-2016: Ethereum Timeline: Decentralized Autonomous Organizations (63) ------------>
+<!--------- 2013-2016: Ethereum Timeline: Decentralized Autonomous Organizations (71) ------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image052-2013-2016-ethereum-timeline-dao.png"
@@ -2671,7 +2670,7 @@ currently branded as Ethereum.</p>
 events like the DAO Hack – should be reverted stayed on the main chain,
 now known as Ethereum Classic.</p>
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- 53. ethereum bubble 2016-2018ish (64) ----------------------------->
+<!---------------------------- 53. ethereum bubble 2016-2018ish (72) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image053-2016-to-present-ethereum-bubble.png"
@@ -2714,7 +2713,7 @@ the price in upin a positive feedback loop.</p>
 starting to be broadcasted on public radio further contributes to this
 “FOMO.”</p>
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------- 54. 2016-2017: Hype Train (##) --------------------------------->
+<!------------------------------- 54. 2016-2017: Hype Train (73) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image054-2016-2017-hype-train.png" 
@@ -2730,7 +2729,7 @@ decentralized systems like cryptocurrencies.</p>
 aforementioned Fear of Missing Out, cryptocurrencies became extremely
 popular, resulting in a massive hype train.</p>
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 55. 2016-2017: More Hype Train (66) ----------------------------->
+<!------------------------------ 55. 2016-2017: More Hype Train (74) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image055-2016-2017-hype-train-2.png"
@@ -2749,7 +2748,7 @@ transaction volume.</p>
 <p>It’s important to have an educated understanding of the space……rather
 than make decisions based on volatility and prices.</p>
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 56. 2017-2019ish: Get Off at this Station (66) ------------------------>
+<!------------------------ 56. 2017-2019ish: Get Off at this Station (74) ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image056-2017-get-off-at-this-station.png"
@@ -2783,7 +2782,7 @@ circle…</p>
 Banks and Blockchain
 </h3>
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------- 57. Banks and Blockchain (67) ---------------------------------->
+<!------------------------------- 57. Banks and Blockchain (75) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image057-banks-and-blockchain.png"
@@ -2813,11 +2812,11 @@ and does not have a mining scheme with underlying economic incentives
 bitcoin (public key cryptography) and modify it to be more compliant to
 enterprise use.</p>
 <!------------------------------------------------------------------------------------------------>
-<!---------------------- 58. Private Blockchain Initiatives (68) --------------------------------->
+<!---------------------- 58. Private Blockchain Initiatives (76) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image058-private-blockchain-initiatives.png"
-    alt="Private Blockchain Initiatives"
+   alt="Private Blockchain Initiatives"
    width="65%" />
 </p>
 <p>There are many different enterprise technologies in the space today,
@@ -2833,7 +2832,7 @@ few years.</p>
 <p>Let’s take a look specifically at Jamie Dimon, the CEO of JP Morgan
 Chase…</p>
 <!------------------------------------------------------------------------------------------------>
-<!-------------- 59. Quotes from Jamie Dimon, the CEO of JP Morgan Chase (69) -------------------->
+<!-------------- 59. Quotes from Jamie Dimon, the CEO of JP Morgan Chase (77) -------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image059-dimon-quotes.png"
@@ -2849,7 +2848,7 @@ value. It could be replicated over and over.”, which doesn’t really mean
 anything, indicating that people really didn’t, and still don’t
 understand what Bitcoin is.</p>
 <!------------------------------------------------------------------------------------------------>
-<!--------------- 60. Quotes (2) from Jamie Dimon, the CEO of JP Morgan Chase -------------------->
+<!------------- 60. Quotes (2) from Jamie Dimon, the CEO of JP Morgan Chase (78) ----------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image060-dimon-quotes-2.png"
@@ -2863,7 +2862,7 @@ competing.”</p>
 Bitcoin by suggesting that it’s a competitor to traditional banks and
 finance.</p>
 <!------------------------------------------------------------------------------------------------>
-<!------------- 61. Quotes (3) from Jamie Dimon, the CEO of JP Morgan Chase (70) ----------------->
+<!------------- 61. Quotes (3) from Jamie Dimon, the CEO of JP Morgan Chase (78) ----------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image061-dimon-quotes-3.png"
@@ -2878,7 +2877,7 @@ same control. It’s not going to happen.”</p>
 <p>Now, Bitcoin isn’t just competition, it’s a bona fide threat.</p>
 <p>It’s something that bankers can’t control, and they hate it.</p>
 <!------------------------------------------------------------------------------------------------>
-<!-------- 62. Quotes (4) from Jamie Dimon, the CEO of JP Morgan Chase - Oct, 2017 (71) ---------->
+<!-------- 62. Quotes (4) from Jamie Dimon, the CEO of JP Morgan Chase - Oct, 2017 (79) ---------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image062-dimon-quotes-4.png"
@@ -2897,7 +2896,7 @@ of International Finance, which was hugely publicized.</p>
 <p>Just to drive his point home, here are some more comments he made in
 September 2017.</p>
 <!------------------------------------------------------------------------------------------------>
-<!------------ 63. Quotes (5) from Jamie Dimon, the CEO of JP Morgan Chase (##) ------------------>
+<!------------ 63. Quotes (5) from Jamie Dimon, the CEO of JP Morgan Chase (80) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image063-dimon-quotes-5.png"
@@ -2910,7 +2909,7 @@ against the rules, it’s stupid, it’s dangerous.”</p>
 <p>And in another quote he said “One of my daughters bought bitcoin and
 it went up, she thinks she is a genius.”</p>
 <!------------------------------------------------------------------------------------------------>
-<!-------- 64. Quotes (6) from Jamie Dimon, the CEO of JP Morgan Chase - Jan, 2018 (72) ---------->
+<!-------- 64. Quotes (6) from Jamie Dimon, the CEO of JP Morgan Chase - Jan, 2018 (80) ---------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image064-dimon-quotes-6.png"
@@ -2925,7 +2924,7 @@ I just have a different opinion than other people.”</p>
 Blockchain Community and Politics
 </h3>
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 65. crypto-anarchy (73) ------------------------------------>
+<!----------------------------------- 65. crypto-anarchy (81) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image065-crypto-anarchy.png"
@@ -2940,7 +2939,7 @@ saw with the failed DigiCash…but now we’ve ended up here at JP Morgan
 Chase, one of the largest American multinational financial services
 firms.</p>
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 66. digicash: untraceable electronic cash (73) ------------------------>
+<!------------------------ 66. digicash: untraceable electronic cash (81) ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image066-digicash.png"
@@ -2957,7 +2956,7 @@ and wider audience, there was a shift in focus away from Bitcoin itself
 and more into the other innovations made possible by the underlying
 technology, the blockchain.</p>
 <!------------------------------------------------------------------------------------------------>
-<!------------------ 67. community: where does the community exist? (74) ------------------------->
+<!------------------ 67. community: where does the community exist? (82) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image067-community.png"
@@ -2981,7 +2980,7 @@ multiple classes on the UC Berkeley campus, and also this one
 online.</p>
 <p>And this all done to foster and develop the blockchain community.</p>
 <!------------------------------------------------------------------------------------------------>
-<!----------------- 68. politics: internal politics and libertarianism (75) ---------------------->
+<!----------------- 68. politics: internal politics and libertarianism (83) ---------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image068-politics-dont-tread.png"
@@ -3007,7 +3006,7 @@ government is a good way to hold governments accountable.</p>
 <p>On the other hand, libertarians also think that people should be able
 to do what they want.</p>
 <!------------------------------------------------------------------------------------------------>
-<!------------------ 69. politics: more internal politics and libertarianism (76) ---------------->
+<!------------------ 69. politics: more internal politics and libertarianism (84) ---------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image069-politics-dont-tread-2.png"
@@ -3020,7 +3019,7 @@ Libertarian roots.</p>
 “quiet”, unassuming warrior of the forest, which doesn’t attack so long
 as you leave it alone.</p>
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 70. controversial topics (76) --------------------------------->
+<!-------------------------------- 70. controversial topics (84) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image070-controversial-topics.png"
@@ -3056,7 +3055,7 @@ of the industry.</p>
 ICO’s:
 </h3>
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------------- 71. icos: the hypee (77) ------------------------------------>
+<!---------------------------------- 71. icos: the hype (85) ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image071-icos-the-hype.png"
@@ -11679,4 +11678,4 @@ second course, CS198.2x Blockchain Technology.</p>
 <div data-align="right">
 <p><b><a href="#table-of-contents">↥ Back To Top</a></b></p>
 </div>
-<h4><b>Last Updated: 05-22-2022 Sun 9:24am</b></h3>
+<h4><b>Last Updated: 05-22-2022 Sun 10:13am</b></h3>
