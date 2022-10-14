@@ -9362,7 +9362,7 @@ And the more compute power you had, the more likely you’d solve the hash puzzl
 Voting power is limited by compute power -- a physical limitation -- rather than by the number of identities a user holds.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------ 310. a distributed network: transferrable benefits of bitcoin (281) --------------->
+<!------------ 310. a distributed network: transferrable benefits of bitcoin (278) --------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image310.jpg"
@@ -9404,7 +9404,7 @@ We’ll keep Bitcoin’s architecture in mind.
 <h3>Smart Contracts Overview</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- 311. smart contracts: contracts (282) ----------------------------->
+<!---------------------------- 311. smart contracts: contracts (279) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image311.jpg"
@@ -9429,7 +9429,7 @@ Just by these words alone, it sounds like we need some sort of consensus going o
 And through consensus, we should be able to agree on both the contents of the contract, and also the execution of the contract.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------- 312. what is ethereum? high-level overview (###) ------------------------>
+<!---------------------- 312. what is ethereum? high-level overview (280) ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image312.jpg"
