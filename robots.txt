@@ -1,3 +1,3 @@
-Sitemap: http://cs198.1x.net/sitemap.xml
+Sitemap: http://cs1981x.net/sitemap.xml
 User-agent: *
 Disallow: /
