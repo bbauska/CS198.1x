@@ -9881,8 +9881,8 @@ Of course, there ARE differences between Ethereum’s and Bitcoin’s Proof-of-W
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image329.png"
-   alt=""
-   width="65%" />
+  alt=""
+  width="65%" />
 </p>
 
 Remember that Proof-of-Work requires miners to expend computational power to increase their chances of being able to propose blocks to the network.
@@ -9896,8 +9896,8 @@ And by tying voting power to computational power, a physical real-world resource
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image330.png" 
-   alt="Proof-of-Work: Comparison with Bitcoin"
-   width="65%" />
+  alt="Proof-of-Work: Comparison with Bitcoin"
+  width="65%" />
 </p>
 
 Here are some differences between Bitcoin and Ethereum’s Proof-of-Work algorithms.
@@ -9925,8 +9925,8 @@ As of May 23rd, 2018, Ethereum has roughly 275,000 GH/s whereas Bitcoin has a wh
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image331.png"
-   alt="EVM: Distributed Verification & Consensus"
-   width="65%" />
+  alt="EVM: Distributed Verification & Consensus"
+  width="65%" />
 </p>
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
@@ -9943,8 +9943,8 @@ Proof-of-Work is essentially a way to randomly select -- based on proportion of 
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image332.png"
-   alt="EVM Gas Fees: High-Level Overview #1"
-   width="65%" />
+  alt="EVM Gas Fees: High-Level Overview #1"
+  width="65%" />
 </p>
 
 Every Ethereum node runs the Ethereum Virtual Machine as part of its block verification procedure.
@@ -9970,8 +9970,8 @@ The fact that we can compile complex smart contract code into simple machine und
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image333.png"
-   alt="EVM Gas Fees: High-Level Overview #2"
-   width="65%" />
+  alt="EVM Gas Fees: High-Level Overview #2"
+  width="65%" />
 </p>
 
 Because every node in the Ethereum network is executing smart contracts, one imimageste issue we face is: What if a contract has an infinite loop?
@@ -9991,8 +9991,8 @@ by trapping computers around the world in an infinite loop, thereby making them 
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image334.png"
-   alt="EVM Gas Fees: High-Level Overview #3"
-   width="65%" />
+  alt="EVM Gas Fees: High-Level Overview #3"
+  width="65%" />
 </p>
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
@@ -10011,8 +10011,8 @@ Every transaction specifies two parameters, “***startgas***”, or the maximum
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image335.png"
-   alt="EVM Gas Fees: High-Level Overview #4"
-   width="65%" />
+  alt="EVM Gas Fees: High-Level Overview #4"
+  width="65%" />
 </p>
 
 At the start of a transaction, “startgas \* gasprice”, which represents the amount of ether paid for a computation, is subtracted from the sender’s account.
@@ -10034,8 +10034,8 @@ This gives us two end states: either a program terminates or runs out of gas.
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image336.png"
-   alt="EVM Gas Fees: High-Level Overview #5"
-   width="65%" />
+  alt="EVM Gas Fees: High-Level Overview #5"
+  width="65%" />
 </p>
 
 Ethereum still allows someone to write an infinite loop in a smart contract.
@@ -10053,8 +10053,8 @@ Since each computation requires gas, an attacker looking to DoS the network woul
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image337.png"
-   alt="Ethereum Network State: State Transition Function"
-   width="65%" />
+  alt="Ethereum Network State: State Transition Function"
+  width="65%" />
 </p>
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
@@ -10083,16 +10083,16 @@ And you feed this into the EVM, and get out the new block state, with all the up
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image338.png"
-   alt="Ethereum Conclusions: It's Not for Everything"
-   width="65%" />
+  alt="Ethereum Conclusions: It's Not for Everything"
+  width="65%" />
 </p>
 <!------------------------------------------------------------------------------------------------>
 <!---------------- 338-2. ethereum conclusions: it's not for everything #2 (305) ----------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image338-ethereum conclusions.png"
-   alt="Ethereum Conclusions: It's Not for Everything: How Would you Decide Between Centralized & Decentralized?"
-   width="65%" />
+  alt="Ethereum Conclusions: It's Not for Everything: How Would you Decide Between Centralized & Decentralized?"
+  width="65%" />
 </p>
 
 Some conclusions about Ethereum’s high level architecture.
@@ -10110,8 +10110,8 @@ And because contract executions are redundantly replicated across all nodes, exe
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image339-ethereum-blockchain-or-centralized.png"
-   alt="Ethereum Conclusions: It's Not for Everything: Blockchain or Centralized?"
-   width="65%" />
+  alt="Ethereum Conclusions: It's Not for Everything: Blockchain or Centralized?"
+  width="65%" />
 </p>
 
 <!------------------------------------------------------------------------------------------------>
@@ -10119,8 +10119,8 @@ And because contract executions are redundantly replicated across all nodes, exe
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image338.png"
-   alt=""
-   width="65%" />
+  alt="Basic use cases: Smart Assets."
+  width="65%" />
 </p>
 
 For example, you shouldn’t be training machine learning models or doing anything else computationally expensive directly on smart contracts.
@@ -10146,8 +10146,8 @@ This is not a necessarily a stamp of approval on the use case, but an opportunit
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image339.png"
-   alt="Basic Use Cases: Smart Assets"
-   width="65%" />
+  alt="Basic Use Cases: Smart Assets"
+  width="65%" />
 &nbsp;
 
 The first use case imaginable is a smart asset, or token, built on top of a currently existing blockchain.
@@ -10177,8 +10177,8 @@ Securing smart contracts is incredibly tough, as you may have figured out from r
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image340.png" 
-   alt="Basic Use Cases: Multisig"
-   width="65%" />
+  alt="Basic Use Cases: Multisig"
+  width="65%" />
 &nbsp;
 
 Another meaningful use case for smart contracts is multisignature wallets.
@@ -10208,8 +10208,8 @@ The value of threshold corresponds to m, and the number of owners represents n.
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image341.png" 
-   alt="Basic Use Cases: Proof of Existence"
-   width="65%" />
+  alt="Basic Use Cases: Proof of Existence"
+  width="65%" />
 &nbsp;
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
@@ -10246,8 +10246,8 @@ Reveal the inputs later to prove your ownership.
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image341b.png" 
-   alt="Public Registry: Namecoin: Blockchain Fundamentals"
-   width="65%" />
+  alt="Public Registry: Namecoin: Blockchain Fundamentals"
+  width="65%" />
 </p>
 
 In addition, there’s the opportunity to implement a decentralized DNS system.
@@ -10267,8 +10267,8 @@ We’ll expand on how we take advantage of these properties in the Advanced Use 
 <!------------------------------------------------------------------------------------------------>
 <p align="center" >
 <img src="/images/image342.png"
-   alt="Decentralized Land Titles: Blockchain Fundamentals"
-   width="65%" />
+  alt="Decentralized Land Titles: Blockchain Fundamentals"
+  width="65%" />
 </p>
 
 A problem that several underdeveloped countries face is a broken land titles system.
@@ -10357,8 +10357,8 @@ The organization would then decide on what happened, and pay out to users as spe
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image346.png"
-   "Prediction Markets: Transparent & Never Crashes"
-   width="65%" />
+  alt="Prediction Markets: Transparent & Never Crashes"
+  width="65%" />
 &nbsp;
 
 However, with a central organization, we depend both on the organization to provide honest information about payouts and to truthfully act on political events.
@@ -10383,9 +10383,10 @@ Gnosis and Augur are two well-known companies that have deployed prediction mark
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image347.png"
-   alt="Prediction Markets: Use Case 1"
-   width="65%" />
+  alt="Prediction Markets: Use Case 1"
+  width="65%" />
 &nbsp;
+
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
@@ -10403,8 +10404,8 @@ As users have an incentive to monetize information while revealing as little of 
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image348.png"
-   alt="Prediction Markets: And Decentralizing Them: Will This Movie be a Flop?"
-   width="65%" />
+  alt="Prediction Markets: And Decentralizing Them: Will This Movie be a Flop?"
+  width="65%" />
 &nbsp;
 
 Will this movie be a flop?
@@ -10419,8 +10420,8 @@ This allows the person asking the question to gather information while letting u
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image349.png"
-   alt="Prediction Markets: Other Use Cases"
-   width="65%" />
+  alt="Prediction Markets: Other Use Cases"
+  width="65%" />
 &nbsp;
 
 Other use cases include insurance, bug bounties, and ICO signaling.
@@ -10433,8 +10434,8 @@ If a user notices a bug in a smart contract, they can heavily bet “yes” befo
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image350.png"
-   alt="Prediction Markets: Futarchy & Cryptoeconomics"
-   width="65%" />
+  alt="Prediction Markets: Futarchy & Cryptoeconomics"
+  width="65%" />
 &nbsp;
 
 An exciting use case of prediction markets is futarchy.
@@ -10457,8 +10458,8 @@ Research is still being done to examine the feasibility of futarchy on a blockch
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image351.png"
-   alt= "Supply Chain and Provenance: Blood Diamonds"
-   width="65%" />
+  alt= "Supply Chain and Provenance: Blood Diamonds"
+  width="65%" />
 &nbsp;
 	
 <div align="right">
@@ -10493,8 +10494,8 @@ We have to trust that individuals are not bribed to include false information in
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image352.png"
-   alt= "Smart Energy Grids: Revolutionizing Infrastructure"
-   width="65%" />
+  alt= "Smart Energy Grids: Revolutionizing Infrastructure"
+  width="65%" />
 &nbsp;
 
 Thus far, we’ve mentioned how we can provide a digital service using a blockchain.
@@ -10543,9 +10544,10 @@ This is one of the most revolutionary concepts in blockchain, giving users the a
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image353.png"
-   alt="After Hours Trading: 24/7 Access & Liquidity"
-   width="65%" />
+  alt="After Hours Trading: 24/7 Access & Liquidity"
+  width="65%" />
 &nbsp;
+
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
@@ -10592,8 +10594,8 @@ By coordinating between these untrusting parties on a globally accessible platfo
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image354.png"
-   alt="Blockchain vs The Internet" 
-   width="65%" />
+  alt="Blockchain vs The Internet" 
+  width="65%" />
 &nbsp;
 
 In almost every conversation about blockchain’s role in society or path going forward, you’ll hear a comparison to the Internet.
@@ -10665,8 +10667,8 @@ These points describe the properties of a good blockchain use case, along with t
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image355.png" 
-   alt="Blockchain Generalizations: Viable but Blockchain Not Necessary"
-   width="65%" />
+  alt="Blockchain Generalizations: Viable but Blockchain Not Necessary"
+  width="65%" />
 &nbsp;
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
@@ -10695,8 +10697,8 @@ Each of these bullets can be achieved by using a subset of the technology that g
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image356.png" 
-   alt="Blockchain Generalizations: Solving Coordination Failures"
-   width="65%" />
+  alt="Blockchain Generalizations: Solving Coordination Failures"
+  width="65%" />
 &nbsp;
 
 While blockchains will work, they’re over-engineered solutions to these problems.
@@ -10724,8 +10726,8 @@ Instead of bringing in lawyers to settle matters when things don’t according t
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image357.png" 
-   alt= "Blockchain Generalizations: Horizontal Integration"
-   width="65%" />
+  alt= "Blockchain Generalizations: Horizontal Integration"
+  width="65%" />
 &nbsp;
 
 Blockchains create a standardized platform for access and interaction.
@@ -10761,8 +10763,8 @@ In this way, individuals are supporting the rest of the community while benefiti
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image358.png" 
-   alt="Blockchain Generalizations: Essential Properties: Pure Decentralization"
-   width="65%" />
+  alt="Blockchain Generalizations: Essential Properties: Pure Decentralization"
+  width="65%" />
 &nbsp;
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
@@ -10795,8 +10797,8 @@ Through blockchain, we can support globally recognized ownership, persisting acr
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image359.png" 
-   alt="Blockchain Generalizations: Advantages of Centralized Solutions"
-   width="65%" />
+  alt="Blockchain Generalizations: Advantages of Centralized Solutions"
+  width="65%" />
 &nbsp;
 
 Now that we’ve finished talking about all the meaningful properties of decentralized solutions, it wouldn’t be complete if we didn’t go over the caveats.
@@ -10880,8 +10882,8 @@ Another meaningful use case for smart contracts is multisignature wallets. On Et
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/document-ownership.png"
-   alt= "Document Ownership: Blockchain Fundamentals: Proof-of-Existence"
-   width="65%" />
+  alt= "Document Ownership: Blockchain Fundamentals: Proof-of-Existence"
+  width="65%" />
 &nbsp;
 
 We can also create Proof-of-Existence use cases using smart contracts, which hash intellectual property onto a blockchain to prove the existence of some piece of information at some point in time. With Proof-of-Existence, we leverage both the public auditability and immutability of the blockchain. We can use Proof-of-Existence to record document ownership or implement a decentralized DNS system.
@@ -10947,8 +10949,8 @@ In the end, it is important to always ask why a blockchain is better than a cent
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image360.png" 
-   alt="Why is using a blockchain better than a centralized database?"
-   width="65%" />
+  alt="Why is using a blockchain better than a centralized database?"
+  width="65%" />
 &nbsp;
 
 The main takeaway is that there are advantages to both centralized and decentralized solutions.
@@ -11034,8 +11036,8 @@ He also founded ConsenSys, which is a company that made great strides in develop
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image361.png" 
-   alt="ConsenSys: Ethereum Infrastructure" 
-   width="65%" />
+  alt="ConsenSys: Ethereum Infrastructure" 
+  width="65%" />
 &nbsp;
 
 ConsenSys can be best described as a software foundry.
@@ -11053,8 +11055,8 @@ The Ethereum community also spawns a lot of original research.
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image362.png"
-   alt= "Research: Paving the Road Ahead"
-   width="65%" />
+  alt= "Research: Paving the Road Ahead"
+  width="65%" />
 &nbsp;
 
 Most notably is Casper, the Ethereum Proof-of-Stake implementation that we’ve mentioned a couple times in this module.
@@ -11092,8 +11094,8 @@ Here’s a review of the similarity and differences between Ethereum and Bitcoin
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image363.jpg"
-   alt= "Similarity and Differences between Ethereum and Bitcoin"
-   width="65%" />
+  alt= "Similarity and Differences between Ethereum and Bitcoin"
+  width="65%" />
 &nbsp;
 
 There are two kinds of Ethereum accounts: 
@@ -11119,8 +11121,8 @@ The Ethereum Virtual Machine enables the Ethereum blockchain to be programmable.
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image364.jpg" 
-   alt="Nodes in the Ethereum Network" 
-   width="65%" />
+  alt="Nodes in the Ethereum Network" 
+  width="65%" />
 &nbsp;
 
 As in Bitcoin, the nodes come to consensus using Proof-of-Work, removing the need for a trusted third party. Miners in Ethereum competitively create blocks by executing EVM code and searching for a solution to a mining puzzle.
@@ -11133,9 +11135,9 @@ Ethereum is implemented as a distributed state machine, and transactions on the 
 <!----------- 365. block_state, gas, memory, transaction, msg, code, stack, pc (357) ------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image365.jpg" 
-   alt="Bitcoin Network: Flood the Network" 
-   width="65%" />
+<img src="/images/image365.jpg"
+  alt="Bitcoin Network: Flood the Network"
+  width="65%" />
 &nbsp;
 
 <h3>Readings</h3>
@@ -11143,7 +11145,7 @@ Ethereum is implemented as a distributed state machine, and transactions on the 
 <li>Ethereum Whitepaper: [A Next-Generation Smart Contract and Decentralized Application Platform](https://github.com/ethereum/wiki/wiki/White-Paper)</li>
 <li>(Optional) [Explore decentralized applications](https://www.stateofthedapps.com/). Check out all the different Ethereum Apps that have been created!</li>
 <li>(Optional) [Ethereum: A Secure Decentralized Generalised Transaction Ledger](http://gavwood.com/paper.pdf)</li>
-<li>[Blockchain, Cryptocurrencies & The New Decentralized Economy](https://blockchainatberkeley.blog/blockchains-cryptocurrencies-the-new-decentralized-economy-part-1-a-gentle-introduction-edcb4824b174)</li>
+<li>(Blockchain, Cryptocurrencies & The New Decentralized Economy) [Crypto Decentralized](https://blockchainatberkeley.blog/blockchains-cryptocurrencies-the-new-decentralized-economy-part-1-a-gentle-introduction-edcb4824b174)</li>
 </ul>
 Congratulations on completing the course!<br/>
 
@@ -11163,7 +11165,7 @@ We wish you all the best on the rest of your blockchain journey!
 
 the end…&nbsp;<br/>
 <b><i>readme.md</i></b>&nbsp;<br/>
-<b><i>Last Updated: 5/21/2022 (Saturday) 12:38pm+</i></b>
+<b><i>Last Updated: 10/29/2022 (Saturday) 6:14pm+</i></b>
 
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
