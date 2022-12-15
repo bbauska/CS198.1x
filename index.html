@@ -16,13 +16,14 @@ img.displayed {
   border-color: #778899;
   border-style: solid; }
 
+p.em1 {
+  margin-left: 1em; }
 p.em2 {
-  margin-left: 2em;
+  margin-left: 2em; }
 p.em3 {
-  margin-left: 3em;
+  margin-left: 3em; }
 p.em4 {
-  margin-left: 4em;
-}
+  margin-left: 4em; }
 
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
@@ -39,9 +40,9 @@ p.em4 {
 </head>
 <body>
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- readme.md in CS198.1x.bauska.org --------------------------------->
+<!----------------------------- index.html in CS198.1x.bauska.org -------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<h2 style="width:65%;" class="displayed">
+<h2 style="text-align: center;">
 CS198.1x - University of California @ BerkeleyX
 </h2>
 <!------------------------------------------------------------------------------------------------>
@@ -573,7 +574,7 @@ works, and why things are the way they are in Bitcoin.</p>
 </h3>
 <p class="em2">We’ll start off by taking a look at one of the most fundamental ideas
 in Bitcoin:</p>
-<p><b><i>Identity.</i></b></p>
+<p class="em1"><b><i>Identity.</i></b></p>
 <p class="em2">We saw earlier that banks need to keep track of the accounts and
 identities of their customers.</p>
 <p class="em2">But how do we do this in Bitcoin, without a bank or central entity to
@@ -794,15 +795,12 @@ analyzing the idea of a transaction.</p>
   alt="Transactions: Validity: What Makes a Transacton Valid?"
   style="width:65%;" />
 </p>
-<div data-align="right">
-<p><b><a href="#table-of-contents">↥ Back To Top</a></b></p>
-</div>
 <p class="em2">For a transaction to be valid, it must have these three
 components:</p>
 <ol type="1">
-<li><p>a proof of ownership, aka a signature,</p></li>
-<li><p>available and sufficient funds to spend, and</p></li>
-<li><p>a guarantee that no other transaction is using or has used the
+<li style="text-indent: 10px"><p>a proof of ownership, aka a signature,</p></li>
+<li style="text-indent: 10px"><p>available and sufficient funds to spend, and</p></li>
+<li style="text-indent: 10px"><p>a guarantee that no other transaction is using or has used the
 same funds.</p></li>
 </ol>
 <p class="em2">Let’s understand these criteria in the context of checks and
@@ -841,9 +839,6 @@ Transaction Output, model.</p>
    alt="Transactions: UTXO Model: Blockchain Tracks Unspent Money"
    width=65%" />
 </p>
-<div data-align="right">
-<p><b><a href="#table-of-contents">↥ Back To Top</a></b></p>
-</div>
 <p class="em2">Traditionally, when we think of banks, we think of a single account
 where all our funds are aggregated into one count.</p>
 <p class="em2">For example, after buying $10 worth of burgers and fries, your
@@ -876,22 +871,22 @@ UTXO, or piggy bank.</p>
    width=65%" />
 </p>
 <p class="em2">When we want to spend money, we break open that piggy bank…spend
-whatever we like, and then put the rest into another piggy bank.</p>
-<p>(It’s hard to put a piggy bank’s shattered pieces back together.)</p>
-<p class="em2">This way, the complexity of checking for transaction validity goes
-down.</p>
-<p class="em2">Instead of asking the more difficult question, “Is this account
+whatever we like, and then put the rest into another piggy bank.<br>
+(It’s hard to put a piggy bank’s shattered pieces back together.)<br>
+<br>
+This way, the complexity of checking for transaction validity goes
+down.<br>
+<br>
+Instead of asking the more difficult question, “Is this account
 trying to, at this time, spend more money than it owns across multiple
 transactions?,” we only need to ask, “Does this single piggy bank have
-enough funds?”</p>
-<p class="em2">On the other hand, the complexity of keeping track of one’s own funds
+enough funds?”<br>
+<br>On the other hand, the complexity of keeping track of one’s own funds
 goes up, as each of these piggy banks has to be tracked and secured
-individually.</p>
-<p class="em2">The amount of bitcoin you own is calculated by summing up the value
+individually.<br>
+<br>
+The amount of bitcoin you own is calculated by summing up the value
 of each of your piggy banks, or UTXOs.</p>
-<div data-align="right">
-<p><b><a href="#table-of-contents">↥ Back To Top</a></b></p>
-</div>
 <h3 id="ch1-6">
 1.6 UTXO’s:
 </h3>
@@ -933,9 +928,6 @@ transaction…the output of which will be Derrick’s new UTXO.</p>
 <p class="em2">This is how Bitcoin effectively keeps track of individual
 transactions and prevents anyone from spending incorrect amounts of
 bitcoin.</p>
-<div data-align="right">
-<p><b><a href="#table-of-contents">↥ Back To Top</a></b></p>
-</div>
 <h3 id="ch1-7">
 1.7 Intro: Record Keeping (Stage 3)
 </h3>
@@ -957,50 +949,52 @@ in the future.</p>
    alt="Recordkeeping: Distributed DBS"
    width=65%" />
 </p>
-<p class="em2">Consider the diagram above.</p>
-<p class="em2">Let this represent our network, which includes 5 entities.</p>
-<p class="em2">Each of these circles represents an identity: me (Rustie) in green on
+<p class="em2">Consider the diagram above.<br>
+<br>
+Let this represent our network, which includes 5 entities.<br>
+<br>
+Each of these circles represents an identity: me (Rustie) in green on
 top, Gloria in red on the top right, Nick in purple on the bottom right,
 Nadir in blue on the bottom left, and Derrick in orange on the top
-left.</p>
-<p class="em2">We are all connected to each other on this network, as is apparent by
-the straight edges connecting each circle.</p>
-<p class="em2">For simplicity’s sake, I’ve replaced all public keys with names.</p>
-<p class="em2">I’ve also replaced the UTXO model with a basic table on the top right
-hand side of the screen.</p>
-<p class="em2">We need to store the history of transactions for obvious reasons: to
+left.<br>
+<br>
+We are all connected to each other on this network, as is apparent by
+the straight edges connecting each circle.<br>
+<br>
+For simplicity’s sake, I’ve replaced all public keys with names.<br>
+<br>I’ve also replaced the UTXO model with a basic table on the top right
+hand side of the screen.<br>
+<br>We need to store the history of transactions for obvious reasons: to
 know who owns what in the present, and to use this history to confirm
-the validity of future transactions.</p>
-<p class="em2">To save this information, we need some form of database.</p>
-<p class="em2">A database is a store of information, and there are many types and
-implementations of databases.</p>
-<p class="em2">To understand which type of database we need to use in Bitcoin, let’s
+the validity of future transactions.<br>
+<br>To save this information, we need some form of database.<br>
+<br>A database is a store of information, and there are many types and
+implementations of databases.<br>
+<br>To understand which type of database we need to use in Bitcoin, let’s
 recall again the requirements of the Bitcoin protocol: we want no
 central entity in control of the information in the network, and we want
 a way for anyone to be able to read and write to the history of
-transactions.</p>
-<p class="em2">Hence, we want to use a distributed database: as its name entails,
+transactions.<br>
+<br>Hence, we want to use a distributed database: as its name entails,
 information stored in a distributed manner, meaning that the information
-is not stored by one entity or only in one location.</p>
-<p class="em2">Because Bitcoin aims to be decentralized, we want to use exactly
-that.</p>
-<p class="em2">What does this distributed database look like, and where exactly is
-it stored?</p>
-<p class="em2">There’s no central entity to hold on to our information, so the
+is not stored by one entity or only in one location.<br>
+<br>Because Bitcoin aims to be decentralized, we want to use exactly
+that.<br>
+<br>What does this distributed database look like, and where exactly is
+it stored?<br>
+<br>There’s no central entity to hold on to our information, so the
 closest thing is having a chosen set of entities hold onto this
-history.</p>
-<p class="em2">If we assigned several entities in the network the responsibility of
+history.<br>
+<br>If we assigned several entities in the network the responsibility of
 maintaining and sharing our ledger of transactions, we are still seeing
 some parts of centralization sneak their way into our protocol because
 we would have to trust the maintainers of this distributed database,
-going against Bitcoin’s aim to be a trustless system.</p>
-<p class="em2">We must find another way.</p>
-<p class="em2">Instead of having any selected maintainers, let’s make a simple and
-straightforward choice: we have everyone keep a copy of the ledger.</p>
-<p class="em2">We make everyone the bank.</p>
-<div data-align="right">
-<p><b><a href="#table-of-contents">↥ Back To Top</a></b></p>
-</div>
+going against Bitcoin’s aim to be a trustless system.<br>
+<br>We must find another way.<br>
+<br>Instead of having any selected maintainers, let’s make a simple and
+straightforward choice: we have everyone keep a copy of the ledger.<br>
+<br>
+We make everyone the bank.</p>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------- 14. recordkeeping: everyone's the bank (26) -------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -1032,9 +1026,6 @@ the network.</p>
 made for one entity, it must propagate throughout the entire
 network.</p>
 <p class="em2">How do we store our ledger efficiently?</p>
-<div data-align="right">
-<p><b><a href="#table-of-contents">↥ Back To Top</a></b></p>
-</div>
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 15. recordkeeping: the blockchain (27) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -1074,9 +1065,6 @@ all members of the Bitcoin network.</p>
 <p class="em2">Of course, the next question is, “How does everyone come to agreement
 on the next block?”</p>
 <p class="em2">We will go over this in the next segment on consensus.</p>
-<div data-align="right">
-<p><b><a href="#table-of-contents">↥ Back To Top</a></b></p>
-</div>
 <h3 id="ch1-8">
 1.8 Intro: Consensus (Stage 4)
 </h3>
@@ -1108,9 +1096,6 @@ to agree on a valid update to make sure that no corrupted information is
 accepted by the network.</p>
 <p class="em2">If there was no way for different parties to come to agreement on
 this, then there will forever be this schism between them.</p>
-<div data-align="right">
-<p><b><a href="#table-of-contents">↥ Back To Top</a></b></p>
-</div>
 <p class="em2">Without agreement, we cannot have a functioning distributed
 database.</p>
 <p class="em2">We have to all stay on the same page to make sure that we all believe
