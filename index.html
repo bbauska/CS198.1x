@@ -18,6 +18,10 @@ img.displayed {
 
 p.em2 {
   margin-left: 2em;
+p.em3 {
+  margin-left: 3em;
+p.em4 {
+  margin-left: 4em;
 }
 
     code{white-space: pre-wrap;}
@@ -37,7 +41,7 @@ p.em2 {
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- readme.md in CS198.1x.bauska.org --------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<h2 align="center" width="100%">
+<h2 style="width:65%;" class="displayed">
 CS198.1x - University of California @ BerkeleyX
 </h2>
 <!------------------------------------------------------------------------------------------------>
@@ -362,7 +366,7 @@ What is Bitcoin?
 <!------------------------------------------------------------------------------------------------>
 <p style="text-align: center;">
 <img class="displayed"
-  src="/images/what is bitcoin-bitcoin genesis.png?raw=true"
+  src="/images/what is bitcoin-bitcoin genesis.png"
   alt="What is Bitcoin? Bitcoin Genesis"
   style="width:75%;" />
 </p>
@@ -406,10 +410,7 @@ of users.</p>
 central entities stripping away the freedom of the general public.</p>
 <p class="em2">One massive point of centralization in modern day society is the
 financial system, where:</p>
-<p><b><i>banks govern the economies of entire countries.</i></b></p>
-<div data-align="right">
-<p><b><a href="#table-of-contents">↥ Back To Top</a></b></p>
-</div>
+<p class="em3"><b><i>banks govern the economies of entire countries.</i></b></p>
 <p class="em2">Several different companies and researchers attempted to make a
 decentralized or anonymous currency, but all of them failed.</p>
 <p class="em2">Bitcoin was the first technology to succeed as a cryptocurrency.</p>
@@ -662,10 +663,11 @@ by implication, your Bitcoin identity.</p>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------- 04. identity: public and private keys (15) --------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image004.png" 
+<p style="text-align: center;">
+<img class="displayed"
+  src="/images/image004.png"
    alt="Identity: Public and Private Keys"
-   width="65%" />
+  style="width:65%;" />
 </p>
 <p class="em2">In Bitcoin, you can think of your public and private key as a chest
 and key, respectively.</p>
@@ -698,11 +700,13 @@ function.</p>
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 04. identity: a few things to note (16) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image004-identity-few.png" 
+<p style="text-align: center;">
+<img class="displayed"
+  src="/images/image004-identity-few.png"
    alt="Identity: A Few Things to Note"
-   width="65%" />
+  style="width:65%;" />
 </p>
+
 <p class="em2">You may be concerned about the danger of two users ending up with the
 same public key without a central registry ensuring that no two people
 have the same public key.</p>
@@ -711,19 +715,17 @@ identifiers and can easily assign a new, unique identity to any new
 user.</p>
 <p class="em2">How do we simulate a bank’s identification process in Bitcoin?</p>
 <p class="em2">How do we trust that no two users end up with the same identity?</p>
-<div data-align="right">
-<p><b><a href="#table-of-contents">↥ Back To Top</a></b></p>
-</div>
 <p class="em2">To illustrate the probability of two users choosing the same identity
 as someone else in Bitcoin, let’s consider something we’re all familiar
 with: the Earth.</p>
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 05. identity: public & private Keys (17) --------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image005.png" 
-   alt="Identity: Public & Private Keys" 
-   width="65%" />
+<p style="text-align: center;">
+<img class="displayed"
+  src="/images/image005.png"
+  alt="Identity: Public & Private Keys" 
+  style="width:65%;" />
 </p>
 <p class="em2">Bitcoin has 2^160<sup>th</sup> different possible addresses.</p>
 <p class="em2">To get a sense of how many different addresses exist for users to
@@ -743,53 +745,54 @@ of sand on Earth, there exists another Earth, also with
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 06. identity: public key security (18) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image006.png" 
-    alt="Identity: Public Key Security" 
-    width="65%" />
+<p style="text-align: center;">
+<img class="displayed"
+  src="/images/image006.png"
+  alt="Identity: Public Key Security"
+  style="width:65%;" />
 </p>
 <p class="em2">Now we have 2^63<sup>rd</sup> times 2^63<sup>rd</sup> grains of sand
 per earth, meaning that there are a total of 2^126<sup>th</sup> grains
 of sand.</p>
 <!------------------------------------------------------------------------------------------------>
-<!---------------------- 07. identity: security hidden in plain sight (18   ) ----------------------->
+<!---------------------- 07. identity: security hidden in plain sight (18) ----------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image007-identity-security-hidden-in-plain-sight.png" 
-    alt="Identity: Security: Hidden in Plain Sight"
-    width="65%" />
+<p style="text-align; center;">
+<img class="displayed"
+  src="/images/image007-identity-security-hidden-in-plain-sight.png" 
+  alt="Identity: Security: Hidden in Plain Sight"
+  style="width:65%;" />
 </p>
 <p class="em2">Even the number of grains of sand upon all these Earths is only
 0.0000000058% (8 zeroes) of all the possible Bitcoin addresses.</p>
-<div data-align="right">
-<p><b><a href="#table-of-contents">↥ Back To Top</a></b></p>
-</div>
 <h3 id="ch1-5">
 1.5 Intro: Transactions (Stage 2)
 </h3>
 <p class="em2">So now that we have a clear understanding of the structure and
 purpose of identity in Bitcoin, we can start asking the question, “How
 do we make transactions between one another in Bitcoin?”</p>
-After all, that’s the primary goal of the Bitcoin network – to enable
-secure transactions between any two users in the network.
+<p class="em2">After all, that’s the primary goal of the Bitcoin network – to enable
+secure transactions between any two users in the network.</p>
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- 08. What Makes a Transaction Valid? (19) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image008-what makes-a-transaction-valid.png" 
-   alt="Transactions: What Makes a Transaction Valid?"
-   width="65%" />
+<p style="text-align; center;">
+<img class="displayed"
+  src="/images/image008-what makes-a-transaction-valid.png" 
+  alt="Transactions: What Makes a Transaction Valid?"
+  style="width:65%;" />
 </p>
 <p class="em2">As we did before with the concept of identity, we will now be
 analyzing the idea of a transaction.</p>
-Take a moment to ask yourself, “What makes a transaction valid?”
+<p class="em2">Take a moment to ask yourself, “What makes a transaction valid?”</p>
 <!------------------------------------------------------------------------------------------------>
 <!-------------- 09. Transactions: validity: what makes a transaction valid? (20) ---------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image009-validity.png" 
-   alt="Transactions: Validity: What Makes a Transacton Valid?"
-   width=65%" />
+<p style="text-align; center;">
+<img class="displayed"
+  src="/images/image009-validity.png" 
+  alt="Transactions: Validity: What Makes a Transacton Valid?"
+  style="width:65%;" />
 </p>
 <div data-align="right">
 <p><b><a href="#table-of-contents">↥ Back To Top</a></b></p>
@@ -803,26 +806,32 @@ components:</p>
 same funds.</p></li>
 </ol>
 <p class="em2">Let’s understand these criteria in the context of checks and
-banks:</p>
-<p class="em2">When you want to make a transaction via a check, you have to sign the
-check to validate it – that’s a proof of ownership.</p>
-<p class="em2">The bank then has to verify that you have enough funds in your
+banks:<br>
+<br>
+When you want to make a transaction via a check, you have to sign the
+check to validate it – that’s a proof of ownership.<br>
+<br>
+The bank then has to verify that you have enough funds in your
 account – that you have available and sufficient funds for the
-transaction.</p>
-<p class="em2">They must also ensure that you do not spend the same money more than
+transaction.<br>
+<br>
+They must also ensure that you do not spend the same money more than
 once – that you cannot send two or more checks each spending 100 dollars
-when your account only has 100 in total.</p>
-<p class="em2">To ensure that one uses funds not in their possession, all the same
-conditions apply to Bitcoin.</p>
+when your account only has 100 in total.<br>
+<br>
+To ensure that one uses funds not in their possession, all the same
+conditions apply to Bitcoin.<br>
+<br>
 To enforce this, Bitcoin uses what’s known as a UTXO, or Unspent
-Transaction Output, model.
+Transaction Output, model.</p>
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- 10. transactions: utxo model: example (21) -------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image010-utxo-model.png"
-   alt="Transactions: UTXO Model: Example"
-   width=65%" />
+<p style="text-align; center;">
+<img class="displayed"
+  src="/images/image010-utxo-model.png"
+  alt="Transactions: UTXO Model: Example"
+  style="width:65%;" />
 </p>
 <!------------------------------------------------------------------------------------------------>
 <!--------- 10. transactions: utxo model: blockchain keeps track of unspent money (21) ----------->
