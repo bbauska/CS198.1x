@@ -798,9 +798,9 @@ analyzing the idea of a transaction.</p>
 <p class="em2">For a transaction to be valid, it must have these three
 components:</p>
 <ol type="1">
-<li style="text-indent: 10px"><p>a proof of ownership, aka a signature,</p></li>
-<li style="text-indent: 10px"><p>available and sufficient funds to spend, and</p></li>
-<li style="text-indent: 10px"><p>a guarantee that no other transaction is using or has used the
+<li style="text-indent: 20px"><p>a proof of ownership, aka a signature,</p></li>
+<li style="text-indent: 20px"><p>available and sufficient funds to spend, and</p></li>
+<li style="text-indent: 20px"><p>a guarantee that no other transaction is using or has used the
 same funds.</p></li>
 </ol>
 <p class="em2">Let’s understand these criteria in the context of checks and
@@ -834,41 +834,44 @@ Transaction Output, model.</p>
 <!------------------------------------------------------------------------------------------------>
 <!--------- 10. transactions: utxo model: blockchain keeps track of unspent money (21) ----------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image010-utxo-2.png" 
+<p style="text-align; center;">
+<img class="displayed"
+  src="/images/image010-utxo-2.png"
    alt="Transactions: UTXO Model: Blockchain Tracks Unspent Money"
-   width=65%" />
+  style="width:65%;" />
 </p>
 <p class="em2">Traditionally, when we think of banks, we think of a single account
-where all our funds are aggregated into one count.</p>
-<p class="em2">For example, after buying $10 worth of burgers and fries, your
-account balance goes from 20 to 10 dollars.</p>
-<p class="em2">This is not the case with Bitcoin.</p>
-<p class="em2">Accounts are easy for users to understand but surprisingly difficult
+where all our funds are aggregated into one count.<br>
+<br>
+For example, after buying $10 worth of burgers and fries, your
+account balance goes from 20 to 10 dollars.<br>
+<br>This is not the case with Bitcoin.<br>
+<br>Accounts are easy for users to understand but surprisingly difficult
 for computers when it comes to all the complexity of a decentralized
-network.</p>
-<p class="em2">There is no longer a central entity to track all the transactions
+network.<br>
+<br>There is no longer a central entity to track all the transactions
 being made by my account, nor a central clock to track when transactions
-are being made.</p>
-<p class="em2">If I make three different transactions of 5 bitcoins from an account
+are being made.<br>
+<br>If I make three different transactions of 5 bitcoins from an account
 of only 10 bitcoins, which of the two transactions should go
-through?</p>
-<p class="em2">How do we ensure that we do not accidentally let all three
-transactions go through?</p>
-<p class="em2">To make transaction processing much easier and more secure, users do
+through?<br>
+<br>How do we ensure that we do not accidentally let all three
+transactions go through?<br>
+<br>To make transaction processing much easier and more secure, users do
 not spend from an account; instead, they spend directly from
-transactions made to them.</p>
-<p class="em2">An easy way to wrap our heads around this unintuitive model is to
-think of UTXOs as piggy banks!</p>
-<p class="em2">Every time a transaction is made to us, we put all that money into a
+transactions made to them.<br>
+<br>An easy way to wrap our heads around this unintuitive model is to
+think of UTXOs as piggy banks!<br>
+<br>Every time a transaction is made to us, we put all that money into a
 UTXO, or piggy bank.</p>
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------------- 11. utxo model: unspent (22) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image011-utxo-model-unspent.png"
-   alt="Transactions: UTXO Model: Unspent"
-   width=65%" />
+<p style="text-align; center;">
+<img class="displayed"
+  src="/images/image011-utxo-model-unspent.png"
+  alt="Transactions: UTXO Model: Unspent"
+  style="width:65%;" />
 </p>
 <p class="em2">When we want to spend money, we break open that piggy bank…spend
 whatever we like, and then put the rest into another piggy bank.<br>
@@ -894,38 +897,39 @@ of each of your piggy banks, or UTXOs.</p>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------------ 12. utxo example (23) ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image012-utxo-example.png"
-   alt="UTXO Example"
-   width=65%" />
+<p style="text-align; center;">
+<img class="displayed"
+  src="/images/image012-utxo-example.png"
+  alt="UTXO Example"
+  style="width:65%;" />
 </p>
 <p class="em2">Let’s say that Gloria has two UTXOs, from past transactions, one
-worth one hundred (100) bitcoins… and one worth fifty bitcoins.</p>
-<p class="em2">She, being incredibly wealthy and generous, wants to send one hundred
-and one bitcoins to me (Rustie).</p>
-<p class="em2">To start off, she first breaks open the one hundred (100) UTXO and
-makes that an input for the transaction to me.</p>
-<p class="em2">However, she recognizes that she doesn’t yet have enough in the
+worth one hundred (100) bitcoins… and one worth fifty bitcoins.<br>
+<br>She, being incredibly wealthy and generous, wants to send one hundred
+and one bitcoins to me (Rustie).<br>
+<br>To start off, she first breaks open the one hundred (100) UTXO and
+makes that an input for the transaction to me.<br>
+<br>However, she recognizes that she doesn’t yet have enough in the
 input, so she breaks open her next UTXO worth fifty (50)…and makes that
-a second input for the transaction.</p>
-<p class="em2">The transaction now currently has two inputs, one worth one hundred
+a second input for the transaction.<br>
+<br>The transaction now currently has two inputs, one worth one hundred
 (100) and one worth fifty (50), and one output worth one hundred and one
-(101) to me.</p>
-<p class="em2">What about the remaining 49 bitcoins that were originally
-Gloria’s?</p>
-<p class="em2">Where do those go?</p>
-<p class="em2">To make sure that Gloria can spend these bitcoins at a later date,
+(101) to me.<br>
+<br>What about the remaining 49 bitcoins that were originally
+Gloria’s?<br>
+<br>Where do those go?<br>
+<br>To make sure that Gloria can spend these bitcoins at a later date,
 she makes a second output to herself known as a change UTXO, or another
 piggy bank, containing all the remaining unspent bitcoins from the
-inputs.</p>
-<p class="em2">This way, she can give one hundred and one (101) of her one hundred
+inputs.<br>
+<br>This way, she can give one hundred and one (101) of her one hundred
 and fifty (150) bitcoins to me and keep her remaining forty nine (49)
 even though she doesn’t have UTXOs which sum up to exactly the amount
-she wants to spend.</p>
-<p class="em2">From here, if I’m equally generous and want to give that remaining
+she wants to spend.<br>
+<br>From here, if I’m equally generous and want to give that remaining
 amount to Derrick, I can just make my new UTXO an input into a different
-transaction…the output of which will be Derrick’s new UTXO.</p>
-<p class="em2">This is how Bitcoin effectively keeps track of individual
+transaction…the output of which will be Derrick’s new UTXO.<br>
+<br>This is how Bitcoin effectively keeps track of individual
 transactions and prevents anyone from spending incorrect amounts of
 bitcoin.</p>
 <h3 id="ch1-7">
@@ -934,31 +938,29 @@ bitcoin.</p>
 <p class="em2">We have now understood how to assign unique identities to every user
 through public and private keys and conduct transactions between these
 entities through the use of the UTXO, or Unspent Transaction Output,
-model.</p>
-<p class="em2">Naturally, the next question to ask is: How do we keep track of the
-history of transactions?</p>
-<p class="em2">After all a user’s current balance can be described as a number of
+model.<br>
+<br>Naturally, the next question to ask is: How do we keep track of the
+history of transactions?<br>
+<br>After all a user’s current balance can be described as a number of
 transactions, summing to the current amount, and if we don’t know what
 transactions have happened in the past, we can’t determine what’s valid
 in the future.</p>
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 13. recordkeeping: distributed dbs (25) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image013-recordkeeping-distributed-dbs.png" 
-   alt="Recordkeeping: Distributed DBS"
-   width=65%" />
+<p style="text-align; center;">
+<img class="displayed"
+  src="/images/image013-recordkeeping-distributed-dbs.png" 
+  alt="Recordkeeping: Distributed DBS"
+  style="width:65%;" />
 </p>
 <p class="em2">Consider the diagram above.<br>
-<br>
-Let this represent our network, which includes 5 entities.<br>
-<br>
-Each of these circles represents an identity: me (Rustie) in green on
+<br>Let this represent our network, which includes 5 entities.<br>
+<br>Each of these circles represents an identity: me (Rustie) in green on
 top, Gloria in red on the top right, Nick in purple on the bottom right,
 Nadir in blue on the bottom left, and Derrick in orange on the top
 left.<br>
-<br>
-We are all connected to each other on this network, as is apparent by
+<br>We are all connected to each other on this network, as is apparent by
 the straight edges connecting each circle.<br>
 <br>
 For simplicity’s sake, I’ve replaced all public keys with names.<br>
@@ -993,201 +995,198 @@ going against Bitcoin’s aim to be a trustless system.<br>
 <br>We must find another way.<br>
 <br>Instead of having any selected maintainers, let’s make a simple and
 straightforward choice: we have everyone keep a copy of the ledger.<br>
-<br>
-We make everyone the bank.</p>
+<br>We make everyone the bank.</p>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------- 14. recordkeeping: everyone's the bank (26) -------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image014-recordkeeping-everyones-the-bank.png" 
-   alt="Recordkeeping: Everyone's the Bank"
-   width="65%" />
+<p style="text-align; center;">
+<img class="displayed"
+  src="/images/image014-recordkeeping-everyones-the-bank.png" 
+  alt="Recordkeeping: Everyone's the Bank"
+  style="width:65%;" />
 </p>
 <p class="em2">To get as far as possible from centralization, every individual
-entity in Bitcoin should be equal.</p>
-<p class="em2">If every person stores the ledger, then every person has just as much
+entity in Bitcoin should be equal.<br>
+<br>If every person stores the ledger, then every person has just as much
 right and legitimacy as the next person to vote on the validity of
-transactions.</p>
-<p class="em2">Every person has control of their own data, and no person can decide
-for anyone else.</p>
-<p class="em2">There’s no one person to bribe, no one person to hack, no one person
-to cheat in order to alter the database.</p>
-<p class="em2">This is the maximum state of individual independence possible for
-maintaining this history of transactions.</p>
-<p class="em2">We know that we want each person to store the ledger, but what should
-the database actually look like?</p>
-<p class="em2">What data structures hold the transaction history?</p>
-<p class="em2">We might naively decide to store every transaction individually, but
+transactions.<br>
+<br>Every person has control of their own data, and no person can decide
+for anyone else.<br>
+<br>There’s no one person to bribe, no one person to hack, no one person
+to cheat in order to alter the database.<br>
+<br>This is the maximum state of individual independence possible for
+maintaining this history of transactions.<br>
+<br>We know that we want each person to store the ledger, but what should
+the database actually look like?<br>
+<br>What data structures hold the transaction history?<br>
+<br>We might naively decide to store every transaction individually, but
 for a network that may be dealing with many transactions per second,
 updating the database for every received transaction will be costly,
 especially since this update would have to be delivered to everyone in
-the network.</p>
-<p class="em2">Everyone maintains their own ledger after all, and once a change is
+the network.<br>
+<br>Everyone maintains their own ledger after all, and once a change is
 made for one entity, it must propagate throughout the entire
-network.</p>
-<p class="em2">How do we store our ledger efficiently?</p>
+network.<br>
+<br>How do we store our ledger efficiently?</p>
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 15. recordkeeping: the blockchain (27) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image015-recordkeeping-the-blockchain.png" 
-   alt="Recordkeeping: The Blockchain"
-   width="65%" />
+<p style="text-align; center;">
+<img class="displayed"
+  src="/images/image015-recordkeeping-the-blockchain.png" 
+  alt="Recordkeeping: The Blockchain"
+  style="width:65%;" />
 </p>
 <p class="em2">Every update to the distributed database, the Bitcoin ledger, is a
-batch of transactions grouped into what are called blocks.</p>
-<p class="em2">Every block is built off, or chained to, a previous block.</p>
-<p class="em2">Altogether, this forms a magical data structure known as a
-“blockchain.”</p>
-<p class="em2">By grouping data into blocks, we do not have to strain the network as
-a result of updating every ledger after every transaction.</p>
-<p class="em2">With a blockchain, only every block, which may contain thousands of
-transactions, needs to be appended to the blockchain.</p>
-<p class="em2">In this way, blockchains efficiently keep track of not only the
+batch of transactions grouped into what are called blocks.<br>
+<br>Every block is built off, or chained to, a previous block.<br>
+<br>Altogether, this forms a magical data structure known as a
+“blockchain.”<br>
+<br>By grouping data into blocks, we do not have to strain the network as
+a result of updating every ledger after every transaction.<br>
+<br>With a blockchain, only every block, which may contain thousands of
+transactions, needs to be appended to the blockchain.<br>
+<br>In this way, blockchains efficiently keep track of not only the
 transactions in any given update but also give the database discrete
-states.</p>
-<p class="em2">Every block is an update, and a chain of blocks represents a
-history.</p>
-<p class="em2">This process is helpful for identifying discrepancies between two
+states.<br>
+<br>Every block is an update, and a chain of blocks represents a
+history.<br>
+<br>This process is helpful for identifying discrepancies between two
 different versions of the database, since it is clearer what happened in
 the ledger at any given time than if every transaction were individually
-processed.</p>
-<p class="em2">Every block contains information about the previous block, as every
-block is built off the previous one.</p>
-<p class="em2">If any block is mutated, intentionally or not, information within
-this block and all future blocks will change.</p>
-<p class="em2">This makes the blockchain tamper-evident, as tampering with a
+processed.<br>
+<br>Every block contains information about the previous block, as every
+block is built off the previous one.<br>
+<br>If any block is mutated, intentionally or not, information within
+this block and all future blocks will change.<br>
+<br>This makes the blockchain tamper-evident, as tampering with a
 transaction from the past would invalidate any future blocks linking
-back to it.</p>
-<p class="em2">To reiterate, this design choice is both to reduce the strain of
+back to it.<br>
+<br>To reiterate, this design choice is both to reduce the strain of
 storing individual transactions and to facilitate consistency between
-all members of the Bitcoin network.</p>
-<p class="em2">Of course, the next question is, “How does everyone come to agreement
-on the next block?”</p>
-<p class="em2">We will go over this in the next segment on consensus.</p>
+all members of the Bitcoin network.<br>
+<br>Of course, the next question is, “How does everyone come to agreement
+on the next block?”<br>
+<br>We will go over this in the next segment on consensus.</p>
 <h3 id="ch1-8">
 1.8 Intro: Consensus (Stage 4)
 </h3>
 <p class="em2">Now we know how to send transactions to one another with unique
 identities using the UTXO model, and how to store these transactions
-using a blockchain to maintain a global record.</p>
-<p class="em2">At this point, we’re only missing one final piece to bring all these
-different components together.</p>
-<p class="em2">How do we make updates to the blockchain?</p>
-<p class="em2">How do we decide which transactions, or blocks of transactions, are
-valid?</p>
-<p class="em2">With no central entity deciding on the next update, we have to find a
-way to make this decision in a decentralized way.</p>
-<p class="em2">In Bitcoin, users on the network must come to consensus, or
+using a blockchain to maintain a global record.<br>
+<br">At this point, we’re only missing one final piece to bring all these
+different components together.<br>
+<br>How do we make updates to the blockchain?<br>
+<br>How do we decide which transactions, or blocks of transactions, are
+valid?<br>
+<br>With no central entity deciding on the next update, we have to find a
+way to make this decision in a decentralized way.<br>
+<br>In Bitcoin, users on the network must come to consensus, or
 agreement, on the next valid update.</p>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------ 16. consensus: staying on the same page (29) -------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image016-consensus-staying-on-the-same-page.png" 
-   alt="Consensus: Staying on the Same Page"
-   width="65%" />
+<p style="text-align; center;">
+<img class="displayed"
+  src="/images/image016-consensus-staying-on-the-same-page.png" 
+  alt="Consensus: Staying on the Same Page"
+  style="width:65%;" />
 </p>
 <p class="em2">Because everyone is storing information about the blockchain, we need
 consensus to make sure that everyone agrees on the history of
-transactions.</p>
-<p class="em2">Not only do all users need to agree on the update, but they also need
-to agree on a valid update to make sure that no corrupted information is
-accepted by the network.</p>
-<p class="em2">If there was no way for different parties to come to agreement on
-this, then there will forever be this schism between them.</p>
-<p class="em2">Without agreement, we cannot have a functioning distributed
-database.</p>
-<p class="em2">We have to all stay on the same page to make sure that we all believe
-in the same reality of Bitcoin.</p>
-<p class="em2">Thus, it is imperative that we have a mechanism by which everyone can
-come to consensus.</p>
-<p class="em2">To understand the best consensus mechanism for Bitcoin, we will start
+transactions.<br>
+<br>Not only do all users need to agree on the update, but they also need to agree on a valid update to make sure that no corrupted information is accepted by the network.<br>
+<br>If there was no way for different parties to come to agreement on
+this, then there will forever be this schism between them.<br>
+<br>Without agreement, we cannot have a functioning distributed
+database.<br>
+<br>We have to all stay on the same page to make sure that we all believe
+in the same reality of Bitcoin.<br>
+<br>Thus, it is imperative that we have a mechanism by which everyone can
+come to consensus.<br>
+<br>To understand the best consensus mechanism for Bitcoin, we will start
 off by understanding what problems exist with naive consensus strategies
 and solve them in the next iteration, continuing this process until we
-finally recreate Bitcoin’s consensus model.</p>
-<p class="em2">For this consensus buildup, we will consider the same 5 actors from
-before: me (Rustie), Gloria, Derrick, Nadir, and Nick.</p>
-<p class="em2">In the most basic consensus mechanism, updates take the following
-form:</p>
-<p class="em2">One node proposes a transaction to the network, sending a message
-about the transaction directly to every other node.</p>
-<p class="em2">All other nodes save the transaction into their history if it’s valid
+finally recreate Bitcoin’s consensus model.<br>
+<br>For this consensus buildup, we will consider the same 5 actors from
+before: me (Rustie), Gloria, Derrick, Nadir, and Nick.<br>
+<br>In the most basic consensus mechanism, updates take the following
+form:<br>
+<br>One node proposes a transaction to the network, sending a message
+about the transaction directly to every other node.<br>
+<br>All other nodes save the transaction into their history if it’s valid
 and disregard it otherwise.</p>
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 17. consensus: double spend attack (30) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image017-consensus-double-spend-attack.png" 
-   alt="Consensus: Double Spend Attack"
-   width="65%" />
+<p style="text-align; center;">
+<img class="displayed"
+  src="/images/image017-consensus-double-spend-attack.png" 
+  alt="Consensus: Double Spend Attack"
+  style="width:65%;" />
 </p>
-<p class="em2">We have an example for you here.</p>
-<p class="em2">Gloria wants to make a transaction to Nadir, so she sends that
-message to all four other entities.</p>
-<p class="em2">This is represented by the arrows pointing from Gloria to every other
+<p class="em2">We have an example for you here.<br>
+<br>Gloria wants to make a transaction to Nadir, so she sends that
+message to all four other entities.<br>
+<br>This is represented by the arrows pointing from Gloria to every other
 entity, blue to represent that she is making a transaction to Nadir, the
-blue circle.</p>
-<p class="em2">The implication of this system is that nodes don’t engage in
+blue circle.<br>
+<br>The implication of this system is that nodes don’t engage in
 conversation with one another, and the only nodes that see a transaction
 with one hundred (100) percent certainty are the sender and
-recipient.</p>
-<p class="em2">As we will see, this does not work because of what’s known as the
+recipient.<br>
+<br>As we will see, this does not work because of what’s known as the
 double spend attack.</p>
-<div data-align="right">
-<p><b><a href="#table-of-contents">↥ Back To Top</a></b></p>
-</div>
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- 18. consensus: double spend attack 2 (31) --------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image018-consensus-double-spend-attack-2.png" 
-   alt="Consensus: Double Spend Attack"
-   width="65%" />
+<p style="text-align; center;">
+<img class="displayed"
+  src="/images/image018-consensus-double-spend-attack-2.png" 
+  alt="Consensus: Double Spend Attack"
+  style="width:65%;" />
 </p>
 <p class="em2">With centralized systems, we trust banks to check for the validity of
-all the transactions.</p>
-<p class="em2">Recall that one condition of a transaction being valid is that
+all the transactions.<br>
+<br>Recall that one condition of a transaction being valid is that
 proposed funds for the transaction are not promised elsewhere in a
-previous transaction.</p>
-<p class="em2">Because we do not have a bank to check if there is any malicious
-behavior, we must build mechanisms that handle these situations.</p>
-<p class="em2">Let’s say that Gloria is purchasing tons of laptops and is willing to
-pay both Nadir and myself (Rustie) 10 bitcoins for our laptops.</p>
-<p class="em2">Gloria promises me (Rustie) 10 BTC in one transaction, and promises
+previous transaction.<br>
+<br>Because we do not have a bank to check if there is any malicious
+behavior, we must build mechanisms that handle these situations.<br>
+<br>Let’s say that Gloria is purchasing tons of laptops and is willing to
+pay both Nadir and myself (Rustie) 10 bitcoins for our laptops.<br>
+<br>Gloria promises me (Rustie) 10 BTC in one transaction, and promises
 10 BTC to Nadir at the same time.</p>
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- 18. consensus: double spend attack 2 (32) --------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image018-consensus-double-spend-attack-2.png" 
-   alt="Consensus: Double Spend Attack"
-   width="65%" />
+<p style="text-align; center;">
+<img class="displayed"
+  src="/images/image018-consensus-double-spend-attack-2.png" 
+  alt="Consensus: Double Spend Attack"
+  style="width:65%;" />
 </p>
-<div data-align="right">
-<p><b><a href="#table-of-contents">↥ Back To Top</a></b></p>
-</div>
 <p class="em2">This is represented by the green arrow from herself to me (Rustie),
 the green circle, and by the separate blue arrow from herself to Nadir,
-the blue circle.</p>
-<p class="em2">However, she only has 10 BTC in total.</p>
-<p class="em2">Her invalid transaction evades detection because, as you may have
+the blue circle.<br>
+<br>However, she only has 10 BTC in total.<br>
+<br>Her invalid transaction evades detection because, as you may have
 realized, she only tells one person about each transaction: the person
-receiving the bitcoins.</p>
-<p class="em2">I (Rustie) only know about my (Rustie’s) incoming bitcoins, and Nadir
-only knows about his.</p>
-<p class="em2">Derrick and Nick, the other entities in the network, know nothing
-about either transaction.</p>
-<p class="em2">This is what’s known as a double spend attack.</p>
-<p class="em2">Gloria is spending only 10 bitcoins to get 20 bitcoins worth of
-goods.</p>
-<p class="em2">In this naive version of consensus, this is legal: with her
+receiving the bitcoins.<br>
+<br>I (Rustie) only know about my (Rustie’s) incoming bitcoins, and Nadir
+only knows about his.</br>
+<br>Derrick and Nick, the other entities in the network, know nothing
+about either transaction.<br>
+<br>This is what’s known as a double spend attack.<br>
+<br>Gloria is spending only 10 bitcoins to get 20 bitcoins worth of
+goods.<br>
+<br>In this naive version of consensus, this is legal: with her
 transaction to me, Gloria tells me to update my copy of the ledger, and
 with her transaction to Nadir, she tells Nadir to update his copy of the
-ledger.</p>
-<p class="em2">Both Nadir and I see that the transaction is valid and each believe
-that we have received the bitcoins.</p>
-<p class="em2">Of course, both Nadir and I (Rustie) can’t own the same bitcoins.</p>
+ledger.<br>
+<br>Both Nadir and I see that the transaction is valid and each believe
+that we have received the bitcoins.<br>
+<br>Of course, both Nadir and I (Rustie) can’t own the same bitcoins.</p>
 <!------------------------------------------------------------------------------------------------>
 <!--------------------- 19. consensus: double spend attack: malicious (33) ----------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -1196,21 +1195,18 @@ that we have received the bitcoins.</p>
    alt="Consensus: Double Spend Attack: Malicious"
    width="65%" />
 </p>
-<div data-align="right">
-<p><b><a href="#table-of-contents">↥ Back To Top</a></b></p>
-</div>
 <p class="em2">The moment we try to redeem these tokens with the network, the issue
-becomes transparent.</p>
-<p class="em2">It’s going to look to Derrick and Nick that these transactions never
-happened.</p>
-<p class="em2">If I try to convince anyone else that I (Rustie) own these ten
+becomes transparent.<br>
+<br>It’s going to look to Derrick and Nick that these transactions never
+happened.<br>
+<br>If I try to convince anyone else that I (Rustie) own these ten
 bitcoins, they’ll all think I’m crazy because they’ve seen no evidence
-of me (Rustie) ever having received these bitcoins.</p>
-<p class="em2">The same applies to Nadir.</p>
-<p class="em2">In this scheme where entities only see the transactions that directly
+of me (Rustie) ever having received these bitcoins.<br>
+<br>The same applies to Nadir.<br>
+<br>In this scheme where entities only see the transactions that directly
 involve them as sender or recipient, it is impossible to come to
-consensus on a history of transactions because of dishonest actors.</p>
-<p class="em2">Thus, it is impossible to prevent these double spend attacks with our
+consensus on a history of transactions because of dishonest actors.<br>
+<br>Thus, it is impossible to prevent these double spend attacks with our
 current model of consensus.</p>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- 20. consensus: peer validation (34) ------------------------------>
