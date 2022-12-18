@@ -3246,7 +3246,7 @@ image.</p>
   alt="Cryptographic Hash Functions: Pseudocode"
   style="width:65%;" />
 </p>
-<p class="em2"> </p>
+<p class="em2"> <br>
 <br>Cryptographic hash functions differ from regular hash functions in
 that they are built for security, but for convenience, we will now refer
 to cryptographic hash functions as hash functions.</p>
@@ -3387,7 +3387,7 @@ SHA256^2 – (Secure Hash Algorithm)
 </h3>
 <p class="em2">The particular hash function that Bitcoin chooses to use in many
 scenarios is called SHA-256.<br>
-<bt>SHA-256 is a cryptographic hash function that was designed by the
+<br>SHA-256 is a cryptographic hash function that was designed by the
 NSA.<br>
 <br>SHA-256 is a member of the SHA-2 family of cryptographic hash
 functions, SHA standing for Secure Hash Algorithm.<br>
@@ -4100,10 +4100,11 @@ DSS Key Definitions and Takeways
 <!------------------------------------------------------------------------------------------------>
 <!------------------- 115. digital signature schemes: security definition (117) ------------------>
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image115-dss.png" 
-   alt="Digital Signature Schemes: Security Definition"
-   width="65%" />
+<p style="text-align: center;">
+<img class="displayed"
+  src="/images/image115-dss.png" 
+  alt="Digital Signature Schemes: Security Definition"
+  style="width:65%;" />
 </p>
 <p class="em2"> </p>
 <p class="em2">In summary, here are some key properties that we should keep in
@@ -4132,10 +4133,11 @@ From Private Keys to Addresses
 <!------------------------------------------------------------------------------------------------>
 <!-------------------- 116. keys and addresses: before the technical stuff (118)  ---------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image116-keys-and-addresses.png" 
-   alt="Keys and Addresses: Before the Technical Stuff"
-   width="65%" />
+<p style="text-align: center;">
+<img class="displayed"
+  src="/images/image116-keys-and-addresses.png" 
+  alt="Keys and Addresses: Before the Technical Stuff"
+  style="width:65%;" />
 </p>
 <p class="em2"> </p>
 <p class="em2">Here’s a diagram showing a high-level overview of what we’re going to
@@ -4155,21 +4157,22 @@ key from the corresponding public key or address.</p>
 <!------------------------------------------------------------------------------------------------>
 <!------------------ 117. elliptic curve cryptography: part 1: elliptic curve (120) -------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image117-cryptography-part1.png" 
-   alt=" "
-   width="65%" />
+<p style="text-align: center;">
+<img class="displayed"
+  src="/images/image117-cryptography-part1.png" 
+  alt="Elliptic curve cryptography: part 1: elliptic curve."
+  style="width:65%;" />
 </p>
 <h3>
 Elliptic Curve Cryptography
 </h3>
 <p class="em2">Bitcoin uses ECDSA, or Elliptic Curve Digital Signature Algorithm, to
-produce private keys and public keys.</p>
-<p class="em2">An elliptic curve is just a mathematical curve defined by the general
-form y^2 = x^3 + ax + b.</p>
-<p class="em2">We take everything over a finite field because we want to encode
-every value possible in a constant amount of space.</p>
-<p class="em2">Here’s a picture of Bitcoin’s elliptic curve, secp256k1, on the right
+produce private keys and public keys.<br>
+<br>An elliptic curve is just a mathematical curve defined by the general
+form y^2 = x^3 + ax + b.<br>
+<br>We take everything over a finite field because we want to encode
+every value possible in a constant amount of space.<br>
+<br>Here’s a picture of Bitcoin’s elliptic curve, secp256k1, on the right
 side.</p>
 <h3>
 Elliptic Curve Cryptography: Demo
@@ -4177,19 +4180,21 @@ Elliptic Curve Cryptography: Demo
 <!------------------------------------------------------------------------------------------------>
 <!----------- 118-2. elliptic curve cryptography: part 2: chord-tangent process (121) ------------>
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image118-2.png" 
-   alt="Elliptic Curve Crypography: Part 2: Chord-Tangent Process"
-   width="65%" />
+<p style="text-align: center;">
+<img class="displayed"
+  src="/images/image118-2.png" 
+  alt="Elliptic Curve Crypography: Part 2: Chord-Tangent Process"
+  style="width:65%;" />
 </p>
 <p class="em2"> </p>
 <!------------------------------------------------------------------------------------------------>
 <!----------119. elliptic-curve cryptography: part 2.5: point multiplication demo (121) ---------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image119.png" 
-   alt="Elliptic Curve Crypography: Part 2.5: Point Multiplication Demo"
-   width="65%" />
+<p style="text-align: center;">
+<img class="displayed"
+  src="/images/image119.png" 
+  alt="Elliptic Curve Crypography: Part 2.5: Point Multiplication Demo"
+  style="width:65%;" />
 </p>
 <p class="em2">To illustrate, here’s a demo.</p>
 <p class="em2">We start off with a generator point P that is known to everyone,
@@ -4205,10 +4210,11 @@ the line intersects the curve let’s call it -2P.</p>
 <!------------------------------------------------------------------------------------------------>
 <!---------------- 120. elliptic curve crypography: part 1: elliptic curve (122) ----------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image120.png" 
-   alt="Elliptic Curve Crypography: Part 1: Elliptic Curve"
-   width="65%" />
+<p style="text-align: center;">
+<img class="displayed"
+  src="/images/image120.png" 
+  alt="Elliptic Curve Crypography: Part 1: Elliptic Curve"
+  style="width:65%;" />
 </p>
 <p class="em2"> </p>
 <p class="em2">Its equation is y^2 = x^3 + 7, and was engineered to have some unique
@@ -4248,10 +4254,11 @@ Elliptic Curve Cryptography: Security
 <!------------------------------------------------------------------------------------------------>
 <!--------------- 120. Elliptic Curve Cryptography: Part 3: Security of ECC (123) ---------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image120-cryptography.png"
+<p style="text-align: center;">
+<img class="displayed"
+  src="/images/image120-cryptography.png"
   alt="Elliptic Curve Cryptography: Part 3: Security of ECC"
-  width="65%" />
+  style="width:65%;" />
 </p>
 <p class="em2"> </p>
 <p class="em2">The user generates a random number n for their private key.</p>
@@ -4278,10 +4285,11 @@ private keys is fairly secure.</p>
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- 121. public key to bitcoin address (124) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image121-cryptography.png" 
-   alt="Public Key to Bitcoin Address: Public Key Hash"
-   width="65%" />
+<p style="text-align: center;">
+<img class="displayed"
+  src="/images/image121-cryptography.png" 
+  alt="Public Key to Bitcoin Address: Public Key Hash"
+  style="width:65%;" />
 </p>
 <p class="em2">If quantum computers exist, we could use them to solve the elliptic
 curve discrete logarithm problem and find the private key given a public
@@ -4300,10 +4308,11 @@ Public Key to Address
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- 122. public key to bitcoin address (125) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image122-public-key-to-bitcoin-address.png"
-   alt="Public Key to Bitcoin Address"
-   width="65%" />
+<p style="text-align: center;">
+<img class="displayed"
+  src="/images/image122-public-key-to-bitcoin-address.png"
+  alt="Public Key to Bitcoin Address"
+  style="width:65%;" />
 </p>
 <p class="em2"> </p>
 <p class="em2">And after we have our public key hash, we’re just a little bit away
@@ -4355,19 +4364,21 @@ Remember the UTXO Model?
 <!------------------------------------------------------------------------------------------------>
 <!-------------------- 123. bitcoin scripts: remember the utxo model? (126) ---------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image123-bitcoin-scripts.png"
-   alt="Bitcoin Scripts: Remember the UTXO Model?"
-   width="65%" />
+<p style="text-align: center;">
+<img class="displayed"
+  src="/images/image123-bitcoin-scripts.png"
+  alt="Bitcoin Scripts: Remember the UTXO Model?"
+  style="width:65%;" />
 </p>
 <p class="em2"> </p>
 <!------------------------------------------------------------------------------------------------>
 <!-------------------- 124. Bitcoin Scripts: Remember the UTXO Model? (127) ---------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image124-bitcoin-scripts.png" 
-   alt="Bitcoin Scripts: Remember the UTXO Model?"
-   width="65%" />
+<p style="text-align: center;">
+<img class="displayed"
+  src="/images/image124-bitcoin-scripts.png" 
+  alt="Bitcoin Scripts: Remember the UTXO Model?"
+  style="width:65%;" />
 </p>
 <p class="em2">Remember the UTXO model?</p>
 <p class="em2">Bitcoin doesn’t have “accounts” with associated bitcoin tallies.</p>
@@ -4394,52 +4405,56 @@ Rustie.</p>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ 125. contents of a transaction (128) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image125-contents-transaction.png" 
-   alt="Contents of a Transaction: Metadata, Input(s), and Output(s)"
-   width="65%" />
+<p style="text-align: center;">
+<img class="displayed"
+  src="/images/image125-contents-transaction.png" 
+  alt="Contents of a Transaction: Metadata, Input(s), and Output(s)"
+  style="width:65%;" />
 </p>
-<p class="em2"> </p>
-<p class="em2">As we can see, a transaction has three main “sections.”</p>
+<p class="em2"> <br>
+<br>As we can see, a transaction has three main “sections.”</p>
 <!------------------------------------------------------------------------------------------------>
 <!---------------------- 125. contents of a transaction: metadata (128) -------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image125-contents-metadata.png" 
-   alt="Contents of a Transaction: Metadata"
-   width="65%" />
+<p style="text-align: center;">
+<img class="displayed"
+  src="/images/image125-contents-metadata.png" 
+  alt="Contents of a Transaction: Metadata"
+  style="width:65%;" />
 </p>
-<p class="em2"> </p>
-<p class="em2">The metadata section contains some housekeeping data, a unique ID of
-this transaction, locktime, and size.</p>
-<p class="em2">The inputs section contains a list of previously created UTXOs as
-well as a proof that I am eligible of redeeming the money.</p>
-<p class="em2">This proof allows me to redeem the UTXOs and use them to produce new
-outputs.</p>
-<p class="em2">The outputs section contains a list of new UTXOs that will be sent to
+<p class="em2"> <br>
+<br>The metadata section contains some housekeeping data, a unique ID of
+this transaction, locktime, and size.<br>
+<br>The inputs section contains a list of previously created UTXOs as
+well as a proof that I am eligible of redeeming the money.<br>
+<br>This proof allows me to redeem the UTXOs and use them to produce new
+outputs.<br>
+<br>The outputs section contains a list of new UTXOs that will be sent to
 new addresses.</p>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------- 126. contents of a transaction: metadata (129) ------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image126-contents-metadata-2.png"
-   alt="Contents of a Transaction: Metadata"
-   width="65%" />
+<p style="text-align: center;">
+<img class="displayed"
+  src="/images/image126-contents-metadata-2.png"
+  alt="Contents of a Transaction: Metadata"
+  style="width:65%;" />
 </p>
 <p class="em2">Each of these values is accompanied with a script that locks the
 value away from everyone except the intended redeemer who can provide a
-valid proof.</p>
-<p class="em2">Taking a deeper look into the transaction, we start with the
-metadata.</p>
-<p class="em2">The first piece of metadata is the hash of our transaction, or the
+valid proof.<br>
+<br>Taking a deeper look into the transaction, we start with the
+metadata.<br>
+<br>The first piece of metadata is the hash of our transaction, or the
 unique “ID” of this transaction.</p>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------- 126. contents of a transaction: input(s) (129) ------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image126-contents-inputs.png"
-   alt="Contents of a Transaction: Input(s)"
-   width="65%" />
+<p style="text-align: center;">
+<img class="displayed"
+  src="/images/image126-contents-inputs.png"
+  alt="Contents of a Transaction: Input(s)"
+  style="width:65%;" />
 </p>
 <p class="em2"> </p>
 <p class="em2">We also get information here in the field vin_sz, which stands for
@@ -4465,24 +4480,26 @@ transaction.</p>
 <!------------------------------------------------------------------------------------------------>
 <!--------------------- 127. contents of a transaction: inputs: scriptSig (130) ------------------>
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image127-contents-inputs.png"
-   alt="Contents of a Transaction: Inputs: ScriptSig"
-   width="65%" />
+<p style="text-align: center;">
+<img class="displayed"
+  src="/images/image127-contents-inputs.png"
+  alt="Contents of a Transaction: Inputs: ScriptSig"
+  style="width:65%;" />
 </p>
-<p class="em2"> </p>
-<p class="em2">The scriptSig is the most important part of these inputs because
+<p class="em2"> <br>
+<br>The scriptSig is the most important part of these inputs because
 they’re the required proofs that prove that you can redeem the
-associated UTXO.</p>
-<p class="em2">Last but not least, the end product of our transaction is the
+associated UTXO.<br>
+<br>Last but not least, the end product of our transaction is the
 output(s).</p>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------- 128. contents of a transaction: outputs (131) -------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image128-contents-outputs.png"
-   alt="Contents of a Transaction: Outputs"
-   width="65%" />
+<p style="text-align: center;">
+<img class="displayed"
+  src="/images/image128-contents-outputs.png"
+  alt="Contents of a Transaction: Outputs"
+  style="width:65%;" />
 </p>
 <p class="em2"> </p>
 <p class="em2">You can see here in this particular transaction we have only one
@@ -4501,10 +4518,11 @@ Bitcoin Script Reminders
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- 128. bitcoin scripts: reminders (131) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image128-bitcoin-scripts.png"
-   alt="Bitcoin Scripts: Reminders: Output Addresses are Scripts"
-   width="65%" />
+<p style="text-align: center;">
+<img class="displayed"
+  src="/images/image128-bitcoin-scripts.png"
+  alt="Bitcoin Scripts: Reminders: Output Addresses are Scripts"
+  style="width:65%;" />
 </p>
 <p class="em2"> </p>
 <p class="em2">Remember: in this transaction, the output addresses are actually
@@ -4527,10 +4545,11 @@ reasons.</p>
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- 129. bitcoin scripts: p2pkh example (132) --------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image129-intro-to-p2pkh.png"
-   alt="Bitcoin Scripts: P2PKH Example: Remember the UTXO Model?"
-   width="65%" />
+<p style="text-align: center;">
+<img class="displayed"
+  src="/images/image129-intro-to-p2pkh.png"
+  alt="Bitcoin Scripts: P2PKH Example: Remember the UTXO Model?"
+  style="width:65%;" />
 </p>
 <p class="em2"> </p>
 <p class="em2">Let’s walk through an example of how Script works under the hood.</p>
@@ -4544,10 +4563,11 @@ of the private key corresponding to the public key we provided.</p>
 <!------------------------------------------------------------------------------------------------>
 <!-------------------- 130. bitcoin scripts: p2pkh example execution (133) ----------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image130-bitcoin-scripts.png"
-   alt="Bitcoin Scripts: P2PKH Example Execution"
-   width="65%" />
+<p style="text-align: center;">
+<img class="displayed"
+  src="/images/image130-bitcoin-scripts.png"
+  alt="Bitcoin Scripts: P2PKH Example Execution"
+  style="width:65%;" />
 </p>
 <p class="em2">This is the most common type of script in Bitcoin Pay to Public Key
 Hash (shorthanded).</p>
@@ -4575,10 +4595,11 @@ address.</p>
 <!------------------------------------------------------------------------------------------------>
 <!------------------- 131. bitcoin scripts: p2pkh example execution (134) ------------------------>
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image131-p2pkh-example.png"
-   alt="Bitcoin Scripts: P2PKH Example Execution"
-   width="65%" />
+<p style="text-align: center;">
+<img class="displayed"
+  src="/images/image131-p2pkh-example.png"
+  alt="Bitcoin Scripts: P2PKH Example Execution"
+  style="width:65%;" />
 </p>
 <p class="em2">To make unlocking and locking scripts work in tandem, we simply
 concatenate them.</p>
@@ -4592,10 +4613,11 @@ Demo: P2PKH Example
 <!------------------------------------------------------------------------------------------------>
 <!-------------------- 131. bitcoin scripts: p2pkh example execution (134) ----------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image131-p2pkh-example-2.png"
-   alt="Bitcoin Scripts: P2PKH Example Execution"
-   width="65%" />
+<p style="text-align: center;">
+<img class="displayed"
+  src="/images/image131-p2pkh-example-2.png"
+  alt="Bitcoin Scripts: P2PKH Example Execution"
+  style="width:65%;" />
 </p>
 <p class="em2"> </p>
 <p class="em2">Now let’s piece everything that we’ve learned so far about Bitcoin
@@ -4620,10 +4642,11 @@ transaction output.</p>
 <!------------------------------------------------------------------------------------------------>
 <!-------------------- 132. bitcoin scripts: p2pkh example execution (135) ----------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image132-p2pkh.png"
-   alt="Bitcoin Scripts: P2PKH Example Execution"
-   width="65%" />
+<p style="text-align: center;">
+<img class="displayed"
+  src="/images/image132-p2pkh.png"
+  alt="Bitcoin Scripts: P2PKH Example Execution"
+  style="width:65%;" />
 </p>
 <p class="em2">We put this on the stack as well OP_EQUALVERIFY then checks to see if
 the top two items in the stack are equal.</p>
@@ -4642,10 +4665,11 @@ Proof of Burn
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- 133. bitcoin scripts: proof-of-burn (136) --------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image133-proof-of-burn.png"
-   alt="Bitcoin Scripts: Proof-of-Burn"
-   width="65%" />
+<p style="text-align: center;">
+<img class="displayed"
+  src="/images/image133-proof-of-burn.png"
+  alt="Bitcoin Scripts: Proof-of-Burn"
+  style="width:65%;" />
 </p>
 <p class="em2">Something cool you can do with Bitcoin Script is write arbitrary data
 into the Bitcoin blockchain.</p>
@@ -4697,10 +4721,11 @@ P2PKH vs P2SH
 <!------------------------------------------------------------------------------------------------>
 <!-------------------- 134. p2pkh vs p2sh: who specifies the script? (137) ----------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image134-p2pkh-p2sh.png"
-   alt="P2PKH vs P2SH: Who Specifies the Script?"
-   width="65%" />
+<p style="text-align: center;">
+<img class="displayed"
+  src="/images/image134-p2pkh-p2sh.png"
+  alt="P2PKH vs P2SH: Who Specifies the Script?"
+  style="width:65%;" />
 </p>
 <p class="em2"> </p>
 <p class="em2">As a recap, in Bitcoin, senders specify a locking script in the
@@ -4731,10 +4756,11 @@ How P2SH Works
 <!------------------------------------------------------------------------------------------------>
 <!------------------- 135. p2pkh vs p2sh: creating a p2pkh pub key hash (138) -------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image135-how-p2sh-works.png"
-   alt="P2PKH vs P2SH: Creating a P2PKH Pub Key Hash"
-   width="65%" />
+<p style="text-align: center;">
+<img class="displayed"
+  src="/images/image135-how-p2sh-works.png"
+  alt="P2PKH vs P2SH: Creating a P2PKH Pub Key Hash"
+  style="width:65%;" />
 </p>
 <p class="em2"> </p>
 <p class="em2">As a refresher, here’s how everything works in Pay to Pub Key
@@ -4760,10 +4786,11 @@ Why use P2SH?
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ 136. p2pkh vs p2sh: why p2pkh? (139) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image136-why-use-p2sh.png"
-   alt="158. P2PKH vs P2SH: Why P2PKH?"
-   width="65%" />
+<p style="text-align: center;">
+<img class="displayed"
+  src="/images/image136-why-use-p2sh.png"
+  alt="158. P2PKH vs P2SH: Why P2PKH?"
+  style="width:65%;" />
 </p>
 <p class="em2">Why Pay to Script Hash instead of just pay to a script?</p>
 <p class="em2">By providing a hash of the script to the customer, the vendor
@@ -4794,10 +4821,11 @@ Multisignature
 <!------------------------------------------------------------------------------------------------>
 <!---------------------- 161. P2PKH vs P2SH: Multisignature Example (140) ------------------------>
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image161.jpg" 
-   alt="P2PSH vs P2SH: Multisignature Example"
-   width="65%" />
+<p style="text-align: center;">
+<img class="displayed"
+  src="/images/image161.jpg" 
+  alt="P2PSH vs P2SH: Multisignature Example"
+  style="width:65%;" />
 </p>
 <p class="em2"> </p>
 <p class="em2">One of the most widely used example of P2SH is multisignature, where
@@ -4842,10 +4870,11 @@ script hash, and evaluated.</p>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------- 161. p2pkh vs p2sh: multisig example (141) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image161.jpg"
-   alt="P2PKH vs P2SH: Multisignature Example"
-   width="65%" />
+<p style="text-align: center;">
+<img class="displayed"
+  src="/images/image161.jpg"
+  alt="P2PKH vs P2SH: Multisignature Example"
+  style="width:65%;" />
 </p>
 <p class="em2">Lastly, if you look at the bottom of the diagram, the locking script
 contains the hash against which the hash of the redeem script will later
@@ -4859,10 +4888,11 @@ Timelocks
 <!------------------------------------------------------------------------------------------------>
 <!------------------------- 162. transaction locktime: timelocks (142) --------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image162.png" 
-   alt="Transaction Locktime: Timelocks"
-   width="65%" />
+<p style="text-align: center;">
+<img class="displayed"
+  src="/images/image162.png" 
+  alt="Transaction Locktime: Timelocks"
+  style="width:65%;" />
 </p>
 <p class="em2">Timelocks are a type of functionality in Bitcoin that restrict the
 spending of funds until a later time or a specific block height.</p>
@@ -4932,10 +4962,11 @@ following:</p>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- cryptographic hash functions (144) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image163.jpg" 
-   alt="Cryptographic hash functions"
-   width="80%" />
+<p style="text-align: center;">
+<img class="displayed"
+  src="/images/image163.jpg" 
+  alt="Cryptographic hash functions"
+  style="width:65%;" />
 </p>
 <p class="em2">Cryptographic hash functions are pseudorandom: although the output
 for any given input seems random, the output will remain consistent for
@@ -5116,10 +5147,11 @@ network.</p>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------- 164. Types of Users: Key Components (147) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image164.png"
-   alt="Types of Users: Key Components"
-   width="65%" />
+<p style="text-align: center;">
+<img class="displayed"
+  src="/images/image164.png"
+  alt="Types of Users: Key Components"
+  style="width:65%;" />
 </p>
 <p class="em2">In our previous discussions about Bitcoin mechanics, we explained
 everything from the perspective of a full node and miner: a user with
@@ -5166,10 +5198,11 @@ Purpose of a Wallet
 <!------------------------------------------------------------------------------------------------>
 <!----------------------- 165. Purpose of a Wallet: Key Management (148) ------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image165.png"
-   alt="Purpose of a Wallet: Key Management"
-   width="85%" />
+<p style="text-align: center;">
+<img class="displayed"
+  src="/images/image165.png"
+  alt="Purpose of a Wallet: Key Management"
+  style="width:65%;" />
 </p>
 <p class="em2">As we’ve previously mentioned, Bitcoin is all about granting
 real-world entities virtual identities.</p>
@@ -5186,10 +5219,11 @@ Types of Wallets
 <!------------------------------------------------------------------------------------------------>
 <!----------------------- 166. Bitcoin Wallets: What do Wallets Do? (148) ------------------------>
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image166.png"
-   alt="Bitcoin Wallets: Wallet Types: What Do Wallets Do?"
-   width="65%" />
+<p style="text-align: center;">
+<img class="displayed"
+  src="/images/image166.png"
+  alt="Bitcoin Wallets: Wallet Types: What Do Wallets Do?"
+  style="width:65%;" />
 </p>
 <p class="em2">This is where wallets come in.</p>
 <p class="em2">The primary function of Bitcoin wallets is to keep track of your
@@ -5213,10 +5247,11 @@ Types of Wallets: Hot and Cold
 <!------------------------------------------------------------------------------------------------>
 <!------------------------- 167. Types of Wallets: Hot and Cold (149) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image167.png"
-   alt="Types of Wallets: Hot and Cold"
-   width="65%" />
+<p style="text-align: center;">
+<img class="displayed"
+  src="/images/image167.png"
+  alt="Types of Wallets: Hot and Cold"
+  style="width:65%;" />
 </p>
 <p class="em2">Wallets come in many forms.</p>
 <p class="em2">We generally make the distinction between two main categories of
@@ -5230,10 +5265,11 @@ Types of Wallets: Hot Wallets
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------- Bitcoin Wallets: Hot Wallets (150) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image168.png"
-   alt="Bitcoin Wallets: Hot Wallets"
-   width="65%" />
+<p style="text-align: center;">
+<img class="displayed"
+  src="/images/image168.png"
+  alt="Bitcoin Wallets: Hot Wallets"
+  style="width:65%;" />
 </p>
 <p class="em2">Some examples of hot wallets are smartphone apps such as Mycelium and
 AirBitz (I personally use AirBitz).</p>
@@ -5402,10 +5438,11 @@ Exchanges
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- How Do I Get Bitcoin: Exchanges (155) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image146-how-do-i-get-bitcoin.png" 
-   alt="Bitcoin Wallets: Choosing a Wallet" 
-   width="65%" />
+<p style="text-align: center;">
+<img class="displayed"
+  src="/images/image146-how-do-i-get-bitcoin.png" 
+  alt="Bitcoin Wallets: Choosing a Wallet" 
+  style="width:65%;" />
 </p>
 <p class="em2">You can also get Bitcoin through an exchange, where you can trade
 between different types of traditional currency and
