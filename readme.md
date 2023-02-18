@@ -193,8 +193,8 @@ And this all sets the stage for the next section, in which we’ll build Bitcoin
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/what is bitcoin-bitcoin genesis.png" 
-	alt="What is Bitcoin? Bitcoin Genesis"
-	width="100%" />
+  alt="What is Bitcoin? Bitcoin Genesis"
+  width="100%" />
 </p>
 
 <div align="right">
@@ -310,8 +310,8 @@ And even the creation of money is decided not by a central authority, but throug
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/currency-in banks we distrust.png" 
-   alt="Currency: In Banks We Distrust"
-   width="65%" />
+  alt="Currency: In Banks We Distrust"
+  width="65%" />
 </p>
 
 <h3 id="ch1-2">1.2 Bitcoin vs. Banks</h3>
@@ -358,8 +358,8 @@ Let's take a look at how Bitcoin can fulfill a bank's functions.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/Currency-Bitcoin components.png"
-   alt="Currency: Bitcoin Components"
-   width="65%" />
+  alt="Currency: Bitcoin Components"
+  width="65%" />
 </p>
 
 In Bitcoin, identity and account management are completely autonomous.
@@ -417,8 +417,8 @@ But how do we do this in Bitcoin, without a bank or central entity to keep track
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image003-identity-in-bitcoin.png" 
-   alt="Identity: Identity in Bitcoin" 
-   width="65%" </>
+  alt="Identity: Identity in Bitcoin" 
+  width="65%" />
 &nbsp;
 
 <div align="right">
@@ -500,8 +500,8 @@ Similarly, you would never want anyone else to have your Bitcoin private key as 
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image004.png" 
-   alt="Identity: Public and Private Keys"
-   width="65%" />
+  alt="Identity: Public and Private Keys"
+  width="65%" />
 </p>
 
 In Bitcoin, you can think of your public and private key as a chest and key, respectively.
@@ -554,8 +554,8 @@ To illustrate the probability of two users choosing the same identity as someone
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image005.png" 
-   alt="Identity: Public & Private Keys" 
-   width="65%" />
+  alt="Identity: Public & Private Keys" 
+  width="65%" />
 </p>
 
 Bitcoin has 2\^160<sup>th</sup> different possible addresses.
@@ -577,8 +577,8 @@ Let’s consider something more drastic: imagine that for every grain of sand on
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image006.png" 
-	alt="Identity: Public Key Security" 
-	width="65%" />
+  alt="Identity: Public Key Security"
+  width="65%" />
 </p>
 
 Now we have 2\^63<sup>rd</sup> times 2\^63<sup>rd</sup> grains of sand per earth, meaning that there are a total of 2\^126<sup>th</sup> grains of sand.
@@ -588,8 +588,8 @@ Now we have 2\^63<sup>rd</sup> times 2\^63<sup>rd</sup> grains of sand per earth
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image007-identity-security-hidden-in-plain-sight.png" 
-	alt="Identity: Security: Hidden in Plain Sight"
-	width="65%" />
+  alt="Identity: Security: Hidden in Plain Sight"
+  width="65%" />
 </p>
 
 Even the number of grains of sand upon all these Earths is only 0.0000000058% (8 zeroes) of all the possible Bitcoin addresses.
@@ -608,8 +608,8 @@ After all, that’s the primary goal of the Bitcoin network -- to enable secure 
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image008-what makes-a-transaction-valid.png" 
-   alt="Transactions: What Makes a Transaction Valid?"
-   width="65%" />
+  alt="Transactions: What Makes a Transaction Valid?"
+  width="65%" />
 </p>
 
 As we did before with the concept of identity, we will now be analyzing the idea of a transaction.
@@ -620,8 +620,8 @@ Take a moment to ask yourself, “What makes a transaction valid?”
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image009-validity.png" 
-   alt="Transactions: Validity: What Makes a Transacton Valid?"
-   width=65%" />
+  alt="Transactions: Validity: What Makes a Transacton Valid?"
+  width=65%" />
 </p>
 
 <div align="right">
@@ -652,8 +652,8 @@ To enforce this, Bitcoin uses what’s known as a UTXO, or Unspent Transaction O
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image010-utxo-model.png"
-   alt="Transactions: UTXO Model: Example"
-   width=65%" />
+  alt="Transactions: UTXO Model: Example"
+  width=65%" />
 </p>
 
 <!------------------------------------------------------------------------------------------------>
@@ -661,8 +661,8 @@ To enforce this, Bitcoin uses what’s known as a UTXO, or Unspent Transaction O
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image010-utxo-2.png" 
-   alt="Transactions: UTXO Model: Blockchain Tracks Unspent Money"
-   width=65%" />
+  alt="Transactions: UTXO Model: Blockchain Tracks Unspent Money"
+  width=65%" />
 </p>
 
 <div align="right">
@@ -694,8 +694,8 @@ Every time a transaction is made to us, we put all that money into a UTXO, or pi
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image011-utxo-model-unspent.png"
-   alt="Transactions: UTXO Model: Unspent"
-   width=65%" />
+  alt="Transactions: UTXO Model: Unspent"
+  width=65%" />
 </p>
 
 When we want to spend money, we break open that piggy bank...spend whatever we like, and then put the rest into another piggy bank.
@@ -723,8 +723,8 @@ Here’s an example of how transactions work in Bitcoin:
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image012-utxo-example.png"
-   alt="UTXO Example"
-   width=65%" />
+  alt="UTXO Example"
+  width=65%" />
 </p>
 
 Let’s say that Gloria has two UTXOs, from past transactions, one worth one hundred (100) bitcoins... and one worth fifty bitcoins.
@@ -766,8 +766,8 @@ After all a user’s current balance can be described as a number of transaction
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image013-recordkeeping-distributed-dbs.png" 
-   alt="Recordkeeping: Distributed DBS"
-   width=65%" />
+  alt="Recordkeeping: Distributed DBS"
+  width=65%" />
 </p>
 
 Consider the diagram above.
@@ -815,8 +815,8 @@ We make everyone the bank.
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image014-recordkeeping-everyones-the-bank.png" 
-   alt="Recordkeeping: Everyone's the Bank"
-   width="65%" />
+  alt="Recordkeeping: Everyone's the Bank"
+  width="65%" />
 </p>
 
 To get as far as possible from centralization, every individual entity in Bitcoin should be equal.
@@ -848,8 +848,8 @@ How do we store our ledger efficiently?
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image015-recordkeeping-the-blockchain.png" 
-   alt="Recordkeeping: The Blockchain"
-   width="65%" />
+  alt="Recordkeeping: The Blockchain"
+  width="65%" />
 </p>
 
 Every update to the distributed database, the Bitcoin ledger, is a batch of transactions grouped into what are called blocks.
@@ -903,8 +903,8 @@ In Bitcoin, users on the network must come to consensus, or agreement, on the ne
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image016-consensus-staying-on-the-same-page.png" 
-   alt="Consensus: Staying on the Same Page"
-   width="65%" />
+  alt="Consensus: Staying on the Same Page"
+  width="65%" />
 </p>
 
 Because everyone is storing information about the blockchain, we need consensus to make sure that everyone agrees on the history of transactions.
@@ -938,8 +938,8 @@ All other nodes save the transaction into their history if it’s valid and disr
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image017-consensus-double-spend-attack.png" 
-   alt="Consensus: Double Spend Attack"
-   width="65%" />
+  alt="Consensus: Double Spend Attack"
+  width="65%" />
 </p>
 
 We have an example for you here.
@@ -961,8 +961,8 @@ As we will see, this does not work because of what’s known as the double spend
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image018-consensus-double-spend-attack-2.png" 
-   alt="Consensus: Double Spend Attack"
-   width="65%" />
+  alt="Consensus: Double Spend Attack"
+  width="65%" />
 </p>
 
 With centralized systems, we trust banks to check for the validity of all the transactions.
@@ -980,8 +980,8 @@ Gloria promises me (Rustie) 10 BTC in one transaction, and promises 10 BTC to Na
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image018-consensus-double-spend-attack-2.png" 
-   alt="Consensus: Double Spend Attack"
-   width="65%" />
+  alt="Consensus: Double Spend Attack"
+  width="65%" />
 </p>
 
 <div align="right">
@@ -1013,8 +1013,8 @@ Of course, both Nadir and I (Rustie) can’t own the same bitcoins.
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image019-consensus-double-spend-attack-malicious.png"
-   alt="Consensus: Double Spend Attack: Malicious"
-   width="65%" />
+  alt="Consensus: Double Spend Attack: Malicious"
+  width="65%" />
 </p>
 
 <div align="right">
@@ -1038,8 +1038,8 @@ Thus, it is impossible to prevent these double spend attacks with our current mo
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image020-consensus-peer-validation.png" 
-   alt="Consensus: Peer Validation"
-   width="65%" />
+  alt="Consensus: Peer Validation"
+  width="65%" />
 </p>
 
 Instead of individuals doing their own validation of transaction, we can set up a voting system.
@@ -1068,9 +1068,9 @@ Unlike before, there are dashed blue lines from each node to everyone else (excl
 <!--------------------------- 21. consensus: reject double spend (35) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-   <img src="/images/image021-consensus-reject-double-spend.png" 
-   alt="Consensus: Rejecting the Double Spend"
-   width="65%" />
+<img src="/images/image021-consensus-reject-double-spend.png" 
+  alt="Consensus: Rejecting the Double Spend"
+  width="65%" />
 </p>
 
 <div align="right">
@@ -1094,8 +1094,8 @@ By looking to the rest of the network for input, considering everyone else the t
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image022-consensus-victory.png" 
-   alt="Consensus: Victory (or is it?)"
-   width="65%" />
+  alt="Consensus: Victory (or is it?)"
+  width="65%" />
 </p>
 
 Peers in the network vote “no” on Gloria’s proposal, as they notice multiple transactions trying to spend the same funds.
@@ -1113,8 +1113,8 @@ However, we forgot one fatal truth about Bitcoin: the anonymity.
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image023-consensus-a-stranger-among-us.png" 
-   alt="Consensus: A Stranger Among Us"
-   width="65%" />
+  alt="Consensus: A Stranger Among Us"
+  width="65%" />
 </p>
 
 <div align="right">
@@ -1168,8 +1168,8 @@ Is it even possible to solve this problem?
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image024-consensus-pay-to-play.png" 
-   alt="Consensus: Pay to Play"
-   width="65%" />
+  alt="Consensus: Pay to Play"
+  width="65%" />
 </p>
 
 This is where the innovation of Satoshi Nakamoto comes into play.
@@ -1203,8 +1203,8 @@ The particular consensus algorithm that Satoshi Nakamoto came up with is known a
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image025-consensus-proof-of-work.png" 
-   alt="Consensus: Proof of Work"
-   width="65%" />
+  alt="Consensus: Proof of Work"
+  width="65%" />
 </p>
 
 Let’s break down the term “Proof-of-Work”.
@@ -1224,8 +1224,8 @@ It is this method of voting that made Bitcoin the first successful cryptocurrenc
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image026-consensus-proof-of-work-works.png" 
-   alt="Consensus: Proof of Work: Works"
-   width="65%" />
+  alt="Consensus: Proof of Work: Works"
+  width="65%" />
 </p>
 
 <div align="right">
@@ -1321,8 +1321,8 @@ We’ll explain more in the course modules for Chapter 4.
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image027-key-takeaway-identity.png" 
-   alt="Key Takeaway - Identity: Your Keys are Your Identity"
-   width="65%" />
+  alt="Key Takeaway - Identity: Your Keys are Your Identity"
+  width="65%" />
 </p>
 
 Let's go over what we talked about in lecture.
@@ -1354,8 +1354,8 @@ Nor is it at all likely that someone can guess your private key to spend money o
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image028-key-takeaway-transactions.png" 
-   alt="Key Takeaway - Transactions: Breaking the Piggy Banks"
-   width="65%" />
+  alt="Key Takeaway - Transactions: Breaking the Piggy Banks"
+  width="65%" />
 </p>
 
 Bitcoin doesn’t have the account balance model that banks have.
@@ -1375,8 +1375,8 @@ The UTXO model might not be the most intuitive model for us to understand, but i
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image029-key-takeaway-record-keeping.png" 
-   alt="Key Takeaway - Record-Keeping: Everyone's the Banks"
-   width="65%" />
+  alt="Key Takeaway - Record-Keeping: Everyone's the Banks"
+  width="65%" />
 </p>
 
 <div align="right">
@@ -1394,8 +1394,8 @@ Once a transaction is recorded, it is close to impossible to undo without changi
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image030-key-takeaway-consensus.png" 
-   alt="Key Takeaway - Consensus: Updating the Shared, Immutable Ledger"
-   width="65%" />
+  alt="Key Takeaway - Consensus: Updating the Shared, Immutable Ledger"
+  width="65%" />
 </p>
 
 The way that the network reaches consensus is through Proof-of-Work.
@@ -1419,8 +1419,8 @@ Proof-of-Work hence aims to make votes expensive for everyone, so that the votin
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image031-unique-properties-of-bitcoin.png" 
-   alt="Unique Properties of Bitcoin: Demystifying the Buzzwords"
-   width="65%" />
+  alt="Unique Properties of Bitcoin: Demystifying the Buzzwords"
+  width="65%" />
 </p>
 
 Given all this information, you can now justify many of the common buzzwords associated with Bitcoin which you may have heard.
@@ -1578,8 +1578,8 @@ From online discussions on forums and mailing lists, two groups formed: the Cyph
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image032-libertarian-dreams-cypherpunks.png" 
-   alt="Libertarian Dreams: Cypherpunks and Crypto-Anarchists"
-   width="65%" />
+  alt="Libertarian Dreams: Cypherpunks and Crypto-Anarchists"
+  width="65%" />
 </p>
 
 Before explaining a bit of the background behind all of this, let’s look at this quote first:
@@ -1595,8 +1595,8 @@ He’s one of the founders of the Cypherpunk movement, and in the 90s founded an
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image033-libertarian-dreams-cypherpunks-2.png" 
-   alt="Libertarian Dreams: Cypherpunks and Crypto-Anarchists (2)"
-   width="65%" />
+  alt="Libertarian Dreams: Cypherpunks and Crypto-Anarchists (2)"
+  width="65%" />
 </p>
 
 <div align="right">
@@ -1630,8 +1630,8 @@ Several early attempts at making a true cryptocurrency failed, though they came 
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image034-early-attempts-digicash.png" 
-   alt="Early Attampts: Digicash"
-   width="65%" />
+  alt="Early Attampts: Digicash"
+  width="65%" />
 </p>
 
 <div align="right">
@@ -1661,8 +1661,8 @@ Chaum’s company DigiCash Inc bore the overwhelming burden of having to validat
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image035-early-attempts-hashcash.png" 
-   alt="Early Attampts: HashCash"
-   width="65%" />
+  alt="Early Attampts: HashCash"
+  width="65%" />
 </p>
 
 <div align="right">
@@ -1688,8 +1688,8 @@ So, by making it computationally expensive to send out email, hashcash disincent
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image036-early-attempts-b-money.png" 
-   alt="Early Attampts: B-Money"
-   width="65%" />
+  alt="Early Attampts: B-Money"
+  width="65%" />
 </p>
 
 <div align="right">
