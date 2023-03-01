@@ -8933,9 +8933,9 @@ Bitcoin.</p>
 <p class="em2">Maybe porting over publish or perish into an asynchronous model is a
 good direction for how we can approach defending against selfish
 miners.</p>
-<h3 id="ch5-8">
-5.8 The Bitcoin Network
-</h3>
+
+<h3 id="ch5-8">5.8 The Bitcoin Network</h3>
+
 <p class="em2">Taking a step back from analyzing individual defenses, it’s important
 to understand the actual Bitcoin network itself.</p>
 <p class="em2">After all, as we saw with publish or perish, which sounded really
@@ -9077,10 +9077,11 @@ competing block to a majority of the network.</p>
 <!------------------------------------------------------------------------------------------------>
 <!-------------------- 297. Bitcoin Network: Sybil Attack Revisited #1 (268) --------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<p><img src="/images/image297.png"
-   alt="Bitcoin Network: Sybil Attack Revisited #1"
-   width="65%" />  </p>
+<img class="displayed"
+  src="/images/image297.png?raw=true"
+  alt="Bitcoin Network: Sybil Attack Revisited #1."
+  style="width:65%;" />
+
 <p class="em2">And now for something even bigger.</p>
 <p class="em2">Think back to the first module, where we discussed Sybil attacks and
 how it’s not beneficial to have more identities because in
@@ -9091,10 +9092,11 @@ latency.</p>
 <!------------------------------------------------------------------------------------------------>
 <!-------------------- 298. Bitcoin Network: sybil attack revisited #2 (268) --------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image298.png"
-   alt="Bitcoin Network: Sybil Attack Revisited #2"
-   width="65%" />
+<img class="displayed"
+  src="/images/image298.png?raw=true"
+  alt="Bitcoin Network: Sybil Attack Revisited #2."
+  style="width:65%;" />
+
 <p class="em2">Let’s say Derrick has the ability to flood the network with
 nodes.</p>
 <p class="em2">These could either be his miners, or if he’s clever enough, he could
@@ -9109,19 +9111,21 @@ blocks, which are distributed to all of his 0-power nodes.</p>
 <!------------------------------------------------------------------------------------------------>
 <!-------------------- 299. Bitcoin Network: sybil attack revisited #3 (269) --------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<p><img src="/images/image299.png"
-   alt="Bitcoin Network: Sybil Attack Revisited #3"
-   width="65%" />  </p>
+<img class="displayed"
+  src="/images/image299.png?raw=true"
+  alt="Bitcoin Network: Sybil Attack Revisited #3."
+  style="width:65%;" />
+
 <p class="em2">When Derricks nodes hear about the next honest block X, Derrick could
 ignore X, and publish his secret block P.</p>
 <!------------------------------------------------------------------------------------------------>
 <!------------------- 300. Bitcoin Network: sybil attack revisited #4 (269) ---------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<p><img src="/images/image300.png"
-   alt="Bitcoin Network: Sybil Attack Revisited #4"
-   width="65%" />  </p>
+<img class="displayed"
+  src="/images/image300.png?raw=true"
+  alt="Bitcoin Network: Sybil Attack Revisited #4."
+  style="width:65%;" />
+
 <p class="em2">If block P reaches a miner before block X, then the miner by default
 mines on block P.</p>
 <p class="em2">In this attack, Derrick leverages both the network latency and
@@ -9136,16 +9140,15 @@ proportion of the network mining power.</p>
 module, there are a lot more attacks and defenses, such as eclipse
 attacks and stubborn mining, which take into account network latency,
 topology, and more.</p>
-<h3 id="ch5-9">
-5.9 Chapter 5 Summary
-</h3>
+
+<h3 id="ch5-9">5.9 Chapter 5 Summary</h3>
+
 <p class="em2">Author: Rea Savla </p>
-<h3>
-I. Pool Strategies
-</h3>
-<h3>
-I.I Pool Hopping
-</h3>
+
+<h3>I. Pool Strategies</h3>
+
+<h3>I.I Pool Hopping</h3>
+
 <p class="em2">Miners can maximize profits via pool hopping. This occurs when miners
 switch between Pay-per-Share and Proportional scheme mining pools to
 whichever payment protocol produces a higher rewards per additional
@@ -9155,13 +9158,13 @@ the pool’s hash rate.</p>
 <!------------------------------------------------------------------------------------------------>
 <!------------- 301. Reward Per Share for Pay-Per-Share & Proportional Pools (270) --------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<p><img src="/images/image301.png"
-   alt="Reward Per Share for Pay-Per-Share & Proportional Pools"
-   width="65%" />  </p>
-<h3>
-I.II Pool Cannibalization
-</h3>
+<img class="displayed"
+  src="/images/image301.png?raw=true"
+  alt="Reward Per Share for Pay-Per-Share & Proportional Pools."
+  style="width:65%;" />
+
+<h3>I.II Pool Cannibalization</h3>
+
 <p class="em2">In this attack, pool miners distribute a small percent of mining
 power equally among other pools, without ever submitting valid blocks.
 In doing so, we increase personal profits to the detriment of our mining
@@ -9175,22 +9178,25 @@ Bitcoin network using game theory, we see that the dominant strategy is
 for each miner to attack the network, leading to the ultimate detriment
 of Bitcoin.</p>
 <!------------------------------------------------------------------------------------------------>
-<!---- Table demonstrating the results of attacking & not attacking between Pool 1 and Pool 2 ---->
+<!--~~~ 302. Table demonstrating the results of attacking & not attacking Pool 1 and Pool 2 ~~~~-->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<p><img src=“/images/image302.png” alt=“Table demonstrating the
-results of attacking and not attacking between Pool 1 and Pool 2”
-width=“100% />  </p>
+<img class="displayed"
+  src="/images/image302.png?raw=true"
+  alt="Table demonstrating the results of attacking and not attacking between Pool 1 and Pool 2."
+  style="width:65%;" />
+
 <p class="em2">In this situation, the Nash Equilibrium, or the position from which
 no actor can change their position to improve their outcome, is also
 known as the Tragedy of the Commons,where each individual actor finds it
 individually beneficial to exploit the public good, leading to the
 ultimate deterioration of the public good.</p>
+
 <h3>
 <ol start="2" type="I">
-<li>The Double Spend Attack
-</h3></li>
+  <li>The Double Spend Attack</li>
 </ol>
+</h3>
+
 <p class="em2">The double spend attack occurs when an individual successfully spends
 the same value more than once. You can double spend via race attack:</p>
 <p class="em2">The Race Attack occurs when you trick someone into thinking the
@@ -9223,15 +9229,17 @@ attack.</p>
 <!------------------------------------------------------------------------------------------------>
 <!----- 303. Graph demo between number of blocks and probability attackers catches up (272) ------>
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image303.png"
-   alt="Graph demonstrating the relationship between number of blocks and probability attackers catches up"
-   width="65%" />
+<img class="displayed"
+  src="/images/image303.png?raw=true"
+  alt="Graph demonstrating the relationship between number of blocks and probability attackers catches up."
+  style="width:65%;" />
+
 <h3>
 <ol start="3" type="I">
-<li>The 51 Percent Attack
-</h3></li>
+  <li>The 51 Percent Attack</li>
 </ol>
+</h3>
+
 <p class="em2">If you, the attacker, have any more than 50 percent of network
 hashrate, then you will always be able to double spend because you will
 always be able to create the longest chain, and since you would be in
@@ -9247,9 +9255,9 @@ attack is too risky.</p>
 <p class="em2">The Goldfinger Attack allows attackers to still profit off of the
 destruction of Bitcoin. Attackers can “short,” or place a bet on the
 devaluation of bitcoin.</p>
-<h3>
-V. Censorship
-</h3>
+
+<h3>V. Censorship</h3>
+
 <p class="em2">In addition to attacking Bitcoin by leveraging hashpower, you can
 also attack the network via censorship. With censorship, we can choose
 to ignore the transactions from an individual or group of individuals,
@@ -9276,11 +9284,13 @@ address, the math works out such that the expected profit of ignoring
 that transaction will exceed that of including it. Thus the victim has
 to pay a much higher transaction fee to incentivize miners to include
 their transaction.</p>
+
 <h3>
 <ol start="6" type="I">
-<li>Selfish Mining
-</h3></li>
+  <li>Selfish Mining</li>
 </ol>
+</h3>
+
 <p class="em2">Upon being the first to find a valid block, you can withhold that
 block from the network and continue to work on it privately. If you find
 two blocks on your secret chain before the network finds the next one,
@@ -9289,11 +9299,13 @@ two block rewards and you have fooled the network into working on an
 honest chain that you will render useless. You can keep doing this and
 submit your longer, secret chain to the network right before you think
 the network is going to catch up to you. This is selfish mining.</p>
+
 <h3>
 <ol start="7" type="I">
-<li>Defense
-</h3></li>
+  <li>Defense</li>
 </ol>
+</h3>
+
 <p class="em2"> We discussed several theorized defenses to selfish mining
 including</p>
 <p><a href="https://arxiv.org/abs/1605.02435" rel="noopener" target="_blank">Block Validation Using
@@ -9317,11 +9329,13 @@ beyond the scope of Eyal and Sirer’s paper, but they seriously reduce
 the chance that this economic attack will work in practice” (<a
 href="https://bitcoinmagazine.com/articles/selfish-mining-a-25-attack-against-the-bitcoin-network-1383578440/" rel="noopener" target="_blank">Bitcoin
 Magazine Opens in new window</a>, 2013).</p>
+
 <h3>
 <ol start="8" type="I">
-<li>The Bitcoin Network
-</h3></li>
+  <li>The Bitcoin Network</li>
 </ol>
+</h3>
+
 <p class="em2">In addition to individual attacks, the architecture of the Bitcoin
 network itself contains vulnerabilities. The Bitcoin protocol is P2P, in
 which messages get sent via a gossip protocol, where each node passes a
@@ -9335,9 +9349,9 @@ network hash power.</p>
 issue. Nodes that are better connected to the network see things faster
 and can send out messages and blocks to the network more quickly. This
 leads to disproportionate profits in miners.</p>
-<h3>
-Readings
-</h3>
+
+<h3>Readings</h3>
+
 <p><a
 href="https://bitcoinmagazine.com/articles/selfish-mining-a-25-attack-against-the-bitcoin-network-1383578440/" rel="noopener" target="_blank">Selfish
 Mining: A 25% Attack Against the Bitcoin Network Opens in new
@@ -9348,14 +9362,14 @@ Whitepaper up to”Miscellanea And Concerns” </a></p>
 Chapter 6: Ethereum &amp; Smart Contracts: Enabling a Decentralized
 Future
 </h2>
-<!------------------------------------------------------------------------------------------------>
-<!------------- lecture overview: smart contracts, ethereum, evm & use cases (274) --------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image-lecture-overview-mod-6.png"
-   alt="Culmination of the last 5 modules"
-   width="65%" />
-</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~ 304. lecture overview: smart contracts, ethereum, evm & use cases (274) ~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image304.png?raw=true"
+  alt="Culmination of the last 5 modules."
+  style="width:65%;" />
+
 <p class="em2">This module will be the culmination of the last 5 modules.</p>
 <p class="em2">From here, you will have fully understood all the tenets of how we
 build a blockchain system, from the conceptual level to the
@@ -9400,9 +9414,9 @@ thinking, leveraging all the blockchain knowledge you accumulated while
 learning about Bitcoin.</p>
 <p class="em2">In this module, we’ll be looking at Ethereum and blockchain use
 cases.</p>
-<h3 id="ch6-1">
-6.1 Intro: Smart Contracts
-</h3>
+
+<h3 id="ch6-1">6.1 Intro: Smart Contracts</h3>
+
 <p class="em2">In the past, we talked about how Bitcoin enabled users to conduct
 transactions that were decentralized and trustless.</p>
 <p class="em2">A more general case of this is the execution of arbitrary
@@ -9423,11 +9437,11 @@ Bitcoin Review
 <!------------------------------------------------------------------------------------------------>
 <!------------------------- 304. what makes bitcoin so special? (276) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image304.jpg"
-   alt="What Makes Bitcoin So Special?"
-   width="65%" />
-</p>
+<img class="displayed"
+  src="/images/image304.jpg?raw=true"
+  alt="What Makes Bitcoin So Special?"
+  style="width:65%;" />
+
 <p class="em2">First, we have to consider what makes Bitcoin so special.</p>
 <p class="em2">Understanding what Bitcoin has to offer allows us better to
 understand Ethereum’s own value proposition as a smart contract
@@ -9445,19 +9459,19 @@ special.</p>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------ 305. bitcoin from the ground up: identity (277) ----------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image305.png" 
-    width="65%"
-    alt="Bitcoin From the Ground Up: Identity" />
-</p>
+<img class="displayed"
+  src="/images/image305.png?raw=true"
+  alt="Bitcoin From the Ground Up: Identity."
+  style="width:65%;" />
+
 <!------------------------------------------------------------------------------------------------>
 <!----------------------- 306. a distributed network: bitcoin bare bones ------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image306.jpg"
-    width="65%"
-    alt="A Distributed Network: Bitcoin Bare Bones" />
-</p>
+<img class="displayed"
+  src="/images/image306.jpg?raw=true"
+  alt="A Distributed Network: Bitcoin Bare Bones."
+  style="width:65%;" />
+
 <p class="em2">First off, when we built Bitcoin from the ground up, we first
 emphasized the importance of identity: especially in order to enable
 authentication and integrity.</p>
@@ -9476,13 +9490,13 @@ address.</p>
 dealing with are massive.</p>
 <p class="em2">Think back to the grains of sand on earth example in module 1.</p>
 <!------------------------------------------------------------------------------------------------>
-<!--------------------- 307. Bitcoin from the ground up: Transactions (278) ---------------------->
+<!--------------------- 307. bitcoin from the ground up: transactions (278) ---------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image307.png" 
-    width="65%" 
-    alt="Bitcoin from the ground up: Transactions" />
-</p>
+<img class="displayed"
+  src="/images/image307.png?raw=true"
+  alt="Bitcoin from the ground up: Transactions."
+  style="width:65%;" />
+
 <p class="em2">Of course, the main idea of Bitcoin was to be able to send
 transactions between users, so naturally, we have a way to do this.</p>
 <p class="em2">However, the way we did this with Bitcoin was with UTXOs, which
@@ -9500,11 +9514,11 @@ makes.</p>
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- 308. bitcoin from the ground up (279) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image308.png"
-   alt="Bitcoin from the Ground Up"
-   width="65%" />
-</p>
+<img class="displayed"
+  src="/images/image308.png?raw=true"
+  alt="Bitcoin from the Ground Up."
+  style="width:65%;" />
+
 <p class="em2">Next, of course, we have the blockchain: the famous data structure
 that enables record keeping in the network.</p>
 <p class="em2">Every full node in the network has a copy of the blockchain.</p>
@@ -9527,11 +9541,11 @@ can’t expect everyone to be honest.</p>
 <!------------------------------------------------------------------------------------------------>
 <!----------------- 309. bitcoin from the ground up: proof-of-work consensus (280) --------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image309.png"
-   alt="Bitcoin from the Ground Up: Proof-of-Work Consensus"
-   width="65%" />
-</p>
+<img class="displayed"
+  src="/images/image309.png?raw=true"
+  alt="Bitcoin from the Ground Up: Proof-of-Work Consensus."
+  style="width:65%;" />
+
 <p class="em2">And finally, we have Proof-of-Work consensus.</p>
 <p class="em2">Nodes on the Bitcoin network needed a way to come to consensus on
 updates to the blockchain, so we implemented a voting system.</p>
@@ -9550,11 +9564,11 @@ rather than by the number of identities a user holds.</p>
 <!------------------------------------------------------------------------------------------------>
 <!------------ 310. a distributed network: transferrable benefits of bitcoin (278) --------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image310.jpg"
-   alt="A Distributed Network: Transferrable Benefits of Bitcoin"
-   width="65%" />
-</p>
+<img class="displayed"
+  src="/images/image310.jpg?raw=true"
+  alt="A Distributed Network: Transferrable Benefits of Bitcoin."
+  style="width:65%;" />
+
 <p class="em2">And by carefully designing Bitcoin like that, we have all these nice
 benefits:</p>
 <p class="em2">Bitcoin is <strong>pseudonymous</strong>.</p>
@@ -10449,8 +10463,8 @@ digital signatures to prove ownership.</p>
 all document ownership is public on the blockchain, and also limits
 centralization because no single entity decides which person owns which
 titles.</p>
-Just like transferring bitcoin between users through UTXOs, we’re simply
-transferring the land title through smart contracts as well.
+<p>Just like transferring bitcoin between users through UTXOs, we’re simply
+transferring the land title through smart contracts as well.</p>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ 344. Decentralized Land Titles (312) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -10479,9 +10493,8 @@ into the blockchain whenever someone creates a land title.</p>
 <p class="em2">Georgia, Ukraine, and Sweden are a few of the major countries
 tackling decentralized land titles, and several companies are seeking to
 make decentralized oracle systems as well.</p>
-<h3>
-Advanced Use Cases: Prediction Markets
-</h3>
+
+<h3>Advanced Use Cases: Prediction Markets</h3>
 <!------------------------------------------------------------------------------------------------>
 <!---------------- 345. Prediction Markets: Draws on the Wisdom of the Crowd (312) --------------->
 <!------------------------------------------------------------------------------------------------>
@@ -10490,6 +10503,7 @@ Advanced Use Cases: Prediction Markets
   alt="Prediction Markets: Draws on the Wisdom of the Crowd"
   width="65%" />
 </p>
+
 <p class="em2">A prediction market allows users to bet on the future and receive
 winnings if they bet correctly.</p>
 <p class="em2">An example of this is the Presidential Election: PredictIt.org gave
@@ -10945,11 +10959,11 @@ persisting across nations.</p>
 <!------------------------------------------------------------------------------------------------>
 <!--------- 359. Blockchain Generalizations: Advantages of Centralized Solutions (345) ----------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image359.png"
-  alt="Blockchain Generalizations: Advantages of Centralized Solutions"
-  width="65%" />
-</p>
+<img class="displayed"
+  src="/images/image359.png?raw=true"
+  alt="Blockchain Generalizations: Advantages of Centralized Solutions."
+  style="width:65%;" />
+
 <p class="em2">Now that we’ve finished talking about all the meaningful properties
 of decentralized solutions, it wouldn’t be complete if we didn’t go over
 the caveats.</p>
@@ -11005,13 +11019,13 @@ with grace, since you don’t need every single entity to agree on every
 single outcome.</p>
 <p class="em2">If you do integrate centralization with a blockchain solution, you
 lose out on most of the benefits of decentralization.</p>
-<h3 id="ch6-7">
-6.7 Supplement: Use Cases
-</h3>
+
+<h3 id="ch6-7">6.7 Supplement: Use Cases</h3>
+
 <p class="em2">Authors: Rea Savla and David Luo</p>
-<h3>
-I. Basic Use Cases
-</h3>
+
+<h3>I. Basic Use Cases</h3>
+
 <p class="em2">The first use case is a smart asset, or token, built on a currently
 existing blockchain. All that needs to be done is to ensure that a user
 who wants to spend money has the funds, has been authenticated, and is
@@ -11023,22 +11037,24 @@ an m of n signature scheme (refer to Lecture 3).</p>
 <!------------------------------------------------------------------------------------------------>
 <!------------- Document Ownership: Blockchain Fundamentals: Proof-of-Existence (347) ------------>
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/document-ownership.png"
-  alt= "Document Ownership: Blockchain Fundamentals: Proof-of-Existence"
-  width="65%" />
-</p>
+<img class="displayed"
+  src="/images/document-ownership.png?raw=true"
+  alt= "Document Ownership: Blockchain Fundamentals: Proof-of-Existence."
+  style="width:65%;" />
+
 <p class="em2">We can also create Proof-of-Existence use cases using smart
 contracts, which hash intellectual property onto a blockchain to prove
 the existence of some piece of information at some point in time. With
 Proof-of-Existence, we leverage both the public auditability and
 immutability of the blockchain. We can use Proof-of-Existence to record
 document ownership or implement a decentralized DNS system.</p>
+
 <h3>
 <ol start="2" type="I">
-<li>Advanced Use Cases
-</h3></li>
+  <li>Advanced Use Cases</li>
 </ol>
+</h3>
+
 <p class="em2">Many developing nations struggle with broken land titles systems;
 flawed paperwork, forged signatures, and unclear documents make tracing
 ownership of land difficult. The pitfalls which keep a central
@@ -11076,11 +11092,13 @@ after hour trading to placing limit orders. With blockchain, brokers can
 tokenize stocks by creating legal contracts underwriting them. Stock
 tokens can be traded worldwide even after the markets close and redeemed
 for their respective stocks during business hours.</p>
+
 <h3>
 <ol start="3" type="I">
-<li>Blockchain Generalizations: Essential Properties 
-</h3></li>
+  <li>Blockchain Generalizations: Essential Properties</li>
 </ol>
+</h3>
+
 <p class="em2">Although using blockchain provides numerous properties if implemented
 in a system, there are often other solutions that provide the desired
 properties without using a blockchain.</p>
@@ -11192,10 +11210,10 @@ determine which one is better for each specific use case.</p>
 <!------------------------------------------------------------------------------------------------>
 <!----------------- 360. Blockchain generalizations: essential properties (351) ------------------>
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image360.png" 
-   alt="Why is using a blockchain better than a centralized database?"
-   width="65%" />  </p>
+<img class="displayed"
+  src="/images/image360.png?raw=true"
+  alt="Why is using a blockchain better than a centralized database?"
+  style="width:65%;" />
 
 <p class="em2">The main takeaway is that there are advantages to both centralized
 and decentralized solutions.</p>
@@ -11278,10 +11296,10 @@ in developing the Ethereum ecosystem.</p>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------- 361. ConsenSys: Ethereum Infrastructure (353) -------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image361.png" 
-   alt="ConsenSys: Ethereum Infrastructure" 
-   width="65%" />  </p>
+<img class="displayed"
+  src="/images/image361.png?raw=true"
+  alt="ConsenSys: Ethereum Infrastructure."
+  style="width:65%;" />
 
 <p class="em2">ConsenSys can be best described as a software foundry.</p>
 <p class="em2">It facilitates a variety of applications which operate on the
@@ -11296,10 +11314,10 @@ previous section.</p>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------ 362. Research: Paving the Road Ahead (354) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image362.png"
-   alt= "Research: Paving the Road Ahead"
-   width="65%" />  </p>
+<img class="displayed"
+  src="/images/image362.png?raw=true"
+  alt= "Research: Paving the Road Ahead."
+  style="width:65%;" />
 
 <p class="em2">Most notably is Casper, the Ethereum Proof-of-Stake implementation
 that we’ve mentioned a couple times in this module.<br>
@@ -11340,10 +11358,10 @@ and Bitcoin:</p>
 <!------------------------------------------------------------------------------------------------>
 <!----- table reviewing the similarities and differences between ethereum and bitcoin (355) ------>
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image363.jpg"
-   alt= "Similarity and Differences between Ethereum and Bitcoin"
-   width="65%" />  </p>
+<img class="displayed"
+  src="/images/image363.jpg?raw=true"
+   alt= "Similarity and Differences between Ethereum and Bitcoin."
+  style="width:65%;" />
 
 <p class="em2">There are two kinds of Ethereum accounts:</p>
 
@@ -11377,24 +11395,24 @@ to enable distributed and trustless computation.</p>
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- 364. Nodes in the Ethereum Network (356) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image364.jpg"
+<img class="displayed"
+  src="/images/image364.jpg?raw=true"
   alt="Nodes in the Ethereum Network"
-  width="65%" />
-</p>
+  style="width:65%;" />
+
 <p class="em2">As in Bitcoin, the nodes come to consensus using Proof-of-Work,
 removing the need for a trusted third party. Miners in Ethereum
 competitively create blocks by executing EVM code and searching for a
-solution to a mining puzzle.<br>
-<br>The developers of Ethereum implemented ‘gas’ to protect against the
+solution to a mining puzzle.</p>
+<p>The developers of Ethereum implemented ‘gas’ to protect against the
 Denial of Service (DoS) Attack, where an attacker includes an infinite
 loop in the smart contract to disable nodes from executing any other
 contracts. Gas is what fuels a given contract. You can think of
 purchasing gas as the price you have to pay to use this distributed,
 trustless computational power. This disincentivizes DoS attacks because
 attackers would have to pay an absurdly large amount of ether to execute
-this attack.<br>
-<br>Ethereum is implemented as a distributed state machine, and
+this attack.</p>
+<p>Ethereum is implemented as a distributed state machine, and
 transactions on the network change the global state of the system. In
 the transaction execution, or “state transition function,” nodes in
 Ethereum come to consensus on the network state, and their code
@@ -11403,11 +11421,11 @@ the new state. The function looks like this:</p>
 <!------------------------------------------------------------------------------------------------>
 <!----------- 365. block_state, gas, memory, transaction, msg, code, stack, pc (357) ------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image365.jpg"
+<img class="displayed"
+  src="/images/image365.jpg?raw=true"
   alt="Bitcoin Network: Flood the Network"
-  width="65%" />
-</p>
+  style="width:65%;" />
+
 <h3>Readings</h3>
 
 <ul>
@@ -11417,27 +11435,27 @@ the new state. The function looks like this:</p>
   <li><a href="https://blockchainatberkeley.blog/blockchains-cryptocurrencies-the-new-decentralized-economy-part-1-a-gentle-introduction-edcb4824b174" rel="noopener" target="_blank">Blockchain, Cryptocurrencies &amp; The New Decentralized Economy</a></li>
 </ul>
 
-<p class="em2">Congratulations on completing the course!<br/><br>
-<br>On behalf of all of our lovely course staff, I’d like to thank you
+<p class="em2">Congratulations on completing the course!</p>
+<p>On behalf of all of our lovely course staff, I’d like to thank you
 for finishing part one of the Blockchain Fundamentals program: Bitcoin
-and Cryptocurrencies.<br>
-<br>With this first step into cryptocurrencies and blockchain, you now
+and Cryptocurrencies.</p>
+<p>With this first step into cryptocurrencies and blockchain, you now
 likely have a much better understanding of the space than most of your
-peers.<br>
-<br>You understand the fundamentals and vulnerabilities of Bitcoin, the
+peers.</p>
+<p>You understand the fundamentals and vulnerabilities of Bitcoin, the
 first use of blockchain, and Ethereum, a generalization of Bitcoin
-designed to simulate a distributed computer.<br>
-<br>By understanding the technical and cultural aspects of Bitcoin,
+designed to simulate a distributed computer.</p>
+<p>By understanding the technical and cultural aspects of Bitcoin,
 Ethereum, and blockchain, you can apply that experience to understand
-and analyze any blockchain platform or use case you may encounter.<br>
-<br>We hope you enjoyed this first part of the Blockchain Fundamentals
-program.<br>
-<br>If you’re looking for more, there’s still a great deal of complexity
+and analyze any blockchain platform or use case you may encounter.</p>
+<p>We hope you enjoyed this first part of the Blockchain Fundamentals
+program.</p>
+<p>If you’re looking for more, there’s still a great deal of complexity
 and innovation left to explore, so I cordially invite you to take our
-second course, CS198.2x Blockchain Technology.<br>
-<br>We wish you all the best on the rest of your blockchain journey!<br>
-<br>the end…
-<br><b><i>Last Updated: 12/19/2022 (Monday) 4:23pm+</i></b></p>
+second course, CS198.2x Blockchain Technology.</p>
+<p>We wish you all the best on the rest of your blockchain journey!</p>
+<p>the end…</p>
+<p><b><i>Last Updated: 3/1/2023 (Wednesday) 8:04am+</i></b></p>
 
 </body>
 
