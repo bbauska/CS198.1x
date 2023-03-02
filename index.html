@@ -5646,18 +5646,15 @@ over time.<br>
 <br>We’ll talk about that more in the game theory lecture.<br>
 <br>Text: Recipe for Mining:<br>
 <br>Author: Rea Savla</p>
-<h3>
-Step 0:
-</h3>
+
+<h3>Step 0:</h3>
+
 <ul>
-<li><p>Download the entire Bitcoin blockchain. This only has to be done
-once. </p>
-<ul>
-<li><p>This allows us to know the history so we can validate future
-transactions. </p></li>
-<li><p>Note: This step is optional if you mine in a mining pool or are
-doing lightweight mining. </p></li>
-</ul></li>
+  <li><p>Download the entire Bitcoin blockchain. This only has to be done once.</p>
+  <ul>
+    <li><p>This allows us to know the history so we can validate future transactions.</p></li>
+    <li><p>Note: This step is optional if you mine in a mining pool or are doing lightweight mining.</p></li>
+  </ul></li>
 </ul>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------- 165. Step 0: Download Entire Blockchain (172) -------------------------->
@@ -5667,22 +5664,17 @@ doing lightweight mining. </p></li>
    alt="Step 0: Download Entire Blockchain"
    width="65%" />  
 </p>
-<h3>
-Step 1:
-</h3>
+
+<h3>Step 1:</h3>
+
 <ul>
-<li><p>Verify transactions.</p>
-<ul>
-<li><p>You store newly received, unprocessed transactions in a
-“mempool,” where all pending transactions live before making their way
-into a block.</p></li>
-<li><p>You then choose the transactions with the highest fee per byte or
-size ratio to verify. </p></li>
-<li><p>You verify the validity of each transaction by running the
-unlocking script. </p></li>
-<li><p>If that script runs successfully, then the transaction is
-included within our block.</p></li>
-</ul></li>
+  <li><p>Verify transactions.</p>
+  <ul>
+    <li><p>You store newly received, unprocessed transactions in a “mempool,” where all pending transactions live before making their way into a block.</p></li>
+    <li><p>You then choose the transactions with the highest fee per byte or size ratio to verify.</p></li>
+    <li><p>You verify the validity of each transaction by running the unlocking script.</p></li>
+    <li><p>If that script runs successfully, then the transaction is included within our block.</p></li>
+  </ul></li>
 </ul>
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 165. Step 1: Verify Transactions (172) ----------------------------->
@@ -5692,20 +5684,16 @@ included within our block.</p></li>
    alt="Step 1: Verify Transactions"
    width="65%" />  
 </p>
-<h3>
-Step 2:
-</h3>
+
+<h3>Step 2:</h3>
+
 <ul>
-<li><p>Create the block with the given transactions and necessary
-metadata, such as time, version, and target.</p>
-<ul>
-<li><p>Construct the block data from our list of valid
-transactions.</p></li>
-<li><p>Construct the Merkle Root by hashing the hashes of each pair of
-transactions </p></li>
-<li><p>Construct the Previous Block Hash by hashing the previous block’s
-header</p></li>
-</ul></li>
+  <li><p>Create the block with the given transactions and necessary metadata, such as time, version, and target.</p>
+  <ul>
+    <li><p>Construct the block data from our list of valid transactions.</p></li>
+    <li><p>Construct the Merkle Root by hashing the hashes of each pair of transactions</p></li>
+    <li><p>Construct the Previous Block Hash by hashing the previous block’s header</p></li>
+  </ul></li>
 </ul>
 <!------------------------------------------------------------------------------------------------>
 <!------ Step 2: Create the block with the given transactions and necessary metadata (173) ------->
@@ -5715,23 +5703,16 @@ header</p></li>
    alt="Step 2: Create the block with the given transactions and necessary metadata"
    width="65%" />
 </p>
-<h3>
-Step 3:
-</h3>
+
+<h3>Step 3:</h3>
+
 <ul>
-<li><p>Find the proof-of-work that solves the partial preimage hash
-puzzle. </p>
-<ul>
-<li><p>A valid nonce makes the hash of the block header less than some
-algorithmically generated value known as the “target.”</p></li>
-<li><p>By finding the nonce, we have translated the energy burned in
-computation into voting power, as designed by the Proof-of-Work
-consensus protocol.</p></li>
-<li><p>Note: There are two different nonces, the header nonce and the
-coinbase nonce. In the event that no permutation of the header nonce
-solves the hash puzzle, alter the coinbase nonce. This changes the
-Merkle root, yielding an entirely different hash puzzle.</p></li>
-</ul></li>
+  <li><p>Find the proof-of-work that solves the partial preimage hash puzzle.</p>
+  <ul>
+    <li><p>A valid nonce makes the hash of the block header less than some algorithmically generated value known as the “target.”</p></li>
+    <li><p>By finding the nonce, we have translated the energy burned in computation into voting power, as designed by the Proof-of-Work consensus protocol.</p></li>
+    <li><p>Note: There are two different nonces, the header nonce and the coinbase nonce. In the event that no permutation of the header nonce solves the hash puzzle, alter the coinbase nonce. This changes the Merkle root, yielding an entirely different hash puzzle.</p></li>
+  </ul></li>
 </ul>
 <!------------------------------------------------------------------------------------------------>
 <!------ Step 3: Find the proof-of-work that solves the partial preimage hash puzzle (173) ------->
@@ -5741,19 +5722,15 @@ Merkle root, yielding an entirely different hash puzzle.</p></li>
    alt="Step 3: Find the proof-of-work that solves the partial preimage hash puzzle"
    width="65%" />
 </p>
-<h3>
-Step 4:
-</h3>
+
+<h3>Step 4:</h3>
+
 <ul>
-<li><p>Broadcast your block if you have not yet seen any competitor
-blocks.</p>
-<ul>
-<li><p>After finding the valid proof-of-work, broadcast the block as
-soon as possible.</p></li>
-<li><p>Other miners will validate the block for themselves before
-accepting it into their chain and propagating it further through the
-network. </p></li>
-</ul></li>
+  <li><p>Broadcast your block if you have not yet seen any competitor blocks.</p>
+  <ul>
+    <li><p>After finding the valid proof-of-work, broadcast the block as soon as possible.</p></li>
+    <li><p>Other miners will validate the block for themselves before accepting it into their chain and propagating it further through the network. </p></li>
+  </ul></li>
 </ul>
 <!------------------------------------------------------------------------------------------------>
 <!-------------------- 165. Step 4: broadcast if not seen competitor blocks (174) ---------------->
@@ -5763,25 +5740,20 @@ network. </p></li>
    alt="Step 4: Blockchain that has broadcasted the transaction, Derrick Rustie, Gloria, Nick, Nadir"
    width="65%" />
 </p>
-<h3>
-Step 5:
-</h3>
+
+<h3>Step 5:</h3>
+
 <ul>
-<li><p>If your block makes it into the longest chain, you profit!</p>
-<ul>
-<li><p>You receive both the block reward and the transaction
-fees, </p></li>
-<li><p>All the transactions within that block are added to the
-transaction history.</p></li>
-<li><p>Note: When two valid blocks are submitted to the network at
-roughly the same time, resulting in a fork, honest miners choose to mine
-on whichever block they see first. You will not receive block reward if
-the other fork grows longer. </p></li>
-</ul></li>
+  <li><p>If your block makes it into the longest chain, you profit!</p>
+  <ul>
+    <li><p>You receive both the block reward and the transaction fees,</p></li>
+    <li><p>All the transactions within that block are added to the transaction history.</p></li>
+    <li><p>Note: When two valid blocks are submitted to the network at roughly the same time, resulting in a fork, honest miners choose to mine on whichever block they see first. You will not receive block reward if the other fork grows longer.</p></li>
+  </ul></li>
 </ul>
-<h3>
-Mining Incentives: Intro
-</h3>
+
+<h3>Mining Incentives: Intro</h3>
+
 <p class="em2">Why do we do things?<br>
 <br>Why do we work at a job?<br>
 <br>Why do we trade cryptocurrencies?<br>
@@ -5806,6 +5778,7 @@ focus on aligning personal profit with overall profit.</p>
    alt="Mining Incentives: What is Profit?"
    width="65%" />
 </p>
+
 <p class="em2">Pay good attention to this slide.<br>
 <br>Yes, it’s very basic information, but this equation is fundamental to
 all incentive structures.<br>
@@ -5814,9 +5787,8 @@ all incentive structures.<br>
 profit.<br>
 <br>Every single person in the Bitcoin network is presumably maximizing
 the value of their own profit to the best of their ability.</p>
-<h3>
-Mining Incentives: Block Reward
-</h3>
+
+<h3>Mining Incentives: Block Reward</h3>
 <!------------------------------------------------------------------------------------------------>
 <!------------------ 196. Mining Incentives: How to Profit From Mining (176) --------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -5873,9 +5845,8 @@ liquid.</p>
 it is possible that those bitcoins will never move.</p>
 <p class="em2">In addition, some private keys have been lost, and some bitcoins have
 been burned, all decreasing the usable supply cap.</p>
-<h3>
-Mining Incentives: Transaction Fees
-</h3>
+
+<h3>Mining Incentives: Transaction Fees</h3>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------- 198. Mining Incentives: Transaction Fees (178) ------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -5907,9 +5878,8 @@ transactions.</p>
 will go up if miners seek the same amount of profit in bitcoins.</p>
 <p class="em2">As block rewards approach zero, transaction fees will become the
 primary source of revenue for miners.</p>
-<h3>
-Mining Costs: Fixed Costs
-</h3>
+
+<h3>Mining Costs: Fixed Costs</h3>
 <!------------------------------------------------------------------------------------------------>
 <!------------ 199. Mining Incentives: How to Profit From Mining: fixed costs (178) -------------->
 <!------------------------------------------------------------------------------------------------>
@@ -5931,9 +5901,8 @@ computation devices to specialized mining hardware.</p>
 growth of mining power produced by miners, which as you can tell has
 grown incredibly, several orders of magnitude since the start of
 Bitcoin.</p>
-<h3>
-Types of Hardware
-</h3>
+
+<h3>Types of Hardware</h3>
 <!------------------------------------------------------------------------------------------------>
 <!-------------------- 200. Mining Incentives: Fixed Cost: CPU Mining (179) ---------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -6026,9 +5995,8 @@ profit.</p>
 <p class="em2">A fun stat: one of the most popular and powerful ASICs, the Antminer
 S9, can perform 14 trillion hashes per second but would still take about
 10.9 years to find a block.</p>
-<h3>
-Mining Costs: Operating Costs
-</h3>
+
+<h3>Mining Costs: Operating Costs</h3>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------- Mining Incentives: How to Profit from Mining (179) --------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -6081,9 +6049,9 @@ quite a while, so do much more research before spinning up your own ASIC
 farm.</p>
 <p class="em2">Speaking of ASIC farms, we’ll go ahead and examine what some mining
 operations look like in the real world in the next section.</p>
-<h3 id="ch4-5">
-4.5 Intro: Real World Mining
-</h3>
+
+<h3 id="ch4-5">4.5 Intro: Real World Mining</h3>
+
 <p class="em2">We’ve seen and understood mining from the theoretical and technical
 side, but what does it look like in practice?</p>
 <p class="em2">In this section, we’ll see what mining operations look like in the
@@ -6093,9 +6061,8 @@ definitely the case in Bitcoin.</p>
 <p class="em2">We’ll see that while the initial goal of Bitcoin was to be
 decentralized, honoring the “one CPU one vote” mantra, this could not be
 farther from the truth.</p>
-<h3>
-ASICs
-</h3>
+
+<h3>ASICs</h3>
 <!------------------------------------------------------------------------------------------------>
 <!------------------- 206. Real World Mining: Chinese ASIC Mining Farm (184) --------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -6138,9 +6105,8 @@ out Antminer S9’s by the month.</p>
 takes far too long to find a block.</p>
 <p class="em2">Is there any way that we can reduce the amount of time it takes for
 us to get profit from our hardware?</p>
-<h3>
-Mining Pools
-</h3>
+
+<h3>Mining Pools</h3>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------- 207. Real World Mining: Mining Pools (186) --------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -6200,9 +6166,8 @@ themselves.</p>
 <p class="em2">Thus, they wouldn’t get any shares from the mining pool, since the
 mining pool manager would see that the miner’s coinbase transaction does
 not pay to the manager’s address.</p>
-<h3>
-Mining Pool Schemes
-</h3>
+
+<h3>Mining Pool Schemes</h3>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------ 208. Real World Mining: Mining Pool Schemes --------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -6250,9 +6215,8 @@ been thought of.</p>
 <p class="em2">The point is that there are many ways to go about paying miners, and
 each one has a different set of incentive tradeoffs.</p>
 <p class="em2">It all depends on the size and assumptions of the mining pool.</p>
-<h3>
-Mining Pool Pros and Cons
-</h3>
+
+<h3>Mining Pool Pros and Cons</h3>
 <!------------------------------------------------------------------------------------------------>
 <!------------------ 210. Real World Mining: Mining Pools: Pros and Cons (189) ------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -6302,9 +6266,8 @@ profits.</p>
 <p class="em2">Because of this, the graph is only a high-level estimate.</p>
 <p class="em2">We don’t know the true concentration of control over mining hardware,
 and we may never know.</p>
-<h3>
-Mining Pool Stats
-</h3>
+
+<h3>Mining Pool Stats</h3>
 <!------------------------------------------------------------------------------------------------>
 <!------------------ 212. real world mining: mining poools: quick facts (191) -------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -6359,17 +6322,16 @@ your mining payout.</p>
 more and more hash power, the greater the appeal is for joining a mining
 pool, since your individual hash power decreases when more hash power
 joins the network.</p>
-<h3>
-Types of Miners
-</h3>
+
+<h3>Types of Miners</h3>
 <!------------------------------------------------------------------------------------------------>
 <!--------------------- 213. real world mining: which miner are you? (193) ----------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image213.png" 
-   alt="Real World Mining: Which Miner are You?"
-   width="65%" />
-</p>
+<img class="displayed"
+  src="/images/image213.png?raw=true"
+  alt="Real World Mining: Which Miner are You?"
+  style="width:65%;" />
+
 <p class="em2">Of course, remember that there are various types of miners.</p>
 <p class="em2">Some of these are known as “Reference Clients”–these control a wallet
 to store private keys, a routing node to communicate with others, a
@@ -6390,9 +6352,9 @@ information.</p>
 the mining pools.</p>
 <p class="em2">Supplement: Lightweight Mining</p>
 <p class="em2">Author: David Luo</p>
-<h3>
-Overview
-</h3>
+
+<h3>Overview</h3>
+
 <p class="em2">Simple Payment Verification (SPV) is a method for verifying if
 particular transactions are included in a block by only having to
 download the block headers of each block, instead of the entire block,
@@ -6417,9 +6379,9 @@ be working on.</p>
 coinbase transaction that gives the reward to the pool operator.</p>
 <p class="em2">This way, a user cannot steal the reward for themselves if they find
 a block.</p>
-<h3>
-getwork, getblocktemplate, and Stratum
-</h3>
+
+<h3>getwork, getblocktemplate, and Stratum</h3>
+
 <p class="em2">getwork is a remote procedure call method that a client can call to
 get a block header from a mining pool operator.</p>
 <p class="em2">However, a caller of this method does not receive any information
@@ -6448,9 +6410,9 @@ use <strong>Stratum</strong>, which is another protocol for mining.</p>
 template.</p>
 <p class="em2">However, in Stratum only the block header and first transaction are
 included, instead of the entire block.</p>
-<h3>
-Validationless Mining
-</h3>
+
+<h3>Validationless Mining</h3>
+
 <p class="em2">In order to mine, a client needs to have the block header hash of the
 previous block, which comes from the block header of the previous block,
 which in turn is generated from previous block.</p>
@@ -6461,18 +6423,18 @@ on that block.</p>
 <p class="em2">This comes with one caveat, however, as the miner cannot validate the
 block header hash and must place trust in whatever source such as a pool
 operator they are getting the block header hash from.</p>
-<h3>
-Spy Mining
-</h3>
+
+<h3>Spy Mining</h3>
+
 <p class="em2">In mining pools, once a block is found, the block header hash is sent
 imimagestely to the miners so they can all start mining on the new block
 as soon as possible. Competing miners that are outside of this mining
 pool can take advantage of this by <strong>connecting to the mining
 pool</strong>, listen for the <strong>block header hash</strong>,
 and <strong>mine on it for themselves</strong>.</p>
-<h3 id="ch4-6">
-4.6 Intro: Bitcoin Governance
-</h3>
+
+<h3 id="ch4-6">4.6 Intro: Bitcoin Governance</h3>
+
 <p class="em2">We’ve discussed many of Bitcoin’s underlying mechanisms and
 protocols, but we haven’t talked about how those changes came to be.</p>
 <p class="em2">People want to change Bitcoin for a plethora of reasons.</p>
@@ -6482,17 +6444,16 @@ levels of security.</p>
 <p class="em2">In this section, we’ll be specifically talking about concerns of
 mining centralization, proposed changes to Bitcoin’s mining puzzle, and
 making consensus updates in Bitcoin.</p>
-<h3>
-Ensuring Decentralization
-</h3>
+
+<h3>Ensuring Decentralization</h3>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------- 214. decentralizing mining: the problem (196) ------------------------>
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<p><img src="/images/image214.png"
-   alt="Decentralizing Mining: The Problem"
-   width="65%" />
-</p>
+<img class="displayed"
+  src="/images/image214.png?raw=true"
+  alt="Decentralizing Mining: The Problem,"
+  style="width:65%;" />
+
 <p class="em2">Right now, one of the big features of Bitcoin, as well as other
 cryptocurrencies is the fact they can theoretically be mined in a
 decentralized manner.</p>
@@ -6506,13 +6467,13 @@ ASICs can cost a lot of money.</p>
 <p class="em2">This means that only people with the enough capital can acquire them,
 centralizing the mining process.</p>
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 215. Decentralized Mining: Puzzle Requirements Review  (197) ------------------>
+<!---------------- 215. decentralized mining: puzzle requirements review  (197) ------------------>
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image215.png"
-   alt="Decentralized Mining: Puzzle Requirements Review"
-   width="65%" />
-</p>
+<img class="displayed"
+  src="/images/image215.png?raw=true"
+  alt="Decentralized Mining: Puzzle Requirements Review."
+  style="width:65%;" />
+
 <p class="em2">We’re going to attempt to address the problem of mining
 centralization by considering the design of the underlying hash puzzle,
 and see if there’s any way we can redesign it.</p>
@@ -6533,17 +6494,16 @@ not make it easier to find the next hash.</p>
 <p class="em2">Bitcoin’s puzzle is described as a partial hash preimage puzzle.</p>
 <p class="em2">You don’t have to find the exact preimage of the hash, as long as you
 have the prerequisite number of leading zeros.</p>
-<h3>
-Ensuring Decentralization: ASIC Resistance
-</h3>
+
+<h3>Ensuring Decentralization: ASIC Resistance</h3>
 <!------------------------------------------------------------------------------------------------>
-<!---------------------- 216. Decentralized Mining: ASIC-Resistance (198) ------------------------>
+<!---------------------- 216. decentralized mining: asic-resistance (198) ------------------------>
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image216.png"
-   alt="Decentralized Mining: ASIC-Resistance"
-   width="65%" />
-</p>
+<img class="displayed"
+  src="/images/image216.png?raw=true"
+  alt="Decentralized Mining: ASIC-Resistance."
+  style="width:65%;" />
+
 <p class="em2">ASICs work because it’s easy to create hardware to compute just a
 certain puzzle.</p>
 <p class="em2">They’re computation bound.</p>
@@ -6563,13 +6523,13 @@ with a different hash function.</p>
 <p class="em2">This means that ASICs that are built for Bitcoin don’t work for
 Dogecoin or Litecoin.</p>
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------- 217. Decentralized Mining: Scrypt (199) ----------------------------->
+<!-------------------------- 217. decentralized mining: scrypt (199) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image217.png"
-    alt="Decentralized Mining: Scrypt"
-   width="65%" />
-</p>
+<img class="displayed"
+  src="/images/image217.png?raw=true"
+  alt="Decentralized Mining: Scrypt."
+  style="width:65%;" />
+
 <p class="em2">Scrypt was originally designed to secure passwords and make them hard
 to brute force, so a memory-bound type of problem makes sense.</p>
 <p class="em2">Scrypt has two main steps: first fill a buffer with interdependent
@@ -6579,13 +6539,13 @@ when you fill a buffer with non-interdependent data.</p>
 <p class="em2">Looking something up is easy, since you just find the index of the
 datum you want.</p>
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 218. Decentralized Mining: Scrypt part II ----------------------------->
+<!------------------------ 218. decentralized mining: scrypt part II ----------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image218.png"
-   alt="Decentralized Mining: Scrypt - part II"
-   width="65%" />
-</p>
+<img class="displayed"
+  src="/images/image218.png?raw=true"
+  alt="Decentralized Mining: Scrypt - part II."
+  style="width:65%;" />
+
 <p class="em2">However, if the data is interdependent on other pieces of data, you
 have to look up those too.</p>
 <p class="em2">If those aren’t stored in the buffer, then you have to spend time
@@ -6607,13 +6567,13 @@ chain together a bunch of hash functions.</p>
 <p class="em2">The idea was that it’s much harder to create an ASIC that can deal
 with so many hash functions, not just once.</p>
 <!------------------------------------------------------------------------------------------------>
-<!--------------------- 219. Decentralized Mining: ASIC Resistance (200) ------------------------->
+<!--------------------- 219. decentralized mining: asic resistance (200) ------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image219.png"
-   alt="Decentralized Mining: ASIC Resistance"
-   width="65%" />
-</p>
+<img class="displayed"
+  src="/images/image219.png?raw=true"
+  alt="Decentralized Mining: ASIC Resistance."
+  style="width:65%;" />
+
 <p class="em2">And that was the idea behind x11 and x13, which chain together 11 and
 13 different hash functions together respectfully.</p>
 <p class="em2">The cryptocurrency Dash uses the x11 hashing algorithm, using a chain
@@ -6637,26 +6597,25 @@ going to be working to make the most profit.</p>
 <p class="em2">In cryptocurrencies, that can take the form of working to create
 ASICs for new hashing algorithms.</p>
 <!------------------------------------------------------------------------------------------------>
-<!--------------------- 220. Decentralized Mining: ASIC Resistance #2 (201) ---------------------->
+<!--------------------- 220. decentralized mining: asic resistance #2 (201) ---------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image220.png"
-   alt="Decentralized Mining: ASIC Resistance, part 2"
-   width="65%" />
-</p>
+<img class="displayed"
+  src="/images/image220.png?raw=true"
+  alt="Decentralized Mining: ASIC Resistance, part 2."
+  style="width:65%;" />
+
 <p class="em2">Mike Hearn, a Bitcoin Core developer said (quote) “There’s really no
 such thing as an ASIC-resistant algorithm.”</p>
-<h3>
-Ensuring Decentralization: ASIC Debate
-</h3>
+
+<h3>Ensuring Decentralization: ASIC Debate</h3>
 <!------------------------------------------------------------------------------------------------>
-<!--------------- 221. Decentralized Mining: ASIC Resistance: Pros and Cons (202)----------------->
+<!--------------- 221. decentralized mining: asic resistance: pros and cons (202)----------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image221.png"
-   alt="Decentralized Mining: ASIC Resistance: Pros and Cons"
-   width="65%" />
-</p>
+<img class="displayed"
+  src="/images/image221.png?raw=true"
+  alt="Decentralized Mining: ASIC Resistance: Pros and Cons."
+  style="width:65%;" />
+
 <p class="em2">As it turns out, ASIC resistance might actually not be that great of
 an idea.</p>
 <p class="em2">It’s still an ongoing debate.</p>
@@ -6688,9 +6647,8 @@ large, since the news of a mining pool with a large amount of hashpower
 would decrease trust in the network.</p>
 <p class="em2">This idea of useless hardware and wasted hashpower leads us to our
 next slide.</p>
-<h3>
-Eliminating Waste
-</h3>
+
+<h3>Eliminating Waste</h3>
 <!------------------------------------------------------------------------------------------------>
 <!------------------ 222. proof-of-useful-work: not a puzzling concept (203) --------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -6749,9 +6707,8 @@ to to in Bitcoin, whose problems are created by its protocol.</p>
 problem.</p>
 <p class="em2">In summary, proof of useful work sounds like a great idea, but it’s
 incredibly difficult to implement.</p>
-<h3>
-Consensus Updates: Bitcoin Core
-</h3>
+
+<h3>Consensus Updates: Bitcoin Core</h3>
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 224. Consensus Updates: Bitcoin Core (205) ------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -6769,9 +6726,8 @@ through.</p>
 Bitcoin Core team, along with a few other people that work on specific
 parts of the software.</p>
 <p class="em2">This is the software that’s used in full nodes.</p>
-<h3>
-Consensus Updates: Forks
-</h3>
+
+<h3>Consensus Updates: Forks</h3>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ 225. Consensus Updates: Forks (205) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -6814,9 +6770,8 @@ blocks accepted into the longest chain mined by the new nodes.</p>
 so that they’re not left behind.</p>
 <p class="em2">Before every fork, hard or soft, the entire community launches into
 debates about the future of Bitcoin.</p>
-<h3>
-Consensus Updates: BIPs
-</h3>
+
+<h3>Consensus Updates: BIPs</h3>
 <!------------------------------------------------------------------------------------------------>
 <!------------------ 226. Consensus Updates: bitcoin improvement proposal (207) ------------------>
 <!------------------------------------------------------------------------------------------------>
@@ -6845,31 +6800,25 @@ as well as best practices.</p>
 make BIPs.</p>
 <p class="em2">Miners vote on BIPs by including a reference to that BIP in the block
 that they mine.</p>
-<h3 id="ch4-7">
-4.7 Chapter 4 Summary
-</h3>
+
+<h3 id="ch4-7">4.7 Chapter 4 Summary</h3>
+
 <p class="em2">Author: Rea Savla</p>
-<h3>
-I. Types of Users
-</h3>
-Bitcoin makes the distinction of 4 key functionalities (<a
+
+<h3>I. Types of Users</h3>
+
+<p>Bitcoin makes the distinction of 4 key functionalities (<a
 href="https://unglueit-files.s3.amazonaws.com/ebf/05db7df4f31840f0a873d6ea14dcc28d.pdf" rel="noopener" target="_blank">Mastering
 Bitcoin <u>Opens in new window</u></a>, p.152) that every node in the
-network is a combination of:
+network is a combination of:</p>
+
 <ul>
-<li>
-Wallets: management of keys and addresses
-</li>
-<li>
-Mining: the voting process which expends computational power
-</li>
-<li>
-Full Blockchain: a copy of the full Bitcoin blockchain
-</li>
-<li>
-Routing: software that allows you to talk to other Bitcoin nodes
-</li>
+  <li>Wallets: management of keys and addresses</li>
+  <li>Mining: the voting process which expends computational power</li>
+  <li>Full Blockchain: a copy of the full Bitcoin blockchain</li>
+  <li>Routing: software that allows you to talk to other Bitcoin nodes</li>
 </ul>
+
 <p class="em2">We can make powerful generalizations using these 4 key
 characteristics, however there exist other distinctions between users
 too.</p>
@@ -6881,14 +6830,17 @@ too.</p>
    alt="Wallet-Miner-Full Blockchain-Routing Node (WMBN)"
    width="65%" />
 </p>
+
 <p class="em2">Image Source: <a
 href="https://github.com/bitcoinbook/bitcoinbook" rel="noopener" target="_blank">Mastering Bitcoin</a>
 Opens in new window.</p>
+
 <h3>
 <ol start="2" type="I">
-<li>Wallets
-</h3></li>
+  <li>Wallets</li>
 </ol>
+</h3>
+
 <p class="em2">The primary function of Bitcoin wallets is to keep track of your
 identity. In Bitcoin, a private key gives you a claim to your virtual
 identity; it unlocks your virtual identity and gives you access to your
@@ -6908,12 +6860,14 @@ Centralized exchanges are easy to use and access, but are single points
 of failure which may be vulnerable to hacks. Decentralized exchanges
 (i.e. Bitshares and Bitsquare) conduct trades directly between users by
 creating proxy tokens and are mostly trustless but may suffer from
-liquidity problems. </p>
+liquidity problems.</p>
+
 <h3>
 <ol start="3" type="I">
-<li>Wallet Mechanics
-</h3></li>
+  <li>Wallet Mechanics</li>
 </ol>
+</h3>
+
 <p class="em2">For wallets to successfully keep track of your identity and bitcoin,
 they must implement mechanisms to verify transactions and keep track of
 many keys. </p>
@@ -6938,11 +6892,13 @@ efficient than JBOK wallets. </p>
 deriving all new keys from an original random seed value. In HD Wallets,
 anyone controlling the parent key can also generate and control child
 keys.</p>
+
 <h3>
 <ol start="4" type="I">
-<li>Mining
-</h3></li>
+  <li>Mining</li>
 </ol>
+</h3>
+
 <p class="em2">Mining in Bitcoin requires miners to verify incoming transactions,
 create a block, find a valid nonce, broadcast the block, and earn a
 profit in bitcoins.</p>
@@ -6969,9 +6925,9 @@ Bitcoin.</p>
 infrastructure costs (i.e. warehouse and personnel). Energy costs are
 further divided into three types: Embodied Energy, to produce hardware;
 Electricity, to power hardware; and Cooling, to maintain hardware.</p>
-<h3>
-V. Real World Mining
-</h3>
+
+<h3>V. Real World Mining</h3>
+
 <p class="em2">To get a better sense of how mining looks in real life, here is what
 a real-world ASIC mining farm in China looks like:</p>
 <!------------------------------------------------------------------------------------------------>
@@ -6982,6 +6938,7 @@ a real-world ASIC mining farm in China looks like:</p>
    alt="Real World Mining"
    width="100%" />
 </p>
+
 <p class="em2">Image Source: <a
 href="https://www.theregister.co.uk/2014/08/12/chinese_bitcoin_farms_from_scifi_to_scuzzy/" rel="noopener" target="_blank">The
 Register Opens in new window</a></p>
@@ -7027,9 +6984,8 @@ to the mining community that would undermine the network. </p>
 forks result from a new protocol that does things not allowed in the old
 protocol. In a soft fork, the rules of the protocol are only restrained.
 A soft fork is backwards compatible but not forwards compatible.</p>
-<h3>
-Hard Fork:
-</h3>
+
+<h3>Hard Fork:</h3>
 <!------------------------------------------------------------------------------------------------>
 <!-------------------- 229. Hard fork real changes implemented in Bitcoin ------------------------>
 <!------------------------------------------------------------------------------------------------>
@@ -7038,9 +6994,8 @@ Hard Fork:
    alt="Hard fork real changes implemented in Bitcoin"
    width="100%" />
 </p>
-<h3>
-Soft Fork:
-</h3>
+
+<h3>Soft Fork:</h3>
 <!------------------------------------------------------------------------------------------------>
 <!-------------------- 230. Soft fork real changes implemented in Bitcoin ------------------------>
 <!------------------------------------------------------------------------------------------------>
@@ -7049,6 +7004,7 @@ Soft Fork:
    alt="Soft fork real changes implemented in Bitcoin"
    width="100%" />
 </p>
+
 <p class="em2">In Bitcoin, changes to the protocol come in the form of BIPs, or
 Bitcoin Improvement Proposals. These can be changes in the network
 protocol, block or transaction validation, or anything affecting
@@ -7077,9 +7033,9 @@ variables!)</p>
 <p>(Optional) <a
 href="https://github.com/rustielin/blockshell" rel="noopener" target="_blank">BlockShell Opens in new
 window</a> (set up and play around with the CLI)</p>
-<h2 id="ch5">
-Chapter 5: How to Destroy Bitcoin: Game Theory &amp; Attacks
-</h2>
+
+<h2 id="ch5">Chapter 5: How to Destroy Bitcoin: Game Theory &amp; Attacks</h2>
+
 <p class="em2">With all our knowledge so far, we have a pretty good understanding of
 Bitcoin high level motivations and design, as well as low level
 mechanics.</p>
@@ -7094,9 +7050,9 @@ Bitcoin, but cryptocurrencies and blockchain in general.</p>
 Attacks” but you can understand that the game theoretical approach and
 analysis of attack vectors applies to all proof-of-work blockchains –
 not just Bitcoin.</p>
-<h3 id="ch5-1">
-5.1 Intro: Pool Strategies
-</h3>
+
+<h3 id="ch5-1">5.1 Intro: Pool Strategies</h3>
+
 <p class="em2">As we explained in the previous module, everything is driven by
 profit – and Bitcoin is certainly no exception.</p>
 <p class="em2">For example, it might not be profitable to be a solo miner,
@@ -7109,9 +7065,8 @@ reward.</p>
 employ to increase your profits even further.</p>
 <p class="em2">And when it comes to making the most profit, honest strategies are
 NOT usually the best way to go.</p>
-<h3>
-Pool Reward Scheme Review
-</h3>
+
+<h3>Pool Reward Scheme Review</h3>
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 231. Pool Reward Schemes: Reviews (213) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -7120,6 +7075,7 @@ Pool Reward Scheme Review
    alt="Pool Reward Schemes: Reviews"
    width="65%" />
 </p>
+
 <p class="em2">Remember from last lecture that pay-per-share schemes will pay you a
 fixed amount of money for each share, or near-valid block.</p>
 <p class="em2">This payment is guaranteed and constant per share, regardless of how
@@ -7151,9 +7107,8 @@ found.</p>
 <p class="em2">Given the incentive structures in both pay per share and proportional
 pool pay-out schemes, is it possible that pools are vulnerable to some
 incentive misalignment?</p>
-<h3 id="ch5-2">
-5.2 Pool Hopping
-</h3>
+
+<h3 id="ch5-2">5.2 Pool Hopping</h3>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------ 233. Pool Rewards: Pool Hopping Strategy (215) ------------------------>
 <!------------------------------------------------------------------------------------------------>
@@ -7162,6 +7117,7 @@ incentive misalignment?</p>
    alt="Pool Rewards: Pool Hopping"
    width="65%" />
 </p>
+
 <p class="em2">Remember that we as miners want to maximize their payout.</p>
 <p class="em2">Well, is there a way that we can take advantage of proportional
 payout schemes?</p>
@@ -7258,9 +7214,8 @@ but it doesn’t incentivize miner loyalty.</p>
 <p class="em2">Pay-per-share pools are the inverse, as previously mentioned.</p>
 <p class="em2">We’ll see how this misalignment of incentives in pay-per-share models
 can lead to even further attacks.</p>
-<h3 id="ch5-3">
-5.3 Pool Cannibalization
-</h3>
+
+<h3 id="ch5-3">5.3 Pool Cannibalization</h3>
 <!------------------------------------------------------------------------------------------------>
 <!--------------------- 238. Pool Cannibalization: Strategy: Nom Nom Nom Nom (219) --------------->
 <!------------------------------------------------------------------------------------------------>
@@ -7381,9 +7336,8 @@ look like across the network?</p>
 <p class="em2">Will pools all start cannibalizing each other?</p>
 <p class="em2">Is everyone going to start being dishonest for profit?</p>
 <p class="em2">Are pools going to wage war on each other through this attack?</p>
-<h3 id="ch5-4">
-5.4 Nash Equilibrium and the Tragedy of the Commons
-</h3>
+
+<h3 id="ch5-4">5.4 Nash Equilibrium and the Tragedy of the Commons</h3>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- 242. pool wars: thegGame of life (222) --------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -7471,9 +7425,9 @@ in which all pools are individually incentivized to act in ways that do
 not as a whole improve the wellbeing of the entire group.</p>
 <p class="em2">It all comes back to this issue of aligning personal incentives with
 group incentives.</p>
-<h3>
-Supplement Game Theory
-</h3>
+
+<h3>Supplement Game Theory</h3>
+
 <p class="em2">Author: Rea Savla</p>
 <p class="em2">We can model the behavior of different actors in the Bitcoin network
 for a given situation using a game theoretical analysis. Our first
@@ -7555,9 +7509,9 @@ theory, we recommend the following reading: <a
 href="https://www.ethz.ch/content/dam/ethz/special-interest/gess/chair-of-sociology-dam/documents/education/spieltheorie/literatur/Einf%C3%BChrung/Jackson%20Basics%20of%20Game%20Theory%20SSRN-id1968579.pdf" rel="noopener" target="_blank">A
 Brief Introduction to Basics of Game Theory </a>by Matthew O. Jackson,
 Stanford University.</p>
-<h3 id="ch5-5">
-5.5 Intro: Double Spending
-</h3>
+
+<h3 id="ch5-5">5.5 Intro: Double Spending</h3>
+
 <p class="em2">Now that we’ve discussed some pool game theory, let’s go ahead and
 revisit the classic attack of the cryptocurrency world: the double spend
 attack.</p>
@@ -7568,9 +7522,8 @@ attacks.</p>
 <p class="em2">On top of that, is there still a way to double spend?</p>
 <p class="em2">Can I double spend with less than a majority of the voting power?</p>
 <p class="em2">We’ll answer all those questions for you in this upcoming module.</p>
-<h3>
-Race Attack
-</h3>
+
+<h3>Race Attack</h3>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------ 249. double-spending: the classic attack (228)  ----------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -7690,9 +7643,8 @@ network.</p>
 from me to Rustie, my chain has to be longer.</p>
 <p class="em2">Hence, the plus one.</p>
 <p class="em2">Let’s go ahead and see a demonstration.</p>
-<h3>
-Demo: Confirmations
-</h3>
+
+<h3>Demo: Confirmations</h3>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------- 253. double-spending: k confirmations #3 (231) ------------------------->
 <!------------------------------------------------------------------------------------------------>
