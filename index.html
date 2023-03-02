@@ -7696,11 +7696,11 @@ Demo: Confirmations
 <!------------------------------------------------------------------------------------------------>
 <!----------------------- 253. double-spending: k confirmations #3 (231) ------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image253.png"
-   alt="Double Spending: k Confirmations #3"
-   width="65%" />
-</p>
+<img class="displayed"
+  src="/images/image253.png"
+  alt="Double Spending: k Confirmations #3."
+  style="width:65%;" />
+
 <p class="em2">Let’s say that k in this case is equal to 2 confirmations.</p>
 <p class="em2">In other words, Rustie will assume that the transaction is finalized
 after 2 confirmations.</p>
@@ -7711,22 +7711,22 @@ block.</p>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------- 254. double-spending: k confirmations #4 (232) ------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image254.png"
-   alt="Double Spending: k Confirmations #4"
-   width="65%" />
-</p>
+<img class="displayed"
+  src="/images/image254.png"
+  alt="Double Spending: k Confirmations #4."
+  style="width:65%;" />
+
 <p class="em2">Rustie notices the two confirmations and feels confident about the
 transaction’s finality.</p>
 <p class="em2">He now sends me the iPhone so as not to keep me waiting.</p>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------- 255. double-spending: k confirmations #5 (233) ------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image255.png"
-   alt="Double Spending: k Confirmations"
-   width="65%" />
-</p>
+<img class="displayed"
+  src="/images/image255.png"
+  alt="Double Spending: k Confirmations #5."
+  style="width:65%;" />
+
 <p class="em2">But that was exactly what I was expecting.</p>
 <p class="em2">This whole time, I was mining on a private chain which I did not
 reveal to the rest of the network.</p>
@@ -7743,11 +7743,11 @@ invalidates the transaction from me to Rustie.</p>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------- 256. double-spending: k confirmations #6 (234) ------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image256.png"
-   alt="Double Spending: k Confirmations #6"
-   width="65%" />
-</p>
+<img class="displayed"
+  src="/images/image256.png"
+  alt="Double Spending: k Confirmations #6."
+  style="width:65%;" />
+
 <p class="em2">When I broadcast my chain, the rest of the network accepts my chain
 over the previous chain because it’s longer.</p>
 <p class="em2">Because of this, the entire chain of blocks, containing the
@@ -7755,11 +7755,11 @@ transaction from me to Rustie, and onward is invalidated.</p>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------- 257. double-spending: k confirmations #7 (234) ------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image257.png"
-   alt="Double Spending: k Confirmations #7"
-   width="65%" />
-</p>
+<img class="displayed"
+  src="/images/image257.png"
+   alt="Double Spending: k Confirmations #7."
+  style="width:65%;" />
+
 <p class="em2">The rest of the network will continue mining on my chain, meaning
 that I will have received Rustie’s iPhone while still keeping my own
 money.</p>
@@ -7770,17 +7770,16 @@ ability to produce a longer chain than the honest network.</p>
 <p class="em2">You might be wondering: what is the probability of me being able to
 produce a chain longer than the rest of the network?</p>
 <p class="em2">Well, we’ll see right away how that’s possible.</p>
-<h3>
-Probability Analysis
-</h3>
+
+<h3>Probability Analysis</h3>
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- 258. double spending: probabilities (235) --------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image258.png"
-   alt="Double Spending: Probabilities"
-   width="65%" />
-</p>
+<img class="displayed"
+  src="/images/image258.png"
+  alt="Double Spending: Probabilities."
+  style="width:65%;" />
+
 <p class="em2">These graphs show the probability of a successful fork.</p>
 <p class="em2">The top shows the probability of an attacker catching up to some
 chain given two parameters:</p>
@@ -7800,11 +7799,11 @@ the probability starts off high but then quickly drops towards zero.</p>
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 259. double spending: 51% attack (236) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image259.png"
-   alt="Double Spending: 51% attack"
-   width="65%" />
-</p>
+<img class="displayed"
+  src="/images/image259.png"
+  alt="Double Spending: 51% attack."
+  style="width:65%;" />
+
 <p class="em2">As you can see, the 50 percent model has a probability of 1 no matter
 what.</p>
 <p class="em2">In other words, an attacker with 50 percent of the network hashrate
@@ -7828,17 +7827,16 @@ with the rest of the honest network.</p>
 spend.</p>
 <p class="em2">I will always be in full control of which blocks are included within
 the history of transactions.</p>
-<h3>
-Goldfinger Attack
-</h3>
+
+<h3>Goldfinger Attack</h3>
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 260. double spending: incentives (237) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image260.png"
-   alt="Double Spending: Incentives"
-   width="65%" />
-</p>
+<img class="displayed"
+  src="/images/image260.png"
+  alt="Double Spending: Incentives."
+  style="width:65%;" />
+
 <p class="em2">But here’s a question to ask: just because I can double spend doesn’t
 mean I should.</p>
 <p class="em2">There’s a lot of real world consequences of double spending that we
@@ -7875,9 +7873,9 @@ then I can launch the double spend attack to make my prediction go
 through.</p>
 <p class="em2">At this point, double spending on someone is – interestingly enough –
 just a means to an end.</p>
-<h3 id="ch5-6">
-5.6 Intro: Censorship Attacks
-</h3>
+
+<h3 id="ch5-6">5.6 Intro: Censorship Attacks</h3>
+
 <p class="em2">Thus far, we’ve looked at examples of how users with enough hashpower
 can take advantage of the properties of the blockchain in order to
 maliciously double spend their coins.</p>
@@ -7886,16 +7884,16 @@ transactions.</p>
 <p class="em2">With censorship, we can choose to ignore the transactions from an
 individual or group of individuals, isolating them from the network and
 effectively rendering their bitcoins useless.</p>
-<h3>
-Censorship Attacks: Naive Censorship
-</h3>
+
+<h3>Censorship Attacks: Naive Censorship</h3>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------- 261. Blacklisting: Naive Censorship (238) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<p><img src="/images/image261.png"
-   alt="Blacklisting: Freeze Peach is Dead"
-   width="65%" />  </p>
+<img class="displayed"
+  src="/images/image261.png"
+  alt="Blacklisting: Freeze Peach is Dead."
+  style="width:65%;" />
+
 <p class="em2">Let’s say that Gloria is in charge of the Glorian nation, and has
 jurisdiction over all of the mining pools within its boundaries, which
 sums up to be over 51% of the Bitcoin network’s hash power . Gloria
@@ -7904,11 +7902,11 @@ and prevent me from spending any of my Bitcoin.</p>
 <!------------------------------------------------------------------------------------------------>
 <!--------------------- 262 Blacklisting: Naive Censorship Strategy (239) ------------------------>
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image262.png"
-   alt="Blacklisting: Naive Censorship"
-   width="65%" />
-</p>
+<img class="displayed"
+  src="/images/image262.png"
+  alt="Blacklisting: Naive Censorship."
+  style="width:65%;" />
+
 <p class="em2">The blocks in Gloria’s ideal blockchain will include none of my
 transactions.</p>
 <p class="em2">The most naive strategy is for Gloria to instruct all of her mining
@@ -7920,17 +7918,16 @@ eventually include my transactions in a block.</p>
 inconveniences, although those delays and inconveniences can become
 significant depending on how much hashpower</p>
 <p class="em2">Gloria has.</p>
-<h3>
-Censorship Attacks: Punitive Forking
-</h3>
+
+<h3>Censorship Attacks: Punitive Forking</h3>
 <!------------------------------------------------------------------------------------------------>
 <!------------ 263. Blacklisting: Naive Censorship Strategy - Punitive Forking (239) ------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image263.png"
-   alt="Blacklisting: Naive Censorship Strategy - Punitive Forking"
-   width="65%" />
-</p>
+<img class="displayed"
+  src="/images/image263.png"
+  alt="Blacklisting: Naive Censorship Strategy - Punitive Forking."
+  style="width:65%;" />
+
 <p class="em2">Let’s look at another strategy for Gloria.</p>
 <p class="em2">Remember that Gloria’s mining pools have over 51% of the network
 hashrate.</p>
@@ -7940,11 +7937,11 @@ the world.</p>
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- 264. blacklisting: punitive forking (240) --------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image264.png"
-   alt="Blacklisting: Punitive Forking"
-   width="65%" />
-</p>
+<img class="displayed"
+  src="/images/image264.png"
+  alt="Blacklisting: Punitive Forking."
+  style="width:65%;" />
+
 <p class="em2">If miners include one of my transactions in a block, Gloria will fork
 and create a longer proof-of-work chain, which is possible only because
 she has the majority of the hashrate.</p>
@@ -7955,11 +7952,11 @@ rewards for their efforts.</p>
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- 265. blacklisting: punitive forking (240) --------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image265.png"
-   alt="Blacklisting: Punitive Forking"
-   width="65%" />
-</p>
+<img class="displayed"
+  src="/images/image265.png"
+  alt="Blacklisting: Punitive Forking."
+  style="width:65%;" />
+
 <p class="em2">Non-Glorian miners will eventually stop including my transactions in
 their blocks since they know that their blocks won’t be part of the
 longest chain anway.</p>
@@ -7967,17 +7964,16 @@ longest chain anway.</p>
 <p class="em2">This strategy is known as punitive forking, and can be very powerful
 in the hands of someone with a 51% majority hashrate.</p>
 <p class="em2">That entity can prevent anybody from accessing their funds.</p>
-<h3>
-Censorship Attacks: Feather Forking
-</h3>
+
+<h3>Censorship Attacks: Feather Forking</h3>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------ 266. blacklisting: feather forking #1 (241) --------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image266.png"
-   alt="Blacklisting: Feather Forking"
-   width="65%" />
-</p>
+<img class="displayed"
+  src="/images/image266.png"
+  alt="Blacklisting: Feather Forking #1."
+  style="width:65%;" />
+
 <p class="em2">However, punitive forking doesn’t work unless Gloria has 51% of the
 hashpower, which is extremely difficult to achieve in reality. Is there
 another way? Unfortunately for me,</p>
@@ -7994,11 +7990,11 @@ trying to continue her fork.</p>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------- 267. blacklisting: feather forking #2 (241) -------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image267.png"
-   alt="Blacklisting: Feather Forking #2"
-   width="65%" />
-</p>
+<img class="displayed"
+  src="/images/image267.png"
+   alt="Blacklisting: Feather Forking #2."
+  style="width:65%;" />
+
 <p class="em2">Let’s look at a little bit of math. Let q be the proportion of mining
 power that Gloria has. Let k equal one, so that Gloria gives up after
 one confirmation on my block. This means that the chance of successfully
@@ -8008,11 +8004,11 @@ block, which isn’t that great.</p>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------- 268. blacklisting: feather forking 3 (241) --------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image268.png"
-   alt="Blacklisting: Feather Forking #3"
-   width="65%" />
-</p>
+<img class="displayed"
+  src="/images/image268.png"
+  alt="Blacklisting: Feather Forking #3."
+  style="width:65%;" />
+
 <p class="em2">However, other miners are now aware that their block has a q^2, or 4%
 chance of being orphaned.</p>
 <p class="em2">They now have to decide whether they should include my transaction in
@@ -8024,11 +8020,11 @@ working on that chain.</p>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------ 269. blacklisting: feather forking 4 (241) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image269.png"
-   alt="Blacklisting: Feather Forking #4"
-   width="65%" />
-</p>
+<img class="displayed"
+  src="/images/image269.png"
+  alt="Blacklisting: Feather Forking #4."
+  style="width:65%;" />
+
 <p class="em2">Therefore, looking at the math, unless I pay at least q^2 times the
 block reward in transaction fees, other miners will mine on the
 malicious chain. As of April 17th 2018, that would be a $4000 minimum tx
@@ -8036,9 +8032,9 @@ fee, which is incredibly limiting. It’s very likely that I won’t be able
 to afford those transaction costs, so I won’t be even be able to send my
 transactions through. Thus, Gloria has succeeded in censoring my
 transactions with only 20% of the total hashrate.</p>
-<h3 id="ch5-7">
-5.7 Intro: Selfish Mining
-</h3>
+
+<h3 id="ch5-7">5.7 Intro: Selfish Mining</h3>
+
 <p class="em2">It’s important to consider how rational and malicious actors will
 behave to increase the amount of money that they make.</p>
 <p class="em2">Think back to the previous module, specifically the motivations for
@@ -8047,17 +8043,16 @@ mining.</p>
 do so, even if it’s not totally fair to everyone else.</p>
 <p class="em2">One of the best examples of this sort of behavior is selfish
 mining.</p>
-<h3>
-Selfish Mining Attacks
-</h3>
+
+<h3>Selfish Mining Attacks</h3>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------- 270. selfish mining: block withholding (244) ------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image270.png"
-   alt="Selfish Mining: Block Withholding"
-   width="65%" />
-</p>
+<img class="displayed"
+  src="/images/image270.png"
+  alt="Selfish Mining: Block Withholding."
+  style="width:65%;" />
+
 <p class="em2">Let’s say that you’re a miner, and you just found a block.</p>
 <p class="em2">You want to give yourself an advantage over the rest of the network,
 so instead of publishing the block through the network and receiving the
@@ -8071,11 +8066,11 @@ puzzle.</p>
 <!------------------------------------------------------------------------------------------------>
 <!---------------------- 271. selfish mining: block withholding #2 (244) ------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image271.png"
-   alt="Selfish Mining: Block Withholding #2"
-   width="65%" />
-</p>
+<img class="displayed"
+  src="/images/image271.png"
+  alt="Selfish Mining: Block Withholding #2."
+  style="width:65%;" />
+
 <p class="em2">Note that Block withholding is sometimes also used in the context of
 mining pools, where you submit shares but withhold blocks.</p>
 <p class="em2">If you find two blocks on your secret chain before the network finds
@@ -8100,11 +8095,11 @@ secret chain.</p>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------- 272. selfish mining: block withholding #3 (245) ------------------------>
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image272.png"
-   alt="Selfish Mining: Block Withholding #3"
-   width="65%" />
-</p>
+<img class="displayed"
+  src="/images/image272.png"
+  alt="Selfish Mining: Block Withholding #3."
+  style="width:65%;" />
+
 <p class="em2">Assuming you’re two blocks ahead of the honest network, if the honest
 network then finds a block, you broadcast your two secret blocks to
 claim your two block rewards and to keep the honest network from
@@ -8123,11 +8118,11 @@ waste.</p>
 <!------------------------------------------------------------------------------------------------>
 <!------------------- 273. selfish mining: block withholding #4 (245) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image273.png"
-   alt="Selfish Mining: Block Withholding #4"
-   width="65%" />
-</p>
+<img class="displayed"
+  src="/images/image273.png"
+  alt="Selfish Mining: Block Withholding #4."
+  style="width:65%;" />
+
 <p class="em2">What if the network finds a block before you find a second one?</p>
 <p class="em2">Then it becomes a race to propagate the new blocks.</p>
 <p class="em2">As it turns out, if you have the capability of telling 65% of the
@@ -8138,9 +8133,9 @@ propagation race every time and the malicious strategy will still be
 more profitable!</p>
 <p class="em2">The math behind these results is omitted here due to complexity, but
 you’re more than encouraged to look into it!</p>
-<h3>
-Intro: Defenses
-</h3>
+
+<h3>Intro: Defenses</h3>
+
 <p class="em2">As malicious miners are incentivized by higher potential profits to
 attack or try to subvert the network, honest individuals are
 incentivized to prevent such behavior.</p>
@@ -8150,17 +8145,16 @@ to prevent anything that would completely destroy Bitcoin.</p>
 we have to counter selfish mining.</p>
 <p class="em2">We’ll first take a look at some of the more naive defenses, and see
 what we can improve from there.</p>
-<h3>
-Block Validation
-</h3>
+
+<h3>Block Validation</h3>
 <!------------------------------------------------------------------------------------------------>
 <!--------------------- 274. block validation: dummy block signatures (247) --------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image274.png"
-   alt="Block Validation: Dummy Block Signatures"
-   width="65%" />
-</p>
+<img class="displayed"
+  src="/images/image274.png"
+  alt="Block Validation: Dummy Block Signatures."
+  style="width:65%;" />
+
 <p class="em2">One of the earlier proposed solutions to solving selfish mining was
 to validate blocks using dummy blocks that hold metadata.</p>
 <p class="em2">This technique was proposed by Schultz in 2015, and later by Solat
@@ -8199,11 +8193,11 @@ signatures is enough to show that a block is valid.</p>
 <!------------------------------------------------------------------------------------------------>
 <!------------------ 275. Block validation: dummy block signatures #2 (248) ---------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image275.png"
-   alt="Block Validation: Dummy Block Signatures #2"
-   width="65%" />
-</p>
+<img class="displayed"
+  src="/images/image275.png"
+  alt="Block Validation: Dummy Block Signatures #2."
+  style="width:65%;" />
+
 <p class="em2">What order of magnitude is the threshold number of signatures?</p>
 <p class="em2">And would it have to change depending on the changing number of users
 within the network?</p>
@@ -8223,10 +8217,10 @@ already established block validity rules.</p>
 <!------------------------------------------------------------------------------------------------>
 <!-------------------- 276. Fork Punishment: fork punishment rule (249) -------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image276.png"
-   alt="Fork Punishment: Fork Punishment Rule"
-   width="65%" /></p>
+<img class="displayed"
+  src="/images/image276.png"
+  alt="Fork Punishment: Fork Punishment Rule."
+  style="width:65%;" />
 
 <p class="em2">Another idea for a defense against selfish mining was
 fork-punishment, which was proposed by Lear Bahack in 2013.</p>
@@ -8244,11 +8238,11 @@ honest chain and the bottom being the dishonest chain.</p>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------277. Fork Punishment: fork punishment rule #2 (250) ---------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image277.png"
-   alt="Fork Punishment: Fork Punishment Rule #2"
-   width="65%" />
-</p>
+<img class="displayed"
+  src="/images/image277.png"
+  alt="Fork Punishment: Fork Punishment Rule #2."
+  style="width:65%;" />
+
 <p class="em2">Since two blocks are broadcast at the same block height, they are
 competing blocks and thus neither of them have an associated block
 reward.</p>
@@ -8269,17 +8263,16 @@ block, we’d have to leverage a concept called transaction malleability,
 which is out of scope for this course.</p>
 <p class="em2">And in the end, fork punishment would require a hard fork to
 implement, and as before, that’s pretty undesirable.</p>
-<h3>
-Uniform Tie-Breaking
-</h3>
+
+<h3>Uniform Tie-Breaking</h3>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------- 278. tie-breaking: uniform tie-breaking (251) ------------------------>
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image278.png"
-   alt="Tie-Breaking: Uniform Tie-Breaking"
-   width="65%" />
-</p>
+<img class="displayed"
+  src="/images/image278.png?raw=true"
+  alt="Tie-Breaking: Uniform Tie-Breaking."
+  style="width:65%;" />
+
 <p class="em2">Instead of punishing everyone whenever there’s a fork, like in fork
 punishment, is there another way?</p>
 <p class="em2">Perhaps we can instead prevent the block propagation race, and
@@ -8315,11 +8308,11 @@ threshold down to 23.2%.</p>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------- 279. tie-breaking: unforgettable timestamps (252) ---------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image279.png"
-   alt="Tie-Breaking: Unforgettable Timestamps"
-   width="65%" />
-</p>
+<img class="displayed"
+  src="/images/image279.png?raw=true"
+  alt="Tie-Breaking: Unforgettable Timestamps."
+  style="width:65%;" />
+
 <p class="em2">A 25% profit threshold using uniform tie-breaking is pretty bad,
 considering that selfish mining is always profitable when you have 33%
 of the mining power.</p>
@@ -8353,11 +8346,11 @@ worthless.</p>
 <!------------------------------------------------------------------------------------------------>
 <!---------------------- 280. tie-breaking: unforgettable timestamps (253) ----------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image280.png"
-   alt="Tie-Breaking: Unforgettable Timestamps"
-   width="65%" />
-</p>
+<img class="displayed"
+  src="/images/image280.png?raw=true"
+  alt="Tie-Breaking: Unforgettable Timestamps."
+  style="width:65%;" />
+
 <p class="em2">As you can see in the diagram on the bottom, a selfish miner can
 still invalidate the honest chain if they have the longest chain.</p>
 <p class="em2">Miners will pick the longest chain, since it has the most work done
@@ -8371,39 +8364,36 @@ certainly doesn’t mix with Bitcoin’s philosophy.</p>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------- 281. tiebreaking: unforgetable timestamps 2 (254) ---------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image281.png"
-   alt="Tiebreaking: Unforgetable Timestamps 2"
-   width="65%" />
-</p>
+<img class="displayed"
+  src="/images/image281.png?raw=true"
+  alt="Tiebreaking: Unforgetable Timestamps 2."
+  style="width:65%;" />
+
 <p class="em2">We’ll skip this for now.</p>
-<h3>
-Publish or Perish: Overview
-</h3>
+
+<h3>Publish or Perish: Overview</h3>
 <!------------------------------------------------------------------------------------------------>
 <!-------------------- 282. zang and preneel, publish or perish (2017)(254) ---------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image282.png"
-   alt="Zang and Perneel, Publish or Perish (2017)"
-   width="65%" />
-</p>
+<img class="displayed"
+  src="/images/image282.png?raw=true"
+  alt="Zang and Perneel, Publish or Perish (2017)."
+  style="width:65%;" />
 <!------------------------------------------------------------------------------------------------>
 <!-------------------- 283. zang and preneel, publish or perish (2017) #2 (255) ------------------>
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image283.png"
-   alt=""
-   width="65%" />
-</p>
+<img class="displayed"
+  src="/images/image283.png?raw=true"
+  alt="Zang and Perneel, Public or Perish, #2."
+  style="width:65%;" />
 <!------------------------------------------------------------------------------------------------>
 <!-------------------- 284. zang and preneel, publish or perish (2017) #3 (255) ------------------>
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image284.png"
-   alt=""
-   width="65%" />
-</p>
+<img class="displayed"
+  src="/images/image284.png?raw=true"
+  alt="Zang and Perneel, Public or Perish, #3."
+  style="width:65%;" />
+
 <p class="em2">Now we get into one of the more recent developments in selfish mining
 defenses.</p>
 <p class="em2">This one is called Publish or Perish, and was published by Zhang and
@@ -8447,12 +8437,11 @@ greater than the local head, so we just append it to the blockchain.</p>
 <!------------------------------------------------------------------------------------------------>
 <!-------------------- 285. zang and preneel, publish or perish (2017) #4 (256) ------------------>
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image285.png"
-   alt="Publish or Perish: Zang and Preneel"
-   width="65%" />
-</p>
-<p class="em2"> </p>
+<img class="displayed"
+  src="/images/image285.png?raw=true"
+  alt="Publish or Perish: Zang and Preneel, #4."
+  style="width:65%;" />
+
 <p class="em2">The term uncle refers to an in-time block that competes with a block
 parent – the parent being the previous block to the current.</p>
 <p class="em2">To formalize, the uncle of a block B is one less the height of B.
@@ -8465,11 +8454,11 @@ uncle block.</p>
 <!------------------------------------------------------------------------------------------------>
 <!------------------ 286. zang and preneel, publish or perish (2017) #5 (257) -------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image286.png"
-   alt="Publish or Perish: Weighted Fork Resolving Policy"
-   width="65%" />
-</p>
+<img class="displayed"
+  src="/images/image286.png?raw=true"
+  alt="Zang and Perneel, Public or Perish, #5."
+  style="width:65%;" />
+
 <p class="em2">We have our child block B, and previous to that, we have its parent
 A. At the same block height to A, we have blocks C and D. Block C is an
 uncle to B because it is within tau time of B’s parent, A. Block D on
@@ -8518,12 +8507,11 @@ selfish mining.</p>
 <!------------------------------------------------------------------------------------------------>
 <!------------------ 287. zang and preneel, publish or perish (2017) #6 (257) -------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image287.png"
-   alt="Publish or Perish: Selfish Miners"
-   width="65%" />
-</p>
-<p class="em2"> </p>
+<img class="displayed"
+  src="/images/image287.png?raw=true"
+  alt="Zang and Perneel, Public or Perish, #6."
+  style="width:65%;" />
+
 <p class="em2">Say that a selfish miner has already secretly mined one block. Before
 they can mine a second block, the honest network publishes a competing
 block. There’s now a block propagation race. At his point in time, the
@@ -8577,7 +8565,7 @@ both the honest and selfish chains have a weight of 3 despite the fact
 that there are only two honest blocks but three selfishly mined
 blocks</p>
 <!------------------------------------------------------------------------------------------------>
-<!------------------ 289. zang and preneel, publish or perish (2017) #8 (2xx) -------------------->
+<!------------------ 289. zang and preneel, publish or perish (2017) #8 (258) -------------------->
 <!------------------------------------------------------------------------------------------------>
 <img class="displayed"
   src="/images/image289.png?raw=true"
@@ -8604,7 +8592,7 @@ place.</p>
 <p class="em2">Here are a couple graphs on the expected revenue of selfish miners
 when publish or perish is in effect.</p>
 <!------------------------------------------------------------------------------------------------>
-<!------------------- 290. zang and preneel, publish or perish (2017) #9 (2) --------------------->
+<!----------------- 290. zang and preneel, publish or perish (2017) #9 (258) --------------------->
 <!------------------------------------------------------------------------------------------------>
 <img class="displayed"
   src="/images/image290.png?raw=true"
@@ -8620,7 +8608,7 @@ rejects selfish blocks whenever there’s a tie, with 100% accuracy.</p>
 <p class="em2">Notice that publish or perish even outperforms this theoretical
 optimal tie breaking defense.</p>
 <!------------------------------------------------------------------------------------------------>
-<!------------------- 291. zang and preneel, publish or perish (2017) #10 (257) ------------------>
+<!------------------- 291. zang and preneel, publish or perish (2017) #10 (258) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <img class="displayed"
   src="/images/image291.png?raw=true"
