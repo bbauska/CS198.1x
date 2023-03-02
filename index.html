@@ -27,7 +27,8 @@ img.displayed {
   border-width: 1px;
   border-color: #778899;
   border-style: solid; }
-
+p {
+  margin-left: 2em }
 p.em1 {
   margin-left: 1em; }
 p.em2 {
@@ -56,7 +57,7 @@ p.em4 {
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 style="text-align: center;">CS198.1x - University of California @ BerkeleyX</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--------------------------------- CS198.1x Bitcoin logo (01) ----------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ CS198.1x Bitcoin logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image001.png?raw=true"
@@ -158,17 +159,17 @@ Destroy Bitcoin</strong></a></h2>
 
 <h2>Course Syllabus</h2>
 
-<p class="em2">This course is a comprehensive and in-depth overview of the
+<p>This course is a comprehensive and in-depth overview of the
 fundamental concepts of the crypto space, with a particular emphasis on
 Bitcoin. By building intuition first from the context of
 cryptocurrencies, the first application of blockchain, we understand the
 key strengths and distinguishing factors of blockchain versus
 traditional database systems. We then leverage these core features of
 blockchain to solve new problems.</p>
-<p class="em2">The course is divided into 6 modules: Bitcoin High-Level Overview,
+<p>The course is divided into 6 modules: Bitcoin High-Level Overview,
 Blockchain History, Bitcoin Mechanics Technical Overview, Bitcoin in
 Real Life, Game Theory &amp; Network Attacks, and Ethereum &amp; Smart
-Contracts. </p>
+Contracts.</p>
 <p><strong>1. Bitcoin Protocol &amp; Consensus: A High-Level Overview</strong></p>
 <p class="em2">We begin with some fundamental concepts such as the basic properties
 and intent of centralized/decentralized currency. We then build an
@@ -188,8 +189,7 @@ Overview</strong></p>
 <p class="em2">We examine the in-depth mechanics behind Bitcoin, such as the Bitcoin
 network, cryptography and cryptographic hash functions, Bitcoin Script,
 privacy, and hash commitment schemes.</p>
-<p><strong>4. Bitcoin In Real Life: Wallets, Mining, and
-More</strong></p>
+<p><strong>4. Bitcoin In Real Life: Wallets, Mining, and More</strong></p>
 <p class="em2">We examine the most frequently used real-world aspects of Bitcoin,
 such as wallets, wallet mechanics, mining, transactions, and Bitcoin
 governance. We explain the various ways one can interface with the
@@ -226,11 +226,6 @@ blockchain use cases outside of cryptocurrency.</p>
   src="/images/expectations.png?raw=true"
   alt="Expectations: Expect from us, We expect from you."
   style="width:65%;" />
-
-<!--
-<p style="text-align: center;">
-</p>
--->
 
 <p class="em2">Also, a good unofficial resource is the Blockchain at Berkeley Public
 Slack, where we discuss various topics related to blockchain. You can
@@ -455,9 +450,9 @@ government, then you can trust the bank.</p>
 <p class="em2">But if you don’t, then you start looking for alternatives.</p>
 <p class="em2">And this is where Bitcoin comes in.</p>
 <p class="em2">Let’s take a look at how Bitcoin can fulfill a bank’s functions.</p>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------ currency: bitcoin components (11) ------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/Currency-Bitcoin components.png"
   alt="Currency: Bitcoin Components"
@@ -518,9 +513,9 @@ in Bitcoin:</p>
 identities of their customers.</p>
 <p class="em2">But how do we do this in Bitcoin, without a bank or central entity to
 keep track of who’s who and who owns what?</p>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--------------------------- 03. identity: identity in bitcoin (13) ----------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image003-identity-in-bitcoin.png"
   alt="Identity: Identity in Bitcoin"
@@ -598,9 +593,9 @@ behalf.</p>
 <p class="em2">Similarly, you would never want anyone else to have your Bitcoin
 private key as that would give control of your Bitcoin public key and,
 by implication, your Bitcoin identity.</p>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------- 04. identity: public and private keys (15) --------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image004.png"
    alt="Identity: Public and Private Keys"
@@ -634,9 +629,9 @@ for users.</p>
 <p class="em2">To generate an identity, a user picks a private key at random
 generates the public key from the private key through a mathematical
 function.</p>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--------------------------- 04. identity: a few things to note (16) ---------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image004-identity-few.png"
   alt="Identity: A Few Things to Note."
@@ -697,9 +692,9 @@ of sand.</p>
 
 <p class="em2">Even the number of grains of sand upon all these Earths is only
 0.0000000058% (8 zeroes) of all the possible Bitcoin addresses.</p>
-<h3 id="ch1-5">
-1.5 Intro: Transactions (Stage 2)
-</h3>
+
+<h3 id="ch1-5">1.5 Intro: Transactions (Stage 2)</h3>
+
 <p class="em2">So now that we have a clear understanding of the structure and
 purpose of identity in Bitcoin, we can start asking the question, “How
 do we make transactions between one another in Bitcoin?”</p>
@@ -1540,16 +1535,13 @@ consensus protocol designed by Satoshi Nakamoto which changed the way
 everyone thinks about cryptocurrencies.</p>
 <p class="em2">These are the four essential unique properties of Bitcoin: 1.
 pseudonymous, 2. decentralized, 3. immutable, and 4. trustless.</p>
-<h2>
-Bitcoin Protocol &amp; Consensus: A High Level Overview / Review,
-Readings, &amp; More
-</h2>
-<h3 id="ch1-11">
-1.11 Chapter 1 Summary:
-</h3>
-<h3>
-I. What is Bitcoin?
-</h3>
+
+<h2>Bitcoin Protocol &amp; Consensus: A High Level Overview / Review, Readings, &amp; More</h2>
+
+<h3 id="ch1-11">1.11 Chapter 1 Summary:</h3>
+
+<h3>I. What is Bitcoin?</h3>
+
 <p class="em2">Cryptocurrency is a completely digital, formless currency, tied
 together using computer science, cryptography and economics. Bitcoin is
 the first and most widely used cryptocurrency.</p>
@@ -1565,25 +1557,25 @@ their own funds. In Bitcoin, the minting and distribution of bitcoins is
 determined through mining; since anyone can mine and win bitcoins, this
 process also aims to be decentralized.</p>
 <p class="em2">Some of the challenges Bitcoin addresses are:</p>
+
 <ul>
-<li><p>The difficulty to ensure every Bitcoin node holds a consistent
-version of the transaction history</p></li>
-<li><p>The difficulty to identify malicious actors</p></li>
+  <li><p>The difficulty to ensure every Bitcoin node holds a consistent version of the transaction history</p></li>
+  <li><p>The difficulty to identify malicious actors</p></li>
 </ul>
+
 <p class="em2">These conditions may normally allow a node to conduct a Double Spend
 Attack, in which the one spends the same funds more than once by
 tricking parts of the network to believe different versions of the
 transaction history. However, Satoshi overcame this problem using
 blockchain and Proof-of-Work. </p>
 <p class="em2">Bitcoin is robust because it serves the same functions as a bank:</p>
+
 <ul>
-<li><p>Account management; the Bitcoin protocol gives users a way to
-create and manage their own identities (account)</p></li>
-<li><p>Legitimacy; It ensures we are legitimate owners and accessors of
-our accounts</p></li>
-<li><p>Record-keeping; It honestly records account balances at each
-transaction.</p></li>
+  <li><p>Account management; the Bitcoin protocol gives users a way to create and manage their own identities (account)</p></li>
+  <li><p>Legitimacy; It ensures we are legitimate owners and accessors of our accounts</p></li>
+  <li><p>Record-keeping; It honestly records account balances at each transaction.</p></li>
 </ul>
+
 <p class="em2">Unlike a bank, Bitcoin is decentralized and ensures a high degree of
 privacy and trust. </p>
 <p class="em2">Trust is built on the blockchain due to a high level of transparency:
@@ -1613,9 +1605,9 @@ of a transaction. To prevent a Sybil Attack, where users create multiple
 identities for malicious purposes, Bitcoin employs Proof of Work, where
 voting power is based on computational power, to make voting
 expensive.</p>
-<h3>
-Readings:
-</h3>
+
+<h3>Readings:</h3>
+
 <p><a
 href="https://www.theverge.com/2015/6/10/8751933/the-shy-college-student-who-helped-build-bitcoin-into-a-global" rel="noopener" target="_blank">The
 shy college student who helped build Bitcoin into a global
@@ -1632,9 +1624,9 @@ Validation”)</p>
 <p>(Optional) <a
 href="https://www.youtube.com/watch?v=l9jOJk30eQs&amp;feature=youtu.be" rel="noopener" target="_blank">How
 Bitcoin Works in 5 Minutes (Technical) </a></p>
-<h2 id="ch2">
-Chapter 2: Blockchain History
-</h2>
+
+<h2 id="ch2">Chapter 2: Blockchain History</h2>
+
 <p class="em2">A question we sometimes get from students in our class here at UC
 Berkeley is: why use Bitcoin?</p>
 <p class="em2">After all, we’ve seen that it’s <strong>slow,</strong> it’s
@@ -1655,9 +1647,9 @@ Bitcoin.</p>
 and championed privacy and power for individuals, to adoption of
 blockchain technology by JPMorgan Chase, one of the largest banking
 institutions in the United States.</p>
-<h3 id="ch2-1">
-2.1 Intro: Pre-Bitcoin
-</h3>
+
+<h3 id="ch2-1">2.1 Intro: Pre-Bitcoin</h3>
+
 <p class="em2">The roots of Bitcoin start with libertarianism.</p>
 <p class="em2">Libertarianism is a political ideology which believes that
 centralized authority should be as minimal as possible.</p>
@@ -1671,20 +1663,19 @@ privacy.</p>
 <p class="em2">From online discussions on forums and mailing lists, two groups
 formed: the Cypherpunks and the Crypto-anarchists, both of which
 advocated for the use of cryptography to protect one’s privacy.</p>
-<h3 id="ch2-2">
-2.2 Libertarian Dreams
-</h3>
-<!------------------------------------------------------------------------------------------------>
+
+<h3 id="ch2-2">2.2 Libertarian Dreams</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--------------- 32. Libertarian Dreams: Cypherpunks and Crypto-Anarchists (45) ----------------->
-<!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image032-libertarian-dreams-cypherpunks.png" 
   alt="Libertarian Dreams: Cypherpunks and Crypto-Anarchists"
   style="width:65%;" />
-</p>
-Before explaining a bit of the background behind all of this, let’s look
-at this quote first:
+
+<p>Before explaining a bit of the background behind all of this, let’s look
+at this quote first:</p>
+
 <blockquote>
 “Privacy is necessary for an open society in the electronic age. Privacy
 is not secrecy. A private matter is something one doesn’t want the whole
@@ -1697,15 +1688,14 @@ Eric Hughes, a computer programmer and mathematician from UC
 Berkeley.</p>
 <p class="em2">He’s one of the founders of the Cypherpunk movement, and in the 90s
 founded and administered the Cypherpunk mailing list.</p>
-<!------------------------------------------------------------------------------------------------>
-<!--------------- 33. Libertarian Dreams: Cypherpunks and Crypto-Anarchists (46) ----------------->
-<!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~ 33. Libertarian Dreams: Cypherpunks and Crypto-Anarchists (46) ~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image033-libertarian-dreams-cypherpunks-2.png" 
   alt="Libertarian Dreams: Cypherpunks and Crypto-Anarchists (2)"
   style="width:65%;" />
-</p>
+
 <p class="em2">The Cypherpunks and Crypto-anarchists hated the idea of national
 agencies being able to spy on them and have access to their
 information.</p>
@@ -1724,9 +1714,9 @@ privacy.</p>
 <p class="em2">And so, these libertarians saw early on the need for an anonymous
 digital “transaction system” or currency – one that gave users “the
 power to selectively reveal oneself to the world.”</p>
-<h3 id="ch2-3">
-2.3 Bitcoin Precursors
-</h3>
+
+<h3 id="ch2-3">2.3 Bitcoin Precursors</h3>
+
 <p class="em2">The Cypherpunks didn’t get together, design a cryptocurrency, and
 succeed on their first attempt.</p>
 <p class="em2">Several early attempts at making a true cryptocurrency failed, though
@@ -1734,12 +1724,11 @@ they came close.</p>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- 34. Early Attampts: Digicash (47) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image034-early-attempts-digicash.png" 
   alt="Early Attampts: Digicash"
   style="width:65%;" />
-</p>
+
 <p class="em2">These early failures inspired Bitcoin to adopt some key features that
 they implemented and learned from their mistakes.</p>
 <p class="em2">As the existing financial system was one of the greatest threats to
@@ -1764,12 +1753,11 @@ which eventually led to bankruptcy in 1998.</p>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- 35. Early Attampts: HashCash (48) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image035-early-attempts-hashcash.png" 
-  alt="Early Attampts: HashCash"
+  alt="Early Attampts: HashCash."
   style="width:65%;" />
-</p>
+
 <p class="em2">Hashcash was originally invented as a mechanism to limit email
 spam.<br>
 <br>In order to send out an email, one would have to solve a
@@ -1788,12 +1776,11 @@ hashcash disincentivized spammers.</p>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ 36. Early Attampts: B-Money (49) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image036-early-attempts-b-money.png" 
   alt="Early Attampts: B-Money"
   style="width:65%;" />
-</p>
+
 <p class="em2">B-money was an early proposal for a cryptocurrency created by Wei
 Dai.<br>
 <br>In 1998, Dai published a paper titled “B-money, an anonymous,
@@ -1820,12 +1807,11 @@ design philosophy of Bitcoin.</p>
 <!------------------------------------------------------------------------------------------------>
 <!------------------- 37. Satoshi Nakamoto: Oct, 2008 Bitcoin Whitepaper (50) -------------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image037-satoshi-nakamoto.png" 
   alt="Satoshi Nakamoto: Oct, 2008 Bitcoin Whitepaper"
   style="width:65%;" />
-</p>
+
 <p class="em2">In October 2008, a whitepaper was published online, titled, “Bitcoin:
 A Peer-to-Peer Electronic Cash System.”<br>
 <br>This 9 page whitepaper outlined the design and justification for a
@@ -1870,12 +1856,11 @@ bitcoins will have been minted.</p>
 <!------------------------------------------------------------------------------------------------>
 <!--------------------- 38. Bitcoin: The First Cryptocurrency  1/3/2009 (51) --------------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image038-bitcoin-the-first-cryptocurrency.png" 
   alt="Bitcoin: The First Cryptocurrency"
   style="width:65%;" />
-</p>
+
 <p class="em2"> <br>
 <br>Interestingly enough, Satoshi chose to include a message within the
 first block of the Bitcoin blockchain.<br>
@@ -1898,27 +1883,24 @@ tangible good.</p>
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------------- 39. bitcoin gains value (52) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image039-bitcoin-gains-value.png" 
   alt="Bitcoin gains value"
   style="width:65%;" />
-</p>
-<p class="em2"> <br>
-<br>And then in May of 2010, this post showed up on the bitcoin talk
-forum.<br>
-<br>Feel free to pause the video and read through the post, or follow the
+
+<p class="em2">And then in May of 2010, this post showed up on the bitcoin talk
+forum.</p>
+<p>Feel free to pause the video and read through the post, or follow the
 source link.<br>
-<br>In the post, we see that…</p>
+In the post, we see that…</p>
 <!------------------------------------------------------------------------------------------------>
 <!---------------- 40. may 22, 2010 - $25 pizza value paid 10,000 bitcoins (52) ------------------>
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image040-bitcoin-gains-value-2.png" 
   alt="10,000 bitcoins for a 20 dollar pizza"
   style="width:65%;" />
-</p>
+
 <p class="em2">
 <br>…in it, a man named Laszlo Hanyecz asked for pizza in exchange of
 10,000 bitcoins.<br>
@@ -1933,14 +1915,12 @@ now worth 81 million dollars.</p>
 <!------------------------------------------------------------------------------------------------>
 <!-------------------- 41. 81 million dollar pizza, may, 2010 - a first (53) --------------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image041-bitcoin-gains-value-81-million-pizza.png"
   alt="81 million dollar pizza, the first purchase"
   style="width:65%;" />
-</p>
-<p class="em2"> <br>
-<br>And here’s Laszlo reporting back on the forum about the pizza’s safe
+
+<p class="em2">And here’s Laszlo reporting back on the forum about the pizza’s safe
 delivery.<br>
 <br>Most people ridicule Laszlo for spending bitcoins on such a small
 purchase.<br>
@@ -1977,15 +1957,13 @@ illegal activity.</p>
 <!------------------------------------------------------------------------------------------------>
 <!-------------------- 42. bitcoin theft: mt gox july, 2010 - feb, 2014 (54) --------------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image042-bitcoin-theft-mt-gox-july-2010.png"
-  alt="Bitcoin Theft: Mt Gox July, 2010 - Feb, 2014"
+  alt="Bitcoin Theft: Mt Gox July, 2010 - Feb, 2014."
   style="width:65%;" />
-</p>
-<h3 id="ch2-5">
-2.5 Hacks and Scandals
-</h3>
+
+<h3 id="ch2-5">2.5 Hacks and Scandals</h3>
+
 <p class="em2">In the early stages of Bitcoin, there existed no exchange for trading
 between bitcoins and regular currencies.<br>
 <br>In 2010, Jed McCaleb, turned his domain mtgox.com into a Bitcoin
@@ -2013,12 +1991,11 @@ years.<br>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------ 43. Drug Scandal: feb, 2011 - oct, 2013 (55) -------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image043-bitcoin-drug-scandal-silk-road-feb-2011-thru-oct-2013.png" 
   alt="Bitcoin Drug Scandal: Silk Road Feb, 2011 - Oct, 2013"
   style="width:65%;" />
-</p>
+
 <p class="em2">Meanwhile, in the depths of the dark web, Bitcoin was also used to
 purchase drugs.<br>
 <br>In February 2011, the website Silk Road opened, quickly earning the
@@ -2037,15 +2014,13 @@ upwards of 26,000 bitcoins, worth $3.6 million at the time.</p>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------------ 44. bitcoin bubble (56) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image044-bitcoin-bubble.png"
   alt="Bitcoin Bubble"
   style="width:65%;" />
-</p>
-<h3 id="ch2-6">
-2.6 Bitcoin Bubble and Altcoins
-</h3>
+
+<h3 id="ch2-6">2.6 Bitcoin Bubble and Altcoins</h3>
+
 <p class="em2">Between November 1, 2013 and November 30, 2013 – less than a month –
 the price of Bitcoin rose from just under $200 to over $1000<br>
 <br>In late 2013, the Bitcoin bubble hit its peak at around $1,165 before
@@ -2060,12 +2035,11 @@ price up by continuously buying bitcoins.</p>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------------- 45. altcoins (57) ---------------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image045-explosion-of-altcoins.png"
-  alt="Explosion of Altcoins"
+  alt="Explosion of Altcoins."
   style="width:65%;" />
-</p>
+
 <p class="em2"> <br>
 <br>Soon after the creation of Bitcoin, other cryptocurrencies began
 popping up on the internet as well, each tailored to a different use
@@ -2091,15 +2065,13 @@ space.</p>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------- 46. bitcoin headlines - popularity grows (58) ------------------------>
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image046-bitcoin-headlines.png"
   alt="Bitcoin Headlines: Popularity Grows, Merchants Begin to Accept Bitcoin"
   style="width:65%;" />
-</p>
-<h3>
-Bitcoin Headlines
-</h3>
+
+<h3>Bitcoin Headlines</h3>
+
 <p class="em2">Following years of hacks and bad reputation, Bitcoin finally began to
 grow in general popularity.<br>
 <br>Here are some of the big headlines following Mt. Gox’s theft and
@@ -2130,12 +2102,11 @@ the blockchain space has matured over the years.</p>
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------------- 47. bitcoin startups (59) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image047-bitcoin-startups.png"
   alt="Bitcoin Startups"
   style="width:65%;" />
-</p>
+
 <p class="em2"> <br>
 <br>A bunch of Bitcoin startups began popping up too.<br>
 <br>Wallet companies helped other companies or users handle bitcoin
@@ -2151,13 +2122,11 @@ becoming a buzz word.</p>
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 48. and, burst the bubble (2014-2015) (60) ------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image048-and-burst.png"
   alt="2014-2015 Graph of Bitcoin Prices"
   style="width:65%;" />
-</p>
-<p class="em2"> </p>
+
 <p class="em2">This is a graph of Bitcoin prices from 2014-2015, where you can see
 that first prices shot up immensely, then slowly started to fall.</p>
 <p class="em2">Of course, we all know that the price recovered and went back up
@@ -2169,9 +2138,9 @@ had second thoughts, and began to sell.</p>
 the Chinese government.</p>
 And then of course the market amplified the current trend, so people
 further dumped because they feared a loss in value.
-<h3 id="ch2-7">
-2.7 Intro: Scalability
-</h3>
+
+<h3 id="ch2-7">2.7 Intro: Scalability</h3>
+
 <p class="em2">Historically, Bitcoin has faced a number of challenges as a
 technology, including scalability and of course public perception.<br>
 <br>Even today, being the first successful and most widely used
@@ -2187,138 +2156,127 @@ Bitcoin Struggles to Scale
 <!------------------------------------------------------------------------------------------------>
 <!----------------- 49. Bitcoin Struggles to Scale: Block Size Debate 2015 (61) ------------------>
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image049-bitcoin-struggles-to-scale.png"
   alt="Bitcoin Struggles to Scale: Block Size Debate 2015"
   style="width:65%;" />
-</p>
-<p class="em2"> <br>
-<br>One issue that has been the topic of much debate is that of
-scalability.<br>
-<br>Scalability refers to the ability of a technology to be used by
-increasing numbers of people.<br>
-<br>In the context of Bitcoin, it refers to the number of transactions
-that the network can confirm in a certain amount of time.<br>
-<br>As of March 2018, Bitcoin blocks are created every 10 minutes and can
+
+<p>One issue that has been the topic of much debate is that of
+scalability.</p>
+<p>Scalability refers to the ability of a technology to be used by
+increasing numbers of people.</p>
+<p>In the context of Bitcoin, it refers to the number of transactions
+that the network can confirm in a certain amount of time.</p>
+<p>As of March 2018, Bitcoin blocks are created every 10 minutes and can
 only hold 1MB of transactions, which is about one to three thousand
-transactions per block.<br>
-<br>Thus, we can estimate that the Bitcoin blockchain can process about
-three transactions a second.<br>
-<br>In 2015, the transaction volume exceeded the network’s capacity so
+transactions per block.</p>
+<p>Thus, we can estimate that the Bitcoin blockchain can process about
+three transactions a second.</p>
+<p>In 2015, the transaction volume exceeded the network’s capacity so
 much that blocks actually began to run out of space, meaning that
 transactions were left unconfirmed, left without being included in a
-block.<br>
-<br>This led to proposals like Bitcoin XT, Bitcoin Classic, Segregated
-Witness (commonly abbreviated as SegWit), and more recently, SegWit2x in
-order to improve the network’s transaction processing capacity.<br>
-<br>Some of these proposals rely on increasing the block size in order to
+block.</p>
+<p>This led to proposals like Bitcoin XT, Bitcoin Classic, Segregated
+Witness (commonly abpeviated as SegWit), and more recently, SegWit2x in
+order to improve the network’s transaction processing capacity.</p>
+<p>Some of these proposals rely on increasing the block size in order to
 fit more transactions, while other ones modify the underlying
-protocol.<br>
-<br>Each of these solutions have their pros and their cons, but we won’t
-discuss them in too much detail right now.<br>
-<br>The important thing to understand right now are the questions that
-the scalability debate raises about decentralized governance.<br>
-<br>For example: what do we do when we want to change Bitcoin?<br>
-<br>Governance is the mechanism by which a protocol makes changes to
-itself, but no such mechanism was encoded into the Bitcoin protocol.<br>
-<br>Instead, users introduce proposals called BIPs, or
+protocol.</p>
+<p>Each of these solutions have their pros and their cons, but we won’t
+discuss them in too much detail right now.</p>
+<p>The important thing to understand right now are the questions that
+the scalability debate raises about decentralized governance.</p>
+<p>For example: what do we do when we want to change Bitcoin?</p>
+<p>Governance is the mechanism by which a protocol makes changes to
+itself, but no such mechanism was encoded into the Bitcoin protocol.</p>
+<p>Instead, users introduce proposals called BIPs, or
 <strong><em>Bitcoin Improvement Proposals</em></strong>, outside of the
 Bitcoin network, on forums and online discussion boards, and then the
 community votes ad hoc on whether or not they want to go through with
-that change.<br>
-<br>Members can’t directly propose and vote on updates to Bitcoin within
+that change.</p>
+<p>Members can’t directly propose and vote on updates to Bitcoin within
 the actual software, but at least the current mechanism gets the job
 done.</p>
-<h3 id="ch2-8">
-2.8 Ethereum Timeline
-</h3>
+
+<h3 id="ch2-8">2.8 Ethereum Timeline</h3>
 <!------------------------------------------------------------------------------------------------>
 <!----------------- 50. bitcoin vs. ethereum: ethereum timeline 2013-2016 (62) ------------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image050-2013-2016-ethereum-timeline.png"
   alt="2013-2016: Ethereum Timeline: Bitcoin vs Ethereum"
   style="width:65%;" />
-</p>
-<p class="em2"> <br>
-<br>After Bitcoin, the next most influential blockchain platform is
-Ethereum.<br>
-<br>Bitcoin is a storage of value, that is to say, it’s
-“coin-centric”.<br>
-<br>It was created as a medium of payment transaction and a store of
-value, an alternative to regular money.<br>
-<br>Ethereum, on the other hand, was developed as a platform to execute
-peer-to-peer “smart contracts” and applications.<br>
-<br>It supports Turing-complete languages, meaning that it can perform
-general computation.<br>
-<br>In other words, any type of code that I run on a regular computer can
-also be run on Ethereum.<br>
-<br>Code execution on Ethereum is fueled by Ethereum’s internal token,
+
+<p>After Bitcoin, the next most influential blockchain platform is
+Ethereum.</p>
+<p>Bitcoin is a storage of value, that is to say, it’s
+"coin-centric".</p>
+<p>It was created as a medium of payment transaction and a store of
+value, an alternative to regular money.</p>
+<p>Ethereum, on the other hand, was developed as a platform to execute
+peer-to-peer “smart contracts” and applications.</p>
+<p>It supports Turing-complete languages, meaning that it can perform
+general computation.</p>
+<p>In other words, any type of code that I run on a regular computer can
+also be run on Ethereum.</p>
+<p>Code execution on Ethereum is fueled by Ethereum’s internal token,
 called ether.</p>
 <!------------------------------------------------------------------------------------------------>
 <!-------------------- 51. ethreum blows up: ethereum timeline 2013-2016 (63) -------------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image051-2013-2016-ethereum-blows-up.png" 
   alt="2013-2016: Ethereum Timeline: Ethereum Blows Up in Multiple Ways"
   style="width:65%;" />
-</p>
-<p class="em2"> <br>
-<br>Ethereum was first described in a whitepaper released in late 2013 by
+
+<p>Ethereum was first described in a whitepaper released in late 2013 by
 then 19-year-old Vitalik Buterin, a programmer from the University of
-Waterloo.<br>
-<br>The platform had a token sale between July and August 2014 and sold
-7.4 million ether for 3700 BTC in the first 12 hours of the presale.<br>
-<br>At the time, this was equivalent to 2.3 million USD, or in Bugatti
-terms, about 1.2 Veyrons.<br>
-<br>The Ethereum blockchain officially went live on July 30th 2015, and
+Waterloo.</p>
+<p>The platform had a token sale between July and August 2014 and sold
+7.4 million ether for 3700 BTC in the first 12 hours of the presale.</p>
+<p>At the time, this was equivalent to 2.3 million USD, or in Bugatti
+terms, about 1.2 Veyrons.</p>
+<p>The Ethereum blockchain officially went live on July 30th 2015, and
 by May 2016, the cumulative value of Ethereum tokens was more than $1
 billion.</p>
 <!------------------------------------------------------------------------------------------------>
 <!--------- 2013-2016: Ethereum Timeline: Decentralized Autonomous Organizations (63) ------------>
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image052-2013-2016-ethereum-timeline-dao.png"
   alt="2013-2016: Ethereum Timeline: Decentralized Autonomous Organizations"
   style="width:65%;" />
-</p>
-<p class="em2"> <br>
-<br>Around that time, the idea of Decentralized Autonomous Organizations
-(DAOs for short) became hugely popular.<br>
-<br>DAOs are essentially programs on the Ethereum blockchain that create
-a distributed government.<br>
-<br>“TheDAO” was a specific project that would serve as a decentralized
+
+<p>Around that time, the idea of Decentralized Autonomous Organizations
+(DAOs for short) became hugely popular.</p>
+<p>DAOs are essentially programs on the Ethereum blockchain that create
+a distributed government.</p>
+<p>“TheDAO” was a specific project that would serve as a decentralized
 Venture Capital, allowing their investors to vote and decide on the
-distribution of funds between startups.<br>
-<br>However, in July 2016, these dreams came crashing down when a hacker
+distribution of funds between startups.</p>
+<p>However, in July 2016, these dreams came crashing down when a hacker
 exploited a bug in the underlying code, stealing about $120 million
-worth of Ether from TheDAO smart contract.<br>
-<br>Outraged by the enormous theft, several voices in the community
-proposed to defy the protocol and undo the hack.<br>
-<br>The majority of community decided to simultaneously rewind their own
+worth of Ether from TheDAO smart contract.</p>
+<p>Outraged by the enormous theft, several voices in the community
+proposed to defy the protocol and undo the hack.</p>
+<p>The majority of community decided to simultaneously rewind their own
 chain and ignore all activity starting from the hack, but a small subset
-chose not to undo that activity with the belief that “code is law.”<br>
-<br>The split that rewinded (zurückgespult) history is the split that is
-currently branded as Ethereum.<br>
-<br>The remainder that believed that nothing - including catastrophic
+chose not to undo that activity with the belief that “code is law.”</p>
+<p>The split that rewinded (zurückgespult) history is the split that is
+currently panded as Ethereum.</p>
+<p>The remainder that believed that nothing - including catastrophic
 events like the DAO Hack – should be reverted stayed on the main chain,
 now known as Ethereum Classic.</p>
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- 53. ethereum bubble 2016-2018ish (64) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image053-2016-to-present-ethereum-bubble.png"
   alt="2016-??: Ethereum Bubble"
   style="width:65%;" />
-</p>
-<h3>
-Ethereum Bubble
-</h3>
+
+<h3>Ethereum Bubble</h3>
+
 <p class="em2">On June 21st 2017, the price of Ethereum on the exchange GDAX crashed
 briefly to 10 cents USD per ether due to a massive sell order.</p>
 <p class="em2">This is a testament to the massive volatility of cryptocurrency
@@ -2354,12 +2312,11 @@ starting to be broadcasted on public radio further contributes to this
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------- 54. 2016-2017: Hype Train (65) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image054-2016-2017-hype-train.png" 
   alt="2016-2017: Hype Train"
   style="width:65%;" />
-</p>
+
 <p class="em2">And economic and political circumstances like Brexit, Trump’s
 election, or India’s war on cash can also contribute to driving up the
 price of cryptocurrencies, since they tend to undermine people’s trust
@@ -2371,13 +2328,11 @@ popular, resulting in a massive hype train.</p>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ 55. 2016-2017: More Hype Train (66) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image055-2016-2017-hype-train-2.png"
   alt="2016-2017: More Hype Train"
   style="width:65%;" />
-</p>
-<p class="em2"> </p>
+
 <p class="em2">In December 2017, cryptocurrencies started attracting much more
 “mainstream” attention, and let to a change in the demographic of the
 people who were invest, in particular, an increase in the number of
@@ -2391,198 +2346,180 @@ than make decisions based on volatility and prices.</p>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------ 56. 2017-2019ish: Get Off at this Station (66) ------------------------>
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image056-2017-get-off-at-this-station.png"
   alt="2017-2019ish: Get Off at This Station"
   style="width:65%;" />
-</p>
-<p class="em2"> <br>
-<br>Although the price of Bitcoin is many, many times higher than what it
+
+<p>Although the price of Bitcoin is many, many times higher than what it
 was a year ago, it’s started to take a downward turn in the beginning of
-2018 after peaking in December 2017.<br>
-<br>An increase in the amount of international regulation especially in
+2018 after peaking in December 2017.</p>
+<p>An increase in the amount of international regulation especially in
 India…South Korea…US and the UK, combined with a “mob mentality” of
 people investing without truly believing in the technology led to
 quickly changing market caps, and eventually the hype train crashed.</p>
-<h3 id="ch2-9">
-2.9 Intro: Enterprise Blockchain
-</h3>
-<p class="em2">While blockchain technology was initially developed to underlie
+
+<h3 id="ch2-9">2.9 Intro: Enterprise Blockchain</h3>
+
+<p>While blockchain technology was initially developed to underlie
 cryptocurrencies, it quickly drew the attention of enterprises, which
 wanted to harness the same technology to create private or permissioned
-blockchains.<br>
-<br>Thus, gave rise to enterprise blockchains.<br>
-<br>We’ve been talking a lot about public blockchains like Bitcoin and
-Ethereum.<br>
-<br>Now we’ll be switching gears to see how blockchain fits in with
-enterprises, particularly with banks – ironically enough.<br>
-<br>As a technology that was initially created to avoid large banks and
+blockchains.</p>
+<p>Thus, gave rise to enterprise blockchains.</p>
+<p>We’ve been talking a lot about public blockchains like Bitcoin and
+Ethereum.</p>
+<p>Now we’ll be switching gears to see how blockchain fits in with
+enterprises, particularly with banks – ironically enough.</p>
+<p>As a technology that was initially created to avoid large banks and
 powerful centralized institutions, blockchain seems to have come full
 circle…</p>
-<h3>
-Banks and Blockchain
-</h3>
+
+<h3>Banks and Blockchain</h3>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------- 57. Banks and Blockchain (67) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image057-banks-and-blockchain.png"
   alt="Banks and Blockchain"
   style="width:65%;" />
-</p>
-<p class="em2"> <br>
-<br>As blockchain became more mainstream, banks started to pick up on the
-technology as well.<br>
-<br>They took note of Bitcoin and what it offered as a digital currency,
+
+<p>As blockchain became more mainstream, banks started to pick up on the
+technology as well.</p>
+<p>They took note of Bitcoin and what it offered as a digital currency,
 but did not agree with Bitcoin’s design goals of being open,
-decentralized, and trustless.<br>
-<br>After all, banks want their users to trust them, and keep operations
-private and controllable.<br>
-<br>Banks looked for a way to apply blockchain technology WITHOUT having
+decentralized, and trustless.</p>
+<p>After all, banks want their users to trust them, and keep operations
+private and controllable.</p>
+<p>Banks looked for a way to apply blockchain technology WITHOUT having
 to replace the US dollar or any other national currency with
-cryptocurrency.<br>
-<br>They wanted to find ways to leverage this new distributed ledger
+cryptocurrency.</p>
+<p>They wanted to find ways to leverage this new distributed ledger
 technology without inheriting the trustless, distributed, and
-decentralized overhead from Bitcoin.<br>
-<br>This led to a rise of interest in “private blockchains” or
+decentralized overhead from Bitcoin.</p>
+<p>This led to a rise of interest in “private blockchains” or
 “permissioned ledgers,” where the network is not open, not trustless,
 and does not have a mining scheme with underlying economic incentives
-(mining rewards).<br>
-<br>In a sense, they wanted to separate “blockchain” from “Bitcoin”.<br>
-<br>These blockchains take the fundamental cryptographic technology from
+(mining rewards).</p>
+<p>In a sense, they wanted to separate “blockchain” from “Bitcoin”.</p>
+<p>These blockchains take the fundamental cryptographic technology from
 bitcoin (public key cryptography) and modify it to be more compliant to
 enterprise use.</p>
 <!------------------------------------------------------------------------------------------------>
 <!---------------------- 58. Private Blockchain Initiatives (68) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image058-private-blockchain-initiatives.png"
   alt="Private Blockchain Initiatives"
   style="width:65%;" />
-</p>
-<p class="em2">There are many different enterprise technologies in the space today,
+
+<p>There are many different enterprise technologies in the space today,
 including R3’s Corda, Chain, JP Morgan’s Quorum and Juno, and Digital
-Asset Holdings.<br>
-<br>The Hyperledger project is an open source blockchain run by Digital
-Asset Holdings and the Linux Foundation.<br>
-<br>IBM’s Open Blockchain is a platform that is now part of the
-Hyperledger project as “Fabric”.<br>
-<br>The way that companies, especially financial institutions, have
+Asset Holdings.</p>
+<p>The Hyperledger project is an open source blockchain run by Digital
+Asset Holdings and the Linux Foundation.</p>
+<p>IBM’s Open Blockchain is a platform that is now part of the
+Hyperledger project as “Fapic”.</p>
+<p>The way that companies, especially financial institutions, have
 looked at blockchain technology has changed drastically over the past
-few years.<br>
-<br>Let’s take a look specifically at Jamie Dimon, the CEO of JP Morgan
+few years.</p>
+<p>Let’s take a look specifically at Jamie Dimon, the CEO of JP Morgan
 Chase…</p>
 <!------------------------------------------------------------------------------------------------>
 <!-------------- 59. Quotes from Jamie Dimon, the CEO of JP Morgan Chase (69) -------------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image059-dimon-quotes.png"
   alt="Quotes from Jamie Dimon, the CEO of JP Morgan Chase - Jan, 2014"
   style="width:65%;" />
-</p>
-<p class="em2"> <br>
-<br>…As one of the most influential figures in the financial sector, his
+
+<p>…As one of the most influential figures in the financial sector, his
 words can play a huge part in shaping the public opinion on
-blockchain.<br>
-<br>In January 2014, he said about Bitcoin “It’s a terrible store of
+blockchain.</p>
+<p>In January 2014, he said about Bitcoin “It’s a terrible store of
 value. It could be replicated over and over.”, which doesn’t really mean
 anything, indicating that people really didn’t, and still don’t
 understand what Bitcoin is.</p>
 <!------------------------------------------------------------------------------------------------>
 <!--------------- 60. Quotes (2) from Jamie Dimon, the CEO of JP Morgan Chase -------------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image060-dimon-quotes-2.png"
   alt="Quotes (2) from Jamie Dimon, the CEO of JP Morgan Chase"
   style="width:65%;" />
-</p>
-<p class="em2">In October 2014, he said “Bitcoin developers are going to try and eat
+
+<p>In October 2014, he said “Bitcoin developers are going to try and eat
 our lunch. And that’s fine. That’s called competition, and we’ll be
-competing.”<br>
-<br>The statement seems aggressive, but he actually gives legitimacy to
+competing.”</p>
+<p>The statement seems aggressive, but he actually gives legitimacy to
 Bitcoin by suggesting that it’s a competitor to traditional banks and
 finance.</p>
 <!------------------------------------------------------------------------------------------------>
 <!------------- 61. Quotes (3) from Jamie Dimon, the CEO of JP Morgan Chase (70) ----------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image061-dimon-quotes-3.png"
   alt="Quotes (3) from Jamie Dimon, the CEO of JP Morgan Chase"
   style="width:65%;" />
-</p>
-<p class="em2"> <br>
-<br>In November 2015, “Virtual currency, where it’s called a bitcoin
+
+<p>In November 2015, “Virtual currency, where it’s called a bitcoin
 vs. a US Dollar, that’s going to be stopped…No government will ever
 support a virtual currency that goes around borders and doesn’t have the
-same control. It’s not going to happen.”<br>
-<br>Now, Bitcoin isn’t just competition, it’s a bona fide threat.<br>
-<br>It’s something that bankers can’t control, and they hate it.</p>
+same control. It’s not going to happen.”</p>
+<p>Now, Bitcoin isn’t just competition, it’s a bona fide threat.</p>
+<p>It’s something that bankers can’t control, and they hate it.</p>
 <!------------------------------------------------------------------------------------------------>
 <!-------- 62. Quotes (4) from Jamie Dimon, the CEO of JP Morgan Chase - Oct, 2017 (71) ---------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image062-dimon-quotes-4.png"
   alt="Quotes (4) from Jamie Dimon, the CEO of JP Morgan Chase"
   style="width:65%;" />
-</p>
+
 <p class="em2">In October 2017, he said “Bitcoin is a fraud that won’t end well. If
 you’re stupid enough to buy Bitcoin, you’ll pay for the price of it one
 day. The blockchain is a technology which is a good technology. We
-actually use it…God bless the blockchain.”<br>
-<br>Note that it looks like Dimon has started to understand the merits of
-blockchain technology as opposed to just Bitcoin itself.<br>
-<br>His stance towards Bitcoin doesn’t seem to have changed.<br>
-<br>These comments were actually made at an event hosted by the Institute
-of International Finance, which was hugely publicized.<br>
-<br>Just to drive his point home, here are some more comments he made in
+actually use it…God bless the blockchain.”<p>
+<p>Note that it looks like Dimon has started to understand the merits of
+blockchain technology as opposed to just Bitcoin itself.<p>
+<p>His stance towards Bitcoin doesn’t seem to have changed.<p>
+<p>These comments were actually made at an event hosted by the Institute
+of International Finance, which was hugely publicized.<p>
+<p>Just to drive his point home, here are some more comments he made in
 September 2017.</p>
 <!------------------------------------------------------------------------------------------------>
 <!------------ 63. Quotes (5) from Jamie Dimon, the CEO of JP Morgan Chase (71) ------------------>
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image063-dimon-quotes-5.png"
   alt="Quotes (5) from Jamie Dimon, the CEO of JP Morgan Chase"
   style="width:65%;" />
-</p>
-<p class="em2"> <br>
-<br>“I’d fire a JP Morgan trader in a second who traded [Bitcoin]. It’s
-against the rules, it’s stupid, it’s dangerous.”<br>
-<br>And in another quote he said “One of my daughters bought bitcoin and
+
+<p>“I’d fire a JP Morgan trader in a second who traded [Bitcoin]. It’s
+against the rules, it’s stupid, it’s dangerous.”</p>
+<p>And in another quote he said “One of my daughters bought bitcoin and
 it went up, she thinks she is a genius.”</p>
 <!------------------------------------------------------------------------------------------------>
 <!-------- 64. Quotes (6) from Jamie Dimon, the CEO of JP Morgan Chase - Jan, 2018 (72) ---------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image064-dimon-quotes-6.png"
   alt="Quotes (6) from Jamie Dimon, the CEO of JP Morgan Chase - Jan, 2018"
   style="width:65%;" />
-</p>
+
 <p class="em2">In January 2018, he said “The blockchain is real. You can have crypto
 yen and dollars and stuff like that … the bitcoin to me was always what
 the governments are gonna feel about bitcoin as it gets really big, and
 I just have a different opinion than other people.”</p>
-<h3>
-Blockchain Community and Politics
-</h3>
+
+<h3>Blockchain Community and Politics</h3>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- 65. crypto-anarchy (73) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image065-crypto-anarchy.png"
   alt="Crypto Anarchy"
   style="width:65%;" />
-</p>
-<p class="em2"> </p>
+
 <p class="em2">Cryptocurrency and blockchain technology started its roller coaster
 of a journey with a small group of cypherpunks, who believed in
 cryptography as means to promote privacy…it had a rough beginning as we
@@ -2592,46 +2529,43 @@ firms.</p>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------ 66. digicash: untraceable electronic cash (73) ------------------------>
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image066-digicash.png"
   alt="Digicash: Untraceable Electronic Cash"
   style="width:65%;" />
-</p>
+
 <p class="em2">The history of Bitcoin and Blockchain is a story of rapid
-transformation.<br>
-<br>Originating as a fledgling technology founded on libertarian ideals,
+transformation.<p>
+<p>Originating as a fledgling technology founded on libertarian ideals,
 Bitcoin had its beginnings in an industry full of scandals and
-activity.<br>
-<br>As bitcoin began to rise in value and attract attention from a wider
+activity.<p>
+<p>As bitcoin began to rise in value and attract attention from a wider
 and wider audience, there was a shift in focus away from Bitcoin itself
 and more into the other innovations made possible by the underlying
 technology, the blockchain.</p>
 <!------------------------------------------------------------------------------------------------>
 <!------------------ 67. community: where does the community exist? (74) ------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image067-community.png"
   alt="Community: Where Does the Community Exist?"
   style="width:65%;" />
-</p>
-<p class="em2"> <br>
-<br>Where exactly do people discuss bitcoin and blockchain
-technology?<br>
-<br>There are a few different forums that people use.<br>
-<br>There’s Reddit’s r/bitcoin, online discussion boards like
+
+<p>Where exactly do people discuss bitcoin and blockchain
+technology?<p>
+<p>There are a few different forums that people use.<p>
+<p>There’s Reddit’s r/bitcoin, online discussion boards like
 Bitcointalk.org, Bitcoin meetups and conferences, and Bitcoin specific
-IRC Channels.<br>
-<br>There are also organizations like us (Blockchain at Berkeley), that
+IRC Channels.<p>
+<p>There are also organizations like us (Blockchain at Berkeley), that
 are dedicated to discussing and pushing forward blockchain
-technology.<br>
-<br>We have a Slack channel with over 2000 members that people use to
-discuss news and developments in the blockchain space.<br>
-<br>We also host many public events, workshops, and meetups, teach
+technology.<p>
+<p>We have a Slack channel with over 2000 members that people use to
+discuss news and developments in the blockchain space.<p>
+<p>We also host many public events, workshops, and meetups, teach
 multiple classes on the UC Berkeley campus, and also this one
-online.<br>
-<br>And this all done to foster and develop the blockchain community.</p>
+online.<p>
+<p>And this all done to foster and develop the blockchain community.</p>
 <!------------------------------------------------------------------------------------------------>
 <!----------------- 68. politics: internal politics and libertarianism (75) ---------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -2669,8 +2603,8 @@ to do what they want.</p>
   style="width:65%;" />
 </p>
 <p class="em2">The flag on this slide is the Gadsen flag, which has strong
-Libertarian roots.<br>
-<br>It’s used as a libertarian symbol because the porcupine is the
+Libertarian roots.<p>
+<p>It’s used as a libertarian symbol because the porcupine is the
 “quiet”, unassuming warrior of the forest, which doesn’t attack so long
 as you leave it alone.</p>
 <!------------------------------------------------------------------------------------------------>
@@ -2682,30 +2616,30 @@ as you leave it alone.</p>
   alt="Conversational Topics"
   style="width:65%;" />
 </p>
-<p class="em2"> <br>
-<br>The United States government tries to best represent its citizens’
-opinions and interests through a representative democracy.<br>
-<br>In the blockchain community, there are different ways of coming to
+<p class="em2"> <p>
+<p>The United States government tries to best represent its citizens’
+opinions and interests through a representative democracy.<p>
+<p>In the blockchain community, there are different ways of coming to
 consensus about the changes that happen, and the process isn’t always
-smooth.<br>
-<br>For example, in a previous section, we talked about Bitcoin
-Improvement Proposals.<br>
-<br>Some controversial topics in the blockchain space have been
+smooth.<p>
+<p>For example, in a previous section, we talked about Bitcoin
+Improvement Proposals.<p>
+<p>Some controversial topics in the blockchain space have been
 surrounding problems like block size (specifically segwit2x),
 confirmation times, and centralization in third party companies (Intel’s
-SGX).<br>
-<br>In this course, we explain these issues in an objective fashion, and
+SGX).<p>
+<p>In this course, we explain these issues in an objective fashion, and
 let you form your own opinion on these debates.</p>
 <h3 id="ch2-10">
 2.10 Intro: State of the Industry
 </h3>
 <p class="em2">We’ve told the story of Bitcoin and blockchain: from the cypherpunk
-movement all the way to JP Morgan Chase.<br>
-<br>We’ve also explained a bit about the Bitcoin and blockchain
+movement all the way to JP Morgan Chase.<p>
+<p>We’ve also explained a bit about the Bitcoin and blockchain
 community: where it exists both online and offline, and a bit about the
-political landscape.<br>
-<br>So where is the space now?<br>
-<br>That’s what we’re going to explore in this next section on the state
+political landscape.<p>
+<p>So where is the space now?<p>
+<p>That’s what we’re going to explore in this next section on the state
 of the industry.</p>
 <h3>
 ICO’s:
@@ -2719,49 +2653,47 @@ ICO’s:
   alt="ICO's: The Hype"
   style="width:65%;" />
 </p>
-<p class="em2"> <br>
-<br>Nowadays, you can’t speak about the state of the blockchain industry
-without at least mentioning ICOs, or initial coin offerings.<br>
-<br>They’re a way for new projects, startups, and companies to sell their
-underlying crypto tokens in exchange for investors’ money.<br>
-<br>Think of ICOs as Initial Public Offerings, but instead of investors
+<p class="em2"> <p>
+<p>Nowadays, you can’t speak about the state of the blockchain industry
+without at least mentioning ICOs, or initial coin offerings.<p>
+<p>They’re a way for new projects, startups, and companies to sell their
+underlying crypto tokens in exchange for investors’ money.<p>
+<p>Think of ICOs as Initial Public Offerings, but instead of investors
 purchasing shares of a company, they purchase the coin underlying a new
-project.<br>
-<br>ICOs are very different from equity.<br>
-<br>Having a new project’s coin doesn’t give you ownership of the
+project.<p>
+<p>ICOs are very different from equity.<p>
+<p>Having a new project’s coin doesn’t give you ownership of the
 project, but instead enable you to use the project when it becomes
-available.<br>
-<br>Thereby, by buying into an ICO, it shows that you are interested in
-this new project.<br>
-<br>This incentivizes others to do the same, showing that the project
+available.<p>
+<p>Thereby, by buying into an ICO, it shows that you are interested in
+this new project.<p>
+<p>This incentivizes others to do the same, showing that the project
 will probably be widely used, since without the associated token, you
-can’t use the project.<br>
-<br>For example, here are a couple famous ICOs: Bancor ICO raised $150
-million<br>
-<br>Tezos (XTZ) ICO raised $200 million Filecoin ICO raised $253
-million<br>
-<br>ICOs are permissionless and enable ANYONE to invest in a project that
-they feel will be successful.<br>
-<br>We put emphasis on the word ANYONE because of the open and public
+can’t use the project.<p>
+<p>For example, here are a couple famous ICOs: Bancor ICO raised $150
+million<p>
+<p>Tezos (XTZ) ICO raised $200 million Filecoin ICO raised $253
+million<p>
+<p>ICOs are permissionless and enable ANYONE to invest in a project that
+they feel will be successful.<p>
+<p>We put emphasis on the word ANYONE because of the open and public
 nature of these cryptocurrencies.</p>
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 72. Initial Coin Offerings (ICO's) (86) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image072-icos-doing-what-you-want.png"
   alt="ICO's: Doing What You Want"
   style="width:65%;" />
-</p>
-<p class="em2"> <br>
-<br>And when you think of it, it’s pretty wild.<br>
-<br>From this tweet:<br>
-<br>“95% of Americans are not allowed by law to invest in start-ups.<br>
-<br>Only ‘accredited investors’ are entitled to do so, but you can buy
-lottery tickets all you want or go to Las Vegas to gamble”<br>
-<br>This shows that ICOs are leveling the playing field for
-investments.<br>
-<br>Normal people now can invest in any blockchain project they want
+
+<p>And when you think of it, it’s pretty wild.<p>
+<p>From this tweet:<p>
+<p>“95% of Americans are not allowed by law to invest in start-ups.<p>
+<p>Only ‘accredited investors’ are entitled to do so, but you can buy
+lottery tickets all you want or go to Las Vegas to gamble”<p>
+<p>This shows that ICOs are leveling the playing field for
+investments.<p>
+<p>Normal people now can invest in any blockchain project they want
 to.</p>
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------- 73. explosion of altcoins (87) -------------------------------->
@@ -2772,12 +2704,12 @@ to.</p>
   alt="Explosion of altcoins"
   style="width:65%;" />
 </p>
-<p class="em2"> <br>
-<br>And with so many new projects coming out, some with more potential
-than others, the community needs some way to support them.<br>
-<br>That’s where ICOs come in.<br>
-<br>As a comparison:<br>
-<br>In Q3’17, ICOs have raised $1.3B with 150 ICOs while seed/angel
+<p class="em2"> <p>
+<p>And with so many new projects coming out, some with more potential
+than others, the community needs some way to support them.<p>
+<p>That’s where ICOs come in.<p>
+<p>As a comparison:<p>
+<p>In Q3’17, ICOs have raised $1.3B with 150 ICOs while seed/angel
 investing across all tech sectors has raised $1.4B across 1,602
 deals.</p>
 <h3>
@@ -2792,30 +2724,30 @@ Industry Projects
   alt="Cryptokitties and the hype, 2017"
   style="width:65%;" />
 </p>
-<p class="em2"> <br>
-<br>Perhaps one of the most popular projects of 2017 was
-Cryptokitties.<br>
-<br>The idea behind Cryptokitties was to allow users to purchase,
-collect, breed, and sell various types of virtual cats in a virtual game
-run on the Ethereum blockchain.<br>
-<br>Each Cryptokitty is unique and ownership is validated through the
-blockchain.<br>
-<br>Initially presented as a hackathon project at EthWaterloo in October
+<p class="em2"> <p>
+<p>Perhaps one of the most popular projects of 2017 was
+Cryptokitties.<p>
+<p>The idea behind Cryptokitties was to allow users to purchase,
+collect, peed, and sell various types of virtual cats in a virtual game
+run on the Ethereum blockchain.<p>
+<p>Each Cryptokitty is unique and ownership is validated through the
+blockchain.<p>
+<p>Initially presented as a hackathon project at EthWaterloo in October
 2017, Cryptokitties launched at the end of November 2017 and its
 popularity quickly skyrocketed – so much so that in December,
 Cryptokitties was responsible for an all-time high transaction volume,
-congesting and significantly slowing down the Ethereum network.<br>
-<br>Some have blamed Cryptokitties for blocking out “more serious”
+congesting and significantly slowing down the Ethereum network.<p>
+<p>Some have blamed Cryptokitties for blocking out “more serious”
 transactions on the Ethereum network, and some have compared
 Cryptokitties to the Beanie Baby craze, saying that both are naturally
-devoid of value.<br>
-<br>On the bright side, however, some people think that cryptokitties
-contributed to the popularity of ethereum and brought public awareness
+devoid of value.<p>
+<p>On the pight side, however, some people think that cryptokitties
+contributed to the popularity of ethereum and pought public awareness
 to the cryptocurrency space, which is helpful for the public adoption of
-cryptocurrencies.<br>
-<br>It’s clear that cryptocurrencies and blockchain are hugely popular
-now.<br>
-<br>Whether or not its mainstream spotlight and growing popularity is a
+cryptocurrencies.<p>
+<p>It’s clear that cryptocurrencies and blockchain are hugely popular
+now.<p>
+<p>Whether or not its mainstream spotlight and growing popularity is a
 good thing is another question.</p>
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------------- 75. parity: security (89) ----------------------------------->
@@ -2827,11 +2759,11 @@ good thing is another question.</p>
   style="width:65%;" />
 </p>
 <p class="em2">With the growing popularity of blockchain and cryptocurrencies, it’s
-important to have good wallet software.<br>
-<br>Parity wallet is a popular multisignature wallet, which requires
+important to have good wallet software.<p>
+<p>Parity wallet is a popular multisignature wallet, which requires
 multiple people to sign off on transactions, and was created by Ethereum
-co-founder Gavin Wood and his team at Parity Technologies.<br>
-<br>Parity marketed itself as the fastest and most secure way of
+co-founder Gavin Wood and his team at Parity Technologies.<p>
+<p>Parity marketed itself as the fastest and most secure way of
 interacting with the Ethereum blockchain, but in November 2017, this
 happened…</p>
 <!------------------------------------------------------------------------------------------------>
@@ -2843,24 +2775,24 @@ happened…</p>
   alt="Parity got hacked...accidentally - Nov, 2017"
   style="width:65%;" />
 </p>
-<p class="em2"> <br>
-<br>A user by the name of devops199 accidentally locked up 300 million US
+<p class="em2"> <p>
+<p>A user by the name of devops199 accidentally locked up 300 million US
 dollars worth of ether that had been owned by users of Parity multisig
-wallet.<br>
-<br>One note: by the time I went to GitHub to take a screenshot of the
+wallet.<p>
+<p>One note: by the time I went to GitHub to take a screenshot of the
 issue devops199 opened up, they had already deleted their account –
 which is why it says “Ghost,” which is what it says for deleted
-users.<br>
-<br>Parity had relied on an external smart contract to use as a software
-library for more heavy computation, and this smart contract had not had
+users.<p>
+<p>Parity had relied on an external smart contract to use as a software
+lipary for more heavy computation, and this smart contract had not had
 an extensive security audit before launch on the public Ethereum
-network.<br>
-<br>All it took was for one curious learner to call the “kill” function –
-and then 300 million was lost.<br>
-<br>Due to Ethereum architecture, and the immutability of public
+network.<p>
+<p>All it took was for one curious learner to call the “kill” function –
+and then 300 million was lost.<p>
+<p>Due to Ethereum architecture, and the immutability of public
 blockchains, code that is published is hard to take down, so it’s
-important that smart contracts do not have bugs.<br>
-<br>This was a huge eye-opening moment for the Ethereum community as a
+important that smart contracts do not have bugs.<p>
+<p>This was a huge eye-opening moment for the Ethereum community as a
 whole, and taught developers – especially open source developers – to
 fully audit the security of mission critical code.</p>
 <!------------------------------------------------------------------------------------------------>
@@ -2872,45 +2804,44 @@ fully audit the security of mission critical code.</p>
   alt="Coincheck got hacked, jan, 2018"
   style="width:65%;" />
 </p>
-<p class="em2"> </p>
-<p class="em2">Coincheck was marketed as one of the largest and most popular
+<p> </p>
+<p">Coincheck was marketed as one of the largest and most popular
 cryptocurrency exchanges in Asia – at least up until a hack in January
 2018 that after the dust had settled turned out to be the largest
 cryptocurrency hack in history.</p>
-<p class="em2">More than half a billion US dollars were stolen in the Coincheck hack
+<p>More than half a billion US dollars were stolen in the Coincheck hack
 of January 2018.</p>
-<p class="em2">Compare this to the already immense Mt. Gox hack in 2014 that
+<p>Compare this to the already immense Mt. Gox hack in 2014 that
 resulted in 400 million US dollars stolen or lost.</p>
-<p class="em2">Coincheck estimated that upwards of 250,000 (two hundred fifty
+<p>Coincheck estimated that upwards of 250,000 (two hundred fifty
 thousand) users were affected by the hack, and reassured users that it
 was not an inside job, but a legitimate breach and hack.</p>
-<p class="em2">Most of the cryptocurrency stolen in the Coincheck hack was lost in a
+<p>Most of the cryptocurrency stolen in the Coincheck hack was lost in a
 single event.</p>
-<p class="em2">And compare this with Mt. Gox, which we had mentioned lost a majority
+<p>And compare this with Mt. Gox, which we had mentioned lost a majority
 of its cryptocurrency through multiple thefts across a span of multiple
 years.</p>
-<p class="em2">The landscape for crypto and blockchain is pretty wild in the current
+<p>The landscape for crypto and blockchain is pretty wild in the current
 day.</p>
-<p class="em2">There are a lot of exchanges, wallet software, and other blockchain
+<p>There are a lot of exchanges, wallet software, and other blockchain
 utility applications, and an even greater number of ICOs out there.</p>
-<p class="em2">Since blockchain is still young, it’s important to do your own due
+<p>Since blockchain is still young, it’s important to do your own due
 diligence when using blockchain software.</p>
-<p class="em2">Looking at the broader picture, that’s one of the goals of this
+<p>Looking at the broader picture, that’s one of the goals of this
 course – to get you to start thinking critically about blockchain
 fundamentals and the more technical aspects about the technology that
 can then help inform your own personal decisions.</p>
-<h3 id="ch2-11">
-2.11 Chapter 2 Summary
-</h3>
-<h3>
-Pre-Bitcoin: Libertarian Dreams
-</h3>
-<p class="em2">In the face of increasingly powerful banks and national agencies, the
+
+<h3 id="ch2-11">2.11 Chapter 2 Summary</h3>
+
+<h3>Pre-Bitcoin: Libertarian Dreams</h3>
+
+<p>In the face of increasingly powerful banks and national agencies, the
 Cypherpunks and Crypto-anarchists of the late 1980s advocated the use of
 cryptography to preserve privacy, which they defined as the power to
 selectively reveal oneself. They sought to develop an anonymous digital
 transaction system. </p>
-<p class="em2">In October 2008, Satoshi Nakamoto released the Bitcoin whitepaper,
+<p>In October 2008, Satoshi Nakamoto released the Bitcoin whitepaper,
 which outlined, for the first time, an anonymous, trustless,
 decentralized cryptocurrency.Bitcoin was built upon a history of failed
 cryptocurrencies, including Digicash, Hashcash, and B-money. Bitcoin
@@ -2922,26 +2853,24 @@ authenticating transactions using blind signatures. As in B-money, every
 Bitcoin full node maintains a copy of the blockchain. Bitcoin is a
 deflationary currency, with 21 million total bitcoins that will be
 slowly introduced to the bitcoin supply via block rewards.</p>
-<p class="em2">The first transaction using Bitcoin to purchase a tangible asset
+<p>The first transaction using Bitcoin to purchase a tangible asset
 occurred in 2010, when Laszlo Hanyecz exchanged 10,000 bitcoin for $25
 worth of pizza. This exchange gave bitcoins real value, a first step
 towards legitimacy. </p>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------- 78. pizza 10,000 bitcoins (92) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image078-pizza-pizza.png"
   alt="Image of Laszlo Hanyecz&#39;s pizzas that he ordered online. His post: &quot;I just want to report that I successfully traded 10,000 bitcoins for pizza"
   style="width:65%;" />
-</p>
-<h3>
-Early Bitcoin: Scandals, Hacks, and Illegal Activity
-</h3>
+
+<h3>Early Bitcoin: Scandals, Hacks, and Illegal Activity</h3>
+
 <p class="em2">As Bitcoin began increasing in popularity, it also began facing
 increasing cases of thefts, hacks, and illegal activity. The first was a
 large hack on Magic: The Gathering Online Exchange (Mt. Gox), one of the
-first Bitcoin exchange website created in 2010. </p>
+first Bitcoin exchange website created in 2010.</p>
 <p class="em2">Bitcoin was also used for the purchase of illegal substances on the
 dark web, especially through the website “Silk Road,” nicknamed the
 “eBay for Drugs.” As Bitcoin became more accessible and useful to the
@@ -2954,9 +2883,9 @@ started accepting Bitcoin. Bitcoin startups and wallet companies,
 including Coinbase, Bitpay, and Blockchain.info, started appearing
 around this time as well. Around this time, people started to
 differentiate between the term blockchain from Bitcoin. </p>
-<h3>
-Scalability Debates and Ethereum
-</h3>
+
+<h3>Scalability Debates and Ethereum</h3>
+
 <p class="em2">Bitcoin is far from perfect. One of the biggest technological
 challenges Bitcoin faces is that of scalability. Such issues raise
 concern of decentralized governance. Currently, Bitcoin users may
@@ -2980,9 +2909,9 @@ Offerings and cryptocurrency exchange-traded-funds increased Ethereum’s
 price overall. Economic and political changes in early 2017 along with
 an expansion of the crypto user base to include millennials further
 contributed to growth in Ethereum value and transaction volume.</p>
-<h3>
-Enterprise Blockchain
-</h3>
+
+<h3>Enterprise Blockchain</h3>
+
 <p class="em2">Meanwhile, banks started seeking ways to apply blockchain technology
 leading to an increased interest in “private blockchains.” Enterprise
 blockchain technologies today include R3’s Corda, Chain, JP Morgan’s
@@ -2995,9 +2924,9 @@ equity-less fundraising schemes for new crypto startups that allow
 anyone to participate, and the advent of Cryptokitties, an online
 marketplace for virtual cats, indicate the spread of blockchain across
 communities and also to popular culture.</p>
-<h3>
-Readings
-</h3>
+
+<h3>Readings</h3>
+
 <p><a href="https://www.activism.net/cypherpunk/manifesto.html" rel="noopener" target="_blank">A
 Cypherpunk’s Manifesto </a>by Eric Hughes </p>
 <p class="em2">Coindesk: <a
@@ -3015,514 +2944,459 @@ You Need to Know About ICOs</a></p>
 <p>(Optional) <a
 href="https://www.amazon.com/Digital-Gold-Bitcoin-Millionaires-Reinvent/dp/006236250X" rel="noopener" target="_blank">Digital
 Gold </a>by Nathaniel Popper </p>
-<h2 id="ch3">
-Chapter 3: Bitcoin Mechanics &amp; Optimizations: A Technical Overview
-</h2>
+
+<h2 id="ch3">Chapter 3: Bitcoin Mechanics &amp; Optimizations: A Technical Overview</h2>
 <!------------------------------------------------------------------------------------------------>
 <!------------- 80. Bitcoin Mechanics and Optimizations: A Technical Overview (95) --------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image080-bitcoin-overview.png"
   alt="Bitcoin Mechanics and Optimizations: A Technical Overview"
   style="width:65%;" />
-</p>
-<p class="em2"> <br>
-<br>We’ve seen how Bitcoin works at a high level.<br>
-<br>We know what needs to be implemented.<br>
-<br>However, we don’t know how that happens.<br>
-<br>This lecture will teach you everything about the low-level specifics
+
+<p>We’ve seen how Bitcoin works at a high level.<p>
+<p>We know what needs to be implemented.<p>
+<p>However, we don’t know how that happens.<p>
+<p>This lecture will teach you everything about the low-level specifics
 of Bitcoin that make it work.</p>
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------------- 80. lecture overview (95) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image080-lecture-overview.png"
   alt="Low-level Specifics of Bitcoin: What Makes Bitcoin Work?"
   style="width:65%;" />
-</p>
-<p class="em2"> <br>
-<br>First, let’s discuss cryptographic hash functions: what they are and
-how they are used in Bitcoin.<br>
-<br>Then, we’ll see how we can use cryptographic hash functions to create
+
+<p>First, let’s discuss cryptographic hash functions: what they are and
+how they are used in Bitcoin.<p>
+<p>Then, we’ll see how we can use cryptographic hash functions to create
 a tamper-evident database – the blockchain that we all know and
-love.<br>
-<br>We’ll then discuss digital signatures, the elliptic curve digital
+love.<p>
+<p>We’ll then discuss digital signatures, the elliptic curve digital
 signature algorithm, and how we actually generate and use our private
-key, public key, and address.<br>
-<br>Finally, we’ll introduce Bitcoin script and its functionality as well
+key, public key, and address.<p>
+<p>Finally, we’ll introduce Bitcoin script and its functionality as well
 as its role in making Bitcoin more flexible.</p>
-<h3 id="ch3-1">
-3.1 Intro: Motivations and Definitions
-</h3>
+
+<h3 id="ch3-1">3.1 Intro: Motivations and Definitions</h3>
+
 <p class="em2">Recall our earlier assumptions about Bitcoin: we can’t trust
-anyone.<br>
-<br>Before, we considered trust in the context of consensus, but what
-about information that moves through the network?<br>
-<br>For example, if someone sees a block with my transaction in it,
-what’s to stop them from modifying or even replacing it?<br>
-<br>We previously demonstrated how to have consensus on updates to the
-blockchain through Proof-of-Work.<br>
-<br>Now, we will demonstrate how we can be certain that the update is the
-same for everyone by designing a tamper evident system.<br>
-<br>Tamper evident means that although information can be tampered, it is
-obvious that there has been some manipulation of the information.<br>
-<br>We’ll see that in order to design our tamper evident database, we
-first need a source of standardized randomness.<br>
-<br>For this, we’ll utilize cryptographic hash functions.</p>
-<h3 id="ch3-2">
-Motivations and Definitions: Integrity of Information
-</h3>
+anyone.<p>
+<p>Before, we considered trust in the context of consensus, but what
+about information that moves through the network?</p>
+<p>For example, if someone sees a block with my transaction in it,
+what’s to stop them from modifying or even replacing it?</p>
+<p>We previously demonstrated how to have consensus on updates to the
+blockchain through Proof-of-Work.</p>
+<p>Now, we will demonstrate how we can be certain that the update is the
+same for everyone by designing a tamper evident system.</p>
+<p>Tamper evident means that although information can be tampered, it is
+obvious that there has been some manipulation of the information.</p>
+<p>We’ll see that in order to design our tamper evident database, we
+first need a source of standardized randomness.</p>
+<p>For this, we’ll utilize cryptographic hash functions.</p>
+
+<h3 id="ch3-2">Motivations and Definitions: Integrity of Information</h3>
 <!------------------------------------------------------------------------------------------------>
 <!--------------- 81. cryptographic hash functions: integrity of information (97) ---------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image081-cryptographic-hash-functions.png"
   alt="Cryptographic Hash Functions: Integrity of Information"
   style="width:65%;" />
-</p>
-<p class="em2"> <br>
-<br>A simple way to do this is with some fingerprinting system.<br>
-<br>How do fingerprints apply?<br>
-<br>Well, think of human fingerprints.<br>
-<br>Each one is unique, difficult to forge, and close to impossible to
-predict.<br>
-<br>When entering another country, they often ask for your fingerprint as
-that is a unique identifier of you.<br>
-<br>If you are someone else, then your fingerprint changes.<br>
-<br>The same applies in Bitcoin.<br>
-<br>Except instead of humans and thumbs, we have meaningful information
-and random data.<br>
-<br>If we can design a way to generate fingerprints of our meaningful
-data, then we can ensure the integrity of our information.<br>
-<br>With this fingerprint system, if the information is changed, then so
-is the fingerprint.<br>
-<br>Here’s the fascinating thing about fingerprints: when you really
-think about it, fingerprints are just standardized randomness.<br>
-<br>You can’t guess what someone’s fingerprint will look like, just by
-looking at them.<br>
-<br>In the same way, you shouldn’t be able to guess the data that
-produced a digital fingerprint.<br>
-<br>But how do we all agree on a way to generate fingerprints?<br>
-<br>We need standardized randomness.</p>
-<h3>
-Motivations and Definitions: Cryptographic Hash Functions
-</h3>
+
+<p>A simple way to do this is with some fingerprinting system.<p>
+<p>How do fingerprints apply?</p>
+<p>Well, think of human fingerprints.</p>
+<p>Each one is unique, difficult to forge, and close to impossible to
+predict.</p>
+<p>When entering another country, they often ask for your fingerprint as
+that is a unique identifier of you.</p>
+<p>If you are someone else, then your fingerprint changes.</p>
+<p>The same applies in Bitcoin.<p>
+<p>Except instead of humans and thumbs, we have meaningful information
+and random data.</p>
+<p>If we can design a way to generate fingerprints of our meaningful
+data, then we can ensure the integrity of our information.</p>
+<p>With this fingerprint system, if the information is changed, then so
+is the fingerprint.</p>
+<p>Here’s the fascinating thing about fingerprints: when you really
+think about it, fingerprints are just standardized randomness.</p>
+<p>You can’t guess what someone’s fingerprint will look like, just by
+looking at them.</p>
+<p>In the same way, you shouldn’t be able to guess the data that
+produced a digital fingerprint.</p>
+<p>But how do we all agree on a way to generate fingerprints?<p>
+<p>We need standardized randomness.</p>
+
+<h3>Motivations and Definitions: Cryptographic Hash Functions</h3>
 <!------------------------------------------------------------------------------------------------>
 <!--------------- 81. crypographic hash functions: what is a hash function? (98) ----------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image081-hash-function-formula.png"
   alt="Cryptographic Hash Functions: What is a Hash Function?"
   style="width:65%;" />
-</p>
-<p class="em2">Cryptographic hash functions are one way functions that take some
-input and produce a pseudorandom output.<br>
-<br>We say pseudorandom because, while it appears random to us, it is
-actually always going to be the same output for some given input.<br>
-<br>In other words, if I take the hash of “hello, world!” once, it will
-be the same if I do it a second time.<br>
-<br>This is necessary for standardization between all parties.<br>
-<br>A cryptographic hash function always outputs a message of some given
-size.<br>
-<br>One note is that we call the output the image, and the input the pre
+
+<p>Cryptographic hash functions are one way functions that take some
+input and produce a pseudorandom output.</p>
+<p>We say pseudorandom because, while it appears random to us, it is
+actually always going to be the same output for some given input.<p>
+<p>In other words, if I take the hash of “hello, world!” once, it will
+be the same if I do it a second time.<p>
+<p>This is necessary for standardization between all parties.<p>
+<p>A cryptographic hash function always outputs a message of some given
+size.<p>
+<p>One note is that we call the output the image, and the input the pre
 image.</p>
 <!------------------------------------------------------------------------------------------------>
 <!------------------- 82. crypographic hash functions: pseudocode formula (90) ------------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image082-hash-functions-formula.png"
   alt="Cryptographic Hash Functions: Pseudocode"
   style="width:65%;" />
-</p>
-<p class="em2"> <br>
-<br>Cryptographic hash functions differ from regular hash functions in
+
+<p>Cryptographic hash functions differ from regular hash functions in
 that they are built for security, but for convenience, we will now refer
 to cryptographic hash functions as hash functions.</p>
-<h3>
-Key Properties of Cryptographic Hash Functions
-</h3>
+
+<h3>Key Properties of Cryptographic Hash Functions</h3>
 <!------------------------------------------------------------------------------------------------>
 <!--------------------- 83. crypographic hash functions: cryptography (91) ----------------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image083-cryptographic-hash-functions-cryptography.png"
   alt="Cryptographic Hash Functions: Cryptography"
   style="width:65%;" />
-</p>
-<p class="em2"> <br>
-<br>What are the properties of hash functions then?<br>
-<br>Well, we have <em>three</em> important properties to discuss:
+
+<p>What are the properties of hash functions then?</p>
+<p>Well, we have <em>three</em> important properties to discuss:
 <em>pre-image</em> and <em>second-preimage</em> resistance, along with
-<em>collision</em> resistance.<br>
-<br>To clarify what these terms mean, let’s go over a couple
+<em>collision</em> resistance.</p>
+<p>To clarify what these terms mean, let’s go over a couple
 definitions.</p>
 <!------------------------------------------------------------------------------------------------>
 <!----------------- 84. crypographic hash functions: preimage resistance (92) -------------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image084-cryptographic-hash-functions-preimage-resistance.png"
   alt="Cryptographic Hash Functions: Preimage Resistance"
   style="width:65%;" />
-</p>
-<p class="em2"> <br>
+
 <p>“Pre-image” resistance is synonymous with “input.”</p>
 <p>“Resistance” is synonymous with difficulty.</p>
 <p class="em2">For example, “pre-image resistance” refers to the difficulty of
-finding an input given some output.<br>
-<br>We’ll dive more into each shortly.<br>
-<br>Key Properties of Cryptographic Hash Functions: Pre-Image
-Resistance<br>
-<br>First off, we want to make sure that no one can reverse engineer our
-fingerprint.<br>
-<br>Otherwise, certain issues come up, such as exposing information that
+finding an input given some output.</p>
+<p>We’ll dive more into each shortly.</p>
+<p>Key Properties of Cryptographic Hash Functions: Pre-Image
+Resistance</p>
+<p>First off, we want to make sure that no one can reverse engineer our
+fingerprint.</p>
+<p>Otherwise, certain issues come up, such as exposing information that
 we didn’t want to reveal.</p>
 <!------------------------------------------------------------------------------------------------>
 <!--------------- 85. crypographic hash functions: preimage resistance #2 (92) ------------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image085-cryptographic-hash-functions-preimage-resistance.png" 
   alt="Cryptographic Hash Functions: Preimage Resistance"
   style="width:65%;" />
-</p>
+
 <p class="em2">To make sure this doesn’t happen, we need what’s known as preimage
-resistance.<br>
-<br>The technical definition is as follows: given some hash function H
+resistance.</p>
+<p>The technical definition is as follows: given some hash function H
 and some output of the function H of x, it is computationally difficult
-to find x.<br>
-<br>In other words, we cannot easily discover the input which created
+to find x.</p>
+<p>In other words, we cannot easily discover the input which created
 some output.</p>
 <!------------------------------------------------------------------------------------------------>
 <!--------------- 86. crypographic hash functions: 2nd preimage resistance (93) ------------------>
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image086-cryptographic-hash-functions-2ndary-preimage-resistance.png"
   alt="Cryptographic Hash Functions: 2nd Preimage Resistance"
   style="width:65%;" />
-</p>
-<p class="em2"> <br>
-<br>Key Properties of Cryptographic Hash Functions: Second Preimage
-Resistance<br>
-<br>Next, we want to make sure that no one can steal fingerprints.<br>
-<br>If someone else can generate my fingerprint with a different input,
-then no one can tell who originally made the fingerprint.<br>
-<br>To make sure this doesn’t happen, we need what’s known as second
+
+<p>Key Properties of Cryptographic Hash Functions: Second Preimage
+Resistance</p>
+<p>Next, we want to make sure that no one can steal fingerprints.<p>
+<p>If someone else can generate my fingerprint with a different input,
+then no one can tell who originally made the fingerprint.</p>
+<p>To make sure this doesn’t happen, we need what’s known as second
 preimage resistance.</p>
 <!------------------------------------------------------------------------------------------------>
 <!-------------- 87. Cryptographic hash functions: 2nd preimage resistance (93) ------------------>
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image087-cryptographic-hash-functions-2ndary-preimage-resistance.png"
   alt="Cryptographic Hash Functions: 2nd Preimage Resistance #2"
   style="width:65%;" />
-</p>
-<p class="em2">The technical definition is as follows: given some hash function H
+
+<p>The technical definition is as follows: given some hash function H
 and some output H of x, it is computationally difficult to find a
 different input x’ such that H of x equals H of x’.</p>
-<h3>
-Key Properties of Cryptographic Hash Functions: Collision Resistance
-</h3>
-<p class="em2">Expanding the concept of second preimage resistance, we generally
+
+<h3>Key Properties of Cryptographic Hash Functions: Collision Resistance</h3>
+
+<p>Expanding the concept of second preimage resistance, we generally
 recognize that any two arbitrary inputs mapping to the same output is a
-bad thing.<br>
-<br>To prevent this, we need collision resistance.<br>
-<br>The technical definition is as follows: given some hash function H,
+bad thing.</p>
+<p>To prevent this, we need collision resistance.</p>
+<p>The technical definition is as follows: given some hash function H,
 it is computationally difficult to find two different inputs x and y
 such that H of x equals H of y.</p>
-<h3>
-Key Properties of Cryptographic Hash Functions: Avalanche Effect
-</h3>
+
+<h3>Key Properties of Cryptographic Hash Functions: Avalanche Effect</h3>
 <!------------------------------------------------------------------------------------------------>
 <!----------------- 90. Cryptographic Hash Functions: Avalanche Effect (93) ---------------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image090-cryptographic-hash-functions-avalanche-effect.png"
   alt="Cryptographic Hash Functions: Avalanche Effect"
   style="width:65%;" />
-</p>
-<p class="em2"> <br>
-<br>Consequences of these properties is what’s known as the Avalanche
-Effect.<br>
-<br>This means that any change in the input leads to a pseudorandom
-change in the output.<br>
-<br>This prevents a hot or cold game with inputs, where you attempt to
-guess the output based on inputs.<br>
-<br>On the right side, we’ve hashed the string “I am Satoshi Nakamoto0”,
-“I am Satoshi Nakamoto1”, all the way to 19…<br>
-<br>And each result is pseudo random.<br>
-<br>There’s no relation between the Hashes despite the inputs being so
+
+<p>Consequences of these properties is what’s known as the Avalanche
+Effect.</p>
+<p>This means that any change in the input leads to a pseudorandom
+change in the output.</p>
+<p>This prevents a hot or cold game with inputs, where you attempt to
+guess the output based on inputs.</p>
+<p>On the right side, we’ve hashed the string “I am Satoshi Nakamoto0”,
+“I am Satoshi Nakamoto1”, all the way to 19…</p>
+<p>And each result is pseudo random.</p>
+<p>There’s no relation between the Hashes despite the inputs being so
 similar.</p>
-<h3 id="ch3-3">
-3.3 SHA256
-</h3>
+
+<h3 id="ch3-3">3.3 SHA256</h3>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------ 90. cryptographic hash functions: sha256 (94) ------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image090-cryptographic-hash-sha256.png"
   alt="Cryptographic Hash Functions sha256^2 (squared)"
   style="width:65%;" />
-</p>
-<p class="em2"> <br>
-<h3>
-SHA256^2 – (Secure Hash Algorithm)
-</h3>
-<p class="em2">The particular hash function that Bitcoin chooses to use in many
-scenarios is called SHA-256.<br>
-<br>SHA-256 is a cryptographic hash function that was designed by the
-NSA.<br>
-<br>SHA-256 is a member of the SHA-2 family of cryptographic hash
-functions, SHA standing for Secure Hash Algorithm.<br>
-<br>SHA-256 takes in an input of size less than 2^64 bits and produces a
-256 bit fixed size output.<br>
-<br>In practice, the 2^64 bit upper bound on the input size is so massive
+
+<h3>SHA256^2 – (Secure Hash Algorithm)</h3>
+
+<p>The particular hash function that Bitcoin chooses to use in many
+scenarios is called SHA-256.</p>
+<p>SHA-256 is a cryptographic hash function that was designed by the
+NSA.</p>
+<p>SHA-256 is a member of the SHA-2 family of cryptographic hash
+functions, SHA standing for Secure Hash Algorithm.</p>
+<p>SHA-256 takes in an input of size less than 2^64 bits and produces a
+256 bit fixed size output.</p>
+<p>In practice, the 2^64 bit upper bound on the input size is so massive
 that we usually just say that it takes in an arbitrary amount of
-information.<br>
-<br>Bitcoin, in many cases, uses SHA-256 squared, or SHA256d, which
-simply means that SHA-256 is used twice in a row.<br>
-<br>Once on the original message you want to hash, and another time on
+information.</p>
+<p>Bitcoin, in many cases, uses SHA-256 squared, or SHA256d, which
+simply means that SHA-256 is used twice in a row.<p>
+<p>Once on the original message you want to hash, and another time on
 the output of this first hash.</p>
-<h3 id="ch3-4">
-3.4 Intro: A Tamper-Evident Database
-</h3>
+
+<h3 id="ch3-4">3.4 Intro: A Tamper-Evident Database</h3>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------- 90. a tamper-evident database (95) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image090-a-tamper-evident-database.png"
   alt="A Tamper-Evident Database"
   style="width:65%;" />
-</p>
-<p class="em2"> <br>
-<br>Now that we know about cryptographic hash functions and their
+
+<p>Now that we know about cryptographic hash functions and their
 properties, how do we then apply them to design our tamper evident
 database for Bitcoin?</p>
 <!------------------------------------------------------------------------------------------------>
 <!-----------------  91. a tamper-evident database: dissecting the blockchain (95) --------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image091-a-tamper-evident-database-dissecting.png"
   alt="A Tamper-Evident Database: Dissecting the Blockchain"
   style="width:65%;" />
-</p>
-<p class="em2"> <br>
-<br>In this section, we’ll be taking a look at the structure of a block,
+
+<p>In this section, we’ll be taking a look at the structure of a block,
 looking specifically at some of the metadata contained within the block
 header that will help us achieve tamper evidence.</p>
-<h3>
-Tamper-Evidence
-</h3>
-<p class="em2">What does this tamper evident database actually look like?<br>
-<br>Well, if you’re an average user, here’s a real example of a block
+
+<h3>Tamper-Evidence</h3>
+
+<p class="em2">What does this tamper evident database actually look like?</p>
+<p>Well, if you’re an average user, here’s a real example of a block
 found on Blockchain.info, a company that keeps track of all information
 about the Bitcoin Blockchain for public access.</p>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------- 92. a tamper-evident database: merkle (96) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image092-a-tamper-evident-database-merkle.png" 
   alt="A Tamper-Evident Database: Merkle Tree"
   style="width:65%;" />
-</p>
-<p class="em2"> <br>
-<br>We’ll explain each of these fields by the end of the video.</p>
+
+<p>We’ll explain each of these fields by the end of the video.</p>
 <!------------------------------------------------------------------------------------------------>
 <!------------- 92. a tamper-evident database: merkle branch & proof-of-inclusion (96) ----------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image092-tamper-evident-merkle-proof.png"
   alt="A Tamper-Evident Database: Merkle Branch and Proof-of-Inclusion"
   style="width:65%;" />
-</p>
-<p class="em2"> <br>
-<br>Here’s the exact same block, but now in JSON format.</p>
+
+<p>Here’s the exact same block, but now in JSON format.</p>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------- 93. a tamper-evident database: example block (97) ---------------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image093-a-tamper-evident-database-example-block.png"
   alt="A Tamper-Evident Database: Example Block"
   style="width:65%;" />
-</p>
-<p class="em2"> <br>
-<br>This is a much more understandable format for a computer.<br>
-<br>But what is the role of each of these different pieces of
+
+<p>This is a much more understandable format for a computer.</p>
+<p>But what is the role of each of these different pieces of
 information?</p>
 <!------------------------------------------------------------------------------------------------>
 <!--------------- 94. a tamper-evident database: role of each of the pieces (97) ----------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image094-a-tamper-evident-database-example-block.png"
   alt="A Tamper-Evident Database: Role of Each of the Pieces"
   style="width:65%;" />
-</p>
-<h3>
-Dissecting a Block
-</h3>
-<p class="em2">Here’s what a block looks like conceptually.</p>
+
+<h3>Dissecting a Block</h3>
+
+<p>Here’s what a block looks like conceptually.</p>
 <!------------------------------------------------------------------------------------------------>
 <!------------- 95. a tamper-evident database: dissecting the blockchain (98) -------------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image095-a-tamper-evident-database-dissecting.png"
-  alt="A Tamper-Evident Database: Dissecting the Blockchain"
+  alt="A Tamper-Evident Database: Dissecting the Blockchain."
   style="width:65%;" />
-</p>
-<p class="em2"> <br>
-<br>It has four main components: the Block Header, Block Size,
-Transaction Counter, and Transactions.<br>
-<br>The “<strong>Block Size</strong>” field tells how large the block
-is.<br>
-<br>The “<strong>Block Header</strong>” field represents the metadata
-necessary for understanding the components of the block.<br>
-<br>The “<strong>Transaction Counter</strong>” field says how many
-transactions are within the block.<br>
-<br>The “<strong>Transactions</strong>” field is the actual transaction
-data.<br>
-<br>For this lecture, we’re going to focus first on the composition of a
+
+<p>It has four main components: the Block Header, Block Size,
+Transaction Counter, and Transactions.</p>
+<p>The “<strong>Block Size</strong>” field tells how large the block
+is.</p>
+<p>The “<strong>Block Header</strong>” field represents the metadata
+necessary for understanding the components of the block.</p>
+<p>The “<strong>Transaction Counter</strong>” field says how many
+transactions are within the block.</p>
+<p>The “<strong>Transactions</strong>” field is the actual transaction
+data.</p>
+<p>For this lecture, we’re going to focus first on the composition of a
 block header, the information that enforces the security of the
 blockchain.</p>
-<h3>
-The Block Header
-</h3>
-<p class="em2">How does this ensure tamper evidence?<br>
-<br>Well, let’s go ahead and look at where hash functions are applied
-within Bitcoin.<br>
-<br>The block header refers to all the metadata associated with every
+
+<h3>The Block Header</h3>
+
+<p>How does this ensure tamper evidence?</p>
+<p>Well, let’s go ahead and look at where hash functions are applied
+within Bitcoin.</p>
+<p>The block header refers to all the metadata associated with every
 block.</p>
 <!------------------------------------------------------------------------------------------------>
 <!----------------- 96. a tamper-evident database: dissecting the blockchain (99) ---------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image096-tamper-evident-dissecting.png"
   alt="A Tamper-Evident Database: Dissecting the Blockchain"
   style="width:65%;" />
-</p>
-<p class="em2">There are <strong>six</strong> fields in the implementation, but
+
+<p>There are <strong>six</strong> fields in the implementation, but
 we’re going to speak to the <strong>three important ones</strong> that
-implement the protocol explained in module 1.<br>
-<br>Those are;</p>
+implement the protocol explained in module 1.</p>
+<p>Those are;</p>
+
 <ol class="em3" type="1">
-<li><p>the Merkle Root,</p></li>
-<li><p>Previous Block Hash, and</p></li>
-<li><p><strong>Nonce</strong> fields</p></li>
+  <li><p>the Merkle Root,</p></li>
+  <li><p>Previous Block Hash, and</p></li>
+  <li><p><strong>Nonce</strong> fields</p></li>
 </ol>
-<p class="em2">The <em>Merkle Root</em> represents a summary of transactions.</p>
+
+<p>The <em>Merkle Root</em> represents a summary of transactions.</p>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------ 98. a tamper-evident database: block header (99) ---------------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image098-tamper-evident-3.png"
   alt="A Temper-Evident Database: Block Header"
   style="width:65%;" />
-</p>
-<p class="em2"> <br>
-<br>The <em>Previous Block Hash</em> represents the chaining.<br>
-<br>And the <em>Nonce</em> represents the proof-of-work.<br>
-<br>The block header is simply the hash of all these fields
-concatenated.</p>
+
+<p>The <em>Previous Block Hash</em> represents the chaining.</p>
+<p>And the <em>Nonce</em> represents the proof-of-work.</p>
+<p>The block header is simply the hash of all these fields concatenated.</p>000
 <!------------------------------------------------------------------------------------------------>
 <!-------------------- 97. a tamper-evident database: block header (100) ------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image097.png"
   alt="A Temper-Evident Database: Block Header"
   style="width:65%;" />
-</p>
-<p class="em2"><br>
-<br>Let’s first take a look at the Merkle Root.</p>
-<h3 id="ch3-5">
-3.5 Merkle Trees:
-</h3>
+
+<p>Let’s first take a look at the Merkle Root.</p>
+
+<h3 id="ch3-5">3.5 Merkle Trees:</h3>
 <!------------------------------------------------------------------------------------------------>
 <!---------------------- 98. a tamper-evident database: merkle tree (100) ------------------------>
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image098.png"
   alt="A Temper-Evident Database: Merkle Tree"
   style="width:65%;" />
-</p>
-<p class="em2"> <br>
-<br>What is a Merkle Root, and what do we mean by a summary of
-transactions?<br>
-<br>Does this mean that we have contained all information about our
-transactions in one piece of information?<br>
-<br>Well, it actually means that we have contained all fingerprints of
-information in one piece of data.<br>
-<br>The Merkle Root is the top of a Merkle Tree, which is a cryptographic
-data structure.<br>
-<br>This is definitely complicated, so let’s take it slow and start from
-the very beginning.<br>
-<br>First and foremost, a tree in Computer science is a data structure
+
+<p>What is a Merkle Root, and what do we mean by a summary of
+transactions?</p>
+<p>Does this mean that we have contained all information about our
+transactions in one piece of information?</p>
+<p>Well, it actually means that we have contained all fingerprints of
+information in one piece of data.</p>
+<p>The Merkle Root is the top of a Merkle Tree, which is a cryptographic
+data structure.</p>
+<p>This is definitely complicated, so let’s take it slow and start from
+the very beginning.</p>
+<p>First and foremost, a tree in Computer science is a data structure
 that has some root node and some children, which may also be the roots
-of other trees.<br>
-<br>A binary tree is a tree in which every node has at most two
-children.<br>
-<br>A <em>Merkle Tree</em> is just a very specific version of a binary
+of other trees.</p>
+<p>A binary tree is a tree in which every node has at most two
+children.</p>
+<p>A <em>Merkle Tree</em> is just a very specific version of a binary
 tree, where two things are true:</p>
+
 <ul>
-<li><p>there are a power of two children on the bottommost level,
-and</p></li>
-<li><p>the lowest level is made of the hashes of the information that
-you would like to summarize.</p></li>
+  <li><p>there are a power of two children on the bottommost level, and</p></li>
+  <li><p>the lowest level is made of the hashes of the information that you would like to summarize.</p></li>
 </ul>
-<p class="em2">Perhaps a better way to explain the Merkle Tree is to describe its
-construction.<br>
-<br>We start off with a set of transactions that we have verified.<br>
-<br>We lay them out one by one.<br>
-<br>We hash each one to get a level of hashes.<br>
-<br>We then hash each pair together, making a new level with half as many
+
+<p>Perhaps a better way to explain the Merkle Tree is to describe its
+construction.</p>
+<p>We start off with a set of transactions that we have verified.</p>
+<pr>We lay them out one by one.</p>
+<p>We hash each one to get a level of hashes.</p>
+<p>We then hash each pair together, making a new level with half as many
 hashes.</p>
 <!------------------------------------------------------------------------------------------------>
 <!------------------- 99.  a tamper-evident database: protecting the chain (101) ----------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image099-tamper-protect.png"
   alt="A Tamper-Evident Database: Protecting the Chain"
   style="width:65%;" />
-</p>
-<p class="em2"> <br>
-<br>We continue this process until we finally have only one hash at the
-top.<br>
-<br>This hash at the very top is the Merkle Root.<br>
-<br>This way, we can detect any transaction changes after the commitment
+
+<p>We continue this process until we finally have only one hash at the
+top.</p>
+<p>This hash at the very top is the Merkle Root.</p>
+<p>This way, we can detect any transaction changes after the commitment
 with the Merkle Root.</p>
-<h3>
-Merkel Trees: Tamper Detection
-</h3>
+
+<p>Merkel Trees: Tamper Detection</p>
 <!------------------------------------------------------------------------------------------------>
-<!---------- 99.  a tamper-evident database: getting to the root of the problem (102) ------------>
+<!---------- 99. a tamper-evident database: getting to the root of the problem (102) ------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image099.png"
   alt="A Tamper-Evident Database: Getting to the Root of the Problem"
   style="width:65%;" />
-</p>
-<p class="em2"><br>
+
 <br>We see here that if any transaction is changed, then the Merkle Root
 is affected.<br>
 <br>This is demonstrated in the following diagram: when Transaction 3 is
@@ -3535,12 +3409,11 @@ Merkle Trees: Proof of Inclusion
 <!------------------------------------------------------------------------------------------------>
 <!---------- 100. A Tamper-Evident Database: Merkle Branch & Proof of Inclusion (102) ------------>
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image100.png"
   alt="A Tamper-Evident Database: Merkle Branch & Proof of Inclusion"
   style="width:65%;" />
-</p>
+
 <p class="em2"> <br>
 <br>You may ask, “Isn’t it expensive to verify that a transaction was
 included within a Merkle Tree?”<br>
@@ -3553,29 +3426,26 @@ pieces of information:<br>
 <br>Hash B, and Hash F.<br>
 <br>This is actually a great efficiency gain as our tree grows
 larger.</p>
-<h3>
-Previous Block Hash
-</h3>
+
+<h3>Previous Block Hash</h3>
 <!------------------------------------------------------------------------------------------------>
 <!--------------------- 102. A Tamper-Evident Database: Merkle Root (103) ------------------------>
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image102.png"
   alt="A Tamper-Evident Database: Merkle Root"
   style="width:65%;" />
-</p>
+
 <p class="em2">It’s pretty obvious what the Previous Block Hash does: It merely
 contains the hash of the previous block.</p>
 <!------------------------------------------------------------------------------------------------>
 <!----------------- 104. a tamper-evident database: protecting the chain (103) ------------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image104.png"
   alt="A Tamper-Evident Database: Protecting the Chain"
   style="width:65%;" />
-</p>
+
 <p class="em2"> <br>
 <br>But notice this: every block does that.<br>
 <br>This means that if any block is altered, then the block after will
@@ -3587,12 +3457,11 @@ before manifests within the blockchain.</p>
 <!------------------------------------------------------------------------------------------------>
 <!----------------- 105. a tamper-evident database: protecting the chain (104) ------------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image105-tamper.png"
   alt="A Tamper-Evident Database: Nonce"
   style="width:65%;" />
-</p>
+
 <p class="em2">It changes the block header, which changes the next block’s Prev
 Block Hash, which affects the rest of the future block hashes as
 well.<br>
@@ -3607,12 +3476,11 @@ Proof-of-Work.</p>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------- 109. a tamper-evident database: nonce (105) -------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image109.png"
   alt="A Tamper-Evident Database: Nonce"
   style="width:65%;" />
-</p>
+
 <p class="em2"> <br>
 <br>Keep in mind that we need entities to prove that they’ve done some
 work before they’re allowed to submit a vote to the network, meaning
@@ -3623,21 +3491,18 @@ puzzle.</p>
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 104. partial preimage hash puzzle (106) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image104-partial-preimage-1.png" 
   alt="Partial Preimage Hash Puzzle; Computationally Difficult, Adjustable, and Easily Verifiable"
   style="width:65%;" />
-</p>
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 104. partial preimage hash puzzle (107) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image104-partial-preimage-2.png"
   alt="Partial Preimage Hash Puzzle; Computationally Difficult, Adjustable, and Easily Verifiable"
   style="width:65%;" />
-</p>
+
 <p class="em2">Keep in mind the definition of preimage from before, which was the
 input.</p>
 <p class="em2">Partial preimage then means a partial input.</p>
@@ -3650,22 +3515,23 @@ Bitcoin and almost every other popular <em>Proof-of-Work</em>
 cryptocurrency.</p>
 <p class="em2">To satisfy our needs for a puzzle, these hash puzzles need to have
 <strong>three</strong> characteristics:</p>
+
 <ol type="1">
-<li><p>Computationally difficult,</p></li>
-<li><p>Parameterizable, and</p></li>
-<li><p>Easily verifiable.</p></li>
+  <li><p>Computationally difficult,</p></li>
+  <li><p>Parameterizable, and</p></li>
+  <li><p>Easily verifiable.</p></li>
 </ol>
+
 <p class="em2">Computational difficulty means ensuring that the solution to the
 puzzle cannot be easily found.</p>
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- 104. partial preimage hash puzzle (108) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image104-partial-preimage-3.png"
   alt="Partial Preimage Hash Puzzle; Computationally Difficult, Adjustable, and Easily Verifiable"
   style="width:65%;" />
-</p>
+
 <p class="em2"> </p>
 <p class="em2">There’s no point if <em>Proof-of-Work</em> takes little work.</p>
 <p class="em2">Parameterizable means adjustable.</p>
@@ -3675,18 +3541,16 @@ never gets too easy or too hard.</p>
 have to do too much work to see that an answer is correct.</p>
 <p class="em2">It should just take one hash for example to prove that some nonce is
 correct, even if finding the nonce takes millions of tries.</p>
-<h3 id="ch3-6">
-3.6 Proof-of-Work: Mining
-</h3>
+
+<h3 id="ch3-6">3.6 Proof-of-Work: Mining</h3>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ 107. proof-of-work: mining (108) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image107.png"
   alt="Proof-of-Work: Mining"
   style="width:65%;" />
-</p>
+
 <p class="em2"> <br>
 <br>For a better idea of how mining works, let’s bring up an analogy.<br>
 <br>Mining is like throwing darts at a target while blindfolded.<br>
@@ -3703,18 +3567,16 @@ more likely to hit the center, the best we can do is throw more.<br>
 output that is below some algorithmically decided target.<br>
 <br>It’s as if that target is the green line dividing the valid and
 invalid blocks in the diagram.</p>
-<h3>
-Proof-of-Work: Block Difficulty
-</h3>
+
+<h3>Proof-of-Work: Block Difficulty</h3>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------- 108. proof-of-work: block difficulty (108) --------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image108.png" 
   alt="A Tamper-Evident Database: Block Difficulty"
   style="width:65%;" />
-</p>
+
 <p class="em2"> </p>
 <p class="em2">How do we adjust the size of this circle?</p>
 <p class="em2">How do we set and change the target?</p>
@@ -3750,12 +3612,11 @@ forward.</p>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------- 109. proof-of-work: block difficulty (109) --------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image109.png"
   alt="A Tamper-Evident Database: Block Difficulty"
   style="width:65%;" />
-</p>
+
 <p class="em2"> <br>
 <br>Let’s say that the current difficulty is 10.<br>
 <br>Then what’s the new difficulty if the time to mine 2016 blocks is
@@ -3763,12 +3624,11 @@ exactly two weeks?</p>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------- 110. proof-of-work: block difficulty (110) --------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image110.png" 
   alt="A Tamper-Evident Database: Block Difficulty"
   style="width:65%;" />
-</p>
+
 <p class="em2"> <br>
 <br>Yes, it’s still 10!<br>
 <br>The puzzle was precisely as hard as we wanted, so the difficulty
@@ -3776,12 +3636,11 @@ stays exactly the same.</p>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------- 111. proof-of-work: block difficulty (110) --------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image111.png" 
   alt="A Tamper-Evident Database: Block Difficulty"
   style="width:65%;" />
-</p>
+
 <p class="em2">What about when the time to mine those 2016 blocks is just one
 week?<br>
 <br>Or a staggering 4 weeks?<br>
@@ -3796,26 +3655,23 @@ difficult.</p>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------- 112. proof-of-work: block difficulty (111) --------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image112.png"
   alt="A Tamper-Evident Database: Block Difficulty"
   style="width:65%;" />
-</p>
+
 <p class="em2"> <br>
 <br>The difficulty is inversely proportional to the time to mine.</p>
-<h3>
-Proof-of-Work: Coinbase Transaction
-</h3>
+
+<h3>Proof-of-Work: Coinbase Transaction</h3>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------ 113. proof-of-work: coinbase transaction (111) ------------------------>
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image113.png"
   alt="A Tamper-Evident Database: Coinbase Transaction"
   style="width:65%;" />
-</p>
+
 <p class="em2"> <br>
 <br>You might be asking, where does the block reward to miners even
 go?<br>
@@ -3832,32 +3688,25 @@ in our hash puzzle as well.</p>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------ 114. proof-of-work: mining pseudocode (112) --------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image114.png"
   alt="A Tamper-Evident Database: Mining Pseudocode"
   style="width:65%;" />
-</p>
-<p class="em2"> </p>
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 115. proof-of-work: example block (112) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image115.png"
   alt="A Tamper-Evident Database: Example Block"
   style="width:65%;" />
-</p>
-<p class="em2"> </p>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------ 116. proof-of-work: mining pseudocode (113) --------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image116.png"
   alt="A Tamper-Evident Database: Mining Pseudocode"
   style="width:65%;" />
-</p>
+
 <p class="em2">Here’s some mining pseudo code.</p>
 <p class="em2">We loop infinitely until we find a valid block.</p>
 <p class="em2">In each loop, we try a Coinbase nonce first, and then in an inner
@@ -3870,9 +3719,9 @@ nonce changes the merkle root.</p>
 on each iteration of the inner loop.</p>
 <p class="em2">We optimize by trying nonces in such a way as to only have to
 calculate the merkle root in each iteration of the outermost loop.</p>
-<h3 id="ch3-7">
-3.7 Intro: Signatures and Authentication
-</h3>
+
+<h3 id="ch3-7">3.7 Intro: Signatures and Authentication</h3>
+
 <p class="em2">Now we’ll go into how to use digital signatures to send messages and
 transactions both pseudonymously and trustlessly.</p>
 <p class="em2">In the previous section, we showed how transactions contained in
@@ -3887,38 +3736,35 @@ with that user’s specific private key, proving ownership of a public
 key.</p>
 <p class="em2">In this next section, we’ll go over what we want from a digital
 signature scheme at a high level.</p>
-<h3>
-Digital Signature Schemes (DSS)
-</h3>
+
+<h3>Digital Signature Schemes (DSS)</h3>
 <!------------------------------------------------------------------------------------------------>
 <!-------------------- 117. digital signature schemes: example part 1 (114) ---------------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image117-dss.png" 
-  alt="Digital Signature: Schemes (DSS): Example"
+  alt="Digital Signature: Schemes (DSS): Example."
   style="width:65%;" />
-</p>
+
 <p class="em2"> <br>
 <br>Consider two users on the network: call them Alice and Bob.<br>
 <br>Recall that they both have private and public keys.<br>
 <br>Private and public keys in Bitcoin are generated through an algorithm
 called ECDSA, or Elliptic</p>
-<h3>
-Curve Digital Signature Algorithm
-</h3>
+
+<h3>Curve Digital Signature Algorithm</h3>
+
 <p class="em2">We’ll go over that in the next section.</p>
 <p class="em2">Alice wants to send over a message to Bob.</p>
 How can she do this and make sure no one tampers with her message?
 <!------------------------------------------------------------------------------------------------>
 <!------------------------ 117. digital signature schemes: example (115) ------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image117-dss-2.png" 
   alt="Digital Signature Schemes (DSS): Example: Bob Needs Alice's Public Key"
   style="width:65%;" />
-</p>
+
 <p class="em2"> <br>
 <br>First we point out that Bob has access to Alice’s public key, since
 that’s public information that’s used to identify Alice.<br>
@@ -3927,12 +3773,11 @@ message coming from Alice was actually sent by Alice.</p>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------ 117. digital signature schemes: example (116) ------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image117-dss-3.png" 
   alt="Digital Signature Schemes (DSS): Example: "
   style="width:65%;" />
-</p>
+
 <p class="em2"> <br>
 <br>Before sending out her message, Alice signs her message with her
 private key.<br>
@@ -3941,12 +3786,11 @@ message as it is.</p>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------ 117. digital signature schemes: example (116) ------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image117-dss-4.png" 
   alt="Digital Signature Schemes (DSS): Example: Alice Sends Message + Signature"
   style="width:65%;" />
-</p>
+
 <p class="em2"> <br>
 <br>She then sends her signature along with her original message to
 Bob.<br>
@@ -3956,12 +3800,11 @@ message.</p>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------- 117. digital signature schemes: example (116) -------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image117-dss-5.png"
   alt="Digital Signature Schemes (DSS): Example: Bob Can Easily Verify if Alice Signed"
   style="width:65%;" />
-</p>
+
 <p class="em2">Bob is then able to easily verify that the signature is valid, given
 Alice’s public key and the original message.<br>
 <br>And if the signature is valid, then that means the message wasn’t
@@ -3974,12 +3817,11 @@ signature could not be valid anymore.<br>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------- 117. digital signature schemes: example (117) -------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image117-dss-6.png" 
   alt="Digital Signature Schemes (DSS): Example"
   style="width:65%;" />
-</p>
+
 <p class="em2"> <br>
 <br>A key point is that Bob or anyone else should not be able to guess
 Alice’s private key, given just her public key.<br>
@@ -3987,18 +3829,16 @@ Alice’s private key, given just her public key.<br>
 signatures and thus fake her identity.<br>
 <br>We’ll see how this is prevented in the next section, where we explain
 the way we generate public and private key pairs.</p>
-<h3>
-DSS Key Definitions and Takeways
-</h3>
+
+<h3>DSS Key Definitions and Takeways</h3>
 <!------------------------------------------------------------------------------------------------>
 <!------------------- 115. digital signature schemes: security definition (117) ------------------>
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image115-dss.png" 
   alt="Digital Signature Schemes: Security Definition"
   style="width:65%;" />
-</p>
+
 <p class="em2"> </p>
 <p class="em2">In summary, here are some key properties that we should keep in
 mind.</p>
@@ -4020,18 +3860,16 @@ match up with it anymore.</p>
 integrity.</p>
 <p class="em2">And this is what we saw earlier: that signatures can be used so that
 messages can’t be modified by anyone after signing.</p>
-<h3>
-From Private Keys to Addresses
-</h3>
+
+<h3>From Private Keys to Addresses</h3>
 <!------------------------------------------------------------------------------------------------>
 <!-------------------- 116. keys and addresses: before the technical stuff (118)  ---------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image116-keys-and-addresses.png" 
   alt="Keys and Addresses: Before the Technical Stuff"
   style="width:65%;" />
-</p>
+
 <p class="em2"> </p>
 <p class="em2">Here’s a diagram showing a high-level overview of what we’re going to
 be diving into in the next couple slides.</p>
@@ -4050,15 +3888,13 @@ key from the corresponding public key or address.</p>
 <!------------------------------------------------------------------------------------------------>
 <!------------------ 117. elliptic curve cryptography: part 1: elliptic curve (120) -------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image117-cryptography-part1.png" 
   alt="Elliptic curve cryptography: part 1: elliptic curve."
   style="width:65%;" />
-</p>
-<h3>
-Elliptic Curve Cryptography
-</h3>
+  
+<h3>Elliptic Curve Cryptography</h3>
+
 <p class="em2">Bitcoin uses ECDSA, or Elliptic Curve Digital Signature Algorithm, to
 produce private keys and public keys.<br>
 <br>An elliptic curve is just a mathematical curve defined by the general
@@ -4067,28 +3903,23 @@ form y^2 = x^3 + ax + b.<br>
 every value possible in a constant amount of space.<br>
 <br>Here’s a picture of Bitcoin’s elliptic curve, secp256k1, on the right
 side.</p>
-<h3>
-Elliptic Curve Cryptography: Demo
-</h3>
+
+<h3>Elliptic Curve Cryptography: Demo</h3>
 <!------------------------------------------------------------------------------------------------>
 <!----------- 118-2. elliptic curve cryptography: part 2: chord-tangent process (121) ------------>
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image118-2.png" 
   alt="Elliptic Curve Crypography: Part 2: Chord-Tangent Process"
   style="width:65%;" />
-</p>
-<p class="em2"> </p>
 <!------------------------------------------------------------------------------------------------>
 <!----------119. elliptic-curve cryptography: part 2.5: point multiplication demo (121) ---------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image119.png" 
   alt="Elliptic Curve Crypography: Part 2.5: Point Multiplication Demo"
   style="width:65%;" />
-</p>
+
 <p class="em2">To illustrate, here’s a demo.</p>
 <p class="em2">We start off with a generator point P that is known to everyone,
 since that’s built into secp256k1’s specification.</p>
@@ -4103,12 +3934,11 @@ the line intersects the curve let’s call it -2P.</p>
 <!------------------------------------------------------------------------------------------------>
 <!---------------- 120. elliptic curve crypography: part 1: elliptic curve (122) ----------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image120.png" 
   alt="Elliptic Curve Crypography: Part 1: Elliptic Curve"
   style="width:65%;" />
-</p>
+
 <p class="em2"> </p>
 <p class="em2">Its equation is y^2 = x^3 + 7, and was engineered to have some unique
 properties that we’ll be explaining in the coming slides.</p>
@@ -4141,18 +3971,16 @@ yielding our result P + Q.</p>
 <p class="em2">This is a trapdoor, or one-way, function, because given a point K
 that is P + Q, it is difficult to find the individual points P and
 Q.</p>
-<h3>
-Elliptic Curve Cryptography: Security
-</h3>
+
+<h3>Elliptic Curve Cryptography: Security</h3>
 <!------------------------------------------------------------------------------------------------>
 <!--------------- 120. Elliptic Curve Cryptography: Part 3: Security of ECC (123) ---------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image120-cryptography.png"
   alt="Elliptic Curve Cryptography: Part 3: Security of ECC"
   style="width:65%;" />
-</p>
+
 <p class="em2"> </p>
 <p class="em2">The user generates a random number n for their private key.</p>
 <p class="em2">They use elliptic curve point scalar multiplication by n to generate
@@ -4178,12 +4006,11 @@ private keys is fairly secure.</p>
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- 121. public key to bitcoin address (124) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image121-cryptography.png" 
   alt="Public Key to Bitcoin Address: Public Key Hash"
   style="width:65%;" />
-</p>
+
 <p class="em2">If quantum computers exist, we could use them to solve the elliptic
 curve discrete logarithm problem and find the private key given a public
 key.</p>
@@ -4195,18 +4022,16 @@ shortens the address size down from 256 bits to 160 bits.</p>
 <p class="em2">Together, the combination of using SHA-256 and RIPEMD-160 is called
 “double hash” or HASH160.</p>
 <p class="em2">After all this, we have our public key hash.</p>
-<h3>
-Public Key to Address
-</h3>
+
+<h3>Public Key to Address</h3>
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- 122. public key to bitcoin address (125) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image122-public-key-to-bitcoin-address.png"
   alt="Public Key to Bitcoin Address"
   style="width:65%;" />
-</p>
+
 <p class="em2"> </p>
 <p class="em2">And after we have our public key hash, we’re just a little bit away
 from arriving at our Bitcoin address.</p>
@@ -4241,9 +4066,9 @@ would not be valid given the checksum.</p>
 <p class="em2">And this is something that decoding software will do for us.</p>
 <p class="em2">It can hash the beginning of our address and compare it with the
 checksum to see if it is valid.</p>
-<h3 id="ch3-8">
-3.8 Intro: Bitcoin Script
-</h3>
+
+<h3 id="ch3-8">3.8 Intro: Bitcoin Script</h3>
+
 <p class="em2">Now we’ll dive into Bitcoin script.</p>
 <p class="em2">Bitcoin script, or just Script, is a language that was designed to be
 used for Bitcoin to process a variety of transactions – from payments
@@ -4251,28 +4076,23 @@ between two people, to more complex multi-signature transactions –
 greatly extending the functionality of Bitcoin.</p>
 <p class="em2">Before we dive into specifics about how Bitcoin scripts work, it’s
 important to first review how transactions work.</p>
-<h3>
-Remember the UTXO Model?
-</h3>
+
+<h3>Remember the UTXO Model?</h3>
 <!------------------------------------------------------------------------------------------------>
 <!-------------------- 123. bitcoin scripts: remember the utxo model? (126) ---------------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image123-bitcoin-scripts.png"
   alt="Bitcoin Scripts: Remember the UTXO Model?"
   style="width:65%;" />
-</p>
-<p class="em2"> </p>
 <!------------------------------------------------------------------------------------------------>
 <!-------------------- 124. Bitcoin Scripts: Remember the UTXO Model? (127) ---------------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image124-bitcoin-scripts.png" 
   alt="Bitcoin Scripts: Remember the UTXO Model?"
   style="width:65%;" />
-</p>
+
 <p class="em2">Remember the UTXO model?</p>
 <p class="em2">Bitcoin doesn’t have “accounts” with associated bitcoin tallies.</p>
 <p class="em2">Rather, you can think of each transaction as outputs from previous
@@ -4298,23 +4118,21 @@ Rustie.</p>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ 125. contents of a transaction (128) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image125-contents-transaction.png" 
   alt="Contents of a Transaction: Metadata, Input(s), and Output(s)"
   style="width:65%;" />
-</p>
+
 <p class="em2"> <br>
 <br>As we can see, a transaction has three main “sections.”</p>
 <!------------------------------------------------------------------------------------------------>
 <!---------------------- 125. contents of a transaction: metadata (128) -------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image125-contents-metadata.png" 
   alt="Contents of a Transaction: Metadata"
   style="width:65%;" />
-</p>
+
 <p class="em2"> <br>
 <br>The metadata section contains some housekeeping data, a unique ID of
 this transaction, locktime, and size.<br>
