@@ -128,7 +128,7 @@ This module focuses on the properties behind the second largest blockchain platf
 <!------------------------------------------------------------------------------------------------>
 <!-------------------- expectations: expect from us, we expect from you (04) --------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
+<p align="center" width="400px;">
 <img src="/images/expectations.png" 
      alt="Expectations: Expect from Us, We Expect from You" 
      width="65%" />
@@ -191,7 +191,7 @@ And this all sets the stage for the next section, in which we’ll build Bitcoin
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- what is bitcoin?  bitcoin genesis (06) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
+<p align="center" width="400px;">
 <img src="/images/what is bitcoin-bitcoin genesis.png" 
   alt="What is Bitcoin? Bitcoin Genesis"
   width="100%" />
@@ -308,7 +308,7 @@ And even the creation of money is decided not by a central authority, but throug
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- currency: in banks we distrust (09) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
+<p align="center" width="400px;">
 <img src="/images/currency-in banks we distrust.png" 
   alt="Currency: In Banks We Distrust"
   width="65%" />
