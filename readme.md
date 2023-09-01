@@ -177,15 +177,15 @@ Then, we’ll dive into four-part buildup of Bitcoin consensus and explain why B
 
 In this section, you will learn about the origins and motivations of Bitcoin, and the key distinctions between cryptocurrencies and normal currencies.
 
-<div align="right">
-  <b><a href="#table-of-contents">↥ Back To Top</a></b>
-</div>
-
 We’ll clear up some common misconception about Bitcoin and Blockchain, and also explain briefly Bitcoin’s origins in the Cypherpunk movement.
 
 We’ll then draw a comparison between Bitcoin and Banks and analyze each of the features and services they provide.
 
 And this all sets the stage for the next section, in which we’ll build Bitcoin from the ground up, incorporating each of these features and services and seeing how they fit together.
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>What is Bitcoin?</h3>
 <!------------------------------------------------------------------------------------------------>
@@ -11168,7 +11168,7 @@ We wish you all the best on the rest of your blockchain journey!
 
 the end…&nbsp;<br/>
 <b><i>readme.md</i></b>&nbsp;<br/>
-<b><i>Last Updated: 10/29/2022 (Saturday) 6:14pm+</i></b>
+<b><i>Last Updated: 8/31/2023 (Thursday) 8:38pm+</i></b>
 
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
