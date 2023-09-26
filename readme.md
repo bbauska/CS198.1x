@@ -4139,7 +4139,7 @@ Now that we have our public key, how do we get to our address?
 We’ll be going over that in this section.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-------------------------- 121. public key to bitcoin address (124) ---------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 121. public key to bitcoin address (124) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image121-cryptography.png" 
@@ -4164,7 +4164,7 @@ After all this, we have our public key hash.
 <h3>Public Key to Address</h3>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-------------------------- 122. public key to bitcoin address (125) ---------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 122. public key to bitcoin address (125) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image122-public-key-to-bitcoin-address.png"
@@ -4224,7 +4224,7 @@ Before we dive into specifics about how Bitcoin scripts work, it’s important t
 <h3>Remember the UTXO Model?</h3>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-------------------- 123. bitcoin scripts: remember the utxo model? (126) ---------------------->
+<!--~~~~~~~~~~~~~~~~~~ 123. bitcoin scripts: remember the utxo model? (126) ~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image123-bitcoin-scripts.png"
@@ -4234,7 +4234,7 @@ Before we dive into specifics about how Bitcoin scripts work, it’s important t
 &nbsp;
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-------------------- 124. Bitcoin Scripts: Remember the UTXO Model? (127) ---------------------->
+<!--~~~~~~~~~~~~~~~~~~ 124. Bitcoin Scripts: Remember the UTXO Model? (127) ~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image124-bitcoin-scripts.png" 
@@ -4271,7 +4271,7 @@ Contents of a Transaction
 Let’s take a deeper look into the contents of my transaction to Rustie.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------------ 125. contents of a transaction (128) ---------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 125. contents of a transaction (128) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image125-contents-transaction.png" 
@@ -4283,7 +4283,7 @@ Let’s take a deeper look into the contents of my transaction to Rustie.
 As we can see, a transaction has three main “sections.”
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!---------------------- 125. contents of a transaction: metadata (128) -------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~ 125. contents of a transaction: metadata (128) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image125-contents-metadata.png" 
@@ -4305,7 +4305,7 @@ This proof allows me to redeem the UTXOs and use them to produce new outputs.
 The outputs section contains a list of new UTXOs that will be sent to new addresses.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!----------------------- 126. contents of a transaction: metadata (129) ------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~ 126. contents of a transaction: metadata (129) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image126-contents-metadata-2.png"
@@ -4320,7 +4320,7 @@ Taking a deeper look into the transaction, we start with the metadata.
 The first piece of metadata is the hash of our transaction, or the unique “ID” of this transaction.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!----------------------- 126. contents of a transaction: input(s) (129) ------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~ 126. contents of a transaction: input(s) (129) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image126-contents-inputs.png"
@@ -4356,7 +4356,7 @@ We also get a reference to the index of the input in the previous transaction.
 </div>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--------------------- 127. contents of a transaction: inputs: scriptSig (130) ------------------>
+<!--~~~~~~~~~~~~~~~~~~~ 127. contents of a transaction: inputs: scriptSig (130) ~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image127-contents-inputs.png"
@@ -4370,7 +4370,7 @@ The scriptSig is the most important part of these inputs because they’re the r
 Last but not least, the end product of our transaction is the output(s).
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!----------------------- 128. contents of a transaction: outputs (131) -------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~ 128. contents of a transaction: outputs (131) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image128-contents-outputs.png"
@@ -4396,7 +4396,7 @@ In this case, only after Rustie provides his proof can he unlock and spend my UT
 <h3>Bitcoin Script Reminders</h3>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!---------------------------- 128. bitcoin scripts: reminders (131) ----------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 128. bitcoin scripts: reminders (131) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image128-bitcoin-scripts.png"
@@ -4424,7 +4424,7 @@ The Script language is stack-based, has a native support for cryptocurrency, and
 <h3 id="ch3-9">3.9 Intro to P2PKH</h3>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-------------------------- 129. bitcoin scripts: p2pkh example (132) --------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 129. bitcoin scripts: p2pkh example (132) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image129-intro-to-p2pkh.png"
@@ -4440,14 +4440,13 @@ The example we are looking at is at the top of the screen.
 This script specifies the most common type of transaction in Bitcoin, which is to redeem a previous transaction output.
 
 To redeem this previous transaction, we need to prove our identities with (1) a public key that, when hashed, yields the address to which the previous transaction was sent, and (2) a signature that proves ownership of the private key corresponding to the public key we provided.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-------------------- 130. bitcoin scripts: p2pkh example execution (133) ----------------------->
+<!--~~~~~~~~~~~~~~~~~~ 130. bitcoin scripts: p2pkh example execution (133) ~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image130-bitcoin-scripts.png"
-   alt="Bitcoin Scripts: P2PKH Example Execution"
-   width="400px;" />
+  alt="Bitcoin Scripts: P2PKH Example Execution"
+  width="400px;" />
 </p>
 &nbsp;
 <div align="right">
@@ -4479,7 +4478,7 @@ In our Pay to Pub Key Hash example, the locking script requires that the users t
 For this reason, this script is called scriptPubKey.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------- 131. bitcoin scripts: p2pkh example execution (134) ------------------------>
+<!--~~~~~~~~~~~~~~~~~ 131. bitcoin scripts: p2pkh example execution (134) ~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image131-p2pkh-example.png"
@@ -4500,7 +4499,7 @@ And the entire resulting script must execute successfully in order for the trans
 <h3>Demo: P2PKH Example</h3>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-------------------- 131. bitcoin scripts: p2pkh example execution (134) ----------------------->
+<!--~~~~~~~~~~~~~~~~~~ 131. bitcoin scripts: p2pkh example execution (134) ~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image131-p2pkh-example-2.png"
@@ -4528,7 +4527,7 @@ OP_DUP will duplicate the top item on the stack OP_HASH160 hashes the previous i
 Next, \<pubKeyHash?\> -- with the question mark in the angle brackets -- is the actual public key hash specified by the previous transaction output.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-------------------- 132. bitcoin scripts: p2pkh example execution (135) ----------------------->
+<!--~~~~~~~~~~~~~~~~~~ 132. bitcoin scripts: p2pkh example execution (135) ~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image132-p2pkh.png"
@@ -4557,7 +4556,7 @@ And then finally, since the final return value is true, we know that the transac
 <h3>Proof of Burn</h3>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-------------------------- 133. bitcoin scripts: proof-of-burn (136) --------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 133. bitcoin scripts: proof-of-burn (136) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image133-proof-of-burn.png"
@@ -4618,7 +4617,7 @@ In other words, the customer is the sender, and the vendor is the recipient.
 <h3>P2PKH vs P2SH</h3>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-------------------- 134. p2pkh vs p2sh: who specifies the script? (137) ----------------------->
+<!--~~~~~~~~~~~~~~~~~~ 134. p2pkh vs p2sh: who specifies the script? (137) ~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image134-p2pkh-p2sh.png"
@@ -4656,7 +4655,7 @@ It’s much more customer friendly if the recipient of the transaction, the vend
 <h3>How P2SH Works</h3>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------- 135. p2pkh vs p2sh: creating a p2pkh pub key hash (138) -------------------->
+<!--~~~~~~~~~~~~~~~~~ 135. p2pkh vs p2sh: creating a p2pkh pub key hash (138) ~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image135-how-p2sh-works.png"
@@ -4685,7 +4684,7 @@ In order for Bob to redeem the bitcoin that Alice just sent him, he must provide
 
 <h3>Why use P2SH?</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------------ 136. p2pkh vs p2sh: why p2pkh? (139) ---------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 136. p2pkh vs p2sh: why p2pkh? (139) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image136-why-use-p2sh.png"
@@ -4721,7 +4720,7 @@ Pay to Script Hash was an update to Bitcoin back in 2012, and since then has bee
 
 <h3>Multisignature</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!---------------------- 161. P2PKH vs P2SH: Multisignature Example (140) ------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~ 161. P2PKH vs P2SH: Multisignature Example (140) ~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image161.jpg" 
@@ -4763,7 +4762,7 @@ This redeeming script is only revealed and used when the redeemer wants to spend
 The redeeming script is then hashed, to check against the redeeming script hash, and evaluated.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!----------------------- 161. p2pkh vs p2sh: multisig example (141) ----------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~ 161. p2pkh vs p2sh: multisig example (141) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image161.jpg"
@@ -4783,7 +4782,7 @@ If they match, the UTXO is unlocked.
 
 <h3>Timelocks</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------- 162. transaction locktime: timelocks (142) --------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 162. transaction locktime: timelocks (142) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image162.png" 
@@ -4846,7 +4845,7 @@ In this lecture, we dove into the low-level specifics of Bitcoin that make it wo
 We achieve a tamper evident system using cryptographic hash functions to produce standardized random “fingerprints” of our data. If the data changes, so will the fingerprints. Cryptographic hash functions do the following:
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!----------------------------- cryptographic hash functions (144) ------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 163. cryptographic hash functions (144) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image163.jpg" 
@@ -4971,7 +4970,7 @@ While we may primarily only think of miners or casual traders using exchanges or
 <h3 id="ch4-1">4.1 Key Components</h3>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------- 164. Types of Users: Key Components (147) ---------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 164. Types of Users: Key Components (147) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image164.png"
@@ -5022,7 +5021,7 @@ As we’ll soon find out, wallets come in many different shapes and sizes – ho
 <h3>Purpose of a Wallet</h3>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!----------------------- 165. Purpose of a Wallet: Key Management (148) ------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~ 165. Purpose of a Wallet: Key Management (148) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image165.png"
@@ -5045,7 +5044,7 @@ How do we make sure that we’re not subject to identity theft?
 <h3>Types of Wallets</h3>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!----------------------- 166. Bitcoin Wallets: What do Wallets Do? (148) ------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~ 166. Bitcoin Wallets: What do Wallets Do? (148) ~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image166.png"
