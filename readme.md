@@ -151,7 +151,7 @@ Blockchain Fundamentals is constantly being improved, in terms of new informatio
 
 Max Fang, Philip Hayes, Sunny Aggarwal, Aparna Krishnan, Gloria Zhao, Gillian Chu, Brian Ho.
 
-<h2 id="ch1">Chapter 1: Course/Bitcoin Protocol & Consensus: A High Level Overview/Intro</h2>
+<h2><a name="ch1">Chapter 1: Course/Bitcoin Protocol & Consensus: A High Level Overview/Intro</a></h2>
 
 Welcome to the first module in Cryptocurrencies: Bitcoin and the Crypto Space, the first course in the Blockchain Fundamentals program.
 
@@ -171,7 +171,7 @@ Then, we’ll dive into four-part buildup of Bitcoin consensus and explain why B
 
 <h3>Bitcoin Protocol & Consensus: A High-Level Overview</h3>
 
-<h3 id="ch1-1">1.1 Intro: What is Bitcoin?</h3>
+<h3><a name="ch1-1">1.1 Intro: What is Bitcoin?</a></h3>
 
 [What is Bitcoin?](https://youtu.be/Gc2en3nHxA4) 1 min, 37 sec
 
@@ -310,7 +310,7 @@ And even the creation of money is decided not by a central authority, but throug
   width="400px;" />
 </p>
 
-<h3 id="ch1-2">1.2 Bitcoin vs. Banks</h3>
+<h3><a name="ch1-2">1.2 Bitcoin vs. Banks</a></h3>
 
 Bitcoin aims to get rid of the central entity, the bank.
 
@@ -390,7 +390,7 @@ All of these pieces together make Bitcoin the technological revolution that kick
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-<h3 id="ch1-3">1.3 Intro: Bitcoin from the Ground Up</h3>
+<h3><a name="ch1-3">1.3 Intro: Bitcoin from the Ground Up</a></h3>
 
 We saw in the section on Bitcoin versus Banks that we need to enable account and identity management, money transfer as a service, record management, and trust.
 
@@ -398,7 +398,7 @@ In this section: titled Bitcoin from the Ground Up, we’ll take each of these f
 
 By the end, you should have a high level understanding of how Bitcoin works, and why things are the way they are in Bitcoin.
 
-<h3 id="ch1-4">1.4 Intro: Identity (Stage 1)</h3>
+<h3><a name="ch1-4">1.4 Intro: Identity (Stage 1</a>)</h3>
 
 We’ll start off by taking a look at one of the most fundamental ideas in Bitcoin:
 
@@ -589,7 +589,7 @@ Even the number of grains of sand upon all these Earths is only 0.0000000058% (8
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-<h3 id="ch1-5">1.5 Intro: Transactions (Stage 2)</h3>
+<h3><a name="ch1-5">1.5 Intro: Transactions (Stage 2)</a></h3>
 
 So now that we have a clear understanding of the structure and purpose of identity in Bitcoin, we can start asking the question, “How do we make transactions between one another in Bitcoin?”
 
@@ -705,7 +705,7 @@ The amount of bitcoin you own is calculated by summing up the value of each of y
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-<h3 id="ch1-6">1.6 UTXO’s:</h3>
+<h3><a name="ch1-6">1.6 UTXO’s:</a></h3>
 
 Here’s an example of how transactions work in Bitcoin:
 
@@ -748,7 +748,7 @@ This is how Bitcoin effectively keeps track of individual transactions and preve
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-<h3 id="ch1-7">1.7 Intro: Record Keeping (Stage 3)</h3>
+<h3><a name="ch1-7">1.7 Intro: Record Keeping (Stage 3)</a></h3>
 
 We have now understood how to assign unique identities to every user through public and private keys and conduct transactions between these entities through the use of the UTXO, or Unspent Transaction Output, model.
 
@@ -883,7 +883,7 @@ We will go over this in the next segment on consensus.
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-<h3 id="ch1-8">1.8 Intro: Consensus (Stage 4)</h3>
+<h3><a name="ch1-8">1.8 Intro: Consensus (Stage 4)</a></h3>
 
 Now we know how to send transactions to one another with unique identities using the UTXO model, and how to store these transactions using a blockchain to maintain a global record.
 
@@ -1299,7 +1299,7 @@ We’ll explore all these attacks in further detail in future course modules.
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-<h3 id="ch1-9">1.9 Forking</h3>
+<h3><a name="ch1-9">1.9 Forking</a></h3>
 
 Sometimes, different miners may create different blocks, either intentionally (e.g. double spending) or unintentionally, to add at the same point on the blockchain. This creates multiple chains: multiple different versions of the transaction history. We say that the blocks are competing at the same block height, and that there has been a fork. Following protocol, miners eventually resolve the fork and agree upon one of the chains to be the valid blockchain, and continue to build blocks upon it. 
 
@@ -1309,7 +1309,7 @@ Two categories of these protocol changes are soft and hard forks. Soft forks imp
 
 We’ll explain more in the course modules for Chapter 4.
 
-<h3 id="ch1-10">1.10 Bitcoin Review:</h3>
+<h3><a name="ch1-10">1.10 Bitcoin Review:</a></h3>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~ 27. key takeaway - identity: your keys are your identity (38) ~~~~~~~~~~~~~~~~-->
@@ -1472,7 +1472,7 @@ These are the four essential unique properties of Bitcoin: 1. pseudonymous, 2. d
 
 <h2>Bitcoin Protocol & Consensus: A High Level Overview / Review, Readings, & More</h2>
 
-<h3 id="ch1-11">1.11 Chapter 1 Summary:</h3>
+<h3><a name="ch1-11">1.11 Chapter 1 Summary:</a></h3>
 
 <h3>I. What is Bitcoin?</h3>
 
@@ -1532,7 +1532,7 @@ Users on the blockchain must come to a consensus on which updates and blocks to 
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-<h2 id="ch2">Chapter 2: Blockchain History</h2>
+<h2><a name="ch2">Chapter 2: Blockchain History</a></h2>
 
 A question we sometimes get from students in our class here at UC Berkeley is: why use Bitcoin?
 
@@ -1552,7 +1552,7 @@ From there, we’ll explore the present-day state of the blockchain space, inclu
 
 This journey will take us from the Cypherpunks, who hated big banks and championed privacy and power for individuals, to adoption of blockchain technology by JPMorgan Chase, one of the largest banking institutions in the United States.
 
-<h3 id="ch2-1">2.1 Intro: Pre-Bitcoin</h3>
+<h3><a name="ch2-1">2.1 Intro: Pre-Bitcoin</a></h3>
 
 The roots of Bitcoin start with libertarianism.
 
@@ -1570,7 +1570,7 @@ From online discussions on forums and mailing lists, two groups formed: the Cyph
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-<h3 id="ch2-2">2.2 Libertarian Dreams</h3>
+<h3><a name="ch2-2">2.2 Libertarian Dreams</a></h3>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~ 32. libertarian dreams: cypherpunks and crypto-anarchists (45) ~~~~~~~~~~~~~~~-->
@@ -1618,7 +1618,7 @@ But in an increasingly digital world, the convenience of big banks tracking acco
 
 And so, these libertarians saw early on the need for an anonymous digital “transaction system” or currency -- one that gave users “the power to selectively reveal oneself to the world.”
 
-<h3 id="ch2-3">2.3 Bitcoin Precursors</h3>
+<h3><a name="ch2-3">2.3 Bitcoin Precursors</a></h3>
 
 The Cypherpunks didn’t get together, design a cryptocurrency, and succeed on their first attempt.
 
@@ -1713,7 +1713,7 @@ Contracts and transactions are enforced through the broadcast and signing of tra
 
 These ideas from B-money would later influence the development and design philosophy of Bitcoin.
 
-<h3 id="ch2-4">2.4 Bitcoin Invention</h3>
+<h3><a name="ch2-4">2.4 Bitcoin Invention</a></h3>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 37. satoshi nakamoto: oct, 2008 bitcoin whitepaper (50) ~~~~~~~~~~~~~~~~~~-->
@@ -1895,7 +1895,7 @@ Early Bitcoin was thus often the target of scandals, hacks, and illegal activity
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-<h3 id="ch2-5">2.5 Hacks and Scandals</h3>
+<h3><a name="ch2-5">2.5 Hacks and Scandals</a></h3>
 
 In the early stages of Bitcoin, there existed no exchange for trading between bitcoins and regular currencies.
 
@@ -1965,7 +1965,7 @@ Ross Ulbricht was sentenced to life in jail, and the FBI seized upwards of 26,00
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-<h3 id="ch2-6">2.6 Bitcoin Bubble and Altcoins</h3>
+<h3><a name="ch2-6">2.6 Bitcoin Bubble and Altcoins</a></h3>
 
 Between November 1, 2013 and November 30, 2013 -- less than a month -- the price of Bitcoin rose from just under \$200 to over \$1000
 
@@ -2093,7 +2093,7 @@ And then of course the market amplified the current trend, so people further dum
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-<h3 id="ch2-7">2.7 Intro: Scalability</h3>
+<h3><a name="ch2-7">2.7 Intro: Scalability</a></h3>
 
 Historically, Bitcoin has faced a number of challenges as a technology, including scalability and of course public perception.
 
@@ -2145,7 +2145,7 @@ Members can't directly propose and vote on updates to Bitcoin within the actual 
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-<h3 id="ch2-8">2.8 Ethereum Timeline</h3>
+<h3><a name="ch2-8">2.8 Ethereum Timeline</a></h3>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 50. bitcoin vs. ethereum: ethereum timeline 2013-2016 (62) ~~~~~~~~~~~~~~~~~-->
@@ -2308,7 +2308,7 @@ An increase in the amount of international regulation especially in India...Sout
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-<h3 id="ch2-9">2.9 Intro: Enterprise Blockchain</h3>
+<h3><a name="ch2-9">2.9 Intro: Enterprise Blockchain</a></h3>
 
 While blockchain technology was initially developed to underlie cryptocurrencies, it quickly drew the attention of enterprises, which wanted to harness the same technology to create private or permissioned blockchains.
 
@@ -2597,7 +2597,7 @@ In this course, we explain these issues in an objective fashion, and let you for
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-<h3 id="ch2-10">2.10 Intro: State of the Industry</h3>
+<h3><a name="ch2-10">2.10 Intro: State of the Industry</a></h3>
 
 We’ve told the story of Bitcoin and blockchain: from the cypherpunk movement all the way to JP Morgan Chase.
 
@@ -2794,7 +2794,7 @@ Looking at the broader picture, that’s one of the goals of this course -- to g
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
-<h3 id="ch2-11">2.11 Chapter 2 Summary</h3>
+<h3><a name="ch2-11">2.11 Chapter 2 Summary</a></h3>
 
 <h3>Pre-Bitcoin: Libertarian Dreams</h3>
 
@@ -2858,7 +2858,7 @@ Coindesk: [A Bot Named Willy: Did Mt. Gox's Automated Trading Pump Bitcoin's Pr
 
 (Optional) [Digital Gold ](https://www.amazon.com/Digital-Gold-Bitcoin-Millionaires-Reinvent/dp/006236250X)by Nathaniel Popper 
 
-<h2 id="ch3">Chapter 3: Bitcoin Mechanics & Optimizations: A Technical Overview</h2>
+<h2><a name="ch3">Chapter 3: Bitcoin Mechanics & Optimizations: A Technical Overview</a></h2>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------- 80. Bitcoin Mechanics and Optimizations: A Technical Overview (95) --------------->
@@ -2899,7 +2899,7 @@ We’ll then discuss digital signatures, the elliptic curve digital signature al
 
 Finally, we’ll introduce Bitcoin script and its functionality as well as its role in making Bitcoin more flexible.
 
-<h3 id="ch3-1">3.1 Intro: Motivations and Definitions</h3>
+<h3><a name="ch3-1">3.1 Intro: Motivations and Definitions</a></h3>
 
 Recall our earlier assumptions about Bitcoin: we can’t trust anyone.
 
@@ -2921,7 +2921,7 @@ For this, we’ll utilize cryptographic hash functions.
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-<h3 id="ch3-2">Motivations and Definitions: Integrity of Information</h3>
+<h3><a name="ch3-2">3.2 Motivations and Definitions: Integrity of Information</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--------------- 81. cryptographic hash functions: integrity of information (97) ---------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3137,7 +3137,7 @@ There's no relation between the Hashes despite the inputs being so similar.
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-<h3 id="ch3-3">3.3 SHA256</h3>
+<h3><a name="ch3-3">3.3 SHA256</a></h3>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------ 90. cryptographic hash functions: sha256 (94) ------------------------->
@@ -3169,7 +3169,7 @@ Once on the original message you want to hash, and another time on the output of
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-<h3 id="ch3-4">3.4 Intro: A Tamper-Evident Database</h3>
+<h3><a name="ch3-4">3.4 Intro: A Tamper-Evident Database</a></h3>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------- 90. a tamper-evident database (95) ----------------------------->
@@ -3350,7 +3350,7 @@ Let’s first take a look at the Merkle Root.
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
-<h3 id="ch3-5">3.5 Merkle Trees:</h3>
+<h3><a name="ch3-5">3.5 Merkle Trees:</a></h3>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!---------------------- 98. a tamper-evident database: merkle tree (100) ------------------------>
@@ -3595,7 +3595,7 @@ It should just take one hash for example to prove that some nonce is correct, ev
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-<h3 id="ch3-6">3.6 Proof-of-Work: Mining</h3>
+<h3><a name="ch3-6">3.6 Proof-of-Work: Mining</a></h3>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------ 107. proof-of-work: mining (108) -------------------------------->
@@ -3814,7 +3814,7 @@ It would be more expensive to recalculate the merkle root each time on each iter
 
 We optimize by trying nonces in such a way as to only have to calculate the merkle root in each iteration of the outermost loop.
 
-<h3 id="ch3-7">3.7 Intro: Signatures and Authentication</h3>
+<h3><a name="ch3-7">3.7 Intro: Signatures and Authentication</a></h3>
 
 Now we’ll go into how to use digital signatures to send messages and transactions both pseudonymously and trustlessly.
 
@@ -4213,7 +4213,7 @@ It can hash the beginning of our address and compare it with the checksum to see
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-<h3 id="ch3-8">3.8 Intro: Bitcoin Script</h3>
+<h3><a name="ch3-8">3.8 Intro: Bitcoin Script</a></h3>
 
 Now we’ll dive into Bitcoin script.
 
@@ -4421,7 +4421,7 @@ The Script language is stack-based, has a native support for cryptocurrency, and
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-<h3 id="ch3-9">3.9 Intro to P2PKH</h3>
+<h3><a name="ch3-9">3.9 Intro to P2PKH</a></h3>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 129. bitcoin scripts: p2pkh example (132) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4836,7 +4836,7 @@ Also, blocks are not created at guaranteed intervals either, so any attempts to 
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-<h3 id="ch3-10">3.10 Chapter 3 Summary</h3>
+<h3><a name="ch3-10">3.10 Chapter 3 Summary</a></h3>
 
 <h3>I. Cryptographic Hash Functions </h3>
 
@@ -4941,7 +4941,7 @@ Let’s say that you manage to break computer science as we know it and devise a
 
 Feel free to discuss amongst each other in the discussion board topic below. We'll be grading the responses you paste into the text input.
 
-<h2 id="ch4">Chapter 4 - Bitcoin In Real Life: Wallets, Mining, and More</h2>
+<h2><a name="ch4">Chapter 4 - Bitcoin In Real Life: Wallets, Mining, and More</a></h2>
 
 We’ve looked at Bitcoin mechanics from both a high and low level, explaining the primary motivations of why we do what we do in Bitcoin, and its implementation.
 
@@ -4967,7 +4967,7 @@ While we may primarily only think of miners or casual traders using exchanges or
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-<h3 id="ch4-1">4.1 Key Components</h3>
+<h3><a name="ch4-1">4.1 Key Components</a></h3>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 164. Types of Users: Key Components (147) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5004,7 +5004,7 @@ And finally, as we’ll soon see, not every client needs to be connected to the 
 
 In actuality, the distinction between different types of users isn’t just through these four main functionalities -- mining, routing, having a full blockchain, and key management through wallets -- but it does summarize a lot about the Bitcoin user experience.
 
-<h3 id="ch4-2">4.2 Intro: Wallets</h3>
+<h3><a name="ch4-2">4.2 Intro: Wallets</a></h3>
 
 The first type of user we’ll be talking about is the most common Bitcoin user.
 
@@ -5325,7 +5325,7 @@ Some examples of decentralized exchanges are Bitsquare, Bitshares, Openledger, N
 
 Decentralized exchanges might not necessarily be better than centralized exchanges, especially since large centralized exchanges are generally backed by powerful companies that can invest in high security, but of course, do your own due diligence.
 
-<h3 id="ch4-3">4.3 Intro: Wallet Mechanics</h3>
+<h3><a name="ch4-3">4.3 Intro: Wallet Mechanics</a></h3>
 
 We now know that wallets help manage your identity: your public and private keys.
 
@@ -5589,7 +5589,7 @@ Everyone’s key originates in some way from the president’s master key, so th
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-<h3 id="ch4-4">4.4 Intro: Mining</h3>
+<h3><a name="ch4-4">4.4 Intro: Mining</a></h3>
 
 We’ve talked about consensus and Proof-of-Work, but we haven’t really talked about the implementation of mining in Bitcoin.
 
@@ -6251,7 +6251,7 @@ Keep in mind that most mining operations, don’t turn a profit for quite a whil
 
 Speaking of ASIC farms, we’ll go ahead and examine what some mining operations look like in the real world in the next section.
 
-<h3 id="ch4-5">4.5 Intro: Real World Mining</h3>
+<h3><a name="ch4-5">4.5 Intro: Real World Mining</a></h3>
 
 We’ve seen and understood mining from the theoretical and technical side, but what does it look like in practice?
 
@@ -6650,7 +6650,7 @@ This comes with one caveat, however, as the miner cannot validate the block head
 
 In mining pools, once a block is found, the block header hash is sent imimagestely to the miners so they can all start mining on the new block as soon as possible. Competing miners that are outside of this mining pool can take advantage of this by **connecting to the mining pool**, listen for the **block header hash**, and **mine on it for themselves**.
 
-<h3 id="ch4-6">4.6 Intro: Bitcoin Governance</h3>
+<h3><a name="ch4-6">4.6 Intro: Bitcoin Governance</a></h3>
 
 We’ve discussed many of Bitcoin’s underlying mechanisms and protocols, but we haven’t talked about how those changes came to be.
 
@@ -7051,7 +7051,7 @@ The first BIP was by Amit Taaki in 2011, and was actually a BIP to make BIPs.
 
 Miners vote on BIPs by including a reference to that BIP in the block that they mine.
 
-<h3 id="ch4-7">4.7 Chapter 4 Summary</h3>
+<h3><a name="ch4-7">4.7 Chapter 4 Summary</a></h3>
 
 Author: Rea Savla
 
@@ -7193,7 +7193,7 @@ Readings
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-<h2 id="ch5">Chapter 5: How to Destroy Bitcoin: Game Theory & Attacks</h2>
+<h2><a name="ch5">Chapter 5: How to Destroy Bitcoin: Game Theory & Attacks</a></h2>
 
 With all our knowledge so far, we have a pretty good understanding of Bitcoin high level motivations and design, as well as low level mechanics.
 
@@ -7205,7 +7205,7 @@ One note is that although we have been focusing primarily on Bitcoin so far, now
 
 This module is called “How to Destroy Bitcoin: Game Theory and Attacks” but you can understand that the game theoretical approach and analysis of attack vectors applies to all proof-of-work blockchains -- not just Bitcoin.
 
-<h3 id="ch5-1">5.1 Intro: Pool Strategies</h3>
+<h3><a name="ch5-1">5.1 Intro: Pool Strategies</a></h3>
 
 As we explained in the previous module, everything is driven by profit -- and Bitcoin is certainly no exception.
 
@@ -7260,7 +7260,7 @@ For the same reason, proportional pay-out schemes are beneficial to the pool, si
 
 Given the incentive structures in both pay per share and proportional pool pay-out schemes, is it possible that pools are vulnerable to some incentive misalignment?
 
-<h3 id="ch5-2">5.2 Pool Hopping</h3>
+<h3><a name="ch5-2">5.2 Pool Hopping</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------ 233. Pool Rewards: Pool Hopping Strategy (215) ------------------------>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7383,7 +7383,7 @@ Pay-per-share pools are the inverse, as previously mentioned.
 
 We’ll see how this misalignment of incentives in pay-per-share models can lead to even further attacks.
 
-<h3 id="ch5-3">5.3 Pool Cannibalization</h3>
+<h3><a name="ch5-3">5.3 Pool Cannibalization</a></h3>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--------------------- 238. Pool Cannibalization: Strategy: Nom Nom Nom Nom (219) --------------->
@@ -7523,7 +7523,7 @@ Is everyone going to start being dishonest for profit?
 
 Are pools going to wage war on each other through this attack?
 
-<h3 id="ch5-4">5.4 Nash Equilibrium and the Tragedy of the Commons</h3>
+<h3><a name="ch5-4">5.4 Nash Equilibrium and the Tragedy of the Commons</a></h3>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!----------------------------- 242. pool wars: thegGame of life (222) --------------------------->
@@ -7685,7 +7685,7 @@ We can see that the scenario in which both players choose to act dishonestly is 
 
 If you are interested in learning more about introductory game theory, we recommend the following reading: [A Brief Introduction to Basics of Game Theory ](https://www.ethz.ch/content/dam/ethz/special-interest/gess/chair-of-sociology-dam/documents/education/spieltheorie/literatur/Einf%C3%BChrung/Jackson%20Basics%20of%20Game%20Theory%20SSRN-id1968579.pdf)by Matthew O. Jackson, Stanford University.
 
-<h3 id="ch5-5">5.5 Intro: Double Spending</h3>
+<h3><a name="ch5-5">5.5 Intro: Double Spending</a></h3>
 
 Now that we’ve discussed some pool game theory, let’s go ahead and revisit the classic attack of the cryptocurrency world: the double spend attack.
 
@@ -8047,7 +8047,7 @@ At this point, double spending on someone is -- interestingly enough -- just a m
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-<h3 id="ch5-6">5.6 Intro: Censorship Attacks</h3>
+<h3><a name="ch5-6">5.6 Intro: Censorship Attacks</a></h3>
 
 Thus far, we’ve looked at examples of how users with enough hashpower can take advantage of the properties of the blockchain in order to maliciously double spend their coins.
 
@@ -8202,7 +8202,7 @@ They now have to decide whether they should include my transaction in their bloc
 
 Therefore, looking at the math, unless I pay at least q\^2 times the block reward in transaction fees, other miners will mine on the malicious chain. As of April 17th 2018, that would be a \$4000 minimum tx fee, which is incredibly limiting. It’s very likely that I won’t be able to afford those transaction costs, so I won’t be even be able to send my transactions through. Thus, Gloria has succeeded in censoring my transactions with only 20% of the total hashrate.
 
-<h3 id="ch5-7">5.7 Intro: Selfish Mining</h3>
+<h3><a name="ch5-7">5.7 Intro: Selfish Mining</a></h3>
 
 It's important to consider how rational and malicious actors will behave to increase the amount of money that they make.
 
@@ -8832,7 +8832,7 @@ Maybe porting over publish or perish into an asynchronous model is a good direct
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-<h3 id="ch5-8">5.8 The Bitcoin Network</h3>
+<h3><a name="ch5-8">5.8 The Bitcoin Network</a></h3>
 
 Taking a step back from analyzing individual defenses, it’s important to understand the actual Bitcoin network itself.
 
@@ -9056,7 +9056,7 @@ As a closing note, know that outside of what we presented in this module, there 
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-<h3 id="ch5-9">5.9 Chapter 5 Summary</h3>
+<h3><a name="ch5-9">5.9 Chapter 5 Summary</a></h3>
 
 Author: Rea Savla 
 
@@ -9163,7 +9163,7 @@ In addition to network topology, network latency also poses as an issue. Nodes t
 
 ["Ethereum Whitepaper up to "Miscellanea And Concerns" ](https://github.com/ethereum/wiki/wiki/White-Paper)
 
-<h2 id="ch6">Chapter 6: Ethereum & Smart Contracts: Enabling a Decentralized Future</h2>
+<h2><a name="ch6">Chapter 6: Ethereum & Smart Contracts: Enabling a Decentralized Future</a></h2>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------- lecture overview: smart contracts, ethereum, evm & use cases (274) --------------->
@@ -9209,7 +9209,7 @@ With these accumulated sets of knowledge, we are now going to take you from Bitc
 
 In this module, we’ll be looking at Ethereum and blockchain use cases.
 
-<h3 id="ch6-1">6.1 Intro: Smart Contracts</h3>
+<h3><a name="ch6-1">6.1 Intro: Smart Contracts</a></h3>
 
 In the past, we talked about how Bitcoin enabled users to conduct transactions that were decentralized and trustless.
 
@@ -9454,7 +9454,7 @@ The difference is that the execution and enforcement is done through carefully d
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-<h3 id="ch6-2">6.2 Intro: Ethereum</h3>
+<h3><a name="ch6-2">6.2 Intro: Ethereum</a></h3>
 
 Looking first at what makes Bitcoin special, and the underlying architecture that makes it the way it is, we saw how we could keep bitcoins design philosophy in mind as we sought ways to design a smart contract platform.
 
@@ -9727,8 +9727,8 @@ For example, you can define m of n multisignature, which is also something we lo
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image327.png" 
-   alt="Ethereum Virtual Machine"
-   width="400px;" />
+  alt="Ethereum Virtual Machine"
+  width="400px;" />
 </p>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -9744,14 +9744,14 @@ For example, you can define m of n multisignature, which is also something we lo
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-<h3 id="ch6-3">6.3 Intro: Ethereum Virtual Machine</h3>
+<h3><a name="ch6-3">6.3 Intro: Ethereum Virtual Machine</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------- 324b. ethereum virtual machine logo (293) ---------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image324b.png"
-   alt="Ethereum Virtual Machine"
-   width="400px;" </>
+  alt="Ethereum Virtual Machine"
+  width="400px;" </>
 </p>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -10132,7 +10132,7 @@ Hopefully this creates an incentive not to use the blockchain for computation th
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-<h3 id="ch6-4">6.4 Intro: Ethereum Use Cases</h3>
+<h3><a name="ch6-4">6.4 Intro: Ethereum Use Cases</a></h3>
 
 In this next section, we’ll go over both basic and advanced use cases enabled by smart contracts.
 
@@ -10589,7 +10589,7 @@ Any broker can tap into this market, allowing for the trustless pooling of these
 
 By coordinating between these untrusting parties on a globally accessible platform, the liquidity problem will have been solved in a way that’s unfeasible for centralized solutions.
 
-<h3 id="ch6-5">6.5 Blockchain vs Internet</h3>
+<h3><a name="ch6-5">6.5 Blockchain vs Internet</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 354. Blockchain vs The Internet (338) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -10655,7 +10655,7 @@ When thinking about a blockchain use case, ask yourself whether it leverages som
 
 Blockchain’s innovation was not to enable distributed information sharing, but distributed record-keeping and decentralized exchange of value.
 
-<h3 id="ch6-6">6.6 Blockchain Generalizations</h3>
+<h3><a name="ch6-6">6.6 Blockchain Generalizations</a></h3>
 
 Now that we’ve seen all these use cases, let’s go ahead and finish off with some generalizations.
 
@@ -10868,7 +10868,7 @@ If you do integrate centralization with a blockchain solution, you lose out on m
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-<h3 id="ch6-7">6.7 Supplement: Use Cases</h3>
+<h3><a name="ch6-7">6.7 Supplement: Use Cases</a></h3>
 
 Authors: Rea Savla and David Luo
 
@@ -10965,7 +10965,7 @@ Mirages pop up all the time, but that doesn’t make them the real deal.
 
 Be sure that you’re able to justify why a blockchain works for your use case!
 
-<h3 id="ch6-8">6.8 Intro: Ethereum Ecosystem</h3>
+<h3><a name="ch6-8">6.8 Intro: Ethereum Ecosystem</a></h3>
 
 Just like with Bitcoin, the Ethereum ecosystem is constantly changing.
 
@@ -11077,7 +11077,7 @@ We’ll go into this, and also Plasma, in our next course.
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-<h3 id="ch6-9">6.9 Chapter 6 Summary</h3>
+<h3><a name="ch6-9">6.9 Chapter 6 Summary</a></h3>
 
 <h3>I. Smart Contracts</h3>
 
