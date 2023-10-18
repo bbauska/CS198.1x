@@ -24,43 +24,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>CS198.1x</title>
 
-<style>
-background: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%);
-body {
-  font-family: "Avenir Next", Calibri, Verdana, sans-serif;
-  font-size: 13.5px;
-  margin-left: 5px;
-}
-
-#myBtn {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 30px;
-  z-index: 99;
-  font-size: 12px;
-  border: none;
-  outline: none;
-  background-color: red;
-  color: white;
-  cursor: pointer;
-  padding: 10px;
-  border-radius: 2px;
-}
-
-#myBtn:hover {
-  background-color: #555;
-}
-img.displayed {
-  display: block;
-  margin: 0 auto; }
-
-.border {
-  border-width: 1px;
-  border-color: #778899;
-  border-style: solid; }
-
-</style>
 </head>
 <body>
 
@@ -92,43 +55,6 @@ function topFunction() {
 }
 </script>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ drop down menu ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<style>
-.dropbtn {
-  background-color: #04006D;
-  color: white;
-  padding: 14px;
-  font-size: 12px;
-  border: none;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 200px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {background-color: #ccc;}
-
-.dropdown:hover .dropdown-content {display: block;}
-
-.dropdown:hover .dropbtn {background-color: #398e41;}
-</style>
-
 <body>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ index.html in cs198.1x.bauska.org ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -137,10 +63,10 @@ function topFunction() {
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ cs198.1x bitcoin logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<img class="displayed"
+<img class="displayed border"
   src="/images/image001.png?raw=true"
   alt="Bitcoin cs198.1x logo."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <h2 style="text-align: center;">Bitcoin and Cryptocurrencies</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -302,7 +228,7 @@ blockchain use cases outside of cryptocurrency.</p>
 <img class="displayed"
   src="/images/expectations.png?raw=true"
   alt="Expectations: Expect from us, We expect from you."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">Also, a good unofficial resource is the Blockchain at Berkeley Public
 Slack, where we discuss various topics related to blockchain. You can
@@ -493,7 +419,7 @@ but through the process of mining, or Proof-of-Work.</p>
 <img class="displayed"
   src="/images/currency-in banks we distrust.png"
   alt="Currency: In Banks We Distrust"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <h3 id="ch1-2">1.2 Bitcoin vs. Banks</h3>
 
@@ -533,7 +459,7 @@ government, then you can trust the bank.</p>
 <img class="displayed"
   src="/images/Currency-Bitcoin components.png"
   alt="Currency: Bitcoin Components"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">In Bitcoin, identity and account management are completely
 autonomous.</p>
@@ -596,7 +522,7 @@ keep track of who’s who and who owns what?</p>
 <img class="displayed"
   src="/images/image003-identity-in-bitcoin.png"
   alt="Identity: Identity in Bitcoin"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <h3>Identity (Stage 1)</h3>
 
@@ -676,7 +602,7 @@ by implication, your Bitcoin identity.</p>
 <img class="displayed"
   src="/images/image004.png"
    alt="Identity: Public and Private Keys"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">In Bitcoin, you can think of your public and private key as a chest
 and key, respectively.</p>
@@ -712,7 +638,7 @@ function.</p>
 <img class="displayed"
   src="/images/image004-identity-few.png"
   alt="Identity: A Few Things to Note."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">You may be concerned about the danger of two users ending up with the
 same public key without a central registry ensuring that no two people
@@ -731,7 +657,7 @@ with: the Earth.</p>
 <img class="displayed"
   src="/images/image005.png"
   alt="Identity: Public & Private Keys."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">Bitcoin has 2^160<sup>th</sup> different possible addresses.</p>
 <p class="em2">To get a sense of how many different addresses exist for users to
@@ -754,7 +680,7 @@ of sand on Earth, there exists another Earth, also with
 <img class="displayed"
   src="/images/image006.png"
   alt="Identity: Public Key Security."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">Now we have 2^63<sup>rd</sup> times 2^63<sup>rd</sup> grains of sand
 per earth, meaning that there are a total of 2^126<sup>th</sup> grains
@@ -765,7 +691,7 @@ of sand.</p>
 <img class="displayed"
   src="/images/image007-identity-security-hidden-in-plain-sight.png" 
   alt="Identity: Security: Hidden in Plain Sight."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">Even the number of grains of sand upon all these Earths is only
 0.0000000058% (8 zeroes) of all the possible Bitcoin addresses.</p>
@@ -783,7 +709,7 @@ secure transactions between any two users in the network.</p>
 <img class="displayed"
   src="/images/image008-what makes-a-transaction-valid.png" 
   alt="Transactions: What Makes a Transaction Valid?"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">As we did before with the concept of identity, we will now be
 analyzing the idea of a transaction.</p>
@@ -794,7 +720,7 @@ analyzing the idea of a transaction.</p>
 <img class="displayed"
   src="/images/image009-validity.png" 
   alt="Transactions: Validity: What Makes a Transacton Valid?"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">For a transaction to be valid, it must have these three components:</p>
 
@@ -823,14 +749,14 @@ Transaction Output, model.</p>
 <img class="displayed"
   src="/images/image010-utxo-model.png"
   alt="Transactions: UTXO Model: Example."
-  style="width:400px;" />
+  style="width:40%;" />
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--------- 10. transactions: utxo model: blockchain keeps track of unspent money (21) ----------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image010-utxo-2.png"
   alt="Transactions: UTXO Model: Blockchain Tracks Unspent Money."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">Traditionally, when we think of banks, we think of a single account
 where all our funds are aggregated into one count.</p>
@@ -861,7 +787,7 @@ UTXO, or piggy bank.</p>
 <img class="displayed"
   src="/images/image011-utxo-model-unspent.png"
   alt="Transactions: UTXO Model: Unspent."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">When we want to spend money, we break open that piggy bank…spend
 whatever we like, and then put the rest into another piggy bank.
@@ -884,10 +810,10 @@ of each of your piggy banks, or UTXOs.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------------ 12. utxo example (23) ------------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<img class="displayed"
+<img class="displayed border"
   src="/images/image012-utxo-example.png"
   alt="UTXO Example"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">Let’s say that Gloria has two UTXOs, from past transactions, one
 worth one hundred (100) bitcoins… and one worth fifty bitcoins.<br>
@@ -937,7 +863,7 @@ in the future.</p>
 <img class="displayed"
   src="/images/image013-recordkeeping-distributed-dbs.png" 
   alt="Recordkeeping: Distributed DBS"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">Consider the diagram above.<br>
 <br>Let this represent our network, which includes 5 entities.<br>
@@ -987,7 +913,7 @@ straightforward choice: we have everyone keep a copy of the ledger.<br>
 <img class="displayed"
   src="/images/image014-recordkeeping-everyones-the-bank.png" 
   alt="Recordkeeping: Everyone's the Bank."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">To get as far as possible from centralization, every individual
 entity in Bitcoin should be equal.<br>
@@ -1018,7 +944,7 @@ network.<br>
 <img class="displayed"
   src="/images/image015-recordkeeping-the-blockchain.png" 
   alt="Recordkeeping: The Blockchain"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">Every update to the distributed database, the Bitcoin ledger, is a
 batch of transactions grouped into what are called blocks.<br>
@@ -1072,7 +998,7 @@ agreement, on the next valid update.</p>
 <img class="displayed"
   src="/images/image016-consensus-staying-on-the-same-page.png" 
   alt="Consensus: Staying on the Same Page."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">Because everyone is storing information about the blockchain, we need
 consensus to make sure that everyone agrees on the history of
@@ -1104,7 +1030,7 @@ and disregard it otherwise.</p>
 <img class="displayed"
   src="/images/image017-consensus-double-spend-attack.png" 
   alt="Consensus: Double Spend Attack."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">We have an example for you here.<br>
 <br>Gloria wants to make a transaction to Nadir, so she sends that
@@ -1124,7 +1050,7 @@ double spend attack.</p>
 <img class="displayed"
   src="/images/image018-consensus-double-spend-attack-2.png" 
   alt="Consensus: Double Spend Attack 2."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">With centralized systems, we trust banks to check for the validity of
 all the transactions.<br>
@@ -1143,7 +1069,7 @@ pay both Nadir and myself (Rustie) 10 bitcoins for our laptops.<br>
 <img class="displayed"
   src="/images/image018-consensus-double-spend-attack-2.png" 
   alt="Consensus: Double Spend Attack"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">This is represented by the green arrow from herself to me (Rustie),
 the green circle, and by the separate blue arrow from herself to Nadir,
@@ -1172,7 +1098,7 @@ that we have received the bitcoins.<br>
 <img class="displayed"
   src="/images/image019-consensus-double-spend-attack-malicious.png"
   alt="Consensus: Double Spend Attack: Malicious."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">The moment we try to redeem these tokens with the network, the issue
 becomes transparent.<br>
@@ -1193,7 +1119,7 @@ current model of consensus.</p>
 <img class="displayed"
   src="/images/image020-consensus-peer-validation.png" 
   alt="Consensus: Peer Validation."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">Instead of individuals doing their own validation of transaction, we
 can set up a voting system.<br>
@@ -1221,7 +1147,7 @@ validity.</p>
 <img class="displayed"
   src="/images/image021-consensus-reject-double-spend.png" 
   alt="Consensus: Rejecting the Double Spend."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">Let’s observe what happens when Gloria tries to double spend under
 these circumstances.<br>
@@ -1243,7 +1169,7 @@ malicious behavior.</p>
 <img class="displayed"
   src="/images/image022-consensus-victory.png" 
   alt="Consensus: Victory (or is it?)"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">Peers in the network vote “no” on Gloria’s proposal, as they notice
 multiple transactions trying to spend the same funds.<br>
@@ -1261,7 +1187,7 @@ themselves that the funds exist.<br>
 <img class="displayed"
   src="/images/image023-consensus-a-stranger-among-us.png" 
   alt="Consensus: A Stranger Among Us"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">Recall that Bitcoin is an accessible, anonymous network with no
 central registry.<br>
@@ -1312,7 +1238,7 @@ identities they have.<br>
 <img class="displayed"
   src="/images/image024-consensus-pay-to-play.png" 
   alt="Consensus: Pay to Play."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">This is where the innovation of Satoshi Nakamoto comes into play.<br>
 <br>They recognized that in order to ensure every real entity has equal
@@ -1340,7 +1266,7 @@ is known as “Proof-of-Work.”</p>
 <img class="displayed"
   src="/images/image025-consensus-proof-of-work.png" 
   alt="Consensus: Proof of Work."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">Let’s break down the term “Proof-of-Work”.<br>
 <br>We know “proof” to mean “evidence,” and “work” to mean “spent
@@ -1359,7 +1285,7 @@ other cryptocurrency to follow.</p>
 <img class="displayed"
   src="/images/image026-consensus-proof-of-work-works.png" 
   alt="Consensus: Proof of Work: Works."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">Here’s how Proof-of-Work works: whenever someone wants to make a
 proposal to the rest of the Bitcoin network, they first have to solve a
@@ -1478,7 +1404,7 @@ invalid transactions to become valid.<br>
 <img class="displayed"
   src="/images/image027-key-takeaway-identity.png" 
   alt="Key Takeaway - Identity: Your Keys are Your Identity."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">Let’s go over what we talked about in lecture.<br>
 <br>First, we talked about the concept of identity on the Bitcoin
@@ -1502,7 +1428,7 @@ spend money on your behalf.</p>
 <img class="displayed"
   src="/images/image028-key-takeaway-transactions.png" 
   alt="Key Takeaway - Transactions: Breaking the Piggy Banks."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">Bitcoin doesn’t have the account balance model that banks have.<br>
 <br>Instead, users spend outputs from previous transactions.<br>
@@ -1523,7 +1449,7 @@ standpoint.</p>
 <img class="displayed"
   src="/images/image029-key-takeaway-record-keeping.png" 
   alt="Key Takeaway - Record-Keeping: Everyone's the Banks"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">As we mentioned earlier, the blockchain is the key data structure for
 recording Bitcoin activity.<br>
@@ -1538,7 +1464,7 @@ universe.</p>
 <img class="displayed"
   src="/images/image030-key-takeaway-consensus.png" 
   alt="Key Takeaway - Consensus: Updating the Shared, Immutable Ledger."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">The way that the network reaches consensus is through
 Proof-of-Work.</p>
@@ -1559,7 +1485,7 @@ one has, instead of based on the number of identities.</p>
 <img class="displayed"
   src="/images/image031-unique-properties-of-bitcoin.png" 
   alt="Unique Properties of Bitcoin: Demystifying the Buzzwords"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">Given all this information, you can now justify many of the common
 buzzwords associated with Bitcoin which you may have heard.</p>
@@ -1748,7 +1674,7 @@ advocated for the use of cryptography to protect one’s privacy.</p>
 <img class="displayed"
   src="/images/image032-libertarian-dreams-cypherpunks.png" 
   alt="Libertarian Dreams: Cypherpunks and Crypto-Anarchists"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p>Before explaining a bit of the background behind all of this, let’s look
 at this quote first:</p>
@@ -1771,7 +1697,7 @@ founded and administered the Cypherpunk mailing list.</p>
 <img class="displayed"
   src="/images/image033-libertarian-dreams-cypherpunks-2.png" 
   alt="Libertarian Dreams: Cypherpunks and Crypto-Anarchists (2)"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">The Cypherpunks and Crypto-anarchists hated the idea of national
 agencies being able to spy on them and have access to their
@@ -1804,7 +1730,7 @@ they came close.</p>
 <img class="displayed"
   src="/images/image034-early-attempts-digicash.png" 
   alt="Early Attampts: Digicash"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">These early failures inspired Bitcoin to adopt some key features that
 they implemented and learned from their mistakes.</p>
@@ -1833,7 +1759,7 @@ which eventually led to bankruptcy in 1998.</p>
 <img class="displayed"
   src="/images/image035-early-attempts-hashcash.png" 
   alt="Early Attampts: HashCash."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">Hashcash was originally invented as a mechanism to limit email
 spam.<br>
@@ -1856,7 +1782,7 @@ hashcash disincentivized spammers.</p>
 <img class="displayed"
   src="/images/image036-early-attempts-b-money.png" 
   alt="Early Attampts: B-Money"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">B-money was an early proposal for a cryptocurrency created by Wei
 Dai.<br>
@@ -1887,7 +1813,7 @@ design philosophy of Bitcoin.</p>
 <img class="displayed"
   src="/images/image037-satoshi-nakamoto.png" 
   alt="Satoshi Nakamoto: Oct, 2008 Bitcoin Whitepaper"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">In October 2008, a whitepaper was published online, titled, “Bitcoin:
 A Peer-to-Peer Electronic Cash System.”<br>
@@ -1936,7 +1862,7 @@ bitcoins will have been minted.</p>
 <img class="displayed"
   src="/images/image038-bitcoin-the-first-cryptocurrency.png" 
   alt="Bitcoin: The First Cryptocurrency"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2"> <br>
 <br>Interestingly enough, Satoshi chose to include a message within the
@@ -1963,7 +1889,7 @@ tangible good.</p>
 <img class="displayed"
   src="/images/image039-bitcoin-gains-value.png" 
   alt="Bitcoin gains value"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">And then in May of 2010, this post showed up on the bitcoin talk
 forum.</p>
@@ -1976,7 +1902,7 @@ In the post, we see that…</p>
 <img class="displayed"
   src="/images/image040-bitcoin-gains-value-2.png" 
   alt="10,000 bitcoins for a 20 dollar pizza"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">
 <br>…in it, a man named Laszlo Hanyecz asked for pizza in exchange of
@@ -1995,7 +1921,7 @@ now worth 81 million dollars.</p>
 <img class="displayed"
   src="/images/image041-bitcoin-gains-value-81-million-pizza.png"
   alt="81 million dollar pizza, the first purchase"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">And here’s Laszlo reporting back on the forum about the pizza’s safe
 delivery.<br>
@@ -2037,7 +1963,7 @@ illegal activity.</p>
 <img class="displayed"
   src="/images/image042-bitcoin-theft-mt-gox-july-2010.png"
   alt="Bitcoin Theft: Mt Gox July, 2010 - Feb, 2014."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <h3 id="ch2-5">2.5 Hacks and Scandals</h3>
 
@@ -2071,7 +1997,7 @@ years.<br>
 <img class="displayed"
   src="/images/image043-bitcoin-drug-scandal-silk-road-feb-2011-thru-oct-2013.png" 
   alt="Bitcoin Drug Scandal: Silk Road Feb, 2011 - Oct, 2013"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">Meanwhile, in the depths of the dark web, Bitcoin was also used to
 purchase drugs.<br>
@@ -2094,7 +2020,7 @@ upwards of 26,000 bitcoins, worth $3.6 million at the time.</p>
 <img class="displayed"
   src="/images/image044-bitcoin-bubble.png"
   alt="Bitcoin Bubble"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <h3 id="ch2-6">2.6 Bitcoin Bubble and Altcoins</h3>
 
@@ -2115,7 +2041,7 @@ price up by continuously buying bitcoins.</p>
 <img class="displayed"
   src="/images/image045-explosion-of-altcoins.png"
   alt="Explosion of Altcoins."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2"> <br>
 <br>Soon after the creation of Bitcoin, other cryptocurrencies began
@@ -2145,7 +2071,7 @@ space.</p>
 <img class="displayed"
   src="/images/image046-bitcoin-headlines.png"
   alt="Bitcoin Headlines: Popularity Grows, Merchants Begin to Accept Bitcoin"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <h3>Bitcoin Headlines</h3>
 
@@ -2182,7 +2108,7 @@ the blockchain space has matured over the years.</p>
 <img class="displayed"
   src="/images/image047-bitcoin-startups.png"
   alt="Bitcoin Startups"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2"> <br>
 <br>A bunch of Bitcoin startups began popping up too.<br>
@@ -2202,7 +2128,7 @@ becoming a buzz word.</p>
 <img class="displayed"
   src="/images/image048-and-burst.png"
   alt="2014-2015 Graph of Bitcoin Prices"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">This is a graph of Bitcoin prices from 2014-2015, where you can see
 that first prices shot up immensely, then slowly started to fall.</p>
@@ -2236,7 +2162,7 @@ Bitcoin Struggles to Scale
 <img class="displayed"
   src="/images/image049-bitcoin-struggles-to-scale.png"
   alt="Bitcoin Struggles to Scale: Block Size Debate 2015"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p>One issue that has been the topic of much debate is that of
 scalability.</p>
@@ -2282,7 +2208,7 @@ done.</p>
 <img class="displayed"
   src="/images/image050-2013-2016-ethereum-timeline.png"
   alt="2013-2016: Ethereum Timeline: Bitcoin vs Ethereum"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p>After Bitcoin, the next most influential blockchain platform is
 Ethereum.</p>
@@ -2304,7 +2230,7 @@ called ether.</p>
 <img class="displayed"
   src="/images/image051-2013-2016-ethereum-blows-up.png" 
   alt="2013-2016: Ethereum Timeline: Ethereum Blows Up in Multiple Ways"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p>Ethereum was first described in a whitepaper released in late 2013 by
 then 19-year-old Vitalik Buterin, a programmer from the University of
@@ -2322,7 +2248,7 @@ billion.</p>
 <img class="displayed"
   src="/images/image052-2013-2016-ethereum-timeline-dao.png"
   alt="2013-2016: Ethereum Timeline: Decentralized Autonomous Organizations"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p>Around that time, the idea of Decentralized Autonomous Organizations
 (DAOs for short) became hugely popular.</p>
@@ -2350,7 +2276,7 @@ now known as Ethereum Classic.</p>
 <img class="displayed"
   src="/images/image053-2016-to-present-ethereum-bubble.png"
   alt="2016-??: Ethereum Bubble"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <h3>Ethereum Bubble</h3>
 
@@ -2387,12 +2313,12 @@ the price in upin a positive feedback loop.</p>
 starting to be broadcasted on public radio further contributes to this
 “FOMO.”</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------------- 54. 2016-2017: Hype Train (65) --------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 54. 2016-2017: Hype Train (65) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image054-2016-2017-hype-train.png" 
-  alt="2016-2017: Hype Train"
-  style="width:400px;" />
+  alt="2016-2017: Hype Train."
+  style="width:40%;" />
 
 <p class="em2">And economic and political circumstances like Brexit, Trump’s
 election, or India’s war on cash can also contribute to driving up the
@@ -2403,12 +2329,12 @@ decentralized systems like cryptocurrencies.</p>
 aforementioned Fear of Missing Out, cryptocurrencies became extremely
 popular, resulting in a massive hype train.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------------ 55. 2016-2017: More Hype Train (66) ----------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 55. 2016-2017: More Hype Train (66) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image055-2016-2017-hype-train-2.png"
   alt="2016-2017: More Hype Train"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">In December 2017, cryptocurrencies started attracting much more
 “mainstream” attention, and let to a change in the demographic of the
@@ -2426,7 +2352,7 @@ than make decisions based on volatility and prices.</p>
 <img class="displayed"
   src="/images/image056-2017-get-off-at-this-station.png"
   alt="2017-2019ish: Get Off at This Station"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p>Although the price of Bitcoin is many, many times higher than what it
 was a year ago, it’s started to take a downward turn in the beginning of
@@ -2458,7 +2384,7 @@ circle…</p>
 <img class="displayed"
   src="/images/image057-banks-and-blockchain.png"
   alt="Banks and Blockchain"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p>As blockchain became more mainstream, banks started to pick up on the
 technology as well.</p>
@@ -2487,7 +2413,7 @@ enterprise use.</p>
 <img class="displayed"
   src="/images/image058-private-blockchain-initiatives.png"
   alt="Private Blockchain Initiatives"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p>There are many different enterprise technologies in the space today,
 including R3’s Corda, Chain, JP Morgan’s Quorum and Juno, and Digital
@@ -2507,7 +2433,7 @@ Chase…</p>
 <img class="displayed"
   src="/images/image059-dimon-quotes.png"
   alt="Quotes from Jamie Dimon, the CEO of JP Morgan Chase - Jan, 2014"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p>…As one of the most influential figures in the financial sector, his
 words can play a huge part in shaping the public opinion on
@@ -2522,7 +2448,7 @@ understand what Bitcoin is.</p>
 <img class="displayed"
   src="/images/image060-dimon-quotes-2.png"
   alt="Quotes (2) from Jamie Dimon, the CEO of JP Morgan Chase"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p>In October 2014, he said “Bitcoin developers are going to try and eat
 our lunch. And that’s fine. That’s called competition, and we’ll be
@@ -2536,7 +2462,7 @@ finance.</p>
 <img class="displayed"
   src="/images/image061-dimon-quotes-3.png"
   alt="Quotes (3) from Jamie Dimon, the CEO of JP Morgan Chase"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p>In November 2015, “Virtual currency, where it’s called a bitcoin
 vs. a US Dollar, that’s going to be stopped…No government will ever
@@ -2550,7 +2476,7 @@ same control. It’s not going to happen.”</p>
 <img class="displayed"
   src="/images/image062-dimon-quotes-4.png"
   alt="Quotes (4) from Jamie Dimon, the CEO of JP Morgan Chase"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">In October 2017, he said “Bitcoin is a fraud that won’t end well. If
 you’re stupid enough to buy Bitcoin, you’ll pay for the price of it one
@@ -2569,7 +2495,7 @@ September 2017.</p>
 <img class="displayed"
   src="/images/image063-dimon-quotes-5.png"
   alt="Quotes (5) from Jamie Dimon, the CEO of JP Morgan Chase"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p>“I’d fire a JP Morgan trader in a second who traded [Bitcoin]. It’s
 against the rules, it’s stupid, it’s dangerous.”</p>
@@ -2581,7 +2507,7 @@ it went up, she thinks she is a genius.”</p>
 <img class="displayed"
   src="/images/image064-dimon-quotes-6.png"
   alt="Quotes (6) from Jamie Dimon, the CEO of JP Morgan Chase - Jan, 2018"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">In January 2018, he said “The blockchain is real. You can have crypto
 yen and dollars and stuff like that … the bitcoin to me was always what
@@ -2595,7 +2521,7 @@ I just have a different opinion than other people.”</p>
 <img class="displayed"
   src="/images/image065-crypto-anarchy.png"
   alt="Crypto Anarchy"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">Cryptocurrency and blockchain technology started its roller coaster
 of a journey with a small group of cypherpunks, who believed in
@@ -2609,7 +2535,7 @@ firms.</p>
 <img class="displayed"
   src="/images/image066-digicash.png"
   alt="Digicash: Untraceable Electronic Cash"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">The history of Bitcoin and Blockchain is a story of rapid
 transformation.<p>
@@ -2626,7 +2552,7 @@ technology, the blockchain.</p>
 <img class="displayed"
   src="/images/image067-community.png"
   alt="Community: Where Does the Community Exist?"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p>Where exactly do people discuss bitcoin and blockchain
 technology?<p>
@@ -2646,13 +2572,11 @@ online.<p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!----------------- 68. politics: internal politics and libertarianism (75) ---------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="text-align: center;">
-<img class="displayed"
+<img class="displayed border"
   src="/images/image068-politics-dont-tread.png"
   alt="Politics: Internal Politics and Libertarianism"
-  style="width:400px;" />
-</p>
-<p class="em2"> </p>
+  style="width:40%;" />
+
 <p class="em2">But within the community, there’s always some internal political
 debate going on.</p>
 <p class="em2">For example, there’s a lot of the internal politics that occurs
@@ -2673,12 +2597,11 @@ to do what they want.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------ 69. politics: more internal politics and libertarianism (76) ---------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image069-politics-dont-tread-2.png"
   alt="Politics: More Internal Politics and Libertarianism"
-  style="width:400px;" />
-</p>
+  style="width:40%;" />
+
 <p class="em2">The flag on this slide is the Gadsen flag, which has strong
 Libertarian roots.<p>
 <p>It’s used as a libertarian symbol because the porcupine is the
@@ -2687,13 +2610,11 @@ as you leave it alone.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!-------------------------------- 70. controversial topics (76) --------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image070-controversial-topics.png"
   alt="Conversational Topics"
-  style="width:400px;" />
-</p>
-<p class="em2"> <p>
+  style="width:40%;" />
+
 <p>The United States government tries to best represent its citizens’
 opinions and interests through a representative democracy.<p>
 <p>In the blockchain community, there are different ways of coming to
@@ -2724,13 +2645,11 @@ ICO’s:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!---------------------------------- 71. icos: the hypee (85) ------------------------------------>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image071-icos-the-hype.png"
-  alt="ICO's: The Hype"
-  style="width:400px;" />
-</p>
-<p class="em2"> <p>
+  alt="ICO's: The Hype."
+  style="width:40%;" />
+
 <p>Nowadays, you can’t speak about the state of the blockchain industry
 without at least mentioning ICOs, or initial coin offerings.<p>
 <p>They’re a way for new projects, startups, and companies to sell their
@@ -2761,7 +2680,7 @@ nature of these cryptocurrencies.</p>
 <img class="displayed"
   src="/images/image072-icos-doing-what-you-want.png"
   alt="ICO's: Doing What You Want"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p>And when you think of it, it’s pretty wild.<p>
 <p>From this tweet:<p>
@@ -2775,13 +2694,11 @@ to.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!-------------------------------- 73. explosion of altcoins (87) -------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image073-explosion-of-altcoins.png" 
   alt="Explosion of altcoins"
-  style="width:400px;" />
-</p>
-<p class="em2"> <p>
+  style="width:40%;" />
+
 <p>And with so many new projects coming out, some with more potential
 than others, the community needs some way to support them.<p>
 <p>That’s where ICOs come in.<p>
@@ -2789,18 +2706,16 @@ than others, the community needs some way to support them.<p>
 <p>In Q3’17, ICOs have raised $1.3B with 150 ICOs while seed/angel
 investing across all tech sectors has raised $1.4B across 1,602
 deals.</p>
-<h3>
-Industry Projects
-</h3>
+
+<h3>Industry Projects</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------- 74. cryptokitties: they hype - 2017 (88) ----------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="text-align: center;">
-<img class="displayed"
+<img class="displayed border"
   src="/images/image074-cryptokitties.png"
-  alt="Cryptokitties and the hype, 2017"
-  style="width:400px;" />
-</p>
+  alt="Cryptokitties and the hype, 2017."
+  style="width:40%;" />
+
 <p class="em2"> <p>
 <p>Perhaps one of the most popular projects of 2017 was
 Cryptokitties.<p>
@@ -2827,14 +2742,13 @@ now.<p>
 <p>Whether or not its mainstream spotlight and growing popularity is a
 good thing is another question.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!---------------------------------- 75. parity: security (89) ----------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 75. parity: security (89) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="text-align: center;">
-<img class="displayed"
+<img class="displayed border"
   src="/images/image075-parity-security.png"
-  alt="Parity: Security"
-  style="width:400px;" />
-</p>
+  alt="Parity: Security."
+  style="width:40%;" />
+
 <p class="em2">With the growing popularity of blockchain and cryptocurrencies, it’s
 important to have good wallet software.<p>
 <p>Parity wallet is a popular multisignature wallet, which requires
@@ -2844,14 +2758,13 @@ co-founder Gavin Wood and his team at Parity Technologies.<p>
 interacting with the Ethereum blockchain, but in November 2017, this
 happened…</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!----------------------------- 76. Parity got hacked - Nov, 2017 (90) --------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 76. parity got hacked - nov, 2017 (90) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="text-align: center;">
-<img class="displayed"
+<img class="displayed border"
   src="/images/image076-parity-oops.png"
   alt="Parity got hacked...accidentally - Nov, 2017"
-  style="width:400px;" />
-</p>
+  style="width:40%;" />
+
 <p class="em2"> <p>
 <p>A user by the name of devops199 accidentally locked up 300 million US
 dollars worth of ether that had been owned by users of Parity multisig
@@ -2875,13 +2788,11 @@ fully audit the security of mission critical code.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------- 77. coincheck got hacked - jan, 2018 (91) ---------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="text-align: center;">
-<img class="displayed"
+<img class="displayed border"
   src="/images/image077-coincheck-the-biggest-yet.png"
-  alt="Coincheck got hacked, jan, 2018"
-  style="width:400px;" />
-</p>
-<p> </p>
+  alt="Coincheck got hacked, Jan, 2018."
+  style="width:40%;" />
+
 <p">Coincheck was marketed as one of the largest and most popular
 cryptocurrency exchanges in Asia – at least up until a hack in January
 2018 that after the dust had settled turned out to be the largest
@@ -2940,7 +2851,7 @@ towards legitimacy. </p>
 <img class="displayed"
   src="/images/image078-pizza-pizza.png"
   alt="Image of Laszlo Hanyecz&#39;s pizzas that he ordered online. His post: &quot;I just want to report that I successfully traded 10,000 bitcoins for pizza"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <h3>Early Bitcoin: Scandals, Hacks, and Illegal Activity</h3>
 
@@ -3029,7 +2940,7 @@ Gold </a>by Nathaniel Popper </p>
 <img class="displayed"
   src="/images/image080-bitcoin-overview.png"
   alt="Bitcoin Mechanics and Optimizations: A Technical Overview"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p>We’ve seen how Bitcoin works at a high level.<p>
 <p>We know what needs to be implemented.<p>
@@ -3042,7 +2953,7 @@ of Bitcoin that make it work.</p>
 <img class="displayed"
   src="/images/image080-lecture-overview.png"
   alt="Low-level Specifics of Bitcoin: What Makes Bitcoin Work?"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p>First, let’s discuss cryptographic hash functions: what they are and
 how they are used in Bitcoin.<p>
@@ -3080,7 +2991,7 @@ first need a source of standardized randomness.</p>
 <img class="displayed"
   src="/images/image081-cryptographic-hash-functions.png"
   alt="Cryptographic Hash Functions: Integrity of Information"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p>A simple way to do this is with some fingerprinting system.<p>
 <p>How do fingerprints apply?</p>
@@ -3113,7 +3024,7 @@ produced a digital fingerprint.</p>
 <img class="displayed"
   src="/images/image081-hash-function-formula.png"
   alt="Cryptographic Hash Functions: What is a Hash Function?"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p>Cryptographic hash functions are one way functions that take some
 input and produce a pseudorandom output.</p>
@@ -3132,7 +3043,7 @@ image.</p>
 <img class="displayed"
   src="/images/image082-hash-functions-formula.png"
   alt="Cryptographic Hash Functions: Pseudocode"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p>Cryptographic hash functions differ from regular hash functions in
 that they are built for security, but for convenience, we will now refer
@@ -3145,7 +3056,7 @@ to cryptographic hash functions as hash functions.</p>
 <img class="displayed"
   src="/images/image083-cryptographic-hash-functions-cryptography.png"
   alt="Cryptographic Hash Functions: Cryptography"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p>What are the properties of hash functions then?</p>
 <p>Well, we have <em>three</em> important properties to discuss:
@@ -3159,7 +3070,7 @@ definitions.</p>
 <img class="displayed"
   src="/images/image084-cryptographic-hash-functions-preimage-resistance.png"
   alt="Cryptographic Hash Functions: Preimage Resistance"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p>“Pre-image” resistance is synonymous with “input.”</p>
 <p>“Resistance” is synonymous with difficulty.</p>
@@ -3178,7 +3089,7 @@ we didn’t want to reveal.</p>
 <img class="displayed"
   src="/images/image085-cryptographic-hash-functions-preimage-resistance.png" 
   alt="Cryptographic Hash Functions: Preimage Resistance"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">To make sure this doesn’t happen, we need what’s known as preimage
 resistance.</p>
@@ -3193,7 +3104,7 @@ some output.</p>
 <img class="displayed"
   src="/images/image086-cryptographic-hash-functions-2ndary-preimage-resistance.png"
   alt="Cryptographic Hash Functions: 2nd Preimage Resistance"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p>Key Properties of Cryptographic Hash Functions: Second Preimage
 Resistance</p>
@@ -3208,7 +3119,7 @@ preimage resistance.</p>
 <img class="displayed"
   src="/images/image087-cryptographic-hash-functions-2ndary-preimage-resistance.png"
   alt="Cryptographic Hash Functions: 2nd Preimage Resistance #2"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p>The technical definition is as follows: given some hash function H
 and some output H of x, it is computationally difficult to find a
@@ -3231,7 +3142,7 @@ such that H of x equals H of y.</p>
 <img class="displayed"
   src="/images/image090-cryptographic-hash-functions-avalanche-effect.png"
   alt="Cryptographic Hash Functions: Avalanche Effect"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p>Consequences of these properties is what’s known as the Avalanche
 Effect.</p>
@@ -3252,7 +3163,7 @@ similar.</p>
 <img class="displayed"
   src="/images/image090-cryptographic-hash-sha256.png"
   alt="Cryptographic Hash Functions sha256^2 (squared)"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <h3>SHA256^2 – (Secure Hash Algorithm)</h3>
 
@@ -3279,7 +3190,7 @@ the output of this first hash.</p>
 <img class="displayed"
   src="/images/image090-a-tamper-evident-database.png"
   alt="A Tamper-Evident Database"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p>Now that we know about cryptographic hash functions and their
 properties, how do we then apply them to design our tamper evident
@@ -3290,7 +3201,7 @@ database for Bitcoin?</p>
 <img class="displayed"
   src="/images/image091-a-tamper-evident-database-dissecting.png"
   alt="A Tamper-Evident Database: Dissecting the Blockchain"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p>In this section, we’ll be taking a look at the structure of a block,
 looking specifically at some of the metadata contained within the block
@@ -3308,7 +3219,7 @@ about the Bitcoin Blockchain for public access.</p>
 <img class="displayed"
   src="/images/image092-a-tamper-evident-database-merkle.png" 
   alt="A Tamper-Evident Database: Merkle Tree"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p>We’ll explain each of these fields by the end of the video.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3317,7 +3228,7 @@ about the Bitcoin Blockchain for public access.</p>
 <img class="displayed"
   src="/images/image092-tamper-evident-merkle-proof.png"
   alt="A Tamper-Evident Database: Merkle Branch and Proof-of-Inclusion"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p>Here’s the exact same block, but now in JSON format.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3326,7 +3237,7 @@ about the Bitcoin Blockchain for public access.</p>
 <img class="displayed"
   src="/images/image093-a-tamper-evident-database-example-block.png"
   alt="A Tamper-Evident Database: Example Block"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p>This is a much more understandable format for a computer.</p>
 <p>But what is the role of each of these different pieces of
@@ -3337,7 +3248,7 @@ information?</p>
 <img class="displayed"
   src="/images/image094-a-tamper-evident-database-example-block.png"
   alt="A Tamper-Evident Database: Role of Each of the Pieces"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <h3>Dissecting a Block</h3>
 
@@ -3348,7 +3259,7 @@ information?</p>
 <img class="displayed"
   src="/images/image095-a-tamper-evident-database-dissecting.png"
   alt="A Tamper-Evident Database: Dissecting the Blockchain."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p>It has four main components: the Block Header, Block Size,
 Transaction Counter, and Transactions.</p>
@@ -3377,7 +3288,7 @@ block.</p>
 <img class="displayed"
   src="/images/image096-tamper-evident-dissecting.png"
   alt="A Tamper-Evident Database: Dissecting the Blockchain"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p>There are <strong>six</strong> fields in the implementation, but
 we’re going to speak to the <strong>three important ones</strong> that
@@ -3397,7 +3308,7 @@ implement the protocol explained in module 1.</p>
 <img class="displayed"
   src="/images/image098-tamper-evident-3.png"
   alt="A Temper-Evident Database: Block Header"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p>The <em>Previous Block Hash</em> represents the chaining.</p>
 <p>And the <em>Nonce</em> represents the proof-of-work.</p>
@@ -3408,7 +3319,7 @@ implement the protocol explained in module 1.</p>
 <img class="displayed"
   src="/images/image097.png"
   alt="A Temper-Evident Database: Block Header"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p>Let’s first take a look at the Merkle Root.</p>
 
@@ -3419,7 +3330,7 @@ implement the protocol explained in module 1.</p>
 <img class="displayed"
   src="/images/image098.png"
   alt="A Temper-Evident Database: Merkle Tree"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p>What is a Merkle Root, and what do we mean by a summary of
 transactions?</p>
@@ -3457,7 +3368,7 @@ hashes.</p>
 <img class="displayed"
   src="/images/image099-tamper-protect.png"
   alt="A Tamper-Evident Database: Protecting the Chain"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p>We continue this process until we finally have only one hash at the
 top.</p>
@@ -3472,7 +3383,7 @@ with the Merkle Root.</p>
 <img class="displayed"
   src="/images/image099.png"
   alt="A Tamper-Evident Database: Getting to the Root of the Problem"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <br>We see here that if any transaction is changed, then the Merkle Root
 is affected.<br>
@@ -3489,7 +3400,7 @@ Merkle Trees: Proof of Inclusion
 <img class="displayed"
   src="/images/image100.png"
   alt="A Tamper-Evident Database: Merkle Branch & Proof of Inclusion"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2"> <br>
 <br>You may ask, “Isn’t it expensive to verify that a transaction was
@@ -3511,7 +3422,7 @@ larger.</p>
 <img class="displayed"
   src="/images/image102.png"
   alt="A Tamper-Evident Database: Merkle Root"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">It’s pretty obvious what the Previous Block Hash does: It merely
 contains the hash of the previous block.</p>
@@ -3521,7 +3432,7 @@ contains the hash of the previous block.</p>
 <img class="displayed"
   src="/images/image104.png"
   alt="A Tamper-Evident Database: Protecting the Chain"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2"> <br>
 <br>But notice this: every block does that.<br>
@@ -3537,7 +3448,7 @@ before manifests within the blockchain.</p>
 <img class="displayed"
   src="/images/image105-tamper.png"
   alt="A Tamper-Evident Database: Nonce"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">It changes the block header, which changes the next block’s Prev
 Block Hash, which affects the rest of the future block hashes as
@@ -3556,7 +3467,7 @@ Proof-of-Work.</p>
 <img class="displayed"
   src="/images/image109.png"
   alt="A Tamper-Evident Database: Nonce"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2"> <br>
 <br>Keep in mind that we need entities to prove that they’ve done some
@@ -3571,14 +3482,14 @@ puzzle.</p>
 <img class="displayed"
   src="/images/image104-partial-preimage-1.png" 
   alt="Partial Preimage Hash Puzzle; Computationally Difficult, Adjustable, and Easily Verifiable"
-  style="width:400px;" />
+  style="width:40%;" />
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--------------------------- 104. partial preimage hash puzzle (107) ---------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image104-partial-preimage-2.png"
   alt="Partial Preimage Hash Puzzle; Computationally Difficult, Adjustable, and Easily Verifiable"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">Keep in mind the definition of preimage from before, which was the
 input.</p>
@@ -3607,7 +3518,7 @@ puzzle cannot be easily found.</p>
 <img class="displayed"
   src="/images/image104-partial-preimage-3.png"
   alt="Partial Preimage Hash Puzzle; Computationally Difficult, Adjustable, and Easily Verifiable"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2"> </p>
 <p class="em2">There’s no point if <em>Proof-of-Work</em> takes little work.</p>
@@ -3626,7 +3537,7 @@ correct, even if finding the nonce takes millions of tries.</p>
 <img class="displayed"
   src="/images/image107.png"
   alt="Proof-of-Work: Mining"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2"> <br>
 <br>For a better idea of how mining works, let’s bring up an analogy.<br>
@@ -3652,7 +3563,7 @@ invalid blocks in the diagram.</p>
 <img class="displayed"
   src="/images/image108.png" 
   alt="A Tamper-Evident Database: Block Difficulty"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2"> </p>
 <p class="em2">How do we adjust the size of this circle?</p>
@@ -3692,7 +3603,7 @@ forward.</p>
 <img class="displayed"
   src="/images/image109.png"
   alt="A Tamper-Evident Database: Block Difficulty"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2"> <br>
 <br>Let’s say that the current difficulty is 10.<br>
@@ -3704,7 +3615,7 @@ exactly two weeks?</p>
 <img class="displayed"
   src="/images/image110.png" 
   alt="A Tamper-Evident Database: Block Difficulty"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2"> <br>
 <br>Yes, it’s still 10!<br>
@@ -3716,7 +3627,7 @@ stays exactly the same.</p>
 <img class="displayed"
   src="/images/image111.png" 
   alt="A Tamper-Evident Database: Block Difficulty"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">What about when the time to mine those 2016 blocks is just one
 week?<br>
@@ -3735,7 +3646,7 @@ difficult.</p>
 <img class="displayed"
   src="/images/image112.png"
   alt="A Tamper-Evident Database: Block Difficulty"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2"> <br>
 <br>The difficulty is inversely proportional to the time to mine.</p>
@@ -3747,7 +3658,7 @@ difficult.</p>
 <img class="displayed"
   src="/images/image113.png"
   alt="A Tamper-Evident Database: Coinbase Transaction"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2"> <br>
 <br>You might be asking, where does the block reward to miners even
@@ -3768,21 +3679,21 @@ in our hash puzzle as well.</p>
 <img class="displayed"
   src="/images/image114.png"
   alt="A Tamper-Evident Database: Mining Pseudocode"
-  style="width:400px;" />
+  style="width:40%;" />
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--------------------------- 115. proof-of-work: example block (112) ---------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image115.png"
   alt="A Tamper-Evident Database: Example Block"
-  style="width:400px;" />
+  style="width:40%;" />
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------ 116. proof-of-work: mining pseudocode (113) --------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image116.png"
   alt="A Tamper-Evident Database: Mining Pseudocode"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">Here’s some mining pseudo code.</p>
 <p class="em2">We loop infinitely until we find a valid block.</p>
@@ -3821,7 +3732,7 @@ signature scheme at a high level.</p>
 <img class="displayed"
   src="/images/image117-dss.png" 
   alt="Digital Signature: Schemes (DSS): Example."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2"> <br>
 <br>Consider two users on the network: call them Alice and Bob.<br>
@@ -3840,7 +3751,7 @@ How can she do this and make sure no one tampers with her message?
 <img class="displayed"
   src="/images/image117-dss-2.png" 
   alt="Digital Signature Schemes (DSS): Example: Bob Needs Alice's Public Key"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2"> <br>
 <br>First we point out that Bob has access to Alice’s public key, since
@@ -3853,7 +3764,7 @@ message coming from Alice was actually sent by Alice.</p>
 <img class="displayed"
   src="/images/image117-dss-3.png" 
   alt="Digital Signature Schemes (DSS): Example: "
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2"> <br>
 <br>Before sending out her message, Alice signs her message with her
@@ -3866,7 +3777,7 @@ message as it is.</p>
 <img class="displayed"
   src="/images/image117-dss-4.png" 
   alt="Digital Signature Schemes (DSS): Example: Alice Sends Message + Signature"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2"> <br>
 <br>She then sends her signature along with her original message to
@@ -3880,7 +3791,7 @@ message.</p>
 <img class="displayed"
   src="/images/image117-dss-5.png"
   alt="Digital Signature Schemes (DSS): Example: Bob Can Easily Verify if Alice Signed"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">Bob is then able to easily verify that the signature is valid, given
 Alice’s public key and the original message.<br>
@@ -3897,7 +3808,7 @@ signature could not be valid anymore.<br>
 <img class="displayed"
   src="/images/image117-dss-6.png" 
   alt="Digital Signature Schemes (DSS): Example"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2"> <br>
 <br>A key point is that Bob or anyone else should not be able to guess
@@ -3914,7 +3825,7 @@ the way we generate public and private key pairs.</p>
 <img class="displayed"
   src="/images/image115-dss.png" 
   alt="Digital Signature Schemes: Security Definition"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2"> </p>
 <p class="em2">In summary, here are some key properties that we should keep in
@@ -3945,7 +3856,7 @@ messages can’t be modified by anyone after signing.</p>
 <img class="displayed"
   src="/images/image116-keys-and-addresses.png" 
   alt="Keys and Addresses: Before the Technical Stuff"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2"> </p>
 <p class="em2">Here’s a diagram showing a high-level overview of what we’re going to
@@ -3968,7 +3879,7 @@ key from the corresponding public key or address.</p>
 <img class="displayed"
   src="/images/image117-cryptography-part1.png" 
   alt="Elliptic curve cryptography: part 1: elliptic curve."
-  style="width:400px;" />
+  style="width:40%;" />
   
 <h3>Elliptic Curve Cryptography</h3>
 
@@ -3988,14 +3899,14 @@ side.</p>
 <img class="displayed"
   src="/images/image118-2.png" 
   alt="Elliptic Curve Crypography: Part 2: Chord-Tangent Process"
-  style="width:400px;" />
+  style="width:40%;" />
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!----------119. elliptic-curve cryptography: part 2.5: point multiplication demo (121) ---------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image119.png" 
   alt="Elliptic Curve Crypography: Part 2.5: Point Multiplication Demo"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">To illustrate, here’s a demo.</p>
 <p class="em2">We start off with a generator point P that is known to everyone,
@@ -4014,7 +3925,7 @@ the line intersects the curve let’s call it -2P.</p>
 <img class="displayed"
   src="/images/image120.png" 
   alt="Elliptic Curve Crypography: Part 1: Elliptic Curve"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2"> </p>
 <p class="em2">Its equation is y^2 = x^3 + 7, and was engineered to have some unique
@@ -4056,7 +3967,7 @@ Q.</p>
 <img class="displayed"
   src="/images/image120-cryptography.png"
   alt="Elliptic Curve Cryptography: Part 3: Security of ECC"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2"> </p>
 <p class="em2">The user generates a random number n for their private key.</p>
@@ -4086,7 +3997,7 @@ private keys is fairly secure.</p>
 <img class="displayed"
   src="/images/image121-cryptography.png" 
   alt="Public Key to Bitcoin Address: Public Key Hash"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">If quantum computers exist, we could use them to solve the elliptic
 curve discrete logarithm problem and find the private key given a public
@@ -4107,7 +4018,7 @@ shortens the address size down from 256 bits to 160 bits.</p>
 <img class="displayed"
   src="/images/image122-public-key-to-bitcoin-address.png"
   alt="Public Key to Bitcoin Address"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2"> </p>
 <p class="em2">And after we have our public key hash, we’re just a little bit away
@@ -4161,14 +4072,14 @@ important to first review how transactions work.</p>
 <img class="displayed"
   src="/images/image123-bitcoin-scripts.png"
   alt="Bitcoin Scripts: Remember the UTXO Model?"
-  style="width:400px;" />
+  style="width:40%;" />
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!-------------------- 124. Bitcoin Scripts: Remember the UTXO Model? (127) ---------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image124-bitcoin-scripts.png" 
   alt="Bitcoin Scripts: Remember the UTXO Model?"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">Remember the UTXO model?</p>
 <p class="em2">Bitcoin doesn’t have “accounts” with associated bitcoin tallies.</p>
@@ -4198,7 +4109,7 @@ Rustie.</p>
 <img class="displayed"
   src="/images/image125-contents-transaction.png" 
   alt="Contents of a Transaction: Metadata, Input(s), and Output(s)"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2"> <br>
 <br>As we can see, a transaction has three main “sections.”</p>
@@ -4208,7 +4119,7 @@ Rustie.</p>
 <img class="displayed"
   src="/images/image125-contents-metadata.png" 
   alt="Contents of a Transaction: Metadata"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2"> <br>
 <br>The metadata section contains some housekeeping data, a unique ID of
@@ -4222,12 +4133,11 @@ new addresses.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!----------------------- 126. contents of a transaction: metadata (129) ------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image126-contents-metadata-2.png"
   alt="Contents of a Transaction: Metadata"
-  style="width:400px;" />
-</p>
+  style="width:40%;" />
+
 <p class="em2">Each of these values is accompanied with a script that locks the
 value away from everyone except the intended redeemer who can provide a
 valid proof.<br>
@@ -4238,13 +4148,11 @@ unique “ID” of this transaction.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!----------------------- 126. contents of a transaction: input(s) (129) ------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image126-contents-inputs.png"
   alt="Contents of a Transaction: Input(s)"
-  style="width:400px;" />
-</p>
-<p class="em2"> </p>
+  style="width:40%;" />
+
 <p class="em2">We also get information here in the field vin_sz, which stands for
 vector input size, or the number of input UTXOs being referenced in this
 transaction, as well as vout_sz, which stands for vector output size, or
@@ -4268,13 +4176,11 @@ transaction.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--------------------- 127. contents of a transaction: inputs: scriptSig (130) ------------------>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image127-contents-inputs.png"
   alt="Contents of a Transaction: Inputs: ScriptSig"
-  style="width:400px;" />
-</p>
-<p class="em2"> <br>
+  style="width:40%;" />
+
 <br>The scriptSig is the most important part of these inputs because
 they’re the required proofs that prove that you can redeem the
 associated UTXO.<br>
@@ -4283,13 +4189,11 @@ output(s).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!----------------------- 128. contents of a transaction: outputs (131) -------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image128-contents-outputs.png"
   alt="Contents of a Transaction: Outputs"
-  style="width:400px;" />
-</p>
-<p class="em2"> </p>
+  style="width:40%;" />
+
 <p class="em2">You can see here in this particular transaction we have only one
 output with a value of about 10 bitcoin.</p>
 <p class="em2">Satoshi is the smallest unit of bitcoin.</p>
@@ -4306,13 +4210,11 @@ Bitcoin Script Reminders
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!---------------------------- 128. bitcoin scripts: reminders (131) ----------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image128-bitcoin-scripts.png"
-  alt="Bitcoin Scripts: Reminders: Output Addresses are Scripts"
-  style="width:400px;" />
-</p>
-<p class="em2"> </p>
+  alt="Bitcoin Scripts: Reminders: Output Addresses are Scripts."
+  style="width:40%;" />
+
 <p class="em2">Remember: in this transaction, the output addresses are actually
 scripts.</p>
 <p class="em2">For this particular output script, we can read it as “This amount can
@@ -4335,7 +4237,7 @@ reasons.</p>
 <img class="displayed"
   src="/images/image129-intro-to-p2pkh.png"
   alt="Bitcoin Scripts: P2PKH Example: Remember the UTXO Model?"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">Let’s walk through an example of how Script works under the hood.</p>
 <p class="em2">The example we are looking at is at the top of the screen.</p>
@@ -4346,14 +4248,13 @@ with (1) a public key that, when hashed, yields the address to which the
 previous transaction was sent, and (2) a signature that proves ownership
 of the private key corresponding to the public key we provided.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-------------------- 130. bitcoin scripts: p2pkh example execution (133) ----------------------->
+<!--~~~~~~~~~~~~~~~~~~~ 130. bitcoin scripts: p2pkh example execution (133) ~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image130-bitcoin-scripts.png"
-  alt="Bitcoin Scripts: P2PKH Example Execution"
-  style="width:400px;" />
-</p>
+  alt="Bitcoin Scripts: P2PKH Example Execution."
+  style="width:40%;" />
+
 <p class="em2">This is the most common type of script in Bitcoin Pay to Public Key
 Hash (shorthanded).</p>
 <p class="em2">But how do we implement this functionality?</p>
@@ -4378,14 +4279,13 @@ prove that they possess a private key that hashes to a specific
 address.</p>
 <p class="em2">For this reason, this script is called scriptPubKey.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------- 131. bitcoin scripts: p2pkh example execution (134) ------------------------>
+<!--~~~~~~~~~~~~~~~~~ 131. bitcoin scripts: p2pkh example execution (134) ~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image131-p2pkh-example.png"
-  alt="Bitcoin Scripts: P2PKH Example Execution"
-  style="width:400px;" />
-</p>
+  alt="Bitcoin Scripts: P2PKH Example Execution."
+  style="width:40%;" />
+
 <p class="em2">To make unlocking and locking scripts work in tandem, we simply
 concatenate them.</p>
 <p class="em2">We put the unlocking script on top of the locking script, scriptSig
@@ -4398,13 +4298,11 @@ Demo: P2PKH Example
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!-------------------- 131. bitcoin scripts: p2pkh example execution (134) ----------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image131-p2pkh-example-2.png"
   alt="Bitcoin Scripts: P2PKH Example Execution"
-  style="width:400px;" />
-</p>
-<p class="em2"> </p>
+  style="width:40%;" />
+
 <p class="em2">Now let’s piece everything that we’ve learned so far about Bitcoin
 script together, and walk through a sample execution of Pay to Public
 Key Hash.</p>
@@ -4425,14 +4323,13 @@ RIPEMD-160</p>
 brackets – is the actual public key hash specified by the previous
 transaction output.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-------------------- 132. bitcoin scripts: p2pkh example execution (135) ----------------------->
+<!--~~~~~~~~~~~~~~~~~~~ 132. bitcoin scripts: p2pkh example execution (135) ~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image132-p2pkh.png"
   alt="Bitcoin Scripts: P2PKH Example Execution"
-  style="width:400px;" />
-</p>
+  style="width:40%;" />
+
 <p class="em2">We put this on the stack as well OP_EQUALVERIFY then checks to see if
 the top two items in the stack are equal.</p>
 <p class="em2">If they are equal, we continue with execution.</p>
@@ -4450,12 +4347,11 @@ Proof of Burn
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!-------------------------- 133. bitcoin scripts: proof-of-burn (136) --------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image133-proof-of-burn.png"
-  alt="Bitcoin Scripts: Proof-of-Burn"
-  style="width:400px;" />
-</p>
+  alt="Bitcoin Scripts: Proof-of-Burn."
+  style="width:40%;" />
+
 <p class="em2">Something cool you can do with Bitcoin Script is write arbitrary data
 into the Bitcoin blockchain.</p>
 <p class="em2">This is the idea behind proof of burn.</p>
@@ -4509,7 +4405,7 @@ P2PKH vs P2SH
 <img class="displayed"
   src="/images/image134-p2pkh-p2sh.png"
   alt="P2PKH vs P2SH: Who Specifies the Script?"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">As a recap, in Bitcoin, senders specify a locking script in the
 output of the transaction they are sending, and recipients provide an
@@ -4542,7 +4438,7 @@ How P2SH Works
 <img class="displayed"
   src="/images/image135-how-p2sh-works.png"
   alt="P2PKH vs P2SH: Creating a P2PKH Pub Key Hash."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">As a refresher, here’s how everything works in Pay to Pub Key
 Hash.</p>
@@ -4569,7 +4465,7 @@ must provide a signature and the full script that he had written.</p>
 <img class="displayed"
   src="/images/image136-why-use-p2sh.png"
   alt="P2PKH vs P2SH: Why P2PKH?"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">Why Pay to Script Hash instead of just pay to a script?</p>
 <p class="em2">By providing a hash of the script to the customer, the vendor
@@ -4602,7 +4498,7 @@ Bitcoin’s inception.</p>
 <img class="displayed"
   src="/images/image161.jpg" 
   alt="P2PSH vs P2SH: Multisignature Example."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">One of the most widely used example of P2SH is multisignature, where
 a specific number of pre-specified signatures are required to unlock a
@@ -4649,7 +4545,7 @@ script hash, and evaluated.</p>
 <img class="displayed"
   src="/images/image161.jpg"
   alt="P2PKH vs P2SH: Multisignature Example."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">Lastly, if you look at the bottom of the diagram, the locking script
 contains the hash against which the hash of the redeem script will later
@@ -4665,7 +4561,7 @@ hashed and then compared with the script hash.</p>
 <img class="displayed"
   src="/images/image162.png" 
   alt="Transaction Locktime: Timelocks."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">Timelocks are a type of functionality in Bitcoin that restrict the
 spending of funds until a later time or a specific block height.</p>
@@ -4741,7 +4637,7 @@ following:</p>
 <img class="displayed"
   src="/images/image163.jpg" 
   alt="Cryptographic hash functions."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">Cryptographic hash functions are pseudorandom: although the output
 for any given input seems random, the output will remain consistent for
@@ -4926,7 +4822,7 @@ network.</p>
 <img class="displayed"
   src="/images/image164.png"
   alt="Types of Users: Key Components"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">In our previous discussions about Bitcoin mechanics, we explained
 everything from the perspective of a full node and miner: a user with
@@ -4976,7 +4872,7 @@ Purpose of a Wallet
 <img class="displayed"
   src="/images/image165.png"
   alt="Purpose of a Wallet: Key Management"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">As we’ve previously mentioned, Bitcoin is all about granting
 real-world entities virtual identities.</p>
@@ -4991,14 +4887,13 @@ virtual identity.</p>
 Types of Wallets
 </h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!----------------------- 166. Bitcoin Wallets: What do Wallets Do? (148) ------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~ 166. Bitcoin Wallets: What do Wallets Do? (148) ~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image166.png"
   alt="Bitcoin Wallets: Wallet Types: What Do Wallets Do?"
-  style="width:400px;" />
-</p>
+  style="width:40%;" />
+
 <p class="em2">This is where wallets come in.</p>
 <p class="em2">The primary function of Bitcoin wallets is to keep track of your
 identity.</p>
@@ -5021,12 +4916,11 @@ Types of Wallets: Hot and Cold
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------- 167. Types of Wallets: Hot and Cold (149) ---------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image167.png"
-  alt="Types of Wallets: Hot and Cold"
-  style="width:400px;" />
-</p>
+  alt="Types of Wallets: Hot and Cold."
+  style="width:40%;" />
+
 <p class="em2">Wallets come in many forms.</p>
 <p class="em2">We generally make the distinction between two main categories of
 wallets – hot and cold – based on their connectivity to the
@@ -5039,12 +4933,11 @@ Types of Wallets: Hot Wallets
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------- Bitcoin Wallets: Hot Wallets (150) ----------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image168.png"
-  alt="Bitcoin Wallets: Hot Wallets"
-  style="width:400px;" />
-</p>
+  alt="Bitcoin Wallets: Hot Wallets."
+  style="width:40%;" />
+
 <p class="em2">Some examples of hot wallets are smartphone apps such as Mycelium and
 AirBitz (I personally use AirBitz).</p>
 <p class="em2">There are also online web wallets such as those hosted on
@@ -5059,7 +4952,7 @@ Types of Wallets: Cold Wallets
 <img class="displayed"
   src="/images/image143.png"
   alt="Bitcoin Wallets: Cold Storage."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">On the flip side, cold storage never touches the internet.</p>
 <p class="em2">For example, there’s paper wallets, hardware wallets, and brain
@@ -5128,7 +5021,7 @@ Key Stretching
 <img class="displayed"
   src="/images/image144.png" 
   alt="Bitcoin Wallets: Key Stretching."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">However, for the security minded, to further lessen the probability
 of someone being able to guess your brain wallet, you can employ what’s
@@ -5154,7 +5047,7 @@ Choosing a Wallet
 <img class="displayed"
   src="/images/image145.png" 
   alt="Bitcoin Wallets: Choosing a Wallet."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">There’s a lot of wallets out there, definitely a lot more than what
 we’ve gone over, and that’s why users have to do their own research to
@@ -5215,7 +5108,7 @@ Exchanges
 <img class="displayed"
   src="/images/image146-how-do-i-get-bitcoin.png" 
   alt="Exchanges: How do I get bitcoin?"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">You can also get Bitcoin through an exchange, where you can trade
 between different types of traditional currency and
@@ -5244,7 +5137,7 @@ their funds when a hack does occur.</p>
 <img class="displayed"
   src="/images/image147.png" 
   alt="How Do I Get Bitcoin: Decentralized Exchanges."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">So naturally, following the trend of decentralizing Everything for
 security reasons, we now have decentralized exchanges<br>
@@ -5284,7 +5177,7 @@ Simple Payment Verification
 <img class="displayed"
   src="/images/image148.png"
   alt="Simple Payment Verification: Thin Clients."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">First off, let’s address the elephant in the room.<br>
 <br>How come when I use my wallet software, I don’t have to download the
@@ -5311,7 +5204,7 @@ clients that run SPV are called lightweight or thin clients.</p>
 <img class="displayed"
   src="/images/image149.png"
   alt="Simple Payment Verification: Thin Clients: Assumptions."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">In SPV, by having the block headers, you can simply run a merkle
 proof of inclusion, which we explained in the previous module in the
@@ -5336,14 +5229,14 @@ SPV is a pretty decent tradeoff.</p>
 Multisignature
 </h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-------------- multisignature: m of n transactions - multi-person account access (159) --------->
+<!--~~~~~~~~~~~ 150. multisig: m of n xactions - multi-person account access (159) ~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image150.png"
-  alt="Multisig is a way of cryptographically sharing a key between participants, and serves to distribute points of failure"
-  style="width:400px;" />
-</p>
+  alt="Multisig is a way of cryptographically sharing a key between participants, 
+    and serves to distribute points of failure."
+  style="width:40%;" />
+
 <p class="em2">We mentioned multisignature in the previous module in regards to pay
 to script hash, but just to explain again and elaborate on its potential
 uses, we generalize, saying that multisig enables what are called M-of-N
@@ -5355,12 +5248,11 @@ yourself.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------ bitcoin mechanics: multisig transactions (159) ------------------------>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image151.png"
-  alt="Bitcoin Mechanics: Multisig Transactions"
-  style="width:400px;" />
-</p>
+  alt="Bitcoin Mechanics: Multisig Transactions."
+  style="width:40%;" />
+
 <p class="em2">For example, consider a 2-of-3 multisig.<br>
 <br>Imagine I have a 2 of 3 multisig with my friends Derrick and
 Gloria.<br>
@@ -5376,14 +5268,13 @@ my funds, I have more than one point of failure.<br>
 keys, so I still have sufficient keys to access my funds in a 2-of-3
 multisig scheme.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------ bitcoin mechanics: multisig transactions (160) ------------------------>
+<!--~~~~~~~~~~~~~~~~~~~ 152. bitcoin mechanics: multisig transactions (160) ~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image152.png"
   alt="Bitcoin Mechanics: Multisig Transactions, part 2"
-  style="width:400px;" />
-</p>
+  style="width:40%;" />
+
 <p class="em2">As another example, some exchanges and software wallet companies
 provide 2-of-3 or 3-of-5 multisig services.<br>
 <br>In the 2-of-3 multisig case, you keep two of your keys, and a trusted
@@ -5399,12 +5290,11 @@ Key Generation Best Practices
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------ 153. key generation practices: never reuse pseudonyms (161) ----------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image153.png"
   alt="key generation practices: never reuse pseudonyms"
-  style="width:400px;" />
-</p>
+  style="width:40%;" />
+
 <p class="em2">It’s generally considered best practice to never reuse
 pseudonyms.<br>
 <br>This requires generating a new public and private key pair for every
@@ -5434,12 +5324,11 @@ JBOK Wallets
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!---------------- 180. wallet backups: JBOK (just a bunch of keys) wallets (162) ---------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="text-align: center;">
 <img class="displayed"
   src="/images/image180.png"
   alt="Wallet Backups: JBOK (Just a Bunch of Keys) Wallets"
-  style="width:400px;" />
-</p>
+  style="width:40%;" />
+
 <p class="em2">Now if you’re complying with best practices and generating a new
 public and private key for every transaction you make, the natural
 question is: how do I manage an increasing number of keys?<br>
@@ -5470,7 +5359,7 @@ HD Wallets
 <img class="displayed"
   src="/images/image181.png"
   alt="Wallet Backups: HD Wallets: Hierarchical Deterministic Wallets."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">Instead of having just a bunch of keys, let’s try something a bit
 more clever.<br>
@@ -5503,7 +5392,7 @@ do.</p>
 <img class="displayed"
   src="/images/image182.png"
   alt="Bitcoin Wallets: Wallet Backups."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">Of course, exchanges can use HD wallets to greatly reduce their load,
 but HD wallets are also useful elsewhere.<br>
@@ -5540,7 +5429,7 @@ Recipe for Mining: Overview
 <img class="displayed"
   src="/images/image157.png"
   alt="Recipe for Mining: Ethereum."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">Let’s first take a look at the generic steps for mining as a full
 node.<br>
@@ -5569,7 +5458,7 @@ Recipe for Mining: Step 0
 <img class="displayed"
   src="/images/image158.png"
   alt="Recipe for Mining: Step 0: Download the Blockchain."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">Step 0, download the history of transactions.<br>
 <br>This is Step 0 for two reasons: It only needs to be done once.<br>
@@ -6407,7 +6296,7 @@ joins the network.</p>
 <img class="displayed"
   src="/images/image213.png?raw=true"
   alt="Real World Mining: Which Miner are You?"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">Of course, remember that there are various types of miners.</p>
 <p class="em2">Some of these are known as “Reference Clients”–these control a wallet
@@ -6529,7 +6418,7 @@ making consensus updates in Bitcoin.</p>
 <img class="displayed"
   src="/images/image214.png?raw=true"
   alt="Decentralizing Mining: The Problem,"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">Right now, one of the big features of Bitcoin, as well as other
 cryptocurrencies is the fact they can theoretically be mined in a
@@ -6549,7 +6438,7 @@ centralizing the mining process.</p>
 <img class="displayed"
   src="/images/image215.png?raw=true"
   alt="Decentralized Mining: Puzzle Requirements Review."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">We’re going to attempt to address the problem of mining
 centralization by considering the design of the underlying hash puzzle,
@@ -6579,7 +6468,7 @@ have the prerequisite number of leading zeros.</p>
 <img class="displayed"
   src="/images/image216.png?raw=true"
   alt="Decentralized Mining: ASIC-Resistance."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">ASICs work because it’s easy to create hardware to compute just a
 certain puzzle.</p>
@@ -6605,7 +6494,7 @@ Dogecoin or Litecoin.</p>
 <img class="displayed"
   src="/images/image217.png?raw=true"
   alt="Decentralized Mining: Scrypt."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">Scrypt was originally designed to secure passwords and make them hard
 to brute force, so a memory-bound type of problem makes sense.</p>
@@ -6621,7 +6510,7 @@ datum you want.</p>
 <img class="displayed"
   src="/images/image218.png?raw=true"
   alt="Decentralized Mining: Scrypt - part II."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">However, if the data is interdependent on other pieces of data, you
 have to look up those too.</p>
@@ -6649,7 +6538,7 @@ with so many hash functions, not just once.</p>
 <img class="displayed"
   src="/images/image219.png?raw=true"
   alt="Decentralized Mining: ASIC Resistance."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">And that was the idea behind x11 and x13, which chain together 11 and
 13 different hash functions together respectfully.</p>
@@ -6679,7 +6568,7 @@ ASICs for new hashing algorithms.</p>
 <img class="displayed"
   src="/images/image220.png?raw=true"
   alt="Decentralized Mining: ASIC Resistance, part 2."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">Mike Hearn, a Bitcoin Core developer said (quote) “There’s really no
 such thing as an ASIC-resistant algorithm.”</p>
@@ -6691,7 +6580,7 @@ such thing as an ASIC-resistant algorithm.”</p>
 <img class="displayed"
   src="/images/image221.png?raw=true"
   alt="Decentralized Mining: ASIC Resistance: Pros and Cons."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">As it turns out, ASIC resistance might actually not be that great of
 an idea.</p>
@@ -7728,7 +7617,7 @@ from me to Rustie, my chain has to be longer.</p>
 <img class="displayed"
   src="/images/image253.png"
   alt="Double Spending: k Confirmations #3."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">Let’s say that k in this case is equal to 2 confirmations.</p>
 <p class="em2">In other words, Rustie will assume that the transaction is finalized
@@ -7743,7 +7632,7 @@ block.</p>
 <img class="displayed"
   src="/images/image254.png"
   alt="Double Spending: k Confirmations #4."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">Rustie notices the two confirmations and feels confident about the
 transaction’s finality.</p>
@@ -7754,7 +7643,7 @@ transaction’s finality.</p>
 <img class="displayed"
   src="/images/image255.png"
   alt="Double Spending: k Confirmations #5."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">But that was exactly what I was expecting.</p>
 <p class="em2">This whole time, I was mining on a private chain which I did not
@@ -7775,7 +7664,7 @@ invalidates the transaction from me to Rustie.</p>
 <img class="displayed"
   src="/images/image256.png"
   alt="Double Spending: k Confirmations #6."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">When I broadcast my chain, the rest of the network accepts my chain
 over the previous chain because it’s longer.</p>
@@ -7787,7 +7676,7 @@ transaction from me to Rustie, and onward is invalidated.</p>
 <img class="displayed"
   src="/images/image257.png"
    alt="Double Spending: k Confirmations #7."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">The rest of the network will continue mining on my chain, meaning
 that I will have received Rustie’s iPhone while still keeping my own
@@ -7807,7 +7696,7 @@ produce a chain longer than the rest of the network?</p>
 <img class="displayed"
   src="/images/image258.png"
   alt="Double Spending: Probabilities."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">These graphs show the probability of a successful fork.</p>
 <p class="em2">The top shows the probability of an attacker catching up to some
@@ -7831,7 +7720,7 @@ the probability starts off high but then quickly drops towards zero.</p>
 <img class="displayed"
   src="/images/image259.png"
   alt="Double Spending: 51% attack."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">As you can see, the 50 percent model has a probability of 1 no matter
 what.</p>
@@ -7864,7 +7753,7 @@ the history of transactions.</p>
 <img class="displayed"
   src="/images/image260.png"
   alt="Double Spending: Incentives."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">But here’s a question to ask: just because I can double spend doesn’t
 mean I should.</p>
@@ -7921,7 +7810,7 @@ effectively rendering their bitcoins useless.</p>
 <img class="displayed"
   src="/images/image261.png"
   alt="Blacklisting: Freeze Peach is Dead."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">Let’s say that Gloria is in charge of the Glorian nation, and has
 jurisdiction over all of the mining pools within its boundaries, which
@@ -7934,7 +7823,7 @@ and prevent me from spending any of my Bitcoin.</p>
 <img class="displayed"
   src="/images/image262.png"
   alt="Blacklisting: Naive Censorship."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">The blocks in Gloria’s ideal blockchain will include none of my
 transactions.</p>
@@ -7955,7 +7844,7 @@ significant depending on how much hashpower</p>
 <img class="displayed"
   src="/images/image263.png"
   alt="Blacklisting: Naive Censorship Strategy - Punitive Forking."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">Let’s look at another strategy for Gloria.</p>
 <p class="em2">Remember that Gloria’s mining pools have over 51% of the network
@@ -7969,7 +7858,7 @@ the world.</p>
 <img class="displayed"
   src="/images/image264.png"
   alt="Blacklisting: Punitive Forking."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">If miners include one of my transactions in a block, Gloria will fork
 and create a longer proof-of-work chain, which is possible only because
@@ -7984,7 +7873,7 @@ rewards for their efforts.</p>
 <img class="displayed"
   src="/images/image265.png"
   alt="Blacklisting: Punitive Forking."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">Non-Glorian miners will eventually stop including my transactions in
 their blocks since they know that their blocks won’t be part of the
@@ -8001,7 +7890,7 @@ in the hands of someone with a 51% majority hashrate.</p>
 <img class="displayed"
   src="/images/image266.png"
   alt="Blacklisting: Feather Forking #1."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">However, punitive forking doesn’t work unless Gloria has 51% of the
 hashpower, which is extremely difficult to achieve in reality. Is there
@@ -8022,7 +7911,7 @@ trying to continue her fork.</p>
 <img class="displayed"
   src="/images/image267.png"
    alt="Blacklisting: Feather Forking #2."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">Let’s look at a little bit of math. Let q be the proportion of mining
 power that Gloria has. Let k equal one, so that Gloria gives up after
@@ -8036,7 +7925,7 @@ block, which isn’t that great.</p>
 <img class="displayed"
   src="/images/image268.png"
   alt="Blacklisting: Feather Forking #3."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">However, other miners are now aware that their block has a q^2, or 4%
 chance of being orphaned.</p>
@@ -8052,7 +7941,7 @@ working on that chain.</p>
 <img class="displayed"
   src="/images/image269.png"
   alt="Blacklisting: Feather Forking #4."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">Therefore, looking at the math, unless I pay at least q^2 times the
 block reward in transaction fees, other miners will mine on the
@@ -8080,7 +7969,7 @@ mining.</p>
 <img class="displayed"
   src="/images/image270.png"
   alt="Selfish Mining: Block Withholding."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">Let’s say that you’re a miner, and you just found a block.</p>
 <p class="em2">You want to give yourself an advantage over the rest of the network,
@@ -8098,7 +7987,7 @@ puzzle.</p>
 <img class="displayed"
   src="/images/image271.png"
   alt="Selfish Mining: Block Withholding #2."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">Note that Block withholding is sometimes also used in the context of
 mining pools, where you submit shares but withhold blocks.</p>
@@ -8127,7 +8016,7 @@ secret chain.</p>
 <img class="displayed"
   src="/images/image272.png"
   alt="Selfish Mining: Block Withholding #3."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">Assuming you’re two blocks ahead of the honest network, if the honest
 network then finds a block, you broadcast your two secret blocks to
@@ -8150,7 +8039,7 @@ waste.</p>
 <img class="displayed"
   src="/images/image273.png"
   alt="Selfish Mining: Block Withholding #4."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">What if the network finds a block before you find a second one?</p>
 <p class="em2">Then it becomes a race to propagate the new blocks.</p>
@@ -8182,7 +8071,7 @@ what we can improve from there.</p>
 <img class="displayed"
   src="/images/image274.png"
   alt="Block Validation: Dummy Block Signatures."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">One of the earlier proposed solutions to solving selfish mining was
 to validate blocks using dummy blocks that hold metadata.</p>
@@ -8225,7 +8114,7 @@ signatures is enough to show that a block is valid.</p>
 <img class="displayed"
   src="/images/image275.png"
   alt="Block Validation: Dummy Block Signatures #2."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">What order of magnitude is the threshold number of signatures?</p>
 <p class="em2">And would it have to change depending on the changing number of users
@@ -8249,7 +8138,7 @@ already established block validity rules.</p>
 <img class="displayed"
   src="/images/image276.png"
   alt="Fork Punishment: Fork Punishment Rule."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">Another idea for a defense against selfish mining was
 fork-punishment, which was proposed by Lear Bahack in 2013.</p>
@@ -8270,7 +8159,7 @@ honest chain and the bottom being the dishonest chain.</p>
 <img class="displayed"
   src="/images/image277.png"
   alt="Fork Punishment: Fork Punishment Rule #2."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">Since two blocks are broadcast at the same block height, they are
 competing blocks and thus neither of them have an associated block
@@ -8300,7 +8189,7 @@ implement, and as before, that’s pretty undesirable.</p>
 <img class="displayed"
   src="/images/image278.png?raw=true"
   alt="Tie-Breaking: Uniform Tie-Breaking."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">Instead of punishing everyone whenever there’s a fork, like in fork
 punishment, is there another way?</p>
@@ -8340,7 +8229,7 @@ threshold down to 23.2%.</p>
 <img class="displayed"
   src="/images/image279.png?raw=true"
   alt="Tie-Breaking: Unforgettable Timestamps."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">A 25% profit threshold using uniform tie-breaking is pretty bad,
 considering that selfish mining is always profitable when you have 33%
@@ -8378,7 +8267,7 @@ worthless.</p>
 <img class="displayed"
   src="/images/image280.png?raw=true"
   alt="Tie-Breaking: Unforgettable Timestamps."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">As you can see in the diagram on the bottom, a selfish miner can
 still invalidate the honest chain if they have the longest chain.</p>
@@ -8396,7 +8285,7 @@ certainly doesn’t mix with Bitcoin’s philosophy.</p>
 <img class="displayed"
   src="/images/image281.png?raw=true"
   alt="Tiebreaking: Unforgetable Timestamps 2."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">We’ll skip this for now.</p>
 
@@ -8407,21 +8296,21 @@ certainly doesn’t mix with Bitcoin’s philosophy.</p>
 <img class="displayed"
   src="/images/image282.png?raw=true"
   alt="Zang and Perneel, Publish or Perish (2017)."
-  style="width:400px;" />
+  style="width:40%;" />
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!-------------------- 283. zang and preneel, publish or perish (2017) #2 (255) ------------------>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image283.png?raw=true"
   alt="Zang and Perneel, Public or Perish, #2."
-  style="width:400px;" />
+  style="width:40%;" />
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!-------------------- 284. zang and preneel, publish or perish (2017) #3 (255) ------------------>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image284.png?raw=true"
   alt="Zang and Perneel, Public or Perish, #3."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">Now we get into one of the more recent developments in selfish mining
 defenses.</p>
@@ -8469,7 +8358,7 @@ greater than the local head, so we just append it to the blockchain.</p>
 <img class="displayed"
   src="/images/image285.png?raw=true"
   alt="Publish or Perish: Zang and Preneel, #4."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">The term uncle refers to an in-time block that competes with a block
 parent – the parent being the previous block to the current.</p>
@@ -8486,7 +8375,7 @@ uncle block.</p>
 <img class="displayed"
   src="/images/image286.png?raw=true"
   alt="Zang and Perneel, Public or Perish, #5."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">We have our child block B, and previous to that, we have its parent
 A. At the same block height to A, we have blocks C and D. Block C is an
@@ -8539,7 +8428,7 @@ selfish mining.</p>
 <img class="displayed"
   src="/images/image287.png?raw=true"
   alt="Zang and Perneel, Public or Perish, #6."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">Say that a selfish miner has already secretly mined one block. Before
 they can mine a second block, the honest network publishes a competing
@@ -8570,7 +8459,7 @@ that is not also given to the honest chain.</p>
 <img class="displayed"
   src="/images/image288.png?raw=true"
   alt="Publish or Perish: Analysis."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">For a bit more clarity, let’s take a more rigorous approach to our
 analysis of the previous scenario.</p>
@@ -8599,7 +8488,7 @@ blocks</p>
 <img class="displayed"
   src="/images/image289.png?raw=true"
   alt="Publish or Perish: Option 2."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">In option 2, the selfish miner doesn’t publish S, and instead chooses
 to wait, and publish later on as part of the selfish chain.</p>
@@ -8626,7 +8515,7 @@ when publish or perish is in effect.</p>
 <img class="displayed"
   src="/images/image290.png?raw=true"
   alt="Publish or Perish: Graphs."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">On the left side, we have a graph of selfish miners’ profit, given
 that certain defenses are in place.</p>
@@ -8642,7 +8531,7 @@ optimal tie breaking defense.</p>
 <img class="displayed"
   src="/images/image291.png?raw=true"
   alt="Publish or Perish: Limitations."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">On the right side, we have revenue given different values of k, which
 again is the threshold number of blocks ahead a chain has to be in order
@@ -8726,7 +8615,7 @@ neighbors, and so on.</p>
 <img class="displayed"
   src="/images/image292.png?raw=true"
   alt="Bitcoin Network: A Closer Look."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p>…and I wanted to send a message to Nick……I would tell my neighbors
 Derrick and Gloria.</p>
@@ -8752,7 +8641,7 @@ network, we have to understand the network topology and latency.</p>
 <img class="displayed"
   src="/images/image293.png?raw=true"
   alt="Bitcoin Network: An Uneven Topology #1."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">Network topology means how the Bitcoin network looks like if you were
 to graph it out like we’ve been doing with circles – for individual
@@ -8775,7 +8664,7 @@ It could be that he’s running a mining farm or pool.
 <img class="displayed"
   src="/images/image294.png?raw=true"
   alt="Bitcoin Network: An Uneven Topology #2."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">We can’t really tell, since mining farms and pools sometimes want to
 remain secret so people don’t attack them.</p>
@@ -8800,7 +8689,7 @@ than 65% of the network hash power.</p>
 <img class="displayed"
   src="/images/image295.png?raw=true"
   alt="Bitcoin Network: An Uneven Topology #3."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">And scarier yet, Derrick doesn’t even need 65% of the network hash
 power.</p>
@@ -8818,7 +8707,7 @@ discovered yet that lowers the profit threshold even lower.</p>
 <img class="displayed"
   src="/images/image296.png?raw=true"
   alt="Bitcoin Network: Network Latency."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">In addition to network topology, we also have to worry about the
 network latency.</p>
@@ -8847,7 +8736,7 @@ competing block to a majority of the network.</p>
 <img class="displayed"
   src="/images/image297.png?raw=true"
   alt="Bitcoin Network: Sybil Attack Revisited #1."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">And now for something even bigger.</p>
 <p class="em2">Think back to the first module, where we discussed Sybil attacks and
@@ -8862,7 +8751,7 @@ latency.</p>
 <img class="displayed"
   src="/images/image298.png?raw=true"
   alt="Bitcoin Network: Sybil Attack Revisited #2."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">Let’s say Derrick has the ability to flood the network with
 nodes.</p>
@@ -8881,7 +8770,7 @@ blocks, which are distributed to all of his 0-power nodes.</p>
 <img class="displayed"
   src="/images/image299.png?raw=true"
   alt="Bitcoin Network: Sybil Attack Revisited #3."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">When Derricks nodes hear about the next honest block X, Derrick could
 ignore X, and publish his secret block P.</p>
@@ -8891,7 +8780,7 @@ ignore X, and publish his secret block P.</p>
 <img class="displayed"
   src="/images/image300.png?raw=true"
   alt="Bitcoin Network: Sybil Attack Revisited #4."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">If block P reaches a miner before block X, then the miner by default
 mines on block P.</p>
@@ -8928,7 +8817,7 @@ the pool’s hash rate.</p>
 <img class="displayed"
   src="/images/image301.png?raw=true"
   alt="Reward Per Share for Pay-Per-Share & Proportional Pools."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <h3>I.II Pool Cannibalization</h3>
 
@@ -8950,7 +8839,7 @@ of Bitcoin.</p>
 <img class="displayed"
   src="/images/image302.png?raw=true"
   alt="Table demonstrating the results of attacking and not attacking between Pool 1 and Pool 2."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">In this situation, the Nash Equilibrium, or the position from which
 no actor can change their position to improve their outcome, is also
@@ -8999,7 +8888,7 @@ attack.</p>
 <img class="displayed"
   src="/images/image303.png?raw=true"
   alt="Graph demonstrating the relationship between number of blocks and probability attackers catches up."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <h3>
 <ol start="3" type="I">
@@ -9135,7 +9024,7 @@ Future
 <img class="displayed"
   src="/images/image304.png?raw=true"
   alt="Culmination of the last 5 modules."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">This module will be the culmination of the last 5 modules.</p>
 <p class="em2">From here, you will have fully understood all the tenets of how we
@@ -9207,7 +9096,7 @@ Bitcoin Review
 <img class="displayed"
   src="/images/image304.jpg?raw=true"
   alt="What Makes Bitcoin So Special?"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">First, we have to consider what makes Bitcoin so special.</p>
 <p class="em2">Understanding what Bitcoin has to offer allows us better to
@@ -9229,7 +9118,7 @@ special.</p>
 <img class="displayed"
   src="/images/image305.png?raw=true"
   alt="Bitcoin From the Ground Up: Identity."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!----------------------- 306. a distributed network: bitcoin bare bones ------------------------->
@@ -9237,7 +9126,7 @@ special.</p>
 <img class="displayed"
   src="/images/image306.jpg?raw=true"
   alt="A Distributed Network: Bitcoin Bare Bones."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">First off, when we built Bitcoin from the ground up, we first
 emphasized the importance of identity: especially in order to enable
@@ -9262,7 +9151,7 @@ dealing with are massive.</p>
 <img class="displayed"
   src="/images/image307.png?raw=true"
   alt="Bitcoin from the ground up: Transactions."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">Of course, the main idea of Bitcoin was to be able to send
 transactions between users, so naturally, we have a way to do this.</p>
@@ -9284,7 +9173,7 @@ makes.</p>
 <img class="displayed"
   src="/images/image308.png?raw=true"
   alt="Bitcoin from the Ground Up."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">Next, of course, we have the blockchain: the famous data structure
 that enables record keeping in the network.</p>
@@ -9311,7 +9200,7 @@ can’t expect everyone to be honest.</p>
 <img class="displayed"
   src="/images/image309.png?raw=true"
   alt="Bitcoin from the Ground Up: Proof-of-Work Consensus."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">And finally, we have Proof-of-Work consensus.</p>
 <p class="em2">Nodes on the Bitcoin network needed a way to come to consensus on
@@ -9334,7 +9223,7 @@ rather than by the number of identities a user holds.</p>
 <img class="displayed"
   src="/images/image310.jpg?raw=true"
   alt="A Distributed Network: Transferrable Benefits of Bitcoin."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">And by carefully designing Bitcoin like that, we have all these nice
 benefits:</p>
@@ -10729,7 +10618,7 @@ persisting across nations.</p>
 <img class="displayed"
   src="/images/image359.png?raw=true"
   alt="Blockchain Generalizations: Advantages of Centralized Solutions."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">Now that we’ve finished talking about all the meaningful properties
 of decentralized solutions, it wouldn’t be complete if we didn’t go over
@@ -10807,7 +10696,7 @@ an m of n signature scheme (refer to Lecture 3).</p>
 <img class="displayed"
   src="/images/document-ownership.png?raw=true"
   alt= "Document Ownership: Blockchain Fundamentals: Proof-of-Existence."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">We can also create Proof-of-Existence use cases using smart
 contracts, which hash intellectual property onto a blockchain to prove
@@ -10980,7 +10869,7 @@ determine which one is better for each specific use case.</p>
 <img class="displayed"
   src="/images/image360.png?raw=true"
   alt="Why is using a blockchain better than a centralized database?"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">The main takeaway is that there are advantages to both centralized
 and decentralized solutions.</p>
@@ -11066,7 +10955,7 @@ in developing the Ethereum ecosystem.</p>
 <img class="displayed"
   src="/images/image361.png?raw=true"
   alt="ConsenSys: Ethereum Infrastructure."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">ConsenSys can be best described as a software foundry.</p>
 <p class="em2">It facilitates a variety of applications which operate on the
@@ -11084,7 +10973,7 @@ previous section.</p>
 <img class="displayed"
   src="/images/image362.png?raw=true"
   alt= "Research: Paving the Road Ahead."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">Most notably is Casper, the Ethereum Proof-of-Stake implementation
 that we’ve mentioned a couple times in this module.<br>
@@ -11128,7 +11017,7 @@ and Bitcoin:</p>
 <img class="displayed"
   src="/images/image363.jpg?raw=true"
   alt= "Similarity and Differences between Ethereum and Bitcoin."
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">There are two kinds of Ethereum accounts:</p>
 
@@ -11167,7 +11056,7 @@ to enable distributed and trustless computation.</p>
 <img class="displayed"
   src="/images/image364.jpg?raw=true"
   alt="Nodes in the Ethereum Network"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <p class="em2">As in Bitcoin, the nodes come to consensus using Proof-of-Work,
 removing the need for a trusted third party. Miners in Ethereum
@@ -11193,7 +11082,7 @@ the new state. The function looks like this:</p>
 <img class="displayed"
   src="/images/image365.jpg?raw=true"
   alt="Bitcoin Network: Flood the Network"
-  style="width:400px;" />
+  style="width:40%;" />
 
 <h3>Readings</h3>
 
@@ -11230,7 +11119,7 @@ and innovation left to explore, so I cordially invite you to take our
 second course, CS198.2x Blockchain Technology.</p>
 <p>We wish you all the best on the rest of your blockchain journey!</p>
 <p>the end…</p>
-<p><b><i>Last Updated: 4/7/2023 (Fri) 9:06pm+</i></b></p>
+<h7><b><i>Last Updated: 10/18/2023 (Wed) 4:15pm+</i></b></h7>
 
 </body>
 
