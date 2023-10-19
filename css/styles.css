@@ -1,3 +1,4 @@
+<!-- styles.css of cs198.1x -->
 background: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%);
 body {
   font-family: Bahnschrift, "Avenir Next", Calibri, Verdana, sans-serif;
@@ -103,7 +104,7 @@ h1 {
   margin-left: 15px;
 }
 
-<!------ list item styles ------>
+<!-- list item styles -->
 li {
   line-height: 1.6em;
 }
@@ -117,7 +118,7 @@ ol.e {list-style-type: lower-roman;}
 ol.f {list-style-type: lower-alpha;}
 ol.g {list-style-type: lower-latin;
 }
-<!---- Drop down menu ----->
+<!-- drop down menu -->
 .dropbtn {
   background-color: #04006d;  /* very dark blue */
   color: #ffffff;  /* white */
