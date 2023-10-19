@@ -133,7 +133,7 @@ Technical Overview</strong></a></h2>
 <h3>3.10. <a href="#ch3-10"><strong>Chapter 3 Summary</strong></a></h3>
 </blockquote>
 
-<h2 id="chapter-4.-bitcoin-in-real-life-wallets-mining-and-more"><a href="#ch4"><strong>Chapter 4. Bitcoin In Real Life: Wallets, Mining, and More</strong></a></h2>
+<h2><a href="#ch4"><strong>Chapter 4. Bitcoin In Real Life: Wallets, Mining, and More</strong></a></h2>
 
 <blockquote>
 <h3>4.01. <a href="#ch4-1"><strong>Key Components</strong></a></h3>
@@ -232,8 +232,8 @@ blockchain use cases outside of cryptocurrency.</p>
 <h3>Resources</h3>
 
 <ul>
-  <li><p><a href="https://d28rh4a8wq0iu5.cloudfront.net/bitcointech/readings/princeton_bitcoin_book.pdf" rel="noopener" target="_blank">Bitcoin and Cryptocurrency Technologies </a>by Arvind Narayanan, Joseph Bonneau, Edward Felten, Andrew Miller, and Steven Goldfeder</p></li>
-  <li><p><a href="https://github.com/bitcoinbook/bitcoinbook/blob/develop/book.asciidoc" rel="noopener" target="_blank">Mastering Bitcoin </a>by Andreas Antonopoulos</p></li>
+  <li><a href="https://d28rh4a8wq0iu5.cloudfront.net/bitcointech/readings/princeton_bitcoin_book.pdf" rel="noopener" target="_blank">Bitcoin and Cryptocurrency Technologies </a>by Arvind Narayanan, Joseph Bonneau, Edward Felten, Andrew Miller, and Steven Goldfeder</li>
+  <li><a href="https://github.com/bitcoinbook/bitcoinbook/blob/develop/book.asciidoc" rel="noopener" target="_blank">Mastering Bitcoin </a>by Andreas Antonopoulos</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ expectations: expect from us, we expect from you (04) ~~~~~~~~~~~~~~~~~~~-->
@@ -1587,9 +1587,9 @@ blockchain and Proof-of-Work. </p>
 <p class="em2">Bitcoin is robust because it serves the same functions as a bank:</p>
 
 <ul>
-  <li><p>Account management; the Bitcoin protocol gives users a way to create and manage their own identities (account)</p></li>
-  <li><p>Legitimacy; It ensures we are legitimate owners and accessors of our accounts</p></li>
-  <li><p>Record-keeping; It honestly records account balances at each transaction.</p></li>
+  <li>Account management; the Bitcoin protocol gives users a way to create and manage their own identities (account),</li>
+  <li>Legitimacy; It ensures we are legitimate owners and accessors of our accounts, and</li>
+  <li>Record-keeping; It honestly records account balances at each transaction.</li>
 </ul>
 
 <p class="em2">Unlike a bank, Bitcoin is decentralized and ensures a high degree of
@@ -2616,9 +2616,9 @@ confirmation times, and centralization in third party companies (Intel’s
 SGX).<p>
 <p>In this course, we explain these issues in an objective fashion, and
 let you form your own opinion on these debates.</p>
-<h3 id="ch2-10">
-2.10 Intro: State of the Industry
-</h3>
+
+<h3 id="ch2-10">2.10 Intro: State of the Industry</h3>
+
 <p class="em2">We’ve told the story of Bitcoin and blockchain: from the cypherpunk
 movement all the way to JP Morgan Chase.<p>
 <p>We’ve also explained a bit about the Bitcoin and blockchain
@@ -2627,9 +2627,8 @@ political landscape.<p>
 <p>So where is the space now?<p>
 <p>That’s what we’re going to explore in this next section on the state
 of the industry.</p>
-<h3>
-ICO’s:
-</h3>
+
+<h3>ICO’s:</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!---------------------------------- 71. icos: the hypee (85) ------------------------------------>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3284,9 +3283,9 @@ implement the protocol explained in module 1.</p>
 <p>Those are;</p>
 
 <ol class="em3" type="1">
-  <li><p>the Merkle Root,</p></li>
-  <li><p>Previous Block Hash, and</p></li>
-  <li><p><strong>Nonce</strong> fields</p></li>
+  <li>The Merkle Root,</li>
+  <li>Previous Block Hash, and</li>
+  <li><strong>Nonce</strong> fields</li>
 </ol>
 
 <p>The <em>Merkle Root</em> represents a summary of transactions.</p>
@@ -3339,19 +3338,20 @@ children.</p>
 tree, where two things are true:</p>
 
 <ul>
-  <li><p>there are a power of two children on the bottommost level, and</p></li>
-  <li><p>the lowest level is made of the hashes of the information that you would like to summarize.</p></li>
+  <li>there are a power of two children on the bottommost level, and</li>
+  <li>the lowest level is made of the hashes of the information that you would like 
+    to summarize.</li>
 </ul>
 
 <p>Perhaps a better way to explain the Merkle Tree is to describe its
 construction.</p>
 <p>We start off with a set of transactions that we have verified.</p>
-<pr>We lay them out one by one.</p>
+<p>We lay them out one by one.</p>
 <p>We hash each one to get a level of hashes.</p>
 <p>We then hash each pair together, making a new level with half as many
 hashes.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------- 99.  a tamper-evident database: protecting the chain (101) ----------------->
+<!--~~~~~~~~~~~~~~~ 99.  a tamper-evident database: protecting the chain (101) ~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image099-tamper-protect.png"
@@ -3373,15 +3373,14 @@ with the Merkle Root.</p>
   alt="A Tamper-Evident Database: Getting to the Root of the Problem"
   style="width:40%;" />
 
-<br>We see here that if any transaction is changed, then the Merkle Root
+<p>We see here that if any transaction is changed, then the Merkle Root
 is affected.<br>
 <br>This is demonstrated in the following diagram: when Transaction 3 is
 changed, then so is its hash.<br>
 <br>Because of that, the hash above it is also effective, propagating all
 the way up to the topmost level.</p>
-<h3>
-Merkle Trees: Proof of Inclusion
-</h3>
+
+<h3>Merkle Trees: Proof of Inclusion</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!---------- 100. A Tamper-Evident Database: Merkle Branch & Proof of Inclusion (102) ------------>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3493,9 +3492,10 @@ cryptocurrency.</p>
 <strong>three</strong> characteristics:</p>
 
 <ol type="1">
-  <li><p>Computationally difficult,</p></li>
-  <li><p>Parameterizable, and</p></li>
-  <li><p>Easily verifiable.</p></li>
+  <li>Computationally difficult,</li>
+  <li>Parameterizable, and</li>
+  <li>Easily verifiable.</li>
+</ol>
 </ol>
 
 <p class="em2">Computational difficulty means ensuring that the solution to the
@@ -4192,9 +4192,8 @@ transaction and makes it redeemable only by the specific proof that I
 specified in this transaction.</p>
 <p class="em2">In this case, only after Rustie provides his proof can he unlock and
 spend my UTXOs.</p>
-<h3>
-Bitcoin Script Reminders
-</h3>
+
+<h3>Bitcoin Script Reminders</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!---------------------------- 128. bitcoin scripts: reminders (131) ----------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4280,9 +4279,8 @@ concatenate them.</p>
 on top of scriptPubKey, and then run them together.</p>
 <p class="em2">And the entire resulting script must execute successfully in order
 for the transaction to be considered valid.</p>
-<h3>
-Demo: P2PKH Example
-</h3>
+
+<h3>Demo: P2PKH Example</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!-------------------- 131. bitcoin scripts: p2pkh example execution (134) ----------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4371,9 +4369,9 @@ actually coined this word in the past.</p>
 <p class="em2">Aside from words, you could also prove the existence of a document, a
 piece of music, other creative works, or anything else, so long as you
 have bitcoin to burn.</p>
-<h3>
-Intro: Advanced Bitcoin Script and P2SH
-</h3>
+
+<h3>Intro: Advanced Bitcoin Script and P2SH</h3>
+
 <p class="em2">In this section, we’ll look at how to create arbitrary scripts in a
 scheme called P2SH, or Pay to Script Hash.</p>
 <p class="em2">For a better understanding, we’ll compare pay to script hash to the
@@ -4383,9 +4381,8 @@ terms of a vendor-customer scenario, where the customer creates a
 transaction to pay the vendor.</p>
 <p class="em2">In other words, the customer is the sender, and the vendor is the
 recipient.</p>
-<h3>
-P2PKH vs P2SH
-</h3>
+
+<h3>P2PKH vs P2SH</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!-------------------- 134. p2pkh vs p2sh: who specifies the script? (137) ----------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4416,9 +4413,8 @@ true when I redeem the coins.”</p>
 customers to create a complicated output script first.</p>
 <p class="em2">It’s much more customer friendly if the recipient of the transaction,
 the vendor, specifies the script.</p>
-<h3>
-How P2SH Works
-</h3>
+
+<h3>How P2SH Works</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------- 135. p2pkh vs p2sh: creating a p2pkh pub key hash (138) -------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4630,26 +4626,26 @@ following:</p>
 for any given input seems random, the output will remain consistent for
 that input.</p>
 <p class="em2">Important Properties of Cryptographic Hash Functions:</p>
+
 <ol type="1">
-<li><p>Pre-image Resistance: Given H(x), it is computationally difficult
-to determine x</p></li>
-<li><p>Second-image Resistance: Given x, it is computationally difficult
-to find some value x’ such that H(x) == H(x’)</p></li>
-<li><p>Collision Resistance: It is computationally difficult to find x
-and y such that H(x) == H(y)</p></li>
+  <li>Pre-image Resistance: Given H(x), it is computationally difficult to determine x.</li>
+  <li>Second-image Resistance: Given x, it is computationally difficult to find 
+    some value x’ such that H(x) == H(x’)</li>
+  <li>Collision Resistance: It is computationally difficult to find x and y such 
+    that H(x) == H(y)</li>
 </ol>
+
 <p class="em2">These properties produce the Avalanche effect, where even any small
 change in the input leads to a significant pseudorandom change in the
 output.</p>
 <p class="em2">The particular hash function Bitcoin uses is SHA256, which takes in
 an input of size less than 2^64 bits and produces a 256 bit fix sized
 output.</p>
-<h3>
+
 <ol start="2" type="I">
-<li>A Tamper Evident Database
-</li>
+  <li><h3>A Tamper Evident Database</h3></li>
 </ol>
-</h3>
+
 <p class="em2">This cryptographic hash function is used to make an entire tamper
 evident database in Bitcoin. The Block Header of a block on Bitcoin, is
 a hash of many contents within the block, most notably its Merkle Root,
@@ -4666,14 +4662,15 @@ puzzle. Miners hash the entire block header (the input) and tweak the
 nonce and coinbase until they find an output that solves the hash
 puzzle. </p>
 <p class="em2">Hash puzzles must be:</p>
+
 <ol type="1">
-<li><p>Computationally Difficult: The solution to the hash puzzle cannot
-be easily found</p></li>
-<li><p>Parameterizable: The difficulty of the hash puzzle should be
-adjustable </p></li>
-<li><p>Easily Verifiable: Computers should have to do little work to
-ensure the answer is correct</p></li>
+  <li>Computationally Difficult: The solution to the hash puzzle cannot be easily 
+    found.</li>
+  <li>Parameterizable: The difficulty of the hash puzzle should be adjustable.</li>
+  <li>Easily Verifiable: Computers should have to do little work to ensure the answer 
+    is correct</li>
 </ol>
+
 <p class="em2">The difficulty of the hash puzzle in Bitcoin is:</p>
 <p class="em2">difficulty = difficulty * two weeks / time to mine previous 2016
 blocks</p>
@@ -4686,19 +4683,18 @@ tamper evident; we now turn our attention to how digital signatures help
 us ensure current transactions are tamper evident as well. Public and
 Private keys in Bitcoin are generated using Elliptic Curve Digital
 Signature Algorithm (ECDSA). ECDSA has three key properties:</p>
+
 <ol type="1">
-<li><p>Given the encrypted message and the sender’s public key, the
-recipient should be able to identify the message origin. Since the
-message has been signed by the sender’s private key, the ability to
-encode it using the public key demonstrates the original sender has
-authorized this message.</p></li>
-<li><p>The digital signature scheme must also ensure non-repudiation:
-once the sender signs the message, they should not be able to undo
-it. </p></li>
-<li><p>Finally, the scheme must maintain integrity; since messages are
-signed with the private key, they cannot be modified after
-signing.</p></li>
+  <li>Given the encrypted message and the sender’s public key, the recipient should 
+    be able to identify the message origin. Since the message has been signed by the 
+	sender’s private key, the ability to encode it using the public key demonstrates 
+	the original sender has authorized this message.</li>
+  <li>The digital signature scheme must also ensure non-repudiation: once the sender 
+    signs the message, they should not be able to undo it.</li>
+  <li>Finally, the scheme must maintain integrity; since messages are signed with 
+    the private key, they cannot be modified after signing.</li>
 </ol>
+
 <p class="em2">Identity in Bitcoin is derived from private keys, which are generated
 randomly. Public keys are the result of Elliptic curve point
 multiplication of the private key against a known generator point on the
@@ -4711,15 +4707,16 @@ that you are the legitimate redeemer, and then <strong>specifying who
 can redeem </strong>the output of the transaction you are now creating,
 by encoding that per’s information in your transaction.</p>
 <p class="em2">A transaction has three main sections:</p>
+
 <ol type="1">
-<li><p>Metadata: Contains housekeeping data, a unique ID of this
-transaction, locktime, and size</p></li>
-<li><p>Inputs: Contains a list of previously created UTXOs and proof of
-eligibility to redeem this money</p></li>
-<li><p>Outputs: Contains a list of new UTXOs that will be sent to new
-addresses. These values are locked by a script only the intended
-redeemer can unlock.</p></li>
+  <li>Metadata: Contains housekeeping data, a unique ID of this transaction, locktime, 
+    and size</li>
+  <li>Inputs: Contains a list of previously created UTXOs and proof of eligibility to 
+    redeem this money</li>
+  <li>Outputs: Contains a list of new UTXOs that will be sent to new addresses. These 
+    values are locked by a script only the intended redeemer can unlock.</li>
 </ol>
+
 <p class="em2">Bitcoin uses the stack-based, Turing-incomplete language named Script
 to create transactions. Locking and Unlocking Scripts are contained in
 transaction input and previous transaction output and are used to redeem
@@ -4736,29 +4733,25 @@ is responsible for writing the script.</p>
 <h3>Readings</h3>
 
 <ul>
-<li><a
-href="https://bitcoin.stackexchange.com/questions/8443/where-is-double-hashing-performed-in-bitcoin" rel="noopener" target="_blank">Where
-is Double hashing performed in Bitcoin? </a></li>
+  <li><a href="https://bitcoin.stackexchange.com/questions/8443/where-is-double-hashing-performed-in-bitcoin" rel="noopener" target="_blank">Where is Double hashing performed in Bitcoin? </a></li>
 </ul>
+
 <p class="em2">Princeton Textbook 5.1-5.4 (pg. 131 - 157)</p>
+
 <ul>
-<li><p><a
-href="http://cryptorials.io/bitcoin-wallets-explained-how-to-choose-the-best-wallet-for-you/" rel="noopener" target="_blank">Bitcoin
-Wallets Explained: How to Choose the Best Wallet for You </a></p></li>
-<li><p>(Optional) <a
-href="https://bitcoin.org/en/developer-guide" rel="noopener" target="_blank">Bitcoin Developer
-Guide </a>(There’s a lot; don’t try to read it all in one day) </p></li>
-<li><p>(Optional) <a
-href="https://3583bytesready.net/2016/09/06/hash-puzzes-proofs-work-bitcoin/" rel="noopener" target="_blank">Tech
-explained: Hash puzzles and proofs of work </a></p></li>
-<li><p>(Optional) <a
-href="https://csrc.nist.gov/csrc/images/publications/fips/180/4/archive/2012-03-06/documents/fips180-4.pdf" rel="noopener" target="_blank">Secure
-Hash Standard (SHS)</a> (Insane math: a blessing or curse depending on
-your preference)</p></li>
+  <li><a href="http://cryptorials.io/bitcoin-wallets-explained-how-to-choose-the-best-wallet-for-you/" 
+    rel="noopener" target="_blank">Bitcoin Wallets Explained: How to Choose the Best Wallet for You </a></li>
+  <li>(Optional) <a href="https://bitcoin.org/en/developer-guide" rel="noopener" 
+    target="_blank">Bitcoin Developer Guide </a>(There’s a lot; don’t try to read it all in one day)</li>
+  <li>(Optional) <a href="https://3583bytesready.net/2016/09/06/hash-puzzes-proofs-work-bitcoin/" 
+    rel="noopener" target="_blank">Tech explained: Hash puzzles and proofs of work </a></li>
+  <li>(Optional) <a href="https://csrc.nist.gov/csrc/images/publications/fips/180/4/archive/2012-03-06/documents/fips180-4.pdf" 
+    rel="noopener" target="_blank">Secure Hash Standard (SHS)</a> (Insane math: 
+	  a blessing or curse depending on your preference)</li>
 </ul>
-<h3>
-HW2: When Hashes Collide
-</h3>
+
+<h3>HW2: When Hashes Collide</h3>
+
 <p class="em2">Bitcoin operates under certain assumptions, such as an honest
 majority of computational power. The assumption we discussed in this
 last lecture was that cryptographic hashes are unique, given the
@@ -4772,9 +4765,9 @@ There are several different answers, but you only need to provide one
 example.</p>
 <p class="em2">Feel free to discuss amongst each other in the discussion board topic
 below. We’ll be grading the responses you paste into the text input.</p>
-<h2 id="ch4">
-Chapter 4 - Bitcoin In Real Life: Wallets, Mining, and More
-</h2>
+
+<h2 id="ch4">Chapter 4 - Bitcoin In Real Life: Wallets, Mining, and More</h2>
+
 <p class="em2">We’ve looked at Bitcoin mechanics from both a high and low level,
 explaining the primary motivations of why we do what we do in Bitcoin,
 and its implementation.</p>
@@ -4800,9 +4793,8 @@ exchanges or their own wallet software, there are actually a plethora of
 different types of Bitcoin users, each categorized by the different
 software that they run, and how they interface with the Bitcoin
 network.</p>
-<h3 id="ch4-1">
-4.1 Key Components
-</h3>
+
+<h3 id="ch4-1">4.1 Key Components</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------- 164. Types of Users: Key Components (147) ---------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4839,9 +4831,9 @@ connected to the Bitcoin network, or even the internet!</p>
 just through these four main functionalities – mining, routing, having a
 full blockchain, and key management through wallets – but it does
 summarize a lot about the Bitcoin user experience.</p>
-<h3 id="ch4-2">
-4.2 Intro: Wallets
-</h3>
+
+<h3 id="ch4-2">4.2 Intro: Wallets</h3>
+
 <p class="em2">The first type of user we’ll be talking about is the most common
 Bitcoin user.</p>
 <p class="em2">Doesn’t have the entire blockchain downloaded, and doesn’t need fancy
@@ -4850,9 +4842,8 @@ functionality.</p>
 receive bitcoins with the rest of the network.</p>
 <p class="em2">As we’ll soon find out, wallets come in many different shapes and
 sizes – hosted on the web, on your computer, digital, or physical.</p>
-<h3>
-Purpose of a Wallet
-</h3>
+
+<h3>Purpose of a Wallet</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!----------------------- 165. Purpose of a Wallet: Key Management (148) ------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4870,9 +4861,8 @@ virtual identity.</p>
 <p class="em2">It’s what gives access to a Bitcoin address.</p>
 <p class="em2">But how do we actually protect these private keys?</p>
 <p class="em2">How do we make sure that we’re not subject to identity theft?</p>
-<h3>
-Types of Wallets
-</h3>
+
+<h3>Types of Wallets</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 166. Bitcoin Wallets: What do Wallets Do? (148) ~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4897,9 +4887,8 @@ necessarily for humans.</p>
 activity involving you.</p>
 <p class="em2">To take care of this, wallet software will store all relevant
 information about the blockchain on your behalf.</p>
-<h3>
-Types of Wallets: Hot and Cold
-</h3>
+
+<h3>Types of Wallets: Hot and Cold</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------- 167. Types of Wallets: Hot and Cold (149) ---------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4914,9 +4903,8 @@ wallets – hot and cold – based on their connectivity to the
 internet.</p>
 <p class="em2">Hot wallets are connected to the internet, and cold storage is
 not.</p>
-<h3>
-Types of Wallets: Hot Wallets
-</h3>
+
+<h3>Types of Wallets: Hot Wallets</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------- Bitcoin Wallets: Hot Wallets (150) ----------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4930,9 +4918,8 @@ AirBitz (I personally use AirBitz).</p>
 <p class="em2">There are also online web wallets such as those hosted on
 Blockchain.info and coinbase.com.</p>
 <p class="em2">And all these are connected to the internet.</p>
-<h3>
-Types of Wallets: Cold Wallets
-</h3>
+
+<h3>Types of Wallets: Cold Wallets</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!-------------------------- 143. Bitcoin Wallets: Cold Storage (150) ---------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4999,9 +4986,8 @@ book.</p>
 <p class="em2">In general, so long as your words are not closely related, it’s still
 expensive and improbable that someone would be able to guess and
 successfully dictionary attack your brain wallet.</p>
-<h3>
-Key Stretching
-</h3>
+
+<h3>Key Stretching</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------- 144. bitcoin wallets: key stretching (152) --------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5025,9 +5011,8 @@ but they would also have to guess how many times you hashed your set of
 words.</p>
 <p class="em2">Hacking a brain wallet that has been key stretched is exponentially
 harder to brute force than a brain wallet that is only hashed once.</p>
-<h3>
-Choosing a Wallet
-</h3>
+
+<h3>Choosing a Wallet</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!----------------------- 145. Bitcoin Wallets: Choosing a Wallet (153) -------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5064,9 +5049,9 @@ an individual.<br>
 via smartphones and QR codes, or fancy multisignature wallets, or go the
 extra mile to use a hardware wallet, print out a paper wallet, or
 memorize a brain wallet… it all boils down to your personal needs.</p>
-<h3>
-Bitcoin ATMs
-</h3>
+
+<h3>Bitcoin ATMs</h3>
+
 <p class="em2">You might be thinking: Alright Rustie, we’ve been talking a lot about
 Bitcoin wallets and how to manage your private keys, but how do I get
 bitcoins in the first place?<br>
@@ -5086,9 +5071,8 @@ address.</p>
 scan your QR code, they simply print out a paper wallet for you after
 you’ve paid your equivalent amount through cash, debit, or credit
 card.</p>
-<h3>
-Exchanges
-</h3>
+
+<h3>Exchanges</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------- 146. How Do I Get Bitcoin: Exchanges (155) --------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5143,9 +5127,9 @@ Openledger, NXT, CounterParty, etc.<br>
 centralized exchanges, especially since large centralized exchanges are
 generally backed by powerful companies that can invest in high security,
 but of course, do your own due diligence.</p>
-<h3 id="ch4-3">
-4.3 Intro: Wallet Mechanics
-</h3>
+
+<h3 id="ch4-3">4.3 Intro: Wallet Mechanics</h3>
+
 <p class="em2">We now know that wallets help manage your identity: your public and
 private keys.<br>
 <br>In the case of brain wallets and paper wallets, there’s not much else
@@ -5155,9 +5139,8 @@ private key.<br>
 <br>But when it comes to wallet software, it’s a bit more complex.<br>
 <br>In this section, we’ll be going into some wallet mechanics and how
 they enable the functionality in your favorite Bitcoin wallet app.</p>
-<h3>
-Simple Payment Verification
-</h3>
+
+<h3>Simple Payment Verification</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!-------------------- 148. Simple Payment Verification: Thin Clients (157) ---------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5212,9 +5195,8 @@ in Bitcoin to begin with.<br>
 <br>And realistically, we can’t afford to put the entire blockchain on
 our phones or other lightweight devices, so having a thin client running
 SPV is a pretty decent tradeoff.</p>
-<h3>
-Multisignature
-</h3>
+
+<h3>Multisignature</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~ 150. multisig: m of n xactions - multi-person account access (159) ~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5271,9 +5253,8 @@ if you ever lose one of your keys, the company can step in and offer
 their key to help you recover your funds.<br>
 <br>As you can imagine, this works similarly for 3-of-5 or any other
 M-of-N multisig.</p>
-<h3>
-Key Generation Best Practices
-</h3>
+
+<h3>Key Generation Best Practices</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------ 153. key generation practices: never reuse pseudonyms (161) ----------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5305,9 +5286,8 @@ every transaction?<br>
 your Bitcoin user experience.<br>
 <br>Wallet software will generally handle this anyways, making it so much
 easier to comply with best practices.</p>
-<h3>
-JBOK Wallets
-</h3>
+
+<h3>JBOK Wallets</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!---------------- 180. wallet backups: JBOK (just a bunch of keys) wallets (162) ---------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5337,9 +5317,8 @@ every key pair.<br>
 trading constantly.<br>
 <br>You’d have to deal with so many keys, and even more back ups.<br>
 <br>That’d be pretty unmanageable.</p>
-<h3>
-HD Wallets
-</h3>
+
+<h3>HD Wallets</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!---------- 181. wallet backups: hd wallets: hierarchical deterministic wallets (164) ----------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5398,18 +5377,17 @@ employees keys were generated from the department head’s keys.<br>
 <br>And the president would have the most power.<br>
 <br>Everyone’s key originates in some way from the president’s master
 key, so the president would be able to spend from everyone’s wallet.</p>
-<h3 id="ch4-4">
-4.4 Intro: Mining
-</h3>
+
+<h3 id="ch4-4">4.4 Intro: Mining</h3>
+
 <p class="em2">We’ve talked about consensus and Proof-of-Work, but we haven’t really
 talked about the implementation of mining in Bitcoin.<br>
 <br>In this module, we’ll be diving into the nitty gritty of how mining
 manifests in the real world, and how even the brilliant Satoshi Nakamoto
 may not have envisioned the future of mining.<br>
 <br>We will go through what a miner actually does to validate blocks.</p>
-<h3>
-Recipe for Mining: Overview
-</h3>
+
+<h3>Recipe for Mining: Overview</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--------------------------- 157. Recipe for Mining: ethereum (166) ----------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5436,9 +5414,8 @@ partial preimage hash puzzle.<br>
 blocks yet.<br>
 <br>Step 5, if your block gets included in the longest chain: profit!<br>
 <br>Let’s go into detail on how each of these steps plays out.</p>
-<h3>
-Recipe for Mining: Step 0
-</h3>
+
+<h3>Recipe for Mining: Step 0</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!---------------- 158. recipe for mining: step 0: download the blockchain (167) ----------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5461,9 +5438,8 @@ needed.<br>
 this step.<br>
 <br>Now that we have the full history, let’s go ahead and get started
 with mining!</p>
-<h3>
-Recipe for Mining: Step 1
-</h3>
+
+<h3>Recipe for Mining: Step 1</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------ 159. recipe for mining: step 1: verify transactions (168) ------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5540,9 +5516,8 @@ we’re able to explore more options and hopefully find the answer to the
 mining puzzle.<br>
 <br>Our mining puzzle is completely different.<br>
 <br>We go through these loops until finally we find a valid nonce.</p>
-<h3>
-Recipe for Mining: Step 4
-</h3>
+
+<h3>Recipe for Mining: Step 4</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!---------------------- 162. Recipe for Mining: Step 4: Broadcast (170) ------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5565,9 +5540,8 @@ the rewards.<br>
 <br>Well, we can’t!<br>
 <br>All we can do is hope that we got lucky.<br>
 <br>That’s all Proof-of-Work really is at its base, a random lottery.</p>
-<h3>
-Recipe for Mining: Step 5
-</h3>
+
+<h3>Recipe for Mining: Step 5</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------ 163. Recipe for Mining: Step 5: Profit (171) -------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5600,10 +5574,10 @@ over time.<br>
 <h3>Step 0:</h3>
 
 <ul>
-  <li><p>Download the entire Bitcoin blockchain. This only has to be done once.</p>
+  <li>Download the entire Bitcoin blockchain. This only has to be done once.
   <ul>
-    <li><p>This allows us to know the history so we can validate future transactions.</p></li>
-    <li><p>Note: This step is optional if you mine in a mining pool or are doing lightweight mining.</p></li>
+    <li>This allows us to know the history so we can validate future transactions.</li>
+    <li>Note: This step is optional if you mine in a mining pool or are doing lightweight mining.</li>
   </ul></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5617,12 +5591,12 @@ over time.<br>
 <h3>Step 1:</h3>
 
 <ul>
-  <li><p>Verify transactions.</p>
+  <li>Verify transactions.
   <ul>
-    <li><p>You store newly received, unprocessed transactions in a “mempool,” where all pending transactions live before making their way into a block.</p></li>
-    <li><p>You then choose the transactions with the highest fee per byte or size ratio to verify.</p></li>
-    <li><p>You verify the validity of each transaction by running the unlocking script.</p></li>
-    <li><p>If that script runs successfully, then the transaction is included within our block.</p></li>
+    <li>You store newly received, unprocessed transactions in a “mempool,” where all pending transactions live before making their way into a block.</li>
+    <li>You then choose the transactions with the highest fee per byte or size ratio to verify.</li>
+    <li>You verify the validity of each transaction by running the unlocking script.</li>
+    <li>If that script runs successfully, then the transaction is included within our block.</li>
   </ul></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5636,11 +5610,11 @@ over time.<br>
 <h3>Step 2:</h3>
 
 <ul>
-  <li><p>Create the block with the given transactions and necessary metadata, such as time, version, and target.</p>
+  <li>Create the block with the given transactions and necessary metadata, such as time, version, and target.
   <ul>
-    <li><p>Construct the block data from our list of valid transactions.</p></li>
-    <li><p>Construct the Merkle Root by hashing the hashes of each pair of transactions</p></li>
-    <li><p>Construct the Previous Block Hash by hashing the previous block’s header</p></li>
+    <li>Construct the block data from our list of valid transactions.</li>
+    <li>Construct the Merkle Root by hashing the hashes of each pair of transactions.</li>
+    <li>Construct the Previous Block Hash by hashing the previous block’s header.</li>
   </ul></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5654,11 +5628,11 @@ over time.<br>
 <h3>Step 3:</h3>
 
 <ul>
-  <li><p>Find the proof-of-work that solves the partial preimage hash puzzle.</p>
+  <li>Find the proof-of-work that solves the partial preimage hash puzzle.
   <ul>
-    <li><p>A valid nonce makes the hash of the block header less than some algorithmically generated value known as the “target.”</p></li>
-    <li><p>By finding the nonce, we have translated the energy burned in computation into voting power, as designed by the Proof-of-Work consensus protocol.</p></li>
-    <li><p>Note: There are two different nonces, the header nonce and the coinbase nonce. In the event that no permutation of the header nonce solves the hash puzzle, alter the coinbase nonce. This changes the Merkle root, yielding an entirely different hash puzzle.</p></li>
+    <li>A valid nonce makes the hash of the block header less than some algorithmically generated value known as the “target.”</li>
+    <li>By finding the nonce, we have translated the energy burned in computation into voting power, as designed by the Proof-of-Work consensus protocol.</li>
+    <li>Note: There are two different nonces, the header nonce and the coinbase nonce. In the event that no permutation of the header nonce solves the hash puzzle, alter the coinbase nonce. This changes the Merkle root, yielding an entirely different hash puzzle.</li>
   </ul></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5672,10 +5646,10 @@ over time.<br>
 <h3>Step 4:</h3>
 
 <ul>
-  <li><p>Broadcast your block if you have not yet seen any competitor blocks.</p>
+  <li>Broadcast your block if you have not yet seen any competitor blocks.
   <ul>
-    <li><p>After finding the valid proof-of-work, broadcast the block as soon as possible.</p></li>
-    <li><p>Other miners will validate the block for themselves before accepting it into their chain and propagating it further through the network. </p></li>
+    <li>After finding the valid proof-of-work, broadcast the block as soon as possible.</li>
+    <li>Other miners will validate the block for themselves before accepting it into their chain and propagating it further through the network.</li>
   </ul></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5689,11 +5663,13 @@ over time.<br>
 <h3>Step 5:</h3>
 
 <ul>
-  <li><p>If your block makes it into the longest chain, you profit!</p>
+  <li>If your block makes it into the longest chain, you profit!
   <ul>
-    <li><p>You receive both the block reward and the transaction fees,</p></li>
-    <li><p>All the transactions within that block are added to the transaction history.</p></li>
-    <li><p>Note: When two valid blocks are submitted to the network at roughly the same time, resulting in a fork, honest miners choose to mine on whichever block they see first. You will not receive block reward if the other fork grows longer.</p></li>
+    <li>You receive both the block reward and the transaction fees,</li>
+    <li>All the transactions within that block are added to the transaction history.</li>
+    <li>Note: When two valid blocks are submitted to the network at roughly the same 
+	  time, resulting in a fork, honest miners choose to mine on whichever block they 
+	  see first. You will not receive block reward if the other fork grows longer.</li>
   </ul></li>
 </ul>
 
@@ -8987,10 +8963,8 @@ Mining: A 25% Attack Against the Bitcoin Network Opens in new
 window</a></p>
 <p><a href="https://github.com/ethereum/wiki/wiki/White-Paper" rel="noopener" target="_blank">“Ethereum
 Whitepaper up to”Miscellanea And Concerns” </a></p>
-<h2 id="ch6">
-Chapter 6: Ethereum &amp; Smart Contracts: Enabling a Decentralized
-Future
-</h2>
+
+<h2 id="ch6">Chapter 6: Ethereum &amp; Smart Contracts: Enabling a Decentralized Future</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~ 304. lecture overview: smart contracts, ethereum, evm & use cases (274) ~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
