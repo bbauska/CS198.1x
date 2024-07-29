@@ -2,7 +2,6 @@
 <html lang="en">
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ index.html for https://github.com/bbauska/CS1981x/main ~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <head>
   <meta charset="utf-8" />
   <meta name=”robots” content="index, follow">
@@ -70,6 +69,7 @@ function topFunction() {
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ cs198.1x bitcoin logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed border"
   src="/images/image001.png?raw=true"
+  loading="lazy"
   title="Bitcoin cs198.1x logo"
   alt="Bitcoin cs198.1x logo."
   style="width:40%;" />
@@ -679,6 +679,7 @@ of sand on Earth, there exists another Earth, also with
 <img class="displayed border"
   src="/images/image006.png"
   loading="lazy"
+  title="Identity: Public Key Security"
   alt="Identity: Public Key Security."
   style="width:40%;" />
 
@@ -690,6 +691,7 @@ of sand.</p>
 <img class="displayed"
   src="/images/image007-identity-security-hidden-in-plain-sight.png" 
   loading="lazy"
+  title="Identity: Security: Hidden in Plain Sight"
   alt="Identity: Security: Hidden in Plain Sight."
   style="width:40%;" />
 
@@ -708,6 +710,7 @@ secure transactions between any two users in the network.</p>
 <img class="displayed"
   src="/images/image008-what makes-a-transaction-valid.png"
   loading="lazy"
+  title="Transactions: What Makes a Transaction Valid?"
   alt="Transactions: What Makes a Transaction Valid?"
   style="width:40%;" />
 
@@ -719,6 +722,7 @@ analyzing the idea of a transaction.</p>
 <img class="displayed"
   src="/images/image009-validity.png"
   loading="lazy"
+  title="Transactions: Validity: What Makes a Transacton Valid?"
   alt="Transactions: Validity: What Makes a Transacton Valid?"
   style="width:40%;" />
 
@@ -745,18 +749,18 @@ conditions apply to Bitcoin.</p>
 Transaction Output, model.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 10. transactions: utxo model: example (18) ~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image010-utxo-model.png"
   loading="lazy"
+  title="Transactions: UTXO Model: Example"
   alt="Transactions: UTXO Model: Example."
   style="width:40%;" />
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~ 10. transactions: utxo model: blockchain keeps track of unspent money (18) ~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image010-utxo-2.png"
   loading="lazy"
+  title="Transactions: UTXO Model: Blockchain Tracks Unspent Money"
   alt="Transactions: UTXO Model: Blockchain Tracks Unspent Money."
   style="width:40%;" />
 
@@ -785,10 +789,10 @@ think of UTXOs as piggy banks!</p>
 UTXO, or piggy bank.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 11. utxo model: unspent (19) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image011-utxo-model-unspent.png"
   loading="lazy"
+  title="Transactions: UTXO Model: Unspent"
   alt="Transactions: UTXO Model: Unspent."
   style="width:40%;" />
 
@@ -815,7 +819,8 @@ of each of your piggy banks, or UTXOs.</p>
 <img class="displayed border"
   src="/images/image012-utxo-example.png"
   loading="lazy"
-  alt="UTXO Example"
+  title="UTXO Example"
+  alt="UTXO Example."
   style="width:40%;" />
 
 <p class="em2">Let’s say that Gloria has two UTXOs, from past transactions, one
@@ -862,7 +867,6 @@ transactions have happened in the past, we can’t determine what’s valid
 in the future.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 13. recordkeeping: distributed databases (21) ~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image013-recordkeeping-distributed-dbs.png" 
   loading="lazy"
@@ -914,10 +918,10 @@ straightforward choice: we have everyone keep a copy of the ledger.<br>
 <br>We make everyone the bank.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 14. recordkeeping: everyone's the bank (23) ~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image014-recordkeeping-everyones-the-bank.png" 
   loading="lazy"
+  title="Recordkeeping: Everyone's the Bank"
   alt="Recordkeeping: Everyone's the Bank."
   style="width:40%;" />
 
@@ -946,11 +950,11 @@ network.<br>
 <br>How do we store our ledger efficiently?</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 15. recordkeeping: the blockchain (24) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image015-recordkeeping-the-blockchain.png" 
   loading="lazy"
-  alt="Recordkeeping: The Blockchain"
+  title="Recordkeeping: The Blockchain"
+  alt="Recordkeeping: The Blockchain."
   style="width:40%;" />
 
 <p class="em2">Every update to the distributed database, the Bitcoin ledger, is a
@@ -1001,10 +1005,10 @@ way to make this decision in a decentralized way.<br>
 agreement, on the next valid update.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 16. consensus: staying on the same page (25) ~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image016-consensus-staying-on-the-same-page.png" 
   loading="lazy"
+  title="Consensus: Staying on the Same Page"
   alt="Consensus: Staying on the Same Page."
   style="width:40%;" />
 
@@ -1034,10 +1038,10 @@ about the transaction directly to every other node.<br>
 and disregard it otherwise.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 16. consensus: staying on the same page, again (26) ~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image016-consensus-staying-on-the-same-page.png" 
   loading="lazy"
+  title="Consensus: Staying on the Same Page, again"
   alt="Consensus: Staying on the Same Page, again."
   style="width:40%;" />
 
@@ -1055,10 +1059,10 @@ recipient.<br>
 double spend attack.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 18. consensus: double spend attack (31) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image018-consensus-double-spend-attack-2.png" 
   loading="lazy"
+  title="Consensus: Double Spend Attack 2"
   alt="Consensus: Double Spend Attack 2."
   style="width:40%;" />
 
@@ -1079,7 +1083,8 @@ pay both Nadir and myself (Rustie) 10 bitcoins for our laptops.<br>
 <img class="displayed"
   src="/images/image018-consensus-double-spend-attack-2.png" 
   loading="lazy"
-  alt="Consensus: Double Spend Attack"
+  title="Consensus: Double Spend Attack"
+  alt="Consensus: Double Spend Attack."
   style="width:40%;" />
 
 <p class="em2">This is represented by the green arrow from herself to me (Rustie),
@@ -1108,6 +1113,7 @@ that we have received the bitcoins.<br>
 <img class="displayed"
   src="/images/image019-consensus-double-spend-attack-malicious.png"
   loading="lazy"
+  title="Consensus: Double Spend Attack: Malicious"
   alt="Consensus: Double Spend Attack: Malicious."
   style="width:40%;" />
 
@@ -1129,6 +1135,7 @@ current model of consensus.</p>
 <img class="displayed"
   src="/images/image020-consensus-peer-validation.png" 
   loading="lazy"
+  title="Consensus: Peer Validation"
   alt="Consensus: Peer Validation."
   style="width:40%;" />
 
@@ -1157,6 +1164,7 @@ validity.</p>
 <img class="displayed"
   src="/images/image021-consensus-reject-double-spend.png" 
   loading="lazy"
+  title="Consensus: Rejecting the Double Spend"
   alt="Consensus: Rejecting the Double Spend."
   style="width:40%;" />
 
@@ -1179,6 +1187,7 @@ malicious behavior.</p>
 <img class="displayed"
   src="/images/image022-consensus-victory.png" 
   loading="lazy"
+  title="Consensus: Victory (or is it?)"
   alt="Consensus: Victory (or is it?)"
   style="width:40%;" />
 
@@ -1197,7 +1206,8 @@ themselves that the funds exist.<br>
 <img class="displayed"
   src="/images/image023-consensus-a-stranger-among-us.png" 
   loading="lazy"
-  alt="Consensus: A Stranger Among Us"
+  title="Consensus: A Stranger Among Us"
+  alt="Consensus: A Stranger Among Us."
   style="width:40%;" />
 
 <p class="em2">Recall that Bitcoin is an accessible, anonymous network with no
@@ -1248,6 +1258,7 @@ identities they have.<br>
 <img class="displayed"
   src="/images/image024-consensus-pay-to-play.png" 
   loading="lazy"
+  title="Consensus: Pay to Play"
   alt="Consensus: Pay to Play."
   style="width:40%;" />
 
@@ -1276,6 +1287,7 @@ is known as “Proof-of-Work.”</p>
 <img class="displayed"
   src="/images/image025-consensus-proof-of-work.png" 
   loading="lazy"
+  title="Consensus: Proof of Work"
   alt="Consensus: Proof of Work."
   style="width:40%;" />
 
@@ -1295,6 +1307,7 @@ other cryptocurrency to follow.</p>
 <img class="displayed"
   src="/images/image026-consensus-proof-of-work-works.png" 
   loading="lazy"
+  title="Consensus: Proof of Work: Works"
   alt="Consensus: Proof of Work: Works."
   style="width:40%;" />
 
@@ -3652,11 +3665,12 @@ and if we didn’t take long enough, then the puzzle was too easy.</p>
 forward.</p>
 <p class="em2">A quick sanity check to see if your understanding is correct.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------- 109. proof-of-work: block difficulty (109) --------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 109. proof-of-work: block difficulty (109) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image109.png"
-  alt="A Tamper-Evident Database: Block Difficulty"
+  loading="lazy"
+  title="A Tamper-Evident Database: Block Difficulty"
+  alt="A Tamper-Evident Database: Block Difficulty."
   style="width:40%;" />
 
 <p class="em2"> <br>
@@ -3664,11 +3678,12 @@ forward.</p>
 <br>Then what’s the new difficulty if the time to mine 2016 blocks is
 exactly two weeks?</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------- 110. proof-of-work: block difficulty (110) --------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 110. proof-of-work: block difficulty (110) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image110.png" 
-  alt="A Tamper-Evident Database: Block Difficulty"
+  loading="lazy"
+  title="A Tamper-Evident Database: Block Difficulty"
+  alt="A Tamper-Evident Database: Block Difficulty."
   style="width:40%;" />
 
 <p class="em2"> <br>
@@ -3679,7 +3694,8 @@ stays exactly the same.</p>
 <!------------------------- 111. proof-of-work: block difficulty (110) --------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image111.png" 
+  src="/images/image111.png"
+  loading="lazy"
   alt="A Tamper-Evident Database: Block Difficulty"
   style="width:40%;" />
 
@@ -3699,6 +3715,7 @@ difficult.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image112.png"
+  loading="lazy"
   alt="A Tamper-Evident Database: Block Difficulty"
   style="width:40%;" />
 
@@ -3711,6 +3728,7 @@ difficult.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image113.png"
+  loading="lazy"
   alt="A Tamper-Evident Database: Coinbase Transaction"
   style="width:40%;" />
 
@@ -3732,6 +3750,7 @@ in our hash puzzle as well.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image114.png"
+  loading="lazy"
   alt="A Tamper-Evident Database: Mining Pseudocode"
   style="width:40%;" />
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3739,12 +3758,14 @@ in our hash puzzle as well.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image115.png"
+  loading="lazy"
   alt="A Tamper-Evident Database: Example Block"
   style="width:40%;" />
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------ 116. proof-of-work: mining pseudocode (113) --------------------------->
 <img class="displayed"
   src="/images/image116.png"
+  loading="lazy"
   alt="A Tamper-Evident Database: Mining Pseudocode"
   style="width:40%;" />
 
@@ -3784,6 +3805,7 @@ signature scheme at a high level.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image117-dss.png" 
+  loading="lazy"
   alt="Digital Signature: Schemes (DSS): Example."
   style="width:40%;" />
 
@@ -3803,6 +3825,7 @@ How can she do this and make sure no one tampers with her message?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image117-dss-2.png" 
+  loading="lazy"
   alt="Digital Signature Schemes (DSS): Example: Bob Needs Alice's Public Key"
   style="width:40%;" />
 
@@ -3816,6 +3839,7 @@ message coming from Alice was actually sent by Alice.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image117-dss-3.png" 
+  loading="lazy"
   alt="Digital Signature Schemes (DSS): Example: "
   style="width:40%;" />
 
@@ -3829,6 +3853,7 @@ message as it is.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image117-dss-4.png" 
+  loading="lazy"
   alt="Digital Signature Schemes (DSS): Example: Alice Sends Message + Signature"
   style="width:40%;" />
 
@@ -3843,6 +3868,7 @@ message.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image117-dss-5.png"
+  loading="lazy"
   alt="Digital Signature Schemes (DSS): Example: Bob Can Easily Verify if Alice Signed"
   style="width:40%;" />
 
@@ -3860,6 +3886,7 @@ signature could not be valid anymore.<br>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image117-dss-6.png" 
+  loading="lazy"
   alt="Digital Signature Schemes (DSS): Example"
   style="width:40%;" />
 
@@ -3877,6 +3904,7 @@ the way we generate public and private key pairs.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image115-dss.png" 
+  loading="lazy"
   alt="Digital Signature Schemes: Security Definition"
   style="width:40%;" />
 
@@ -3908,6 +3936,7 @@ messages can’t be modified by anyone after signing.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image116-keys-and-addresses.png" 
+  loading="lazy"
   alt="Keys and Addresses: Before the Technical Stuff"
   style="width:40%;" />
 
@@ -3931,6 +3960,7 @@ key from the corresponding public key or address.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image117-cryptography-part1.png" 
+  loading="lazy"
   alt="Elliptic curve cryptography: part 1: elliptic curve."
   style="width:40%;" />
   
@@ -3951,6 +3981,7 @@ side.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image118-2.png" 
+  loading="lazy"
   alt="Elliptic Curve Crypography: Part 2: Chord-Tangent Process"
   style="width:40%;" />
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3958,6 +3989,7 @@ side.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image119.png" 
+  loading="lazy"
   alt="Elliptic Curve Crypography: Part 2.5: Point Multiplication Demo"
   style="width:40%;" />
 
@@ -3977,6 +4009,7 @@ the line intersects the curve let’s call it -2P.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image120.png" 
+  loading="lazy"
   alt="Elliptic Curve Crypography: Part 1: Elliptic Curve"
   style="width:40%;" />
 
@@ -4019,6 +4052,7 @@ Q.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image120-cryptography.png"
+  loading="lazy"
   alt="Elliptic Curve Cryptography: Part 3: Security of ECC"
   style="width:40%;" />
 
@@ -4049,6 +4083,7 @@ private keys is fairly secure.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image121-cryptography.png" 
+  loading="lazy"
   alt="Public Key to Bitcoin Address: Public Key Hash"
   style="width:40%;" />
 
@@ -4070,6 +4105,7 @@ shortens the address size down from 256 bits to 160 bits.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image122-public-key-to-bitcoin-address.png"
+  loading="lazy"
   alt="Public Key to Bitcoin Address"
   style="width:40%;" />
 
@@ -4124,6 +4160,7 @@ important to first review how transactions work.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image123-bitcoin-scripts.png"
+  loading="lazy"
   alt="Bitcoin Scripts: Remember the UTXO Model?"
   style="width:40%;" />
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4131,6 +4168,7 @@ important to first review how transactions work.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image124-bitcoin-scripts.png" 
+  loading="lazy"
   alt="Bitcoin Scripts: Remember the UTXO Model?"
   style="width:40%;" />
 
@@ -4161,6 +4199,7 @@ Rustie.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image125-contents-transaction.png" 
+  loading="lazy"
   alt="Contents of a Transaction: Metadata, Input(s), and Output(s)"
   style="width:40%;" />
 
@@ -4171,6 +4210,7 @@ Rustie.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image125-contents-metadata.png" 
+  loading="lazy"
   alt="Contents of a Transaction: Metadata"
   style="width:40%;" />
 
@@ -4188,6 +4228,7 @@ new addresses.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image126-contents-metadata-2.png"
+  loading="lazy"
   alt="Contents of a Transaction: Metadata"
   style="width:40%;" />
 
@@ -4203,6 +4244,7 @@ unique “ID” of this transaction.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image126-contents-inputs.png"
+  loading="lazy"
   alt="Contents of a Transaction: Input(s)"
   style="width:40%;" />
 
@@ -4231,6 +4273,7 @@ transaction.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image127-contents-inputs.png"
+  loading="lazy"
   alt="Contents of a Transaction: Inputs: ScriptSig"
   style="width:40%;" />
 
@@ -4244,6 +4287,7 @@ output(s).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image128-contents-outputs.png"
+  loading="lazy"
   alt="Contents of a Transaction: Outputs"
   style="width:40%;" />
 
@@ -4264,6 +4308,7 @@ spend my UTXOs.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image128-bitcoin-scripts.png"
+  loading="lazy"
   alt="Bitcoin Scripts: Reminders: Output Addresses are Scripts."
   style="width:40%;" />
 
@@ -4288,6 +4333,7 @@ reasons.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image129-intro-to-p2pkh.png"
+  loading="lazy"
   alt="Bitcoin Scripts: P2PKH Example: Remember the UTXO Model?"
   style="width:40%;" />
 
@@ -4304,6 +4350,7 @@ of the private key corresponding to the public key we provided.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image130-bitcoin-scripts.png"
+  loading="lazy"
   alt="Bitcoin Scripts: P2PKH Example Execution."
   style="width:40%;" />
 
@@ -4335,6 +4382,7 @@ address.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image131-p2pkh-example.png"
+  loading="lazy"
   alt="Bitcoin Scripts: P2PKH Example Execution."
   style="width:40%;" />
 
@@ -4351,6 +4399,7 @@ for the transaction to be considered valid.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image131-p2pkh-example-2.png"
+  loading="lazy"
   alt="Bitcoin Scripts: P2PKH Example Execution"
   style="width:40%;" />
 
@@ -4378,6 +4427,7 @@ transaction output.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image132-p2pkh.png"
+  loading="lazy"
   alt="Bitcoin Scripts: P2PKH Example Execution"
   style="width:40%;" />
 
@@ -4399,6 +4449,7 @@ the transaction was valid, and so the transaction will go through.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image133-proof-of-burn.png"
+  loading="lazy"
   alt="Bitcoin Scripts: Proof-of-Burn."
   style="width:40%;" />
 
@@ -4453,6 +4504,7 @@ recipient.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image134-p2pkh-p2sh.png"
+  loading="lazy"
   alt="P2PKH vs P2SH: Who Specifies the Script?"
   style="width:40%;" />
 
@@ -4485,6 +4537,7 @@ the vendor, specifies the script.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image135-how-p2sh-works.png"
+  loading="lazy"
   alt="P2PKH vs P2SH: Creating a P2PKH Pub Key Hash."
   style="width:40%;" />
 
@@ -4512,6 +4565,7 @@ must provide a signature and the full script that he had written.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image136-why-use-p2sh.png"
+  loading="lazy"
   alt="P2PKH vs P2SH: Why P2PKH?"
   style="width:40%;" />
 
@@ -4545,6 +4599,7 @@ Bitcoin’s inception.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image161.jpg" 
+  loading="lazy"
   alt="P2PSH vs P2SH: Multisignature Example."
   style="width:40%;" />
 
@@ -4592,6 +4647,7 @@ script hash, and evaluated.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image161.jpg"
+  loading="lazy"
   alt="P2PKH vs P2SH: Multisignature Example."
   style="width:40%;" />
 
@@ -4608,6 +4664,7 @@ hashed and then compared with the script hash.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image162.png" 
+  loading="lazy"
   alt="Transaction Locktime: Timelocks."
   style="width:40%;" />
 
@@ -4684,6 +4741,7 @@ following:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image163.jpg" 
+  loading="lazy"
   alt="Cryptographic hash functions."
   style="width:40%;" />
 
@@ -4862,9 +4920,9 @@ network.</p>
 <h3 id="ch4-1">4.1 Key Components</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------- 164. Types of Users: Key Components (147) ---------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image164.png"
+  loading="lazy"
   alt="Types of Users: Key Components"
   style="width:40%;" />
 
@@ -4911,9 +4969,9 @@ sizes – hosted on the web, on your computer, digital, or physical.</p>
 <h3>Purpose of a Wallet</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!----------------------- 165. Purpose of a Wallet: Key Management (148) ------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image165.png"
+  loading="lazy"
   alt="Purpose of a Wallet: Key Management"
   style="width:40%;" />
 
@@ -4930,9 +4988,9 @@ virtual identity.</p>
 <h3>Types of Wallets</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 166. Bitcoin Wallets: What do Wallets Do? (148) ~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image166.png"
+  loading="lazy"
   alt="Bitcoin Wallets: Wallet Types: What Do Wallets Do?"
   style="width:40%;" />
 
@@ -4959,6 +5017,7 @@ information about the blockchain on your behalf.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image167.png"
+  loading="lazy"
   alt="Types of Wallets: Hot and Cold."
   style="width:40%;" />
 
@@ -4975,6 +5034,7 @@ not.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image168.png"
+  loading="lazy"
   alt="Bitcoin Wallets: Hot Wallets."
   style="width:40%;" />
 
@@ -4987,9 +5047,9 @@ Blockchain.info and coinbase.com.</p>
 <h3>Types of Wallets: Cold Wallets</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!-------------------------- 143. Bitcoin Wallets: Cold Storage (150) ---------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image143.png"
+  loading="lazy"
   alt="Bitcoin Wallets: Cold Storage."
   style="width:40%;" />
 
@@ -5058,6 +5118,7 @@ successfully dictionary attack your brain wallet.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image144.png" 
+  loading="lazy"
   alt="Bitcoin Wallets: Key Stretching."
   style="width:40%;" />
 
@@ -5083,6 +5144,7 @@ harder to brute force than a brain wallet that is only hashed once.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image145.png" 
+  loading="lazy"
   alt="Bitcoin Wallets: Choosing a Wallet."
   style="width:40%;" />
 
@@ -5143,6 +5205,7 @@ card.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image146-how-do-i-get-bitcoin.png" 
+  loading="lazy"
   alt="Exchanges: How do I get bitcoin?"
   style="width:40%;" />
 
@@ -5172,6 +5235,7 @@ their funds when a hack does occur.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image147.png" 
+  loading="lazy"
   alt="How Do I Get Bitcoin: Decentralized Exchanges."
   style="width:40%;" />
 
@@ -5211,6 +5275,7 @@ they enable the functionality in your favorite Bitcoin wallet app.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image148.png"
+  loading="lazy"
   alt="Simple Payment Verification: Thin Clients."
   style="width:40%;" />
 
@@ -5238,6 +5303,7 @@ clients that run SPV are called lightweight or thin clients.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image149.png"
+  loading="lazy"
   alt="Simple Payment Verification: Thin Clients: Assumptions."
   style="width:40%;" />
 
@@ -5267,6 +5333,7 @@ SPV is a pretty decent tradeoff.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image150.png"
+  loading="lazy"
   alt="Multisig is a way of cryptographically sharing a key between participants, 
     and serves to distribute points of failure."
   style="width:40%;" />
@@ -5284,6 +5351,7 @@ yourself.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image151.png"
+  loading="lazy"
   alt="Bitcoin Mechanics: Multisig Transactions."
   style="width:40%;" />
 
@@ -5306,6 +5374,7 @@ multisig scheme.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image152.png"
+  loading="lazy"
   alt="Bitcoin Mechanics: Multisig Transactions, part 2"
   style="width:40%;" />
 
@@ -5325,6 +5394,7 @@ M-of-N multisig.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image153.png"
+  loading="lazy"
   alt="key generation practices: never reuse pseudonyms"
   style="width:40%;" />
 
@@ -5358,6 +5428,7 @@ easier to comply with best practices.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image180.png"
+  loading="lazy"
   alt="Wallet Backups: JBOK (Just a Bunch of Keys) Wallets"
   style="width:40%;" />
 
@@ -5389,6 +5460,7 @@ trading constantly.<br>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image181.png"
+  loading="lazy"
   alt="Wallet Backups: HD Wallets: Hierarchical Deterministic Wallets."
   style="width:40%;" />
 
@@ -5422,6 +5494,7 @@ do.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image182.png"
+  loading="lazy"
   alt="Bitcoin Wallets: Wallet Backups."
   style="width:40%;" />
 
@@ -5455,9 +5528,9 @@ may not have envisioned the future of mining.<br>
 <h3>Recipe for Mining: Overview</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--------------------------- 157. Recipe for Mining: ethereum (166) ----------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image157.png"
+  loading="lazy"
   alt="Recipe for Mining: Ethereum."
   style="width:40%;" />
 
@@ -5486,6 +5559,7 @@ blocks yet.<br>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image158.png"
+  loading="lazy"
   alt="Recipe for Mining: Step 0: Download the Blockchain."
   style="width:40%;" />
 
@@ -5510,6 +5584,7 @@ with mining!</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image159.png" 
+  loading="lazy"
   alt="Recipe for Mining: Step 1: Verify Transactions"
   style="width:40%" />
 
@@ -5536,6 +5611,7 @@ bitcoins, then the transaction goes through.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image160.png"
+  loading="lazy"
   alt="Recipe for Mining: Step 2: Create a Block"
   style="width:40%" />
 
@@ -5555,6 +5631,7 @@ valid nonce.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image161.png"
+  loading="lazy"
   alt="Recipe for Mining: Step 3: Find a Valid Nonce"
   style="width:40%" />  
 
@@ -5588,6 +5665,7 @@ mining puzzle.<br>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image162-step4-broadcast.png" 
+  loading="lazy"
   alt="Recipe for Mining: Step 4: Broadcast"
   style="width:40%" />
 
@@ -5609,11 +5687,11 @@ the rewards.<br>
 <h3>Recipe for Mining: Step 5</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 163. Recipe for Mining: Step 5: Profit (171) ~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image163-step5-profit.png" 
+  loading="lazy"
   alt="Recipe for Mining: Step 5: Profit"
-   style="width:40%" />  
+  style="width:40%" />
 
 <p class="em2">Assuming that our block made its way into the longest chain, we
 profit!<br>
@@ -5647,9 +5725,9 @@ over time.<br>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 165. Step 0: Download Entire Blockchain (172) ~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image165-step0-download-blockchain.png"
+  loading="lazy"
   alt="Step 0: Download Entire Blockchain"
   style="width:40%" />
 
@@ -5669,6 +5747,7 @@ over time.<br>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image165-step1-verify-transactions.png"
+  loading="lazy"
   alt="Step 1: Verify Transactions"
   style="width:40%" />  
 
@@ -5687,6 +5766,7 @@ over time.<br>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image165-step2-create-block.png"
+  loading="lazy"
   alt="Step 2: Create the block with the given transactions and necessary metadata"
   style="width:40%" />
 
@@ -5705,6 +5785,7 @@ over time.<br>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image165-step3-find-proof-of-work.png"
+  loading="lazy"
   alt="Step 3: Find the proof-of-work that solves the partial preimage hash puzzle"
   style="width:40%" />
 
@@ -5722,6 +5803,7 @@ over time.<br>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image165-step4-broadcast.png"
+  loading="lazy"
   alt="Step 4: Blockchain that has broadcasted the transaction, Derrick Rustie, Gloria, Nick, Nadir"
   style="width:40%" />
 
@@ -5761,6 +5843,7 @@ focus on aligning personal profit with overall profit.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image195.png"
+  loading="lazy"
   alt="Mining Incentives: What is Profit?"
   style="width:40%" />
 
@@ -5779,6 +5862,7 @@ the value of their own profit to the best of their ability.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image196.png"
+  loading="lazy"
   alt="Mining Incentives: How to Profit From Mining."
   style="width:40%" />
 
@@ -5791,6 +5875,7 @@ significant source of profit currently for miners.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image197.png" 
+  loading="lazy"
   alt="Mining Incentives: Block Reward."
   style="width:40%" />
 
@@ -5837,6 +5922,7 @@ been burned, all decreasing the usable supply cap.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image198.png" 
+  loading="lazy"
   alt="Mining Incentives: Transaction Fees."
   style="width:40%" />
 
@@ -5870,6 +5956,7 @@ primary source of revenue for miners.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image199.png"
+  loading="lazy"
   alt="Mining Incentives: How to Profit From Mining: Fixed Costs."
   style="width:40%" />
 
@@ -5893,6 +5980,7 @@ Bitcoin.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image200.png" 
+  loading="lazy"
   alt="Mining Incentives: Fixed Cost: CPU Mining."
   style="width:40%" />
 
@@ -5932,9 +6020,9 @@ of GPU hardware.</p>
 it is difficult to operate a large scale GPU mining setup.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 201. Mining Incentives: Fixed Cost: FPGA Mining (180) ~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image201.png" 
+  loading="lazy"
   alt="Mining Incentives: Fixed Cost: FPGA (Field Programmable Gate Arrays) Mining."
   style="width:40%" />
 
@@ -5953,9 +6041,9 @@ mining competition.</p>
 hardware quickly came into the market around 2014.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 202. Mining Incentives: Fixed Cost: ASIC Mining ~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image202.png" 
+  loading="lazy"
   alt="Mining Incentives: Fixed Cost: ASIC Mining."
   style="width:40%" />
 
@@ -5984,9 +6072,9 @@ S9, can perform 14 trillion hashes per second but would still take about
 <h3>Mining Costs: Operating Costs</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 203. Mining Incentives: How to Profit from Mining (179) ~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image203.png" 
+  loading="lazy"
   alt="Mining Incentives: How to Profit from Mining."
   style="width:40%" />
 
@@ -5998,9 +6086,9 @@ process of mining, all of which are considerations for the cost of
 Bitcoin on the environment.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 204. Mining Incentives: Operating Costs ~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image204.png" 
+  loading="lazy"
   alt="Mining Incentives: Operating Costs."
   style="width:40%" />
 
@@ -6019,9 +6107,9 @@ nothing goes wrong with the hardware, or to take care of things when
 hardware goes down.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 205. Mining Incentives: How to Profit ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image205.png" 
+  loading="lazy"
   alt="Mining Incentives: How to Profit from Mining."
   style="width:40%" />
 
@@ -6050,9 +6138,9 @@ farther from the truth.</p>
 <h3>ASICs</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 206. Real World Mining: Chinese ASIC Mining Farm (184) ~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image206.png" 
+  loading="lazy"
   alt="Real World Mining: Chinese ASIC Mining Farm."
   style="width:40%" />
 
@@ -6094,9 +6182,9 @@ us to get profit from our hardware?</p>
 <h3>Mining Pools</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 207. Real World Mining: Mining Pools (186) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image207.png" 
+  loading="lazy"
   alt="Real World Mining: Mining Pools."
   style="width:40%" />
 
@@ -6155,9 +6243,9 @@ not pay to the manager’s address.</p>
 <h3>Mining Pool Schemes</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 208. Real World Mining: Mining Pool Schemes ~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image208.png" 
+  loading="lazy"
   alt="Real World Mining: Mining Pool Schemes."
   style="width:40%" />
 
@@ -6189,9 +6277,9 @@ miners.</p>
 often, if ever, in the mining world.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 209. Pool Rewards: Other Reward Schemes (188) ~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image209.png" 
+  loading="lazy"
   alt="Pool Rewards: Other Reward Schemes."
   style="width:40%" />
 
@@ -6204,9 +6292,9 @@ each one has a different set of incentive tradeoffs.</p>
 <h3>Mining Pool Pros and Cons</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 210. Real World Mining: Mining Pools: Pros and Cons (189) ~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image210.png"
+  loading="lazy"
   alt="Real World Mining: Mining Pools: Pros and Cons."
   style="width:40%" />
 
@@ -6227,9 +6315,9 @@ which we will discuss further in the Game Theory lecture.</p>
 <p class="em2">The community typically dislikes large mining pools.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 211. real world mining: mining pools (191) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image211.png" 
+  loading="lazy"
   alt="Real World Mining: Mining Pools."
   style="width:40%" />
 
@@ -6255,9 +6343,9 @@ and we may never know.</p>
 <h3>Mining Pool Stats</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 212. real world mining: mining poools: quick facts (191) ~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image212.png"
+  loading="lazy"
   alt="Real World Mining: Mining Pools."
   style="width:40%" />
 
@@ -6311,9 +6399,9 @@ joins the network.</p>
 <h3>Types of Miners</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 213. real world mining: which miner are you? (193) ~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image213.png?raw=true"
+  loading="lazy"
   alt="Real World Mining: Which Miner are You?"
   style="width:40%;" />
 
@@ -6433,9 +6521,9 @@ making consensus updates in Bitcoin.</p>
 <h3>Ensuring Decentralization</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 214. decentralizing mining: the problem (196) ~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image214.png?raw=true"
+  loading="lazy"
   alt="Decentralizing Mining: The Problem."
   style="width:40%;" />
 
@@ -6453,9 +6541,9 @@ ASICs can cost a lot of money.</p>
 centralizing the mining process.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 215. decentralized mining: puzzle requirements review (197) ~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image215.png?raw=true"
+  loading="lazy"
   alt="Decentralized Mining: Puzzle Requirements Review."
   style="width:40%;" />
 
@@ -6483,9 +6571,9 @@ have the prerequisite number of leading zeros.</p>
 <h3>Ensuring Decentralization: ASIC Resistance</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 216. decentralized mining: asic-resistance (198) ~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image216.png?raw=true"
+  loading="lazy"
   alt="Decentralized Mining: ASIC-Resistance."
   style="width:40%;" />
 
@@ -6509,9 +6597,9 @@ with a different hash function.</p>
 Dogecoin or Litecoin.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 217. decentralized mining: scrypt (199) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image217.png?raw=true"
+  loading="lazy"
   alt="Decentralized Mining: Scrypt."
   style="width:40%;" />
 
@@ -6525,9 +6613,9 @@ when you fill a buffer with non-interdependent data.</p>
 datum you want.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 218. decentralized mining: scrypt part II ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image218.png?raw=true"
+  loading="lazy"
   alt="Decentralized Mining: Scrypt - part II."
   style="width:40%;" />
 
@@ -6553,9 +6641,9 @@ chain together a bunch of hash functions.</p>
 with so many hash functions, not just once.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 219. decentralized mining: asic resistance (200) ~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image219.png?raw=true"
+  loading="lazy"
   alt="Decentralized Mining: ASIC Resistance."
   style="width:40%;" />
 
@@ -6583,9 +6671,9 @@ going to be working to make the most profit.</p>
 ASICs for new hashing algorithms.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 220. decentralized mining: asic resistance #2 (201) ~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image220.png?raw=true"
+  loading="lazy"
   alt="Decentralized Mining: ASIC Resistance, part 2."
   style="width:40%;" />
 
@@ -6595,9 +6683,9 @@ such thing as an ASIC-resistant algorithm.”</p>
 <h3>Ensuring Decentralization: ASIC Debate</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~ 221. decentralized mining: asic resistance: pros and cons (202) ~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image221.png?raw=true"
+  loading="lazy"
   alt="Decentralized Mining: ASIC Resistance: Pros and Cons."
   style="width:40%;" />
 
@@ -6636,9 +6724,9 @@ next slide.</p>
 <h3>Eliminating Waste</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 222. proof-of-useful-work: not a puzzling concept (203) ~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image222.png"
+  loading="lazy"
   alt="Proof-of-Useful-Work: Puzzling Concept."
   style="width:40%" />
 
@@ -6665,9 +6753,9 @@ what happens then?</p>
 problem space is inexhaustible.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 223. Proof-of-useful-work: does it work? (204) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image223.png" 
+  loading="lazy"
   alt="Proof-of-Useful-Work: Doesn't it Work?"
   style="width:40%" />
 
@@ -6696,9 +6784,9 @@ incredibly difficult to implement.</p>
 <h3>Consensus Updates: Bitcoin Core</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 224. Consensus Updates: Bitcoin Core (205) ~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image224.png"
+  loading="lazy"
   alt="Consensus Updates: Bitcoin Core."
   style="width:40%" />
 
@@ -6715,9 +6803,9 @@ parts of the software.</p>
 <h3>Consensus Updates: Forks</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 225. Consensus Updates: Forks (205) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image225.png" 
+  loading="lazy"
   alt="Consensus Updates: Forks."
   style="width:40%" />
 
@@ -6759,9 +6847,9 @@ debates about the future of Bitcoin.</p>
 <h3>Consensus Updates: BIPs</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 226. Consensus Updates: bitcoin improvement proposal (207) ~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image226.png" 
+  loading="lazy"
   alt="Consensus Updates: Bitcion Improvement Proposal (BIP)."
   style="width:40%" />
 
@@ -6809,9 +6897,9 @@ characteristics, however there exist other distinctions between users
 too.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 227. Wallet-Miner-Full Blockchain-Routing Node (WMBN) (208) ~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image227.png"
+  loading="lazy"
   alt="Wallet-Miner-Full Blockchain-Routing Node (WMBN)."
   style="width:40%" />
 
@@ -6916,9 +7004,9 @@ Electricity, to power hardware; and Cooling, to maintain hardware.</p>
 a real-world ASIC mining farm in China looks like:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 228. real world photo mining bitcon (211) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image228.png"
+  loading="lazy"
   alt="Real World Mining."
   style="width:40%" />
 
@@ -6973,18 +7061,18 @@ A soft fork is backwards compatible but not forwards compatible.</p>
 <h3>Hard Fork:</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 229. Hard fork real changes implemented in Bitcoin ~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image229.png" 
+  loading="lazy"
   alt="Hard fork real changes implemented in Bitcoin."
   style="width:40%" />
 
 <h3>Soft Fork:</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 230. Soft fork real changes implemented in Bitcoin ~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image230.png"
+  loading="lazy"
   alt="Soft fork real changes implemented in Bitcoin."
   style="width:40%" />
 
@@ -7067,9 +7155,9 @@ NOT usually the best way to go.</p>
 <h3>Pool Reward Scheme Review</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 231. Pool Reward Schemes: Reviews (213) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image231.png" 
+  loading="lazy"
   alt="Pool Reward Schemes: Reviews."
   style="width:40%" />
 
@@ -7084,9 +7172,9 @@ that share is equal to any other share.</p>
 satisfies the near-valid block requirements.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 232. Pool Reward Schemes: Proportional (214) ~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image232.png"
+  loading="lazy"
   alt="Pool Reward Schemes: Proportional."
   style="width:40%" />
 
@@ -7108,9 +7196,9 @@ incentive misalignment?</p>
 <h3 id="ch5-2">5.2 Pool Hopping</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 233. Pool Rewards: Pool Hopping Strategy (215) ~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image233.png" 
+  loading="lazy"
   alt="Pool Rewards: Pool Hopping."
   style="width:40%" />
 
@@ -7124,9 +7212,9 @@ proportional payout starts off high but decreases while the
 pay-per-share scheme stays constant.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 234. Pool Rewards: Pool Hopping Strategy ~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image234.png" 
+  loading="lazy"
   alt="Pool Rewards: Pool Hopping."
   style="width:40%" />
 
@@ -7140,9 +7228,9 @@ share decreases as more and more shares get submitted towards this
 block, meaning that our marginal rewards start to approach zero.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 235. Pool Rewards: Pool Hopping Strategy (216) ~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image235.png" 
+  loading="lazy"
   alt="Pool Rewards: Pool Hopping."
   style="width:40%" />
 
@@ -7158,9 +7246,9 @@ total profit from shares.</p>
 <p class="em2">And here’s how they can do that.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 236. Pool Rewards: Pool Hopping Strategy (217) ~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image236.png" 
+  loading="lazy"
   alt="Pool Rewards: Pool Hopping."
   style="width:40%" />
 
@@ -7183,9 +7271,9 @@ yield more profit, than the proportional payout.</p>
 the two curves intersect.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 237. Pool Rewards: Pool Hopping Strategy (218) ~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image237.png"
+  loading="lazy"
   alt="Pool Rewards: Pool Hopping."
   style="width:40%" />
 
@@ -7214,9 +7302,9 @@ can lead to even further attacks.</p>
 <h3 id="ch5-3">5.3 Pool Cannibalization</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 238. pool cannibalization: strategy: nom nom nom nom (219) ~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image238.png" 
+  loading="lazy"
   alt="Pool Cannibalization: Strategy."
   style="width:40%" />
 
@@ -7250,9 +7338,9 @@ small amounts.</p>
 calculations.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 239. Pool Cannibalization: Strategy (220) ~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image239.png"
+  loading="lazy"
   alt="Pool Cannibalization: Strategy: Don't Submit Valid Blocks."
   style="width:40%" />
 
@@ -7289,9 +7377,9 @@ extra hardware.</p>
 pools?</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 240. Pool Cannibalization: Example: Strategy (221) ~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image240.png" 
+  loading="lazy"
   alt="Pool Cannibalization: Example: Pool Cannibalization Strategy."
   style="width:40%" />
 
@@ -7316,9 +7404,9 @@ hashpower ends up being 0.0098 bitcoins.</p>
 <p class="em2">You’ll notice a scary conclusion.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 241. pool cannibalization: example: givens (222) ~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image241.png" 
+  loading="lazy"
   alt="Pool Cannibalization: Example: Givens"
   style="width:40%" />
 
@@ -7336,9 +7424,9 @@ look like across the network?</p>
 <h3 id="ch5-4">5.4 Nash Equilibrium and the Tragedy of the Commons</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 242. pool wars: thegGame of life (222) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image242.png" 
+  loading="lazy"
   alt="Pool Wars: The Game of Life"
   style="width:40%" />
 
@@ -7359,9 +7447,9 @@ own personal profit at the expense of the other.</p>
 they both chose to cooperate and not attack at all.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 243. pool wars: nash equilibrium (223) ~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image243.png" 
+  loading="lazy"
   alt="Pool Wars: Nash Equilibrium"
   style="width:40%" />
 
@@ -7388,9 +7476,9 @@ they both chose not to attack each other.</p>
 in this Nash Equilibrium?</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 244. pool wars: tragedy of the commons (224) ~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image244.png" 
+  loading="lazy"
   alt="Pool Wars: Tragedy of the Commons."
   style="width:65%" />
 
@@ -7455,9 +7543,9 @@ from the monetary gains each player would receive from the given
 scenarios of attacking or cooperating with the other.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 245. pool a and pool b; honest & dishonest (226) ~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image245.jpg"
+  loading="lazy"
   alt="A table representing Pool A and Pool B demonstrating the relationship between their utilities."
   style="width:40%" />
 
@@ -7470,9 +7558,9 @@ acting dishonestly, since a utility of 3 is greater than the utility of
 2 that A would receive by acting honestly.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 246. Pool A and pool b; honest & dishonest (226) ~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image246.jpg"
+  loading="lazy"
   alt="Pool A&#39;s utility is 3 and Pool B&#39;s utility is 0. Pool A&#39;s dishonest utility is highlighted."
   style="width:40%" />
 
@@ -7480,9 +7568,9 @@ acting dishonestly, since a utility of 3 is greater than the utility of
 dishonestly since a utility of 1 >utility of 0.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 247. pool a and pool b; honest & dishonest (227) ~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image247.jpg"
+  loading="lazy"
   alt="Pool A and Pool B; Honety & Dishonesty"
   style="width:40%" />
 
@@ -7490,9 +7578,9 @@ dishonestly since a utility of 1 >utility of 0.</p>
 follows:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~ 248. player b makes same conclusions & makes preferences as follows (227) ~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image248.jpg"
+  loading="lazy"
   alt="Player B&#39;s dishonesty utilities are highlighted as well as Player A&#39;s"
   style="width:40%" />
 
@@ -7523,9 +7611,9 @@ attacks.</p>
 <h3>Race Attack</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 249. double-spending: the classic attack (228)  ~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image249.png"
+  loading="lazy"
   alt="Double-Spending: the Classic Attack"
   style="width:40%" />
 
@@ -7544,9 +7632,9 @@ iPhone.</p>
 <p class="em2">We’ll explain what that means right away.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 250. Double-spending: race attack (229) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image250.png"
+  loading="lazy"
   alt="Double-Spending: Race Attack"
   style="width:40%" />
 
@@ -7579,10 +7667,10 @@ poor Rustie from ever getting his bitcoins.</p>
 <p class="em2">Well, we know that Rustie only gets to keep his bitcoins if a
 transaction to him makes its way into the longest chain.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------- 251. double-spending: k confirmations (230) -------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 251. double-spending: k confirmations (230) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image251.png"
+  loading="lazy"
   alt="Double-Spending: k Confirmations #1"
   style="width:40%" />
 
@@ -7608,10 +7696,10 @@ things that involve confirmations.</p>
 Rustie need before he feels confident about the finality of his
 transaction?</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!----------------------- 252. double-spending: k confirmations #2 (231) ------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 252. double-spending: k confirmations #2 (231) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image252.png"
+  loading="lazy"
   alt="Double-Spending: K Confirmations #2"
   style="width:40%" />
 
@@ -7643,10 +7731,10 @@ from me to Rustie, my chain has to be longer.</p>
 
 <h3>Demo: Confirmations</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!----------------------- 253. double-spending: k confirmations #3 (231) ------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 253. double-spending: k confirmations #3 (231) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image253.png"
+  loading="lazy"
   alt="Double Spending: k Confirmations #3."
   style="width:40%;" />
 
@@ -7658,10 +7746,10 @@ block.</p>
 <p class="em2">One confirmation….</p>
 <p class="em2">Two confirmations.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!----------------------- 254. double-spending: k confirmations #4 (232) ------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 254. double-spending: k confirmations #4 (232) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image254.png"
+  loading="lazy"
   alt="Double Spending: k Confirmations #4."
   style="width:40%;" />
 
@@ -7669,10 +7757,10 @@ block.</p>
 transaction’s finality.</p>
 <p class="em2">He now sends me the iPhone so as not to keep me waiting.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!----------------------- 255. double-spending: k confirmations #5 (233) ------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 255. double-spending: k confirmations #5 (233) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image255.png"
+  loading="lazy"
   alt="Double Spending: k Confirmations #5."
   style="width:40%;" />
 
@@ -7690,10 +7778,10 @@ myself, the corresponding</p>
 transaction from me to Rustie spend from the same UTXO, this then
 invalidates the transaction from me to Rustie.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!----------------------- 256. double-spending: k confirmations #6 (234) ------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 256. double-spending: k confirmations #6 (234) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image256.png"
+  loading="lazy"
   alt="Double Spending: k Confirmations #6."
   style="width:40%;" />
 
@@ -7702,11 +7790,11 @@ over the previous chain because it’s longer.</p>
 <p class="em2">Because of this, the entire chain of blocks, containing the
 transaction from me to Rustie, and onward is invalidated.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!----------------------- 257. double-spending: k confirmations #7 (234) ------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 257. double-spending: k confirmations #7 (234) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image257.png"
-   alt="Double Spending: k Confirmations #7."
+  loading="lazy"
+  alt="Double Spending: k Confirmations #7."
   style="width:40%;" />
 
 <p class="em2">The rest of the network will continue mining on my chain, meaning
@@ -7726,6 +7814,7 @@ produce a chain longer than the rest of the network?</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image258.png"
+  loading="lazy"
   alt="Double Spending: Probabilities."
   style="width:40%;" />
 
@@ -7750,6 +7839,7 @@ the probability starts off high but then quickly drops towards zero.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image259.png"
+  loading="lazy"
   alt="Double Spending: 51% attack."
   style="width:40%;" />
 
@@ -7783,6 +7873,7 @@ the history of transactions.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image260.png"
+  loading="lazy"
   alt="Double Spending: Incentives."
   style="width:40%;" />
 
@@ -7840,6 +7931,7 @@ effectively rendering their bitcoins useless.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image261.png"
+  loading="lazy"
   alt="Blacklisting: Freeze Peach is Dead."
   style="width:40%;" />
 
@@ -7853,6 +7945,7 @@ and prevent me from spending any of my Bitcoin.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image262.png"
+  loading="lazy"
   alt="Blacklisting: Naive Censorship."
   style="width:40%;" />
 
@@ -7874,6 +7967,7 @@ significant depending on how much hashpower</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image263.png"
+  loading="lazy"
   alt="Blacklisting: Naive Censorship Strategy - Punitive Forking."
   style="width:40%;" />
 
@@ -7888,6 +7982,7 @@ the world.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image264.png"
+  loading="lazy"
   alt="Blacklisting: Punitive Forking."
   style="width:40%;" />
 
@@ -7903,6 +7998,7 @@ rewards for their efforts.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image265.png"
+  loading="lazy"
   alt="Blacklisting: Punitive Forking."
   style="width:40%;" />
 
@@ -7920,6 +8016,7 @@ in the hands of someone with a 51% majority hashrate.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image266.png"
+  loading="lazy"
   alt="Blacklisting: Feather Forking #1."
   style="width:40%;" />
 
@@ -7941,7 +8038,8 @@ trying to continue her fork.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image267.png"
-   alt="Blacklisting: Feather Forking #2."
+  loading="lazy"
+  alt="Blacklisting: Feather Forking #2."
   style="width:40%;" />
 
 <p class="em2">Let’s look at a little bit of math. Let q be the proportion of mining
@@ -7955,6 +8053,7 @@ block, which isn’t that great.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image268.png"
+  loading="lazy"
   alt="Blacklisting: Feather Forking #3."
   style="width:40%;" />
 
@@ -7971,6 +8070,7 @@ working on that chain.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image269.png"
+  loading="lazy"
   alt="Blacklisting: Feather Forking #4."
   style="width:40%;" />
 
@@ -8000,6 +8100,7 @@ mining.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image270.png"
+  loading="lazy"
   alt="Selfish Mining: Block Withholding."
   style="width:40%;" />
 
@@ -8018,6 +8119,7 @@ puzzle.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image271.png"
+  loading="lazy"
   alt="Selfish Mining: Block Withholding #2."
   style="width:40%;" />
 
@@ -8047,6 +8149,7 @@ secret chain.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image272.png"
+  loading="lazy"
   alt="Selfish Mining: Block Withholding #3."
   style="width:40%;" />
 
@@ -8070,6 +8173,7 @@ waste.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image273.png"
+  loading="lazy"
   alt="Selfish Mining: Block Withholding #4."
   style="width:40%;" />
 
@@ -8102,6 +8206,7 @@ what we can improve from there.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image274.png"
+  loading="lazy"
   alt="Block Validation: Dummy Block Signatures."
   style="width:40%;" />
 
@@ -8145,6 +8250,7 @@ signatures is enough to show that a block is valid.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image275.png"
+  loading="lazy"
   alt="Block Validation: Dummy Block Signatures #2."
   style="width:40%;" />
 
@@ -8169,6 +8275,7 @@ already established block validity rules.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image276.png"
+  loading="lazy"
   alt="Fork Punishment: Fork Punishment Rule."
   style="width:40%;" />
 
@@ -8190,6 +8297,7 @@ honest chain and the bottom being the dishonest chain.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image277.png"
+  loading="lazy"
   alt="Fork Punishment: Fork Punishment Rule #2."
   style="width:40%;" />
 
@@ -8220,6 +8328,7 @@ implement, and as before, that’s pretty undesirable.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image278.png?raw=true"
+  loading="lazy"
   alt="Tie-Breaking: Uniform Tie-Breaking."
   style="width:40%;" />
 
@@ -8260,6 +8369,7 @@ threshold down to 23.2%.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image279.png?raw=true"
+  loading="lazy"
   alt="Tie-Breaking: Unforgettable Timestamps."
   style="width:40%;" />
 
@@ -8298,6 +8408,7 @@ worthless.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image280.png?raw=true"
+  loading="lazy"
   alt="Tie-Breaking: Unforgettable Timestamps."
   style="width:40%;" />
 
@@ -8316,6 +8427,7 @@ certainly doesn’t mix with Bitcoin’s philosophy.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image281.png?raw=true"
+  loading="lazy"
   alt="Tiebreaking: Unforgetable Timestamps 2."
   style="width:40%;" />
 
@@ -8327,6 +8439,7 @@ certainly doesn’t mix with Bitcoin’s philosophy.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image282.png?raw=true"
+  loading="lazy"
   alt="Zang and Perneel, Publish or Perish (2017)."
   style="width:40%;" />
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8334,6 +8447,7 @@ certainly doesn’t mix with Bitcoin’s philosophy.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image283.png?raw=true"
+  loading="lazy"
   alt="Zang and Perneel, Public or Perish, #2."
   style="width:40%;" />
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8341,6 +8455,7 @@ certainly doesn’t mix with Bitcoin’s philosophy.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image284.png?raw=true"
+  loading="lazy"
   alt="Zang and Perneel, Public or Perish, #3."
   style="width:40%;" />
 
@@ -8389,6 +8504,7 @@ greater than the local head, so we just append it to the blockchain.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image285.png?raw=true"
+  loading="lazy"
   alt="Publish or Perish: Zang and Preneel, #4."
   style="width:40%;" />
 
@@ -8406,6 +8522,7 @@ uncle block.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image286.png?raw=true"
+  loading="lazy"
   alt="Zang and Perneel, Public or Perish, #5."
   style="width:40%;" />
 
@@ -8459,6 +8576,7 @@ selfish mining.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image287.png?raw=true"
+  loading="lazy"
   alt="Zang and Perneel, Public or Perish, #6."
   style="width:40%;" />
 
@@ -8490,6 +8608,7 @@ that is not also given to the honest chain.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image288.png?raw=true"
+  loading="lazy"
   alt="Publish or Perish: Analysis."
   style="width:40%;" />
 
@@ -8519,6 +8638,7 @@ blocks</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image289.png?raw=true"
+  loading="lazy"
   alt="Publish or Perish: Option 2."
   style="width:40%;" />
 
@@ -8546,6 +8666,7 @@ when publish or perish is in effect.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image290.png?raw=true"
+  loading="lazy"
   alt="Publish or Perish: Graphs."
   style="width:40%;" />
 
@@ -8562,6 +8683,7 @@ optimal tie breaking defense.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image291.png?raw=true"
+  loading="lazy"
   alt="Publish or Perish: Limitations."
   style="width:40%;" />
 
@@ -8646,6 +8768,7 @@ neighbors, and so on.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image292.png?raw=true"
+  loading="lazy"
   alt="Bitcoin Network: A Closer Look."
   style="width:40%;" />
 
@@ -8672,6 +8795,7 @@ network, we have to understand the network topology and latency.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image293.png?raw=true"
+  loading="lazy"
   alt="Bitcoin Network: An Uneven Topology #1."
   style="width:40%;" />
 
@@ -8695,6 +8819,7 @@ It could be that he’s running a mining farm or pool.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image294.png?raw=true"
+  loading="lazy"
   alt="Bitcoin Network: An Uneven Topology #2."
   style="width:40%;" />
 
@@ -8720,6 +8845,7 @@ than 65% of the network hash power.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image295.png?raw=true"
+  loading="lazy"
   alt="Bitcoin Network: An Uneven Topology #3."
   style="width:40%;" />
 
@@ -8735,9 +8861,9 @@ Derrick’s pool – or pools – had 33% of the network hash rate.</p>
 discovered yet that lowers the profit threshold even lower.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------- 296. Bitcoin Network: network latency (267) -------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image296.png?raw=true"
+  loading="lazy"
   alt="Bitcoin Network: Network Latency."
   style="width:40%;" />
 
@@ -8767,6 +8893,7 @@ competing block to a majority of the network.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image297.png?raw=true"
+  loading="lazy"
   alt="Bitcoin Network: Sybil Attack Revisited #1."
   style="width:40%;" />
 
@@ -8782,6 +8909,7 @@ latency.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image298.png?raw=true"
+  loading="lazy"
   alt="Bitcoin Network: Sybil Attack Revisited #2."
   style="width:40%;" />
 
@@ -8849,6 +8977,7 @@ the pool’s hash rate.</p>
 <!--~~~~~~~~~~~ 301. Reward Per Share for Pay-Per-Share & Proportional Pools (270) ~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image301.png?raw=true"
+  loading="lazy"
   title="Reward Per Share for Pay-Per-Share & Proportional Pools"
   alt="Reward Per Share for Pay-Per-Share & Proportional Pools."
   style="width:40%;" />
@@ -8871,6 +9000,7 @@ of Bitcoin.</p>
 <!--~~~ 302. Table demonstrating the results of attacking & not attacking Pool 1 and Pool 2 ~~~~-->
 <img class="displayed"
   src="/images/image302.png?raw=true"
+  loading="lazy"
   title="Table demonstrating the results of attacking and not attacking between Pool 1 and Pool 2"
   alt="Table demonstrating the results of attacking and not attacking between Pool 1 and Pool 2."
   style="width:40%;" />
@@ -8925,6 +9055,7 @@ attack.</p>
 <!--~~~ 303. Graph demo between number of blocks and probability attackers catches up (272) ~~~~-->
 <img class="displayed"
   src="/images/image303.png?raw=true"
+  loading="lazy"
   alt="Graph demonstrating the relationship between number of blocks and probability attackers catches up."
   style="width:40%;" />
 
@@ -9069,6 +9200,7 @@ Whitepaper up to”Miscellanea And Concerns” </a></p>
 <!--~~~~~~~~~ 304. lecture overview: smart contracts, ethereum, evm & use cases (274) ~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image304.png?raw=true"
+  loading="lazy"
   title="Culmination of the last 5 modules"
   alt="Culmination of the last 5 modules."
   style="width:40%;" />
@@ -9159,6 +9291,7 @@ that we want to see in Ethereum – mainly the support of smart contracts
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 304. what makes bitcoin so special? (276) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image304.jpg?raw=true"
+  loading="lazy"
   title="What Makes Bitcoin So Special?"
   alt="What Makes Bitcoin So Special?"
   style="width:40%;" />
@@ -9186,6 +9319,7 @@ special.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~ 305. bitcoin from the ground up: identity (277) ~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image305.png?raw=true"
+  loading="lazy"
   title="Bitcoin From the Ground Up: Identity"
   alt="Bitcoin From the Ground Up: Identity."
   style="width:40%;" />
@@ -9194,6 +9328,7 @@ special.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~ 306. a distributed network: bitcoin bare bones ~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image306.jpg?raw=true"
+  loading="lazy"
   title="A Distributed Network: Bitcoin Bare Bones"
   alt="A Distributed Network: Bitcoin Bare Bones."
   style="width:40%;" />
@@ -9219,6 +9354,7 @@ dealing with are massive.</p>
 <!--~~~~~~~~~~~~~~~~~~~ 307. bitcoin from the ground up: transactions (275) ~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image307.png?raw=true"
+  loading="lazy"
   title="Bitcoin from the ground up: Transactions"
   alt="Bitcoin from the ground up: Transactions."
   style="width:40%;" />
@@ -9241,6 +9377,7 @@ makes.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 308. bitcoin from the ground up (276) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image308.png?raw=true"
+  loading="lazy"
   title="Bitcoin from the Ground Up"
   alt="Bitcoin from the Ground Up."
   style="width:40%;" />
@@ -9268,6 +9405,7 @@ can’t expect everyone to be honest.</p>
 <!--~~~~~~~~~~~~~~~ 309. bitcoin from the ground up: proof-of-work consensus (277) ~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image309.png?raw=true"
+  loading="lazy"
   title="Bitcoin from the Ground Up: Proof-of-Work Consensus"
   alt="Bitcoin from the Ground Up: Proof-of-Work Consensus."
   style="width:40%;" />
@@ -9291,6 +9429,7 @@ rather than by the number of identities a user holds.</p>
 <!--~~~~~~~~~~ 310. a distributed network: transferrable benefits of bitcoin (278) ~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image310.jpg?raw=true"
+  loading="lazy"
   title="A Distributed Network: Transferrable Benefits of Bitcoin"
   alt="A Distributed Network: Transferrable Benefits of Bitcoin."
   style="width:40%;" />
@@ -9330,6 +9469,7 @@ could include them in our smart contract platform.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 311. smart contracts: contracts (279) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image311.jpg"
+  loading="lazy"
   title="Smart Contracts Overview"
   alt="Smart Contracts Overview."
   style="width:40%" />
@@ -9350,6 +9490,7 @@ contents of the contract, and also the execution of the contract.</p>
 <!--~~~~~~~~~~~~~~~~~~~~ 312. what is ethereum? high-level overview (280) ~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image312.jpg"
+  loading="lazy"
   title="What is Ethereum?  High-Level Overview"
   alt="What is Ethereum?  High-Level Overview."
   style="width:40%" />
@@ -9377,6 +9518,7 @@ contract platform.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ethereum (284) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image-ethereum.png"
+  loading="lazy"
   title="Ethereum logo"
   alt="Ethereum logo."
   style="width:40%" />
@@ -9396,6 +9538,7 @@ workings makes understanding Ethereum a whole lot more accessible.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 313. ethereum logo (284) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image313.png"
+  loading="lazy"
   title="Ethereum logo"
   alt="Ethereum logo."
   style="width:40%" />
@@ -9403,6 +9546,7 @@ workings makes understanding Ethereum a whole lot more accessible.</p>
 <!--~~~~~~~~~ 314. Ethereum & Smart Contracts: Enabling a Decentralized Future (285) ~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image314.jpg"
+  loading="lazy"
   title="Ethereum & Smart Contracts: Enabling a Decentralized Future"
   alt="Ethereum & Smart Contracts: Enabling a Decentralized Future."
   style="width:40%" />
@@ -9422,6 +9566,7 @@ Ethereum needs to adapt more and more.</p>
 <!--~~~~~~~~~~~~~~~~~~~~ 316. what is ethereum? high-level overview (285) ~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image316.png"
+  loading="lazy"
   title="What is Ethereum? A High-Level Overview"
   alt="What is Ethereum? A High-Level Overview."
   style="width:40%" />
@@ -9449,6 +9594,7 @@ Ethereum ecosystem, and is also crucial in aligning incentives.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 317. what is ethereum? who would win? (286) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image317.jpg"
+  loading="lazy"
   title="What is Ethereum? Who Would Win?"
   alt="What is Ethereum? Who Would Win?"
   style="width:40%" />
@@ -9470,6 +9616,7 @@ complete scripting language.</p>
 <!--~~~~~~~~~~~~~~~~~~ 318. What is Ethereum? A Comparison with Bitcoin (287) ~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image318.jpg"
+  loading="lazy"
   title="What is Ethereum? A Comparison with Bitcoin"
   alt="What is Ethereum? A Comparison with Bitcoin."
   style="width:40%" />
@@ -9508,6 +9655,7 @@ Ethereum is account based.</p>
 <!--~~~~~~~~~~~~~~~~~~ 319. ethereum accounts: accounts vs utxo model (288) ~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image319.png"
+  loading="lazy"
   title="Ethereum Accounts: Accounts vs UTXO Model"
   alt="Ethereum Accounts: Accounts vs UTXO Model."
   style="width:40%" />
@@ -9525,6 +9673,7 @@ a current balance.</p>
 <!--~~~~~~~~~~~~~~~~~~ 320. ethereum accounts: accounts rationale #2 (289) ~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image320.png"
+  loading="lazy"
   title="Ethereum Accounts: Accounts Rationale"
   alt="Ethereum Accounts: Accounts Rationale."
   style="width:40%" />
@@ -9542,6 +9691,7 @@ accounts and contract accounts.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~ 321. ethereum accounts: account types (289) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image321.png"
+  loading="lazy"
   title="Ethereum Accounts: Account Types"
   alt="Ethereum Accounts: Account Types."
   style="width:40%" />
@@ -9558,6 +9708,7 @@ trigger contract code, which lives in contract accounts.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~ 322. ethereum smart contracts: control (290) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image322.png"
+  loading="lazy"
   title="Ethereum Smart Contracts: Control"
   alt="Ethereum Smart Contracts: Control."
   style="width:40%" />
@@ -9579,6 +9730,7 @@ internal contract state, and also permanent storage.</p>
 <!--~~~~~~~~~~~ 323. Ethereum smart contracts: : smart contracts in ethereum (291) ~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image323.png" 
+  loading="lazy"
   title="Ethereum Smart Contracts: Smart Contracts in Ethereum"
   alt="Ethereum Smart Contracts: Smart Contracts in Ethereum."
   style="width:40%" />
@@ -9614,18 +9766,21 @@ also something we looked at when we studied Bitcoin.
 <!--~~~~~~~~~~~~~~ 325b. ethereum smart contract: sample betting contract (295) ~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image325b.png" 
+  loading="lazy"
   alt="Ethereum Smart Contract: Sample Betting Contract."
   style="width:40%" />
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 325c. standard bounties: ethereum smart contracts (296) ~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image325c.png"
+  loading="lazy"
   alt="Standard Bounties: Ethereum Smart Contracts."
   style="width:40%" />
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~ 327. standard bounty: ethereum virtual machine: distr, verification & consensus (295) ~~~-->
 <img class="displayed"
   src="/images/image327.png" 
+  loading="lazy"
   alt="Ethereum Virtual Machine."
   style="width:40%" />
 
@@ -9633,6 +9788,7 @@ also something we looked at when we studied Bitcoin.
 <!--~~~~~~~~~~~~~~~~~ 328. standard bounties: ethereum smart contracts (293) ~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image328.png" 
+  loading="lazy"
   alt="Standard Bounties: Ethereum Smart Contracts."
   style="width:40%" />
 
@@ -9642,6 +9798,7 @@ also something we looked at when we studied Bitcoin.
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 324b. ethereum virtual machine logo (293) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image324b.png"
+  loading="lazy"
   alt="Ethereum Virtual Machine."
   style="width:40%" />
 
@@ -9649,12 +9806,14 @@ also something we looked at when we studied Bitcoin.
 <!--~~~~~~~~~~~~~ 324. ethereum virtual machine: compilation and process (294) ~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image324.png"
+  loading="lazy"
   alt="Ethereum Virtual Machine: Compilation and Process."
   style="width:40%" />
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~ 333. evm gas and fees: high-level overview: function foo (294) ~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image333.png"
+  loading="lazy"
   alt="EVM Gas and Fees: High-Level Overview: Function Foo."
   style="width:40%" />
 
@@ -9671,6 +9830,7 @@ programmable.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 324b. ethereum virtual machine logo (293) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image324b.png" 
+  loading="lazy"
   style="width:40%"
   alt="Ethereum Virtual Machine" />
 
@@ -9678,6 +9838,7 @@ programmable.</p>
 <!--~~~~~~~~~~~~~~ 324. ethereum virtual machine: compilation and process (294) ~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image324.png"
+  loading="lazy"
   style="width:40%"
   alt="Ethereum Virtual Machine: Compilation and Process" />
 
@@ -9697,6 +9858,7 @@ for a machine to understand and execute.</p>
 <!--~~~~~~~~ 325. ethereum virtual machine: distributed verification & consensus (295) ~~~~~~~~~-->
 <img class="displayed"
   src="/images/image325.png" 
+  loading="lazy"
   style="width:40%"
   alt="Ethereum Virtual Machine: Distributed Verification and Consensus." />
 
@@ -9725,6 +9887,7 @@ UTXOs.</p>
 <!--~~~~~~~~ 327. ethereum virtual machine: distributed verification & consensus (296) ~~~~~~~~~-->
 <img class="displayed"
   src="/images/image327.png"
+  loading="lazy"
   style="width:40%"
   alt="Ethereum Virtual Machine: Distributed Verification and Consensus“ />
 
@@ -9736,6 +9899,7 @@ state of the network.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 328. module 1: proof-of-work (297) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image328.png" 
+  loading="lazy"
   alt="Module 1: Proof-of-Work."
   style="width:40%" />
 
@@ -9750,6 +9914,7 @@ learned in the past modules definitely still apply.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 329. module 1: proof-of-work works (297) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image329.png"
+  loading="lazy"
   style="width:40%"
   alt="Module 1: Proof-of-Work works." />
 
@@ -9764,6 +9929,7 @@ real-world resource, we can prevent naive Sybil attacks.</p>
 <!--~~~~~~~~~~~~~~~~~~~ 330. proof-of-work: comparison with bitcoin (298) ~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image330.png" 
+  loading="lazy"
   alt="Proof-of-Work: Comparison with Bitcoin"
   style="width:40%" />
 
@@ -9791,6 +9957,7 @@ Ethereum Virtual Machine: Overview
 <!--~~~~~~~~~~~~~~~~~~ 331. evm: distributed verification & consensus (299) ~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image331.png"
+  loading="lazy"
   alt="EVM: Distributed Verification & Consensus"
   style="width:40%" />
 
@@ -9806,6 +9973,7 @@ one to add to the blockchain.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~ 332. evm gas fees: high-level overview #1 (299) ~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image332.png"
+  loading="lazy"
   alt="EVM Gas Fees: High-Level Overview #1"
   style="width:40%" />
 
@@ -9832,6 +10000,7 @@ the basis for consensus in Ethereum.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~ 333. evm gas fees: high-level overview #2 (302) ~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image333.png"
+  loading="lazy"
   alt="EVM Gas Fees: High-Level Overview #2"
   style="width:40%" />
 
