@@ -35,24 +35,29 @@ img.displayed {
     border-color: #778899;  /* dark grayish blue */
     border-style: solid; 
   }
-p {
-  font-family: Bahnschrift, "Avenir Next", Calibri, Verdana, sans-serif;
-  font-size: 15px;
+p { 
+  font-size: 13.5px;
+  font-family: Bahnschrift, Inter, Helvetic, sans-serif;
+  text-align: left; 
   margin-left: 15px;
 }
 p.em2 {
   background-color: #fff;  /* f2f2f2 very light gray */
 }
 
-a {
+a:link {
+  color: #3333ff;  /* vivid blue, was; #013220 very dark green */
+  background-color: transparent;
   text-decoration: none;
 }
-a.hover {
-  color: #ffff00;  /* pure (or mostly pure) yellow */
-  text-decoration: underline;
+a:visited {
+  color: #0067cd;  /* medium blue, was; #a5682a brown */
+  background-color: transparent;
+  text-decoration: none;
 }
-a.hover:hover {
-  color: #ffff00;  /* pure (or mostly pure) yellow */
+a:hover {
+  color: #006700;  /* d green */
+  background-color: #ffff00;  /* yellow */
   text-decoration: underline;
 }
 
