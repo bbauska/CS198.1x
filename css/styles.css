@@ -36,6 +36,7 @@ img.displayed {
     border-style: solid; 
   }
 p {
+  font-family: Bahnschrift, "Avenir Next", Calibri, Verdana, sans-serif;
   font-size: 15px;
   margin-left: 15px;
 }
@@ -90,8 +91,6 @@ h4 {
   padding: 20px 0 0 0;
   font-size: 16px;
   font: normal 1.4em Bahnschrift, verdana, helvetica, arial, sans-serif;
-  <!---- frente, helvetica, garamond, futura, didot; --->
-  <!--- verdana, helvetica, arial, sans-serif --->
   letter-spacing: 3px;
   color: #900001 ;			/* dark red */
   background: inherit;
